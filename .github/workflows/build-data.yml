@@ -26,11 +26,7 @@ jobs:
 
       - name: Export multiline GSHEET SA JSON 
         run: |
-          {
-            echo "ERINHA_GSHEET_SA_JSON<<EOF"
-            echo "${{ secrets.ERINHA_GSHEET_SA_JSON }}"
-            echo "EOF"
-          } >> $GITHUB_ENV
+          echo "ERINHA_GSHEET_SA_JSON=${{ toJson(secrets.ERINHA_GSHEET_SA_JSON) }}" >> $GITHUB_ENV
 
       - name: Export remaining secrets as local env vars
         run: |
