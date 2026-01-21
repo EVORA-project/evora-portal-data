@@ -24,11 +24,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Export multiline GSHEET SA JSON 
+      - name: Export GSHEET SA JSON 
         run: |
-          echo "ERINHA_GSHEET_SA_JSON<<EOF" >> $GITHUB_ENV
-          echo "${{ secrets.ERINHA_GSHEET_SA_JSON }}" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          echo "ERINHA_GSHEET_SA_JSON=${{ secrets.ERINHA_GSHEET_SA_JSON }}" >> $GITHUB_ENV
 
       - name: Export remaining secrets as local env vars
         run: |
