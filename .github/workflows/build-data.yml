@@ -39,7 +39,7 @@ jobs:
           mkdir -p /helper
           curl -L \
             "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-ontology/helpers/python/ictv-api.py?latest=true" \
-            -o /helper/ictv_api.py
+            -o scripts/ictv-enrich/ictv_api.py
           echo "Downloaded latest ictv_api.py"
 
       - name: Fetch EVA JSON-LD pages
