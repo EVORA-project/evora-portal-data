@@ -23,6 +23,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Debug raw secret
+        run: |
+          echo "RAW SECRET:"
+          echo "$ERINHA_GSHEET_SA_JSON"
+
+      - name: Debug hex dump
+        run: |
+          echo "$ERINHA_GSHEET_SA_JSON" | od -An -tx1
 
       - name: Export GSHEET SA JSON 
         run: |
