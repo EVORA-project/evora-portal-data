@@ -13,9 +13,9 @@ OUTPUT_DIR = Path("data/erinha")
 OUTPUT_CSV = OUTPUT_DIR / "erinha_catalogue.csv"
 
 def main() -> int:
-    sa_json_raw = os.environ.get("GSHEET_SA_JSON")
+    sa_json_raw = os.environ.get("ERINHA_GSHEET_SA_JSON")
     if not sa_json_raw:
-        raise SystemExit("❌ Missing GSHEET_SA_JSON env variable.")
+        raise SystemExit("❌ Missing ERINHA_GSHEET_SA_JSON env variable.")
 
     sheet_id = os.environ.get("ERINHA_SHEET_ID")
     if not sheet_id:
