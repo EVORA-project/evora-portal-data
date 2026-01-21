@@ -1,0 +1,85 @@
+name: Build EVORA portal data
+
+on:
+  schedule:
+    - cron: "15 2 * * *"   # every day at 02:15 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Export secrets as local env vars
+        run: |
+          echo "ERINHA_GSHEET_SA_JSON<<EOF" >> $GITHUB_ENV
+          echo "${{ secrets.ERINHA_GSHEET_SA_JSON }}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          echo "EVA_FEED_TOKEN=${{ secrets.EVA_FEED_TOKEN }}" >> $GITHUB_ENV
+          echo "ERINHA_SHEET_ID=${{ secrets.ERINHA_SHEET_ID }}" >> $GITHUB_ENV
+          echo "ERINHA_SHEET_GID=${{ secrets.ERINHA_SHEET_GID }}" >> $GITHUB_ENV
+          echo "FAIRSHARING_LOGIN=${{ secrets.FAIRSHARING_LOGIN }}" >> $GITHUB_ENV
+          echo "FAIRSHARING_PWD=${{ secrets.FAIRSHARING_PWD }}" >> $GITHUB_ENV
+
+      - name: Prepare ICTV helper
+        run: |
+          mkdir -p /helper
+          curl -L \
+            "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-ontology/helpers/python/ictv-api.py?latest=true" \
+            -o /helper/ictv_api.py
+          echo "Downloaded latest ictv_api.py"
+
+      - name: Fetch EVA JSON-LD pages
+        run: python scripts/eva-data/fetch_eva_jsonld.py
+
+      - name: Merge EVA JSON-LD pages
+        run: python scripts/eva-data/merge_eva_jsonld.py
+
+      - name: Fetch ERINHA catalogue from Google Sheet
+        run: python scripts/erinha-data/fetch_erinha_csv.py
+
+      - name: Convert ERINHA CSV to EVORAO JSON-LD
+        run: python scripts/erinha-data/erinha_to_evorao.py
+
+      - name: Enrich EVA data with ICTV taxonomy
+        run: |
+          python scripts/ictv-enrich/enrich_with_ictv.py \
+            --input data/eva/eva_merged.jsonld \
+            --output data/eva/eva_merged_enriched.jsonld \
+            --cache data/ictv_cache.json
+
+      - name: Enrich ERINHA data with ICTV taxonomy
+        run: |
+          python scripts/ictv-enrich/enrich_with_ictv.py \
+            --input data/erinha/erinha_services.jsonld \
+            --output data/erinha/erinha_services_enriched.jsonld \
+            --cache data/ictv_cache.json
+
+      - name: Merge all partner data for portal
+        run: python scripts/merge_all_partners.py
+
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRSHARING_ELIXIR, ICTV-enriched)"
+            git push
+          fi
