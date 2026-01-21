@@ -26,7 +26,11 @@ jobs:
 
       - name: Export secrets as local env vars
         run: |
-          echo "ERINHA_GSHEET_SA_JSON=${{ secrets.ERINHA_GSHEET_SA_JSON }}" >> $GITHUB_ENV
+          {
+            echo "ERINHA_GSHEET_SA_JSON<<EOF"
+            echo "${{ secrets.ERINHA_GSHEET_SA_JSON }}"
+            echo "EOF"
+          } >> $GITHUB_ENV
           echo "EVA_FEED_TOKEN=${{ secrets.EVA_FEED_TOKEN }}" >> $GITHUB_ENV
           echo "ERINHA_SHEET_ID=${{ secrets.ERINHA_SHEET_ID }}" >> $GITHUB_ENV
           echo "ERINHA_SHEET_GID=${{ secrets.ERINHA_SHEET_GID }}" >> $GITHUB_ENV
