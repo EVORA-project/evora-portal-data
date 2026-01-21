@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: PORTAL_DATA_WORKFLOW
 
     steps:
       - name: Checkout repository
