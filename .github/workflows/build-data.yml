@@ -36,7 +36,6 @@ jobs:
 
       - name: Prepare ICTV helper
         run: |
-          mkdir -p /helper
           curl -L \
             "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-ontology/helpers/python/ictv-api.py?latest=true" \
             -o scripts/ictv-enrich/ictv_api.py
