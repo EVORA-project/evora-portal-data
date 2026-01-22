@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, Any, Optional, Set
 
-from ictv_api import ICTVOLSClient  # make sure ictv_api.py is importable
+from ictv_api import ICTVOLSClient  # fetched by workflow into this folder
 
 
 # ============================================================
@@ -24,12 +24,15 @@ def robust_call(func, *args, retries: int = 4, base_wait: float = 0.5, **kwargs)
         try:
             return func(*args, **kwargs)
         except Exception as e:
-            print(f"⚠️  ICTV call failed (attempt {attempt}/{retries}): {e}", flush=True)
+            print(
+                f"⚠️ ICTV call failed (attempt {attempt}/{retries}): {e}",
+                flush=True,
+            )
             if attempt == retries:
-                print("   → giving up on this label.\n", flush=True)
+                print(" → giving up on this label.\n", flush=True)
                 return None
-            time.sleep(wait)
-            wait *= 2
+        time.sleep(wait)
+        wait *= 2
 
 
 def ensure_list(d: Dict[str, Any], key: str):
@@ -52,10 +55,10 @@ def load_cache(cache_path: Path) -> Dict[str, Any]:
         try:
             with cache_path.open("r", encoding="utf-8") as f:
                 data = json.load(f)
-            print(f"📂 Loaded ICTV cache from {cache_path} ({len(data)} entries)")
+            print(f" Loaded ICTV cache from {cache_path} ({len(data)} entries)")
             return data
         except Exception as e:
-            print(f"⚠️  Failed to load cache {cache_path}: {e}")
+            print(f"⚠️ Failed to load cache {cache_path}: {e}")
     return {}
 
 
@@ -63,13 +66,19 @@ def save_cache(cache: Dict[str, Any], cache_path: Path):
     try:
         with cache_path.open("w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
-        print(f"💾 Saved ICTV cache to {cache_path} ({len(cache)} entries)")
+        print(f" Saved ICTV cache to {cache_path} ({len(cache)} entries)")
     except Exception as e:
-        print(f"⚠️  Failed to save cache {cache_path}: {e}")
+        print(f"⚠️ Failed to save cache {cache_path}: {e}")
 
 
 def collect_labels_for_resolution(graph) -> Set[str]:
+    """
+    Collect all candidate labels to resolve:
+    - EVORAO:pathogenIdentification / EVORAO:pathogenName / dcterms:title
+    - EVORAO:pathogenIdentification / EVORAO:taxon / dcterms:title
+    """
     labels: Set[str] = set()
+
     for node in graph:
         pid = node.get("EVORAO:pathogenIdentification")
         if not isinstance(pid, dict):
@@ -90,6 +99,7 @@ def collect_labels_for_resolution(graph) -> Set[str]:
                 s = str(val).strip()
                 if s:
                     labels.add(s)
+
     return labels
 
 
@@ -102,7 +112,11 @@ def resolve_label_once(label: str) -> Optional[Dict[str, Any]]:
     return robust_call(client.resolveToLatest, label)
 
 
-def resolve_all_labels(labels: Set[str], cache: Dict[str, Any], max_workers: int = 8) -> Dict[str, Any]:
+def resolve_all_labels(
+    labels: Set[str],
+    cache: Dict[str, Any],
+    max_workers: int = 8,
+) -> Dict[str, Any]:
     """
     Resolve all unique labels using threads + caching.
     Existing cache entries are reused.
@@ -114,10 +128,13 @@ def resolve_all_labels(labels: Set[str], cache: Dict[str, Any], max_workers: int
         print("✅ All labels already in cache, no new ICTV calls needed.")
         return cache
 
-    print(f"🔎 Resolving {total_missing} ICTV labels (in parallel with {max_workers} workers)...")
+    print(f" Resolving {total_missing} ICTV labels (in parallel with {max_workers} workers)...")
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(resolve_label_once, lbl): lbl for lbl in missing}
+        futures = {
+            executor.submit(resolve_label_once, lbl): lbl
+            for lbl in missing
+        }
 
         for i, future in enumerate(as_completed(futures), start=1):
             label = futures[future]
@@ -131,13 +148,13 @@ def resolve_all_labels(labels: Set[str], cache: Dict[str, Any], max_workers: int
             cache[label] = res
 
             if i % 20 == 0 or i == total_missing:
-                print(f"   → resolved {i}/{total_missing} labels", flush=True)
+                print(f" → resolved {i}/{total_missing} labels", flush=True)
 
     return cache
 
 
 # ============================================================
-# Convert ICTV result → EVORAO Taxon
+# Convert ICTV result → EVORAO Taxon (ontology-aware)
 # ============================================================
 
 def pick_best_ictv_entity(res: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -145,71 +162,189 @@ def pick_best_ictv_entity(res: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         return None
 
     status = res.get("status")
+
     if status == "current":
         return res.get("current")
+
     if status == "obsolete":
         # If there's a final replacement, prefer it
         if res.get("final"):
             return res["final"]
         return res.get("obsolete")
+
     return None
 
 
-def ictv_entity_to_evorao_taxon(ent: Dict[str, Any], original_label: Optional[str]) -> Dict[str, Any]:
+def ictv_entity_to_evorao_taxon(
+    ent: Dict[str, Any],
+    original_label: Optional[str],
+    existing_taxon: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """
+    Build an EVORAO:Taxon structure using ONLY existing EVORAO properties:
+      - dcterms:title
+      - EVORAO:taxonomicId
+      - EVORAO:taxonomy (→ EVORAO:Taxonomy)
+      - EVORAO:rank (→ EVORAO:TaxonomicRank)
+      - EVORAO:parentTaxon (→ EVORAO:Taxon)
+      - EVORAO:alternateName (→ EVORAO:AlternateName)
+    """
+    label = ent.get("label") or original_label or ""
+
     taxon: Dict[str, Any] = {
         "@type": "EVORAO:Taxon",
-        "dcterms:title": ent.get("label") or original_label or ""
+        "dcterms:title": label,
     }
 
-    if ent.get("ictv_id"):
-        taxon["EVORAO:taxonomicId"] = ent["ictv_id"]
-    if ent.get("msl"):
-        taxon["EVORAO:mslRelease"] = ent["msl"]
-    if ent.get("ictv_curie"):
-        taxon["EVORAO:ictvCurie"] = ent["ictv_curie"]
-    if ent.get("iri"):
-        taxon["EVORAO:ictvIri"] = ent["iri"]
+    # Preserve existing @id if present (important for stable references)
+    if isinstance(existing_taxon, dict) and "@id" in existing_taxon:
+        taxon["@id"] = existing_taxon["@id"]
 
-    syns = ent.get("synonyms") or []
-    if syns:
-        taxon["EVORAO:synonym"] = syns
+    # --- taxonomicId (ICTV ID as persistent taxon identifier) ---
+    ictv_id = ent.get("ictv_id")
+    if ictv_id:
+        taxon["EVORAO:taxonomicId"] = str(ictv_id)
 
-    if ent.get("direct_parent_label"):
-        taxon["EVORAO:directParentName"] = ent["direct_parent_label"]
+    # --- Taxonomy node (ICTV, with MSL as version) ---
+    msl = ent.get("msl")
+    taxonomy_node: Optional[Dict[str, Any]] = None
+    if msl:
+        taxonomy_node = {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            # EVORAO:Taxonomy uses dcat:version (string) for release version
+            "dcat:version": str(msl),
+            # Minimal DataProvider for the version (OLS / ICTV)
+            "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                # EVORAO:weight is integer
+                "EVORAO:weight": 1,
+            },
+        }
+        taxon["EVORAO:taxonomy"] = taxonomy_node
 
-    lineage = ent.get("lineage") or []
-    if lineage:
-        taxon["EVORAO:lineage"] = lineage
+    # --- Rank as EVORAO:TaxonomicRank ---
+    rank_info = ent.get("rank") or {}
+    rank_label = (rank_info.get("label") or "").strip()
+    if rank_label:
+        rank_node: Dict[str, Any] = {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": rank_label,
+        }
+        # Optionally link rank to same taxonomy
+        if taxonomy_node is not None:
+            rank_node["EVORAO:taxonomy"] = taxonomy_node
+        taxon["EVORAO:rank"] = rank_node
 
-    rank = ent.get("rank") or {}
-    if rank.get("label"):
-        taxon["EVORAO:taxonomicRank"] = rank["label"]
+    # --- Parent taxon (stub, with label only) ---
+    parent_label = ent.get("direct_parent_label")
+    if parent_label:
+        parent_node: Dict[str, Any] = {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": parent_label,
+        }
+        taxon["EVORAO:parentTaxon"] = parent_node
 
-    if original_label and original_label.strip() and original_label.strip() != taxon["dcterms:title"]:
-        taxon["EVORAO:originalTaxonLabel"] = original_label.strip()
+    # --- Alternate names as EVORAO:AlternateName ---
+    alt_objs = []
+
+    # ICTV synonyms → AlternateName
+    for s in ent.get("synonyms") or []:
+        if isinstance(s, str):
+            s_clean = s.strip()
+            if s_clean:
+                alt_objs.append(
+                    {
+                        "@type": "EVORAO:AlternateName",
+                        "dcterms:title": s_clean,
+                    }
+                )
+
+    # Original local label (if different from ICTV label) → AlternateName
+    if original_label:
+        orig_clean = original_label.strip()
+        if orig_clean and orig_clean != label:
+            alt_objs.append(
+                {
+                    "@type": "EVORAO:AlternateName",
+                    "dcterms:title": orig_clean,
+                }
+            )
+
+    # Merge with any existing AlternateName entries, if present
+    if isinstance(existing_taxon, dict):
+        existing_alts = existing_taxon.get("EVORAO:alternateName") or []
+        if isinstance(existing_alts, list):
+            alt_objs.extend([a for a in existing_alts if isinstance(a, dict)])
+
+    # Deduplicate alternate names by title
+    if alt_objs:
+        seen_titles = set()
+        uniq_alts = []
+        for a in alt_objs:
+            title = (a.get("dcterms:title") or a.get("dct:title") or "").strip()
+            if not title:
+                continue
+            if title in seen_titles:
+                continue
+            seen_titles.add(title)
+            uniq_alts.append(a)
+        if uniq_alts:
+            taxon["EVORAO:alternateName"] = uniq_alts
 
     return taxon
 
 
-def expand_search_fields(entity: Dict[str, Any], taxon_obj: Dict[str, Any], original_label: Optional[str]):
+def expand_search_fields(
+    entity: Dict[str, Any],
+    taxon_obj: Dict[str, Any],
+    original_label: Optional[str],
+    ent: Dict[str, Any],
+):
+    """
+    Populate dcat:keyword, search:keywords, and search:taxon
+    with:
+      - ICTV label (Taxon title)
+      - original taxon label (if different)
+      - AlternateName titles (synonyms + former labels)
+      - lineage labels (ancestors)
+      - direct parent label
+    """
     labels = []
 
-    main_label = taxon_obj.get("dcterms:title")
+    # Main ICTV label
+    main_label = taxon_obj.get("dcterms:title") or taxon_obj.get("dct:title")
     if main_label:
-        labels.append(main_label)
+        labels.append(str(main_label))
 
+    # Local original label (if distinct)
     if original_label:
-        labels.append(original_label)
+        orig_clean = original_label.strip()
+        if orig_clean and orig_clean != main_label:
+            labels.append(orig_clean)
 
-    for s in taxon_obj.get("EVORAO:synonym", []):
-        labels.append(s)
+    # Alternate names (EVORAO:AlternateName)
+    for alt in taxon_obj.get("EVORAO:alternateName", []):
+        if isinstance(alt, dict):
+            t = alt.get("dcterms:title") or alt.get("dct:title")
+            if t:
+                labels.append(str(t))
 
-    for l in taxon_obj.get("EVORAO:lineage", []):
-        labels.append(l)
+    # Direct parent label
+    parent_label = ent.get("direct_parent_label")
+    if parent_label:
+        labels.append(str(parent_label))
 
-    # dedupe, keep non-empty
+    # Lineage (ancestors labels)
+    for l in ent.get("lineage") or []:
+        if l:
+            labels.append(str(l))
+
+    # Deduplicate, keep order, remove empty
     labels = list(dict.fromkeys([x for x in labels if x]))
 
+    # Push into the search-related fields
     for field in ["dcat:keyword", "search:keywords", "search:taxon"]:
         arr = ensure_list(entity, field)
         for lbl in labels:
@@ -223,24 +358,25 @@ def expand_search_fields(entity: Dict[str, Any], taxon_obj: Dict[str, Any], orig
 
 def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
     total = len(graph)
-    print(f"🧪 Enriching {total} entities with ICTV data...")
+    print(f" Enriching {total} entities with ICTV data...")
 
     for i, node in enumerate(graph, start=1):
         pid = node.get("EVORAO:pathogenIdentification")
         if not isinstance(pid, dict):
             continue
 
+        # 1) Extract virus name and existing taxon label
         virus_name = None
         pn = pid.get("EVORAO:pathogenName")
         if isinstance(pn, dict):
             virus_name = pn.get("dcterms:title") or pn.get("dct:title")
 
+        existing_taxon = pid.get("EVORAO:taxon")
         taxon_label = None
-        taxon_obj = pid.get("EVORAO:taxon")
-        if isinstance(taxon_obj, dict):
-            taxon_label = taxon_obj.get("dcterms:title") or taxon_obj.get("dct:title")
+        if isinstance(existing_taxon, dict):
+            taxon_label = existing_taxon.get("dcterms:title") or existing_taxon.get("dct:title")
 
-        # Choose resolution preference: virus name first, then taxon label
+        # 2) Choose resolution preference: virus name first, then taxon label
         resolved = None
         used_label = None
         for candidate in (virus_name, taxon_label):
@@ -262,12 +398,15 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
         if not ent:
             continue
 
-        new_taxon = ictv_entity_to_evorao_taxon(ent, taxon_label)
+        # 3) Build EVORAO-compliant Taxon, preserving @id if possible
+        new_taxon = ictv_entity_to_evorao_taxon(ent, taxon_label, existing_taxon=existing_taxon)
         pid["EVORAO:taxon"] = new_taxon
-        expand_search_fields(node, new_taxon, taxon_label)
+
+        # 4) Expand search fields (keywords, taxon search)
+        expand_search_fields(node, new_taxon, taxon_label, ent)
 
         if i % 50 == 0 or i == total:
-            print(f"   → enriched {i}/{total}", flush=True)
+            print(f" → enriched {i}/{total}", flush=True)
 
 
 # ============================================================
@@ -279,11 +418,11 @@ def enrich_file(input_path: Path, output_path: Path, cache_path: Path):
         data = json.load(f)
 
     graph = data.get("@graph") or []
-    print(f"📖 Loaded graph with {len(graph)} entities from {input_path}")
+    print(f" Loaded graph with {len(graph)} entities from {input_path}")
 
     # 1) Collect all labels to resolve
     labels = collect_labels_for_resolution(graph)
-    print(f"🔍 Found {len(labels)} unique candidate labels to resolve")
+    print(f" Found {len(labels)} unique candidate labels to resolve")
 
     # 2) Load cache
     cache = load_cache(cache_path)
@@ -311,11 +450,18 @@ def enrich_file(input_path: Path, output_path: Path, cache_path: Path):
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Enrich EVORAO JSON-LD with ICTV taxonomy using ICTVOLSClient + caching + parallel requests."
+        description=(
+            "Enrich EVORAO JSON-LD with ICTV taxonomy using ICTVOLSClient "
+            "+ caching + parallel requests."
+        )
     )
     parser.add_argument("--input", "-i", required=True, help="Input JSON-LD file")
     parser.add_argument("--output", "-o", required=True, help="Output JSON-LD file")
-    parser.add_argument("--cache", "-c", help="Cache file path (default: ictv_cache.json next to input)")
+    parser.add_argument(
+        "--cache",
+        "-c",
+        help="Cache file path (default: ictv_cache.json next to input)",
+    )
 
     args = parser.parse_args()
 
