@@ -25,12 +25,9 @@ def robust_call(func, *args, retries: int = 4, base_wait: float = 0.5, **kwargs)
         try:
             return func(*args, **kwargs)
         except Exception as e:
-            print(
-                f"⚠️ ICTV call failed (attempt {attempt}/{retries}): {e}",
-                flush=True,
-            )
+            print(f"⚠️ ICTV call failed (attempt {attempt}/{retries}): {e}")
             if attempt == retries:
-                print(" → giving up on this label.\n", flush=True)
+                print(" → giving up on this label.\n")
                 return None
         time.sleep(wait)
         wait *= 2
@@ -65,16 +62,12 @@ def load_cache(cache_path: Path) -> Dict[str, Any]:
 
 def save_cache(cache: Dict[str, Any], cache_path: Path):
     try:
-        # Always stamp cache with a fresh timestamp before saving
         cache["_fetched_at"] = datetime.utcnow().isoformat()
 
         with cache_path.open("w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
 
-        print(
-            f" Saved ICTV cache to {cache_path} "
-            f"({len(cache)} entries, stamped {_fetched_at})"
-        )
+        print(f" Saved ICTV cache to {cache_path} ({len(cache)} entries)")
     except Exception as e:
         print(f"⚠️ Failed to save cache {cache_path}: {e}")
 
@@ -92,57 +85,46 @@ def collect_labels_for_resolution(graph) -> Set[str]:
         if not isinstance(pid, dict):
             continue
 
-        virus_name = None
         pn = pid.get("EVORAO:pathogenName")
         if isinstance(pn, dict):
-            virus_name = pn.get("dcterms:title") or pn.get("dct:title")
+            t = pn.get("dcterms:title") or pn.get("dct:title")
+            if t:
+                labels.add(str(t).strip())
 
-        taxon_label = None
-        taxon_obj = pid.get("EVORAO:taxon")
-        if isinstance(taxon_obj, dict):
-            taxon_label = taxon_obj.get("dcterms:title") or taxon_obj.get("dct:title")
-
-        for val in (virus_name, taxon_label):
-            if val:
-                s = str(val).strip()
-                if s:
-                    labels.add(s)
+        tax = pid.get("EVORAO:taxon")
+        if isinstance(tax, dict):
+            t = tax.get("dcterms:title") or tax.get("dct:title")
+            if t:
+                labels.add(str(t).strip())
 
     return labels
 
 
 def resolve_label_once(label: str) -> Optional[Dict[str, Any]]:
     """
-    Worker function: create its own ICTV client, resolve a label once.
-    Wrapped with robust_call so it never throws.
+    Worker: each thread uses its own ICTV client.
+    Wrapped in robust_call, so it never raises.
     """
     client = ICTVOLSClient()
     return robust_call(client.resolveToLatest, label)
 
 
-def resolve_all_labels(
-    labels: Set[str],
-    cache: Dict[str, Any],
-    max_workers: int = 8,
-) -> Dict[str, Any]:
+def resolve_all_labels(labels: Set[str], cache: Dict[str, Any], max_workers: int = 8):
     """
     Resolve all unique labels using threads + caching.
-    Existing cache entries are reused.
+    Existing cache entries are reused as-is.
     """
     missing = [lbl for lbl in labels if lbl not in cache]
     total_missing = len(missing)
 
     if total_missing == 0:
-        print("✅ All labels already in cache, no new ICTV calls needed.")
+        print("✅ All labels already in cache")
         return cache
 
-    print(f" Resolving {total_missing} ICTV labels (in parallel with {max_workers} workers)...")
+    print(f" Resolving {total_missing} ICTV labels (max_workers={max_workers})")
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {
-            executor.submit(resolve_label_once, lbl): lbl
-            for lbl in missing
-        }
+        futures = {executor.submit(resolve_label_once, lbl): lbl for lbl in missing}
 
         for i, future in enumerate(as_completed(futures), start=1):
             label = futures[future]
@@ -152,34 +134,34 @@ def resolve_all_labels(
                 print(f"❌ Unexpected error resolving '{label}': {e}")
                 res = None
 
-            # Store raw ICTV resolution result (may be None)
             cache[label] = res
 
             if i % 20 == 0 or i == total_missing:
-                print(f" → resolved {i}/{total_missing} labels", flush=True)
+                print(f" → resolved {i}/{total_missing}")
 
     return cache
 
 
 # ============================================================
-# Convert ICTV result → EVORAO Taxon (ontology-aware)
+# ICTV → EVORAO conversion
 # ============================================================
 
 def pick_best_ictv_entity(res: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """
+    Normalize the ICTV resolution object to a single chosen entity:
+      - if status == "current": res["current"]
+      - if status == "obsolete": res["final"] if present else res["obsolete"]
+      - else: None
+    """
     if not isinstance(res, dict):
         return None
 
     status = res.get("status")
-
     if status == "current":
         return res.get("current")
-
     if status == "obsolete":
-        # If there's a final replacement, prefer it
-        if res.get("final"):
-            return res["final"]
-        return res.get("obsolete")
-
+        final = res.get("final")
+        return final if final else res.get("obsolete")
     return None
 
 
@@ -220,13 +202,10 @@ def ictv_entity_to_evorao_taxon(
         taxonomy_node = {
             "@type": "EVORAO:Taxonomy",
             "dcterms:title": "ICTV",
-            # EVORAO:Taxonomy uses dcat:version (string) for release version
             "dcat:version": str(msl),
-            # Minimal DataProvider for the version (OLS / ICTV)
             "EVORAO:versionDataProvider": {
                 "@type": "EVORAO:DataProvider",
                 "dcterms:title": "ICTV via OLS4",
-                # EVORAO:weight is integer
                 "EVORAO:weight": 1,
             },
         }
@@ -240,7 +219,6 @@ def ictv_entity_to_evorao_taxon(
             "@type": "EVORAO:TaxonomicRank",
             "dcterms:title": rank_label,
         }
-        # Optionally link rank to same taxonomy
         if taxonomy_node is not None:
             rank_node["EVORAO:taxonomy"] = taxonomy_node
         taxon["EVORAO:rank"] = rank_node
@@ -382,39 +360,47 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
         existing_taxon = pid.get("EVORAO:taxon")
         taxon_label = None
         if isinstance(existing_taxon, dict):
-            taxon_label = existing_taxon.get("dcterms:title") or existing_taxon.get("dct:title")
+            taxon_label = (
+                existing_taxon.get("dcterms:title")
+                or existing_taxon.get("dct:title")
+            )
+
+        resolved = None
+        ent = None
 
         # 2) Choose resolution preference: virus name first, then taxon label
-        resolved = None
-        used_label = None
         for candidate in (virus_name, taxon_label):
             if not candidate:
                 continue
+
             key = str(candidate).strip()
             if not key:
                 continue
+
             resolved = cache.get(key)
-            used_label = key
-            if resolved is not None:
-                break
+            best = pick_best_ictv_entity(resolved) if resolved else None
 
-        if not resolved:
-            # No ICTV info available for this entity
-            continue
+            if best:
+                ent = best
+                break  # we found a valid ICTV entity
 
-        ent = pick_best_ictv_entity(resolved)
+        # If no valid ICTV entity was found → do not touch the existing taxon
         if not ent:
             continue
 
         # 3) Build EVORAO-compliant Taxon, preserving @id if possible
-        new_taxon = ictv_entity_to_evorao_taxon(ent, taxon_label, existing_taxon=existing_taxon)
+        new_taxon = ictv_entity_to_evorao_taxon(
+            ent,
+            taxon_label,
+            existing_taxon=existing_taxon,
+        )
         pid["EVORAO:taxon"] = new_taxon
 
         # 4) Expand search fields (keywords, taxon search)
         expand_search_fields(node, new_taxon, taxon_label, ent)
 
         if i % 50 == 0 or i == total:
-            print(f" → enriched {i}/{total}", flush=True)
+            print(f" → enriched {i}/{total}")
 
 
 # ============================================================

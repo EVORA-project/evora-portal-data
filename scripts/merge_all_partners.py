@@ -4,8 +4,9 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 INPUT_FILES = [
-    Path("data/eva/eva_merged_enriched.jsonld"),
+    Path("data/fairsharing/fairsharing_elixir_services.jsonld"),
     Path("data/erinha/erinha_services_enriched.jsonld"),
+    Path("data/eva/eva_merged_enriched.jsonld"),
 ]
 
 OUTPUT_PATH = Path("data/portal/evora_portal_all.jsonld")

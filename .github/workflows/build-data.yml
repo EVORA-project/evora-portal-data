@@ -59,6 +59,14 @@ jobs:
       - name: Convert ERINHA CSV to EVORAO JSON-LD
         run: python scripts/erinha-data/erinha_to_evorao.py
 
+      - name: Fetch FAIRsharing curated record
+        run: |
+          python scripts/fairsharing-data/fetch_fairsharing.py
+
+      - name: Convert FAIRsharing → EVORAO Services
+        run: |
+          python scripts/fairsharing-data/fairsharing_to_evorao.py
+
       - name: Invalidate outdated cache
         run: |
           CACHE="data/ictv_cache.json"
