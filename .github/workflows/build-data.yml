@@ -59,6 +59,36 @@ jobs:
       - name: Convert ERINHA CSV to EVORAO JSON-LD
         run: python scripts/erinha-data/erinha_to_evorao.py
 
+      - name: Invalidate outdated cache
+        run: |
+          CACHE="data/ictv_cache.json"
+          OLS_META=$(curl -s https://www.ebi.ac.uk/ols4/api/ontologies/ictv)
+          OLS_UPDATED=$(echo "$OLS_META" | jq -r '.updated')
+
+          if [ ! -f "$CACHE" ]; then
+            echo "📦 No existing cache — nothing to delete."
+            exit 0
+          fi
+
+          LOCAL_TS=$(jq -r '._fetched_at // empty' "$CACHE")
+
+          if [ -z "$LOCAL_TS" ]; then
+            echo "❗ Cache has no timestamp — deleting."
+            rm -f "$CACHE"
+            exit 0
+          fi
+
+          echo "📅 ICTV OLS updated: $OLS_UPDATED"
+          echo "📅 Local cache timestamp: $LOCAL_TS"
+
+          # Compare timestamps in ISO8601 format — lexical comparison works.
+          if [[ "$LOCAL_TS" < "$OLS_UPDATED" ]]; then
+            echo "🔄 ICTV OLS is newer — deleting outdated cache."
+            rm -f "$CACHE"
+          else
+            echo "👍 Cache is up to date."
+          fi
+
       - name: Enrich EVA data with ICTV taxonomy
         run: |
           python scripts/ictv-enrich/enrich_with_ictv.py \
