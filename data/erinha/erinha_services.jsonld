@@ -90,7 +90,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -260,7 +260,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -430,7 +430,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -600,7 +600,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -770,7 +770,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -940,7 +940,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -1110,7 +1110,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -1280,7 +1280,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -1450,7 +1450,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -1620,7 +1620,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -1790,7 +1790,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -1960,7 +1960,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -2130,7 +2130,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -2300,7 +2300,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -2470,7 +2470,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -2640,7 +2640,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -2810,7 +2810,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -2976,7 +2976,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -3142,7 +3142,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -3308,7 +3308,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -3474,7 +3474,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -3640,7 +3640,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -3806,7 +3806,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -3972,7 +3972,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -4138,7 +4138,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -4304,7 +4304,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -4470,7 +4470,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -4636,7 +4636,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -4802,7 +4802,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -4968,7 +4968,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -5134,7 +5134,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -5300,7 +5300,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -5466,7 +5466,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -5624,7 +5624,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -5782,7 +5782,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -5940,7 +5940,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -6098,7 +6098,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -6256,7 +6256,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -6414,7 +6414,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -6572,7 +6572,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -6730,7 +6730,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -6888,7 +6888,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7046,7 +7046,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7204,7 +7204,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7362,7 +7362,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7520,7 +7520,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7678,7 +7678,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7836,7 +7836,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -7994,7 +7994,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8124,7 +8124,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8254,7 +8254,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8384,7 +8384,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8514,7 +8514,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8644,7 +8644,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8774,7 +8774,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -8904,7 +8904,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9034,7 +9034,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9164,7 +9164,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9294,7 +9294,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9424,7 +9424,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9554,7 +9554,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9684,7 +9684,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9814,7 +9814,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -9944,7 +9944,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -10074,7 +10074,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -10236,7 +10236,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -10398,7 +10398,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -10560,7 +10560,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -10722,7 +10722,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -10884,7 +10884,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -11046,7 +11046,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -11208,7 +11208,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan-Hu-1",
+        "EVORAO:strain": "Wuhan-Hu-1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -11370,7 +11370,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -11532,7 +11532,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -11694,7 +11694,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -11856,7 +11856,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12018,7 +12018,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12180,7 +12180,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12342,7 +12342,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12504,7 +12504,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Delta own isolate",
+        "EVORAO:strain": "Delta own isolate",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12666,7 +12666,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12828,7 +12828,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -12990,7 +12990,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -13152,7 +13152,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -13314,7 +13314,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -13476,7 +13476,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -13638,7 +13638,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -13800,7 +13800,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron  B.1.1.529",
+        "EVORAO:strain": "Omicron  B.1.1.529",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -13962,7 +13962,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -14124,7 +14124,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -14286,7 +14286,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -14448,7 +14448,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -14610,7 +14610,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -14772,7 +14772,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -14934,7 +14934,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -15096,7 +15096,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -15258,7 +15258,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -15420,7 +15420,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Omicron own isolate EG5.1",
+        "EVORAO:strain": "Omicron own isolate EG5.1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -15562,7 +15562,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Human respiratory syncitial virus"
         },
-        "EVORAO:strainDesignation": "B",
+        "EVORAO:strain": "B",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopneumovirus hominis"
@@ -15689,7 +15689,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H1N1",
+        "EVORAO:strain": "H1N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -15757,7 +15757,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza B virus"
         },
-        "EVORAO:strainDesignation": "Washington",
+        "EVORAO:strain": "Washington",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betainfluenzavirus influenzae"
@@ -22253,7 +22253,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -22427,7 +22427,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -22601,7 +22601,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -22775,7 +22775,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -22949,7 +22949,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -23115,7 +23115,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -23281,7 +23281,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -23447,7 +23447,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -23613,7 +23613,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -23775,7 +23775,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -23937,7 +23937,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -24099,7 +24099,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -24261,7 +24261,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -24423,7 +24423,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -24585,7 +24585,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -24747,7 +24747,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Monkepox virus"
         },
-        "EVORAO:strainDesignation": "MPX Germany  2022 Clade IIB",
+        "EVORAO:strain": "MPX Germany  2022 Clade IIB",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -24909,7 +24909,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -25083,7 +25083,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -25257,7 +25257,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -25431,7 +25431,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -25605,7 +25605,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -25763,7 +25763,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -25921,7 +25921,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -26079,7 +26079,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -26237,7 +26237,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -26399,7 +26399,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -26561,7 +26561,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -26723,7 +26723,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -26885,7 +26885,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -27047,7 +27047,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -27209,7 +27209,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -27371,7 +27371,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -27533,7 +27533,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Gabon",
+        "EVORAO:strain": "Gabon",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -27695,7 +27695,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "H.sapiens-tc/GIN/2014/Gueckedou-C05",
+        "EVORAO:strain": "H.sapiens-tc/GIN/2014/Gueckedou-C05",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -27857,7 +27857,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -28019,7 +28019,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "IbAr 10200",
+        "EVORAO:strain": "IbAr 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -28181,7 +28181,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Sudan virus"
         },
-        "EVORAO:strainDesignation": "Gulu",
+        "EVORAO:strain": "Gulu",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus sudanense"
@@ -28343,7 +28343,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -28505,7 +28505,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -28667,7 +28667,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Marburgvirus Marburgense"
@@ -28829,7 +28829,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Marburgvirus Marburgense"
@@ -28991,7 +28991,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Marburgvirus Marburgense"
@@ -29153,7 +29153,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Alkhumra (Kyasanur forest)  virus"
         },
-        "EVORAO:strainDesignation": "3B1",
+        "EVORAO:strain": "3B1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus kyasanurense"
@@ -29311,7 +29311,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Alkhumra (Kyasanur forest)  virus"
         },
-        "EVORAO:strainDesignation": "8S1",
+        "EVORAO:strain": "8S1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus kyasanurense"
@@ -29469,7 +29469,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Alkhumra (Kyasanur forest)  virus"
         },
-        "EVORAO:strainDesignation": "1336",
+        "EVORAO:strain": "1336",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus kyasanurense"
@@ -29937,7 +29937,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Cowpox virus"
         },
-        "EVORAO:strainDesignation": "DK05/15",
+        "EVORAO:strain": "DK05/15",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus cowpox"
@@ -30105,7 +30105,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Dengue virus"
         },
-        "EVORAO:strainDesignation": "Serotype 1, Hawaii",
+        "EVORAO:strain": "Serotype 1, Hawaii",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus denguei"
@@ -30269,7 +30269,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Dengue virus"
         },
-        "EVORAO:strainDesignation": "Serotype 2, New Guinea",
+        "EVORAO:strain": "Serotype 2, New Guinea",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus denguei"
@@ -30437,7 +30437,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Dengue virus"
         },
-        "EVORAO:strainDesignation": "Serotype 3, H87",
+        "EVORAO:strain": "Serotype 3, H87",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus denguei"
@@ -30585,7 +30585,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Dengue virus"
         },
-        "EVORAO:strainDesignation": "Serotype 4, H241",
+        "EVORAO:strain": "Serotype 4, H241",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus denguei"
@@ -30727,7 +30727,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Influenza A virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -30885,7 +30885,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Japanese Encephalitis virus"
         },
-        "EVORAO:strainDesignation": "Nakajama",
+        "EVORAO:strain": "Nakajama",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus japonicum"
@@ -31345,7 +31345,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Mpox virus"
         },
-        "EVORAO:strainDesignation": "Clade Ia",
+        "EVORAO:strain": "Clade Ia",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -31507,7 +31507,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Mpox virus"
         },
-        "EVORAO:strainDesignation": "Clade Ib",
+        "EVORAO:strain": "Clade Ib",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -31669,7 +31669,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Mpox virus"
         },
-        "EVORAO:strainDesignation": "Clade IIb",
+        "EVORAO:strain": "Clade IIb",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -31986,7 +31986,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "O'nyong'nyong virus"
         },
-        "EVORAO:strainDesignation": "Dakar 234",
+        "EVORAO:strain": "Dakar 234",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphavirus onyong"
@@ -32605,7 +32605,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Tick-borne encephalitis virus"
         },
-        "EVORAO:strainDesignation": "UVE/TBEV/1995/JP/Oshima",
+        "EVORAO:strain": "UVE/TBEV/1995/JP/Oshima",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus encephalitidis"
@@ -34309,7 +34309,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lymphocytic Choriomeningitis Virus"
         },
-        "EVORAO:strainDesignation": "WEAF004519",
+        "EVORAO:strain": "WEAF004519",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus choriomeningitidis"
@@ -35348,7 +35348,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -35487,7 +35487,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -35618,7 +35618,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -35745,7 +35745,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -35884,7 +35884,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -36015,7 +36015,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -43401,7 +43401,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Wuhan like virus",
+        "EVORAO:strain": "Wuhan like virus",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -43529,7 +43529,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Xbb.15 + other variants",
+        "EVORAO:strain": "Xbb.15 + other variants",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"
@@ -43669,7 +43669,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "MERS-CoV"
         },
-        "EVORAO:strainDesignation": "England 1",
+        "EVORAO:strain": "England 1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus cameli"
@@ -43805,7 +43805,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Mpox virus"
         },
-        "EVORAO:strainDesignation": "Clade Ib",
+        "EVORAO:strain": "Clade Ib",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -43945,7 +43945,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Mpox virus"
         },
-        "EVORAO:strainDesignation": "Clade IIb",
+        "EVORAO:strain": "Clade IIb",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthopoxvirus monkeypox"
@@ -46807,7 +46807,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -46913,7 +46913,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Avian Influenza virus"
         },
-        "EVORAO:strainDesignation": "H5N1",
+        "EVORAO:strain": "H5N1",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Alphainfluenzavirus influenzae"
@@ -47654,7 +47654,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -49089,7 +49089,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -49263,7 +49263,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -49433,7 +49433,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Senegal",
+        "EVORAO:strain": "Senegal",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -49607,7 +49607,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Senegal",
+        "EVORAO:strain": "Senegal",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -49777,7 +49777,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Iran",
+        "EVORAO:strain": "Iran",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -49951,7 +49951,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Iran",
+        "EVORAO:strain": "Iran",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -50121,7 +50121,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afghanistan",
+        "EVORAO:strain": "Afghanistan",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -50295,7 +50295,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afghanistan",
+        "EVORAO:strain": "Afghanistan",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -50465,7 +50465,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Türkiye",
+        "EVORAO:strain": "Türkiye",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -50639,7 +50639,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Türkiye",
+        "EVORAO:strain": "Türkiye",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -50809,7 +50809,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Greece",
+        "EVORAO:strain": "Greece",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -50983,7 +50983,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Greece",
+        "EVORAO:strain": "Greece",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -51153,7 +51153,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -51319,7 +51319,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -51481,7 +51481,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Senegal",
+        "EVORAO:strain": "Senegal",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -51647,7 +51647,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Senegal",
+        "EVORAO:strain": "Senegal",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -51809,7 +51809,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Iran",
+        "EVORAO:strain": "Iran",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -51975,7 +51975,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Iran",
+        "EVORAO:strain": "Iran",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -52137,7 +52137,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afghanistan",
+        "EVORAO:strain": "Afghanistan",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -52303,7 +52303,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afghanistan",
+        "EVORAO:strain": "Afghanistan",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -52465,7 +52465,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Türkiye",
+        "EVORAO:strain": "Türkiye",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -52631,7 +52631,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Türkiye",
+        "EVORAO:strain": "Türkiye",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -52793,7 +52793,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Greece",
+        "EVORAO:strain": "Greece",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -52959,7 +52959,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Greece",
+        "EVORAO:strain": "Greece",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -53122,7 +53122,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -53289,7 +53289,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -53452,7 +53452,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Senegal",
+        "EVORAO:strain": "Senegal",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -53619,7 +53619,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Senegal",
+        "EVORAO:strain": "Senegal",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -53782,7 +53782,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Iran",
+        "EVORAO:strain": "Iran",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -53949,7 +53949,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Iran",
+        "EVORAO:strain": "Iran",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -54112,7 +54112,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afghanistan",
+        "EVORAO:strain": "Afghanistan",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -54279,7 +54279,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afghanistan",
+        "EVORAO:strain": "Afghanistan",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -54442,7 +54442,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Türkiye",
+        "EVORAO:strain": "Türkiye",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -54609,7 +54609,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Türkiye",
+        "EVORAO:strain": "Türkiye",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -54772,7 +54772,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Greece",
+        "EVORAO:strain": "Greece",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -54939,7 +54939,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Greece",
+        "EVORAO:strain": "Greece",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -57981,7 +57981,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -58155,7 +58155,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -58325,7 +58325,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -58499,7 +58499,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -58669,7 +58669,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -58843,7 +58843,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -59013,7 +59013,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ozolin",
+        "EVORAO:strain": "Ozolin",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -59187,7 +59187,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ozolin",
+        "EVORAO:strain": "Ozolin",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -59357,7 +59357,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -59531,7 +59531,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -59701,7 +59701,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -59867,7 +59867,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -60029,7 +60029,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -60195,7 +60195,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -60357,7 +60357,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -60523,7 +60523,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -60685,7 +60685,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ozolin",
+        "EVORAO:strain": "Ozolin",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -60851,7 +60851,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ozolin",
+        "EVORAO:strain": "Ozolin",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -61013,7 +61013,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -61179,7 +61179,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -61342,7 +61342,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -61509,7 +61509,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Leiden",
+        "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -61672,7 +61672,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -61839,7 +61839,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Popp",
+        "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62002,7 +62002,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62169,7 +62169,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ravn",
+        "EVORAO:strain": "Ravn",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62332,7 +62332,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ozolin",
+        "EVORAO:strain": "Ozolin",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62499,7 +62499,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Ozolin",
+        "EVORAO:strain": "Ozolin",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62662,7 +62662,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62829,7 +62829,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -62991,7 +62991,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -63165,7 +63165,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -63335,7 +63335,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Pinneo",
+        "EVORAO:strain": "Pinneo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -63509,7 +63509,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Pinneo",
+        "EVORAO:strain": "Pinneo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -63679,7 +63679,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig04",
+        "EVORAO:strain": "Nig04",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -63853,7 +63853,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig04",
+        "EVORAO:strain": "Nig04",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -64023,7 +64023,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "CSF",
+        "EVORAO:strain": "CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -64197,7 +64197,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "CSF",
+        "EVORAO:strain": "CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -64367,7 +64367,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig08-A18",
+        "EVORAO:strain": "Nig08-A18",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -64541,7 +64541,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig08-A18",
+        "EVORAO:strain": "Nig08-A18",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -64711,7 +64711,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -64885,7 +64885,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -65055,7 +65055,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "NL",
+        "EVORAO:strain": "NL",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -65229,7 +65229,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "NL",
+        "EVORAO:strain": "NL",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -65399,7 +65399,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -65565,7 +65565,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -65727,7 +65727,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Pinneo",
+        "EVORAO:strain": "Pinneo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -65893,7 +65893,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Pinneo",
+        "EVORAO:strain": "Pinneo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -66055,7 +66055,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig04",
+        "EVORAO:strain": "Nig04",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -66221,7 +66221,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig04",
+        "EVORAO:strain": "Nig04",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -66383,7 +66383,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "CSF",
+        "EVORAO:strain": "CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -66549,7 +66549,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "CSF",
+        "EVORAO:strain": "CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -66711,7 +66711,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig08-A18",
+        "EVORAO:strain": "Nig08-A18",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -66877,7 +66877,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig08-A18",
+        "EVORAO:strain": "Nig08-A18",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -67039,7 +67039,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -67205,7 +67205,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -67367,7 +67367,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "NL",
+        "EVORAO:strain": "NL",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -67533,7 +67533,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "NL",
+        "EVORAO:strain": "NL",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -67696,7 +67696,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -67863,7 +67863,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -68026,7 +68026,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Pinneo",
+        "EVORAO:strain": "Pinneo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -68193,7 +68193,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Pinneo",
+        "EVORAO:strain": "Pinneo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -68356,7 +68356,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig04",
+        "EVORAO:strain": "Nig04",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -68523,7 +68523,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig04",
+        "EVORAO:strain": "Nig04",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -68686,7 +68686,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "CSF",
+        "EVORAO:strain": "CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -68853,7 +68853,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "CSF",
+        "EVORAO:strain": "CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -69016,7 +69016,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig08-A18",
+        "EVORAO:strain": "Nig08-A18",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -69183,7 +69183,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig08-A18",
+        "EVORAO:strain": "Nig08-A18",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -69346,7 +69346,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -69513,7 +69513,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -69676,7 +69676,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "NL",
+        "EVORAO:strain": "NL",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -69843,7 +69843,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "NL",
+        "EVORAO:strain": "NL",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -82340,7 +82340,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -82494,7 +82494,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Kosova Hoti",
+        "EVORAO:strain": "Kosova Hoti",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -82648,7 +82648,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -82803,7 +82803,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -82946,7 +82946,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Kosova Hoti",
+        "EVORAO:strain": "Kosova Hoti",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83089,7 +83089,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83232,7 +83232,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83371,7 +83371,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Kosova Hoti",
+        "EVORAO:strain": "Kosova Hoti",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83510,7 +83510,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83649,7 +83649,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83764,7 +83764,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Kosova Hoti",
+        "EVORAO:strain": "Kosova Hoti",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83879,7 +83879,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -83994,7 +83994,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -84109,7 +84109,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Kosova Hoti",
+        "EVORAO:strain": "Kosova Hoti",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -84224,7 +84224,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -84339,7 +84339,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Ibar 10200",
+        "EVORAO:strain": "Ibar 10200",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -84462,7 +84462,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Kosova Hoti",
+        "EVORAO:strain": "Kosova Hoti",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -84585,7 +84585,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
         },
-        "EVORAO:strainDesignation": "Afg09-2990",
+        "EVORAO:strain": "Afg09-2990",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthonairovirus haemorrhagiae"
@@ -84707,7 +84707,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Junin virus"
         },
-        "EVORAO:strainDesignation": "XJ CL13",
+        "EVORAO:strain": "XJ CL13",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus juninense"
@@ -84849,7 +84849,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Guanarito virus"
         },
-        "EVORAO:strainDesignation": "INH-95551",
+        "EVORAO:strain": "INH-95551",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus guanaritoense"
@@ -84991,7 +84991,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Sabia virus"
         },
-        "EVORAO:strainDesignation": "SPH114202",
+        "EVORAO:strain": "SPH114202",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus brazilense"
@@ -85133,7 +85133,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Machupo virus"
         },
-        "EVORAO:strainDesignation": "Carvallo",
+        "EVORAO:strain": "Carvallo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus machupoense"
@@ -85276,7 +85276,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Machupo virus"
         },
-        "EVORAO:strainDesignation": "Carvallo",
+        "EVORAO:strain": "Carvallo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus machupoense"
@@ -85411,7 +85411,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Junin virus"
         },
-        "EVORAO:strainDesignation": "XJ CL13",
+        "EVORAO:strain": "XJ CL13",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus juninense"
@@ -85522,7 +85522,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Guanarito virus"
         },
-        "EVORAO:strainDesignation": "INH-95551",
+        "EVORAO:strain": "INH-95551",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus guanaritoense"
@@ -85633,7 +85633,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Sabia virus"
         },
-        "EVORAO:strainDesignation": "SPH114202",
+        "EVORAO:strain": "SPH114202",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus brazilense"
@@ -85744,7 +85744,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Machupo virus"
         },
-        "EVORAO:strainDesignation": "Carvallo",
+        "EVORAO:strain": "Carvallo",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus machupoense"
@@ -85854,7 +85854,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Malaysia",
+        "EVORAO:strain": "Malaysia",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86004,7 +86004,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Bangladesh",
+        "EVORAO:strain": "Bangladesh",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86155,7 +86155,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Malaysia",
+        "EVORAO:strain": "Malaysia",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86298,7 +86298,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Bangladesh",
+        "EVORAO:strain": "Bangladesh",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86441,7 +86441,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Malaysia",
+        "EVORAO:strain": "Malaysia",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86580,7 +86580,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Bangladesh",
+        "EVORAO:strain": "Bangladesh",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86719,7 +86719,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Malaysia",
+        "EVORAO:strain": "Malaysia",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -86862,7 +86862,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Bangladesh",
+        "EVORAO:strain": "Bangladesh",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -87005,7 +87005,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Malaysia",
+        "EVORAO:strain": "Malaysia",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -87120,7 +87120,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Nipah virus"
         },
-        "EVORAO:strainDesignation": "Bangladesh",
+        "EVORAO:strain": "Bangladesh",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Henipavirus nipahense"
@@ -87605,7 +87605,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -87747,7 +87747,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig-CSF",
+        "EVORAO:strain": "Nig-CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -87889,7 +87889,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88031,7 +88031,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Lib05-1580/121",
+        "EVORAO:strain": "Lib05-1580/121",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88174,7 +88174,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88285,7 +88285,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig-CSF",
+        "EVORAO:strain": "Nig-CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88396,7 +88396,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88507,7 +88507,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Lib05-1580/121",
+        "EVORAO:strain": "Lib05-1580/121",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88618,7 +88618,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "AV",
+        "EVORAO:strain": "AV",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88729,7 +88729,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Nig-CSF",
+        "EVORAO:strain": "Nig-CSF",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88840,7 +88840,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Josiah",
+        "EVORAO:strain": "Josiah",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -88951,7 +88951,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Lassa virus"
         },
-        "EVORAO:strainDesignation": "Lib05-1580/121",
+        "EVORAO:strain": "Lib05-1580/121",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Mammarenavirus lassaense"
@@ -89061,7 +89061,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Mayinga",
+        "EVORAO:strain": "Mayinga",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -89191,7 +89191,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Makona/Gueckedou C05",
+        "EVORAO:strain": "Makona/Gueckedou C05",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -89321,7 +89321,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Gabon",
+        "EVORAO:strain": "Gabon",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -89574,7 +89574,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -89705,7 +89705,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Mayinga",
+        "EVORAO:strain": "Mayinga",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -89832,7 +89832,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Makona/Gueckedou C05",
+        "EVORAO:strain": "Makona/Gueckedou C05",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -89959,7 +89959,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Mayinga",
+        "EVORAO:strain": "Mayinga",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -90066,7 +90066,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Makona/Gueckedou C05",
+        "EVORAO:strain": "Makona/Gueckedou C05",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -90173,7 +90173,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Ebolavirus Zaire virus"
         },
-        "EVORAO:strainDesignation": "Gabon",
+        "EVORAO:strain": "Gabon",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoebolavirus zairense"
@@ -90380,7 +90380,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Marburg virus"
         },
-        "EVORAO:strainDesignation": "Musoke",
+        "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthomarburgvirus marburgense"
@@ -90623,7 +90623,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "Yellow Fever Virus"
         },
-        "EVORAO:strainDesignation": "Ivory Coast 1999",
+        "EVORAO:strain": "Ivory Coast 1999",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Orthoflavivirus flavi"
@@ -90771,7 +90771,7 @@
           "@type": "EVORAO:VirusName",
           "dcterms:title": "SARS-CoV-2"
         },
-        "EVORAO:strainDesignation": "Different strains",
+        "EVORAO:strain": "Different strains",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
           "dcterms:title": "Betacoronavirus pandemicum"

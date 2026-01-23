@@ -93548,7 +93548,7 @@
       ]
     }
   },
-  "_fetched_at": "2026-01-23T10:11:16.645546",
+  "_fetched_at": "2026-01-23T13:27:54.242228",
   "Alkhumra (Kyasanur forest)  virus": {
     "status": "not-found",
     "input": "Alkhumra (Kyasanur forest)  virus",
@@ -99138,6 +99138,66 @@
       {
         "ncbiCurie": "ncbitaxon:11080",
         "label": "St. Louis encephalitis virus"
+      }
+    ]
+  },
+  "Uganda S virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV19710120",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19710120",
+      "ictv_curie": "ictv:MSL40/ICTV19710120",
+      "iri": "http://ictv.global/id/MSL40/ICTV19710120",
+      "label": "Orthoflavivirus ugandaense",
+      "synonyms": [
+        "Uganda S virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV19710016",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19710016",
+        "http://ictv.global/id/MSL40/ICTV19840011",
+        "http://ictv.global/id/MSL40/ICTV201907219",
+        "http://ictv.global/id/MSL40/ICTV201907218",
+        "http://ictv.global/id/MSL40/ICTV201907217",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19710120",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:DQ859065",
+        "refseq:NC_033698"
+      ],
+      "direct_parent_label": "Orthoflavivirus",
+      "lineage": [
+        "Orthoflavivirus",
+        "Flaviviridae",
+        "Amarillovirales",
+        "Flasuviricetes",
+        "Kitrinoviricota",
+        "Orthornavirae",
+        "Riboviria",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:3048440",
+        "label": "Orthoflavivirus ugandaense"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:64297",
+        "label": "Uganda S virus"
       }
     ]
   }
