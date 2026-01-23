@@ -61,7 +61,7 @@ jobs:
 
       - name: Fetch FAIRsharing curated record
         run: |
-          python scripts/fairsharing-data/fetch_fairsharing.py
+          python scripts/fairsharing-data/fetch_fairsharing_elixir.py
 
       - name: Convert FAIRsharing → EVORAO Services
         run: |
