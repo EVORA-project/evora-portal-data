@@ -102,7 +102,7 @@ def build_pathogen_identification(row: Dict[str, str]) -> Dict[str, Any]:
     Map:
       Pathogen name        → pathogenName:VirusName:dcterms:title
       ICTV nomenclature    → taxon:Taxon:dcterms:title
-      Viral strain         → strainDesignation
+      Viral strain         → strain
     """
 
     taxon_label = (
@@ -133,7 +133,7 @@ def build_pathogen_identification(row: Dict[str, str]) -> Dict[str, Any]:
         }
 
     if viral_strain:
-        pid["EVORAO:strainDesignation"] = viral_strain
+        pid["EVORAO:strain"] = viral_strain
 
     if taxon_label:
         pid["EVORAO:taxon"] = {
