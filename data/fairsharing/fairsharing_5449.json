@@ -1,0 +1,244 @@
+{
+  "data": {
+    "id": "5449",
+    "type": "fairsharing_records",
+    "attributes": {
+      "created_at": "2024-04-22T09:15:29.411Z",
+      "updated_at": "2024-08-15T08:50:02.538Z",
+      "metadata": {
+        "name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "status": "in_development",
+        "contacts": [
+          {
+            "contact_name": "EVORA helpdesk",
+            "contact_email": "fairsharing-helpdesk@evora-project.eu",
+            "contact_orcid": null
+          }
+        ],
+        "homepage": "https://evora-project.eu/",
+        "citations": [],
+        "identifier": 5449,
+        "description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "abbreviation": null,
+        "year_creation": null
+      },
+      "legacy_ids": [],
+      "name": "FAIRsharing record for: EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+      "abbreviation": null,
+      "url": "https://fairsharing.org/5449",
+      "doi": null,
+      "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+      "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+      "linked_records": [
+        {
+          "linked_record_name": "Electron Microscopy Data Bank",
+          "linked_record_id": 2126,
+          "linked_record_registry": "Database",
+          "linked_record_type": "repository",
+          "relation": "collects",
+          "link_id": 19701
+        },
+        {
+          "linked_record_name": "SARS-CoV-2 Database",
+          "linked_record_id": 3670,
+          "linked_record_registry": "Database",
+          "linked_record_type": "knowledgebase",
+          "relation": "collects",
+          "link_id": 19702
+        },
+        {
+          "linked_record_name": "COVID-19 Data Portal",
+          "linked_record_id": 2934,
+          "linked_record_registry": "Database",
+          "linked_record_type": "repository",
+          "relation": "collects",
+          "link_id": 19703
+        },
+        {
+          "linked_record_name": "European Nucleotide Archive",
+          "linked_record_id": 1850,
+          "linked_record_registry": "Database",
+          "linked_record_type": "repository",
+          "relation": "collects",
+          "link_id": 19704
+        }
+      ],
+      "linking_records": [],
+      "fairsharing_registry": "Collection",
+      "record_type": "collection",
+      "subjects": [
+        "Virology",
+        "Medical Virology"
+      ],
+      "domains": [
+        "disease",
+        "pathogen"
+      ],
+      "taxonomies": [
+        "Viruses"
+      ],
+      "user_defined_tags": [
+        "pandemic preparedness"
+      ],
+      "countries": [],
+      "publications": [],
+      "licence_links": [],
+      "organisation_links": [
+        {
+          "organisation_name": "European Virus Archive",
+          "organisation_id": 4347,
+          "organisation_types": [
+            "Consortium"
+          ],
+          "fairsharing_record_id": 5449,
+          "link_id": 11731,
+          "relation": "collaborates_on"
+        },
+        {
+          "organisation_name": "ELIXIR Europe",
+          "organisation_id": 841,
+          "organisation_types": [
+            "Government body"
+          ],
+          "fairsharing_record_id": 5449,
+          "link_id": 11734,
+          "relation": "collaborates_on"
+        },
+        {
+          "organisation_name": "European Research Infrastructure on Highly Pathogenic Agents",
+          "organisation_id": 3440,
+          "organisation_types": [
+            "Consortium"
+          ],
+          "fairsharing_record_id": 5449,
+          "link_id": 11733,
+          "relation": "collaborates_on"
+        },
+        {
+          "organisation_name": "EVORA",
+          "organisation_id": 4346,
+          "organisation_types": [
+            "Consortium"
+          ],
+          "fairsharing_record_id": 5449,
+          "link_id": 11732,
+          "relation": "maintains"
+        },
+        {
+          "organisation_name": "European Commission Horizon Europe",
+          "organisation_id": 3374,
+          "organisation_types": [
+            "Government body"
+          ],
+          "fairsharing_record_id": 5449,
+          "link_id": 11746,
+          "relation": "funds",
+          "grant_id": 2004,
+          "grant_name": "101131959"
+        }
+      ],
+      "grants": [
+        {
+          "id": 11731,
+          "fairsharing_record_id": 5449,
+          "organisation_id": 4347,
+          "relation": "collaborates_on",
+          "created_at": "2024-04-22T12:20:30.383Z",
+          "updated_at": "2024-04-22T12:20:30.383Z",
+          "grant_id": null,
+          "is_lead": false,
+          "saved_state": {
+            "id": 4347,
+            "name": "European Virus Archive (EVA)",
+            "types": [
+              "Consortium"
+            ],
+            "is_lead": false,
+            "relation": "collaborates_on"
+          }
+        },
+        {
+          "id": 11734,
+          "fairsharing_record_id": 5449,
+          "organisation_id": 841,
+          "relation": "collaborates_on",
+          "created_at": "2024-04-22T12:20:30.450Z",
+          "updated_at": "2024-04-22T12:20:30.450Z",
+          "grant_id": null,
+          "is_lead": false,
+          "saved_state": {
+            "id": 841,
+            "name": "ELIXIR Europe",
+            "types": [
+              "Government body"
+            ],
+            "is_lead": false,
+            "relation": "collaborates_on"
+          }
+        },
+        {
+          "id": 11733,
+          "fairsharing_record_id": 5449,
+          "organisation_id": 3440,
+          "relation": "collaborates_on",
+          "created_at": "2024-04-22T12:20:30.432Z",
+          "updated_at": "2024-04-22T12:20:30.432Z",
+          "grant_id": null,
+          "is_lead": false,
+          "saved_state": {
+            "id": 3440,
+            "name": "European Research Infrastructure on Highly Pathogenic Agents",
+            "types": [
+              "Consortium"
+            ],
+            "is_lead": false,
+            "relation": "collaborates_on"
+          }
+        },
+        {
+          "id": 11732,
+          "fairsharing_record_id": 5449,
+          "organisation_id": 4346,
+          "relation": "maintains",
+          "created_at": "2024-04-22T12:20:30.384Z",
+          "updated_at": "2024-04-22T12:20:30.384Z",
+          "grant_id": null,
+          "is_lead": true,
+          "saved_state": {
+            "id": 4346,
+            "name": "EVORA",
+            "types": [
+              "Consortium"
+            ],
+            "is_lead": true,
+            "relation": "maintains"
+          }
+        },
+        {
+          "id": 11746,
+          "fairsharing_record_id": 5449,
+          "organisation_id": 3374,
+          "relation": "funds",
+          "created_at": "2024-04-24T08:08:42.276Z",
+          "updated_at": "2024-04-24T08:08:42.276Z",
+          "grant_id": 2004,
+          "is_lead": false,
+          "saved_state": {
+            "id": 3374,
+            "name": "European Commission Horizon Europe",
+            "grant": "101131959",
+            "types": [
+              "Government body"
+            ],
+            "is_lead": false,
+            "relation": "funds"
+          }
+        }
+      ],
+      "url_for_logo": null,
+      "exhaustive_licences": false,
+      "object_types": [],
+      "internal_identifiers": null
+    }
+  }
+}

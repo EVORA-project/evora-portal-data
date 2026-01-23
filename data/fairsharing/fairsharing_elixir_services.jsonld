@@ -1,0 +1,412 @@
+{
+  "@context": {
+    "@vocab": "https://w3id.org/evorao/",
+    "EVORAO": "https://w3id.org/evorao/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "search": "https://w3id.org/evorao/search#"
+  },
+  "@graph": [
+    {
+      "@id": "urn:evorao:ELIXIR:Service:2126",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "2126",
+      "dcterms:title": "Electron Microscopy Data Bank",
+      "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+      "dcat:keyword": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "repository",
+        "collects"
+      ],
+      "search:keywords": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "repository",
+        "collects"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ELIXIR Europe"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "dcterms:identifier": "FAIRsharing:5449"
+      },
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:accessPointUrl": "https://fairsharing.org/2126",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "repository"
+        }
+      ],
+      "EVORAO:keywords": [
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Medical Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "disease"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pathogen"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Viruses"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pandemic preparedness"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "repository"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "collects"
+        }
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBI:10239"
+        }
+      }
+    },
+    {
+      "@id": "urn:evorao:ELIXIR:Service:3670",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "3670",
+      "dcterms:title": "SARS-CoV-2 Database",
+      "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+      "dcat:keyword": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "knowledgebase",
+        "collects"
+      ],
+      "search:keywords": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "knowledgebase",
+        "collects"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ELIXIR Europe"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "dcterms:identifier": "FAIRsharing:5449"
+      },
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:accessPointUrl": "https://fairsharing.org/3670",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "knowledgebase"
+        }
+      ],
+      "EVORAO:keywords": [
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Medical Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "disease"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pathogen"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Viruses"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pandemic preparedness"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "knowledgebase"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "collects"
+        }
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBI:10239"
+        }
+      }
+    },
+    {
+      "@id": "urn:evorao:ELIXIR:Service:2934",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "2934",
+      "dcterms:title": "COVID-19 Data Portal",
+      "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+      "dcat:keyword": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "repository",
+        "collects"
+      ],
+      "search:keywords": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "repository",
+        "collects"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ELIXIR Europe"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "dcterms:identifier": "FAIRsharing:5449"
+      },
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:accessPointUrl": "https://fairsharing.org/2934",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "repository"
+        }
+      ],
+      "EVORAO:keywords": [
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Medical Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "disease"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pathogen"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Viruses"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pandemic preparedness"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "repository"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "collects"
+        }
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBI:10239"
+        }
+      }
+    },
+    {
+      "@id": "urn:evorao:ELIXIR:Service:1850",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "1850",
+      "dcterms:title": "European Nucleotide Archive",
+      "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+      "dcat:keyword": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "repository",
+        "collects"
+      ],
+      "search:keywords": [
+        "Virology",
+        "Medical Virology",
+        "disease",
+        "pathogen",
+        "Viruses",
+        "pandemic preparedness",
+        "Database",
+        "repository",
+        "collects"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ELIXIR Europe"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "dcterms:description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "dcterms:identifier": "FAIRsharing:5449"
+      },
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:accessPointUrl": "https://fairsharing.org/1850",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "repository"
+        }
+      ],
+      "EVORAO:keywords": [
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Medical Virology"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "disease"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pathogen"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Viruses"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "pandemic preparedness"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "Database"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "repository"
+        },
+        {
+          "@type": "EVORAO:Keyword",
+          "dcterms:title": "collects"
+        }
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBI:10239"
+        }
+      }
+    }
+  ]
+}
