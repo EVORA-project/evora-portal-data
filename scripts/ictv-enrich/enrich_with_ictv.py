@@ -6,6 +6,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, Any, Optional, Set
+from datetime import datetime
 
 from ictv_api import ICTVOLSClient  # fetched by workflow into this folder
 
@@ -64,9 +65,16 @@ def load_cache(cache_path: Path) -> Dict[str, Any]:
 
 def save_cache(cache: Dict[str, Any], cache_path: Path):
     try:
+        # Always stamp cache with a fresh timestamp before saving
+        cache["_fetched_at"] = datetime.utcnow().isoformat()
+
         with cache_path.open("w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
-        print(f" Saved ICTV cache to {cache_path} ({len(cache)} entries)")
+
+        print(
+            f" Saved ICTV cache to {cache_path} "
+            f"({len(cache)} entries, stamped {_fetched_at})"
+        )
     except Exception as e:
         print(f"⚠️ Failed to save cache {cache_path}: {e}")
 
