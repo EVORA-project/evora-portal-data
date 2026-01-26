@@ -1,244 +1,4599 @@
 {
-  "data": {
-    "id": "5449",
-    "type": "fairsharing_records",
-    "attributes": {
-      "created_at": "2024-04-22T09:15:29.411Z",
-      "updated_at": "2024-08-15T08:50:02.538Z",
-      "metadata": {
-        "name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
-        "status": "in_development",
-        "contacts": [
+  "collection": {
+    "data": {
+      "id": "5449",
+      "type": "fairsharing_records",
+      "attributes": {
+        "created_at": "2024-04-22T09:15:29.411Z",
+        "updated_at": "2026-01-26T10:51:48.508Z",
+        "metadata": {
+          "name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+          "status": "ready",
+          "contacts": [
+            {
+              "contact_name": "EVORA helpdesk",
+              "contact_email": "fairsharing-helpdesk@evora-project.eu",
+              "contact_orcid": null
+            }
+          ],
+          "homepage": "https://evora-project.eu/",
+          "citations": [],
+          "identifier": 5449,
+          "description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+          "abbreviation": null,
+          "year_creation": null
+        },
+        "legacy_ids": [],
+        "name": "FAIRsharing record for: EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "abbreviation": null,
+        "url": "https://fairsharing.org/5449",
+        "doi": null,
+        "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+        "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "linked_records": [
           {
-            "contact_name": "EVORA helpdesk",
-            "contact_email": "fairsharing-helpdesk@evora-project.eu",
-            "contact_orcid": null
+            "linked_record_name": "Electron Microscopy Data Bank",
+            "linked_record_id": 2126,
+            "linked_record_registry": "Database",
+            "linked_record_type": "repository",
+            "relation": "collects",
+            "link_id": 19701
+          },
+          {
+            "linked_record_name": "COVID-19 Data Portal",
+            "linked_record_id": 2934,
+            "linked_record_registry": "Database",
+            "linked_record_type": "repository",
+            "relation": "collects",
+            "link_id": 19703
+          },
+          {
+            "linked_record_name": "European Nucleotide Archive",
+            "linked_record_id": 1850,
+            "linked_record_registry": "Database",
+            "linked_record_type": "repository",
+            "relation": "collects",
+            "link_id": 19704
+          },
+          {
+            "linked_record_name": "RDMkit Virology Domain",
+            "linked_record_id": 7482,
+            "linked_record_registry": "Collection",
+            "linked_record_type": "collection",
+            "relation": "collects",
+            "link_id": 26760
+          },
+          {
+            "linked_record_name": "Image Data Resource ",
+            "linked_record_id": 2303,
+            "linked_record_registry": "Database",
+            "linked_record_type": "repository",
+            "relation": "collects",
+            "link_id": 26761
+          },
+          {
+            "linked_record_name": "The COVID-19 Vocabulary",
+            "linked_record_id": 4947,
+            "linked_record_registry": "Standard",
+            "linked_record_type": "terminology_artefact",
+            "relation": "collects",
+            "link_id": 26762
+          },
+          {
+            "linked_record_name": "Protein Data Bank in Europe",
+            "linked_record_id": 1860,
+            "linked_record_registry": "Database",
+            "linked_record_type": "repository",
+            "relation": "collects",
+            "link_id": 26763
+          },
+          {
+            "linked_record_name": "ENA Sequence Flat File Format",
+            "linked_record_id": 1478,
+            "linked_record_registry": "Standard",
+            "linked_record_type": "model_and_format",
+            "relation": "collects",
+            "link_id": 26764
+          },
+          {
+            "linked_record_name": "ENA Sequence XML Schema",
+            "linked_record_id": 1061,
+            "linked_record_registry": "Standard",
+            "linked_record_type": "model_and_format",
+            "relation": "collects",
+            "link_id": 26765
+          },
+          {
+            "linked_record_name": "ENA Sample Checklists",
+            "linked_record_id": 1333,
+            "linked_record_registry": "Standard",
+            "linked_record_type": "reporting_guideline",
+            "relation": "collects",
+            "link_id": 26766
+          },
+          {
+            "linked_record_name": "EBI BioSamples JSON Format ",
+            "linked_record_id": 735,
+            "linked_record_registry": "Standard",
+            "linked_record_type": "model_and_format",
+            "relation": "collects",
+            "link_id": 26770
+          },
+          {
+            "linked_record_name": "BioSamples",
+            "linked_record_id": 1554,
+            "linked_record_registry": "Database",
+            "linked_record_type": "repository",
+            "relation": "collects",
+            "link_id": 26771
+          },
+          {
+            "linked_record_name": "Nextstrain",
+            "linked_record_id": 6193,
+            "linked_record_registry": "Database",
+            "linked_record_type": "knowledgebase",
+            "relation": "collects",
+            "link_id": 26772
           }
         ],
-        "homepage": "https://evora-project.eu/",
-        "citations": [],
-        "identifier": 5449,
-        "description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
-        "abbreviation": null,
-        "year_creation": null
-      },
-      "legacy_ids": [],
-      "name": "FAIRsharing record for: EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
-      "abbreviation": null,
-      "url": "https://fairsharing.org/5449",
-      "doi": null,
-      "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
-      "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
-      "linked_records": [
-        {
-          "linked_record_name": "Electron Microscopy Data Bank",
-          "linked_record_id": 2126,
-          "linked_record_registry": "Database",
-          "linked_record_type": "repository",
-          "relation": "collects",
-          "link_id": 19701
-        },
-        {
-          "linked_record_name": "SARS-CoV-2 Database",
-          "linked_record_id": 3670,
-          "linked_record_registry": "Database",
-          "linked_record_type": "knowledgebase",
-          "relation": "collects",
-          "link_id": 19702
-        },
-        {
-          "linked_record_name": "COVID-19 Data Portal",
-          "linked_record_id": 2934,
-          "linked_record_registry": "Database",
-          "linked_record_type": "repository",
-          "relation": "collects",
-          "link_id": 19703
-        },
-        {
-          "linked_record_name": "European Nucleotide Archive",
-          "linked_record_id": 1850,
-          "linked_record_registry": "Database",
-          "linked_record_type": "repository",
-          "relation": "collects",
-          "link_id": 19704
-        }
-      ],
-      "linking_records": [],
-      "fairsharing_registry": "Collection",
-      "record_type": "collection",
-      "subjects": [
-        "Virology",
-        "Medical Virology"
-      ],
-      "domains": [
-        "disease",
-        "pathogen"
-      ],
-      "taxonomies": [
-        "Viruses"
-      ],
-      "user_defined_tags": [
-        "pandemic preparedness"
-      ],
-      "countries": [],
-      "publications": [],
-      "licence_links": [],
-      "organisation_links": [
-        {
-          "organisation_name": "European Virus Archive",
-          "organisation_id": 4347,
-          "organisation_types": [
-            "Consortium"
-          ],
-          "fairsharing_record_id": 5449,
-          "link_id": 11731,
-          "relation": "collaborates_on"
-        },
-        {
-          "organisation_name": "ELIXIR Europe",
-          "organisation_id": 841,
-          "organisation_types": [
-            "Government body"
-          ],
-          "fairsharing_record_id": 5449,
-          "link_id": 11734,
-          "relation": "collaborates_on"
-        },
-        {
-          "organisation_name": "European Research Infrastructure on Highly Pathogenic Agents",
-          "organisation_id": 3440,
-          "organisation_types": [
-            "Consortium"
-          ],
-          "fairsharing_record_id": 5449,
-          "link_id": 11733,
-          "relation": "collaborates_on"
-        },
-        {
-          "organisation_name": "EVORA",
-          "organisation_id": 4346,
-          "organisation_types": [
-            "Consortium"
-          ],
-          "fairsharing_record_id": 5449,
-          "link_id": 11732,
-          "relation": "maintains"
-        },
-        {
-          "organisation_name": "European Commission Horizon Europe",
-          "organisation_id": 3374,
-          "organisation_types": [
-            "Government body"
-          ],
-          "fairsharing_record_id": 5449,
-          "link_id": 11746,
-          "relation": "funds",
-          "grant_id": 2004,
-          "grant_name": "101131959"
-        }
-      ],
-      "grants": [
-        {
-          "id": 11731,
-          "fairsharing_record_id": 5449,
-          "organisation_id": 4347,
-          "relation": "collaborates_on",
-          "created_at": "2024-04-22T12:20:30.383Z",
-          "updated_at": "2024-04-22T12:20:30.383Z",
-          "grant_id": null,
-          "is_lead": false,
-          "saved_state": {
-            "id": 4347,
-            "name": "European Virus Archive (EVA)",
-            "types": [
+        "linking_records": [],
+        "fairsharing_registry": "Collection",
+        "record_type": "collection",
+        "subjects": [
+          "Virology",
+          "Medical Virology"
+        ],
+        "domains": [
+          "disease",
+          "pathogen"
+        ],
+        "taxonomies": [
+          "Viruses"
+        ],
+        "user_defined_tags": [
+          "pandemic preparedness"
+        ],
+        "countries": [],
+        "publications": [],
+        "licence_links": [],
+        "organisation_links": [
+          {
+            "organisation_name": "European Virus Archive",
+            "organisation_id": 4347,
+            "organisation_types": [
               "Consortium"
             ],
-            "is_lead": false,
+            "fairsharing_record_id": 5449,
+            "link_id": 11731,
             "relation": "collaborates_on"
-          }
-        },
-        {
-          "id": 11734,
-          "fairsharing_record_id": 5449,
-          "organisation_id": 841,
-          "relation": "collaborates_on",
-          "created_at": "2024-04-22T12:20:30.450Z",
-          "updated_at": "2024-04-22T12:20:30.450Z",
-          "grant_id": null,
-          "is_lead": false,
-          "saved_state": {
-            "id": 841,
-            "name": "ELIXIR Europe",
-            "types": [
+          },
+          {
+            "organisation_name": "ELIXIR Europe",
+            "organisation_id": 841,
+            "organisation_types": [
               "Government body"
             ],
-            "is_lead": false,
+            "fairsharing_record_id": 5449,
+            "link_id": 11734,
             "relation": "collaborates_on"
-          }
-        },
-        {
-          "id": 11733,
-          "fairsharing_record_id": 5449,
-          "organisation_id": 3440,
-          "relation": "collaborates_on",
-          "created_at": "2024-04-22T12:20:30.432Z",
-          "updated_at": "2024-04-22T12:20:30.432Z",
-          "grant_id": null,
-          "is_lead": false,
-          "saved_state": {
-            "id": 3440,
-            "name": "European Research Infrastructure on Highly Pathogenic Agents",
-            "types": [
+          },
+          {
+            "organisation_name": "European Research Infrastructure on Highly Pathogenic Agents",
+            "organisation_id": 3440,
+            "organisation_types": [
               "Consortium"
             ],
-            "is_lead": false,
+            "fairsharing_record_id": 5449,
+            "link_id": 11733,
             "relation": "collaborates_on"
-          }
-        },
-        {
-          "id": 11732,
-          "fairsharing_record_id": 5449,
-          "organisation_id": 4346,
-          "relation": "maintains",
-          "created_at": "2024-04-22T12:20:30.384Z",
-          "updated_at": "2024-04-22T12:20:30.384Z",
-          "grant_id": null,
-          "is_lead": true,
-          "saved_state": {
-            "id": 4346,
-            "name": "EVORA",
-            "types": [
+          },
+          {
+            "organisation_name": "EVORA",
+            "organisation_id": 4346,
+            "organisation_types": [
               "Consortium"
             ],
-            "is_lead": true,
+            "fairsharing_record_id": 5449,
+            "link_id": 11732,
             "relation": "maintains"
-          }
-        },
-        {
-          "id": 11746,
-          "fairsharing_record_id": 5449,
-          "organisation_id": 3374,
-          "relation": "funds",
-          "created_at": "2024-04-24T08:08:42.276Z",
-          "updated_at": "2024-04-24T08:08:42.276Z",
-          "grant_id": 2004,
-          "is_lead": false,
-          "saved_state": {
-            "id": 3374,
-            "name": "European Commission Horizon Europe",
-            "grant": "101131959",
-            "types": [
+          },
+          {
+            "organisation_name": "European Commission Horizon Europe",
+            "organisation_id": 3374,
+            "organisation_types": [
               "Government body"
             ],
-            "is_lead": false,
-            "relation": "funds"
+            "fairsharing_record_id": 5449,
+            "link_id": 11746,
+            "relation": "funds",
+            "grant_id": 2004,
+            "grant_name": "101131959"
           }
+        ],
+        "grants": [
+          {
+            "id": 11731,
+            "fairsharing_record_id": 5449,
+            "organisation_id": 4347,
+            "relation": "collaborates_on",
+            "created_at": "2024-04-22T12:20:30.383Z",
+            "updated_at": "2024-04-22T12:20:30.383Z",
+            "grant_id": null,
+            "is_lead": false,
+            "saved_state": {
+              "id": 4347,
+              "name": "European Virus Archive (EVA)",
+              "types": [
+                "Consortium"
+              ],
+              "is_lead": false,
+              "relation": "collaborates_on"
+            }
+          },
+          {
+            "id": 11734,
+            "fairsharing_record_id": 5449,
+            "organisation_id": 841,
+            "relation": "collaborates_on",
+            "created_at": "2024-04-22T12:20:30.450Z",
+            "updated_at": "2024-04-22T12:20:30.450Z",
+            "grant_id": null,
+            "is_lead": false,
+            "saved_state": {
+              "id": 841,
+              "name": "ELIXIR Europe",
+              "types": [
+                "Government body"
+              ],
+              "is_lead": false,
+              "relation": "collaborates_on"
+            }
+          },
+          {
+            "id": 11733,
+            "fairsharing_record_id": 5449,
+            "organisation_id": 3440,
+            "relation": "collaborates_on",
+            "created_at": "2024-04-22T12:20:30.432Z",
+            "updated_at": "2024-04-22T12:20:30.432Z",
+            "grant_id": null,
+            "is_lead": false,
+            "saved_state": {
+              "id": 3440,
+              "name": "European Research Infrastructure on Highly Pathogenic Agents",
+              "types": [
+                "Consortium"
+              ],
+              "is_lead": false,
+              "relation": "collaborates_on"
+            }
+          },
+          {
+            "id": 11732,
+            "fairsharing_record_id": 5449,
+            "organisation_id": 4346,
+            "relation": "maintains",
+            "created_at": "2024-04-22T12:20:30.384Z",
+            "updated_at": "2024-04-22T12:20:30.384Z",
+            "grant_id": null,
+            "is_lead": true,
+            "saved_state": {
+              "id": 4346,
+              "name": "EVORA",
+              "types": [
+                "Consortium"
+              ],
+              "is_lead": true,
+              "relation": "maintains"
+            }
+          },
+          {
+            "id": 11746,
+            "fairsharing_record_id": 5449,
+            "organisation_id": 3374,
+            "relation": "funds",
+            "created_at": "2024-04-24T08:08:42.276Z",
+            "updated_at": "2024-04-24T08:08:42.276Z",
+            "grant_id": 2004,
+            "is_lead": false,
+            "saved_state": {
+              "id": 3374,
+              "name": "European Commission Horizon Europe",
+              "grant": "101131959",
+              "types": [
+                "Government body"
+              ],
+              "is_lead": false,
+              "relation": "funds"
+            }
+          }
+        ],
+        "url_for_logo": null,
+        "exhaustive_licences": false,
+        "object_types": [],
+        "internal_identifiers": null
+      }
+    }
+  },
+  "records": {
+    "1061": {
+      "data": {
+        "id": "1061",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2020-02-26T11:49:41.000Z",
+          "updated_at": "2025-07-11T09:35:56.027Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.9ed958",
+            "name": "ENA Sequence XML Schema",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "EBI Helpdesk",
+                "contact_email": "support@ebi.ac.uk"
+              }
+            ],
+            "homepage": "https://ena-docs.readthedocs.io/en/latest/submit/general-guide/programmatic.html",
+            "citations": [],
+            "identifier": 1061,
+            "description": "ENA Sequence XML Schema is a standardised XML schema for nucleotide sequences. All assembled and annotated sequences must conform to this schema.",
+            "abbreviation": "ENA EMBL XSD",
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/ena/submit/sequence-format",
+                "name": "Assembled and Annotated Sequences",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://ena-docs.readthedocs.io/en/latest/submit/general-guide/programmatic.html",
+                "name": "Programmatic Submission",
+                "type": "Help documentation"
+              }
+            ]
+          },
+          "legacy_ids": [
+            "bsg-001452",
+            "bsg-s001452"
+          ],
+          "name": "FAIRsharing record for: ENA Sequence XML Schema",
+          "abbreviation": "ENA EMBL XSD",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.9ed958",
+          "doi": "10.25504/FAIRsharing.9ed958",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: ENA Sequence XML Schema is a standardised XML schema for nucleotide sequences. All assembled and annotated sequences must conform to this schema.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12561
+            },
+            {
+              "linking_record_name": "Multi-Omics Metadata Standards Integration Working Group Iterative Collection",
+              "linking_record_id": 5742,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 21021
+            },
+            {
+              "linking_record_name": "Life Science Standards",
+              "linking_record_id": 6225,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 22550
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26765
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "model_and_format",
+          "subjects": [
+            "Transcriptomics",
+            "Genetics",
+            "Bioinformatics",
+            "Genomics"
+          ],
+          "domains": [
+            "Nucleic acid sequence",
+            "deoxyribonucleic acid",
+            "nucleic acid",
+            "genome"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Austria",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "publications": [],
+          "licence_links": [
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 2340,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 6693,
+              "fairsharing_record_id": 1061,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:28:10.420Z",
+              "updated_at": "2021-09-30T09:28:10.420Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [
+            "dataset"
+          ],
+          "internal_identifiers": null
         }
-      ],
-      "url_for_logo": null,
-      "exhaustive_licences": false,
-      "object_types": [],
-      "internal_identifiers": null
+      }
+    },
+    "1333": {
+      "data": {
+        "id": "1333",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2015-06-10T09:45:47.000Z",
+          "updated_at": "2024-11-14T10:45:11.568Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.2b3at8",
+            "name": "ENA Sample Checklists",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "Petra ten Hoopen",
+                "contact_email": "petra@ebi.ac.uk",
+                "contact_orcid": "0000-0003-4242-4015"
+              }
+            ],
+            "homepage": "https://www.ebi.ac.uk/ena/browser/checklists",
+            "citations": [
+              {
+                "doi": "10.1186/s40793-015-0001-5",
+                "pubmed_id": 26203332,
+                "publication_id": 1787
+              }
+            ],
+            "identifier": 1333,
+            "description": "There is a minimum amount of information required during ENA sample registration and all samples must conform to a defined checklist of expected metadata values. The most suitable checklist for sample registration depends on the type of the sample. These sample checklists have been developed to meet the needs of different research communities. Different communities have different requirements on the minimum metadata expected to describe biological samples.",
+            "abbreviation": null,
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/ena/browser/support",
+                "type": "Contact form"
+              }
+            ],
+            "year_creation": null
+          },
+          "legacy_ids": [
+            "bsg-000592",
+            "bsg-s000592"
+          ],
+          "name": "FAIRsharing record for: ENA Sample Checklists",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.2b3at8",
+          "doi": "10.25504/FAIRsharing.2b3at8",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: There is a minimum amount of information required during ENA sample registration and all samples must conform to a defined checklist of expected metadata values. The most suitable checklist for sample registration depends on the type of the sample. These sample checklists have been developed to meet the needs of different research communities. Different communities have different requirements on the minimum metadata expected to describe biological samples.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12485
+            },
+            {
+              "linking_record_name": "Genomic Standards Consortium",
+              "linking_record_id": 3528,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 16037
+            },
+            {
+              "linking_record_name": "Multi-Omics Metadata Standards Integration Working Group Iterative Collection",
+              "linking_record_id": 5742,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 21026
+            },
+            {
+              "linking_record_name": "EUREMAP: EUROPEAN RESEARCH INFRASTRUCTURES FOR MARINE BIOPROSPECTING",
+              "linking_record_id": 6042,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 21417
+            },
+            {
+              "linking_record_name": "Life Science Standards",
+              "linking_record_id": 6225,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 22710
+            },
+            {
+              "linking_record_name": "ELIXIR Biodiversity Community",
+              "linking_record_id": 6505,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 24068
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26766
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "reporting_guideline",
+          "subjects": [
+            "Life Science",
+            "Biodiversity",
+            "Genomics",
+            "Oceanography"
+          ],
+          "domains": [],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "United Kingdom"
+          ],
+          "publications": [],
+          "licence_links": [
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 1380,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 12400,
+              "fairsharing_record_id": 1333,
+              "organisation_id": 841,
+              "relation": "collaborates_on",
+              "created_at": "2024-10-14T08:16:33.573Z",
+              "updated_at": "2024-10-14T08:16:33.573Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 841,
+                "name": "ELIXIR Europe",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "collaborates_on"
+              }
+            },
+            {
+              "id": 12399,
+              "fairsharing_record_id": 1333,
+              "organisation_id": 941,
+              "relation": "maintains",
+              "created_at": "2024-10-14T08:16:33.512Z",
+              "updated_at": "2024-10-14T08:16:33.512Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 941,
+                "name": "European Molecular Biology Laboratory",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 7233,
+              "fairsharing_record_id": 1333,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:28:30.629Z",
+              "updated_at": "2024-10-14T08:16:48.630Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [],
+          "internal_identifiers": null
+        }
+      }
+    },
+    "1478": {
+      "data": {
+        "id": "1478",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2014-11-04T15:23:40.000Z",
+          "updated_at": "2023-01-27T22:46:30.435Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.q9nh66",
+            "name": "ENA Sequence Flat File Format",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "EBI Helpdesk",
+                "contact_email": "support@ebi.ac.uk"
+              }
+            ],
+            "homepage": "https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html",
+            "identifier": 1478,
+            "description": "ENA Sequence Flat File Format is a standardised plain text format for nucleotide sequences. This format was previously called the EMBL Sequence Flat File Format.",
+            "abbreviation": null,
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/ena/submit/flat-file",
+                "name": "Flat File Example",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/ena/WebFeat/",
+                "name": "Flat File Features and Qualifiers",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/ena/submit/sequence-format",
+                "name": "Assembled and Annotated Sequences",
+                "type": "Help documentation"
+              }
+            ],
+            "year_creation": 1980
+          },
+          "legacy_ids": [
+            "bsg-000226",
+            "bsg-s000226"
+          ],
+          "name": "FAIRsharing record for: ENA Sequence Flat File Format",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.q9nh66",
+          "doi": "10.25504/FAIRsharing.q9nh66",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: ENA Sequence Flat File Format is a standardised plain text format for nucleotide sequences. This format was previously called the EMBL Sequence Flat File Format.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12439
+            },
+            {
+              "linking_record_name": "Life Science Standards",
+              "linking_record_id": 6225,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 22854
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26764
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "model_and_format",
+          "subjects": [
+            "Genetics",
+            "Bioinformatics",
+            "Genomics"
+          ],
+          "domains": [
+            "Nucleic acid sequence",
+            "deoxyribonucleic acid",
+            "region",
+            "genome"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Austria",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "publications": [],
+          "licence_links": [
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 2327,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 7526,
+              "fairsharing_record_id": 1478,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:28:40.760Z",
+              "updated_at": "2021-09-30T09:28:40.760Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [],
+          "internal_identifiers": null
+        }
+      }
+    },
+    "1554": {
+      "data": {
+        "id": "1554",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2014-11-04T15:23:40.000Z",
+          "updated_at": "2025-11-28T11:00:12.925Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.ewjdq6",
+            "name": "BioSamples",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "Support email",
+                "contact_email": "biosamples@ebi.ac.uk"
+              }
+            ],
+            "homepage": "https://www.ebi.ac.uk/biosamples/",
+            "citations": [
+              {
+                "doi": "10.1093/nar/gkaf1133",
+                "pubmed_id": null,
+                "publication_id": 5180
+              }
+            ],
+            "identifier": 1554,
+            "description": " The BioSamples database (https://www.ebi.ac.uk/biosamples/) at the European Bioinformatics Institute (EMBL-EBI) is a core infrastructure resource that provides a centralised platform for the storage, curation, and dissemination of biological sample metadata. BioSamples holds sample descriptions across diverse datasets, enhancing their reusability and integrability in accordance with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. It provides links to assays and specific samples, and accepts direct submissions of sample information.",
+            "abbreviation": "BioSD",
+            "data_curation": {
+              "url": "https://www.ebi.ac.uk/biosamples/docs/guides/curation",
+              "type": "manual/automated",
+              "notes": "BioSamples performs automatic curation and supports manual curation to improve sample data findability."
+            },
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/biosamples/docs/faq",
+                "name": "FAQ",
+                "type": "Frequently Asked Questions (FAQs)"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/biosamples/docs",
+                "name": "Documentation",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://github.com/EBIBioSamples/biosamples-v4",
+                "name": "GitHub Project",
+                "type": "Github"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/biosamples/about",
+                "name": "About",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://tess.elixir-europe.org/materials/biosamples",
+                "name": "BioSamples: Quick tour",
+                "type": "TeSS links to training materials"
+              },
+              {
+                "url": "https://en.wikipedia.org/wiki/BioSD",
+                "name": "Wikipedia Entry",
+                "type": "Wikipedia"
+              }
+            ],
+            "year_creation": 2010,
+            "data_versioning": "no",
+            "cross_references": [
+              {
+                "url": "https://www.re3data.org/repository/r3d100012628",
+                "name": "re3data:r3d100012628",
+                "portal": "re3data"
+              },
+              {
+                "url": "https://scicrunch.org/resolver/RRID:SCR_004856",
+                "name": "SciCrunch:RRID:SCR_004856",
+                "portal": "SciCrunch"
+              }
+            ],
+            "internal_identifiers": true,
+            "data_access_condition": {
+              "type": "open"
+            },
+            "resource_sustainability": {},
+            "data_contact_information": "no",
+            "data_preservation_policy": {},
+            "data_deposition_condition": {
+              "url": "https://www.ebi.ac.uk/biosamples/submit",
+              "type": "open"
+            },
+            "citation_to_related_publications": "no",
+            "data_access_for_pre_publication_review": "no"
+          },
+          "legacy_ids": [
+            "biodbcore-000008",
+            "bsg-d000008"
+          ],
+          "name": "FAIRsharing record for: BioSamples",
+          "abbreviation": "BioSD",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.ewjdq6",
+          "doi": "10.25504/FAIRsharing.ewjdq6",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes:  The BioSamples database (https://www.ebi.ac.uk/biosamples/) at the European Bioinformatics Institute (EMBL-EBI) is a core infrastructure resource that provides a centralised platform for the storage, curation, and dissemination of biological sample metadata. BioSamples holds sample descriptions across diverse datasets, enhancing their reusability and integrability in accordance with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. It provides links to assays and specific samples, and accepts direct submissions of sample information.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "ELIXIR Toxicology Community",
+              "linking_record_id": 3496,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 17059
+            },
+            {
+              "linking_record_name": "ELIXIR Data resource services",
+              "linking_record_id": 3535,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 17080
+            },
+            {
+              "linking_record_name": "EOSC-Life",
+              "linking_record_id": 3513,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11317
+            },
+            {
+              "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
+              "linking_record_id": 3527,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11828
+            },
+            {
+              "linking_record_name": "Bioschemas Deploys",
+              "linking_record_id": 3517,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 19499
+            },
+            {
+              "linking_record_name": "European Life Science Research Infrastructures",
+              "linking_record_id": 6457,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 23798
+            },
+            {
+              "linking_record_name": "ELIXIR Biodiversity Community",
+              "linking_record_id": 6505,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 24146
+            },
+            {
+              "linking_record_name": "RDMkit Plant sciences Domain",
+              "linking_record_id": 7479,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26291
+            },
+            {
+              "linking_record_name": "RDMkit Virology Domain",
+              "linking_record_id": 7482,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26344
+            },
+            {
+              "linking_record_name": "RDMkit Biodiversity Domain",
+              "linking_record_id": 7490,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26439
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26771
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "repository",
+          "subjects": [
+            "Biology"
+          ],
+          "domains": [
+            "Sample annotation",
+            "Biospecimen",
+            "assay",
+            "phenotype",
+            "disease",
+            "genotype"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [
+            "COVID-19"
+          ],
+          "countries": [
+            "Austria",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "publications": [
+            {
+              "id": 821,
+              "pubmed_id": 24265224,
+              "title": "Updates to BioSamples database at European Bioinformatics Institute.",
+              "year": 2013,
+              "url": "http://doi.org/10.1093/nar/gkt1081",
+              "authors": "Faulconbridge A,Burdett T,Brandizi M,Gostev M,Pereira R,Vasant D,Sarkans U,Brazma A,Parkinson H",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkt1081",
+              "created_at": "2021-09-30T08:23:50.519Z",
+              "updated_at": "2021-09-30T11:28:53.084Z"
+            },
+            {
+              "id": 1265,
+              "pubmed_id": 22096232,
+              "title": "The BioSample Database (BioSD) at the European Bioinformatics Institute.",
+              "year": 2011,
+              "url": "http://doi.org/10.1093/nar/gkr937",
+              "authors": "Gostev M,Faulconbridge A,Brandizi M,Fernandez-Banet J,Sarkans U,Brazma A,Parkinson H",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkr937",
+              "created_at": "2021-09-30T08:24:41.123Z",
+              "updated_at": "2021-09-30T11:29:04.535Z"
+            },
+            {
+              "id": 2764,
+              "pubmed_id": 30407529,
+              "title": "BioSamples database: an updated sample metadata hub.",
+              "year": 2018,
+              "url": "http://doi.org/10.1093/nar/gky1061",
+              "authors": "Courtot M,Cherubin L,Faulconbridge A,Vaughan D,Green M,Richardson D,Harrison P,Whetzel PL,Parkinson H,Burdett T",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gky1061",
+              "created_at": "2021-09-30T08:27:39.720Z",
+              "updated_at": "2021-09-30T11:29:43.220Z"
+            },
+            {
+              "id": 3215,
+              "pubmed_id": 0,
+              "title": "BioSamples database: FAIRer samples metadata to accelerate research data management",
+              "year": 2022,
+              "url": "https://academic.oup.com/nar/article/50/D1/D1500/6423179",
+              "authors": "Mélanie Courtot,  Dipayan Gupta,  Isuru Liyanage,  Fuqi Xu,  Tony Burdett",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkab1046",
+              "created_at": "2022-02-08T12:16:26.427Z",
+              "updated_at": "2022-02-08T12:16:26.427Z"
+            },
+            {
+              "id": 5180,
+              "pubmed_id": null,
+              "title": "BioSamples database: the global hub for sample metadata and multi-omics integration",
+              "year": 2025,
+              "url": "http://dx.doi.org/10.1093/nar/gkaf1133",
+              "authors": "Gupta, Dipayan; Liyanage, Isuru; Perez-Riverol, Yasset; Ventura, Enrique Sapena; Teh, Wei Kheng; Van Den Bossche, Tim; Vijayaraja, Senthilnathan; Khen, Amnon; Sarkans, Ugis; Burdett, Tony; Rajan, Jeena; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkaf1133",
+              "created_at": "2025-11-27T13:16:29.290Z",
+              "updated_at": "2025-11-27T13:16:29.290Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "Apache License 2.0",
+              "licence_id": 35,
+              "licence_url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "link_id": 2063,
+              "relation": "undefined"
+            },
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 2059,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 10016,
+              "fairsharing_record_id": 1554,
+              "organisation_id": 841,
+              "relation": "associated_with",
+              "created_at": "2022-10-13T09:43:38.875Z",
+              "updated_at": "2022-10-13T09:43:38.875Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 841,
+                "name": "ELIXIR Europe",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 26,
+              "fairsharing_record_id": 1554,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:24:15.866Z",
+              "updated_at": "2021-09-30T09:24:15.866Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 27,
+              "fairsharing_record_id": 1554,
+              "organisation_id": 915,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:15.904Z",
+              "updated_at": "2021-09-30T09:32:30.004Z",
+              "grant_id": 1648,
+              "is_lead": false,
+              "saved_state": {
+                "id": 915,
+                "name": "European Commission",
+                "grant": "HEALTH-F4-2010-241669",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 9238,
+              "fairsharing_record_id": 1554,
+              "organisation_id": 920,
+              "relation": "funds",
+              "created_at": "2022-04-11T12:07:24.526Z",
+              "updated_at": "2022-04-11T12:07:24.546Z",
+              "grant_id": 1538,
+              "is_lead": false,
+              "saved_state": {
+                "id": 920,
+                "name": "European Commission FP7",
+                "grant": "HEALTH-F4-2007-201413",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            }
+          ],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdm9CIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4143c907685616a1d811264fba5110541e029972/biosamples_LOGO.jpg?disposition=inline",
+          "exhaustive_licences": false,
+          "object_types": [
+            "physical object/material"
+          ],
+          "internal_identifiers": true
+        }
+      }
+    },
+    "1850": {
+      "data": {
+        "id": "1850",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2014-11-04T15:23:40.000Z",
+          "updated_at": "2025-07-31T13:13:28.784Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.dj8nt8",
+            "name": "European Nucleotide Archive",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "Guy Cochrane",
+                "contact_email": "datasubs@ebi.ac.uk",
+                "contact_orcid": "0000-0001-7954-7057"
+              },
+              {
+                "contact_name": "Jerry Lanfear",
+                "contact_email": "jerry.lanfear@elixir-europe.org",
+                "contact_orcid": "0000-0002-8007-5568"
+              }
+            ],
+            "homepage": "http://www.ebi.ac.uk/ena",
+            "citations": [
+              {
+                "doi": "10.1093/nar/gkw1106",
+                "pubmed_id": 27899630,
+                "publication_id": 2401
+              }
+            ],
+            "identifier": 1850,
+            "description": "The European Nucleotide Archive (ENA) is a globally comprehensive data resource for nucleotide sequence, spanning raw data, alignments and assemblies, functional and taxonomic annotation and rich contextual data relating to sequenced samples and experimental design. Serving both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data, the ENA provides a portfolio of services for submission, data management, search and retrieval across web and programmatic interfaces. The ENA is part of the International Nucleotide Sequence Database Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at the NCBI. These three organizations exchange data on a daily basis.",
+            "abbreviation": "ENA",
+            "data_curation": {
+              "type": "not found"
+            },
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/ena/browser/support",
+                "name": "Support / Feedback Form",
+                "type": "Contact form"
+              },
+              {
+                "url": "http://listserver.ebi.ac.uk/mailman/listinfo/ena-announce",
+                "name": "ENA Announce",
+                "type": "Mailing list"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/ena/about",
+                "name": "About ENA",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://ena-docs.readthedocs.io/en/latest/",
+                "name": "Tutorials and Guidelines",
+                "type": "Training documentation"
+              },
+              {
+                "url": "https://twitter.com/enasequence",
+                "name": "@enasequence",
+                "type": "Twitter"
+              }
+            ],
+            "year_creation": 1980,
+            "data_versioning": "yes",
+            "associated_tools": [
+              {
+                "url": "https://www.ebi.ac.uk/ena/software/cram-toolkit",
+                "name": "CRAM"
+              }
+            ],
+            "cross_references": [
+              {
+                "url": "https://www.re3data.org/repository/r3d100010527",
+                "name": "re3data:r3d100010527",
+                "portal": "re3data"
+              },
+              {
+                "url": "https://scicrunch.org/resolver/RRID:SCR_006515",
+                "name": "SciCrunch:RRID:SCR_006515",
+                "portal": "SciCrunch"
+              }
+            ],
+            "internal_identifiers": false,
+            "data_access_condition": {
+              "url": "https://www.ebi.ac.uk/ena/browser/about",
+              "type": "open"
+            },
+            "resource_sustainability": {},
+            "data_contact_information": "no",
+            "data_preservation_policy": {},
+            "data_deposition_condition": {
+              "url": "https://www.ebi.ac.uk/ena/browser/submit",
+              "type": "open"
+            },
+            "citation_to_related_publications": "yes",
+            "data_access_for_pre_publication_review": "no"
+          },
+          "legacy_ids": [
+            "biodbcore-000310",
+            "bsg-d000310"
+          ],
+          "name": "FAIRsharing record for: European Nucleotide Archive",
+          "abbreviation": "ENA",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.dj8nt8",
+          "doi": "10.25504/FAIRsharing.dj8nt8",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The European Nucleotide Archive (ENA) is a globally comprehensive data resource for nucleotide sequence, spanning raw data, alignments and assemblies, functional and taxonomic annotation and rich contextual data relating to sequenced samples and experimental design. Serving both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data, the ENA provides a portfolio of services for submission, data management, search and retrieval across web and programmatic interfaces. The ENA is part of the International Nucleotide Sequence Database Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at the NCBI. These three organizations exchange data on a daily basis.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "Genomic Standards Consortium",
+              "linking_record_id": 3528,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 17569
+            },
+            {
+              "linking_record_name": "Data Citation Implementation",
+              "linking_record_id": 3500,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 10939
+            },
+            {
+              "linking_record_name": "EOSC-Life",
+              "linking_record_id": 3513,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11336
+            },
+            {
+              "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
+              "linking_record_id": 3527,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11837
+            },
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12636
+            },
+            {
+              "linking_record_name": "TDR COVID-19 Participant-level data sharing platforms & registries",
+              "linking_record_id": 3544,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12954
+            },
+            {
+              "linking_record_name": "Biodiversity Community Integrated Knowledge Library",
+              "linking_record_id": 3776,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 13907
+            },
+            {
+              "linking_record_name": "Global Biodata Coalition  - Global Core Biodata Resources",
+              "linking_record_id": 4566,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 16203
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 19704
+            },
+            {
+              "linking_record_name": "ELIXIR Data resource services",
+              "linking_record_id": 3535,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 20298
+            },
+            {
+              "linking_record_name": "EUREMAP: EUROPEAN RESEARCH INFRASTRUCTURES FOR MARINE BIOPROSPECTING",
+              "linking_record_id": 6042,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 21418
+            },
+            {
+              "linking_record_name": "European Life Science Research Infrastructures",
+              "linking_record_id": 6457,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 23817
+            },
+            {
+              "linking_record_name": "ELIXIR Biodiversity Community",
+              "linking_record_id": 6505,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 24136
+            },
+            {
+              "linking_record_name": "RDMkit Microbial biotechnology Domain",
+              "linking_record_id": 7481,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26332
+            },
+            {
+              "linking_record_name": "RDMkit Virology Domain",
+              "linking_record_id": 7482,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26348
+            },
+            {
+              "linking_record_name": "RDMkit Single-cell sequencing Domain",
+              "linking_record_id": 7487,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26412
+            },
+            {
+              "linking_record_name": "RDMkit Human pathogen genomics Domain",
+              "linking_record_id": 7489,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26433
+            },
+            {
+              "linking_record_name": "RDMkit Biodiversity Domain",
+              "linking_record_id": 7490,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26454
+            },
+            {
+              "linking_record_name": "RDMkit Epitranscriptome data Domain",
+              "linking_record_id": 7478,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26488
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "repository",
+          "subjects": [
+            "Functional Genomics",
+            "Biodiversity",
+            "Data Management",
+            "Metagenomics",
+            "Transcriptomics",
+            "Bioinformatics",
+            "Genomics"
+          ],
+          "domains": [
+            "DNA sequence",
+            "Annotation",
+            "Sequence annotation",
+            "Genome assembly",
+            "histone",
+            "deoxyribonucleic acid",
+            "ribonucleic acid",
+            "nucleotide",
+            "sequencing assay",
+            "polypeptide region",
+            "data storage"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [
+            "Data coordination"
+          ],
+          "countries": [
+            "Japan",
+            "United States",
+            "European Union"
+          ],
+          "publications": [
+            {
+              "id": 227,
+              "pubmed_id": 26615190,
+              "title": "Biocuration of functional annotation at the European nucleotide archive.",
+              "year": 2015,
+              "url": "http://doi.org/10.1093/nar/gkv1311",
+              "authors": "Gibson R,Alako B,Amid C,Cerdeno-Tarraga A,Cleland I,Goodgame N,Ten Hoopen P,Jayathilaka S,Kay S,Leinonen R,Liu X,Pallreddy S,Pakseresht N,Rajan J,Rossello M,Silvester N,Smirnov D,Toribio AL,Vaughan D,Zalunin V,Cochrane G",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkv1311",
+              "created_at": "2021-09-30T08:22:44.521Z",
+              "updated_at": "2021-09-30T11:28:44.125Z"
+            },
+            {
+              "id": 274,
+              "pubmed_id": 25404130,
+              "title": "Content discovery and retrieval services at the European Nucleotide Archive.",
+              "year": 2014,
+              "url": "http://doi.org/10.1093/nar/gku1129",
+              "authors": "Silvester N,Alako B,Amid C,Cerdeno-Tarraga A,Cleland I,Gibson R,Goodgame N,Ten Hoopen P,Kay S,Leinonen R,Li W,Liu X,Lopez R,Pakseresht N,Pallreddy S,Plaister S,Radhakrishnan R,Rossello M,Senf A,Smirnov D,Toribio AL,Vaughan D,Zalunin V,Cochrane G",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gku1129",
+              "created_at": "2021-09-30T08:22:49.623Z",
+              "updated_at": "2021-09-30T11:28:44.591Z"
+            },
+            {
+              "id": 822,
+              "pubmed_id": 23203883,
+              "title": "Facing growth in the European Nucleotide Archive.",
+              "year": 2012,
+              "url": "http://doi.org/10.1093/nar/gks1175",
+              "authors": "Cochrane G.,Alako B., et al.,",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gks1175",
+              "created_at": "2021-09-30T08:23:50.618Z",
+              "updated_at": "2021-09-30T11:28:53.175Z"
+            },
+            {
+              "id": 1175,
+              "pubmed_id": 26657633,
+              "title": "The International Nucleotide Sequence Database Collaboration.",
+              "year": 2015,
+              "url": "http://doi.org/10.1093/nar/gkv1323",
+              "authors": "Cochrane G,Karsch-Mizrachi I,Takagi T",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkv1323",
+              "created_at": "2021-09-30T08:24:30.606Z",
+              "updated_at": "2021-09-30T11:29:02.034Z"
+            },
+            {
+              "id": 2401,
+              "pubmed_id": 27899630,
+              "title": "European Nucleotide Archive in 2016.",
+              "year": 2016,
+              "url": "http://doi.org/10.1093/nar/gkw1106",
+              "authors": "Toribio AL.,Alako B., et al.,",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkw1106",
+              "created_at": "2021-09-30T08:26:54.759Z",
+              "updated_at": "2021-09-30T11:29:34.986Z"
+            },
+            {
+              "id": 2468,
+              "pubmed_id": 14681351,
+              "title": "The EMBL Nucleotide Sequence Database.",
+              "year": 2003,
+              "url": "http://doi.org/10.1093/nar/gkh120",
+              "authors": "Kulikova T,Aldebert P., et al.,",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkh120",
+              "created_at": "2021-09-30T08:27:02.652Z",
+              "updated_at": "2021-09-30T11:29:37.053Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "ENA Open Access Statement",
+              "licence_id": 278,
+              "licence_url": "https://www.ebi.ac.uk/ena/standards-and-policies",
+              "link_id": 2338,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 968,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 2282,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.855Z",
+              "updated_at": "2021-09-30T09:24:50.855Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2282,
+                "name": "Oxford Nanopore Technologies, Oxford, UK",
+                "types": [
+                  "Company"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 962,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 2894,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.621Z",
+              "updated_at": "2021-09-30T09:30:00.987Z",
+              "grant_id": 514,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2894,
+                "name": "UK Biotechnology and Biological Sciences Research Council - RNA Central",
+                "grant": "NN/J019321/1",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 963,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 2854,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.664Z",
+              "updated_at": "2021-09-30T09:24:50.664Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2854,
+                "name": "The Wellcome Trust, UK",
+                "types": [
+                  "Charitable foundation"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 964,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 941,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.701Z",
+              "updated_at": "2021-09-30T09:24:50.701Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 941,
+                "name": "European Molecular Biology Laboratory (EMBL), Heidelberg, Germany",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 965,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:24:50.734Z",
+              "updated_at": "2021-09-30T09:24:50.734Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 966,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 2782,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.772Z",
+              "updated_at": "2021-09-30T09:24:50.772Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2782,
+                "name": "The Gordon and Betty Moore Foundation, USA",
+                "types": [
+                  "Charitable foundation"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 959,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 1262,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.511Z",
+              "updated_at": "2021-09-30T09:29:17.542Z",
+              "grant_id": 180,
+              "is_lead": false,
+              "saved_state": {
+                "id": 1262,
+                "name": "Horizon 2020 Programme of the European Union - EMBRIC",
+                "grant": "654008",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 967,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 1263,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.813Z",
+              "updated_at": "2021-09-30T09:31:47.836Z",
+              "grant_id": 1330,
+              "is_lead": false,
+              "saved_state": {
+                "id": 1263,
+                "name": "Horizon 2020 Programme of the European Union - ENVRI+",
+                "grant": "654182",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 960,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 2892,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.542Z",
+              "updated_at": "2021-09-30T09:32:12.577Z",
+              "grant_id": 1517,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2892,
+                "name": "UK Biotechnology and Biological Sciences Research Council - Metagenomics Portal",
+                "grant": "BB/M011755/1",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 957,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 1261,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.434Z",
+              "updated_at": "2021-09-30T09:32:34.653Z",
+              "grant_id": 1682,
+              "is_lead": false,
+              "saved_state": {
+                "id": 1261,
+                "name": "Horizon 2020 Programme of the European Union - COMPARE",
+                "grant": "643476",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 958,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 1264,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:50.471Z",
+              "updated_at": "2021-09-30T09:29:30.418Z",
+              "grant_id": 276,
+              "is_lead": false,
+              "saved_state": {
+                "id": 1264,
+                "name": "Horizon 2020 Programme of the European Union - EXCELERATE",
+                "grant": "676559",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 9201,
+              "fairsharing_record_id": 1850,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2022-04-11T12:07:21.563Z",
+              "updated_at": "2022-04-11T12:07:21.584Z",
+              "grant_id": 1582,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council (BBSRC), UK",
+                "grant": "BB/N018354/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            }
+          ],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBPdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9558f885de21d2ce8b723a5d0ecbaf3afe054001/ENA_logo_2021.png?disposition=inline",
+          "exhaustive_licences": true,
+          "object_types": [
+            "dataset",
+            "image"
+          ],
+          "internal_identifiers": false
+        }
+      }
+    },
+    "1860": {
+      "data": {
+        "id": "1860",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2014-11-04T15:23:40.000Z",
+          "updated_at": "2025-07-31T13:19:23.634Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.26ek1v",
+            "name": "Protein Data Bank in Europe",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "PDBe Helpdesk",
+                "contact_email": "pdbehelp@ebi.ac.uk"
+              }
+            ],
+            "homepage": "https://www.ebi.ac.uk/pdbe/",
+            "citations": [],
+            "identifier": 1860,
+            "description": "PDBe is a founding member of the Worldwide Protein Data Bank, which collects, organises and disseminates data on biological macromolecular structures. In collaboration with the other Worldwide Protein Data Bank (wwPDB) partners, we work to maintain and provide access to the global repository of macromolecular structure models, the Protein Data Bank (PDB). PDBe provides information on all PDB entries, multiple search and browse facilities, advanced data analysis, visualisation and validation tools. ",
+            "abbreviation": "PDBe",
+            "data_curation": {
+              "url": "http://www.wwpdb.org/documentation/procedure",
+              "type": "manual/automated"
+            },
+            "support_links": [
+              {
+                "url": "http://www.ebi.ac.uk/support/pdbe",
+                "name": "PDBe Contact Form",
+                "type": "Contact form"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/pdbe/about/contact",
+                "name": "Contact Information",
+                "type": "Contact form"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/pdbe/documentation",
+                "name": "PDBe Documentation",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/pdbe/about/news",
+                "name": "News",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://tess.elixir-europe.org/materials/pdbe-quick-tour",
+                "name": "PDBe: Quick tour",
+                "type": "TeSS links to training materials"
+              },
+              {
+                "url": "https://tess.elixir-europe.org/materials/pdbe-searching-for-biological-macromolecular-structures",
+                "name": "PDBe: Searching for biological macromolecular structures",
+                "type": "TeSS links to training materials"
+              },
+              {
+                "url": "https://tess.elixir-europe.org/materials/pdbe-exploring-a-protein-data-bank-pdb-entry",
+                "name": "PDBe: Exploring a Protein Data Bank (PDB) entry",
+                "type": "TeSS links to training materials"
+              },
+              {
+                "url": "https://tess.elixir-europe.org/materials/pdbe-an-introduction-to-search-and-entry-pages-webinar",
+                "name": "PDBe: An introduction to search and entry pages: webinar",
+                "type": "TeSS links to training materials"
+              },
+              {
+                "url": "https://tess.elixir-europe.org/materials/pdbe-searching-the-protein-data-bank",
+                "name": "PDBe: Searching the Protein Data Bank",
+                "type": "TeSS links to training materials"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/pdbe/training",
+                "name": "PDBe Training",
+                "type": "Training documentation"
+              },
+              {
+                "url": "https://twitter.com/PDBeurope",
+                "name": "@PDBeurope",
+                "type": "Twitter"
+              }
+            ],
+            "year_creation": 1996,
+            "data_versioning": "yes",
+            "associated_tools": [
+              {
+                "url": "http://validate.wwpdb.org",
+                "name": "wwPDB Validation Service"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/pdbe/services",
+                "name": "Full PDBe Tools List"
+              }
+            ],
+            "cross_references": [
+              {
+                "url": "https://www.re3data.org/repository/r3d100010538",
+                "name": "re3data:r3d100010538",
+                "portal": "re3data"
+              },
+              {
+                "url": "https://scicrunch.org/resolver/RRID:SCR_004312",
+                "name": "SciCrunch:RRID:SCR_004312",
+                "portal": "SciCrunch"
+              }
+            ],
+            "internal_identifiers": false,
+            "data_access_condition": {
+              "url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement",
+              "type": "open"
+            },
+            "resource_sustainability": {
+              "url": "http://www.wwpdb.org/about/faq",
+              "name": "More information"
+            },
+            "data_contact_information": "yes",
+            "data_preservation_policy": {},
+            "data_deposition_condition": {
+              "url": "https://www.ebi.ac.uk/pdbe/deposition-services",
+              "type": "open"
+            },
+            "citation_to_related_publications": "yes",
+            "data_access_for_pre_publication_review": "no"
+          },
+          "legacy_ids": [
+            "biodbcore-000322",
+            "bsg-d000322"
+          ],
+          "name": "FAIRsharing record for: Protein Data Bank in Europe",
+          "abbreviation": "PDBe",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.26ek1v",
+          "doi": "10.25504/FAIRsharing.26ek1v",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: PDBe is a founding member of the Worldwide Protein Data Bank, which collects, organises and disseminates data on biological macromolecular structures. In collaboration with the other Worldwide Protein Data Bank (wwPDB) partners, we work to maintain and provide access to the global repository of macromolecular structure models, the Protein Data Bank (PDB). PDBe provides information on all PDB entries, multiple search and browse facilities, advanced data analysis, visualisation and validation tools. ",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "EOSC-Life",
+              "linking_record_id": 3513,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11340
+            },
+            {
+              "linking_record_name": "Bioschemas Deploys",
+              "linking_record_id": 3517,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11521
+            },
+            {
+              "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
+              "linking_record_id": 3527,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11839
+            },
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12638
+            },
+            {
+              "linking_record_name": "ELIXIR Data resource services",
+              "linking_record_id": 3535,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 20308
+            },
+            {
+              "linking_record_name": "European Life Science Research Infrastructures",
+              "linking_record_id": 6457,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 23821
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26763
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "repository",
+          "subjects": [
+            "Bioinformatics",
+            "Structural Biology"
+          ],
+          "domains": [
+            "Protein structure",
+            "Drug structure",
+            "deoxyribonucleic acid",
+            "ribonucleic acid",
+            "electron microscopy",
+            "X-ray diffraction",
+            "nuclear magnetic resonance spectroscopy",
+            "X-ray crystallography 3D molecular structure determination assay",
+            "structure",
+            "protein"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Austria",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "publications": [
+            {
+              "id": 1275,
+              "pubmed_id": 29126160,
+              "title": "PDBe: towards reusable data delivery infrastructure at protein data bank in Europe.",
+              "year": 2017,
+              "url": "http://doi.org/10.1093/nar/gkx1070",
+              "authors": "Mir S,Alhroub Y,Anyango S,Armstrong DR,Berrisford JM,Clark AR,Conroy MJ,Dana JM,Deshpande M,Gupta D,Gutmanas A,Haslam P,Mak L,Mukhopadhyay A,Nadzirin N,Paysan-Lafosse T,Sehnal D,Sen S,Smart OS,Varadi M,Kleywegt GJ,Velankar S",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkx1070",
+              "created_at": "2021-09-30T08:24:42.347Z",
+              "updated_at": "2021-09-30T11:29:05.076Z"
+            },
+            {
+              "id": 2010,
+              "pubmed_id": 27450113,
+              "title": "The archiving and dissemination of biological structure data",
+              "year": 2016,
+              "url": "http://doi.org/S0959-440X(16)30077-X",
+              "authors": "Helen M Berman, Stephen K Burley, Gerard J Kleywegt, John L Markley, Haruki Nakamura, Sameer Velankar",
+              "journal": "Current Opinion in Structural Biology",
+              "doi": "10.1016/j.sbi.2016.06.018",
+              "created_at": "2021-09-30T08:26:06.466Z",
+              "updated_at": "2021-09-30T08:26:06.466Z"
+            },
+            {
+              "id": 2089,
+              "pubmed_id": 22110033,
+              "title": "PDBe: Protein Data Bank in Europe.",
+              "year": 2011,
+              "url": "http://doi.org/10.1093/nar/gkr998",
+              "authors": "Velankar S., Alhroub Y., Best C., Caboche S., Conroy MJ., Dana JM., Fernandez Montecelo MA., van Ginkel G., Golovin A., Gore SP., Gutmanas A., Haslam P., Hendrickx PM., Heuson E., Hirshberg M., John M., Lagerstedt I., Mir S., Newman LE., Oldfield TJ., Patwardhan A., Rinaldi L., Sahni G., Sanz-García E., Sen S., Slowley R., Suarez-Uruena A., Swaminathan GJ., Symmons MF., Vranken WF., Wainwright M., Kleywegt GJ.,",
+              "journal": "Nucleic Acids Res.",
+              "doi": "10.1093/nar/gkr998",
+              "created_at": "2021-09-30T08:26:15.465Z",
+              "updated_at": "2021-09-30T08:26:15.465Z"
+            },
+            {
+              "id": 2164,
+              "pubmed_id": 26476444,
+              "title": "PDBe: improved accessibility of macromolecular structure data from PDB and EMDB.",
+              "year": 2015,
+              "url": "http://doi.org/10.1093/nar/gkv1047",
+              "authors": "Velankar S, van Ginkel G, Alhroub Y, Battle GM, Berrisford JM, Conroy MJ, Dana JM, Gore SP, Gutmanas A, Haslam P, Hendrickx PM, Lagerstedt I, Mir S, Fernandez Montecelo MA, Mukhopadhyay A, Oldfield TJ, Patwardhan A, Sanz-García E, Sen S, Slowley RA, Wainwright ME, Deshpande MS, Iudin A, Sahni G, Salavert Torres J, Hirshberg M, Mak L, Nadzirin N, Armstrong DR, Clark AR, Smart OS, Korir PK, Kleywegt GJ.",
+              "journal": "Nucleic Acids Res.",
+              "doi": "10.1093/nar/gkv1047",
+              "created_at": "2021-09-30T08:26:23.933Z",
+              "updated_at": "2021-09-30T08:26:23.933Z"
+            },
+            {
+              "id": 2759,
+              "pubmed_id": 31691821,
+              "title": "PDBe: improved findability of macromolecular structure data in the PDB.",
+              "year": 2019,
+              "url": "http://doi.org/10.1093/nar/gkz990",
+              "authors": "Armstrong DR,Berrisford JM,Conroy MJ,Gutmanas A,Anyango S,Choudhary P,Clark AR,Dana JM,Deshpande M,Dunlop R,Gane P,Gaborova R,Gupta D,Haslam P,Koca J,Mak L,Mir S,Mukhopadhyay A,Nadzirin N,Nair S,Paysan-Lafosse T,Pravda L,Sehnal D,Salih O,Smart O,Tolchard J,Varadi M,Svobodova-Varekova R,Zaki H,Kleywegt GJ,Velankar S",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkz990",
+              "created_at": "2021-09-30T08:27:39.086Z",
+              "updated_at": "2021-09-30T11:29:42.828Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+              "licence_id": 196,
+              "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "link_id": 2781,
+              "relation": "applies_to_content"
+            },
+            {
+              "licence_name": "wwPDB Charter",
+              "licence_id": 875,
+              "licence_url": "https://www.wwpdb.org/about/agreement",
+              "link_id": 638,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 7906,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 960,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:29:37.592Z",
+              "updated_at": "2021-09-30T09:29:37.666Z",
+              "grant_id": 332,
+              "is_lead": false,
+              "saved_state": {
+                "id": 960,
+                "name": "European Union (EU)",
+                "grant": "284209",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8152,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:31:13.081Z",
+              "updated_at": "2021-09-30T09:31:13.140Z",
+              "grant_id": 1069,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/M013146/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 1013,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 960,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:53.081Z",
+              "updated_at": "2021-09-30T09:29:34.249Z",
+              "grant_id": 305,
+              "is_lead": false,
+              "saved_state": {
+                "id": 960,
+                "name": "European Union (EU)",
+                "grant": "226073",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8172,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 960,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:31:19.605Z",
+              "updated_at": "2021-09-30T09:31:19.658Z",
+              "grant_id": 1120,
+              "is_lead": false,
+              "saved_state": {
+                "id": 960,
+                "name": "European Union (EU)",
+                "grant": "675858",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8157,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:31:15.213Z",
+              "updated_at": "2021-09-30T09:31:15.262Z",
+              "grant_id": 1088,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/K016970/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 1018,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 1812,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:53.345Z",
+              "updated_at": "2021-09-30T09:31:34.335Z",
+              "grant_id": 1230,
+              "is_lead": false,
+              "saved_state": {
+                "id": 1812,
+                "name": "Medical Research Council",
+                "grant": "MR/L007835/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8735,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 3342,
+              "relation": "associated_with",
+              "created_at": "2022-01-20T11:13:12.000Z",
+              "updated_at": "2022-01-20T11:13:12.000Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 3342,
+                "name": "Instruct-ERIC",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 8082,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:30:49.581Z",
+              "updated_at": "2021-09-30T09:30:49.664Z",
+              "grant_id": 889,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/K020013/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 1016,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 941,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:53.258Z",
+              "updated_at": "2021-09-30T09:24:53.258Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 941,
+                "name": "European Molecular Biology Laboratory",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 1012,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:24:53.045Z",
+              "updated_at": "2021-09-30T09:24:53.045Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 1015,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 2854,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:53.151Z",
+              "updated_at": "2021-09-30T09:31:30.426Z",
+              "grant_id": 1202,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2854,
+                "name": "Wellcome",
+                "grant": "104948",
+                "types": [
+                  "Charitable foundation"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8160,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:31:16.073Z",
+              "updated_at": "2021-09-30T09:31:16.124Z",
+              "grant_id": 1094,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/M020347/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 10014,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 841,
+              "relation": "associated_with",
+              "created_at": "2022-10-13T09:43:38.817Z",
+              "updated_at": "2022-10-13T09:43:38.817Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 841,
+                "name": "ELIXIR Europe",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 1014,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:24:53.120Z",
+              "updated_at": "2021-09-30T09:29:10.260Z",
+              "grant_id": 123,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/M011674/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 7902,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:29:35.358Z",
+              "updated_at": "2021-09-30T09:29:35.408Z",
+              "grant_id": 314,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/G022577/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 9740,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 3263,
+              "relation": "associated_with",
+              "created_at": "2022-08-02T09:59:17.726Z",
+              "updated_at": "2022-08-02T09:59:17.726Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 3263,
+                "name": "Worldwide Protein Data Bank Foundation",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 7940,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:29:57.434Z",
+              "updated_at": "2021-09-30T09:29:57.484Z",
+              "grant_id": 486,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/M020428/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 7936,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:29:55.785Z",
+              "updated_at": "2021-09-30T09:29:55.828Z",
+              "grant_id": 473,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/E007511/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8364,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:32:15.909Z",
+              "updated_at": "2021-09-30T09:32:15.957Z",
+              "grant_id": 1540,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/J007471/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8313,
+              "fairsharing_record_id": 1860,
+              "organisation_id": 2854,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:32:01.896Z",
+              "updated_at": "2021-09-30T09:32:01.935Z",
+              "grant_id": 1436,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2854,
+                "name": "Wellcome",
+                "grant": "088944",
+                "types": [
+                  "Charitable foundation"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            }
+          ],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblVCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--64d8cc6d1de890da25711e3e4eb9bbc0a16903a8/1_1.png?disposition=inline",
+          "exhaustive_licences": true,
+          "object_types": [
+            "dataset",
+            "image",
+            "model"
+          ],
+          "internal_identifiers": false
+        }
+      }
+    },
+    "2126": {
+      "data": {
+        "id": "2126",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2014-11-04T15:23:40.000Z",
+          "updated_at": "2025-07-31T13:16:59.650Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.651n9j",
+            "name": "Electron Microscopy Data Bank",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "Ardan Patwardhan",
+                "contact_email": "help@emdatabank.org",
+                "contact_orcid": "0000-0001-7663-9028"
+              }
+            ],
+            "homepage": "https://www.ebi.ac.uk/emdb/",
+            "citations": [
+              {
+                "doi": "10.1093/nar/gkv1126",
+                "pubmed_id": 26578576,
+                "publication_id": 2978
+              }
+            ],
+            "identifier": 2126,
+            "description": "Cryo-electron microscopy reconstruction methods are uniquely able to reveal structures of many important macromolecules and macromolecular complexes. The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, and electron (2D) crystallography. The EMDB was founded at EBI in 2002, under the leadership of Kim Henrick. Since 2007 it has been operated jointly by the PDBe, and the Research Collaboratory for Structural Bioinformatics (RCSB PDB) as a part of EMDataBank which is funded by a joint NIH grant to PDBe, the RCSB and the National Center for Macromolecular Imaging (NCMI).",
+            "abbreviation": "EMDB",
+            "data_curation": {
+              "url": "https://www.ebi.ac.uk/emdb/documentation/policies#5",
+              "type": "manual"
+            },
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/emdb/faq",
+                "name": "FAQ",
+                "type": "Frequently Asked Questions (FAQs)"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/genealogy.html",
+                "name": "3DEM History and Genealogy",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/emschema.html/",
+                "name": "EMDB Data Model",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/statistics_main.html",
+                "name": "EMDB Statistics",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/policies.html",
+                "name": "Policies",
+                "type": "Help documentation"
+              }
+            ],
+            "year_creation": 2002,
+            "data_versioning": "no",
+            "associated_tools": [
+              {
+                "url": "https://www.ebi.ac.uk/emdb/validators.html/",
+                "name": "EM Validation Services"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/test_data.html",
+                "name": "Test data"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/validation/fsc/",
+                "name": "Fourier shell correlation server"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/emdb/validation/tiltpair/",
+                "name": "Tilt pair validation server"
+              }
+            ],
+            "cross_references": [
+              {
+                "url": "https://www.re3data.org/repository/r3d100010562",
+                "name": "re3data:r3d100010562",
+                "portal": "re3data"
+              },
+              {
+                "url": "https://scicrunch.org/resolver/RRID:SCR_006506",
+                "name": "SciCrunch:RRID:SCR_006506",
+                "portal": "SciCrunch"
+              }
+            ],
+            "internal_identifiers": false,
+            "data_access_condition": {
+              "type": "open"
+            },
+            "resource_sustainability": {},
+            "data_contact_information": "no",
+            "data_preservation_policy": {},
+            "data_deposition_condition": {
+              "url": "https://deposit-pdbe.wwpdb.org/deposition/",
+              "type": "open"
+            },
+            "citation_to_related_publications": "yes",
+            "data_access_for_pre_publication_review": "yes"
+          },
+          "legacy_ids": [
+            "biodbcore-000596",
+            "bsg-d000596"
+          ],
+          "name": "FAIRsharing record for: Electron Microscopy Data Bank",
+          "abbreviation": "EMDB",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.651n9j",
+          "doi": "10.25504/FAIRsharing.651n9j",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: Cryo-electron microscopy reconstruction methods are uniquely able to reveal structures of many important macromolecules and macromolecular complexes. The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, and electron (2D) crystallography. The EMDB was founded at EBI in 2002, under the leadership of Kim Henrick. Since 2007 it has been operated jointly by the PDBe, and the Research Collaboratory for Structural Bioinformatics (RCSB PDB) as a part of EMDataBank which is funded by a joint NIH grant to PDBe, the RCSB and the National Center for Macromolecular Imaging (NCMI).",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "Data Citation Implementation",
+              "linking_record_id": 3500,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 10973
+            },
+            {
+              "linking_record_name": "EOSC-Life",
+              "linking_record_id": 3513,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11358
+            },
+            {
+              "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
+              "linking_record_id": 3527,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11848
+            },
+            {
+              "linking_record_name": "COVID-19 Resources",
+              "linking_record_id": 3538,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12319
+            },
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12696
+            },
+            {
+              "linking_record_name": "TDR COVID-19 Participant-level data sharing platforms & registries",
+              "linking_record_id": 3544,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12957
+            },
+            {
+              "linking_record_name": "BY-COVID Data Resources",
+              "linking_record_id": 3773,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 13978
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 19701
+            },
+            {
+              "linking_record_name": "ELIXIR Data resource services",
+              "linking_record_id": 3535,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 20271
+            },
+            {
+              "linking_record_name": "European Life Science Research Infrastructures",
+              "linking_record_id": 6457,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 23839
+            },
+            {
+              "linking_record_name": "RDMkit Structural Bioinformatics Domain",
+              "linking_record_id": 7477,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26278
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "repository",
+          "subjects": [
+            "Virology",
+            "Epidemiology",
+            "Digital Image Processing",
+            "Structural Biology"
+          ],
+          "domains": [
+            "Bioimaging",
+            "microscopy",
+            "electron microscopy",
+            "X-ray diffraction",
+            "X-ray crystallography 3D molecular structure determination assay",
+            "structure",
+            "protein"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Austria",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom",
+            "United States"
+          ],
+          "publications": [
+            {
+              "id": 567,
+              "pubmed_id": 20935055,
+              "title": "EMDataBank.org: unified data resource for CryoEM",
+              "year": 2010,
+              "url": "http://doi.org/10.1093/nar/gkq880",
+              "authors": "Lawson CL, Baker ML, Best C, Bi C, Dougherty M, Feng P, van Ginkel G, Devkota B, Lagerstedt I, Ludtke SJ, Newman RH, Oldfield TJ, Rees I, Sahni G, Sala R, Velankar S, Warren J, Westbrook JD, Henrick K, Kleywegt GJ, Berman HM, Chiu W.",
+              "journal": "Nucleic Acids Res.",
+              "doi": "10.1093/nar/gkq880",
+              "created_at": "2021-09-30T08:23:22.001Z",
+              "updated_at": "2021-09-30T08:23:22.001Z"
+            },
+            {
+              "id": 670,
+              "pubmed_id": 12417136,
+              "title": "New electron microscopy database and deposition system",
+              "year": 2002,
+              "url": "http://doi.org/10.1016/s0968-0004(02)02176-x",
+              "authors": "Tagari, M. Newman, R. Chagoyen, M. Carazo, J. M. Henrick, K.",
+              "journal": "Trends in Biochemical Sciences",
+              "doi": "10.1016/S0968-0004(02)02176-X",
+              "created_at": "2021-09-30T08:23:33.935Z",
+              "updated_at": "2021-09-30T08:23:33.935Z"
+            },
+            {
+              "id": 2978,
+              "pubmed_id": 26578576,
+              "title": "EMDataBank unified data resource for 3DEM.",
+              "year": 2015,
+              "url": "http://doi.org/10.1093/nar/gkv1126",
+              "authors": "Lawson CL,Patwardhan A,Baker ML,Hryc C,Garcia ES,Hudson BP,Lagerstedt I,Ludtke SJ,Pintilie G,Sala R,Westbrook JD,Berman HM,Kleywegt GJ,Chiu W",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkv1126",
+              "created_at": "2021-09-30T08:28:06.973Z",
+              "updated_at": "2021-09-30T11:29:49.395Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+              "licence_id": 196,
+              "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "link_id": 2782,
+              "relation": "applies_to_content"
+            },
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 1861,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 1712,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 2423,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:25:17.637Z",
+              "updated_at": "2021-09-30T09:25:17.637Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 2423,
+                "name": "Research Collaboratory for Structural Bioinformatics",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 1710,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:25:17.567Z",
+              "updated_at": "2021-09-30T09:25:17.567Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute, Wellcome Genome Campus",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 1713,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 2035,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:25:17.666Z",
+              "updated_at": "2021-09-30T09:25:17.666Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2035,
+                "name": "National Institutes of Health",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 9741,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 3263,
+              "relation": "associated_with",
+              "created_at": "2022-08-02T10:05:29.732Z",
+              "updated_at": "2022-08-02T10:05:29.732Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 3263,
+                "name": "wwPDB",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 10013,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 841,
+              "relation": "associated_with",
+              "created_at": "2022-10-13T09:43:38.788Z",
+              "updated_at": "2022-10-13T09:43:38.788Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 841,
+                "name": "ELIXIR Europe",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 8732,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 3342,
+              "relation": "associated_with",
+              "created_at": "2022-01-20T09:45:58.092Z",
+              "updated_at": "2022-01-20T09:45:58.092Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 3342,
+                "name": "Instruct-ERIC",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            },
+            {
+              "id": 11582,
+              "fairsharing_record_id": 2126,
+              "organisation_id": 2300,
+              "relation": "maintains",
+              "created_at": "2024-03-21T13:59:09.977Z",
+              "updated_at": "2024-03-21T13:59:09.977Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 2300,
+                "name": "PDBe Team, European Bioinformatics Institute",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbllCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--18021442ee90695572715042ff5364d65b2a27a0/EMBD_logo_2017_light_background.png?disposition=inline",
+          "exhaustive_licences": false,
+          "object_types": [
+            "dataset",
+            "image",
+            "model"
+          ],
+          "internal_identifiers": false
+        }
+      }
+    },
+    "2303": {
+      "data": {
+        "id": "2303",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2016-07-11T08:08:07.000Z",
+          "updated_at": "2025-10-13T10:44:13.786Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.6wf1zw",
+            "name": "Image Data Resource ",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "Josh Moore",
+                "contact_email": "j.a.moore@dundee.ac.uk",
+                "contact_orcid": "0000-0003-4028-811X"
+              },
+              {
+                "contact_name": "Sébastien Besson",
+                "contact_email": "s.besson@dundee.ac.uk",
+                "contact_orcid": "0000-0001-8783-1429"
+              },
+              {
+                "contact_name": "General Contact",
+                "contact_email": "idr@openmicroscopy.org",
+                "contact_orcid": null
+              }
+            ],
+            "homepage": "https://idr.openmicroscopy.org",
+            "citations": [
+              {
+                "doi": "10.1038/nmeth.4326",
+                "pubmed_id": 28775673,
+                "publication_id": 2515
+              }
+            ],
+            "identifier": 2303,
+            "description": "The Image Data Resource (IDR) is a public repository of image datasets from published scientific studies, where the community can submit, search and access high-quality bio-image data. It follows the Euro-BioImaging/ELIXIR imaging strategy using the OMERO and Bio-Formats open source software built by the Open Microscopy Environment. Deployed on an OpenStack cloud running on the EMBL-EBI’s Embassy resource, it includes image data linked to independent studies from genetic, RNAi, chemical, localisation and geographic high content screens, super-resolution microscopy, and digital pathology.",
+            "abbreviation": "IDR",
+            "data_curation": {
+              "url": "https://idr.openmicroscopy.org/about/index.html",
+              "type": "none"
+            },
+            "support_links": [
+              {
+                "url": "idr@openmicroscopy.org",
+                "name": "Helpdesk",
+                "type": "Support email"
+              },
+              {
+                "url": "https://www.openmicroscopy.org/community/",
+                "name": "Community Forum",
+                "type": "Forum"
+              },
+              {
+                "url": "https://help.openmicroscopy.org",
+                "name": "OMERO User Help",
+                "type": "Help documentation"
+              },
+              {
+                "url": "http://www.openmicroscopy.org/site/community/mailing-lists",
+                "name": "Mailing Lists",
+                "type": "Mailing list"
+              },
+              {
+                "url": "http://help.openmicroscopy.org/resources.html",
+                "name": "Training Course Material",
+                "type": "Training documentation"
+              },
+              {
+                "url": "https://twitter.com/openmicroscopy",
+                "name": "@openmicroscopy",
+                "type": "Twitter"
+              },
+              {
+                "url": "https://idr.openmicroscopy.org/about/faq/",
+                "name": "FAQ",
+                "type": "Frequently Asked Questions (FAQs)"
+              }
+            ],
+            "year_creation": 2015,
+            "data_versioning": "no",
+            "associated_tools": [
+              {
+                "url": "http://www.openmicroscopy.org/info/omero",
+                "name": "OMERO client-server software"
+              }
+            ],
+            "cross_references": [
+              {
+                "url": "https://www.re3data.org/repository/r3d100012435",
+                "name": "re3data:r3d100012435",
+                "portal": "re3data"
+              },
+              {
+                "url": "https://scicrunch.org/resolver/RRID:SCR_017421",
+                "name": "SciCrunch:RRID:SCR_017421",
+                "portal": "SciCrunch"
+              }
+            ],
+            "internal_identifiers": false,
+            "data_access_condition": {
+              "url": "https://idr.openmicroscopy.org/about/faq/",
+              "type": "open"
+            },
+            "resource_sustainability": {},
+            "data_contact_information": "no",
+            "data_preservation_policy": {
+              "url": "https://idr.openmicroscopy.org/about/faq/",
+              "name": "Follows EMBL-EBI’s open data mission in the domain of biological images"
+            },
+            "data_deposition_condition": {
+              "url": "https://idr.openmicroscopy.org/about/submission.html",
+              "type": "open"
+            },
+            "citation_to_related_publications": "yes",
+            "data_access_for_pre_publication_review": "no"
+          },
+          "legacy_ids": [
+            "biodbcore-000778",
+            "bsg-d000778"
+          ],
+          "name": "FAIRsharing record for: Image Data Resource ",
+          "abbreviation": "IDR",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.6wf1zw",
+          "doi": "10.25504/FAIRsharing.6wf1zw",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The Image Data Resource (IDR) is a public repository of image datasets from published scientific studies, where the community can submit, search and access high-quality bio-image data. It follows the Euro-BioImaging/ELIXIR imaging strategy using the OMERO and Bio-Formats open source software built by the Open Microscopy Environment. Deployed on an OpenStack cloud running on the EMBL-EBI’s Embassy resource, it includes image data linked to independent studies from genetic, RNAi, chemical, localisation and geographic high content screens, super-resolution microscopy, and digital pathology.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "Open Microscopy Environment",
+              "linking_record_id": 3502,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11016
+            },
+            {
+              "linking_record_name": "Euro-BioImaging ERIC ",
+              "linking_record_id": 3508,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11224
+            },
+            {
+              "linking_record_name": "EOSC-Life",
+              "linking_record_id": 3513,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11369
+            },
+            {
+              "linking_record_name": "BY-COVID Data Resources",
+              "linking_record_id": 3773,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 13980
+            },
+            {
+              "linking_record_name": "ISO 20691 - Requirements for data formatting and description in the life sciences",
+              "linking_record_id": 3533,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 14563
+            },
+            {
+              "linking_record_name": "AgroServ",
+              "linking_record_id": 5796,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 20409
+            },
+            {
+              "linking_record_name": "European Life Science Research Infrastructures",
+              "linking_record_id": 6457,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 23850
+            },
+            {
+              "linking_record_name": "ELIXIR Biodiversity Community",
+              "linking_record_id": 6505,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 24098
+            },
+            {
+              "linking_record_name": "RDMkit Bioimaging data Domain",
+              "linking_record_id": 7476,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26277
+            },
+            {
+              "linking_record_name": "RDMkit Microbial biotechnology Domain",
+              "linking_record_id": 7481,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26310
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26761
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "repository",
+          "subjects": [
+            "Life Science",
+            "Botany",
+            "Biomedical Science"
+          ],
+          "domains": [
+            "Bioimaging",
+            "super-resolution bright-field microscopy",
+            "light-sheet illumination",
+            "small molecule",
+            "high content screen"
+          ],
+          "taxonomies": [
+            "Apis mellifera",
+            "Arabidopsis thaliana",
+            "Danio rerio",
+            "Drosophila",
+            "Drosophila melanogaster",
+            "Escherichia coli",
+            "Gallus gallus",
+            "Homo sapiens",
+            "Mus musculus",
+            "Plasmodium falciparum",
+            "Saccharomyces cerevisiae",
+            "SARS-CoV-2",
+            "Schizosaccharomyces pombe",
+            "Tribolium castaneum"
+          ],
+          "user_defined_tags": [
+            "Digital pathology",
+            "Plankton"
+          ],
+          "countries": [
+            "United Kingdom"
+          ],
+          "publications": [
+            {
+              "id": 2515,
+              "pubmed_id": 28775673,
+              "title": "The Image Data Resource: A Bioimage Data Integration and Publication Platform.",
+              "year": 2017,
+              "url": "http://doi.org/10.1038/nmeth.4326",
+              "authors": "Williams E,Moore J,Li SW,Rustici G,Tarkowska A,Chessel A,Leo S,Antal B,Ferguson RK,Sarkans U,Brazma A,Salas REC,Swedlow JR",
+              "journal": "Nat Methods",
+              "doi": "10.1038/nmeth.4326",
+              "created_at": "2021-09-30T08:27:08.592Z",
+              "updated_at": "2021-09-30T08:27:08.592Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "licence_id": 167,
+              "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+              "link_id": 3256,
+              "relation": "applies_to_content"
+            },
+            {
+              "licence_name": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+              "licence_id": 172,
+              "licence_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+              "link_id": 3258,
+              "relation": "applies_to_content"
+            },
+            {
+              "licence_name": "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+              "licence_id": 196,
+              "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "link_id": 3257,
+              "relation": "applies_to_content"
+            }
+          ],
+          "grants": [
+            {
+              "id": 8155,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 912,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:31:14.580Z",
+              "updated_at": "2021-09-30T09:31:14.632Z",
+              "grant_id": 1083,
+              "is_lead": false,
+              "saved_state": {
+                "id": 912,
+                "name": "European Commission Horizon 2020",
+                "grant": "688945",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 2244,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:25:37.121Z",
+              "updated_at": "2021-09-30T09:31:13.890Z",
+              "grant_id": 1076,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/M018423/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 8659,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 873,
+              "relation": "funds",
+              "created_at": "2021-12-20T16:29:42.311Z",
+              "updated_at": "2021-12-20T16:29:42.311Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 873,
+                "name": "EOSC-Life",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 2246,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 912,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:25:37.192Z",
+              "updated_at": "2021-09-30T09:30:59.327Z",
+              "grant_id": 966,
+              "is_lead": false,
+              "saved_state": {
+                "id": 912,
+                "name": "European Commission Horizon 2020",
+                "grant": "654248",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 10676,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 2261,
+              "relation": "maintains",
+              "created_at": "2023-06-16T08:17:21.567Z",
+              "updated_at": "2023-06-16T08:17:21.567Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 2261,
+                "name": "Open Microscopy Environment",
+                "types": [
+                  "Lab"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 10677,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 3049,
+              "relation": "maintains",
+              "created_at": "2023-06-16T08:17:21.567Z",
+              "updated_at": "2023-06-16T08:17:21.567Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 3049,
+                "name": "University of Dundee, Scotland, UK",
+                "types": [
+                  "University"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 8904,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 2854,
+              "relation": "funds",
+              "created_at": "2022-03-03T13:25:24.569Z",
+              "updated_at": "2022-03-03T13:25:24.569Z",
+              "grant_id": 1830,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2854,
+                "name": "The Wellcome Trust",
+                "grant": "212962/Z/18/Z",
+                "types": [
+                  "Charitable foundation"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 2243,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 351,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:25:37.080Z",
+              "updated_at": "2021-09-30T09:25:37.080Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 351,
+                "name": "Cambridge Systems Biology Centre, University of Cambridge, Cambridge, UK",
+                "types": [
+                  "University"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 8385,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 278,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:32:23.817Z",
+              "updated_at": "2021-09-30T09:32:23.872Z",
+              "grant_id": 1601,
+              "is_lead": false,
+              "saved_state": {
+                "id": 278,
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "grant": "BB/R015384/1",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 9247,
+              "fairsharing_record_id": 2303,
+              "organisation_id": 920,
+              "relation": "maintains",
+              "created_at": "2022-04-11T12:07:25.110Z",
+              "updated_at": "2022-04-11T12:07:25.110Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 920,
+                "name": "European Commission FP7",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBWUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a98b06ba365ea079c2d473e13b2e540597d9f29b/idr-logo.png?disposition=inline",
+          "exhaustive_licences": true,
+          "object_types": [
+            "dataset",
+            "image"
+          ],
+          "internal_identifiers": false
+        }
+      }
+    },
+    "2934": {
+      "data": {
+        "id": "2934",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2020-04-23T07:22:28.000Z",
+          "updated_at": "2025-07-31T13:24:15.589Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.f3b7a9",
+            "name": "COVID-19 Data Portal",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "European COVID-19 Data Platform",
+                "contact_email": "ecovid19@ebi.ac.uk"
+              }
+            ],
+            "homepage": "https://www.covid19dataportal.org",
+            "citations": [],
+            "identifier": 2934,
+            "description": "The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.",
+            "abbreviation": null,
+            "data_curation": {
+              "type": "manual"
+            },
+            "support_links": [
+              {
+                "url": "https://www.ebi.ac.uk/support/covid19dataportal",
+                "name": "Contact Form",
+                "type": "Contact form"
+              },
+              {
+                "url": "virus-dataflow@ebi.ac.uk",
+                "name": "Data Curation Helpdesk",
+                "type": "Support email"
+              },
+              {
+                "url": "https://www.covid19dataportal.org/about",
+                "name": "About",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.covid19dataportal.org/partners",
+                "name": "Partners",
+                "type": "Help documentation"
+              }
+            ],
+            "year_creation": 2020,
+            "data_versioning": "no",
+            "cross_references": [
+              {
+                "url": "https://www.re3data.org/repository/r3d100013292",
+                "name": "re3data:r3d100013292",
+                "portal": "re3data"
+              }
+            ],
+            "internal_identifiers": true,
+            "data_access_condition": {
+              "type": "open"
+            },
+            "resource_sustainability": {},
+            "data_contact_information": "no",
+            "data_preservation_policy": {},
+            "data_deposition_condition": {
+              "url": "https://www.covid19dataportal.org/submit-data",
+              "type": "open"
+            },
+            "citation_to_related_publications": "no",
+            "data_access_for_pre_publication_review": "no"
+          },
+          "legacy_ids": [
+            "biodbcore-001437",
+            "bsg-d001437"
+          ],
+          "name": "FAIRsharing record for: COVID-19 Data Portal",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.f3b7a9",
+          "doi": "10.25504/FAIRsharing.f3b7a9",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "Bioschemas Deploys",
+              "linking_record_id": 3517,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 11559
+            },
+            {
+              "linking_record_name": "COVID-19 Resources",
+              "linking_record_id": 3538,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12350
+            },
+            {
+              "linking_record_name": "RDA Covid-19 WG Resources",
+              "linking_record_id": 3540,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 12897
+            },
+            {
+              "linking_record_name": "BY-COVID Data Resources",
+              "linking_record_id": 3773,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 15207
+            },
+            {
+              "linking_record_name": "Euro-BioImaging ERIC ",
+              "linking_record_id": 3508,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 15948
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 19703
+            },
+            {
+              "linking_record_name": "RDMkit Human pathogen genomics Domain",
+              "linking_record_id": 7489,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26431
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "repository",
+          "subjects": [
+            "Virology",
+            "Biomedical Science",
+            "Epidemiology",
+            "Data Integration"
+          ],
+          "domains": [
+            "Expression data",
+            "Bioimaging",
+            "gene expression",
+            "protein-containing complex",
+            "molecular interaction",
+            "Protein Expression",
+            "disease",
+            "protein",
+            "pathway",
+            "region",
+            "polypeptide region",
+            "viral sequence"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [
+            "COVID-19"
+          ],
+          "countries": [
+            "European Union"
+          ],
+          "publications": [],
+          "licence_links": [
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 2435,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 3779,
+              "fairsharing_record_id": 2934,
+              "organisation_id": 873,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:26:26.262Z",
+              "updated_at": "2021-09-30T09:26:26.262Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 873,
+                "name": "EOSC-Life",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 3780,
+              "fairsharing_record_id": 2934,
+              "organisation_id": 912,
+              "relation": "funds",
+              "created_at": "2021-09-30T09:26:26.286Z",
+              "updated_at": "2021-09-30T09:26:26.286Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 912,
+                "name": "European Commission Horizon 2020",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "funds"
+              }
+            },
+            {
+              "id": 3781,
+              "fairsharing_record_id": 2934,
+              "organisation_id": 841,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:26:26.312Z",
+              "updated_at": "2021-09-30T09:26:26.312Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 841,
+                "name": "ELIXIR Europe",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 8788,
+              "fairsharing_record_id": 2934,
+              "organisation_id": 3376,
+              "relation": "collaborates_on",
+              "created_at": "2022-02-07T11:05:19.013Z",
+              "updated_at": "2022-02-07T11:05:19.013Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 3376,
+                "name": "ReCoDID",
+                "types": [
+                  "Consortium"
+                ],
+                "is_lead": false,
+                "relation": "collaborates_on"
+              }
+            },
+            {
+              "id": 3778,
+              "fairsharing_record_id": 2934,
+              "organisation_id": 915,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:26:26.235Z",
+              "updated_at": "2021-09-30T09:26:26.235Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 915,
+                "name": "European Commission",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 3777,
+              "fairsharing_record_id": 2934,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:26:26.212Z",
+              "updated_at": "2023-05-25T13:19:12.948Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute, Wellcome Genome Campus",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDBDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f9ec10c41324384735242aa52e1971b0b70d14ef/Screenshot%20from%202023-05-25%2014-18-27.png?disposition=inline",
+          "exhaustive_licences": true,
+          "object_types": [
+            "dataset"
+          ],
+          "internal_identifiers": true
+        }
+      }
+    },
+    "4947": {
+      "data": {
+        "id": "4947",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2023-08-04T23:30:31.792Z",
+          "updated_at": "2024-06-06T11:06:05.960Z",
+          "metadata": {
+            "name": "The COVID-19 Vocabulary",
+            "status": "in_development",
+            "contacts": [],
+            "homepage": "https://github.com/EBISPOT/covoc",
+            "citations": [],
+            "identifier": 4947,
+            "description": "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more. COVoc concepts and synonyms are used to annotate MEDLINE, PMC and the CORD-19 preprint collection in order to provide navigation from the literature to ELIXIR core databases.",
+            "abbreviation": "COVoc",
+            "support_links": [
+              {
+                "url": "https://raw.githubusercontent.com/EBISPOT/covoc/master/covoc.owl",
+                "name": "latest release",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://github.com/EBISPOT/covoc/blob/master/covoc.obo",
+                "name": "Thesaurus",
+                "type": "Help documentation"
+              }
+            ],
+            "year_creation": 2020,
+            "associated_tools": [
+              {
+                "url": "https://candy.hesge.ch/COVTriage/",
+                "name": "COVTriage"
+              }
+            ],
+            "cross_references": [
+              {
+                "url": "https://www.ebi.ac.uk/ols4/ontologies/covoc",
+                "name": "CoVoc Coronavirus Vocabulary",
+                "portal": "OLS"
+              },
+              {
+                "url": "https://bioregistry.io/registry/covoc",
+                "name": "covoc",
+                "portal": "Other"
+              }
+            ]
+          },
+          "legacy_ids": [],
+          "name": "FAIRsharing record for: The COVID-19 Vocabulary",
+          "abbreviation": "COVoc",
+          "url": "https://fairsharing.org/4947",
+          "doi": null,
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more. COVoc concepts and synonyms are used to annotate MEDLINE, PMC and the CORD-19 preprint collection in order to provide navigation from the literature to ELIXIR core databases.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "Life Science Standards",
+              "linking_record_id": 6225,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 23022
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26762
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "terminology_artefact",
+          "subjects": [
+            "Biomedical Science",
+            "Immunology"
+          ],
+          "domains": [
+            "Annotation",
+            "infectious disease"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "publications": [
+            {
+              "id": 3971,
+              "pubmed_id": 36511598,
+              "title": "COVoc and COVTriage: novel resources to support literature triage.",
+              "year": 2023,
+              "url": "https://doi.org/10.1093/bioinformatics/btac800",
+              "authors": "Caucheteur D, May Pendlington Z, Roncaglia P, Gobeill J, Mottin L, Matentzoglu N, Agosti D, Osumi-Sutherland D, Parkinson H, Ruch P",
+              "journal": "Bioinformatics (Oxford, England)",
+              "doi": "10.1093/bioinformatics/btac800",
+              "created_at": "2023-08-04T23:49:13.311Z",
+              "updated_at": "2023-08-04T23:49:13.311Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "licence_id": 167,
+              "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+              "link_id": 3308,
+              "relation": "applies_to_content"
+            }
+          ],
+          "grants": [
+            {
+              "id": 10815,
+              "fairsharing_record_id": 4947,
+              "organisation_id": 4082,
+              "relation": "maintains",
+              "created_at": "2023-08-05T00:10:03.158Z",
+              "updated_at": "2023-08-05T00:10:03.158Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 4082,
+                "name": "EMBL-EBI Samples, Phenotypes and Ontologies Team",
+                "types": [
+                  "Lab"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [],
+          "internal_identifiers": null
+        }
+      }
+    },
+    "6193": {
+      "data": {
+        "id": "6193",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2025-02-04T17:01:20.778Z",
+          "updated_at": "2025-07-31T13:32:44.064Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.dba7ba",
+            "name": "Nextstrain",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "Trevor Bedford ",
+                "contact_email": "tb@bedford.io",
+                "contact_orcid": null
+              },
+              {
+                "contact_name": "Richard Neher",
+                "contact_email": "richard.neher@unibas.ch",
+                "contact_orcid": null
+              }
+            ],
+            "homepage": "https://nextstrain.org/",
+            "citations": [
+              {
+                "doi": "10.1093/bioinformatics/bty407",
+                "pubmed_id": null,
+                "publication_id": 4724
+              }
+            ],
+            "identifier": 6193,
+            "description": "Nextstrain is a project to harness the scientific and public health potential of pathogen genome data. It’s made up of many different parts that all work together. Through our website, nextstrain.org, we provide a continually-updated view of publicly available data with powerful analyses and visualizations showing pathogen evolution and epidemic spread. Through our open-source software tools, we aim to help you analyze and visualize your own data in the same way. Our goal is to aid epidemiological understanding and improve outbreak response.",
+            "abbreviation": null,
+            "data_curation": {
+              "type": "manual/automated"
+            },
+            "support_links": [
+              {
+                "url": "https://docs.nextstrain.org/en/latest/index.html",
+                "name": "Nextstrain’s documentation",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://docs.nextstrain.org/en/latest/reference/faq.html",
+                "name": "FAQ",
+                "type": "Frequently Asked Questions (FAQs)"
+              },
+              {
+                "url": "https://github.com/nextstrain",
+                "type": "Github"
+              },
+              {
+                "url": "https://x.com/nextstrain",
+                "type": "Twitter"
+              },
+              {
+                "url": "https://nextstrain.org/blog/2025-01-09-human-metapneumovirus-analysis-and-resources",
+                "name": "Blog",
+                "type": "Blog/News"
+              },
+              {
+                "url": "hello@nextstrain.org",
+                "type": "Support email"
+              },
+              {
+                "url": "https://docs.nextstrain.org/en/latest/learn/about.html",
+                "name": "About Nextstrain",
+                "type": "Help documentation"
+              }
+            ],
+            "year_creation": 2018,
+            "data_versioning": "yes",
+            "associated_tools": [
+              {
+                "url": "https://docs.nextstrain.org/en/latest/install.html",
+                "name": "Nextstrain"
+              },
+              {
+                "url": "https://clades.nextstrain.org/",
+                "name": "Nextclade"
+              }
+            ],
+            "internal_identifiers": true,
+            "data_access_condition": {
+              "type": "open"
+            },
+            "resource_sustainability": {},
+            "data_contact_information": "no",
+            "data_preservation_policy": {},
+            "data_deposition_condition": {
+              "type": "not found"
+            },
+            "citation_to_related_publications": "yes",
+            "data_access_for_pre_publication_review": "no"
+          },
+          "legacy_ids": [],
+          "name": "FAIRsharing record for: Nextstrain",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.dba7ba",
+          "doi": "10.25504/FAIRsharing.dba7ba",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: Nextstrain is a project to harness the scientific and public health potential of pathogen genome data. It’s made up of many different parts that all work together. Through our website, nextstrain.org, we provide a continually-updated view of publicly available data with powerful analyses and visualizations showing pathogen evolution and epidemic spread. Through our open-source software tools, we aim to help you analyze and visualize your own data in the same way. Our goal is to aid epidemiological understanding and improve outbreak response.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "RDMkit Virology Domain",
+              "linking_record_id": 7482,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26343
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26772
+            }
+          ],
+          "fairsharing_registry": "Database",
+          "record_type": "knowledgebase",
+          "subjects": [
+            "Epidemiology",
+            "Public Health"
+          ],
+          "domains": [
+            "genome"
+          ],
+          "taxonomies": [
+            "Viruses"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Switzerland",
+            "United States"
+          ],
+          "publications": [
+            {
+              "id": 4724,
+              "pubmed_id": null,
+              "title": "Nextstrain: real-time tracking of pathogen evolution",
+              "year": 2018,
+              "url": "http://dx.doi.org/10.1093/bioinformatics/bty407",
+              "authors": "Hadfield, James; Megill, Colin; Bell, Sidney M; Huddleston, John; Potter, Barney; Callender, Charlton; Sagulenko, Pavel; Bedford, Trevor; Neher, Richard A; ",
+              "journal": "Bioinformatics",
+              "doi": "10.1093/bioinformatics/bty407",
+              "created_at": "2025-02-04T17:09:11.427Z",
+              "updated_at": "2025-02-04T17:09:11.427Z"
+            }
+          ],
+          "licence_links": [
+            {
+              "licence_name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "licence_id": 167,
+              "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+              "link_id": 4141,
+              "relation": "applies_to_content"
+            }
+          ],
+          "grants": [
+            {
+              "id": 12772,
+              "fairsharing_record_id": 6193,
+              "organisation_id": 284,
+              "relation": "maintains",
+              "created_at": "2025-02-04T17:11:38.784Z",
+              "updated_at": "2025-02-04T17:11:38.784Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 284,
+                "name": "Biozentrum, University of Basel, Basel, Switzerland",
+                "types": [
+                  "Lab"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 12774,
+              "fairsharing_record_id": 6193,
+              "organisation_id": 714,
+              "relation": "maintains",
+              "created_at": "2025-02-04T17:11:38.899Z",
+              "updated_at": "2025-02-04T17:11:38.899Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 714,
+                "name": "Department of Genome Sciences, University of Washington",
+                "types": [
+                  "University"
+                ],
+                "is_lead": false,
+                "relation": "maintains"
+              }
+            },
+            {
+              "id": 12773,
+              "fairsharing_record_id": 6193,
+              "organisation_id": 2682,
+              "relation": "associated_with",
+              "created_at": "2025-02-04T17:11:38.785Z",
+              "updated_at": "2025-02-04T17:11:38.785Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 2682,
+                "name": "Swiss Institute of Bioinformatics",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": false,
+                "relation": "associated_with"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [
+            "dataset",
+            "image"
+          ],
+          "internal_identifiers": true
+        }
+      }
+    },
+    "735": {
+      "data": {
+        "id": "735",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2020-03-09T10:19:37.000Z",
+          "updated_at": "2024-06-06T10:29:32.100Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.NYAjYd",
+            "name": "EBI BioSamples JSON Format ",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "BioSamples Helpdesk",
+                "contact_email": "biosamples@ebi.ac.uk"
+              }
+            ],
+            "homepage": "https://www.ebi.ac.uk/biosamples/docs/references/api/submit",
+            "citations": [],
+            "identifier": 735,
+            "description": "The EBI BioSamples JSON Format is a JSON schema used for submitting data to the EBI BioSamples database. This format can also be used to update or curate existing samples.",
+            "abbreviation": null,
+            "year_creation": 2019
+          },
+          "legacy_ids": [
+            "bsg-001455",
+            "bsg-s001455"
+          ],
+          "name": "FAIRsharing record for: EBI BioSamples JSON Format ",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.NYAjYd",
+          "doi": "10.25504/FAIRsharing.NYAjYd",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The EBI BioSamples JSON Format is a JSON schema used for submitting data to the EBI BioSamples database. This format can also be used to update or curate existing samples.",
+          "linked_records": [],
+          "linking_records": [
+            {
+              "linking_record_name": "Life Science Standards",
+              "linking_record_id": 6225,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 22389
+            },
+            {
+              "linking_record_name": "ELIXIR Biodiversity Community",
+              "linking_record_id": 6505,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 24241
+            },
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26770
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "model_and_format",
+          "subjects": [
+            "Biology"
+          ],
+          "domains": [
+            "Experimental measurement",
+            "Sample annotation",
+            "Biospecimen"
+          ],
+          "taxonomies": [
+            "All"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Austria",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "publications": [],
+          "licence_links": [
+            {
+              "licence_name": "EMBL-EBI Terms of Use",
+              "licence_id": 273,
+              "licence_url": "http://www.ebi.ac.uk/about/terms-of-use",
+              "link_id": 1427,
+              "relation": "undefined"
+            }
+          ],
+          "grants": [
+            {
+              "id": 6093,
+              "fairsharing_record_id": 735,
+              "organisation_id": 908,
+              "relation": "maintains",
+              "created_at": "2021-09-30T09:27:48.356Z",
+              "updated_at": "2021-09-30T09:27:48.356Z",
+              "grant_id": null,
+              "is_lead": true,
+              "saved_state": {
+                "id": 908,
+                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
+                "types": [
+                  "Research institute"
+                ],
+                "is_lead": true,
+                "relation": "maintains"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [],
+          "internal_identifiers": null
+        }
+      }
+    },
+    "7482": {
+      "data": {
+        "id": "7482",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2025-12-16T16:04:57.635Z",
+          "updated_at": "2025-12-17T10:30:15.858Z",
+          "metadata": {
+            "name": "RDMkit Virology Domain",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "RDMKit Editors",
+                "contact_email": "rdm-editors@elixir-europe.org"
+              }
+            ],
+            "homepage": "https://rdmkit.elixir-europe.org/virology",
+            "citations": [],
+            "identifier": 7482,
+            "description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
+            "abbreviation": null,
+            "reference_url": "https://github.com/elixir-europe/rdmkit/blob/master/pages/your_domain/virology.md",
+            "year_creation": 2025
+          },
+          "legacy_ids": [],
+          "name": "FAIRsharing record for: RDMkit Virology Domain",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/7482",
+          "doi": null,
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
+          "linked_records": [
+            {
+              "linked_record_name": "Dublin Core Metadata Initiative Terms",
+              "linked_record_id": 905,
+              "linked_record_registry": "Standard",
+              "linked_record_type": "terminology_artefact",
+              "relation": "collects",
+              "link_id": 26337
+            },
+            {
+              "linked_record_name": "The European Genome-phenome Archive",
+              "linked_record_id": 1865,
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "link_id": 26338
+            },
+            {
+              "linked_record_name": "Data Catalog Vocabulary",
+              "linked_record_id": 747,
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "collects",
+              "link_id": 26339
+            },
+            {
+              "linked_record_name": "FAIRsharing",
+              "linked_record_id": 2521,
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase_and_repository",
+              "relation": "collects",
+              "link_id": 26340
+            },
+            {
+              "linked_record_name": "Global Initiative on Sharing Avian Influenza Data",
+              "linked_record_id": 2925,
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "link_id": 26341
+            },
+            {
+              "linked_record_name": "NCBI Genetic Sequence Database",
+              "linked_record_id": 1547,
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "link_id": 26342
+            },
+            {
+              "linked_record_name": "Nextstrain",
+              "linked_record_id": 6193,
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase",
+              "relation": "collects",
+              "link_id": 26343
+            },
+            {
+              "linked_record_name": "BioSamples",
+              "linked_record_id": 1554,
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "link_id": 26344
+            },
+            {
+              "linked_record_name": "International Committee on Taxonomy of Viruses",
+              "linked_record_id": 5428,
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase_and_repository",
+              "relation": "collects",
+              "link_id": 26345
+            },
+            {
+              "linked_record_name": "Pathoplexus",
+              "linked_record_id": 6071,
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "link_id": 26346
+            },
+            {
+              "linked_record_name": "Minimum Information about an Uncultivated Virus Genome",
+              "linked_record_id": 4153,
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "collects",
+              "link_id": 26347
+            },
+            {
+              "linked_record_name": "European Nucleotide Archive",
+              "linked_record_id": 1850,
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "link_id": 26348
+            },
+            {
+              "linked_record_name": "Bioschemas Sample Profile",
+              "linked_record_id": 3589,
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "collects",
+              "link_id": 26335
+            },
+            {
+              "linked_record_name": "Minimum Information about any (x) Sequence",
+              "linked_record_id": 262,
+              "linked_record_registry": "Standard",
+              "linked_record_type": "reporting_guideline",
+              "relation": "collects",
+              "link_id": 26336
+            }
+          ],
+          "linking_records": [
+            {
+              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26760
+            }
+          ],
+          "fairsharing_registry": "Collection",
+          "record_type": "collection",
+          "subjects": [
+            "Life Science"
+          ],
+          "domains": [],
+          "taxonomies": [
+            "Not applicable"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Worldwide"
+          ],
+          "publications": [
+            {
+              "id": 5184,
+              "pubmed_id": null,
+              "title": "RDMkit: A research data management toolkit for life sciences",
+              "year": 2025,
+              "url": "http://dx.doi.org/10.1016/j.patter.2025.101345",
+              "authors": "Alper, Pinar; D'Anna, Flora; Droesbeke, Bert; Andrabi, Munazah; Andrade Buono, Rafael; Bianchini, Federico; Bösl, Korbinian; Chandramouliswaran, Ishwar; Cook, Martin; Faria, Daniel; Fatima, Nazeefa; Hooft, Rob; Jareborg, Niclas; Jetten, Mijke; Pilvar, Diana; Poires-Oliveira, Gil; Popleteeva, Marina; Portell-Silva, Laura; Slifka, Jan; Suchánek, Marek; van Gelder, Celia; Welter, Danielle; Wittig, Ulrike; Coppens, Frederik; Goble, Carole; ",
+              "journal": "Patterns",
+              "doi": "10.1016/j.patter.2025.101345",
+              "created_at": "2025-12-08T16:59:02.261Z",
+              "updated_at": "2025-12-08T16:59:02.261Z"
+            }
+          ],
+          "licence_links": [],
+          "grants": [
+            {
+              "id": 14559,
+              "fairsharing_record_id": 7482,
+              "organisation_id": 841,
+              "relation": "collaborates_on",
+              "created_at": "2025-12-16T16:04:58.034Z",
+              "updated_at": "2025-12-16T16:04:58.034Z",
+              "grant_id": null,
+              "is_lead": false,
+              "saved_state": {
+                "id": 841,
+                "name": "ELIXIR Europe",
+                "types": [
+                  "Government body"
+                ],
+                "is_lead": false,
+                "relation": "collaborates_on"
+              }
+            }
+          ],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [],
+          "internal_identifiers": null
+        }
+      }
     }
   }
 }
