@@ -16,182 +16,192 @@ CONTEXT = {
 }
 
 
-# -------------------------------
-# UTILS
-# -------------------------------
-
-def ensure_unique(seq: List[str]) -> List[str]:
+def ensure_list_unique(vals: List[str]) -> List[str]:
+    out: List[str] = []
     seen = set()
-    out = []
-    for x in seq:
-        if x and x not in seen:
-            seen.add(x)
-            out.append(x)
+    for v in vals:
+        v = (v or "").strip()
+        if not v or v in seen:
+            continue
+        seen.add(v)
+        out.append(v)
     return out
 
 
-# -------------------------------
-# TAXON EXTRACTION
-# -------------------------------
-
-def build_taxon_from_ncbi_id(ncbi_id: str) -> Dict[str, Any]:
-    """Return a minimal EVORAO:Taxon from a known NCBI id."""
-    return {
-        "@type": "EVORAO:Taxon",
-        "EVORAO:taxonomicId": f"NCBI:{ncbi_id}",
-        # ICTV enrichment will later try to refine with correct labels, parents, ranks.
-    }
-
-
-def build_taxon_from_label(label: str) -> Dict[str, Any]:
-    """Return an EVORAO:Taxon with only a title. ICTV enrichment will replace/complete it."""
-    return {
-        "@type": "EVORAO:Taxon",
-        "dcterms:title": label.strip()
-    }
+def extract_keywords(attrs: Dict[str, Any], meta: Dict[str, Any]) -> List[str]:
+    kws: List[str] = []
+    for key in ("subjects", "domains", "taxonomies", "user_defined_tags", "object_types"):
+        val = attrs.get(key) or meta.get(key)
+        if isinstance(val, list):
+            for item in val:
+                s = str(item).strip()
+                if s:
+                    kws.append(s)
+    return ensure_list_unique(kws)
 
 
-def extract_taxon(fair_attrs: Dict[str, Any]) -> Dict[str, Any]:
+def build_viruses_taxon_and_pid() -> Dict[str, Any]:
     """
-    Extract a taxon from FAIRsharing metadata if available.
-    Else fallback to "Viruses" (NCBI:10239).
+    Generic viruses placeholder:
+
+      - Taxon title: "Viruses"
+      - EVORAO:taxonomicId: "NCBITaxon:10239"
+      - VirusName: "any virus"
     """
-    # 1. FAIRsharing field "taxonomies"
-    tax = fair_attrs.get("taxonomies") or []
-    if len(tax) == 1 and isinstance(tax[0], str):
-        if tax[0].lower() == "viruses":
-            return {
-                "@type": "EVORAO:Taxon",
-                "dcterms:title": "Viruses",
-                "EVORAO:taxonomicId": "NCBI:10239"
-            }
-        else:
-            return build_taxon_from_label(tax[0])
-
-    # 2. FAIRsharing "ncbi_taxonomy_id" field (not always present)
-    if "ncbi_taxonomy_id" in fair_attrs and fair_attrs["ncbi_taxonomy_id"]:
-        return build_taxon_from_ncbi_id(str(fair_attrs["ncbi_taxonomy_id"]))
-
-    # 3. Fallback: Viruses (NCBI 10239)
-    return {
+    taxon = {
         "@type": "EVORAO:Taxon",
         "dcterms:title": "Viruses",
-        "EVORAO:taxonomicId": "NCBI:10239"
+        "EVORAO:taxonomicId": "NCBITaxon:10239",
     }
 
+    pid = {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "any virus",
+        },
+        "EVORAO:taxon": taxon,
+    }
 
-# -------------------------------
-# MAIN
-# -------------------------------
+    return pid
+
+
+def build_collection_block() -> Dict[str, Any]:
+    """
+    EVORAO:collection + collectionDataProvider + license
+    with FAIRsharing CC-BY-SA 4.0 + logo HTML snippet.
+    """
+    return {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FAIRsharing",
+        "EVORAO:collectionDataProvider": {
+            "@type": "EVORAO:DataProvider",
+            "dcterms:title": "FAIRsharing",
+            "EVORAO:homepage": "https://fairsharing.org/",
+            "EVORAO:license": {
+                "@type": "EVORAO:License",
+                "dcterms:title": "CC-BY-SA 4.0",
+                "EVORAO:licensingOrAttribution": (
+                    "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" "
+                    "alt=\"FAIRsharing Logo\">"
+                ),
+            },
+        },
+    }
+
 
 def main() -> int:
     if not INPUT_JSON.exists():
-        raise SystemExit(f"❌ FAIRsharing record not found: {INPUT_JSON}")
+        raise SystemExit(f"❌ FAIRsharing raw JSON not found: {INPUT_JSON}")
 
     with INPUT_JSON.open("r", encoding="utf-8") as f:
         raw = json.load(f)
 
-    data = raw.get("data") or {}
-    attrs = data.get("attributes") or {}
-    md = attrs.get("metadata") or {}
+    collection = raw.get("collection", {})
+    records_by_id: Dict[str, Any] = raw.get("records", {})
 
-    collection_name = md.get("name") or attrs.get("name") or ""
-    collection_desc = md.get("description") or attrs.get("description") or ""
-    collection_id = attrs.get("id") or data.get("id") or "5449"
-
-    linked_records = attrs.get("linked_records") or []
-
-    base_keywords = ensure_unique(
-        (attrs.get("subjects") or [])
-        + (attrs.get("domains") or [])
-        + (attrs.get("taxonomies") or [])
-        + (attrs.get("user_defined_tags") or [])
-    )
-
-    # Extract ELIXIR-level taxon (applies to all records)
-    collection_taxon = extract_taxon(attrs)
+    coll_data = collection.get("data", {}) if isinstance(collection, dict) else {}
+    coll_attrs = coll_data.get("attributes", {}) if isinstance(coll_data, dict) else {}
+    linked_list = coll_attrs.get("linked_records") or []
 
     graph: List[Dict[str, Any]] = []
 
-    for lr in linked_records:
-
-        lr_name = (lr.get("linked_record_name") or "").strip()
-        lr_id = lr.get("linked_record_id")
-        lr_registry = (lr.get("linked_record_registry") or "").strip()
-        lr_type = (lr.get("linked_record_type") or "").strip()
-        lr_relation = (lr.get("relation") or "").strip()
-
-        if not lr_id:
+    for lr in linked_list:
+        rid = str(lr.get("linked_record_id"))
+        if not rid:
             continue
 
-        ref_sku = str(lr_id)
-        urn = f"urn:evorao:ELIXIR:Service:{ref_sku}"
+        record_payload = records_by_id.get(rid)
+        if not isinstance(record_payload, dict):
+            print(f"⚠️ No fetched record for FAIRsharing ID {rid}, skipping.")
+            continue
+
+        data = record_payload.get("data", {})
+        attrs = data.get("attributes", {}) if isinstance(data, dict) else {}
+        meta = attrs.get("metadata") or {}
+
+        fs_id = data.get("id", rid)
+
+        # Title preference: metadata.name > attributes.name > linked_record_name
+        title = (
+            (meta.get("name") or "").strip()
+            or (attrs.get("name") or "").strip()
+            or (lr.get("linked_record_name") or "").strip()
+            or f"FAIRsharing record {fs_id}"
+        )
+
+        description = (
+            (attrs.get("description") or "").strip()
+            or (meta.get("description") or "").strip()
+        )
+
+        url = (attrs.get("url") or "").strip() or (meta.get("homepage") or "").strip()
+
+        keywords = extract_keywords(attrs, meta)
+
+        urn = f"urn:evorao:FAIRSHARING:Service:{fs_id}"
 
         service: Dict[str, Any] = {
             "@id": urn,
             "@type": "EVORAO:Service",
-            "EVORAO:refSku": ref_sku,
-            "dcterms:title": lr_name or f"FAIRsharing record {ref_sku}",
-            "dcterms:description": collection_desc,
-            "dcat:keyword": [],
-            "search:keywords": [],
+            "EVORAO:refSku": str(fs_id),
+            "dcterms:title": title,
+            "dcterms:description": description,
+            "dcat:keyword": keywords.copy(),
+            "search:keywords": keywords.copy(),
+            "search:taxon": [],
         }
 
-        # Provider = ELIXIR Europe
-        service["EVORAO:provider"] = {
-            "@type": "EVORAO:Provider",
-            "foaf:name": "ELIXIR Europe",
-        }
+        if url:
+            service["EVORAO:accessPointURL"] = url
 
-        # Collection metadata
-        service["EVORAO:collection"] = {
-            "@type": "EVORAO:Collection",
-            "dcterms:title": collection_name,
-            "dcterms:description": collection_desc,
-            "dcterms:identifier": f"FAIRsharing:{collection_id}",
-        }
-
-        # EVORAO:category = "service"
+        # Category is always "service"
         service["EVORAO:category"] = {
             "@type": "EVORAO:ProductCategory",
             "dcterms:title": "service",
         }
 
-        # AccessPoint = FAIRsharing page
-        service["EVORAO:accessPointUrl"] = f"https://fairsharing.org/{ref_sku}"
+        # Additional category = FAIRsharing linked_record_type (e.g. "repository", "knowledgebase", …)
+        linked_type = (lr.get("linked_record_type") or "").strip()
+        if linked_type:
+            service["EVORAO:additionalCategory"] = [
+                {
+                    "@type": "EVORAO:ProductCategory",
+                    "dcterms:title": linked_type,
+                }
+            ]
 
-        # Additional categories for registry/type
-        additional = []
-        for tag in (lr_registry, lr_type):
-            tag = tag.strip()
-            if tag:
-                additional.append(
-                    {
-                        "@type": "EVORAO:ProductCategory",
-                        "dcterms:title": tag
-                    }
-                )
-        if additional:
-            service["EVORAO:additionalCategory"] = additional
-
-        # Keywords
-        kw = []
-        kw.extend(base_keywords)
-        kw.extend([lr_registry, lr_type, lr_relation])
-        kw = ensure_unique([x for x in kw if x])
-
-        service["dcat:keyword"] = kw
-        service["search:keywords"] = kw
-        service["EVORAO:keywords"] = [
-            {"@type": "EVORAO:Keyword", "dcterms:title": x} for x in kw
-        ]
-
-        # NEW: PathogenIdentification with TAXON
-        # --------------------------------------------
-        service["EVORAO:pathogenIdentification"] = {
-            "@type": "EVORAO:PathogenIdentification",
-            "EVORAO:taxon": collection_taxon,
+        # Provider: ELIXIR Europe as the RI
+        service["EVORAO:provider"] = {
+            "@type": "EVORAO:ResearchInfrastructure",
+            "foaf:name": "ELIXIR Europe",
+            "EVORAO:alternateName": [
+                {
+                    "@type": "EVORAO:AlternateName",
+                    "dcterms:title": "ELIXIR",
+                }
+            ],
         }
+
+        # Collection + FAIRsharing licence / attribution
+        service["EVORAO:collection"] = build_collection_block()
+
+        # Generic viruses taxon + pathogen identification
+        pid = build_viruses_taxon_and_pid()
+        service["EVORAO:pathogenIdentification"] = pid
+
+        # Add "Viruses" to search fields and keywords
+        for label in ["Viruses"]:
+            if label not in service["dcat:keyword"]:
+                service["dcat:keyword"].append(label)
+            for field in ("search:keywords", "search:taxon"):
+                if label not in service[field]:
+                    service[field].append(label)
+
+        # Final de-dup on keyword/search arrays
+        service["dcat:keyword"] = ensure_list_unique(service["dcat:keyword"])
+        service["search:keywords"] = ensure_list_unique(service["search:keywords"])
+        service["search:taxon"] = ensure_list_unique(service["search:taxon"])
 
         graph.append(service)
 
