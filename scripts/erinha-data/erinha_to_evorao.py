@@ -97,7 +97,7 @@ def split_keywords(raw: str) -> List[str]:
 # -------------------------------------------------------------------------
 
 
-def build_pathogen_identification(row: Dict[str, str]) -> Dict[str, Any]:
+def build_pathogen_identification(row: Dict[str, str], entity: Dict[str, Any]) -> Dict[str, Any]:
     """
     Map:
       Pathogen name        → pathogenName:VirusName:dcterms:title
@@ -131,6 +131,7 @@ def build_pathogen_identification(row: Dict[str, str]) -> Dict[str, Any]:
             "@type": "EVORAO:VirusName",
             "dcterms:title": pathogen_name,
         }
+        entity["search:pathogenName"] = pathogen_name
 
     if viral_strain:
         pid["EVORAO:strain"] = viral_strain
@@ -140,6 +141,7 @@ def build_pathogen_identification(row: Dict[str, str]) -> Dict[str, Any]:
             "@type": "EVORAO:Taxon",
             "dcterms:title": taxon_label,
         }
+        entity["search:taxonLabel"] = taxonLabel
 
     return pid
 
@@ -175,15 +177,19 @@ def add_additional_categories(entity: Dict[str, Any], row: Dict[str, str]) -> No
 
     # Research Model Category
     add_cat(row.get("Research Model Category", ""))
+    entity["search:additionalCategory"] = []
+    entity["search:additionalCategory"].append(row.get("Research Model Category", ""))
 
     # Experimental model name
     add_cat(row.get("Experimental model name", ""))
+    entity["search:additionalCategory"].append(row.get("Experimental model name", ""))
 
     # Assay columns where value is "x"
     for col in TECH_COLUMNS:
         val = (row.get(col) or "").strip()
         if val.lower() == "x":
             add_cat(col)
+            entity["search:additionalCategory"].append(col)
 
     if cats:
         entity["EVORAO:additionalCategory"] = cats
@@ -232,13 +238,15 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service",
     }
-
+    entity["search:category"] = "service"
+    
     # Provider → EVORAO:provider:Provider:foaf:name
     if provider:
         entity["EVORAO:provider"] = {
             "@type": "EVORAO:Provider",
             "foaf:name": provider,
         }
+        entity["search:providerName"] = provider
 
     # Collection → EVORAO:collection:Collection:dcterms:title
     if collection:
@@ -246,6 +254,7 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
             "@type": "EVORAO:Collection",
             "dcterms:title": collection,
         }
+        entity["search:collectionName"] = collection
 
         # Publisher derived from Collection
         # If Collection == ERINHA → fully described ResearchInfrastructure
@@ -257,12 +266,14 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
                 "EVORAO:homepage": "https://www.erinha.eu/",
                 "EVORAO:rorId": "https://ror.org/008y8yz21",
             }
+            entity["search:publisherName"] = "ERINHA"
         else:
             # Otherwise we only know the name
             entity["EVORAO:publisher"] = {
                 "@type": "EVORAO:ResearchInfrastructure",
                 "foaf:name": collection,
             }
+            entity["search:publisherName"] = collection
 
     # Containment level → biosafetyLevel:BiosafetyLevel:dcterms:title
     if containment:
@@ -308,7 +319,6 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
     evorao_keywords: List[Dict[str, Any]] = []
     for kw in split_keywords(keywords_raw):
         entity["dcat:keyword"].append(kw)
-        entity["search:keywords"].append(kw)
         evorao_keywords.append(
             {
                 "@type": "EVORAO:Keyword",
@@ -319,7 +329,7 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
         entity["EVORAO:keywords"] = evorao_keywords
 
     # Pathogen identification (name, taxon, strain)
-    pid = build_pathogen_identification(row)
+    pid = build_pathogen_identification(row, entity)
     if pid:
         entity["EVORAO:pathogenIdentification"] = pid
 
@@ -329,20 +339,18 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
             t_label = taxon_obj.get("dcterms:title")
             if t_label:
                 entity["search:taxon"].append(t_label)
-                entity["search:keywords"].append(t_label)
                 entity["dcat:keyword"].append(t_label)
 
         # And with the pathogen name
         pname = pid.get("EVORAO:pathogenName", {}).get("dcterms:title")
         if pname:
-            entity["search:keywords"].append(pname)
             entity["dcat:keyword"].append(pname)
 
     # Additional categories
     add_additional_categories(entity, row)
 
     # De-duplicate keyword / search lists
-    for key in ["dcat:keyword", "search:keywords", "search:taxon"]:
+    for key in ["dcat:keyword", "search:taxon"]:
         entity[key] = list(dict.fromkeys(entity[key]))
 
     return entity

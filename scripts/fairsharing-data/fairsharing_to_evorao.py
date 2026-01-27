@@ -148,7 +148,6 @@ def main() -> int:
             "dcterms:title": title,
             "dcterms:description": description,
             "dcat:keyword": keywords.copy(),
-            "search:keywords": keywords.copy(),
             "search:taxon": [],
         }
 
@@ -160,7 +159,8 @@ def main() -> int:
             "@type": "EVORAO:ProductCategory",
             "dcterms:title": "service",
         }
-
+        service["search:category"] =  "service",
+        
         # Additional category = FAIRsharing linked_record_type (e.g. "repository", "knowledgebase", …)
         linked_type = (lr.get("linked_record_type") or "").strip()
         if linked_type:
@@ -170,6 +170,7 @@ def main() -> int:
                     "dcterms:title": linked_type,
                 }
             ]
+            service["search:additionalCategory"] = [linked_type]
 
         # Provider: ELIXIR Europe as the RI
         service["EVORAO:provider"] = {
@@ -182,6 +183,9 @@ def main() -> int:
                 }
             ],
         }
+        service["search:providerName"] = "ELIXIR"
+        service["search:collectionName"] = "FAIRsharing" 
+        service["search:publisherName"] = "FAIRsharing"
 
         # Collection + FAIRsharing licence / attribution
         service["EVORAO:collection"] = build_collection_block()
@@ -191,6 +195,8 @@ def main() -> int:
         service["EVORAO:pathogenIdentification"] = pid
 
         # Add "Viruses" to search fields and keywords
+        service["search:taxonLabel"] = "Viruses"
+        service["search:pathogenName"] = "any virus"
         for label in ["Viruses"]:
             if label not in service["dcat:keyword"]:
                 service["dcat:keyword"].append(label)
@@ -200,7 +206,6 @@ def main() -> int:
 
         # Final de-dup on keyword/search arrays
         service["dcat:keyword"] = ensure_list_unique(service["dcat:keyword"])
-        service["search:keywords"] = ensure_list_unique(service["search:keywords"])
         service["search:taxon"] = ensure_list_unique(service["search:taxon"])
 
         graph.append(service)
