@@ -5,7 +5,7 @@
       "type": "fairsharing_records",
       "attributes": {
         "created_at": "2024-04-22T09:15:29.411Z",
-        "updated_at": "2026-01-26T10:51:48.508Z",
+        "updated_at": "2026-01-27T10:16:41.111Z",
         "metadata": {
           "name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
           "status": "ready",
@@ -153,7 +153,9 @@
         "user_defined_tags": [
           "pandemic preparedness"
         ],
-        "countries": [],
+        "countries": [
+          "European Union"
+        ],
         "publications": [],
         "licence_links": [],
         "organisation_links": [
@@ -310,7 +312,9 @@
         ],
         "url_for_logo": null,
         "exhaustive_licences": false,
-        "object_types": [],
+        "object_types": [
+          "object type agnostic"
+        ],
         "internal_identifiers": null
       }
     }

@@ -32,24 +32,6 @@
         "model",
         "Viruses"
       ],
-      "search:keywords": [
-        "Virology",
-        "Epidemiology",
-        "Digital Image Processing",
-        "Structural Biology",
-        "Bioimaging",
-        "microscopy",
-        "electron microscopy",
-        "X-ray diffraction",
-        "X-ray crystallography 3D molecular structure determination assay",
-        "structure",
-        "protein",
-        "All",
-        "dataset",
-        "image",
-        "model",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -58,11 +40,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "repository"
         }
+      ],
+      "search:additionalCategory": [
+        "repository"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -74,6 +62,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -99,7 +90,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:2934",
@@ -129,28 +122,6 @@
         "dataset",
         "Viruses"
       ],
-      "search:keywords": [
-        "Virology",
-        "Biomedical Science",
-        "Epidemiology",
-        "Data Integration",
-        "Expression data",
-        "Bioimaging",
-        "gene expression",
-        "protein-containing complex",
-        "molecular interaction",
-        "Protein Expression",
-        "disease",
-        "protein",
-        "pathway",
-        "region",
-        "polypeptide region",
-        "viral sequence",
-        "All",
-        "COVID-19",
-        "dataset",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -159,11 +130,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "repository"
         }
+      ],
+      "search:additionalCategory": [
+        "repository"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -175,6 +152,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -200,7 +180,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:1850",
@@ -233,31 +215,6 @@
         "image",
         "Viruses"
       ],
-      "search:keywords": [
-        "Functional Genomics",
-        "Biodiversity",
-        "Data Management",
-        "Metagenomics",
-        "Transcriptomics",
-        "Bioinformatics",
-        "Genomics",
-        "DNA sequence",
-        "Annotation",
-        "Sequence annotation",
-        "Genome assembly",
-        "histone",
-        "deoxyribonucleic acid",
-        "ribonucleic acid",
-        "nucleotide",
-        "sequencing assay",
-        "polypeptide region",
-        "data storage",
-        "All",
-        "Data coordination",
-        "dataset",
-        "image",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -266,11 +223,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "repository"
         }
+      ],
+      "search:additionalCategory": [
+        "repository"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -282,6 +245,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -307,7 +273,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:7482",
@@ -320,11 +288,6 @@
         "Not applicable",
         "Viruses"
       ],
-      "search:keywords": [
-        "Life Science",
-        "Not applicable",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -333,11 +296,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "collection"
         }
+      ],
+      "search:additionalCategory": [
+        "collection"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -349,6 +318,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -374,7 +346,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:2303",
@@ -411,35 +385,6 @@
         "image",
         "Viruses"
       ],
-      "search:keywords": [
-        "Life Science",
-        "Botany",
-        "Biomedical Science",
-        "Bioimaging",
-        "super-resolution bright-field microscopy",
-        "light-sheet illumination",
-        "small molecule",
-        "high content screen",
-        "Apis mellifera",
-        "Arabidopsis thaliana",
-        "Danio rerio",
-        "Drosophila",
-        "Drosophila melanogaster",
-        "Escherichia coli",
-        "Gallus gallus",
-        "Homo sapiens",
-        "Mus musculus",
-        "Plasmodium falciparum",
-        "Saccharomyces cerevisiae",
-        "SARS-CoV-2",
-        "Schizosaccharomyces pombe",
-        "Tribolium castaneum",
-        "Digital pathology",
-        "Plankton",
-        "dataset",
-        "image",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -448,11 +393,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "repository"
         }
+      ],
+      "search:additionalCategory": [
+        "repository"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -464,6 +415,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -489,7 +443,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:4947",
@@ -505,14 +461,6 @@
         "All",
         "Viruses"
       ],
-      "search:keywords": [
-        "Biomedical Science",
-        "Immunology",
-        "Annotation",
-        "infectious disease",
-        "All",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -521,11 +469,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "terminology_artefact"
         }
+      ],
+      "search:additionalCategory": [
+        "terminology_artefact"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -537,6 +491,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -562,7 +519,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:1860",
@@ -589,25 +548,6 @@
         "model",
         "Viruses"
       ],
-      "search:keywords": [
-        "Bioinformatics",
-        "Structural Biology",
-        "Protein structure",
-        "Drug structure",
-        "deoxyribonucleic acid",
-        "ribonucleic acid",
-        "electron microscopy",
-        "X-ray diffraction",
-        "nuclear magnetic resonance spectroscopy",
-        "X-ray crystallography 3D molecular structure determination assay",
-        "structure",
-        "protein",
-        "All",
-        "dataset",
-        "image",
-        "model",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -616,11 +556,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "repository"
         }
+      ],
+      "search:additionalCategory": [
+        "repository"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -632,6 +578,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -657,7 +606,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:1478",
@@ -676,17 +627,6 @@
         "All",
         "Viruses"
       ],
-      "search:keywords": [
-        "Genetics",
-        "Bioinformatics",
-        "Genomics",
-        "Nucleic acid sequence",
-        "deoxyribonucleic acid",
-        "region",
-        "genome",
-        "All",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -695,11 +635,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "model_and_format"
         }
+      ],
+      "search:additionalCategory": [
+        "model_and_format"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -711,6 +657,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -736,7 +685,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:1061",
@@ -757,19 +708,6 @@
         "dataset",
         "Viruses"
       ],
-      "search:keywords": [
-        "Transcriptomics",
-        "Genetics",
-        "Bioinformatics",
-        "Genomics",
-        "Nucleic acid sequence",
-        "deoxyribonucleic acid",
-        "nucleic acid",
-        "genome",
-        "All",
-        "dataset",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -778,11 +716,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "model_and_format"
         }
+      ],
+      "search:additionalCategory": [
+        "model_and_format"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -794,6 +738,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -819,7 +766,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:1333",
@@ -835,14 +784,6 @@
         "All",
         "Viruses"
       ],
-      "search:keywords": [
-        "Life Science",
-        "Biodiversity",
-        "Genomics",
-        "Oceanography",
-        "All",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -851,11 +792,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "reporting_guideline"
         }
+      ],
+      "search:additionalCategory": [
+        "reporting_guideline"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -867,6 +814,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -892,7 +842,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:735",
@@ -908,14 +860,6 @@
         "All",
         "Viruses"
       ],
-      "search:keywords": [
-        "Biology",
-        "Experimental measurement",
-        "Sample annotation",
-        "Biospecimen",
-        "All",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -924,11 +868,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "model_and_format"
         }
+      ],
+      "search:additionalCategory": [
+        "model_and_format"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -940,6 +890,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -965,7 +918,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:1554",
@@ -986,19 +941,6 @@
         "physical object/material",
         "Viruses"
       ],
-      "search:keywords": [
-        "Biology",
-        "Sample annotation",
-        "Biospecimen",
-        "assay",
-        "phenotype",
-        "disease",
-        "genotype",
-        "All",
-        "COVID-19",
-        "physical object/material",
-        "Viruses"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -1007,11 +949,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "repository"
         }
+      ],
+      "search:additionalCategory": [
+        "repository"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -1023,6 +971,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -1048,7 +999,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:6193",
@@ -1064,14 +1017,6 @@
         "dataset",
         "image"
       ],
-      "search:keywords": [
-        "Epidemiology",
-        "Public Health",
-        "genome",
-        "Viruses",
-        "dataset",
-        "image"
-      ],
       "search:taxon": [
         "Viruses"
       ],
@@ -1080,11 +1025,17 @@
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "service"
       },
+      "search:category": [
+        "service"
+      ],
       "EVORAO:additionalCategory": [
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "knowledgebase"
         }
+      ],
+      "search:additionalCategory": [
+        "knowledgebase"
       ],
       "EVORAO:provider": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -1096,6 +1047,9 @@
           }
         ]
       },
+      "search:providerName": "ELIXIR",
+      "search:collectionName": "FAIRsharing",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
@@ -1121,7 +1075,9 @@
           "dcterms:title": "Viruses",
           "EVORAO:taxonomicId": "NCBITaxon:10239"
         }
-      }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
     }
   ]
 }
