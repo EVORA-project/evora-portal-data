@@ -200,7 +200,7 @@ def main() -> int:
         for label in ["Viruses"]:
             if label not in service["dcat:keyword"]:
                 service["dcat:keyword"].append(label)
-            for field in ("search:keywords", "search:taxon"):
+            for field in ("dcat:keyword", "search:taxon"):
                 if label not in service[field]:
                     service[field].append(label)
 
