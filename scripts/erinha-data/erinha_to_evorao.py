@@ -141,7 +141,7 @@ def build_pathogen_identification(row: Dict[str, str], entity: Dict[str, Any]) -
             "@type": "EVORAO:Taxon",
             "dcterms:title": taxon_label,
         }
-        entity["search:taxonLabel"] = taxonLabel
+        entity["search:taxonLabel"] = taxon_label
 
     return pid
 
