@@ -148,6 +148,8 @@ def main() -> int:
             "dcterms:title": title,
             "dcterms:description": description,
             "dcat:keyword": keywords.copy(),
+            "EVORAO:availability": "online"
+            "EVORAO:unitCostNote": "publicly available"
             "search:taxon": [],
         }
 
