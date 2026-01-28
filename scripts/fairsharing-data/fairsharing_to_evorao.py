@@ -131,8 +131,8 @@ def main() -> int:
         )
 
         description = (
-            (attrs.get("description") or "").strip()
-            or (meta.get("description") or "").strip()
+            (meta.get("description") or "").strip()
+            or (attrs.get("description") or "").strip()
         )
 
         url = (attrs.get("url") or "").strip() or (meta.get("homepage") or "").strip()
