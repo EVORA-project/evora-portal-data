@@ -279,6 +279,22 @@ def ictv_entity_to_evorao_taxon(
         if uniq_alts:
             taxon["EVORAO:alternateName"] = uniq_alts
 
+    # --- Lineage (flattened, display-oriented, strings only) ---
+    lineage_vals = []
+    for l in ent.get("lineage") or []:
+        if isinstance(l, dict):
+            lbl = l.get("label")
+            if lbl:
+                lineage_vals.append(str(lbl).strip())
+        elif isinstance(l, str):
+            lineage_vals.append(l.strip())
+
+    # Remove empty + keep order
+    lineage_vals = [x for x in lineage_vals if x]
+
+    if lineage_vals:
+        taxon["EVORAO:lineage"] = lineage_vals
+
     return taxon
 
 
@@ -289,7 +305,7 @@ def expand_search_fields(
     ent: Dict[str, Any],
 ):
     """
-    Populate dcat:keyword, search:keywords, and search:taxon
+    Populate dcat:keyword, and search:taxon
     with:
       - ICTV label (Taxon title)
       - original taxon label (if different)
@@ -302,6 +318,7 @@ def expand_search_fields(
     # Main ICTV label
     main_label = taxon_obj.get("dcterms:title") or taxon_obj.get("dct:title")
     if main_label:
+        entity["search:taxonLabel"] = str(main_label)
         labels.append(str(main_label))
 
     # Local original label (if distinct)
@@ -323,15 +340,14 @@ def expand_search_fields(
         labels.append(str(parent_label))
 
     # Lineage (ancestors labels)
-    for l in ent.get("lineage") or []:
-        if l:
-            labels.append(str(l))
+    for l in taxon_obj.get("EVORAO:lineage", []):
+        labels.append(str(l))
 
     # Deduplicate, keep order, remove empty
     labels = list(dict.fromkeys([x for x in labels if x]))
 
     # Push into the search-related fields
-    for field in ["dcat:keyword", "search:keywords", "search:taxon"]:
+    for field in ["dcat:keyword", "search:taxon"]:
         arr = ensure_list(entity, field)
         for lbl in labels:
             if lbl not in arr:
