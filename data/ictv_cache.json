@@ -93548,7 +93548,7 @@
       ]
     }
   },
-  "_fetched_at": "2026-01-29T14:55:39.255654",
+  "_fetched_at": "2026-01-30T04:19:51.832900",
   "Alkhumra (Kyasanur forest)  virus": {
     "status": "not-found",
     "input": "Alkhumra (Kyasanur forest)  virus",
@@ -99198,6 +99198,59 @@
       {
         "ncbiCurie": "ncbitaxon:64297",
         "label": "Uganda S virus"
+      }
+    ]
+  },
+  "Henipavirus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV20020173",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20020173",
+      "ictv_curie": "ictv:MSL40/ICTV20020173",
+      "iri": "http://ictv.global/id/MSL40/ICTV20020173",
+      "label": "Henipavirus",
+      "synonyms": [],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV201856451",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV201856451",
+        "http://ictv.global/id/MSL40/ICTV19750011",
+        "http://ictv.global/id/MSL40/ICTV19900001",
+        "http://ictv.global/id/MSL40/ICTV20186020",
+        "http://ictv.global/id/MSL40/ICTV20186019",
+        "http://ictv.global/id/MSL40/ICTV20186016",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000005",
+        "label": "genus"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20020173",
+      "had_revision": null,
+      "narrow_match": [],
+      "direct_parent_label": "Orthoparamyxovirinae",
+      "lineage": [
+        "Orthoparamyxovirinae",
+        "Paramyxoviridae",
+        "Mononegavirales",
+        "Monjiviricetes",
+        "Haploviricotina",
+        "Negarnaviricota",
+        "Orthornavirae",
+        "Riboviria",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:260964",
+        "label": "Henipavirus"
       }
     ]
   }
