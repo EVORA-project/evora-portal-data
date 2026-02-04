@@ -5,9 +5,9 @@
       "type": "fairsharing_records",
       "attributes": {
         "created_at": "2024-04-22T09:15:29.411Z",
-        "updated_at": "2026-01-30T09:01:28.439Z",
+        "updated_at": "2026-02-03T13:38:30.691Z",
         "metadata": {
-          "name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+          "name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
           "status": "ready",
           "contacts": [
             {
@@ -19,17 +19,17 @@
           "homepage": "https://evora-project.eu/",
           "citations": [],
           "identifier": 5449,
-          "description": "This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+          "description": "This curated collection in the FAIRsharing repository brings together a selection of resources provided by ELIXIR and specifically compiled by EVORA to help to strengthen pandemic preparedness and response. It includes databases, standards, and policies that follow the FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Designed for researchers, policymakers, and public health professionals, these resources offer reliable tools and information essential for the effective management and mitigation of pandemics.",
           "abbreviation": null,
           "year_creation": null
         },
         "legacy_ids": [],
-        "name": "FAIRsharing record for: EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+        "name": "FAIRsharing record for: EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
         "abbreviation": null,
         "url": "https://fairsharing.org/5449",
         "doi": null,
         "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
-        "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository features a selection of resources specifically compiled by EVORA for enhancing pandemic preparedness and response. It includes databases, standards, and policies that adhere to FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Aimed at researchers, policymakers, and public health professionals, these resources provide reliable tools and information crucial for effective management and mitigation of pandemics.",
+        "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository brings together a selection of resources provided by ELIXIR and specifically compiled by EVORA to help to strengthen pandemic preparedness and response. It includes databases, standards, and policies that follow the FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Designed for researchers, policymakers, and public health professionals, these resources offer reliable tools and information essential for the effective management and mitigation of pandemics.",
         "linked_records": [
           {
             "linked_record_name": "Electron Microscopy Data Bank",
@@ -126,14 +126,6 @@
             "linked_record_type": "repository",
             "relation": "collects",
             "link_id": 26771
-          },
-          {
-            "linked_record_name": "Nextstrain",
-            "linked_record_id": 6193,
-            "linked_record_registry": "Database",
-            "linked_record_type": "knowledgebase",
-            "relation": "collects",
-            "link_id": 26772
           }
         ],
         "linking_records": [],
@@ -392,7 +384,7 @@
               "link_id": 22550
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -584,7 +576,7 @@
               "link_id": 24068
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -753,7 +745,7 @@
               "link_id": 22854
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -1030,7 +1022,7 @@
               "link_id": 26439
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -1428,7 +1420,7 @@
               "link_id": 16203
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -2067,7 +2059,7 @@
               "link_id": 23821
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -2786,7 +2778,7 @@
               "link_id": 13978
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -3279,7 +3271,7 @@
               "link_id": 26310
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -3691,7 +3683,7 @@
               "link_id": 15948
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -3939,7 +3931,7 @@
               "link_id": 23022
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -4016,237 +4008,6 @@
         }
       }
     },
-    "6193": {
-      "data": {
-        "id": "6193",
-        "type": "fairsharing_records",
-        "attributes": {
-          "created_at": "2025-02-04T17:01:20.778Z",
-          "updated_at": "2025-07-31T13:32:44.064Z",
-          "metadata": {
-            "doi": "10.25504/FAIRsharing.dba7ba",
-            "name": "Nextstrain",
-            "status": "ready",
-            "contacts": [
-              {
-                "contact_name": "Trevor Bedford ",
-                "contact_email": "tb@bedford.io",
-                "contact_orcid": null
-              },
-              {
-                "contact_name": "Richard Neher",
-                "contact_email": "richard.neher@unibas.ch",
-                "contact_orcid": null
-              }
-            ],
-            "homepage": "https://nextstrain.org/",
-            "citations": [
-              {
-                "doi": "10.1093/bioinformatics/bty407",
-                "pubmed_id": null,
-                "publication_id": 4724
-              }
-            ],
-            "identifier": 6193,
-            "description": "Nextstrain is a project to harness the scientific and public health potential of pathogen genome data. It’s made up of many different parts that all work together. Through our website, nextstrain.org, we provide a continually-updated view of publicly available data with powerful analyses and visualizations showing pathogen evolution and epidemic spread. Through our open-source software tools, we aim to help you analyze and visualize your own data in the same way. Our goal is to aid epidemiological understanding and improve outbreak response.",
-            "abbreviation": null,
-            "data_curation": {
-              "type": "manual/automated"
-            },
-            "support_links": [
-              {
-                "url": "https://docs.nextstrain.org/en/latest/index.html",
-                "name": "Nextstrain’s documentation",
-                "type": "Help documentation"
-              },
-              {
-                "url": "https://docs.nextstrain.org/en/latest/reference/faq.html",
-                "name": "FAQ",
-                "type": "Frequently Asked Questions (FAQs)"
-              },
-              {
-                "url": "https://github.com/nextstrain",
-                "type": "Github"
-              },
-              {
-                "url": "https://x.com/nextstrain",
-                "type": "Twitter"
-              },
-              {
-                "url": "https://nextstrain.org/blog/2025-01-09-human-metapneumovirus-analysis-and-resources",
-                "name": "Blog",
-                "type": "Blog/News"
-              },
-              {
-                "url": "hello@nextstrain.org",
-                "type": "Support email"
-              },
-              {
-                "url": "https://docs.nextstrain.org/en/latest/learn/about.html",
-                "name": "About Nextstrain",
-                "type": "Help documentation"
-              }
-            ],
-            "year_creation": 2018,
-            "data_versioning": "yes",
-            "associated_tools": [
-              {
-                "url": "https://docs.nextstrain.org/en/latest/install.html",
-                "name": "Nextstrain"
-              },
-              {
-                "url": "https://clades.nextstrain.org/",
-                "name": "Nextclade"
-              }
-            ],
-            "internal_identifiers": true,
-            "data_access_condition": {
-              "type": "open"
-            },
-            "resource_sustainability": {},
-            "data_contact_information": "no",
-            "data_preservation_policy": {},
-            "data_deposition_condition": {
-              "type": "not found"
-            },
-            "citation_to_related_publications": "yes",
-            "data_access_for_pre_publication_review": "no"
-          },
-          "legacy_ids": [],
-          "name": "FAIRsharing record for: Nextstrain",
-          "abbreviation": null,
-          "url": "https://fairsharing.org/10.25504/FAIRsharing.dba7ba",
-          "doi": "10.25504/FAIRsharing.dba7ba",
-          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
-          "description": "This FAIRsharing record describes: Nextstrain is a project to harness the scientific and public health potential of pathogen genome data. It’s made up of many different parts that all work together. Through our website, nextstrain.org, we provide a continually-updated view of publicly available data with powerful analyses and visualizations showing pathogen evolution and epidemic spread. Through our open-source software tools, we aim to help you analyze and visualize your own data in the same way. Our goal is to aid epidemiological understanding and improve outbreak response.",
-          "linked_records": [],
-          "linking_records": [
-            {
-              "linking_record_name": "RDMkit Virology Domain",
-              "linking_record_id": 7482,
-              "linking_record_registry": "Collection",
-              "linking_record_type": "collection",
-              "relation": "collects",
-              "link_id": 26343
-            },
-            {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
-              "linking_record_id": 5449,
-              "linking_record_registry": "Collection",
-              "linking_record_type": "collection",
-              "relation": "collects",
-              "link_id": 26772
-            }
-          ],
-          "fairsharing_registry": "Database",
-          "record_type": "knowledgebase",
-          "subjects": [
-            "Epidemiology",
-            "Public Health"
-          ],
-          "domains": [
-            "genome"
-          ],
-          "taxonomies": [
-            "Viruses"
-          ],
-          "user_defined_tags": [],
-          "countries": [
-            "Switzerland",
-            "United States"
-          ],
-          "publications": [
-            {
-              "id": 4724,
-              "pubmed_id": null,
-              "title": "Nextstrain: real-time tracking of pathogen evolution",
-              "year": 2018,
-              "url": "http://dx.doi.org/10.1093/bioinformatics/bty407",
-              "authors": "Hadfield, James; Megill, Colin; Bell, Sidney M; Huddleston, John; Potter, Barney; Callender, Charlton; Sagulenko, Pavel; Bedford, Trevor; Neher, Richard A; ",
-              "journal": "Bioinformatics",
-              "doi": "10.1093/bioinformatics/bty407",
-              "created_at": "2025-02-04T17:09:11.427Z",
-              "updated_at": "2025-02-04T17:09:11.427Z"
-            }
-          ],
-          "licence_links": [
-            {
-              "licence_name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-              "licence_id": 167,
-              "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-              "link_id": 4141,
-              "relation": "applies_to_content"
-            }
-          ],
-          "grants": [
-            {
-              "id": 12772,
-              "fairsharing_record_id": 6193,
-              "organisation_id": 284,
-              "relation": "maintains",
-              "created_at": "2025-02-04T17:11:38.784Z",
-              "updated_at": "2025-02-04T17:11:38.784Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 284,
-                "name": "Biozentrum, University of Basel, Basel, Switzerland",
-                "types": [
-                  "Lab"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 12774,
-              "fairsharing_record_id": 6193,
-              "organisation_id": 714,
-              "relation": "maintains",
-              "created_at": "2025-02-04T17:11:38.899Z",
-              "updated_at": "2025-02-04T17:11:38.899Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 714,
-                "name": "Department of Genome Sciences, University of Washington",
-                "types": [
-                  "University"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 12773,
-              "fairsharing_record_id": 6193,
-              "organisation_id": 2682,
-              "relation": "associated_with",
-              "created_at": "2025-02-04T17:11:38.785Z",
-              "updated_at": "2025-02-04T17:11:38.785Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2682,
-                "name": "Swiss Institute of Bioinformatics",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            }
-          ],
-          "url_for_logo": null,
-          "exhaustive_licences": false,
-          "object_types": [
-            "dataset",
-            "image"
-          ],
-          "internal_identifiers": true
-        }
-      }
-    },
     "735": {
       "data": {
         "id": "735",
@@ -4300,7 +4061,7 @@
               "link_id": 24241
             },
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
@@ -4535,12 +4296,20 @@
           ],
           "linking_records": [
             {
-              "linking_record_name": "EVORA’s Selection of FAIRsharing Referenced Resources for Pandemic Preparedness and Response",
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
               "link_id": 26760
+            },
+            {
+              "linking_record_name": "FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
+              "linking_record_id": 7589,
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "link_id": 26843
             }
           ],
           "fairsharing_registry": "Collection",
