@@ -50511,7 +50511,7 @@
       "@id": "urn:evorao:EVA:CSIRO:024V-04684",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/nipah-virus-inactivated-virus",
       "dcterms:issued": "2022-05-02T06:41:55+02:00",
-      "dcterms:modified": "2026-02-03T05:16:54+01:00",
+      "dcterms:modified": "2026-02-06T04:01:25+01:00",
       "dcterms:title": "Nipah virus (Inactivated virus)",
       "dcterms:description": "Nipah virus",
       "EVORAO:unitDefinition": "vial",
@@ -50537,7 +50537,7 @@
           "dct:title": "inactivated virus"
         }
       },
-      "EVORAO:unitCost": 1100,
+      "EVORAO:unitCost": 550,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
       "EVORAO:biologicalMaterialOrigin": {
