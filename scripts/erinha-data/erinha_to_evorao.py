@@ -397,6 +397,19 @@ def main() -> int:
         idx += 1
 
     OUTPUT_JSONLD.parent.mkdir(parents=True, exist_ok=True)
+    # -------------------------------------------------
+    # Ensure no duplicate entities by @id
+    # -------------------------------------------------
+    unique_graph = {}
+    for entity in graph:
+        eid = entity.get("@id")
+        if eid:
+            unique_graph[eid] = entity  # last one wins
+        else:
+            # fallback if ever missing @id
+            unique_graph[id(entity)] = entity
+
+    graph = list(unique_graph.values())
 
     jsonld = {"@context": CONTEXT, "@graph": graph}
     with OUTPUT_JSONLD.open("w", encoding="utf-8") as f:

@@ -161,7 +161,7 @@ def main() -> int:
             "@type": "EVORAO:ProductCategory",
             "dcterms:title": "service",
         }
-        service["search:category"] =  "service",
+        service["search:category"] =  "service"
         
         # Additional category = FAIRsharing linked_record_type (e.g. "repository", "knowledgebase", …)
         linked_type = (lr.get("linked_record_type") or "").strip()
@@ -211,6 +211,11 @@ def main() -> int:
         service["search:taxon"] = ensure_list_unique(service["search:taxon"])
 
         graph.append(service)
+
+    # -------------------------------------------------
+    # Ensure no duplicate by @id
+    # -------------------------------------------------
+    graph = list({e["@id"]: e for e in graph}.values())
 
     OUTPUT_JSONLD.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_JSONLD.open("w", encoding="utf-8") as f:

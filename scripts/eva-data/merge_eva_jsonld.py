@@ -30,6 +30,19 @@ def main() -> int:
     if context is None:
         raise SystemExit("No @context found in any page – aborting merge.")
 
+    # -------------------------------------------------
+    # Ensure no duplicate by @id
+    # -------------------------------------------------
+    unique = {}
+    for e in merged_graph:
+        eid = e.get("@id")
+        if eid:
+            unique[eid] = e   # last occurrence wins
+        else:
+            unique[id(e)] = e  # fallback safety
+
+    merged_graph = list(unique.values())
+
     os.makedirs(os.path.dirname(MERGED_PATH), exist_ok=True)
     merged = {"@context": context, "@graph": merged_graph}
 
