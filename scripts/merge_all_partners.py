@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 INPUT_FILES = [
+    Path("data/portal/catalog_node.jsonld"),
     Path("data/fairsharing/fairsharing_elixir_services.jsonld"),
     Path("data/erinha/erinha_services_enriched.jsonld"),
     Path("data/eva/eva_merged_enriched.jsonld"),
@@ -41,6 +42,19 @@ def main() -> int:
             "dcat": "http://www.w3.org/ns/dcat#",
             "search": "https://w3id.org/evorao/search#",
         }
+
+    # -------------------------------------------------
+    # Ensure no duplicate entities by @id
+    # -------------------------------------------------
+    unique = {}
+    for e in merged_graph:
+        eid = e.get("@id")
+        if eid:
+            unique[eid] = e
+        else:
+            unique[id(e)] = e
+
+    merged_graph = list(unique.values())
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 

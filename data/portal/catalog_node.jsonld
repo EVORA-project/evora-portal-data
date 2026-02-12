@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://w3id.org/evorao/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@graph": [
+    {
+      "@id": "https://portal.evora-project.eu/catalogue",
+      "@type": "dcat:Catalog",
+      "dcterms:title": "EVORA Portal Catalogue",
+      "dcterms:description": "Semantically harmonised catalogue of viral materials, derived products, services and related entities aggregated from EVA, ERINHA and FAIRsharing and transformed into EVORAO entities (https://w3id.org/evorao). A unified view of resources in virology to support pandemic preparedness and response.",
+      "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "foaf:homepage": { "@id": "https://evora-project.eu" }
+      },
+      "dcat:landingPage": {
+        "@id": "https://portal.evora-project.eu"
+      },
+      "dcat:distribution": {
+        "@id": "https://data.evora-project.eu/data/portal/evora_portal_all.jsonld"
+      }
+    }
+  ]
+}
