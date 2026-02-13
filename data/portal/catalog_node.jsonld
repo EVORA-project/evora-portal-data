@@ -9,6 +9,7 @@
     {
       "@id": "https://portal.evora-project.eu/catalogue",
       "@type": "dcat:Catalog",
+      "dcterms:issued": "2026-01-30T00:00:00Z",
       "dcterms:title": "EVORA Portal Catalogue",
       "dcterms:description": "Semantically harmonised catalogue of viral materials, derived products, services and related entities aggregated from EVA, ERINHA and FAIRsharing and transformed into EVORAO entities (https://w3id.org/evorao). A unified view of resources in virology to support pandemic preparedness and response.",
       "dcterms:license": {

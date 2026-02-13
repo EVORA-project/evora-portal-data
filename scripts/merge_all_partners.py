@@ -75,9 +75,10 @@ def main() -> int:
             for e in merged_graph
             if e.get("@id") and e.get("@id") != CATALOG_ID
         ]
-
-        # overwrite to keep deterministic output
+        
         catalog_node["dcat:dataset"] = members
+        now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        catalog_node["dcterms:modified"] = now_iso
         print(f"📚 Attached {len(members)} resources to portal catalog.")
     else:
         print("⚠️ Portal catalog node not found — skipping attachment.")
