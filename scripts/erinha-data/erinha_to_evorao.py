@@ -250,30 +250,48 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
 
     # Collection → EVORAO:collection:Collection:dcterms:title
     if collection:
-        entity["EVORAO:collection"] = {
+        # Base collection
+        collection_obj: Dict[str, Any] = {
             "@type": "EVORAO:Collection",
             "dcterms:title": collection,
         }
-        entity["search:collectionName"] = collection
 
-        # Publisher derived from Collection
-        # If Collection == ERINHA → fully described ResearchInfrastructure
+        # Base publisher
+        publisher_obj: Dict[str, Any] = {
+            "@type": "EVORAO:ResearchInfrastructure",
+            "foaf:name": collection,
+        }
+
+        # --- ERINHA specialisation ---
         if collection == "ERINHA":
-            entity["EVORAO:publisher"] = {
+            collection_obj["EVORAO:collectionDataProvider"] = {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ERINHA",
+                "EVORAO:homepage": "https://www.erinha.eu/",
+                "EVORAO:license": {
+                    "@type": "EVORAO:License",
+                    "dcterms:title": "CC-BY 4.0",
+                    "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by/4.0/",
+                    "EVORAO:licensingOrAttribution":
+                        "© ERINHA – European Research Infrastructure on Highly Pathogenic Agents",
+                },
+            }
+
+            publisher_obj = {
                 "@type": "EVORAO:ResearchInfrastructure",
                 "foaf:name": "European Research Infrastructure on Highly Pathogenic Agents",
                 "EVORAO:alternateName": "ERINHA",
                 "EVORAO:homepage": "https://www.erinha.eu/",
                 "EVORAO:rorId": "https://ror.org/008y8yz21",
             }
+
             entity["search:publisherName"] = "ERINHA"
         else:
-            # Otherwise we only know the name
-            entity["EVORAO:publisher"] = {
-                "@type": "EVORAO:ResearchInfrastructure",
-                "foaf:name": collection,
-            }
             entity["search:publisherName"] = collection
+
+        entity["EVORAO:collection"] = collection_obj
+        entity["EVORAO:publisher"] = publisher_obj
+        entity["search:collectionName"] = collection
 
     # Containment level → biosafetyLevel:BiosafetyLevel:dcterms:title
     if containment:
