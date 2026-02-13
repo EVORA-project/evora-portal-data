@@ -155,7 +155,7 @@ def main() -> int:
         }
 
         if url:
-            service["EVORAO:accessPointURL"] = url
+            service["EVORAO:accessPointUrl"] = url
 
         # Category is always "service"
         service["EVORAO:category"] = {
