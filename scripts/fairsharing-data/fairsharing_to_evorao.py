@@ -81,6 +81,7 @@ def build_collection_block() -> Dict[str, Any]:
             "EVORAO:license": {
                 "@type": "EVORAO:License",
                 "dcterms:title": "CC-BY-SA 4.0",
+                "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "EVORAO:licensingOrAttribution": (
                     "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" "
                     "alt=\"FAIRsharing Logo\">"
