@@ -2,6 +2,8 @@
 import json
 from pathlib import Path
 from typing import Any, Dict, List
+from datetime import datetime, timezone
+
 
 INPUT_FILES = [
     Path("data/portal/catalog_node.jsonld"),
@@ -55,6 +57,30 @@ def main() -> int:
             unique[id(e)] = e
 
     merged_graph = list(unique.values())
+
+    # -------------------------------------------------
+    # Attach all resources to the portal catalog
+    # -------------------------------------------------
+    CATALOG_ID = "https://portal.evora-project.eu/catalogue"
+
+    catalog_node = None
+    for e in merged_graph:
+        if e.get("@id") == CATALOG_ID:
+            catalog_node = e
+            break
+
+    if catalog_node:
+        members = [
+            {"@id": e["@id"]}
+            for e in merged_graph
+            if e.get("@id") and e.get("@id") != CATALOG_ID
+        ]
+
+        # overwrite to keep deterministic output
+        catalog_node["dcat:dataset"] = members
+        print(f"📚 Attached {len(members)} resources to portal catalog.")
+    else:
+        print("⚠️ Portal catalog node not found — skipping attachment.")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
