@@ -133,6 +133,43 @@ jobs:
           set -e
           python scripts/merge_all_partners.py
 
+      - name: Get EU Data Portal JWT
+        run: |
+          set -e
+
+          RESP=$(curl -s -X POST "https://data.europa.eu/auth/middleware/login/service" \
+            -H "Accept: application/json" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"client_id\": \"${{ secrets.EU_ID }}\",
+              \"client_secret\": \"${{ secrets.EU_TOKEN }}\"
+            }")
+
+          TOKEN=$(echo "$RESP" | jq -r '.access_token')
+
+          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
+            echo "❌ Failed to obtain EU JWT"
+            echo "$RESP"
+            exit 1
+          fi
+
+          echo "::add-mask::$TOKEN"
+          echo "EU_BEARER=$TOKEN" >> $GITHUB_ENV
+
+      - name: Upload EVORA dataset to data.europa.eu
+        run: |
+          set -e
+
+          FILE="data/portal/evora_portal_all.jsonld"
+          CATALOG="${{ secrets.EU_CATALOG_ID }}"
+
+          echo "Uploading EVORA dataset to EU portal..."
+
+          curl -X POST \
+            "https://data.europa.eu/api/hub/store/data?catalog=$CATALOG" \
+            -H "Authorization: Bearer $EU_BEARER" \
+            -F "file=@$FILE"
+
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
         run: |
