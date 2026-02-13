@@ -100,8 +100,12 @@ def main() -> int:
         "collection": collection,
         "records": records,
     }
-    with OUTPUT_JSON.open("w", encoding="utf-8") as f:
+    
+    tmp = OUTPUT_JSON.with_suffix(".tmp")
+    with tmp.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    tmp.replace(OUTPUT_JSON)
 
     print(f"✅ Saved FAIRsharing EVORA collection + {len(records)} linked records → {OUTPUT_JSON}")
     return 0

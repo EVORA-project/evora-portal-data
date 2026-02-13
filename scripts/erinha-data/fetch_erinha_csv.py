@@ -70,9 +70,13 @@ def main() -> int:
     worksheet = next(ws for ws in spreadsheet.worksheets() if str(ws.id) == sheet_gid)
     rows = worksheet.get_all_values()
 
-    with OUTPUT_CSV.open("w", newline='', encoding="utf-8") as f:
+    tmp = OUTPUT_CSV.with_suffix(".tmp")
+
+    with tmp.open("w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerows(rows)
+
+    tmp.replace(OUTPUT_CSV)
 
     print(f"✅ Saved {len(rows)} rows to {OUTPUT_CSV}")
     return 0
