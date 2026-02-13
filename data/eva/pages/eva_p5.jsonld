@@ -20,419 +20,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007v-EVA70",
-      "@id": "urn:evorao:EVA:UL:007v-EVA70",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/cchfv-strain-kosovo-hoti",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2026-01-23T10:56:11+01:00",
-      "dcterms:title": "CCHFV strain Kosovo Hoti",
-      "dcterms:description": "Infectious cell culture supernatant. This Crimean-Congo hemorrhagic fever virus[Kosovo Hoti] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been fully sequenced.",
-      "EVORAO:unitDefinition": "1000 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 3500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2005-01-14",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR and sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae - A protocol to remove mycoplasmae is provided",
-      "EVORAO:passage": "4th passage",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero E6"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1,67 x 1010 copies/ml, 10E5,5 TCID50/mL",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Human"
-      },
-      "EVORAO:isolationTechnique": "Vero E6 cells",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Kosovo"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "Bunyavirales",
-        "Category A",
-        "UN2814",
-        "CCHFV",
-        "Crimean-Congo hemorrhagic fever virus",
-        "Human",
-        "Human virus",
-        "Kosovo",
-        "Orthonairovirus",
-        "RG4",
-        "Slovenia",
-        "Vero E6",
-        "Dry ice",
-        "Crimean-Congo hemorrhagic fever orthonairovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2005-01-14",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 007v-EVA70 | Crimean-Congo hemorrhagic fever virus strain Kosova Hoti segment L, complete sequence\nTCTCAAAGATATCAATCCCCCCTTTACCCACGTTGACACAGTCAGCTCCAGTGGTGGATTTTTGTCTCTGTGGTACCATG\nGACTTCTTGAGGAACCTTGATTGGACTCAGGTGATTGCTGGTCAGTATGTGACCAACCCTAGGTTCAATATCTCCGATTA\nCTTTGAGATTGTGCGGCAGCCTGGTGATGGGAACTGCTTCTACCACAGCATAGCTGAGTTAACCATGCCCAACAAAACAG\nCTCACTCATATCACAACATCAAACATCTGACCGAGTTGGCAGCAAGGAAGTATTACCAAGAGGAGCCTGAAGCTAAGCTT\nGTTGGCCTGAGCCTGGAAGATTACCTTAAGAGGATGCTGTCTGACAACGAGTGGGGTTCAACTCTTGAGGCATCCATGCT\nAGCCAAAGAAATGGGCATTACAATAATCATTTGGACTGTTGCTGCCAGTGATGAAGTGGAGGCAGGCATAAAGTTCGGAG\nACGGTGATGTGTTTACAGCTGTTAACCTTCTGCACTCTGGGCAAACACATTTTGATGCTCTCAGAATACTGCCACAGTTT\nGAAACAGACACAAGGGAAGCCTTGAGTTTGGTGGATAAGGTTATGGCTGTGGATCAGTTGACATCATCCTCTAGTGATGA\nGCTGCAAGACTATGAGGATCTTGCTTTAGCACTCACAAGTGTGGAAGAACCGTATAGGCGGTCAAGCTTGGATGAAGTCA\nCTCTGTCCAGGAAACAAGCAGAGATATTGAGGCAGAAGGCATCTCAGTTGTCTAAATTGGTCAATAAAAGTCAGAACATA\nCCGACTAGAGTCGGCAGGGTCTTGGACTGCATGTTTAACTGTAAACTATGTGTTGAGATATCAGCTGACACTTTAATTCT\nAAGGCCAGAATCCAAAGAGAGAATTGGCGAAGTCATGTCATTGCGGCAGCTGGGGCACAAATTGCTGACACGAGACAAAC\nAAATTAAGCAAGAATTCTCTAGGATGAAACTTTACGTCACCAAAGATTTGCTAGACCATCTAGATGTTGGTGGGCTGTTG\nAGGGCTGCTTTCCCTGGGACAGGAATAGAAAGGCATATGCAGCTGCTACACTCCGAGATGATACTGGACATCTGTACTGT\nATCACTTGGCATCATGTTGTCAACATTCCTATACGGCTCTAACAATAAGAACAAGAAGAAGTTCATTACCAACTGTCTGC\nTCAGTACAGCTTTGTCCGGAAAAAAGGTGTATAAGGTTCTCGGCAACCTAGGAAATGAACTGTTGTACAAGGCACCCAGA\nAAGGCCTTAGCAACTGTCTGTAGTGCCTTGTTTGGGAAGCAGATAAACAAGCTTCAGAACTGCTTCAGAACCATAAGCCC\nCGTCAGCTTACTTGCATTAAGAAATCTGGACTTTGACTGTCTAAGTGTGCAAGACTATAATAACATGATAGAAAGTATGT\nCCAAATTGGATAACACTGATGTTGAATTCAACCACAGGGAGATAGCTGATCTCAATCAATTAACTTCTCGGCTCATTACA\nTTGAGAAAAGAGAAAGACACTGACCTCCTCAAACAATGGTTTCCTGGAAGTGACCTCACCCGCAGAAGTACCAGGAATAT\nCGCAAACGCAGAGGAATTTGTCATTTCTGAGTTCTTCAAAAGGAAGGACATTATGAAATTCATCAGCACCTCAGGAAGGG\nCAATGAGTGCAGGCAAGATTGGAAATGTCCTTTCCTATGCACATAACCTTTACTTGAGTAAGTCTAGTTTAAATATGACC\nTCTGAGGATATTTCACAGCTTCTGATCGAGATCAAGAGACTGTATGCTCTTCAAGAAGATTCTGAAGTAGAGCCGATAGC\nCATAATTTGTGATGGCATAGAAAGCAATATGAAACAGTTGTTTGCTATACTGCCTCCTGACTGTGCAAGAGAGTGTGAGG\nTCCTCTTTGATGACATAAGAAACTCTCCAACGCACAGTACAGCTTGGAAGCATGCCCTTCGGTTAAAAGGGACTGCATAC\nGAAGGTCTGTTTGCAAACTGCTACGGATGGCAATACATCCCAGAAGATATCAAACCAAGCCTGACCATGTTGATACAGAC\nTTTGTTTCCTGACAAGTTTGAAGATTTCTTGGATCGAACCCAGTTGCATCCAGAGTTCAGAGATTTAACTCCTGACTTTT\nCGCTTACACAGAAGGTTCACTTCAAAAGAAATCAGATACCCAGTGTTGAAAATGTGCAAATCTCCATTGATGTAACACTG\nCCTGAGTCTGTGGAGGCAGTGCCGGTGACAGAAAGAAAAATGTTCCCTCTGCCTGAAACTCCGCTGAGTGAGGTGCATTC\nAATAGAGCGCATTATGGAAAATTTTTCCCGCCTTATGCATGGAGGAAGACTTTCAGCCAAGGAAAAAGATGGAGACCTTG\nTAGAACAAGGCAGCCAGCAAAGCGCCGTTGAACACGAGAGTCCAAGCATCTCGGCCTTCAAGGACTATGGAGAAAGAGGA\nATAGTTGAGGAGAATCACATGAGGCTTAGTGAAGAAGATCAACTAGAAACAAGGCAGCTGCTGTTGGTGGAAGTTGGTTT\nTCAAACTGATATCGATGGGAAAATAAGGACAGACCACAAGAAATGGAAGGATATTTTAAAGCTGTTAGAGTTGCTAGGAA\nTCAAATGCTCTTTTATCGCCTGTGCCGACTGTTCGTCTACACCGCCAGATAGGTGGTGGATTACGGAGGACAGAGTACGA\nGTCTTAAAGAATTCAGTCAGTTTCCTCTTTAATAAACTCTCCAGGAACTCACCCACAGAAGTAACTGACATAGTTGTTGG\nAGCTATAAGTACTCAAAAGGTTAGGAGTTACCTAAAGGCAGGAACTGCAACAAAAACCCCTGTGTCGACAAAAGACGTTC\nTGGAGACTTGGGAAAAAATGAAAGAGCACATACTAAATAGGCCAACAGGATTAACACTGCCTGCCAGTTTGGAACAGGCT\nATGCGCAAAGGACTAGTTGAAGGTGTGGTCATCTCTAAGGAAGGTTCTGAATCATGCATCAACATGTTGAAAGAAAATTT\nGGACCGAATAACTGATGAATTCGAGCGAACAAAATTTAAACATGAACTTACTCAGAATGTTACCACTAGTGAAAAGATGC\nTATTTAGCTGGTTGAGTGAAGATATCAAATCATCGAGATGTACTGAGTGCCTCACCAACATAAAAAAAACTGTTGACGAG\nACTGCCAACCTGTCTGAGAAGATTGAGCTGCTTGCATATAATCTTCAACTCGTTAGTCATTGCGGCAACTGTCACCCCAA\nTGGTGTGAGCATTAGCAATACATCTAATGTATGCAAGAGGTGCCCTAAAATAGAAGTGGTTAATCATTGTGAAAATAAAG\nGCTTTGAGGACAGCAATGAATGCTTAACAGATCTAGACAGGCTTGTTAGGCTCACATTACCAGGAAAAACTGAGAAGGAG\nAGAAGAGTCAAACGCAATGTGGAATACCTTATAAAACTGATGATGAGTATGTCAGGCATTGATTGCATAAAATATCCCAC\nAGGACAGCTTATCACCCATGGAAGAGTGAGTGCAAAACATAACGATGGAAATTTGAAAGATAGGAGTGAGGACGATCAAA\nGACTAGCCGAGAAGATAGACACTGTTAGAAAAGAGCTTTCTGAATCCAAACTAAAAGATTATTCAACTTATGCAAGAGGG\nGTGATTTCAAATTCACTGAAAAACCTCTCAAAGCAAGGCAAGTCAAAGTGTTCTGTGCCGAGATCTTGGCTTGAAAAGAT\nATTGTTTGACTTAAAAGTGCCCACTAAAGATGAAGAAGTGCTTATAAACATTAGAAATTCATTGAAAGCTAGATCTGAGT\nTTGTTAGAAACAACGATAAACTACTCATAAGGTCAAAAGAAGAATTAAAAAAATGTTTCGATGTGCAATCATCTAAACTA\nATGAAAAACAAGCAACCTGTGCCTTTTCAAGTTGACTGCATACTGTTTAAAGAAGTGGCAGCTGAGTGCATGAAGAGGTA\nCATTGGCACACCTTATGAAGGAATTATCGACACCTTAGTTTCTCTGATCAATGTTCTGACAAGGTTCACCTGGTTTCAAG\nAGGTGGTACTATATGGTAAGATATGTGAAACCTTTCTAAGATGTTGTACAGAATTTAATAGGTCAGGGGTTAAACTAGTC\nAAGGTAAGGCACTGTGACATAAACCTATCAGTCAAACTACCATCGAACAAAAAAGAGAACATGTTATGTTGTATATACAG\nTGGCAACATGGAGCTCTTACAAGGACCTTTCTATTTGAACAGGAGACAAGCTGTCCTTGGATCTTCATACCTTTATATTG\nTCATTACACTTTACATACAAGTATTGCAGCAGTATAGGTGTCTAGAAGTTATAAACAGTGTAAATGAAAAGACATTGCAA\nGACATTGAAAATCACTCCATGACTTTGCTAGAAGATGCATTCAAGGAACTCACTTTTGCTCTTGAGGGTAGGTTTGAAGA\nATCTTACAAAGTACGGACCTCTAGGTGTAAAGCCAGCGGGAACTTCTTAAACAGGAGTAGTAGAGACCACTTTATAAGCA\nTTGTCTCAGGCTTAAATCTGGTTTATGGCTTCCTCATAAAGGATAACTTATTGGCTAATTCTCAACAGCAGAATAAACAA\nCTTCAAATGCTTCGTTTTGGCATGCTTGCAGGGCTTAGTAGGCTTGTTTGCCCTAATGAGCTAGGGAAAAAGTTTTCAAC\nAAGTTGTAGAAGGATTGAAGACAACATTGCAAGACTTTACCTACAAACATCTATATATTGTTCAGTCAGAGACGTGGAGG\nACAATATTAAACACTGGAAGCAAAGAGATCTATGCCCTGAAGTGACCATTCCGTGCTTTACAGTCTATGGCACCTTTATC\nAACAGCGACAGACAGCTTATCTTTGACATTTACAATGTGCACATATACAATAAAGAAATGGATAATTTTGACGAAGGATG\nTATCAGCGTCTTGGAAGAAACAGCAGAAAGACATATGCTTTGGGAACTTGATCTGATGAACTCACTTTGCTCTGACGAAA\nAAAGAGATGCTAGAACCGCAAGATTATTACTAGGTTGCCCAAATGTGAGGAAAGCTGCAAACAAAGAAGGGAAAAAGCTA\nTTAAAGTCAAACAGCGACACATCCACTGATACACAAAGCATTGCTTCTGAGGTGTCAGACAGAAGGTCTTATAGCTCAAG\nCAAGAGTAGAATCCGTAGTATTTTTGGCAGGTACAACTCTCAGAAAAAACCATTTGAATTAAGGTCAGGCCTTGAAGTCT\nTTAATGACCCTTTCAATGATTATCAGCAGGCAATAACAGACATTTGTCAATTTTCTGAGTATACACCAAACAAAGAGAGC\nATTTTGAAGGACTGTCTTCAAATCATACGGAAGAACCCTAGCCACACAATGGGTTCTTTTGAGCTGATCCAGGCAATCTC\nAGAATTCGGTATGAGCAAATTTCCTCCAGAGAATATAGACAAGGCAAGGAGAGACCCGAAGAACTGGGTCAGCATCTCTG\nAAGTTACTGAAACGACAAGTATAGTTGCATCACCCAAAACTCACATGATGCTCAAAGATTGCTTTAAAATTATACTAGGT\nACTGAGAATAAGAAGATAGTTAAAATGCTTAGAGGGAAGCTAAAAAAACTTGGTGCTATCTCAACAAACATAGAGATTGG\nGAAAAGGGATTGCTTGGATCTACTCAGCACGGTAGATGGTCTGACAGACCAACAGAAAGAAAACATTGTAAACGGGATAT\nTTGAGCCTTCAAAGCTGTCCTTCTATCACTGGAAAGAGTTGATCAGAAAGAACATTGATGAAGTTTTACTTACTGAAGAT\nGGAAATCTAATCTTCTGCTGGCTAAAAACAATCTCTTCTTCAGTCAAAGGAAGTTTGAAGAAGAGACTCAAGTTCATGAA\nTGTAAATTCCCCGGAACTGATGCCAGAGAACTGTCTCTTTTCCAGTGAAGAATTCAATGAGTTGATCAAACTGAAGAAGC\nTCCTCCTCAACGAGCAACAAGATGAGCAGGAGCTGAAACAAGACCTTTTGATATCCTCTTGGATTAAGTGCATAACAGCC\nTGTAAAGATTTTGCAAGCATCAATGACAGGGTTCAGAAATTCATTCACCACCTTTCTGAAGAGCTGTATGACATAAGGCT\nGCAGCACCTGGAACTGTCAAAGCTTAAACAAGAGCACCCCAGTGTCAGCTTCACTAAGGAAGAGGTCCTAATAAAGCGAC\nTAGAGAAAAATTTCCTAAAGCAGCACAATCTGGAAATTATGGAGACAGTAAACCTTATATTCTTTGCTGCTCTTTCAGCT\nCCTTGGTGCTTACACTACAAAGCACTAGAGTCTTATCTAGTAAGACACCCAGAGATACTTGACTGTGGATCTAAAGAGGA\nCTGTAAGCTCACTTTGCTTGATCTGTCAGTTTCCAAGCTCTTAGTCTGTTTGTATCGAAAAGAAGATAATGAACTAACAA\nATAGCTCAAGTTTGAAACTTGGGTTTTTAGTAAAGTATGCAGTTACCCTATTCACATCCAATGGTGAACCTTTTTCGCTT\nAGTCTGAATGATGGGGGTTTAGATCTTGACCTGCATAAGACTACTGACGAAAAGCTACTACATCAGACAAAGATAGTTTT\nTGCTAAAATTGGTCTGTCCGGGAATAGTTATGATTTCATCTGGACTACTCAAATGATAGCAAATAGCAACTTTAATGTTT\nGCAAGAGATTGACAGGAAGGAGTACCGGAGAAAGGCTTCCAAGAAGTGTCAGAAGCAAGGTCATTTATGAGATGGTAAAG\nCTAGTAGGTGAGACAGGTATGGCAATACTACAACAATTAGCTTTTGCACAGGCACTAAATTACGAACACCGTTTCTATGC\nAGTCTTAGCACCTAAGGCACAGTTAGGAGGAGCAAGAGATCTGTTGGTGCAAGAAACTGGGACTAAAGTCATGCATGCAA\nCAACTGAAATGTTCAGTAGAAACCTTTTAAAGACAACATCAGATGATGGCCTTACCAACCCGCATCTTAAAGAAACAATC\nCTTAATGTGGGATTAGACTGCCTTACCAACATGCGAAATCTTGATGGTAAACCCATAAGTGAAGGTAGCAACTTGGTCAA\nTTTCTACAAGGTCATATGCATCTCGGGTGATAACACTAAATGGGGCCCGATACACTGCTGTTCCTTCTTTTCCGGCATGA\nTGCAGCAGGTTCTAAAAAATGTTCCAGATTGGTGTTCATTTTATAAATTAACATTTATTAAGAACTTGTGTAGGCAGGTA\nGAGATACCTGCTGGTAGCATTAAGAAGATCTTAAATGTCCTTAGATACAGGTTGTGCAGCAAAGGAGGTGTAGAGCAATA\nTAGTGAAGAGGATCTAAGGAAACTGTTGGCAGATAATTTAGACAGTTGGGATGGAAATGACACAGTTAAGTTTTTAGTTA\nCAACCTATATAAGCAAAGGACTCATGGCGTTGAACAGTTACAACCATATGGGTCAGGGTATTCACCATGCAACATCTTCA\nGTATTAACTTCTCTAGCTGCTGTGCTCTTTGAGGAGCTGGCAATTTTTTATCTTAAGAAAAGCTTACCCCAGACAACAGT\nACATGTTGAACATGCGGGCAGTTCAGATGATTACGCAAAGTGTATAGTGGTAACTGGTATACTATCCAAAGAGCTCTACT\nCCCAATATGATGAAACATTCTGGAAACATGCCTGTAGACTTAAGAACTTCACAGCTGCAGTACAAAGATGTTGTCAAATG\nAAAGATAGTGCCAAGACTTTAGTGGGCGACTGTTTCCTTGAATTTTACAGCGAGTTTATGATGGGCTACAGAGTAACCCC\nTGCTGTGATCAAATTCATGTTCACTGGACTCATAAACAGCTCTGTGACCTCACCTCAGAGTTTGATGCAGGCATGCCAAG\nTTTCGTCCCAACAAGCAATGTATAATAGCGTTCCTCTTGTCACCAATACTGCCTTCACACTATTAAGGCAACAAATTTTC\nTTTAACCATGTTGAGGATTTTATCAGAAGGTACGGCATGTTAACCCTTGGGACTTTGTCTCCCTTTGGTAGGCTGTTTGT\nACCGACCTACTCTGGGTTAGTTAGCTCAGCAGTTGCCTTGGAAGATGCTGAAGTCATTGCTAGAGCAGCTCAAACACTTC\nACATGAACAGTGTATCTATACAGTCAAGCAGCTTGACCACATTGGACAGCTTAGGTTGCAGTAGGACAAGTTCCACAGTT\nGAAGATAGCAGCAGTGTGAGCGACACCACCGTTGCTTCTCATGATTCAGGATCGTCATCCTCCAGCTTCTCTTTTGAGCT\nCAATAGGCCTCTGTCTGAAACTGAACTACAATTCATTAAAGCATTAAGTAGCTTCAAATCCACACAAGCCTGTGAAGTAA\nTCCAGAATAGGATCACAGGTCTTTATTGCAATAGCAATGAGGGGCCTCTTGATAGGCACAATGTTATTTATAGCAGCAGA\nATGGCAGATTCTTGCGATTGGCTAAGAGATGGTAAGAGAAGAGGGAATCTGGAACTAGCAAATAGGATTCAGTCTGTGCT\nGTGTGTTCTGATAGCAGGATACTACAGATCATTTGGAGGTGAAGGAACCGAGAAACAGGTAAAGGCATCATTGAATAGAG\nATGACAACAAAATCATTGAGGATCCCATGATACAATTAATTCCAGAGAAGCTGAGGAGAGAGTTGGAGAGGTTAGGTGTT\nTCTAGAATGGAAGTTGATGAACTGATGCCAAGCATCAGCCCTGATGACACCTTAGCCCAGCTTGTGGCAAAAAAGCTTAT\nTAGCCTCAATGTTTCAACGGAAGAGTACTCGGCTGAAGTGTCTAGACTTAAACAAACATTAACAGCCAGAAATGTTCTGC\nATGGGTTGGCTGGAGGAATTAAGGAGCTCTCGCTCCCAATATACACGATATTCATGAAATCTTACTTCTTCAAAGACAAC\nGTCTTCTTGTCGCTAACAGACAGATGGTCTACCAAGCACAGCACAAACTATCGTGATAGTTGCGGCAAACAATTAACCGG\nTAGAATAATTACCAAGTACACTCACTGGTTGGACACCTTTCTAGGTTGCTCGGTCTCCATTAACAGGCATACTACTGTTA\nAAGAGCCCTCCCTGTTCAATCCAAATATCAGGTGTGTTAACCTAATCACATTTGAAGACGGTCTAAGAGAACTATCAGTA\nATACAGAGTCATCTCAAAGTCTTTGAAAATGAATTTACCAACTTAAACCTTCAGTTCTCCGATCCAAACAGACAGAAACT\nCAGAATAGTTGAGTCTAGACCTGCGGAATCTGAGCTGGAGGCGAACCGTGCAGTAATTGTTAAAACCAAACTGTTCTCGG\nCAACTGAACAAGTACGACTATCCAACAATCCTGCAGTTGTCATGGGCTATTTATTGGATGAATCAGCAATTTCTGAAGTC\nAAACCTACCAAAGTTGACTTCTCAAACTTACTTAAAGATCGCTTTAAAATAATGCAGTTTTTCCCCTCAGTGTTCACTTT\nGATCAAGATGTTGACAGATGAGTCATCGGATTCAGAAAGGAATGGCCTTAGTCCAGACTTGCAACAGGTTGCAAGATACT\nCAAACCATTTAACCCTGCTCAGCAGGATGATACAACAAGCAAAGCCAACTGTGACGGTTTTCTACATGCTGAAAGGTAAC\nTTGATGAACACAGAGCCGACAGTTGCTGAGCTTGTCAGCTATGGTATAAAGGAAGGTAGGTTTTATAGGCTCTCAGACAC\nTGGAATCGATGCAAGCACATATTCTGTGAAATACTGGAAAATTCTTCACTGTATTTCTGCCATTGGATGTTTGCCTTTGA\nGTCAAGCAGACAAGTCTTCACTACTTATGAGTTTCTTAAATTGGAGGGTAAACATGGACATCAGAACTTCTGACTGTCCA\nCTATCTAGTCACGAGGCAAGTATACTGAGTGAGTTTGATGGACAAGTTATCGCTAACATACTTGCAAGTGAATTGAGCTC\nTGTAAAACGAGATTCTGAGCGTGAAGGGTTAACTGATCTCCTTGATTATCTGAACTCACCCACTGAACTATTGAAGAAGA\nAGCCCTATTTAGGGACAACTTGCAAGTTCAACACCTGGGGAGACTCAAATAGATCTGGGAAATTCACATACAGCAGCAGA\nTCTGGAGAATCCATTGGAATCTTCATTGCAGGAAAATTGCACATCCATCTCTCATCTGAGTCCATTGCCTTATTGTGTGA\nAACTGAAAGACAAGTGCTATCTTGGATGAGCAAAAGGAGAACTGAGGTGATGACCAAAGAACAGCATCAATTGTTCCTGA\nGCCTCCTCCCTCAGTCACATGAATGTCTACAAAAGCACAAGGACGGCAGCGCACTTTCAGTCATACCTGACAGCAGCAAC\nCCCCGACTACTCAAATTTGTACCTCTTAAAAAAGGTTTAGCAGTGGTGAAAATCAAAAAACAAATTTTAACAGTGAAGAA\nACAGGTCGTGTTTGATGCTGAGAGTGAGCCTAGACTGCAGTGGGGACATGGTTGCTTGTCCATTGTTTACGATGAAACTG\nACACTCAAACCACATACCACGAGAATCTTTTGAAAGTGAAGCAGCTTGTTGACTGCTCTACAGATAGGAAGAAGCTTTTG\nCCCCAATCAGTGTTTTCTGATTCCAAAGTCGTTCTCTCAAGGATCAAATTCAAGACAGAGCTTCTCCTTAATTCACTGAC\nACTGCTCCACTGTTTCTTAAAACATGCTCCTAGTGATGCCATAATGGAGGTAGAGAGTAAGAGCAGCTTGCTGCACAAGT\nACCTCAAATCAGGAGGTGTCAGACAGCGAAACACTGAAGTACTCTTCAGAGAGAAGTTAAACAAGGTTGTCATAAAAGAC\nAATCTCGAACAAGGTGTAGAGGAGGAGATTGAGTTTTGCAACAACCTGACCAAGACTGTTTCAGAGAACCCGCTACCACT\nCAGCTGTTGGTCTGAAGTTCAAAACTACATTGAAGATATAGGCTTCAACAATGTGCTTGTTAACATTGACAGAAACACAG\nTGAAAAGTGAACTTTTGTGGAAATTTACGTTAGACACTAATGTAAGCACCACAAGCACCATTAAAGATGTGAGGACACTG\nGTATCCTACGTCAGTACTGAAACCATCCCCAAGTTCTTGCTTGCATTCCTTCTCTACGAAGAAGTATTGATGAACTTAAT\nCAACCAGTGTAAGGCAGTTAAGGAACTCATCAACAGTACAGGACTTTCAGACTTGGAACTAGAAAGCTTGCTTACTTTTT\nGTACTTTCTATTTCCAAAATGAATGCAGTAGGAGAGATGGACCTAGATGTTCCTTTGCAGCACTATTAAGCCTAGTTCAT\nGAGGATTGGCAAAAGATAGGGAAAAATATCCTTGTTCGTGCAAACAATGAGCTAGGCGATGTGTCACTGAGGGTTAATAT\nTGTCTTGGTACCCCTCAAGGACATGTCCAAACCTAAGCCTGAGAGAGTGGTCATAGCTAGGAGGTCACTAAGTCATGCAC\nTATCCTTAATGTTTCTGGACGAGATGTCATTGCCTGAGCTAAAGTCTTTGTCCGTGAACTGCAAAATGGGGAACTTTGAG\nGGGCAGGAGTGCTTTGAGTTTACCATTCTAAAGGACAACAGCACAAGGCTAGACTACAATAAGTTGATTGACCATTGTGT\nGGACATGGAGAAAAAAAGGGAAGCAGTTAGAGCAGTAGAAGATTTAATTCTGATGTTAACAGGCAAGGCAGTCAAACCTA\nGTACCGTGACACAAATTGAACACAAGGACGAGCAGTGTCAAGAGCAAATAAGCTTGGATGACCTAATGGCAAGTGATACA\nGCGATAGACTTGCCTGACAGGGAAGCAGAAGCCCTTAAAACAGGAAACCTTGGCTTTAACTGGGATTCAGATTGAACATG\nCCATCTGTACGAGCCATTAATGTCTTTCAATGTCCCAGGGGCAAACGAGACAGTCTATACCATAACAATTGCCAACATCA\nAAGCTCTCAAACGAGCTAGCTGCTCTGCATTTCTCACAGTCAACTCAGCTGCCCCTATTGATCTATTTTGCCATCCTACC\nGTTCTTCTTTCTCTACTATTCATACCAGTTTCATTATTTAAAGGGTGTGGGGGGAACGATTTCTTTGAGA"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Kosovo Hoti",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007v-EVA70",
-      "search:title": "CCHFV strain Kosovo Hoti",
-      "search:description": "Infectious cell culture supernatant. This Crimean-Congo hemorrhagic fever virus[Kosovo Hoti] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been fully sequenced.",
-      "search:taxonLabel": "Crimean-Congo hemorrhagic fever orthonairovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:isolationHostLabel": "Human",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Crimean-Congo hemorrhagic fever virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BNI"
-      },
-      "EVORAO:refSku": "002v-EVA5",
-      "@id": "urn:evorao:EVA:BNI:002v-EVA5",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/marburgvirus-strain-popp",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-03-08T14:35:25+01:00",
-      "dcterms:title": "Marburgvirus strain Popp",
-      "dcterms:description": "Infectious cell culture supernatant. This Marburgvirus[Popp] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been sequenced but missing 5'/3' UTR.",
-      "EVORAO:unitDefinition": "1 vial with 0.5 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 3637.38,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1967-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero FM"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "Infectious, but not yet quantified",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BNI"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "BNI",
-        "Virus",
-        "Category A",
-        "UN2814",
-        "filovirus",
-        "Germany",
-        "Human virus",
-        "Marburgvirus",
-        "RG4",
-        "Vero FM",
-        "Dry ice",
-        "Marburg marburgvirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1967-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Marburgvirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Marburg marburgvirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Popp",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "002v-EVA5",
-      "search:title": "Marburgvirus strain Popp",
-      "search:description": "Infectious cell culture supernatant. This Marburgvirus[Popp] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been sequenced but missing 5'/3' UTR.",
-      "search:taxonLabel": "Marburg marburgvirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:collectionName": "BNI",
-      "search:countryOfCollection": "Germany",
-      "search:providerName": "BNI",
-      "search:pathogenName": "Marburgvirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001v-EVA83",
-      "@id": "urn:evorao:EVA:AMU:001v-EVA83",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/chikungunya-virus-strain-uvechikv2006relr2006opy1",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-07-22T15:00:34+02:00",
-      "dcterms:title": "Chikungunya virus, strain UVE/CHIKV/2006/RE/LR2006_OPY1",
-      "dcterms:description": "Freeze-dried Chikungunya virus strain UVE/CHIKV/2006/RE/LR2006_OPY1,La Reunion, 2006,  complete genome sequence.",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 700,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2006-02-17",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Réunion"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "P8",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10E7,07 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:accessionNumber": "DQ443544",
-      "EVORAO:isolationConditions": "Vero",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Homo - sapiens - blood sera"
-      },
-      "EVORAO:isolationTechnique": "cell culture",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "La Reunion island"
-      },
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "17176562",
-        "alphavirus",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "chikungunya",
-        "Chikungunya virus",
-        "CHIKV",
-        "DQ443544",
-        "Homo - sapiens - blood sera",
-        "Human virus",
-        "La Reunion island",
-        "Réunion",
-        "RG3",
-        "V.1.2.4.I4.UK.11.34",
-        "Vero"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2006-02-17",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "DQ443544"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Chikungunya virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Chikungunya virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:genotype": "ECSA",
-        "EVORAO:strain": "UVE/CHIKV/2006/RE/LR2006_OPY1",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "001v-EVA83",
-      "search:title": "Chikungunya virus, strain UVE/CHIKV/2006/RE/LR2006_OPY1",
-      "search:description": "Freeze-dried Chikungunya virus strain UVE/CHIKV/2006/RE/LR2006_OPY1,La Reunion, 2006,  complete genome sequence.",
-      "search:taxonLabel": "Chikungunya virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Homo - sapiens - blood sera",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "Réunion",
-      "search:accessionNumber": "DQ443544",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Chikungunya virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA103",
@@ -579,158 +166,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
-      "EVORAO:refSku": "003v-EVA39",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVA39",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-mokola-virus-rv4",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-06-22T14:36:53+02:00",
-      "dcterms:title": "Live Mokola Virus, RV4",
-      "dcterms:description": "Mokola Virus. This Mokola virus[MOKV-RV4] is preserved under Viral Storage Medium -80C. This virus has been fully sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1968-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Nigeria"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "BHK titration",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Isolate from Nigeria. Received as lyophilised powder - reconstituted on 13/05/83. N gene genbank AY062074, G gene genbank AY062051. 5 passages in BHK cells.",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "6.3 logs/50ul",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:accessionNumber": "KF155005",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Crocidura (Shrew)"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Area:Ibadan Ref: Shope"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "Area:Ibadan Ref: Shope",
-        "BHK-21",
-        "Category A",
-        "UN2814",
-        "Crocidura (Shrew)",
-        "KF155005",
-        "Lyssavirus",
-        "Mokola",
-        "Mokola virus",
-        "MOKV",
-        "Nigeria",
-        "RG3",
-        "Rhabdoviridae",
-        "RV4",
-        "virus",
-        "Dry ice",
-        "Mokola lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1968-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "KF155005",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KF155005"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Mokola virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Mokola lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV4",
-        "EVORAO:strain": "MOKV",
-        "EVORAO:subspecies": "Mokol",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVA39",
-      "search:title": "Live Mokola Virus, RV4",
-      "search:description": "Mokola Virus. This Mokola virus[MOKV-RV4] is preserved under Viral Storage Medium -80C. This virus has been fully sequenced.",
-      "search:taxonLabel": "Mokola lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Crocidura (Shrew)",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "Nigeria",
-      "search:accessionNumber": "KF155005",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "Mokola virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
       "EVORAO:refSku": "007v-EVA71",
@@ -870,6 +305,605 @@
       "search:accessionNumber": "JQ654701.1",
       "search:providerName": "UL",
       "search:pathogenName": "Tick-borne encephalitis virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "BNI"
+      },
+      "EVORAO:refSku": "002v-EVA6",
+      "@id": "urn:evorao:EVA:BNI:002v-EVA6",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/marburgvirus-strain-leiden",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-03-08T12:40:19+01:00",
+      "dcterms:title": "Marburgvirus strain Leiden",
+      "dcterms:description": "Infectious cell culture supernatant. This Marburgvirus[Leiden-BNI 2008] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial containing 0.5 ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 3637.38,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2008-07-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Netherlands (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "Infectious, but not yet quantified.",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG4"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero FM"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BNI"
+      },
+      "EVORAO:accessionNumber": "JN408064.1",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "BNI",
+        "Virus",
+        "Category A",
+        "UN2814",
+        "filovirus",
+        "Human",
+        "Human virus",
+        "JN408064.1",
+        "Marburgvirus",
+        "Netherlands (the)",
+        "RG4",
+        "Vero FM",
+        "Dry ice",
+        "Marburg marburgvirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2008-07-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "parti",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "JN408064.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Marburgvirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Marburg marburgvirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "BNI 2008",
+        "EVORAO:strain": "Leiden",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "002v-EVA6",
+      "search:title": "Marburgvirus strain Leiden",
+      "search:description": "Infectious cell culture supernatant. This Marburgvirus[Leiden-BNI 2008] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Marburg marburgvirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG4",
+      "search:isolationHostLabel": "Human",
+      "search:collectionName": "BNI",
+      "search:countryOfCollection": "Netherlands (the)",
+      "search:accessionNumber": "JN408064.1",
+      "search:providerName": "BNI",
+      "search:pathogenName": "Marburgvirus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001v-EVA84",
+      "@id": "urn:evorao:EVA:AMU:001v-EVA84",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/entebbe-bat-virus-uveentv1957ugugil-30",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-10-28T11:17:03+02:00",
+      "dcterms:title": "Entebbe Bat virus UVE/ENTV/1957/UG/UgIL-30",
+      "dcterms:description": "Freeze-dried Entebbe Bat virus strain UVE/ENTV/1957/UG/UgIL-30, Uganda, 1957, NS5 partial sequence.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 325,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1957-07-04",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Uganda"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR (-Moureau et al, 2007) + partial sequence",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "Oxford Institute of Virology"
+      },
+      "EVORAO:passage": ">7 (7 passages recorded in the production lab)",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "SW-13"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10E2,82 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:accessionNumber": "EU073986",
+      "EVORAO:isolationConditions": "pool of submaxillary and greater sublingual glands",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Tadarida (chaerephon) limbata - bat (pool of 40)"
+      },
+      "EVORAO:isolationTechnique": "intracerebral and intraperitoneal mice",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Uganda"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Entebbe region"
+        }
+      ],
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "18020965",
+        "Animal virus",
+        "Category B",
+        "UN3373",
+        "Entebbe bat",
+        "Entebbe bat virus",
+        "Entebbe region",
+        "ENTV",
+        "EU073986",
+        "Flavivirus",
+        "Oxford Institute of Virology",
+        "RG2",
+        "SW-13",
+        "Tadarida (chaerephon) limbata - bat (pool of 40)",
+        "Uganda"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1957-07-04",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "EU073986"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Entebbe bat virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Entebbe bat virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "UVE/ENTV/1957/UG/UgIL-30",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "001v-EVA84",
+      "search:title": "Entebbe Bat virus UVE/ENTV/1957/UG/UgIL-30",
+      "search:description": "Freeze-dried Entebbe Bat virus strain UVE/ENTV/1957/UG/UgIL-30, Uganda, 1957, NS5 partial sequence.",
+      "search:taxonLabel": "Entebbe bat virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Tadarida (chaerephon) limbata - bat (pool of 40)",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "Uganda",
+      "search:accessionNumber": "EU073986",
+      "search:providerName": "AMU",
+      "search:originatorName": "Oxford Institute of Virology",
+      "search:pathogenName": "Entebbe bat virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003v-EVA40",
+      "@id": "urn:evorao:EVA:DEFRA:003v-EVA40",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-duvenhage-virus-rv131",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-06-23T09:41:13+02:00",
+      "dcterms:title": "Live Duvenhage Virus, RV131",
+      "dcterms:description": "Duvenhage Virus. This Duvenhage virus[DUVV-RV131] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were not performed. This virus has been fully sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1986-12-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Zimbabwe"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "Isolate from Zimbabwe. Received as tissue culture supernantant. First passage on 21/4/88. 3 passages in BHK cells. N gene genbank AY062080, G gene genbank AY062055.",
+      "EVORAO:passage": "P5",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E 3.9 TCID50",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:accessionNumber": "Available upon request",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Bat"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Ref:RS16(Z12)"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "Available upon request",
+        "Bat",
+        "BHK-21",
+        "Category A",
+        "UN2814",
+        "Duvenhage",
+        "Duvenhage virus",
+        "DUVV",
+        "Ref:RS16(Z12)",
+        "RG3",
+        "RV131",
+        "virus",
+        "Zimbabwe",
+        "Dry ice",
+        "Duvenhage lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1986-12-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "Available upon request"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Duvenhage virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Duvenhage lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV131",
+        "EVORAO:strain": "DUVV",
+        "EVORAO:subspecies": "Duven",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003v-EVA40",
+      "search:title": "Live Duvenhage Virus, RV131",
+      "search:description": "Duvenhage Virus. This Duvenhage virus[DUVV-RV131] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were not performed. This virus has been fully sequenced.",
+      "search:taxonLabel": "Duvenhage lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Bat",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "Zimbabwe",
+      "search:accessionNumber": "Available upon request",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Duvenhage virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001v-EVA105",
+      "@id": "urn:evorao:EVA:AMU:001v-EVA105",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/greek-goat-encephalitis-virus-strain-uveggev1969grvergina",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-10-28T11:41:28+02:00",
+      "dcterms:title": "Greek goat encephalitis virus, strain UVE/GGEV/1969/GR/Vergina",
+      "dcterms:description": "Freeze-dried Greek goat encephalitis virus strain UVE/GGEV/1969/GR/Vergina, Greece, 1969, complete ORF sequence.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1969-01-03",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Greece"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR (-Moureau et al, 2007) + partial sequence",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "Oxford Institute of Virology"
+      },
+      "EVORAO:passage": ">4 (4 passages recorded in the production lab)",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "SW-13"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10E6,82 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:accessionNumber": "DQ235153.1",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Vergina"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Northern Greece"
+        }
+      ],
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "18020965",
+        "Animal virus",
+        "Category B",
+        "UN3373",
+        "DQ235153.1",
+        "Flavivirus",
+        "GGEV",
+        "Greece",
+        "Greek goat",
+        "Greek goat encephalitis virus",
+        "Oxford Institute of Virology",
+        "RG2",
+        "SW-13",
+        "Vergina",
+        "Northern Greece"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1969-01-03",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">Available upon request",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "DQ235153.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Greek goat encephalitis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Flavivirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "UVE/GGEV/1969/GR/Vergina",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "001v-EVA105",
+      "search:title": "Greek goat encephalitis virus, strain UVE/GGEV/1969/GR/Vergina",
+      "search:description": "Freeze-dried Greek goat encephalitis virus strain UVE/GGEV/1969/GR/Vergina, Greece, 1969, complete ORF sequence.",
+      "search:taxonLabel": "Flavivirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "Greece",
+      "search:accessionNumber": "DQ235153.1",
+      "search:providerName": "AMU",
+      "search:originatorName": "Oxford Institute of Virology",
+      "search:pathogenName": "Greek goat encephalitis virus"
     }
   ]
 }
