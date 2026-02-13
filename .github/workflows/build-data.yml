@@ -167,7 +167,8 @@ jobs:
           echo "Uploading EVORA dataset to EU portal..."
 
           curl -X POST \
-            "https://data.europa.eu/api/hub/store/data/$CATALOG?catalog=$EU_ID" \
+            "https://data.europa.eu/api/hub/store/data?catalog=$EU_ID" \
+            -H "Content-Type: application/ld+json" \
             -H "Authorization: Bearer $EU_BEARER" \
             -F "file=@$FILE"
 
