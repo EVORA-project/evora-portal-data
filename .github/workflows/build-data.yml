@@ -162,11 +162,12 @@ jobs:
 
           FILE="data/portal/evora_portal_all.jsonld"
           CATALOG="${{ secrets.EU_CATALOG_ID }}"
+          EU_ID="${{ secrets.EU_ID }}"
 
           echo "Uploading EVORA dataset to EU portal..."
 
           curl -X POST \
-            "https://data.europa.eu/api/hub/store/data?catalog=$CATALOG" \
+            "https://data.europa.eu/api/hub/store/data/$CATALOG?catalog=$EU_ID" \
             -H "Authorization: Bearer $EU_BEARER" \
             -F "file=@$FILE"
 
