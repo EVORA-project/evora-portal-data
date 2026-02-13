@@ -166,10 +166,11 @@ jobs:
 
           echo "Uploading EVORA dataset to EU portal..."
 
-          curl -X POST \
-            "https://data.europa.eu/api/hub/store/data?catalog=$EU_ID" \
+          curl -X PUT \
+            "https://data.europa.eu/api/hub/repo/catalogues/$EU_ID/datasets/evora-portal" \
+            -H "Content-Type: application/ld+json" \
             -H "Authorization: Bearer $EU_BEARER" \
-            -F "file=@$FILE"
+            --data-binary "@$FILE"
 
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
