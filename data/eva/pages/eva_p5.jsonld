@@ -32,14 +32,14 @@
       "EVORAO:unitDefinition": "1000 ul",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
+        "dcterms:title": "virus"
       },
-      "EVORAO:additionalCategory": {
-        "1": {
+      "EVORAO:additionalCategory": [
+        {
           "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
+          "dcterms:title": "cultivable virus"
         }
-      },
+      ],
       "EVORAO:unitCost": 3500,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
@@ -147,25 +147,6 @@
       "search:sku": "007v-EVA70",
       "search:title": "CCHFV strain Kosovo Hoti",
       "search:description": "Infectious cell culture supernatant. This Crimean-Congo hemorrhagic fever virus[Kosovo Hoti] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been fully sequenced.",
-      "search:keywords": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "Bunyavirales",
-        "Category A",
-        "UN2814",
-        "CCHFV",
-        "Crimean-Congo hemorrhagic fever virus",
-        "Human",
-        "Human virus",
-        "Kosovo",
-        "Orthonairovirus",
-        "RG4",
-        "Slovenia",
-        "Vero E6",
-        "Dry ice",
-        "Crimean-Congo hemorrhagic fever orthonairovirus"
-      ],
       "search:taxonLabel": "Crimean-Congo hemorrhagic fever orthonairovirus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "RG4",
@@ -191,14 +172,14 @@
       "EVORAO:unitDefinition": "1 vial with 0.5 ml",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
+        "dcterms:title": "virus"
       },
-      "EVORAO:additionalCategory": {
-        "1": {
+      "EVORAO:additionalCategory": [
+        {
           "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
+          "dcterms:title": "cultivable virus"
         }
-      },
+      ],
       "EVORAO:unitCost": 3637.38,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
@@ -289,21 +270,6 @@
       "search:sku": "002v-EVA5",
       "search:title": "Marburgvirus strain Popp",
       "search:description": "Infectious cell culture supernatant. This Marburgvirus[Popp] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been sequenced but missing 5'/3' UTR.",
-      "search:keywords": [
-        "Cultivable virus",
-        "BNI",
-        "Virus",
-        "Category A",
-        "UN2814",
-        "filovirus",
-        "Germany",
-        "Human virus",
-        "Marburgvirus",
-        "RG4",
-        "Vero FM",
-        "Dry ice",
-        "Marburg marburgvirus"
-      ],
       "search:taxonLabel": "Marburg marburgvirus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "RG4",
@@ -328,14 +294,14 @@
       "EVORAO:unitDefinition": "1 vial",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
+        "dcterms:title": "virus"
       },
-      "EVORAO:additionalCategory": {
-        "1": {
+      "EVORAO:additionalCategory": [
+        {
           "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
+          "dcterms:title": "cultivable virus"
         }
-      },
+      ],
       "EVORAO:unitCost": 700,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
@@ -453,28 +419,6 @@
       "search:sku": "001v-EVA83",
       "search:title": "Chikungunya virus, strain UVE/CHIKV/2006/RE/LR2006_OPY1",
       "search:description": "Freeze-dried Chikungunya virus strain UVE/CHIKV/2006/RE/LR2006_OPY1,La Reunion, 2006,  complete genome sequence.",
-      "search:keywords": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "17176562",
-        "alphavirus",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "chikungunya",
-        "Chikungunya virus",
-        "CHIKV",
-        "DQ443544",
-        "Homo - sapiens - blood sera",
-        "Human virus",
-        "La Reunion island",
-        "Réunion",
-        "RG3",
-        "V.1.2.4.I4.UK.11.34",
-        "Vero"
-      ],
       "search:taxonLabel": "Chikungunya virus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "RG3",
@@ -501,14 +445,14 @@
       "EVORAO:unitDefinition": "1 vial",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
+        "dcterms:title": "virus"
       },
-      "EVORAO:additionalCategory": {
-        "1": {
+      "EVORAO:additionalCategory": [
+        {
           "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
+          "dcterms:title": "cultivable virus"
         }
-      },
+      ],
       "EVORAO:unitCost": 500,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
@@ -621,25 +565,6 @@
       "search:sku": "001v-EVA103",
       "search:title": "Bagaza virus, strain UVE/BAGV/1966/CF/DAK AR B 209",
       "search:description": "Freeze-dried, Bagaza virus strain UVE/BAGV/1966/CF/DAK AR B 209, Central African Republic, 1966, complete ORF sequenced.",
-      "search:keywords": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "18020965",
-        "Bagaza",
-        "Bagaza virus",
-        "BAGV",
-        "C6/36",
-        "Category B",
-        "UN3373",
-        "Central African Republic",
-        "Central African Republic (the)",
-        "Human virus",
-        "mixed culex",
-        "RG2",
-        "UTMB collection"
-      ],
       "search:taxonLabel": "Bagaza virus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "RG2",
@@ -666,14 +591,14 @@
       "EVORAO:unitDefinition": "1 vial of 1ml",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
+        "dcterms:title": "virus"
       },
-      "EVORAO:additionalCategory": {
-        "1": {
+      "EVORAO:additionalCategory": [
+        {
           "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
+          "dcterms:title": "cultivable virus"
         }
-      },
+      ],
       "EVORAO:unitCost": 2000,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
@@ -792,29 +717,6 @@
       "search:sku": "003v-EVA39",
       "search:title": "Live Mokola Virus, RV4",
       "search:description": "Mokola Virus. This Mokola virus[MOKV-RV4] is preserved under Viral Storage Medium -80C. This virus has been fully sequenced.",
-      "search:keywords": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "Area:Ibadan Ref: Shope",
-        "BHK-21",
-        "Category A",
-        "UN2814",
-        "Crocidura (Shrew)",
-        "KF155005",
-        "Lyssavirus",
-        "Mokola",
-        "Mokola virus",
-        "MOKV",
-        "Nigeria",
-        "RG3",
-        "Rhabdoviridae",
-        "RV4",
-        "virus",
-        "Dry ice",
-        "Mokola lyssavirus"
-      ],
       "search:taxonLabel": "Mokola lyssavirus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "RG3",
@@ -841,14 +743,14 @@
       "EVORAO:unitDefinition": "1000 ul",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
+        "dcterms:title": "virus"
       },
-      "EVORAO:additionalCategory": {
-        "1": {
+      "EVORAO:additionalCategory": [
+        {
           "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
+          "dcterms:title": "cultivable virus"
         }
-      },
+      ],
       "EVORAO:unitCost": 2500,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
@@ -959,26 +861,6 @@
       "search:sku": "007v-EVA71",
       "search:title": "TBEV strain Ljubljana",
       "search:description": "Infectious cell culture supernatant. This Tick-borne encephalitis virus[Ljubljana] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been fully sequenced.",
-      "search:keywords": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "Category B",
-        "UN3373",
-        "Flaviviridae",
-        "Flavivirus",
-        "Human",
-        "Human virus",
-        "JQ654701.1",
-        "RG3",
-        "Slovenia",
-        "TBE",
-        "TBEV",
-        "tick-borne encephalitis virus",
-        "Tick-borne encephalitis virus",
-        "Vero E6",
-        "Dry ice"
-      ],
       "search:taxonLabel": "Tick-borne encephalitis virus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "RG3",
