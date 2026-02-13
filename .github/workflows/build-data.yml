@@ -158,7 +158,6 @@ jobs:
       - name: Upload EVORA dataset to data.europa.eu
         run: |
           set -e
-
           FILE="data/portal/evora_portal_all.jsonld"
           CATALOG="${{ secrets.EU_ID }}"
           FILE_ID="${{ secrets.EU_FILE_ID }}"
@@ -185,7 +184,22 @@ jobs:
               --header "Authorization: Bearer $EU_BEARER" \
               --form "file=@$FILE"
           fi
+
+      - name: Publish dataset to EU catalogue
+        run: |
+          set -e
+          CATALOG="${{ secrets.EU_ID }}"
+          DATASET_ID="evora-portal-dataset"
+          FILE_ID="${{ secrets.EU_FILE_ID }}"
           
+          echo "Publishing dataset in EU catalogue..."
+          
+          curl --fail --location --request PUT \
+            "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/$DATASET_ID" \
+            --header "Content-Type: application/ld+json" \
+            --header "Authorization: Bearer $EU_BEARER" \
+            --data-binary @data/portal/evora_portal_all.jsonld
+
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
         run: |
