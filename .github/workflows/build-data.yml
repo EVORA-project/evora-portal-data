@@ -136,7 +136,6 @@ jobs:
       - name: Get EU Data Portal JWT
         run: |
           set -e
-
           RESP=$(curl -s -X POST "https://data.europa.eu/auth/middleware/login/service" \
             -H "Accept: application/json" \
             -H "Content-Type: application/json" \
@@ -161,16 +160,32 @@ jobs:
           set -e
 
           FILE="data/portal/evora_portal_all.jsonld"
-          CATALOG="${{ secrets.EU_CATALOG_ID }}"
-          EU_ID="${{ secrets.EU_ID }}"
-
+          CATALOG="${{ secrets.EU_ID }}"
+          FILE_ID="${{ secrets.EU_FILE_ID }}"
+          
           echo "Uploading EVORA dataset to EU portal..."
-
-          curl --location --request POST "https://data.europa.eu/api/hub/store/data?catalog=$EU_ID" \
-          --header "Accept: application/json, text/plain, */*" \
-          --header "Authorization: Bearer $EU_BEARER" \
-          --form "file=@$FILE"
-
+          
+          if [ -z "$FILE_ID" ]; then
+            echo "No FILE_ID → creating new file (POST)"
+            
+            curl --fail --location --request POST \
+              "https://data.europa.eu/api/hub/store/data?catalog=$CATALOG" \
+              --header "Accept: application/json, text/plain, */*" \
+              --header "Authorization: Bearer $EU_BEARER" \
+              --form "file=@$FILE"
+              
+            echo "⚠️ Copy the returned id and store it as EU_FILE_ID secret."
+            
+          else
+            echo "Updating existing file $FILE_ID (PUT)"
+            
+            curl --fail --location --request PUT \
+              "https://data.europa.eu/api/hub/store/data/$FILE_ID?catalog=$CATALOG" \
+              --header "Accept: application/json, text/plain, */*" \
+              --header "Authorization: Bearer $EU_BEARER" \
+              --form "file=@$FILE"
+          fi
+          
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
         run: |
