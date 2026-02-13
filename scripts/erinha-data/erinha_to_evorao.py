@@ -269,6 +269,7 @@ def row_to_service(row: Dict[str, str], idx: int) -> Dict[str, Any]:
                 "dcterms:title": "ERINHA",
                 "EVORAO:homepage": "https://www.erinha.eu/",
                 "EVORAO:license": {
+                    "@id": "https://creativecommons.org/licenses/by/4.0/",
                     "@type": "EVORAO:License",
                     "dcterms:title": "CC-BY 4.0",
                     "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by/4.0/",

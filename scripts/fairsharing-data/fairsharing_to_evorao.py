@@ -79,6 +79,7 @@ def build_collection_block() -> Dict[str, Any]:
             "dcterms:title": "FAIRsharing",
             "EVORAO:homepage": "https://fairsharing.org/",
             "EVORAO:license": {
+                "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "@type": "EVORAO:License",
                 "dcterms:title": "CC-BY-SA 4.0",
                 "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
