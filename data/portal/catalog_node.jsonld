@@ -1,9 +1,23 @@
 {
   "@context": {
-    "@vocab": "https://w3id.org/evorao/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "foaf": "http://xmlns.com/foaf/0.1/"
+  "@version": 1.1,
+  "@vocab": "https://w3id.org/evorao/",
+  "EVORAO": "https://w3id.org/evorao/",
+
+  "dcat": "http://www.w3.org/ns/dcat#",
+  "dcterms": "http://purl.org/dc/terms/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "foaf": "http://xmlns.com/foaf/0.1/",
+  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+  "search": "https://evora-project.eu/vocab/search#",
+
+  "dcat:dataset": { "@type": "@id" },
+  "dcat:landingPage": { "@type": "@id" },
+
+  "dcterms:issued": { "@type": "xsd:dateTime" },
+  "dcterms:modified": { "@type": "xsd:dateTime" }
   },
   "@graph": [
     {
