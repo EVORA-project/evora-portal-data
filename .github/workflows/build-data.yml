@@ -169,7 +169,7 @@ jobs:
           curl --location --request POST "https://data.europa.eu/api/hub/store/data?catalog=$EU_ID" \
           --header "Accept: application/json, text/plain, */*" \
           --header "Authorization: Bearer $EU_BEARER" \
-          --form "file=@@$FILE"
+          --form "file=@$FILE"
 
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
