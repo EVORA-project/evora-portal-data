@@ -3140,6 +3140,203 @@
       "search:pathogenName": "SARS-CoV-2"
     },
     {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001V-06252",
+      "@id": "urn:evorao:EVA:AMU:001V-06252",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/toscana-virus-strain-uvetosv2025frcnr83388",
+      "dcterms:issued": "2025-11-07T14:41:29+01:00",
+      "dcterms:modified": "2026-02-12T18:09:42+01:00",
+      "dcterms:title": "Toscana virus strain UVE/TOSV/2025/FR/CNR_83388",
+      "dcterms:description": "Freeze-dried Toscana virus virus, strain  UVE/TOSV/2025/FR/CNR_83388, France (ex-italia) 2025, complete coding sequence.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dct:title": "virus"
+      },
+      "EVORAO:additionalCategory": {
+        "1": {
+          "@type": "EVORAO:ProductCategory",
+          "dct:title": "cultivable virus"
+        }
+      },
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2025-07-08",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "France"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "AMU/UVE/ Centre National de Référence des arbovirus"
+      },
+      "EVORAO:passage": "P2",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "6,67E+07 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:accessionNumber": "L segment : PX647582   M  segment : PX647583          S segment :PX647584",
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Homo - sapiens"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Homo sapiens CSF"
+        }
+      ],
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Italia"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Turin"
+        }
+      ],
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "AMU/UVE/ Centre National de Référence des arbovirus",
+        "Animal virus",
+        "Category B",
+        "UN3373",
+        "EURLs",
+        "France",
+        "Homo - sapiens",
+        "Homo sapiens CSF",
+        "Human virus",
+        "Italia",
+        "L segment : PX647582   M  segment : PX647583          S segment :PX647584",
+        "phlebovirus",
+        "RG2",
+        "Sandfly fever Naples virus",
+        "SFNV",
+        "Toscana virus",
+        "TOSV",
+        "Turin",
+        "Vero",
+        "Naples phlebovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2025-07-08",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "L segment : PX647582   M  segment : PX647583          S segment :PX647584"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Toscana virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Naples phlebovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:genotype": "lineage B",
+        "EVORAO:strain": "UVE/TOSV/2025/FR/CNR_83388",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001V-06252",
+      "search:title": "Toscana virus strain UVE/TOSV/2025/FR/CNR_83388",
+      "search:description": "Freeze-dried Toscana virus virus, strain  UVE/TOSV/2025/FR/CNR_83388, France (ex-italia) 2025, complete coding sequence.",
+      "search:keywords": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "AMU/UVE/ Centre National de Référence des arbovirus",
+        "Animal virus",
+        "Category B",
+        "UN3373",
+        "EURLs",
+        "France",
+        "Homo - sapiens",
+        "Homo sapiens CSF",
+        "Human virus",
+        "Italia",
+        "L segment : PX647582   M  segment : PX647583          S segment :PX647584",
+        "phlebovirus",
+        "RG2",
+        "Sandfly fever Naples virus",
+        "SFNV",
+        "Toscana virus",
+        "TOSV",
+        "Turin",
+        "Vero",
+        "Naples phlebovirus"
+      ],
+      "search:taxonLabel": "Naples phlebovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Homo - sapiens, Homo sapiens CSF",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "France",
+      "search:accessionNumber": "L segment : PX647582   M  segment : PX647583          S segment :PX647584",
+      "search:providerName": "AMU",
+      "search:originatorName": "AMU/UVE/ Centre National de Référence des arbovirus",
+      "search:pathogenName": "Toscana virus"
+    },
+    {
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -155157,169 +155354,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "H.J. Van Oosten",
       "search:pathogenName": "Plum pox virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05060",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05060",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tobacco-rattle-virus-trv-isolate-dsmz-pv-0354",
-      "dcterms:issued": "2023-05-26T15:14:18+02:00",
-      "dcterms:modified": "2023-05-26T15:14:18+02:00",
-      "dcterms:title": "Tobacco rattle virus (TRV) isolate DSMZ PV-0354",
-      "dcterms:description": "Infectious Tobacco rattle virus (TRV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dct:title": "virus"
-      },
-      "EVORAO:additionalCategory": {
-        "1": {
-          "@type": "EVORAO:ProductCategory",
-          "dct:title": "cultivable virus"
-        }
-      },
-      "EVORAO:unitCost": 180,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1992-10-19",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "United Kingdom of Great Britain and Northern Ireland (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.J. Robinson"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana tabacum"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OQ993350, OQ993351",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "D.J. Robinson",
-        "Mechanical inoculation",
-        "Nicotiana tabacum",
-        "NON DANGEROUS GOODS",
-        "OQ993350",
-        "OQ993351",
-        "Plant virus",
-        "RG1",
-        "Solanum tuberosum",
-        "Tobacco rattle virus",
-        "United Kingdom of Great Britain and Northern Ireland (the)"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1992-10-19",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OQ993350, OQ993351"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Tobacco rattle virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tobacco rattle virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Potato ring necrosis strain",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05060",
-      "search:title": "Tobacco rattle virus (TRV) isolate DSMZ PV-0354",
-      "search:description": "Infectious Tobacco rattle virus (TRV) isolate",
-      "search:keywords": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "D.J. Robinson",
-        "Mechanical inoculation",
-        "Nicotiana tabacum",
-        "NON DANGEROUS GOODS",
-        "OQ993350",
-        "OQ993351",
-        "Plant virus",
-        "RG1",
-        "Solanum tuberosum",
-        "Tobacco rattle virus",
-        "United Kingdom of Great Britain and Northern Ireland (the)"
-      ],
-      "search:taxonLabel": "Tobacco rattle virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "search:accessionNumber": "OQ993350, OQ993351",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.J. Robinson",
-      "search:pathogenName": "Tobacco rattle virus"
     }
   ]
 }
