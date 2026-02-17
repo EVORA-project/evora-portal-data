@@ -195,7 +195,7 @@ jobs:
           echo "Publishing dataset in EU catalogue..."
           
           curl --location --request PUT \
-            "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/$DATASET_ID" \
+            "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/origin?originalId=$DATASET_ID" \
             --header "Content-Type: application/ld+json" \
             --header "Authorization: Bearer $EU_BEARER" \
             --data-binary @data/portal/evora_portal_all.jsonld
