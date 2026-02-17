@@ -194,7 +194,7 @@ jobs:
           
           echo "Publishing dataset in EU catalogue..."
           
-          curl --fail --location --request PUT \
+          curl --location --request PUT \
             "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/$DATASET_ID" \
             --header "Content-Type: application/ld+json" \
             --header "Authorization: Bearer $EU_BEARER" \
