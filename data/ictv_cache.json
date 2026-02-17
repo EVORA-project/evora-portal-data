@@ -93603,7 +93603,7 @@
       }
     ]
   },
-  "_fetched_at": "2026-02-17T09:45:27Z",
+  "_fetched_at": "2026-02-17T20:25:56Z",
   "Saarema virus": {
     "status": "not-found",
     "input": "Saarema virus",
@@ -99193,6 +99193,66 @@
       {
         "ncbiCurie": "ncbitaxon:3052390",
         "label": "Orthobunyavirus encephalitidis"
+      }
+    ]
+  },
+  "Banzi virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV19710090",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19710090",
+      "ictv_curie": "ictv:MSL40/ICTV19710090",
+      "iri": "http://ictv.global/id/MSL40/ICTV19710090",
+      "label": "Orthoflavivirus banziense",
+      "synonyms": [
+        "Banzi virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV19710016",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19710016",
+        "http://ictv.global/id/MSL40/ICTV19840011",
+        "http://ictv.global/id/MSL40/ICTV201907219",
+        "http://ictv.global/id/MSL40/ICTV201907218",
+        "http://ictv.global/id/MSL40/ICTV201907217",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19710090",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:DQ859056",
+        "refseq:NC_043110"
+      ],
+      "direct_parent_label": "Orthoflavivirus",
+      "lineage": [
+        "Orthoflavivirus",
+        "Flaviviridae",
+        "Amarillovirales",
+        "Flasuviricetes",
+        "Kitrinoviricota",
+        "Orthornavirae",
+        "Riboviria",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:38837",
+        "label": "Banzi virus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:3047395",
+        "label": "Orthoflavivirus banziense"
       }
     ]
   }

@@ -542,7 +542,7 @@
       "@id": "urn:evorao:EVA:HPI:019V-06281",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-influenza-b-victoria-virus-bathensgr110122025",
       "dcterms:issued": "2026-01-12T10:01:07+01:00",
-      "dcterms:modified": "2026-01-12T11:38:16+01:00",
+      "dcterms:modified": "2026-02-17T16:11:39+01:00",
       "dcterms:title": "Human Influenza B victoria virus, B/Athens.GR/11012/2025",
       "dcterms:description": "Human Influenza B victoria virus isolated in 2024/2025 season in Greece. The viral isolate can be shipped in dry ice or freeze dried. Infectious cell culture supernatant preserved in Viral Storage Medium -80°C. To confirm its identity the hemagglutinin and neuraminidase genes have been sequenced by sanger sequencing method and confirmed by WGS.",
       "EVORAO:unitDefinition": "500 ul",
@@ -600,7 +600,7 @@
       "EVORAO:genomeSequencing": "Complete genome",
       "EVORAO:shippingConditions": "+ 4°C and dry ice",
       "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "HA titer 1:32",
+      "EVORAO:titer": "HA titer 1:256",
       "EVORAO:cultivability": "Cultivable virus",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
