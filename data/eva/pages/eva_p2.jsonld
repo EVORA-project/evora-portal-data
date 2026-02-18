@@ -30257,7 +30257,7 @@
       "@id": "urn:evorao:EVA:CSIRO:024V-04800",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/cedar-virus",
       "dcterms:issued": "2022-11-29T23:21:39+01:00",
-      "dcterms:modified": "2023-03-21T13:41:10+01:00",
+      "dcterms:modified": "2026-02-18T03:48:52+01:00",
       "dcterms:title": "Cedar virus",
       "dcterms:description": "Cedar virus",
       "EVORAO:unitDefinition": "1 mL",
@@ -30271,7 +30271,7 @@
           "dcterms:title": "cultivable virus"
         }
       ],
-      "EVORAO:unitCost": 700,
+      "EVORAO:unitCost": 770,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
       "EVORAO:biologicalMaterialOrigin": {
