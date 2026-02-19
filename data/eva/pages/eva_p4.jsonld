@@ -40691,118 +40691,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
-      "EVORAO:refSku": "004N-EVA271",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA271",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rota-ivt",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T11:06:56+01:00",
-      "dcterms:title": "Rota IVT",
-      "dcterms:description": "In vitro transcribed RNA for a specific Rotavirus real time PCR",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA271\nGGAGGUUCUGUACUCAUUGUCAAAAACUCUUAAAGAUGCUAGGGAUAAGAUUGUUGAAGGUACAUUAUAUUCUAAUGUUA\nGCGAUCUUAUUCAGCAAUUUAAUCAAAUGAUAGUAACUAUGAAUGGAAAUGACUUUCAAACUGGA",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "189100.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Rotavirus",
-        "Dry ice",
-        "Rotavirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rotavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rotavirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA271",
-      "search:title": "Rota IVT",
-      "search:description": "In vitro transcribed RNA for a specific Rotavirus real time PCR",
-      "search:taxonLabel": "Rotavirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Rotavirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
       "EVORAO:refSku": "004N-EVA481",
       "@id": "urn:evorao:EVA:CUB:004N-EVA481",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hpev-plasmid",
@@ -40946,6 +40834,118 @@
       "search:accessionNumber": "EF051629.2",
       "search:providerName": "CUB",
       "search:pathogenName": "Human parechovirus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA271",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA271",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rota-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T11:06:56+01:00",
+      "dcterms:title": "Rota IVT",
+      "dcterms:description": "In vitro transcribed RNA for a specific Rotavirus real time PCR",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA271\nGGAGGUUCUGUACUCAUUGUCAAAAACUCUUAAAGAUGCUAGGGAUAAGAUUGUUGAAGGUACAUUAUAUUCUAAUGUUA\nGCGAUCUUAUUCAGCAAUUUAAUCAAAUGAUAGUAACUAUGAAUGGAAAUGACUUUCAAACUGGA",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "189100.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Rotavirus",
+        "Dry ice",
+        "Rotavirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rotavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rotavirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA271",
+      "search:title": "Rota IVT",
+      "search:description": "In vitro transcribed RNA for a specific Rotavirus real time PCR",
+      "search:taxonLabel": "Rotavirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Rotavirus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -44689,6 +44689,131 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA486",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA486",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:26:05+01:00",
+      "dcterms:title": "HCV X-tail Plasmid",
+      "dcterms:description": "HCV X-tail Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA486\nGGTGGCTCCGTCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCATGACTGCAGAGAGTGCTGATACTGG\nCCTCTCTGCAGATCATGT",
+      "EVORAO:regionEncompassedInThisProduct": "Cloning of target region (details provided in Certificate of Analysis)",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "238.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "Dry ice",
+        "No Tag",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA486",
+      "search:title": "HCV X-tail Plasmid",
+      "search:description": "HCV X-tail Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA555",
       "@id": "urn:evorao:EVA:CUB:004N-EVA555",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hmpv-plasmid",
@@ -44808,131 +44933,6 @@
       "search:collectionName": "CUB",
       "search:providerName": "CUB",
       "search:pathogenName": "Human metapneumovirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA486",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA486",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T14:26:05+01:00",
-      "dcterms:title": "HCV X-tail Plasmid",
-      "dcterms:description": "HCV X-tail Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA486\nGGTGGCTCCGTCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCATGACTGCAGAGAGTGCTGATACTGG\nCCTCTCTGCAGATCATGT",
-      "EVORAO:regionEncompassedInThisProduct": "Cloning of target region (details provided in Certificate of Analysis)",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "238.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Hepatitis C virus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Dry ice",
-        "No Tag",
-        "Hepacivirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hepatitis C virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Hepacivirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA486",
-      "search:title": "HCV X-tail Plasmid",
-      "search:description": "HCV X-tail Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Hepacivirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hepatitis C virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -48896,6 +48896,118 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA488",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA488",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-ivt",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:25:11+01:00",
+      "dcterms:title": "HCV  X-Tail IVT",
+      "dcterms:description": "Invitro transcript for Hepatitis C virus genomic x-tail region assays.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA488\nGGTGGCTCCGTCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCATGACTGCAGAGAGTGCTGATACTGG\nCCTCTCTGCAGATCATGT",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "8370.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA488",
+      "search:title": "HCV  X-Tail IVT",
+      "search:description": "Invitro transcript for Hepatitis C virus genomic x-tail region assays.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA557",
       "@id": "urn:evorao:EVA:CUB:004N-EVA557",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/para-4-plasmid",
@@ -49016,118 +49128,6 @@
       "search:collectionName": "CUB",
       "search:providerName": "CUB",
       "search:pathogenName": "Human parainfluenza virus 4"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA488",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA488",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-ivt",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T14:25:11+01:00",
-      "dcterms:title": "HCV  X-Tail IVT",
-      "dcterms:description": "Invitro transcript for Hepatitis C virus genomic x-tail region assays.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA488\nGGTGGCTCCGTCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCATGACTGCAGAGAGTGCTGATACTGG\nCCTCTCTGCAGATCATGT",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "8370.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Hepatitis C virus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice",
-        "Hepacivirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hepatitis C virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Hepacivirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA488",
-      "search:title": "HCV  X-Tail IVT",
-      "search:description": "Invitro transcript for Hepatitis C virus genomic x-tail region assays.",
-      "search:taxonLabel": "Hepacivirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hepatitis C virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -49380,6 +49380,118 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA487",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA487",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hiv-1-5ltr-ivt",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:37:33+01:00",
+      "dcterms:title": "HIV-1 5`LTR IVT",
+      "dcterms:description": "Invitro transcript for HIV-1 5`LTR assays.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA487\nAAGCCTCAATAAAGCTTGCCTTGAGTGCTTCAAGTAGTGTGTGCCCGTCTGTTGTGTGACTCTGGTAACTAGAGATCCCT\nCAGACCCTTTTAGTCAGTGTGGAAAATCTCTAGCAGTGGCGCCCGAAC",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "8370 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "HIV",
+        "Human immunodeficiency virus 1",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human immunodeficiency virus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human immunodeficiency virus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA487",
+      "search:title": "HIV-1 5`LTR IVT",
+      "search:description": "Invitro transcript for HIV-1 5`LTR assays.",
+      "search:taxonLabel": "Human immunodeficiency virus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Human immunodeficiency virus 1"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA556",
       "@id": "urn:evorao:EVA:CUB:004N-EVA556",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/para-1-plasmid",
@@ -49500,118 +49612,6 @@
       "search:collectionName": "CUB",
       "search:providerName": "CUB",
       "search:pathogenName": "Human parainfluenza virus 1"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA487",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA487",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hiv-1-5ltr-ivt",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T14:37:33+01:00",
-      "dcterms:title": "HIV-1 5`LTR IVT",
-      "dcterms:description": "Invitro transcript for HIV-1 5`LTR assays.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "> 004N-EVA487\nAAGCCTCAATAAAGCTTGCCTTGAGTGCTTCAAGTAGTGTGTGCCCGTCTGTTGTGTGACTCTGGTAACTAGAGATCCCT\nCAGACCCTTTTAGTCAGTGTGGAAAATCTCTAGCAGTGGCGCCCGAAC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "8370 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "HIV",
-        "Human immunodeficiency virus 1",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human immunodeficiency virus 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human immunodeficiency virus 1"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA487",
-      "search:title": "HIV-1 5`LTR IVT",
-      "search:description": "Invitro transcript for HIV-1 5`LTR assays.",
-      "search:taxonLabel": "Human immunodeficiency virus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Human immunodeficiency virus 1"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -51414,6 +51414,134 @@
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "BMC-SAS"
+      },
+      "EVORAO:refSku": "008N-EVA920",
+      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA920",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-e13-rna",
+      "dcterms:issued": "2016-04-12T13:50:05+02:00",
+      "dcterms:modified": "2021-01-25T15:43:52+01:00",
+      "dcterms:title": "WNV E13 RNA",
+      "dcterms:description": "West Nile E13 virus RNA",
+      "EVORAO:unitDefinition": "1x50ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 95.8,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-12-29",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovakia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">WNV E13 RNA \r\nGCGGCCGCGGGAATTCGATTGGGGAAGAGAGAGAAGAAACCTGGAGAGTTCGGAAAGGCTAAGGGAAGCAGAGCCATATGGTTCGGTGGCTCGGAGCTCGCTTTCTGGAGTTCGAAGCTCTGGGCTTTCTTAACGAAGACCACTGGCTTGGAAGAAAGAACTCAGGAGGCGGGGTCGAGGGCTTGGGCCTCCAAAAACTGGGTTATATTCTGCGTGAAGTTGGCACCCGACCTGGAGGCAAGATCTATGCTGATGACAC",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "9000000.00 PFU/ml",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BMC-SAS"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "BMC-SAS",
+        "Derived product",
+        "Animal virus",
+        "Flaviviridae",
+        "Human virus",
+        "mosquito",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Slovakia",
+        "west nile virus",
+        "West Nile virus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "1993-12-29",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Ntaya virus group",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "008N-EVA920",
+      "search:title": "WNV E13 RNA",
+      "search:description": "West Nile E13 virus RNA",
+      "search:taxonLabel": "West Nile virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "BMC-SAS",
+      "search:countryOfCollection": "Slovakia",
+      "search:providerName": "BMC-SAS",
+      "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
       "EVORAO:refSku": "007N-EVA1430",
@@ -51546,134 +51674,6 @@
       "search:accessionNumber": "KF776889.1",
       "search:providerName": "UL",
       "search:pathogenName": "Tula virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BMC-SAS"
-      },
-      "EVORAO:refSku": "008N-EVA920",
-      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA920",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-e13-rna",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2021-01-25T15:43:52+01:00",
-      "dcterms:title": "WNV E13 RNA",
-      "dcterms:description": "West Nile E13 virus RNA",
-      "EVORAO:unitDefinition": "1x50ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 95.8,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1993-12-29",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovakia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">WNV E13 RNA \r\nGCGGCCGCGGGAATTCGATTGGGGAAGAGAGAGAAGAAACCTGGAGAGTTCGGAAAGGCTAAGGGAAGCAGAGCCATATGGTTCGGTGGCTCGGAGCTCGCTTTCTGGAGTTCGAAGCTCTGGGCTTTCTTAACGAAGACCACTGGCTTGGAAGAAAGAACTCAGGAGGCGGGGTCGAGGGCTTGGGCCTCCAAAAACTGGGTTATATTCTGCGTGAAGTTGGCACCCGACCTGGAGGCAAGATCTATGCTGATGACAC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "AVE Buffer -80C",
-      "EVORAO:titer": "9000000.00 PFU/ml",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BMC-SAS"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "BMC-SAS",
-        "Derived product",
-        "Animal virus",
-        "Flaviviridae",
-        "Human virus",
-        "mosquito",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Slovakia",
-        "west nile virus",
-        "West Nile virus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "1993-12-29",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Ntaya virus group",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "008N-EVA920",
-      "search:title": "WNV E13 RNA",
-      "search:description": "West Nile E13 virus RNA",
-      "search:taxonLabel": "West Nile virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "BMC-SAS",
-      "search:countryOfCollection": "Slovakia",
-      "search:providerName": "BMC-SAS",
-      "search:pathogenName": "West Nile virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -52057,6 +52057,133 @@
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "BMC-SAS"
+      },
+      "EVORAO:refSku": "008N-EVA918",
+      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA918",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-k99-rna",
+      "dcterms:issued": "2016-04-12T13:50:05+02:00",
+      "dcterms:modified": "2021-01-25T15:48:22+01:00",
+      "dcterms:title": "WNV K99 RNA",
+      "dcterms:description": "West Nile virus K99 RNA",
+      "EVORAO:unitDefinition": "1x50ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 95.8,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-12-29",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovakia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">WNV K99 RNA \r\nAACATGATGGGGAAGAGAGAGAAGAAACCTGGAGAGTTCGGAAAGGCTAAGGGAAGCAGAGCCATATGGTTCATGTGGCTCGGAGCTCGCTTTCTGGAGTTCGAAGCTCTGGGCTTTCTTAACGAAGACCACTGGCTTGGAAGAAAGAACTCAGGAGGCGGGGTCGAGGGCTTGGGCCTCCAAAAACTGGGTTATATTCTGCGTGAAGTTGGCACCCGACCTGGAGGCAAGATCTATGCTGATGACACAGCTGGCTGGGACACCCGCATTACGA",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "6000000.00 PFU/ml",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BMC-SAS"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "BMC-SAS",
+        "Derived product",
+        "Animal virus",
+        "Flaviviridae",
+        "Human virus",
+        "mosquito",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Slovakia",
+        "west nile virus",
+        "West Nile virus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "1993-12-29",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "008N-EVA918",
+      "search:title": "WNV K99 RNA",
+      "search:description": "West Nile virus K99 RNA",
+      "search:taxonLabel": "West Nile virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "BMC-SAS",
+      "search:countryOfCollection": "Slovakia",
+      "search:providerName": "BMC-SAS",
+      "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
       "EVORAO:refSku": "007N-EVA1427",
@@ -52190,133 +52317,6 @@
       "search:accessionNumber": "KF776628.1",
       "search:providerName": "UL",
       "search:pathogenName": "Dobrava"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BMC-SAS"
-      },
-      "EVORAO:refSku": "008N-EVA918",
-      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA918",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-k99-rna",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2021-01-25T15:48:22+01:00",
-      "dcterms:title": "WNV K99 RNA",
-      "dcterms:description": "West Nile virus K99 RNA",
-      "EVORAO:unitDefinition": "1x50ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 95.8,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1993-12-29",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovakia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">WNV K99 RNA \r\nAACATGATGGGGAAGAGAGAGAAGAAACCTGGAGAGTTCGGAAAGGCTAAGGGAAGCAGAGCCATATGGTTCATGTGGCTCGGAGCTCGCTTTCTGGAGTTCGAAGCTCTGGGCTTTCTTAACGAAGACCACTGGCTTGGAAGAAAGAACTCAGGAGGCGGGGTCGAGGGCTTGGGCCTCCAAAAACTGGGTTATATTCTGCGTGAAGTTGGCACCCGACCTGGAGGCAAGATCTATGCTGATGACACAGCTGGCTGGGACACCCGCATTACGA",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "AVE Buffer -80C",
-      "EVORAO:titer": "6000000.00 PFU/ml",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BMC-SAS"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "BMC-SAS",
-        "Derived product",
-        "Animal virus",
-        "Flaviviridae",
-        "Human virus",
-        "mosquito",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Slovakia",
-        "west nile virus",
-        "West Nile virus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "1993-12-29",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "008N-EVA918",
-      "search:title": "WNV K99 RNA",
-      "search:description": "West Nile virus K99 RNA",
-      "search:taxonLabel": "West Nile virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "BMC-SAS",
-      "search:countryOfCollection": "Slovakia",
-      "search:providerName": "BMC-SAS",
-      "search:pathogenName": "West Nile virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -52577,6 +52577,136 @@
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "BMC-SAS"
+      },
+      "EVORAO:refSku": "008N-EVA917",
+      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA917",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rssev-rna",
+      "dcterms:issued": "2016-04-12T13:50:05+02:00",
+      "dcterms:modified": "2021-01-25T15:49:54+01:00",
+      "dcterms:title": "RSSEV RNA",
+      "dcterms:description": "Tick-borne encephalitis virus (strain RSSEV) RNA",
+      "EVORAO:unitDefinition": "1x50ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 95.8,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-12-29",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Russian Federation (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">RSSEV RNA \r\nCATGATGGGCAAGAGAGAAAAGAAGCTTGGAGAGTTCGGAGTGGCCAAAGGAAGCCGGGCCATATGGTACATGTGGCTGGGGAGCCGCTTTCTGGAGTTCGAAGCTCTTGGCTTTTTGAATGAGGACCACTGGGCCTCTAGGGGGTCCAGTGGATCTGGAGTGGAGGGAATAAGCTTGAACTACCTGGGCTGGCATCTCAAAGGTTTGTCAACATTGGAAGGAGGCCTTTTTTACGCAGATGACAC",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "90000000.00 PFU/ml",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BMC-SAS"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "BMC-SAS",
+        "Derived product",
+        "Animal virus",
+        "far eastern",
+        "Human virus",
+        "ixodes persulcatus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "RSSEV",
+        "Russian Federation (the)",
+        "Tick-borne encephalitis",
+        "Tick-borne encephalitis virus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "1993-12-29",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Tick-borne encephalitis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tick-borne encephalitis virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "RSSE",
+        "EVORAO:subspecies": "FarEa",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "008N-EVA917",
+      "search:title": "RSSEV RNA",
+      "search:description": "Tick-borne encephalitis virus (strain RSSEV) RNA",
+      "search:taxonLabel": "Tick-borne encephalitis virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "BMC-SAS",
+      "search:countryOfCollection": "Russian Federation (the)",
+      "search:providerName": "BMC-SAS",
+      "search:pathogenName": "Tick-borne encephalitis virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
       "EVORAO:refSku": "007N-EVA1426",
@@ -52709,136 +52839,6 @@
       "search:accessionNumber": "KF776590.1",
       "search:providerName": "UL",
       "search:pathogenName": "Dobrava"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BMC-SAS"
-      },
-      "EVORAO:refSku": "008N-EVA917",
-      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA917",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rssev-rna",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2021-01-25T15:49:54+01:00",
-      "dcterms:title": "RSSEV RNA",
-      "dcterms:description": "Tick-borne encephalitis virus (strain RSSEV) RNA",
-      "EVORAO:unitDefinition": "1x50ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 95.8,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1993-12-29",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Russian Federation (the)"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">RSSEV RNA \r\nCATGATGGGCAAGAGAGAAAAGAAGCTTGGAGAGTTCGGAGTGGCCAAAGGAAGCCGGGCCATATGGTACATGTGGCTGGGGAGCCGCTTTCTGGAGTTCGAAGCTCTTGGCTTTTTGAATGAGGACCACTGGGCCTCTAGGGGGTCCAGTGGATCTGGAGTGGAGGGAATAAGCTTGAACTACCTGGGCTGGCATCTCAAAGGTTTGTCAACATTGGAAGGAGGCCTTTTTTACGCAGATGACAC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "AVE Buffer -80C",
-      "EVORAO:titer": "90000000.00 PFU/ml",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BMC-SAS"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "BMC-SAS",
-        "Derived product",
-        "Animal virus",
-        "far eastern",
-        "Human virus",
-        "ixodes persulcatus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "RSSEV",
-        "Russian Federation (the)",
-        "Tick-borne encephalitis",
-        "Tick-borne encephalitis virus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "1993-12-29",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Tick-borne encephalitis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tick-borne encephalitis virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "RSSE",
-        "EVORAO:subspecies": "FarEa",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "008N-EVA917",
-      "search:title": "RSSEV RNA",
-      "search:description": "Tick-borne encephalitis virus (strain RSSEV) RNA",
-      "search:taxonLabel": "Tick-borne encephalitis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "BMC-SAS",
-      "search:countryOfCollection": "Russian Federation (the)",
-      "search:providerName": "BMC-SAS",
-      "search:pathogenName": "Tick-borne encephalitis virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -53097,6 +53097,136 @@
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "BMC-SAS"
+      },
+      "EVORAO:refSku": "008N-EVA915",
+      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA915",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/tbev-hypr-rna",
+      "dcterms:issued": "2016-04-12T13:50:05+02:00",
+      "dcterms:modified": "2021-01-29T12:38:43+01:00",
+      "dcterms:title": "TBEV-Hypr RNA",
+      "dcterms:description": "Tick-borne encephalitis virus strain Hypr RNA",
+      "EVORAO:unitDefinition": "1x50ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 95.8,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-12-29",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Czech Republic (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">TBEV-Hypr RNA \r\nTGCTCCCGGCCGCCATGGCCGCGGGATTGGGCAAGAGAGAGAAGAAACTGGGAGAGTTCGGAGTGGCGAAGGGAAGTCGGGCCATTTGGTACATGTGGCTGGGGAGTCGCTTTCTGGAGTTCGAGGCTCTTGGATTCTTGAATGAAGACCATTGGGCCTCTAGAGAGTCCAGTGGAGCTGGAGTTGAGGGAATAAGCTTGAACTACCTGGGCTGGCACCTCAAGAAGTTGTCAACCCTGAATGGAGGACTCTTCTATGCA",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "2000000.00 PFU/ml",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BMC-SAS"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "BMC-SAS",
+        "Derived product",
+        "Animal virus",
+        "Czech Republic (the)",
+        "european subtype",
+        "Flaviviridae",
+        "Human virus",
+        "Ixodes ricinus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Tick-borne encephalitis",
+        "Tick-borne encephalitis virus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "1993-12-29",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Tick-borne encephalitis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tick-borne encephalitis virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "Hypr",
+        "EVORAO:subspecies": "Europ",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "008N-EVA915",
+      "search:title": "TBEV-Hypr RNA",
+      "search:description": "Tick-borne encephalitis virus strain Hypr RNA",
+      "search:taxonLabel": "Tick-borne encephalitis virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "BMC-SAS",
+      "search:countryOfCollection": "Czech Republic (the)",
+      "search:providerName": "BMC-SAS",
+      "search:pathogenName": "Tick-borne encephalitis virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
       "EVORAO:refSku": "007N-EVA1425",
@@ -53227,136 +53357,6 @@
       "search:accessionNumber": "KF776872.1",
       "search:providerName": "UL",
       "search:pathogenName": "Puumala virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BMC-SAS"
-      },
-      "EVORAO:refSku": "008N-EVA915",
-      "@id": "urn:evorao:EVA:BMC-SAS:008N-EVA915",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/tbev-hypr-rna",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2021-01-29T12:38:43+01:00",
-      "dcterms:title": "TBEV-Hypr RNA",
-      "dcterms:description": "Tick-borne encephalitis virus strain Hypr RNA",
-      "EVORAO:unitDefinition": "1x50ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 95.8,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1993-12-29",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Czech Republic (the)"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "RT-PCR followed by sequencing of the amplified product",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "QIAamp Viral RNA Mini Kit (Qiagen)",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">TBEV-Hypr RNA \r\nTGCTCCCGGCCGCCATGGCCGCGGGATTGGGCAAGAGAGAGAAGAAACTGGGAGAGTTCGGAGTGGCGAAGGGAAGTCGGGCCATTTGGTACATGTGGCTGGGGAGTCGCTTTCTGGAGTTCGAGGCTCTTGGATTCTTGAATGAAGACCATTGGGCCTCTAGAGAGTCCAGTGGAGCTGGAGTTGAGGGAATAAGCTTGAACTACCTGGGCTGGCACCTCAAGAAGTTGTCAACCCTGAATGGAGGACTCTTCTATGCA",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "AVE Buffer -80C",
-      "EVORAO:titer": "2000000.00 PFU/ml",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BMC-SAS"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "BMC-SAS",
-        "Derived product",
-        "Animal virus",
-        "Czech Republic (the)",
-        "european subtype",
-        "Flaviviridae",
-        "Human virus",
-        "Ixodes ricinus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Tick-borne encephalitis",
-        "Tick-borne encephalitis virus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "1993-12-29",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Tick-borne encephalitis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tick-borne encephalitis virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Hypr",
-        "EVORAO:subspecies": "Europ",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "008N-EVA915",
-      "search:title": "TBEV-Hypr RNA",
-      "search:description": "Tick-borne encephalitis virus strain Hypr RNA",
-      "search:taxonLabel": "Tick-borne encephalitis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "BMC-SAS",
-      "search:countryOfCollection": "Czech Republic (the)",
-      "search:providerName": "BMC-SAS",
-      "search:pathogenName": "Tick-borne encephalitis virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -111854,6 +111854,144 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "BNI"
+      },
+      "EVORAO:refSku": "002v-EVA335",
+      "@id": "urn:evorao:EVA:BNI:002v-EVA335",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-lib07-55",
+      "dcterms:issued": "2015-09-25T12:38:15+02:00",
+      "dcterms:modified": "2021-03-08T14:05:31+01:00",
+      "dcterms:title": "Lassa Virus Lib07-55",
+      "dcterms:description": "Infectious cell culture supernatant. This Lassa virus[Lib07-55] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 0.5ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 3637.38,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2007-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Liberia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "Sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P1",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG4"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "12500000 FFU/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BNI"
+      },
+      "EVORAO:accessionNumber": "GU830831.1",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "BNI",
+        "Virus",
+        "arenavirus",
+        "Category A",
+        "UN2814",
+        "GU830831.1",
+        "Human",
+        "Human virus",
+        "Lassa virus",
+        "Liberia",
+        "RG4",
+        "Vero",
+        "Dry ice",
+        "Lassa mammarenavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2007-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "Upon request, partial sequence GU830831.1",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "GU830831.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lassa virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lassa mammarenavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "Lib07-55",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "002v-EVA335",
+      "search:title": "Lassa Virus Lib07-55",
+      "search:description": "Infectious cell culture supernatant. This Lassa virus[Lib07-55] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Lassa mammarenavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG4",
+      "search:isolationHostLabel": "Human",
+      "search:collectionName": "BNI",
+      "search:countryOfCollection": "Liberia",
+      "search:accessionNumber": "GU830831.1",
+      "search:providerName": "BNI",
+      "search:pathogenName": "Lassa virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA388",
@@ -111994,144 +112132,6 @@
       "search:countryOfCollection": "France",
       "search:providerName": "AMU",
       "search:pathogenName": "echovirus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BNI"
-      },
-      "EVORAO:refSku": "002v-EVA335",
-      "@id": "urn:evorao:EVA:BNI:002v-EVA335",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-lib07-55",
-      "dcterms:issued": "2015-09-25T12:38:15+02:00",
-      "dcterms:modified": "2021-03-08T14:05:31+01:00",
-      "dcterms:title": "Lassa Virus Lib07-55",
-      "dcterms:description": "Infectious cell culture supernatant. This Lassa virus[Lib07-55] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 0.5ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 3637.38,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2007-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Liberia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "Sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "P1",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "12500000 FFU/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BNI"
-      },
-      "EVORAO:accessionNumber": "GU830831.1",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Human"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "BNI",
-        "Virus",
-        "arenavirus",
-        "Category A",
-        "UN2814",
-        "GU830831.1",
-        "Human",
-        "Human virus",
-        "Lassa virus",
-        "Liberia",
-        "RG4",
-        "Vero",
-        "Dry ice",
-        "Lassa mammarenavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2007-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "Upon request, partial sequence GU830831.1",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "GU830831.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Lassa virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Lassa mammarenavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Lib07-55",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "002v-EVA335",
-      "search:title": "Lassa Virus Lib07-55",
-      "search:description": "Infectious cell culture supernatant. This Lassa virus[Lib07-55] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Lassa mammarenavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:isolationHostLabel": "Human",
-      "search:collectionName": "BNI",
-      "search:countryOfCollection": "Liberia",
-      "search:accessionNumber": "GU830831.1",
-      "search:providerName": "BNI",
-      "search:pathogenName": "Lassa virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -112419,6 +112419,144 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "BNI"
+      },
+      "EVORAO:refSku": "002v-EVA336",
+      "@id": "urn:evorao:EVA:BNI:002v-EVA336",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-lib07-56",
+      "dcterms:issued": "2015-09-25T12:38:15+02:00",
+      "dcterms:modified": "2021-03-08T14:10:20+01:00",
+      "dcterms:title": "Lassa Virus Lib07-56",
+      "dcterms:description": "infectious cell culture supernatant. This Lassa virus[Lib07-56] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 0.5ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 3637.38,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2007-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Liberia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "Sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P1",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG4"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10300000 FFU/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BNI"
+      },
+      "EVORAO:accessionNumber": "GU830832.1",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "BNI",
+        "Virus",
+        "arenavirus",
+        "Category A",
+        "UN2814",
+        "GU830832.1",
+        "Human",
+        "Human virus",
+        "Lassa virus",
+        "Liberia",
+        "RG4",
+        "Vero",
+        "Dry ice",
+        "Lassa mammarenavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2007-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "upon request, partial sequence online GU830832.1",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "GU830832.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lassa virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lassa mammarenavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "Lib07-56",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "002v-EVA336",
+      "search:title": "Lassa Virus Lib07-56",
+      "search:description": "infectious cell culture supernatant. This Lassa virus[Lib07-56] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Lassa mammarenavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG4",
+      "search:isolationHostLabel": "Human",
+      "search:collectionName": "BNI",
+      "search:countryOfCollection": "Liberia",
+      "search:accessionNumber": "GU830832.1",
+      "search:providerName": "BNI",
+      "search:pathogenName": "Lassa virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA389",
@@ -112559,144 +112697,6 @@
       "search:countryOfCollection": "France",
       "search:providerName": "AMU",
       "search:pathogenName": "Echovirus 11"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "BNI"
-      },
-      "EVORAO:refSku": "002v-EVA336",
-      "@id": "urn:evorao:EVA:BNI:002v-EVA336",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-lib07-56",
-      "dcterms:issued": "2015-09-25T12:38:15+02:00",
-      "dcterms:modified": "2021-03-08T14:10:20+01:00",
-      "dcterms:title": "Lassa Virus Lib07-56",
-      "dcterms:description": "infectious cell culture supernatant. This Lassa virus[Lib07-56] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 0.5ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 3637.38,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2007-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Liberia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "Sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "P1",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10300000 FFU/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BNI"
-      },
-      "EVORAO:accessionNumber": "GU830832.1",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Human"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "BNI",
-        "Virus",
-        "arenavirus",
-        "Category A",
-        "UN2814",
-        "GU830832.1",
-        "Human",
-        "Human virus",
-        "Lassa virus",
-        "Liberia",
-        "RG4",
-        "Vero",
-        "Dry ice",
-        "Lassa mammarenavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2007-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request, partial sequence online GU830832.1",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "GU830832.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Lassa virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Lassa mammarenavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Lib07-56",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "002v-EVA336",
-      "search:title": "Lassa Virus Lib07-56",
-      "search:description": "infectious cell culture supernatant. This Lassa virus[Lib07-56] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Lassa mammarenavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:isolationHostLabel": "Human",
-      "search:collectionName": "BNI",
-      "search:countryOfCollection": "Liberia",
-      "search:accessionNumber": "GU830832.1",
-      "search:providerName": "BNI",
-      "search:pathogenName": "Lassa virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -114408,142 +114408,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "BNI"
-      },
-      "EVORAO:refSku": "002v-EVA329",
-      "@id": "urn:evorao:EVA:BNI:002v-EVA329",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-lib05-3800",
-      "dcterms:issued": "2015-09-25T12:38:15+02:00",
-      "dcterms:modified": "2021-03-08T14:08:00+01:00",
-      "dcterms:title": "Lassa Virus Lib05-3800",
-      "dcterms:description": "infectious cell culture supernatant. This Lassa virus[Lib05-3800] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 0.5ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 3637.38,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2005-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Liberia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "3800000 FFU/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "BNI"
-      },
-      "EVORAO:accessionNumber": "GU830818.1",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Human"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "BNI",
-        "Virus",
-        "arenavirus",
-        "Category A",
-        "UN2814",
-        "GU830818.1",
-        "Human",
-        "Human virus",
-        "Lassa virus",
-        "Liberia",
-        "RG4",
-        "Vero",
-        "Dry ice",
-        "Lassa mammarenavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2005-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request; partial sequence already online GU830818.1",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "GU830818.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Lassa virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Lassa mammarenavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Lib05-3800",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "002v-EVA329",
-      "search:title": "Lassa Virus Lib05-3800",
-      "search:description": "infectious cell culture supernatant. This Lassa virus[Lib05-3800] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Lassa mammarenavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:isolationHostLabel": "Human",
-      "search:collectionName": "BNI",
-      "search:countryOfCollection": "Liberia",
-      "search:accessionNumber": "GU830818.1",
-      "search:providerName": "BNI",
-      "search:pathogenName": "Lassa virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA380",
@@ -114690,6 +114554,142 @@
       "search:providerName": "AMU",
       "search:originatorName": "APHM",
       "search:pathogenName": "Human coxsackievirus B2"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "BNI"
+      },
+      "EVORAO:refSku": "002v-EVA329",
+      "@id": "urn:evorao:EVA:BNI:002v-EVA329",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-lib05-3800",
+      "dcterms:issued": "2015-09-25T12:38:15+02:00",
+      "dcterms:modified": "2021-03-08T14:08:00+01:00",
+      "dcterms:title": "Lassa Virus Lib05-3800",
+      "dcterms:description": "infectious cell culture supernatant. This Lassa virus[Lib05-3800] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 0.5ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 3637.38,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2005-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Liberia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG4"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "3800000 FFU/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BNI"
+      },
+      "EVORAO:accessionNumber": "GU830818.1",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "BNI",
+        "Virus",
+        "arenavirus",
+        "Category A",
+        "UN2814",
+        "GU830818.1",
+        "Human",
+        "Human virus",
+        "Lassa virus",
+        "Liberia",
+        "RG4",
+        "Vero",
+        "Dry ice",
+        "Lassa mammarenavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2005-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "upon request; partial sequence already online GU830818.1",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "GU830818.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lassa virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lassa mammarenavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "Lib05-3800",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "002v-EVA329",
+      "search:title": "Lassa Virus Lib05-3800",
+      "search:description": "infectious cell culture supernatant. This Lassa virus[Lib05-3800] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Lassa mammarenavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG4",
+      "search:isolationHostLabel": "Human",
+      "search:collectionName": "BNI",
+      "search:countryOfCollection": "Liberia",
+      "search:accessionNumber": "GU830818.1",
+      "search:providerName": "BNI",
+      "search:pathogenName": "Lassa virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -127656,149 +127656,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
-      "EVORAO:refSku": "003v-EVA38",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVA38",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-lagos-bat-virus-type-b-rv1",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-06-23T09:38:39+02:00",
-      "dcterms:title": "Live Lagos Bat Virus type B, RV1",
-      "dcterms:description": "Lagos Bat Virus. This Lagos bat virus[LBV-RV1] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were not performed. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1956-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Nigeria"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Isolate from Nigeria. Received as Lyophilised powder - reconstituted on 18/5/83. N gene genbank U22842. One passage in mice plus five passages in BHK cells.",
-      "EVORAO:passage": "P5",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "N2A"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "4.3 logs/50ul",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Eidolon helvum (Bat)"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Ref:Nat Int Virology (NIV) Sandringham"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "Bat",
-        "Category A",
-        "UN2814",
-        "Eidolon helvum (Bat)",
-        "Lagos",
-        "Lagos bat virus",
-        "LBV",
-        "N2A",
-        "Nigeria",
-        "Ref:Nat Int Virology (NIV) Sandringham",
-        "RG3",
-        "RV1",
-        "type B",
-        "virus",
-        "Dry ice",
-        "Lagos bat lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1956-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Partial Sequence GACTTTCCTCTATATACAATTCCTGAAAAGATAGGTCCTTGGACTCCGATCGACCTGATCCATCTGAGCTGTCCTAATAA TTTGCAGTCAGAGGATGAAGGATGTGGTACCTCATCAGTCTTCAGTTATGTAGAGCTCAAGACAGGTTATCTCACTCATC AGAAAGTGTCTGGGTTCACCTGTACAGGAGTGGTTAATGAGGCTGTCACATACACTAACTTTGTCGGATATGTGACAACC ACCTTTAAGCGGAAACATTTCAAGCCGACGGCATTGGCTTGCAGAGATGCTTATCATTGGAAGATTTCTGGGGATCCAAG GTATGAGGAGTCTCTCCACACACCATATCCTGACAACAGCTGGTTGAGGACAGTTACCACAACCAAAGAATCTCTTGTGA TAATCTCTCCAAGCATTGTGGAGATGGATGTATATAGTAGAACACTTCATTCTCCCATGTTTCCCACCGGGACCTGTTCT AGGTTCTATCCGTCATCCCCTTCTTGTGCCACAAATCATGATTACACTTTATGGCTTCCAGATGACCCTAATCTGAGTTT GGCATGTGATATCTTTGTGACCAGCACAGGGAAAAAGTCAATGAATGGCTCTAGAATGTGTGGATTTACAGACGAGAGAG GGTATTACCGGACAATAAAAGGAGCTTGTAAACTGACATTATGTGGGAAACCAGGTTTGAGGTTATTTGATGGCACATGG ATATCCTTCACCCGCCCGGAAGTCACTACCTGGTGCCTTCCTAATCAGTTAGTCAATATTCACAACAATAGGATAGATGA AGTTGAGCATCTGATTGTAGAAGATCTCATTCGAAAAAGAGAAGAGTGTTTGGACACTTTAGAGACAGTTTTAATGTCCA AATCAATCAGTTTTAGACGACTAAGTCACTTCAGAAAATTAGTGCCAGGATATGGGAAGGCTTACACTATTTTAAATGGG AGCTTAATGGAAACTAACGTTCATTATTTAAAGGTTGACAATTGGAGTGAAATACTGCCTTCCAAGGGATGTTTAAAAAT AAACAATCAGTGTGTTGCTCATTATAAGGGGGTCTTCTTTAACGGGATCATCAAGGGACCAGATGGTCATATTTTAATCC CCGAGATGCAGTCAAGTTTGTTGAAACAGCACATGGACCTCTTGAAGGCAGCGGTTTTTCCCTTGAGACATCCTCTGATT GAACCGGGCTCTTTGTTCAATAAGGATGGTGATGCCGATGAATTTGTTGATGTCCACATGCCTGATGTACATAAGTTGGT ATCAGATGTCGACTTGGGGCTACCCGATTGGAGCCTT"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Lagos bat virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Lagos bat lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV1",
-        "EVORAO:strain": "LBV (B)",
-        "EVORAO:subspecies": "Lagos",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVA38",
-      "search:title": "Live Lagos Bat Virus type B, RV1",
-      "search:description": "Lagos Bat Virus. This Lagos bat virus[LBV-RV1] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were not performed. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Lagos bat lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Eidolon helvum (Bat)",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "Nigeria",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "Lagos bat virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA102",
@@ -127946,6 +127803,149 @@
       "search:providerName": "AMU",
       "search:originatorName": "UTMB collection",
       "search:pathogenName": "Arbia virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003v-EVA38",
+      "@id": "urn:evorao:EVA:DEFRA:003v-EVA38",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-lagos-bat-virus-type-b-rv1",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-06-23T09:38:39+02:00",
+      "dcterms:title": "Live Lagos Bat Virus type B, RV1",
+      "dcterms:description": "Lagos Bat Virus. This Lagos bat virus[LBV-RV1] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were not performed. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1956-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Nigeria"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "Isolate from Nigeria. Received as Lyophilised powder - reconstituted on 18/5/83. N gene genbank U22842. One passage in mice plus five passages in BHK cells.",
+      "EVORAO:passage": "P5",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "N2A"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "4.3 logs/50ul",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Eidolon helvum (Bat)"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Ref:Nat Int Virology (NIV) Sandringham"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "Bat",
+        "Category A",
+        "UN2814",
+        "Eidolon helvum (Bat)",
+        "Lagos",
+        "Lagos bat virus",
+        "LBV",
+        "N2A",
+        "Nigeria",
+        "Ref:Nat Int Virology (NIV) Sandringham",
+        "RG3",
+        "RV1",
+        "type B",
+        "virus",
+        "Dry ice",
+        "Lagos bat lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1956-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">Partial Sequence GACTTTCCTCTATATACAATTCCTGAAAAGATAGGTCCTTGGACTCCGATCGACCTGATCCATCTGAGCTGTCCTAATAA TTTGCAGTCAGAGGATGAAGGATGTGGTACCTCATCAGTCTTCAGTTATGTAGAGCTCAAGACAGGTTATCTCACTCATC AGAAAGTGTCTGGGTTCACCTGTACAGGAGTGGTTAATGAGGCTGTCACATACACTAACTTTGTCGGATATGTGACAACC ACCTTTAAGCGGAAACATTTCAAGCCGACGGCATTGGCTTGCAGAGATGCTTATCATTGGAAGATTTCTGGGGATCCAAG GTATGAGGAGTCTCTCCACACACCATATCCTGACAACAGCTGGTTGAGGACAGTTACCACAACCAAAGAATCTCTTGTGA TAATCTCTCCAAGCATTGTGGAGATGGATGTATATAGTAGAACACTTCATTCTCCCATGTTTCCCACCGGGACCTGTTCT AGGTTCTATCCGTCATCCCCTTCTTGTGCCACAAATCATGATTACACTTTATGGCTTCCAGATGACCCTAATCTGAGTTT GGCATGTGATATCTTTGTGACCAGCACAGGGAAAAAGTCAATGAATGGCTCTAGAATGTGTGGATTTACAGACGAGAGAG GGTATTACCGGACAATAAAAGGAGCTTGTAAACTGACATTATGTGGGAAACCAGGTTTGAGGTTATTTGATGGCACATGG ATATCCTTCACCCGCCCGGAAGTCACTACCTGGTGCCTTCCTAATCAGTTAGTCAATATTCACAACAATAGGATAGATGA AGTTGAGCATCTGATTGTAGAAGATCTCATTCGAAAAAGAGAAGAGTGTTTGGACACTTTAGAGACAGTTTTAATGTCCA AATCAATCAGTTTTAGACGACTAAGTCACTTCAGAAAATTAGTGCCAGGATATGGGAAGGCTTACACTATTTTAAATGGG AGCTTAATGGAAACTAACGTTCATTATTTAAAGGTTGACAATTGGAGTGAAATACTGCCTTCCAAGGGATGTTTAAAAAT AAACAATCAGTGTGTTGCTCATTATAAGGGGGTCTTCTTTAACGGGATCATCAAGGGACCAGATGGTCATATTTTAATCC CCGAGATGCAGTCAAGTTTGTTGAAACAGCACATGGACCTCTTGAAGGCAGCGGTTTTTCCCTTGAGACATCCTCTGATT GAACCGGGCTCTTTGTTCAATAAGGATGGTGATGCCGATGAATTTGTTGATGTCCACATGCCTGATGTACATAAGTTGGT ATCAGATGTCGACTTGGGGCTACCCGATTGGAGCCTT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lagos bat virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lagos bat lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV1",
+        "EVORAO:strain": "LBV (B)",
+        "EVORAO:subspecies": "Lagos",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003v-EVA38",
+      "search:title": "Live Lagos Bat Virus type B, RV1",
+      "search:description": "Lagos Bat Virus. This Lagos bat virus[LBV-RV1] is preserved under Viral Storage Medium -80C.Tests for the presence of mycoplasmae were not performed. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Lagos bat lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Eidolon helvum (Bat)",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "Nigeria",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Lagos bat virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -131319,145 +131319,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001v-EVA108",
-      "@id": "urn:evorao:EVA:AMU:001v-EVA108",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/japanese-encephalitis-virus-strain-uvejevunkxxunk",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-10-13T14:57:45+02:00",
-      "dcterms:title": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK",
-      "dcterms:description": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK, complete ORF sequence",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 700,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1993-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Unknown"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "qRT-PCR (-Moureau et al, 2007) + partial sequence",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "Oxford Institute of Virology"
-      },
-      "EVORAO:passage": ">3 (3 passages recorded in the production lab)",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "C6/36"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10E5,32 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Unknown"
-      },
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "18020965",
-        "Animal virus",
-        "C6/36",
-        "Category A",
-        "UN2814",
-        "Flavivirus",
-        "japanese encephalitis",
-        "Japanese encephalitis virus",
-        "JEV",
-        "Oxford Institute of Virology",
-        "RG3",
-        "Unknown"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1993-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 001v-EVA108 | JEV\nGGGCCCGGTAAAAACCGGGCTATCAATATGCTGAAACGCGGCTTACCCCGCGTATTCCCACTAGTGGGAGTGAAGAGGGT\nAGTGATGAGCTTGTTGGACGGCAGAGGGCCAGTACGTTTCGTGCTGGCTCTTATCACGTTCTTCAAGTTTACAGCATTAG\nCCCCGACCAAGGCGCTTTTAGGCCGATGGAAAGCAGTGGAAAAGAGTGTGGCAATGAAACATCTTACTAGTTTCAAACGA\nGAACTTGGAACACTCATTGACGCCGTGAACAAGCGGGGCAGAAAGCAAAACAAAAGAGGAGGAAATGAAGGCTCAATCAT\nGTGGCTCGCGAGCTTGGCAGTTGTCATAGCCTGCGCAGGAGCCATGAAGTTGTCAAATTTCCAGGGGAAGCTTTTGATGA\nCCGTCAACAACACGGACATTGCAGACGTTATCGTGATTCCCACCTCAAAAGGAGAGAACAGATGTTGGGTCCGGGCAATC\nGACGTCGGCTACATGTGTGAGGACACTATCACGTACGAATGTCCTAAGCTCACCATGGGCAATGATCCAGAGGACGTGGA\nCTGTTGGTGTGACAACCAAGAAGTCTACGTCCAATATGGACGGTGCACGCGGACCAGGCATTCCAAGCGAAGCAGGAGAT\nCCGTGTCGGTCCAAACACATGGGGAGAGTTCACTAGTGAATAAAAAAGAGGCTTGGCTGGATTCAACGAAAGCCACACGA\nTACCTCATGAAAACTGAGAACTGGATCGTAAGGAATCCTGGCTATGCTTTCCTGGCGGCGATACTTGGCTGGATGCTTGG\nCAGTAACAACGGTCAACGCGTGGTATTCACCATCCTCCTGCTGTTGGTCGCTCCGGCTTACAGTTTCAACTGTCTGGGAA\nTGGGCAATCGTGACTTCATAGAAGGAGCCAGTGGAGCCACTTGGGTGGACTTGGTGCTAGAAGGAGACAGCTGCTTGACA\nATTATGGCAAACGACAAACCAACATTGGACGTCCGCATGATCAACATCGAAGCTGTCCAACTTGCTGAGGTCAGAAGTTA\nCTGCTATCATGCTTCAGTCACTGACATTTCGACGGTGGCTCGGTGCCCCACGACTGGAGAAGCTCACAACGAGAAGCGAG\nCTGATAGTAGCTATGTGTGCAAACAAGGCTTCACTGATCGTGGGTGGGGCAACGGATGTGGACTTTTCGGGAAGGGAAGC\nATTGACACATGTGCAAAATTCTCCTGCACCAGTAAGGCGATTGGGAGAACAATCCAGCCAGAAAACATCAAATACGAAGT\nTGGCATTTTTGTGCATGGAACCACCACTTCGGAAAACCATGGGAATTATTCAGCGCAAGTTGGGGCGTCCCAGGCGGCAA\nAGTTTACAGTAACACCCAATGCTCCTTCGATAACCCTTAAACTTGGTGACTACGGAGAAGTCACACTGGACTGTGAGCCA\nAGGAGTGGACTAAACACTGAAGCGTTTTACGTCATGACCGTGGGGTCAAAGTCATTTTTGGTCCACAGGGAATGGTTTCA\nTGATCTCGCTCTCCCTTGGACGCCCCCTTCGAGCACAGCGTGGAGAAACAGAGAACTCCTCATGGAATTTGAAGAGGCGC\nACGCCACAAAACAGTCCGTTGTTGCTCTTGGGTCACAGGAAGGAGGCCTCCATCAGGCGTTGGCAGGAGCCATCGTGGTG\nGAGTACTCAAACTCAGTGAAGTTAACATCAGGCCACCTAAAATGCAGGCTGAAAATGGACAAACTGGCTCTGAAAGGCAC\nAACCTATGGCATGTGCACAGAAAAATTCTCGTTCGCGAAAAATCCGGCGGACACTGGTCACGGAACAGTTGTCATTGAAC\nTTTCCTACTCTGGGAGTGATGGCCCTTGCAAAATTCCGATTGTCTCCGTTGCGAGCCTCAATGACATGACCCCCGTCGGG\nCGGCTGGTGACAGTGAACCCCTTCGTCGCGACTTCCAGCGCCAACTCAAAGGTGCTAGTCGAGATGGAACCCCCCTTCGG\nAGACTCCTACATCGTAGTTGGAAGGGGAGACAAGCAGATTAACCACCATTGGCACAAGGCTGGAAGCACGCTGGGCAAAG\nCCTTTTCAACGACTTTGAAGGGAGCTCAAAGACTGGCAGCGTTGGGCGACACAGCCTGGGACTTTGGCTCTATTGGAGGG\nGTTTTCAACTCCATAGGGAAAGCCGTTCACCAAGTGTTTGGTGGTGCCTTCAGAACACTCTTCGGGGGAATGTCTTGGAT\nCACACAAGGGCTAATGGGGGCCCTACTACTCTGGATGGGCGTCAACGCACGAGACCGATCAATTGCTTTGGCCTTCTTAG\nCCACAGGAGGTGTGCTCGTGTTCTTAGCGACCAATGTGCATGCTGACACTGGATGTGCCATTGACATCACAAGAAAAGAG\nATGAGGTGTGGAAGTGGCATCTTCGTGCACAACGACGTGGAAGCCTGGGTGGATAGGTATAAATATTTGCCAGAAACGCC\nCAGATCCCTGGCGAAGATCGTCCACAAAGCGCACAAGGAAGGCGTGTGCGGAGTCAGATCTGTCACCAGACTGGAGCACC\nAAATGTGGGAAGCCGTACGGGACGAATTGAACGTCCTACTCAAAGAGAACGCAGTGGACCTCAGCGTGGTGGTGAACAAG\nCCCGTGGGGAGATATCGCTCAGCCCCTAAACGCCTATCCATGACGCAAGAGAAGTTTGAAATGGGCTGGAAAGCATGGGG\nAAAAAGCATTCTCTTTGCCCCGGAATTGGCTAACTCCACATTTGTCGTAGATGGACCTGAGACAAAGGAATGCCCTGATG\nAGCACAGAGCTTGGAACAGCATGCAAATCGAAGACTTCGGCTTTGGCATCACATCAACCCGTGTGTGGCTGAAGATCAGA\nGAGGAGAGCACTGACGAGTGTGATGGAGCGATCATAGGCACGGCTGTCAAAGGACATGTGGCAGTCCATAGTGACTTGTC\nGTACTGGATTGAGAGTCGCTACAACGACACATGGAAACTTGAGAGGGCAGTCTTTGGAGAGGTCAAATCTTGCACTTGGC\nCAGAGACACACACCCTTTGGGGAGATGGTGTTGAGGAAAGTGAACTCATCATTCCGCATACCATAGCCGGACCAAAAAGC\nAAGCACAATCGGAGGGAAGGGTATAAGACACAAAACCAGGGACCCTGGGACGAGAATGGTATAGTCTTGGACTTTGATTA\nTTGCCCAGGGACAAAAGTCACCATTACAGAGGATTGTGGCAAGAGAGGCCCTTCGGTCAGAACCACTACTGACAGTGGAA\nAGTTGATCACTGACTGGTGCTGTCGCAGTTGTTCCCTTCCGCCCCTACGATTCCGGACAGAAAATGGCTGCTGGTACGGA\nATGGAAATCAGACCTGTCAGGCATGATGAAACAACACTTGTCAGATCACAGGTTGATGCTTTTAATGGTGAAATGGTTGA\nCCCTTTTCAGCTGGGCCTTCTGGTGATGTTTCTGGCCACCCAGGAGGTCCTTCGTAAGAGGTGGACGGCCAGATTGACTA\nTTCCTGCGGTTTTGGGGGCCCTACTTGTGCTGATGCTTGGGGGCATCACTTACACTGATTTGGCGAGGTATGTGGTGCTA\nGTCGCTGCTGCTTTCGCAGAAGCCAACAGTGGAGGAGACGTCCTGCACCTTGCTTTGATTGCCGTTTTTAAGATCCAACC\nAGCATTTCTAGTGATGAACATGCTTAGCACGAGATGGACGAACCAGGAAAACGTGGTTCTGGTCCTAGGGGCTGCCTTTT\nTTCAATTGGCCTCAGTAGATCTGCAAATAGGAGTCCACGGAATCCTGAATGCCGCCGCTATAGCATGGATGATTGTCCGA\nGCGATCACTTTCCCCACAACCTCCTCCGTCACCATGCCAGTCTTAGCGCTTCTAACTCCGGGAATGAGGGCTCTATACCT\nAGACACTTACAGAATCATCCTCCTCGTCATAGGGATTTGCTCCCTGCTGCAAGAGAGGAAAAAGACCATGGCAAAAAAGA\nAAGGAGCTGTACTCTTGGGCTTAGCGCTCACATCCACTGGATGGTTCTCGCCCACCACTATAGCTGCCGGACTAATGGTC\nTGCAACCCAAACAAGAAGAGAGGGTGGCCAGCTACTGAGTTTTTGTCGGCAGTTGGATTGATGTTTGCCATCGTAGGTGG\nTTTGGCCGAGTTGGATATTGAATCCATGTCAATACCCTTCATGCTGGCAGGTCTTATGGCAGTGTCCTACGTGGTGTCAG\nGAAAAGCAACAGATATGTGGCTTGAACGGGCCGCCGACATCAGCTGGGAGATGGATGCTGCAATCACAGGAAGCAGTCGG\nAGGCTGGATGTGAAGCTGGATGATGACGGAGATTTTCACTTGATTGATGATCCCGGTGTTCCATGGAAGGTCTGGGTCCT\nGCGCATGTCTTGCATTGGCTTAGCCGCCCTCACGCCTTGGGCCATTGTTCCCGCCGCTTTTGGTTATTGGCTCACTTTAA\nAAACAACAAAAAGAGGGGGCGTGTTTTGGGACACGCCATCCCCAAAACCTTGCTCAAAAGGAGACACCACTACAGGAGTC\nTACCGAATTATGGCTAGAGGGATTCTTGGCACTTACCAGGCCGGCGTCGGAGTCATGTACGAGAATGTTTTCCACACACT\nATGGCACACAACTAGAGGAGCAGCCATTATGAGTGGAGAAGGAAAATTGACGCCATACTGGGGTAGTGTGAAAGAAGACC\nGCATAGCTTACGGAGGCCCATGGAGGTTTGATCGAAAATGGAATGGAACAGATGACGTGCAAGTGATTGTGGTAGAACCA\nGGGAAGGCTGCAGTAAACATCCAGACAAAACCAGGAGTGTTTCGGACTCCCTTCGGGGAGGTCGGGGCTGTTAGTCTGGA\nTTACCCGCGAGGAACATCCGGCTCACCCATTCTGGATTCTAATGGAGACATCATAGGCCTATACGGCAATGGAGTTGAGC\nTTGGCGATGGCTCATACGTCAGCGCCATCGTGCAGGGTGACCGTCAGGAGGAGCCAGTCCCAGAAGCTTACACCCCAAAC\nATGTTGAGAAAGAGACAGATGACTGTGCTAGATTTGCACCCAGGTTCAGGGAAAACCAGGAAAATTCTGCCACAAATAAT\nTAAGGACGCTATTCAGCAGCGCCTAAGAACAGCTGTGTTGGCACCGACGCGGGTGGTAGCAGCAGAAATGGCAGAAGCTT\nTGAGAGGGCTCCCAGTACGATATCAAACTTCAGCAGTGCAGAGAGAGCACCAAGGGAATGAAATAGTGGATGTGATGTGC\nCATGCCACTCTGACCCACAGACTGATGTCACCGAACAGAGTGCCCAACTATAACCTATTTGTCATGGATGAAGCTCATTT\nCACCGACCCAGCCAGTATAGCCGCACGAGGATATATTGCTACCAAGGTGGAATTAGGGGAGGCAGCAGCCATCTTTATGA\nCAGCGACCCCGCCTGGAACCACGGATCCTTTTCCTGACTCAAATGCCCCAATCCATGATTTGCAAGATGAGATTCCAGAC\nAGGGCATGGAGCAGTGGATACGAATGGATCACAGAATATGCGGGTAAAACCGTGTGGTTTGTGGCGAGCGTAAAAATGGG\nGAATGAGATTGCAATGTGCCTCCAAAGAGCGGGGAAAAAGGTCATCCAACTCAACCGCAAGTCCTATGACACAGAATACC\nCAAAATGTAAGAATGGAGACTGGGATTTTGTCATCACCACCGACATCTCTGAAATGGGGGCCAACTTCGGTGCGAGCAGG\nGTCATCGACTGTAGGAAGAGCGTGAAGCCCACTATCTTAGAAGAGGGAGAAGGCAGAGTCATCCTCGGAAACCCATCTCC\nCATAACCAGTGCAAGCGCAGCTCAACGGAGGGGCAGAGTAGGCAGAAACCCCAACCAAGTTGGAGATGAATACCACTATG\nGGGGGGCTACCAGTGAAGATGGCAGTAACCTAGCCCATTGGACAGAGGCAAAGATCATGTTAGACAACATACACATGCCC\nAATGGACTGGTGGCCCAGCTTTATGGACCAGAGAGGGAAAAGGCTTTTACAATGGATGGCGAATACCGTCTCAGAGGTGA\nAGAAAAGAAAAACTTCTTAGAGCTGCTTAGGACGGCTGACCTTCCGGTGTGGCTGGCCTACAAGGTGGCGTCCAATGGCA\nTTCAGTACACCGACAGGAAGTGGTGTTTTGATGGGCCGCGCACGAATGCCATACTGGAGGACAACACCGAGGTAGAGATA\nGTCACCCGGATGGGTGAGAGGAAAATCCTCAAGCCGAGATGGCTTGATGCAAGAGTTTATGCAGATCACCAAGCCCTCAA\nGTGGTTCAAAGACTTTGCAGCAGGGAAGAGATCAGCCGTTAGCTTCATAGAGGTGCTCGGTCGCATGCCTGAGCATTTCA\nTGGGAAAGACGCGGGAAGCTTTAGACACCATGTACTTGGTTGCGACGGCTGAGAAAGGTGGGAAAGCACATCGAATGGCT\nCTCGAAGAGCTGCCAGATGCACTGGAAACCATTACACTCATCGTTGCCATTACTGTGATGACAGGAGGATTCTTTCTACT\nAATGATGCAGCGAAAGGGTATAGGGAAGATGGGTCTTGGAGCTCTAGTGCTCACGCTAGCTACCTTCTTCCTGTGGGCGG\nCAGAGGTTCCTGGAACCAAAATAGCAGGGACACTGCTGATCGCCCTGCTGCTGATGGTGGTTCTCATCCCAGAACCGGAA\nAAACAGAGGTCACAGACAGATAACCAACTGGCGGTGTTTCTCATCTGTGTCTTGACCGTGGTTGGAGTGGTGGCAGCAAA\nCGAGTACGGGATGCTGGAAAAAACCAAAGCAGATCTCAAGAGCATGTTTGGCGGAAAGACGCAGGCATCAGGACTGACTG\nGATTGCCAAGCATGGCACTGGACCTGCGTCCAGCCACAGCCTGGGCACTGTATGGGGGGAGCACAGTCGTGCTAACCCCT\nCTCCTGAAGCACCTGATCACGTCGGAATACGTCACCACATCGCTAGCCTCAATTAACTCACAAGCTGGCTCATTATTTGT\nCCTGCCACGAGGCGTGCCTTTTACCGACCTAGACTTGACCGTTGGCCTCGTCTTCCTTGGCTGTTGGGGTCAAATCACTC\nTCACAACGTTTTTGACAGCCATGGTTCTGGCGACACTTCACTACGGGTACATGCTCCCTGGATGGCAAGCAGAAGCACTC\nAGGGCTGCCCAGAGAAGAACGGCGGCTGGTATAATGAAGAATGCCGTTGTTGATGGAATGGTCGCCACTGATGTGCCTGA\nACTGGAAAGGACCACTCCTCTGATGCAAAAGAAAGTCGGACAGGTGCTCCTCATAGGGGTGAGCGTGGCAGCGTTCCTCG\nTCAATCCTAATGTCACCACTGTGAGAGAAGCAGGGGTGTTGGTGACGGCGGCTACGCTCACTTTGTGGGACAATGGAGCC\nAGTGCCGTTTGGAATTCCACCACAGCCACGGGACTCTGCCATGTCATGCGAGGTAGCTACCTGGCTGGAGGCTCCATTGC\nTTGGACTCTCATCAAGAACGCTGACAAGCCCTCCTTGAAAAGGGGAAGGCCTGGGGGCAGGACGCTAGGGGAGCAGTGGA\nAGGAAAAACTAAATGCCATGAGCAGAGAAGAGTTTTTTAAATACCGGAGAGAGGCCATAATCGAGGTGGACCGCACTGAA\nGCACGCAGGGCTAGACGTGAAAATAACATAGTGGGAGGACATCCGGTTTCGCGAGGCTCAGCAAAACTCCGTTGGCTCGT\nGGAGAAAGGATTTGTCTCGCCAATAGGAAAAGTCATTGATCTAGGGTGTGGGCGTGGAGGATGGAGCTACTACGCAGCAA\nCCCTGAAGAAGGTCCAGGAAGTCAGAGGATACACGAAAGGTGGGGCGGGACATGAAGAACCGATGCTCATGCAGAGCTAC\nGGCTGGAACCTGGTCTCCCTGAAGAGTGGAGTGGACGTGTTTTACAAACCTTCAGAGCCCAGTGACACCCTGTTCTGTGA\nCATAGGGGAATCCTCCCCAAGTCCAGAAGTAGAAGAACAACGCACACTACGCGTCCTAGAGATGACATCTGACTGGTTGC\nACCGAGGACCTAGAGAGTTCTGCATAAAAGTTCTCTGCCCTTACATGCCCAAGGTTATAGAAAAAATGGAAGTTCTGCAG\nCGCCGCTTCGGAGGTGGGCTAGTGCGTCTCCCCCTGTCCCGAAACTCCAATCACGAGATGTATTGGGTTAGTGGAGCCGC\nTGGCAATGTGGTGCACGCGGTGAACATGACCAGCCAGGTACTACTGGGGCGAATGGATCGCACAGTGTGGAGAGGGCCAA\nAGTATGAGGAAGATGTCAACCTAGGGAGCGGAACAAGAGCCGTGGGAAAGGGAGAAGTCCATAGCAATCAGGAGAAAATC\nAAGAAGAGAATCCAGAAGCTTAAAGAAGAATTCGCCACAACGTGGCACAAAGACCCCGAGCATCCATACCGTACTTGGAC\nATACCACGGAAGCTATGAAGTGAAGGCTACTGGCTCAGCCAGCTCTCTCGTCAATGGAGTGGTGAAGCTCATGAGCAAAC\nCTTGGGACGCCATCGCCAACGTCACCACCATGGCCATGACTGACACCACCCCTTTTGGACAGCAAAGAGTTTTCAAGGAG\nAAAGTTGACACGAAAGCTCCTGAGCCACCAGCTGGAGCCAAGGAAGTGCTTAACGAGACCACCAACTGGCTGTGGGCCCA\nCTTGTCACGGGAAAAAAGACCCCGCTTGTGCACCAAGGAAGAATTCATAAAGAAAGTCAATAGCAACGCGGCTCTTGGAG\nCAGTGTTCGCTGAGCAGAATCAATGGAGCACAGCACGTGAGGCTGTGGATGACCCGCGGTTTTGGGAGATGGTCGATGAA\nGAGAGGGAAAACCATCTGCGAGGAGAGTGTCACACATGTATCTACAACATGATGGGAAAAAGAGAGAAGAAGCCAGGAGA\nGTTTGGAAAAGCCAAAGGAAGCAGGGCCATTTGGTTCATGTGGCTTGGAGCACGGTATCTAGAGTTTGAAGCTTTGGGGT\nTCCTGAATGAAGACCATTGGCTGAGCCGAGAGAATTCAGGAGGTGGAGTGGAAGGCTCGGGCGTCCAAAAGCTAGGATAC\nATCCTCCGTGACATAGCAGGAAAGCAAGGAGGGAAAATGTACGCTGATGATACCGCCGGGTGGGACACTAGAATTACCAG\nAACTGACTTAGAAAATGAAGCTAAGGTGCTGGAGCTCCTAGACGGTGAACACCGCATGCTCGCCCGAGCCATAATTGAAC\nTGACTTACAGGCACAAAGTGGTCAAGGTCATGAGACCTGCAGCAGAAGGAAAGACCGTGATGGACGTGATATCAAGAGAA\nGATCAAAGGGGGAGTGGACAGGTGGTCACTTATGCTCTTAACACTTTCACGAACATCGCTGTCCAGCTCGTCAGGCTGAT\nGGAGGCTGAGGGGGTCATTGGACCACAGCACTTGGAACAGCTACCCAGAAAAAACAAGATAGCTGTCAGGACCTGGCTCT\nTTGAGAATGGAGAGGAGAGAGTGACCAGGATGGCGATCAGCGGAGACGACTGTGTCGTCAAGCCGCTGGATGACAGATTC\nGCCACGGCCCTCCACTTCCTCAACGCAATGTCAAAGGTCAGAAAAGACATCCAGGAATGGAAGCCTTCGCATGGCTGGCA\nCGACTGGCAGCAAGTTCCCTTCTGCTCTAACCATTTTCAGGAGATTGTGATGAAAGATGGAAGGAGTATAGTCGTCCCGT\nGTAGAGGACAGGATGAGTTGATAGGCAGGGCTCGCATCTCCCCAGGAGCTGGATGGAATGTGAAGGACACAGCTTGCTTG\nGCCAAAGCATATGCACAGATGTGGCTACTCCTATACTTCCATCGTAGGGACTTGCGTCTCATGGCAAATGCGATTTGCTC\nAGCAGTGCCAGTGGATTGGGTGCCCACAGGCAGGACATCCTGGTCAATACACTCGAAAGGAGAGTGGATGACCACGGAAG\nACATGCTGCAGGTCTGGAACAGAGTCTGGATTGAAGAAAATGAATGGATGATGGACAAGACTCCAATTACAAGTTGGACA\nGATGTTCCGTACGTGGGAAAGCGTGAGGACATCTGGTGTGGCAGCCTTATCGGAACGCGATCCAGAGCAACCTGGGCTGA\nGAACATCTATGCGGCGATAAACCAGGTTAGAGCTGTCATTGGGAAAGAAAATTATGTTGACTACATGACTTCACTCAGGA\nGATATGAAGACGTCTTGATCCAGGAAGACAGGGTCATCTAGTGTGATTTAAGGTAGAAAAATAAACCATGTAAATAATGT\nAAATGAGAAAATGTATGCATATGGAGTCAGGCCAGCAAAAGCTGCCACCGGATACTGGGTAGACGGTGCTGCCTGCGTCT\nCAGTCCCAGGAGGACTGGGTTAACAAATCTGACAACAGAAAGTGAGAAAGCCCTCAGAACCGTCTCGGAAGTAGGTCCCT\nGCTCACTGGAAGTTGAAAGACCAACGTCAGGCCACAAATTTGTGCCACTCCGCTGGGGAGTGCGGCCTGCGCAGCCCCAG\nGAGGACTGGGTTACCAAAGCCGTTGAGGCCCCCACGGCCCAAGCCTCGTCTAGGATGCAATAGACGAGGTGTAAGGACTA\nGAGGTTAGAGGAGACCCCGTGGAAACAACAACATGCGGCCCAAGCCCCCTCGAAGCTGTAGAGGAGGTGGAAGGACTAGA\nGGTTAGAGGAGACCCCGCATTTGCATCAAACAGCATATTGACACCTGGGAATGACTGGGAGACTCTGCTTTCTAACATAA\nGCTACTAGGCACAGAGCGCCGAAGTATGTAGCTGGTGGTGAGGAAGAACACAGGATC"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Japanese encephalitis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Japanese encephalitis virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "UVE/JEV/UNK/XX/UNK",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "001v-EVA108",
-      "search:title": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK",
-      "search:description": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK, complete ORF sequence",
-      "search:taxonLabel": "Japanese encephalitis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "Unknown",
-      "search:providerName": "AMU",
-      "search:originatorName": "Oxford Institute of Virology",
-      "search:pathogenName": "Japanese encephalitis virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "DEFRA"
       },
       "EVORAO:refSku": "003v-EVA43",
@@ -131601,6 +131462,145 @@
       "search:accessionNumber": "EF157976",
       "search:providerName": "DEFRA",
       "search:pathogenName": "European bat lyssavirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001v-EVA108",
+      "@id": "urn:evorao:EVA:AMU:001v-EVA108",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/japanese-encephalitis-virus-strain-uvejevunkxxunk",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-10-13T14:57:45+02:00",
+      "dcterms:title": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK",
+      "dcterms:description": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK, complete ORF sequence",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 700,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "qRT-PCR (-Moureau et al, 2007) + partial sequence",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "Oxford Institute of Virology"
+      },
+      "EVORAO:passage": ">3 (3 passages recorded in the production lab)",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "C6/36"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10E5,32 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Unknown"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "18020965",
+        "Animal virus",
+        "C6/36",
+        "Category A",
+        "UN2814",
+        "Flavivirus",
+        "japanese encephalitis",
+        "Japanese encephalitis virus",
+        "JEV",
+        "Oxford Institute of Virology",
+        "RG3",
+        "Unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1993-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "> 001v-EVA108 | JEV\nGGGCCCGGTAAAAACCGGGCTATCAATATGCTGAAACGCGGCTTACCCCGCGTATTCCCACTAGTGGGAGTGAAGAGGGT\nAGTGATGAGCTTGTTGGACGGCAGAGGGCCAGTACGTTTCGTGCTGGCTCTTATCACGTTCTTCAAGTTTACAGCATTAG\nCCCCGACCAAGGCGCTTTTAGGCCGATGGAAAGCAGTGGAAAAGAGTGTGGCAATGAAACATCTTACTAGTTTCAAACGA\nGAACTTGGAACACTCATTGACGCCGTGAACAAGCGGGGCAGAAAGCAAAACAAAAGAGGAGGAAATGAAGGCTCAATCAT\nGTGGCTCGCGAGCTTGGCAGTTGTCATAGCCTGCGCAGGAGCCATGAAGTTGTCAAATTTCCAGGGGAAGCTTTTGATGA\nCCGTCAACAACACGGACATTGCAGACGTTATCGTGATTCCCACCTCAAAAGGAGAGAACAGATGTTGGGTCCGGGCAATC\nGACGTCGGCTACATGTGTGAGGACACTATCACGTACGAATGTCCTAAGCTCACCATGGGCAATGATCCAGAGGACGTGGA\nCTGTTGGTGTGACAACCAAGAAGTCTACGTCCAATATGGACGGTGCACGCGGACCAGGCATTCCAAGCGAAGCAGGAGAT\nCCGTGTCGGTCCAAACACATGGGGAGAGTTCACTAGTGAATAAAAAAGAGGCTTGGCTGGATTCAACGAAAGCCACACGA\nTACCTCATGAAAACTGAGAACTGGATCGTAAGGAATCCTGGCTATGCTTTCCTGGCGGCGATACTTGGCTGGATGCTTGG\nCAGTAACAACGGTCAACGCGTGGTATTCACCATCCTCCTGCTGTTGGTCGCTCCGGCTTACAGTTTCAACTGTCTGGGAA\nTGGGCAATCGTGACTTCATAGAAGGAGCCAGTGGAGCCACTTGGGTGGACTTGGTGCTAGAAGGAGACAGCTGCTTGACA\nATTATGGCAAACGACAAACCAACATTGGACGTCCGCATGATCAACATCGAAGCTGTCCAACTTGCTGAGGTCAGAAGTTA\nCTGCTATCATGCTTCAGTCACTGACATTTCGACGGTGGCTCGGTGCCCCACGACTGGAGAAGCTCACAACGAGAAGCGAG\nCTGATAGTAGCTATGTGTGCAAACAAGGCTTCACTGATCGTGGGTGGGGCAACGGATGTGGACTTTTCGGGAAGGGAAGC\nATTGACACATGTGCAAAATTCTCCTGCACCAGTAAGGCGATTGGGAGAACAATCCAGCCAGAAAACATCAAATACGAAGT\nTGGCATTTTTGTGCATGGAACCACCACTTCGGAAAACCATGGGAATTATTCAGCGCAAGTTGGGGCGTCCCAGGCGGCAA\nAGTTTACAGTAACACCCAATGCTCCTTCGATAACCCTTAAACTTGGTGACTACGGAGAAGTCACACTGGACTGTGAGCCA\nAGGAGTGGACTAAACACTGAAGCGTTTTACGTCATGACCGTGGGGTCAAAGTCATTTTTGGTCCACAGGGAATGGTTTCA\nTGATCTCGCTCTCCCTTGGACGCCCCCTTCGAGCACAGCGTGGAGAAACAGAGAACTCCTCATGGAATTTGAAGAGGCGC\nACGCCACAAAACAGTCCGTTGTTGCTCTTGGGTCACAGGAAGGAGGCCTCCATCAGGCGTTGGCAGGAGCCATCGTGGTG\nGAGTACTCAAACTCAGTGAAGTTAACATCAGGCCACCTAAAATGCAGGCTGAAAATGGACAAACTGGCTCTGAAAGGCAC\nAACCTATGGCATGTGCACAGAAAAATTCTCGTTCGCGAAAAATCCGGCGGACACTGGTCACGGAACAGTTGTCATTGAAC\nTTTCCTACTCTGGGAGTGATGGCCCTTGCAAAATTCCGATTGTCTCCGTTGCGAGCCTCAATGACATGACCCCCGTCGGG\nCGGCTGGTGACAGTGAACCCCTTCGTCGCGACTTCCAGCGCCAACTCAAAGGTGCTAGTCGAGATGGAACCCCCCTTCGG\nAGACTCCTACATCGTAGTTGGAAGGGGAGACAAGCAGATTAACCACCATTGGCACAAGGCTGGAAGCACGCTGGGCAAAG\nCCTTTTCAACGACTTTGAAGGGAGCTCAAAGACTGGCAGCGTTGGGCGACACAGCCTGGGACTTTGGCTCTATTGGAGGG\nGTTTTCAACTCCATAGGGAAAGCCGTTCACCAAGTGTTTGGTGGTGCCTTCAGAACACTCTTCGGGGGAATGTCTTGGAT\nCACACAAGGGCTAATGGGGGCCCTACTACTCTGGATGGGCGTCAACGCACGAGACCGATCAATTGCTTTGGCCTTCTTAG\nCCACAGGAGGTGTGCTCGTGTTCTTAGCGACCAATGTGCATGCTGACACTGGATGTGCCATTGACATCACAAGAAAAGAG\nATGAGGTGTGGAAGTGGCATCTTCGTGCACAACGACGTGGAAGCCTGGGTGGATAGGTATAAATATTTGCCAGAAACGCC\nCAGATCCCTGGCGAAGATCGTCCACAAAGCGCACAAGGAAGGCGTGTGCGGAGTCAGATCTGTCACCAGACTGGAGCACC\nAAATGTGGGAAGCCGTACGGGACGAATTGAACGTCCTACTCAAAGAGAACGCAGTGGACCTCAGCGTGGTGGTGAACAAG\nCCCGTGGGGAGATATCGCTCAGCCCCTAAACGCCTATCCATGACGCAAGAGAAGTTTGAAATGGGCTGGAAAGCATGGGG\nAAAAAGCATTCTCTTTGCCCCGGAATTGGCTAACTCCACATTTGTCGTAGATGGACCTGAGACAAAGGAATGCCCTGATG\nAGCACAGAGCTTGGAACAGCATGCAAATCGAAGACTTCGGCTTTGGCATCACATCAACCCGTGTGTGGCTGAAGATCAGA\nGAGGAGAGCACTGACGAGTGTGATGGAGCGATCATAGGCACGGCTGTCAAAGGACATGTGGCAGTCCATAGTGACTTGTC\nGTACTGGATTGAGAGTCGCTACAACGACACATGGAAACTTGAGAGGGCAGTCTTTGGAGAGGTCAAATCTTGCACTTGGC\nCAGAGACACACACCCTTTGGGGAGATGGTGTTGAGGAAAGTGAACTCATCATTCCGCATACCATAGCCGGACCAAAAAGC\nAAGCACAATCGGAGGGAAGGGTATAAGACACAAAACCAGGGACCCTGGGACGAGAATGGTATAGTCTTGGACTTTGATTA\nTTGCCCAGGGACAAAAGTCACCATTACAGAGGATTGTGGCAAGAGAGGCCCTTCGGTCAGAACCACTACTGACAGTGGAA\nAGTTGATCACTGACTGGTGCTGTCGCAGTTGTTCCCTTCCGCCCCTACGATTCCGGACAGAAAATGGCTGCTGGTACGGA\nATGGAAATCAGACCTGTCAGGCATGATGAAACAACACTTGTCAGATCACAGGTTGATGCTTTTAATGGTGAAATGGTTGA\nCCCTTTTCAGCTGGGCCTTCTGGTGATGTTTCTGGCCACCCAGGAGGTCCTTCGTAAGAGGTGGACGGCCAGATTGACTA\nTTCCTGCGGTTTTGGGGGCCCTACTTGTGCTGATGCTTGGGGGCATCACTTACACTGATTTGGCGAGGTATGTGGTGCTA\nGTCGCTGCTGCTTTCGCAGAAGCCAACAGTGGAGGAGACGTCCTGCACCTTGCTTTGATTGCCGTTTTTAAGATCCAACC\nAGCATTTCTAGTGATGAACATGCTTAGCACGAGATGGACGAACCAGGAAAACGTGGTTCTGGTCCTAGGGGCTGCCTTTT\nTTCAATTGGCCTCAGTAGATCTGCAAATAGGAGTCCACGGAATCCTGAATGCCGCCGCTATAGCATGGATGATTGTCCGA\nGCGATCACTTTCCCCACAACCTCCTCCGTCACCATGCCAGTCTTAGCGCTTCTAACTCCGGGAATGAGGGCTCTATACCT\nAGACACTTACAGAATCATCCTCCTCGTCATAGGGATTTGCTCCCTGCTGCAAGAGAGGAAAAAGACCATGGCAAAAAAGA\nAAGGAGCTGTACTCTTGGGCTTAGCGCTCACATCCACTGGATGGTTCTCGCCCACCACTATAGCTGCCGGACTAATGGTC\nTGCAACCCAAACAAGAAGAGAGGGTGGCCAGCTACTGAGTTTTTGTCGGCAGTTGGATTGATGTTTGCCATCGTAGGTGG\nTTTGGCCGAGTTGGATATTGAATCCATGTCAATACCCTTCATGCTGGCAGGTCTTATGGCAGTGTCCTACGTGGTGTCAG\nGAAAAGCAACAGATATGTGGCTTGAACGGGCCGCCGACATCAGCTGGGAGATGGATGCTGCAATCACAGGAAGCAGTCGG\nAGGCTGGATGTGAAGCTGGATGATGACGGAGATTTTCACTTGATTGATGATCCCGGTGTTCCATGGAAGGTCTGGGTCCT\nGCGCATGTCTTGCATTGGCTTAGCCGCCCTCACGCCTTGGGCCATTGTTCCCGCCGCTTTTGGTTATTGGCTCACTTTAA\nAAACAACAAAAAGAGGGGGCGTGTTTTGGGACACGCCATCCCCAAAACCTTGCTCAAAAGGAGACACCACTACAGGAGTC\nTACCGAATTATGGCTAGAGGGATTCTTGGCACTTACCAGGCCGGCGTCGGAGTCATGTACGAGAATGTTTTCCACACACT\nATGGCACACAACTAGAGGAGCAGCCATTATGAGTGGAGAAGGAAAATTGACGCCATACTGGGGTAGTGTGAAAGAAGACC\nGCATAGCTTACGGAGGCCCATGGAGGTTTGATCGAAAATGGAATGGAACAGATGACGTGCAAGTGATTGTGGTAGAACCA\nGGGAAGGCTGCAGTAAACATCCAGACAAAACCAGGAGTGTTTCGGACTCCCTTCGGGGAGGTCGGGGCTGTTAGTCTGGA\nTTACCCGCGAGGAACATCCGGCTCACCCATTCTGGATTCTAATGGAGACATCATAGGCCTATACGGCAATGGAGTTGAGC\nTTGGCGATGGCTCATACGTCAGCGCCATCGTGCAGGGTGACCGTCAGGAGGAGCCAGTCCCAGAAGCTTACACCCCAAAC\nATGTTGAGAAAGAGACAGATGACTGTGCTAGATTTGCACCCAGGTTCAGGGAAAACCAGGAAAATTCTGCCACAAATAAT\nTAAGGACGCTATTCAGCAGCGCCTAAGAACAGCTGTGTTGGCACCGACGCGGGTGGTAGCAGCAGAAATGGCAGAAGCTT\nTGAGAGGGCTCCCAGTACGATATCAAACTTCAGCAGTGCAGAGAGAGCACCAAGGGAATGAAATAGTGGATGTGATGTGC\nCATGCCACTCTGACCCACAGACTGATGTCACCGAACAGAGTGCCCAACTATAACCTATTTGTCATGGATGAAGCTCATTT\nCACCGACCCAGCCAGTATAGCCGCACGAGGATATATTGCTACCAAGGTGGAATTAGGGGAGGCAGCAGCCATCTTTATGA\nCAGCGACCCCGCCTGGAACCACGGATCCTTTTCCTGACTCAAATGCCCCAATCCATGATTTGCAAGATGAGATTCCAGAC\nAGGGCATGGAGCAGTGGATACGAATGGATCACAGAATATGCGGGTAAAACCGTGTGGTTTGTGGCGAGCGTAAAAATGGG\nGAATGAGATTGCAATGTGCCTCCAAAGAGCGGGGAAAAAGGTCATCCAACTCAACCGCAAGTCCTATGACACAGAATACC\nCAAAATGTAAGAATGGAGACTGGGATTTTGTCATCACCACCGACATCTCTGAAATGGGGGCCAACTTCGGTGCGAGCAGG\nGTCATCGACTGTAGGAAGAGCGTGAAGCCCACTATCTTAGAAGAGGGAGAAGGCAGAGTCATCCTCGGAAACCCATCTCC\nCATAACCAGTGCAAGCGCAGCTCAACGGAGGGGCAGAGTAGGCAGAAACCCCAACCAAGTTGGAGATGAATACCACTATG\nGGGGGGCTACCAGTGAAGATGGCAGTAACCTAGCCCATTGGACAGAGGCAAAGATCATGTTAGACAACATACACATGCCC\nAATGGACTGGTGGCCCAGCTTTATGGACCAGAGAGGGAAAAGGCTTTTACAATGGATGGCGAATACCGTCTCAGAGGTGA\nAGAAAAGAAAAACTTCTTAGAGCTGCTTAGGACGGCTGACCTTCCGGTGTGGCTGGCCTACAAGGTGGCGTCCAATGGCA\nTTCAGTACACCGACAGGAAGTGGTGTTTTGATGGGCCGCGCACGAATGCCATACTGGAGGACAACACCGAGGTAGAGATA\nGTCACCCGGATGGGTGAGAGGAAAATCCTCAAGCCGAGATGGCTTGATGCAAGAGTTTATGCAGATCACCAAGCCCTCAA\nGTGGTTCAAAGACTTTGCAGCAGGGAAGAGATCAGCCGTTAGCTTCATAGAGGTGCTCGGTCGCATGCCTGAGCATTTCA\nTGGGAAAGACGCGGGAAGCTTTAGACACCATGTACTTGGTTGCGACGGCTGAGAAAGGTGGGAAAGCACATCGAATGGCT\nCTCGAAGAGCTGCCAGATGCACTGGAAACCATTACACTCATCGTTGCCATTACTGTGATGACAGGAGGATTCTTTCTACT\nAATGATGCAGCGAAAGGGTATAGGGAAGATGGGTCTTGGAGCTCTAGTGCTCACGCTAGCTACCTTCTTCCTGTGGGCGG\nCAGAGGTTCCTGGAACCAAAATAGCAGGGACACTGCTGATCGCCCTGCTGCTGATGGTGGTTCTCATCCCAGAACCGGAA\nAAACAGAGGTCACAGACAGATAACCAACTGGCGGTGTTTCTCATCTGTGTCTTGACCGTGGTTGGAGTGGTGGCAGCAAA\nCGAGTACGGGATGCTGGAAAAAACCAAAGCAGATCTCAAGAGCATGTTTGGCGGAAAGACGCAGGCATCAGGACTGACTG\nGATTGCCAAGCATGGCACTGGACCTGCGTCCAGCCACAGCCTGGGCACTGTATGGGGGGAGCACAGTCGTGCTAACCCCT\nCTCCTGAAGCACCTGATCACGTCGGAATACGTCACCACATCGCTAGCCTCAATTAACTCACAAGCTGGCTCATTATTTGT\nCCTGCCACGAGGCGTGCCTTTTACCGACCTAGACTTGACCGTTGGCCTCGTCTTCCTTGGCTGTTGGGGTCAAATCACTC\nTCACAACGTTTTTGACAGCCATGGTTCTGGCGACACTTCACTACGGGTACATGCTCCCTGGATGGCAAGCAGAAGCACTC\nAGGGCTGCCCAGAGAAGAACGGCGGCTGGTATAATGAAGAATGCCGTTGTTGATGGAATGGTCGCCACTGATGTGCCTGA\nACTGGAAAGGACCACTCCTCTGATGCAAAAGAAAGTCGGACAGGTGCTCCTCATAGGGGTGAGCGTGGCAGCGTTCCTCG\nTCAATCCTAATGTCACCACTGTGAGAGAAGCAGGGGTGTTGGTGACGGCGGCTACGCTCACTTTGTGGGACAATGGAGCC\nAGTGCCGTTTGGAATTCCACCACAGCCACGGGACTCTGCCATGTCATGCGAGGTAGCTACCTGGCTGGAGGCTCCATTGC\nTTGGACTCTCATCAAGAACGCTGACAAGCCCTCCTTGAAAAGGGGAAGGCCTGGGGGCAGGACGCTAGGGGAGCAGTGGA\nAGGAAAAACTAAATGCCATGAGCAGAGAAGAGTTTTTTAAATACCGGAGAGAGGCCATAATCGAGGTGGACCGCACTGAA\nGCACGCAGGGCTAGACGTGAAAATAACATAGTGGGAGGACATCCGGTTTCGCGAGGCTCAGCAAAACTCCGTTGGCTCGT\nGGAGAAAGGATTTGTCTCGCCAATAGGAAAAGTCATTGATCTAGGGTGTGGGCGTGGAGGATGGAGCTACTACGCAGCAA\nCCCTGAAGAAGGTCCAGGAAGTCAGAGGATACACGAAAGGTGGGGCGGGACATGAAGAACCGATGCTCATGCAGAGCTAC\nGGCTGGAACCTGGTCTCCCTGAAGAGTGGAGTGGACGTGTTTTACAAACCTTCAGAGCCCAGTGACACCCTGTTCTGTGA\nCATAGGGGAATCCTCCCCAAGTCCAGAAGTAGAAGAACAACGCACACTACGCGTCCTAGAGATGACATCTGACTGGTTGC\nACCGAGGACCTAGAGAGTTCTGCATAAAAGTTCTCTGCCCTTACATGCCCAAGGTTATAGAAAAAATGGAAGTTCTGCAG\nCGCCGCTTCGGAGGTGGGCTAGTGCGTCTCCCCCTGTCCCGAAACTCCAATCACGAGATGTATTGGGTTAGTGGAGCCGC\nTGGCAATGTGGTGCACGCGGTGAACATGACCAGCCAGGTACTACTGGGGCGAATGGATCGCACAGTGTGGAGAGGGCCAA\nAGTATGAGGAAGATGTCAACCTAGGGAGCGGAACAAGAGCCGTGGGAAAGGGAGAAGTCCATAGCAATCAGGAGAAAATC\nAAGAAGAGAATCCAGAAGCTTAAAGAAGAATTCGCCACAACGTGGCACAAAGACCCCGAGCATCCATACCGTACTTGGAC\nATACCACGGAAGCTATGAAGTGAAGGCTACTGGCTCAGCCAGCTCTCTCGTCAATGGAGTGGTGAAGCTCATGAGCAAAC\nCTTGGGACGCCATCGCCAACGTCACCACCATGGCCATGACTGACACCACCCCTTTTGGACAGCAAAGAGTTTTCAAGGAG\nAAAGTTGACACGAAAGCTCCTGAGCCACCAGCTGGAGCCAAGGAAGTGCTTAACGAGACCACCAACTGGCTGTGGGCCCA\nCTTGTCACGGGAAAAAAGACCCCGCTTGTGCACCAAGGAAGAATTCATAAAGAAAGTCAATAGCAACGCGGCTCTTGGAG\nCAGTGTTCGCTGAGCAGAATCAATGGAGCACAGCACGTGAGGCTGTGGATGACCCGCGGTTTTGGGAGATGGTCGATGAA\nGAGAGGGAAAACCATCTGCGAGGAGAGTGTCACACATGTATCTACAACATGATGGGAAAAAGAGAGAAGAAGCCAGGAGA\nGTTTGGAAAAGCCAAAGGAAGCAGGGCCATTTGGTTCATGTGGCTTGGAGCACGGTATCTAGAGTTTGAAGCTTTGGGGT\nTCCTGAATGAAGACCATTGGCTGAGCCGAGAGAATTCAGGAGGTGGAGTGGAAGGCTCGGGCGTCCAAAAGCTAGGATAC\nATCCTCCGTGACATAGCAGGAAAGCAAGGAGGGAAAATGTACGCTGATGATACCGCCGGGTGGGACACTAGAATTACCAG\nAACTGACTTAGAAAATGAAGCTAAGGTGCTGGAGCTCCTAGACGGTGAACACCGCATGCTCGCCCGAGCCATAATTGAAC\nTGACTTACAGGCACAAAGTGGTCAAGGTCATGAGACCTGCAGCAGAAGGAAAGACCGTGATGGACGTGATATCAAGAGAA\nGATCAAAGGGGGAGTGGACAGGTGGTCACTTATGCTCTTAACACTTTCACGAACATCGCTGTCCAGCTCGTCAGGCTGAT\nGGAGGCTGAGGGGGTCATTGGACCACAGCACTTGGAACAGCTACCCAGAAAAAACAAGATAGCTGTCAGGACCTGGCTCT\nTTGAGAATGGAGAGGAGAGAGTGACCAGGATGGCGATCAGCGGAGACGACTGTGTCGTCAAGCCGCTGGATGACAGATTC\nGCCACGGCCCTCCACTTCCTCAACGCAATGTCAAAGGTCAGAAAAGACATCCAGGAATGGAAGCCTTCGCATGGCTGGCA\nCGACTGGCAGCAAGTTCCCTTCTGCTCTAACCATTTTCAGGAGATTGTGATGAAAGATGGAAGGAGTATAGTCGTCCCGT\nGTAGAGGACAGGATGAGTTGATAGGCAGGGCTCGCATCTCCCCAGGAGCTGGATGGAATGTGAAGGACACAGCTTGCTTG\nGCCAAAGCATATGCACAGATGTGGCTACTCCTATACTTCCATCGTAGGGACTTGCGTCTCATGGCAAATGCGATTTGCTC\nAGCAGTGCCAGTGGATTGGGTGCCCACAGGCAGGACATCCTGGTCAATACACTCGAAAGGAGAGTGGATGACCACGGAAG\nACATGCTGCAGGTCTGGAACAGAGTCTGGATTGAAGAAAATGAATGGATGATGGACAAGACTCCAATTACAAGTTGGACA\nGATGTTCCGTACGTGGGAAAGCGTGAGGACATCTGGTGTGGCAGCCTTATCGGAACGCGATCCAGAGCAACCTGGGCTGA\nGAACATCTATGCGGCGATAAACCAGGTTAGAGCTGTCATTGGGAAAGAAAATTATGTTGACTACATGACTTCACTCAGGA\nGATATGAAGACGTCTTGATCCAGGAAGACAGGGTCATCTAGTGTGATTTAAGGTAGAAAAATAAACCATGTAAATAATGT\nAAATGAGAAAATGTATGCATATGGAGTCAGGCCAGCAAAAGCTGCCACCGGATACTGGGTAGACGGTGCTGCCTGCGTCT\nCAGTCCCAGGAGGACTGGGTTAACAAATCTGACAACAGAAAGTGAGAAAGCCCTCAGAACCGTCTCGGAAGTAGGTCCCT\nGCTCACTGGAAGTTGAAAGACCAACGTCAGGCCACAAATTTGTGCCACTCCGCTGGGGAGTGCGGCCTGCGCAGCCCCAG\nGAGGACTGGGTTACCAAAGCCGTTGAGGCCCCCACGGCCCAAGCCTCGTCTAGGATGCAATAGACGAGGTGTAAGGACTA\nGAGGTTAGAGGAGACCCCGTGGAAACAACAACATGCGGCCCAAGCCCCCTCGAAGCTGTAGAGGAGGTGGAAGGACTAGA\nGGTTAGAGGAGACCCCGCATTTGCATCAAACAGCATATTGACACCTGGGAATGACTGGGAGACTCTGCTTTCTAACATAA\nGCTACTAGGCACAGAGCGCCGAAGTATGTAGCTGGTGGTGAGGAAGAACACAGGATC"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Japanese encephalitis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Japanese encephalitis virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "UVE/JEV/UNK/XX/UNK",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "001v-EVA108",
+      "search:title": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK",
+      "search:description": "Japanese encephalitis virus, strain UVE/JEV/UNK/XX/UNK, complete ORF sequence",
+      "search:taxonLabel": "Japanese encephalitis virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "Unknown",
+      "search:providerName": "AMU",
+      "search:originatorName": "Oxford Institute of Virology",
+      "search:pathogenName": "Japanese encephalitis virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -132921,146 +132921,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
-      "EVORAO:refSku": "003v-EVA35",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVA35",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv1237",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-06-22T14:48:14+02:00",
-      "dcterms:title": "Live Rabies Virus, RV1237",
-      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV1237] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1999-01-11",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Serbia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR and Sanger sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "Cell culture (BHK)",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Isolate from Yugoslavia. 7 passages in BHK cells.",
-      "EVORAO:passage": "P7",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10E 4.3 TCID50",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Deer (brain)"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Area:Zrenjanin. 329/99"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "Area:Zrenjanin. 329/99",
-        "BHK-21",
-        "Deer (brain)",
-        "NON DANGEROUS GOODS",
-        "Rabies",
-        "Rabies virus",
-        "RABV",
-        "RG3",
-        "RV1237",
-        "Serbia",
-        "virus",
-        "Dry ice",
-        "Rabies lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1999-01-11",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Partial Sequence AAATTCCCTATTTACACGATACCAGACAAAATTGGTCCTTGGAGTCCGATTGACATACATCATCTCAGATGCCCAAACAA TTTGGTTGTAGAGGACGAAGGATGCACCAACCTGTCAGGGTTCTCCTACATGGAACTTAAAGTTGGATACATCTCAGCCA TAAAAGTGAACGGGTTTACTTGCACGGGCGTTGTGACAGAGGCAGAAACCTACACTAACTTTGTTGGTTATGTCACCACC ACGTTCAAAAGGAAGCATTTCCGTCCAACCCCAGATGCATGTAGAGCTGCGTACAACTGGAAGATGGCCGGTGACCCCAG ATATGAGGAGTCTCTACATAATCCGTACCCTGACTACCATTGGCTTCGAACTGTAAAAACCACCAAGGAGTCTCTCGTTA TCATATCCCCAAGTGTGGCAGATTTAGACCCATATGACAAATCTCTTCACTCGAGGGTCTTCCCTGGTGGAAAGTGCTCA GGAATAACGGTGTCTTCTACCTACTGCTCAACTAACCACGATTACACCATTTGGCTGCCCGAGAATCCGAGACTAGGGAC GTCTTGTGACATTTTTACCAATAGTAGAGGGAAGAGAGCCTCCAAAGGGAGTAAGACCTGTGGCTTTGTAGATGAGAGAG GCTTGTATAAGTCGCTAAAAGGAGCATGCAAACTCAAGTTATGTGGAGTTCTTGGACTTAGACTTATGGATGGAACATGG GTCGCGATGCAAACATCAGATGAGGCCAAATGGTGCCCTCCTGATCAGTTGGTGAATCTGCACGACTTTCGCTCGGATGA AATTGAGCACCTTGTTGTAGAGGAGCTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCACTAGAATCCATCATGACCACCA AGTCAGTGAGTTTYMGACGCCTCAGTCATTTAAGAAAGCTTGTCCCTGGGTTTGGAAAAGCATATACCATATTCAACAAG ACCTTGATGGAGGCTGATGCTCACTACAAGTCAGTCCGAACATGGAATGAGATCATCCCCTCAAAAGGGTGTTTAAGAGT TGGAGGGAGGTGTCATCCTCATGTGAACGGGGTGTTTTTCAATGGTATAATATTAGGGCCTGACGGCCATGTTCTAATCC CAGAGATGCAATCATCCCTCCTTCAGCAACATATGGAGTTGTTGGAATCCTCAGTCATTCCCCTGATGCACCCCCTGGCA GACCCGTCCGCAGTTTTCAAGGACGGTGATGAGGCTGAGGATTTTGTTGAAGTTCACCTCCCCGATGTGCACAAACAGGT CTCAGGAGTTGACCTGGGCATCCCAAACTGGGGGAAG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV1237",
-        "EVORAO:strain": "RABV",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVA35",
-      "search:title": "Live Rabies Virus, RV1237",
-      "search:description": "Rabies Virus. This Rabies virus[RABV-RV1237] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Deer (brain)",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "Serbia",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "Rabies virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA91",
@@ -133204,6 +133064,146 @@
       "search:providerName": "AMU",
       "search:originatorName": "AMU/UVE/kindly donated by Ernest A. Gould",
       "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003v-EVA35",
+      "@id": "urn:evorao:EVA:DEFRA:003v-EVA35",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv1237",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-06-22T14:48:14+02:00",
+      "dcterms:title": "Live Rabies Virus, RV1237",
+      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV1237] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1999-01-11",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Serbia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR and Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Cell culture (BHK)",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "Isolate from Yugoslavia. 7 passages in BHK cells.",
+      "EVORAO:passage": "P7",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E 4.3 TCID50",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Deer (brain)"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Area:Zrenjanin. 329/99"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "Area:Zrenjanin. 329/99",
+        "BHK-21",
+        "Deer (brain)",
+        "NON DANGEROUS GOODS",
+        "Rabies",
+        "Rabies virus",
+        "RABV",
+        "RG3",
+        "RV1237",
+        "Serbia",
+        "virus",
+        "Dry ice",
+        "Rabies lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1999-01-11",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">Partial Sequence AAATTCCCTATTTACACGATACCAGACAAAATTGGTCCTTGGAGTCCGATTGACATACATCATCTCAGATGCCCAAACAA TTTGGTTGTAGAGGACGAAGGATGCACCAACCTGTCAGGGTTCTCCTACATGGAACTTAAAGTTGGATACATCTCAGCCA TAAAAGTGAACGGGTTTACTTGCACGGGCGTTGTGACAGAGGCAGAAACCTACACTAACTTTGTTGGTTATGTCACCACC ACGTTCAAAAGGAAGCATTTCCGTCCAACCCCAGATGCATGTAGAGCTGCGTACAACTGGAAGATGGCCGGTGACCCCAG ATATGAGGAGTCTCTACATAATCCGTACCCTGACTACCATTGGCTTCGAACTGTAAAAACCACCAAGGAGTCTCTCGTTA TCATATCCCCAAGTGTGGCAGATTTAGACCCATATGACAAATCTCTTCACTCGAGGGTCTTCCCTGGTGGAAAGTGCTCA GGAATAACGGTGTCTTCTACCTACTGCTCAACTAACCACGATTACACCATTTGGCTGCCCGAGAATCCGAGACTAGGGAC GTCTTGTGACATTTTTACCAATAGTAGAGGGAAGAGAGCCTCCAAAGGGAGTAAGACCTGTGGCTTTGTAGATGAGAGAG GCTTGTATAAGTCGCTAAAAGGAGCATGCAAACTCAAGTTATGTGGAGTTCTTGGACTTAGACTTATGGATGGAACATGG GTCGCGATGCAAACATCAGATGAGGCCAAATGGTGCCCTCCTGATCAGTTGGTGAATCTGCACGACTTTCGCTCGGATGA AATTGAGCACCTTGTTGTAGAGGAGCTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCACTAGAATCCATCATGACCACCA AGTCAGTGAGTTTYMGACGCCTCAGTCATTTAAGAAAGCTTGTCCCTGGGTTTGGAAAAGCATATACCATATTCAACAAG ACCTTGATGGAGGCTGATGCTCACTACAAGTCAGTCCGAACATGGAATGAGATCATCCCCTCAAAAGGGTGTTTAAGAGT TGGAGGGAGGTGTCATCCTCATGTGAACGGGGTGTTTTTCAATGGTATAATATTAGGGCCTGACGGCCATGTTCTAATCC CAGAGATGCAATCATCCCTCCTTCAGCAACATATGGAGTTGTTGGAATCCTCAGTCATTCCCCTGATGCACCCCCTGGCA GACCCGTCCGCAGTTTTCAAGGACGGTGATGAGGCTGAGGATTTTGTTGAAGTTCACCTCCCCGATGTGCACAAACAGGT CTCAGGAGTTGACCTGGGCATCCCAAACTGGGGGAAG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabies virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabies lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV1237",
+        "EVORAO:strain": "RABV",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003v-EVA35",
+      "search:title": "Live Rabies Virus, RV1237",
+      "search:description": "Rabies Virus. This Rabies virus[RABV-RV1237] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Rabies lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Deer (brain)",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "Serbia",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Rabies virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -133510,147 +133510,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
-      "EVORAO:refSku": "003v-EVA36",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVA36",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv102",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-06-23T09:40:15+02:00",
-      "dcterms:title": "Live Rabies Virus, RV102",
-      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV102] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1988-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Morocco"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR & sanger sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "Cell culture (BHK)",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
-      "skos:note": "Isolation host from Morocco. Tissue culture supernatant orginally received. First passage on 10/4/88. 3 passages since in BHK cells.",
-      "EVORAO:passage": "P3 at APHA",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "5.7 logs/50ul",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Fox"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Ref:Renara Agadir"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "BHK-21",
-        "Category A",
-        "UN2814",
-        "Fox",
-        "Morocco",
-        "Rabies",
-        "Rabies virus",
-        "RABV",
-        "Ref:Renara Agadir",
-        "RG3",
-        "RV102",
-        "virus",
-        "Dry ice",
-        "Rabies lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1988-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Partial Sequence AAATTCCCTATTTACACGATACCAGACAAACTTGGTCCCTGGAGTCCGATTGATATACATCATCTCAGCTGCCCAAACAA TTTGGTTGTGGAGGACGAAGGATGCACCAACCTGTCAGGGTTCTCCTACATGGAACTTAAAGTTGGATACATCTCAGCCA TAAAGGTGAACGGGTTCACTTGCACAGGCGTTGTGACAGAGGCAGAAACCTACACTAACTTTGTTGGTTATGTCACCACC ACGTTCAAAAGAAAGCATTTCCGCCCAACACCAGACGCATGTAGAGCCGCGTACAACTGGAAGATGGCCGGTGATCCCAG ATATGAAGAGTCTCTACACAATCCGTACCCTGACTACCATTGGCTTCGAACTGTAAAAACCACAAAGGAGTCTCTCGTTA TCATATCCCCAAGTGTGGCAGATTTGGACCCATATGACAAATCCCTTCACTCAAGGGTCTTCCCTAGCGGAAAATGCTCA GGAATAACGGTATCTTCTACCTACTGCTCAACTAACCACGATTACACCATTTGGATGCCTGAGAATCCGAGACCAGGGAC ATCTTGTGACATTTTTACCAATAGTAGAGGAAAGAGAGCGTCCAAAGGGAGTAAGACCTGCGGCTTTGTAGATGAAAGAG GCCTGTATAAGTCTCTAAAAGGAGCATGCAAGCTCAAGTTATGTGGAGTTCTTGGACTTAGACTTATGGATGGAACATGG GTCGCTATGCAAACATCAGATGAGACCAAATGGTGTCCTCCCGATCAGTTGGTGAATCTGCACGACTTTCGCTCGGATGA AATCGAGCATCTTGTTGTAGAGGAGTTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCACTAGAGTCCATCATGACCACCA AGTCAGTGAGTTTCAGACGTCTCAGTCATTTAAGAAAACTTGTCCCTGGGTTCGGAAAAGCCTATACTATATTCAACAAG ACCTTGATGGAGGCTGATGCTCACTACAAGTCTGTCCGGACTTGGAATGAGATCATCCCCTCCAAAGGGTGTTTAAGAGT TGGAGGGAGGTGTCATCCTCATGTGAACGGGGTGTTTTTCAATGGTATAATATTAGGACCTGACGGCCATGTCTTAATCC CAGAGATGCAATCATCCCTCCTTCAGCAACATATGGAATTATTGGAATCCTCAGTTATTCCCCTGATGCACCCCCTTGCA GACCCGTCCACAGTTTTCAAGGACGGTGACGAGGCTGAGGATTTTGTAGAAGTTCACCTTCCCGATGTGCACAAGCAGGT CTCAGGGGTTGACCTGGGTCTCCCGAACTGGGGGAAG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV102",
-        "EVORAO:strain": "RABV",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVA36",
-      "search:title": "Live Rabies Virus, RV102",
-      "search:description": "Rabies Virus. This Rabies virus[RABV-RV102] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Fox",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "Morocco",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "Rabies virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
       "EVORAO:refSku": "001v-EVA100",
@@ -133796,6 +133655,147 @@
       "search:providerName": "AMU",
       "search:originatorName": "UTMB collection",
       "search:pathogenName": "Cell fusing agent virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003v-EVA36",
+      "@id": "urn:evorao:EVA:DEFRA:003v-EVA36",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv102",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-06-23T09:40:15+02:00",
+      "dcterms:title": "Live Rabies Virus, RV102",
+      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV102] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1988-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Morocco"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR & sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Cell culture (BHK)",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "skos:note": "Isolation host from Morocco. Tissue culture supernatant orginally received. First passage on 10/4/88. 3 passages since in BHK cells.",
+      "EVORAO:passage": "P3 at APHA",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "5.7 logs/50ul",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Fox"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Ref:Renara Agadir"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "BHK-21",
+        "Category A",
+        "UN2814",
+        "Fox",
+        "Morocco",
+        "Rabies",
+        "Rabies virus",
+        "RABV",
+        "Ref:Renara Agadir",
+        "RG3",
+        "RV102",
+        "virus",
+        "Dry ice",
+        "Rabies lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1988-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">Partial Sequence AAATTCCCTATTTACACGATACCAGACAAACTTGGTCCCTGGAGTCCGATTGATATACATCATCTCAGCTGCCCAAACAA TTTGGTTGTGGAGGACGAAGGATGCACCAACCTGTCAGGGTTCTCCTACATGGAACTTAAAGTTGGATACATCTCAGCCA TAAAGGTGAACGGGTTCACTTGCACAGGCGTTGTGACAGAGGCAGAAACCTACACTAACTTTGTTGGTTATGTCACCACC ACGTTCAAAAGAAAGCATTTCCGCCCAACACCAGACGCATGTAGAGCCGCGTACAACTGGAAGATGGCCGGTGATCCCAG ATATGAAGAGTCTCTACACAATCCGTACCCTGACTACCATTGGCTTCGAACTGTAAAAACCACAAAGGAGTCTCTCGTTA TCATATCCCCAAGTGTGGCAGATTTGGACCCATATGACAAATCCCTTCACTCAAGGGTCTTCCCTAGCGGAAAATGCTCA GGAATAACGGTATCTTCTACCTACTGCTCAACTAACCACGATTACACCATTTGGATGCCTGAGAATCCGAGACCAGGGAC ATCTTGTGACATTTTTACCAATAGTAGAGGAAAGAGAGCGTCCAAAGGGAGTAAGACCTGCGGCTTTGTAGATGAAAGAG GCCTGTATAAGTCTCTAAAAGGAGCATGCAAGCTCAAGTTATGTGGAGTTCTTGGACTTAGACTTATGGATGGAACATGG GTCGCTATGCAAACATCAGATGAGACCAAATGGTGTCCTCCCGATCAGTTGGTGAATCTGCACGACTTTCGCTCGGATGA AATCGAGCATCTTGTTGTAGAGGAGTTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCACTAGAGTCCATCATGACCACCA AGTCAGTGAGTTTCAGACGTCTCAGTCATTTAAGAAAACTTGTCCCTGGGTTCGGAAAAGCCTATACTATATTCAACAAG ACCTTGATGGAGGCTGATGCTCACTACAAGTCTGTCCGGACTTGGAATGAGATCATCCCCTCCAAAGGGTGTTTAAGAGT TGGAGGGAGGTGTCATCCTCATGTGAACGGGGTGTTTTTCAATGGTATAATATTAGGACCTGACGGCCATGTCTTAATCC CAGAGATGCAATCATCCCTCCTTCAGCAACATATGGAATTATTGGAATCCTCAGTTATTCCCCTGATGCACCCCCTTGCA GACCCGTCCACAGTTTTCAAGGACGGTGACGAGGCTGAGGATTTTGTAGAAGTTCACCTTCCCGATGTGCACAAGCAGGT CTCAGGGGTTGACCTGGGTCTCCCGAACTGGGGGAAG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabies virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabies lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV102",
+        "EVORAO:strain": "RABV",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003v-EVA36",
+      "search:title": "Live Rabies Virus, RV102",
+      "search:description": "Rabies Virus. This Rabies virus[RABV-RV102] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Rabies lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Fox",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "Morocco",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Rabies virus"
     }
   ]
 }
