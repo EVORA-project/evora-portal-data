@@ -184,22 +184,94 @@ jobs:
               --header "Authorization: Bearer $EU_BEARER" \
               --form "file=@$FILE"
           fi
+      - name: Generate EU dataset wrapper
+        run: |
+          set -e
+      
+          FILE_ID="${{ secrets.EU_FILE_ID }}"
+          TODAY=$(date -u +"%Y-%m-%d")
+      
+          cat > eu_dataset_wrapper.jsonld <<EOF
+          {
+          "@context": {
+            "dcat": "http://www.w3.org/ns/dcat#",
+            "dcterms": "http://purl.org/dc/terms/",
+            "foaf": "http://xmlns.com/foaf/0.1/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+          },
+          "@graph": [
+            {
+              "@id": "https://portal.evora-project.eu/dataset/evora-portal",
+              "@type": "dcat:Dataset",
+              "dcterms:title": "EVORA Portal Catalogue",
+              "dcterms:description": "Semantically harmonised catalogue of viral materials, derived products, services and related entities aggregated from EVA, ERINHA and FAIRsharing and transformed into EVORAO entities (https://w3id.org/evorao). A unified view of resources in virology to support pandemic preparedness and response.",
+              "dcat:keyword": [
+                { "@value": "virology", "@language": "en" },
+                { "@value": "virus", "@language": "en" },
+                { "@value": "viral materials", "@language": "en" },
+                { "@value": "detection kit", "@language": "en" },
+                { "@value": "service in virology", "@language": "en" },
+                { "@value": "viral protein", "@language": "en" },
+                { "@value": "viral nucleic acid", "@language": "en" },
+                { "@value": "pandemic preparedness", "@language": "en" },
+                { "@value": "outbreak", "@language": "en" },
+                { "@value": "research infrastructures", "@language": "en" },
+                { "@value": "European Virus Archive", "@language": "en" },
+                { "@value": "EVA", "@language": "en" },
+                { "@value": "Europea Research Infrastructure on Highly Pathogenic Agents", "@language": "en" },
+                { "@value": "ERINHA", "@language": "en" },
+                { "@value": "European life-sciences infrastructure for biological information", "@language": "en" },
+                { "@value": "ELIXIR", "@language": "en" }
+              ],
+              "dcterms:issued": {
+                "@value": "2026-01-30",
+                "@type": "xsd:date"
+              },
+              "dcterms:modified": {
+                "@value": "$TODAY",
+                "@type": "xsd:date"
+              },
+              "dcterms:publisher": {
+                "@type": "foaf:Organization",
+                "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+              },
+              "dcterms:license": {
+                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "dcat:landingPage": {
+                "@id": "https://portal.evora-project.eu"
+              },
+              "dcat:distribution": {
+                "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
+              }
+            },
+            {
+              "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID",
+              "@type": "dcat:Distribution",
+              "dcterms:title": "EVORA Portal full JSON-LD export",
+              "dcat:downloadURL": {
+                "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
+              },
+              "dcat:mediaType": "application/ld+json"
+            }
+          ]
+          }
+          EOF
 
       - name: Publish dataset to EU catalogue
         run: |
           set -e
           CATALOG="${{ secrets.EU_ID }}"
           DATASET_ID="evora-portal-dataset"
-          FILE_ID="${{ secrets.EU_FILE_ID }}"
-          
-          echo "Publishing dataset in EU catalogue..."
-          
-          curl --location --request PUT \
+      
+          echo "Publishing wrapper dataset..."
+      
+          curl --fail --location --request PUT \
             "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/origin?originalId=$DATASET_ID" \
             --header "Content-Type: application/ld+json" \
             --header "Authorization: Bearer $EU_BEARER" \
-            --data-binary @data/portal/evora_portal_all.jsonld
-
+            --data-binary @eu_dataset_wrapper.jsonld
+   
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
         run: |
