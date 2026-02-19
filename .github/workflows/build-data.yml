@@ -184,6 +184,7 @@ jobs:
               --header "Authorization: Bearer $EU_BEARER" \
               --form "file=@$FILE"
           fi
+          
       - name: Generate EU dataset wrapper
         run: |
           set -e
@@ -218,10 +219,15 @@ jobs:
                 { "@value": "research infrastructures", "@language": "en" },
                 { "@value": "European Virus Archive", "@language": "en" },
                 { "@value": "EVA", "@language": "en" },
-                { "@value": "Europea Research Infrastructure on Highly Pathogenic Agents", "@language": "en" },
+                { "@value": "European Research Infrastructure on Highly Pathogenic Agents", "@language": "en" },
                 { "@value": "ERINHA", "@language": "en" },
                 { "@value": "European life-sciences infrastructure for biological information", "@language": "en" },
                 { "@value": "ELIXIR", "@language": "en" }
+              ],
+              "dcat:theme": [
+                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/33885" },
+                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/3838" },
+                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/34060" }
               ],
               "dcterms:issued": {
                 "@value": "2026-01-30",
@@ -249,10 +255,21 @@ jobs:
               "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID",
               "@type": "dcat:Distribution",
               "dcterms:title": "EVORA Portal full JSON-LD export",
+              "dcterms:license": {
+                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
               "dcat:downloadURL": {
                 "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
               },
-              "dcat:mediaType": "application/ld+json"
+              "dcat:accessURL": {
+                "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
+              },
+              "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+              },
+              "dcterms:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+              }
             }
           ]
           }
