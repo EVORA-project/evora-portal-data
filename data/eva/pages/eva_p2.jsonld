@@ -22,6 +22,151 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-05061",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05061",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/plum-pox-virus-ppv-isolate-dsmz-pv-0001",
+      "dcterms:issued": "2023-05-26T15:20:50+02:00",
+      "dcterms:modified": "2023-05-26T15:20:50+02:00",
+      "dcterms:title": "Plum pox virus (PPV) isolate DSMZ PV-0001",
+      "dcterms:description": "Infectious Plum pox virus (PPV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 180,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1987-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.J. Van Oosten"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MT613316",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "unknown"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "H.J. Van Oosten",
+        "Mechanical inoculation",
+        "MT613316",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Plum pox virus",
+        "RG1",
+        "Unknown",
+        "unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1987-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MT613316"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Plum pox virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Plum pox virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "PPV-NAT",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05061",
+      "search:title": "Plum pox virus (PPV) isolate DSMZ PV-0001",
+      "search:description": "Infectious Plum pox virus (PPV) isolate",
+      "search:taxonLabel": "Plum pox virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "unknown",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Unknown",
+      "search:accessionNumber": "MT613316",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.J. Van Oosten",
+      "search:pathogenName": "Plum pox virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-05060",
       "@id": "urn:evorao:EVA:DSMZ:027V-05060",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tobacco-rattle-virus-trv-isolate-dsmz-pv-0354",
@@ -138993,109 +139138,6 @@
       "search:sku": "022A-03897",
       "search:title": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV), clone Hy P10-a1-10-c19",
       "search:description": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV) murine monoclonal antibody, clone Hy P10-a1-10-c19 (CCLV-RIE 1168)",
-      "search:taxonLabel": "Betaarterivirus suid 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine reproductive and respiratory syndrome virus 1"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "022A-03896",
-      "@id": "urn:evorao:EVA:FLI:022A-03896",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-gp-5-porcine-reproductive-and-respiratory-syndrome-virus-prrsv-strain-0",
-      "dcterms:issued": "2020-02-18T16:20:08+01:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
-      "dcterms:description": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA, Neutralisation",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reacts with PRRSV isolate \"I10\" solely (after adaption to Marc-145 cells I10 did not show reactivity anymore)!",
-      "EVORAO:antibodyCharacterizationObservation": "IgG2a",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c mouse",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "10227120",
-        "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10 murine monoclonal antibody",
-        "clone Hy P10-a46-15 (CCLV-RIE 1175)",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Porcine reproductive and respiratory syndrome virus 1",
-        "Betaarterivirus suid 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine reproductive and respiratory syndrome virus 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Betaarterivirus suid 1"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "022A-03896",
-      "search:title": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
-      "search:description": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
       "search:taxonLabel": "Betaarterivirus suid 1",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "No RG",

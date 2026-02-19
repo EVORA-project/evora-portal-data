@@ -22,6 +22,109 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "022A-03896",
+      "@id": "urn:evorao:EVA:FLI:022A-03896",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-gp-5-porcine-reproductive-and-respiratory-syndrome-virus-prrsv-strain-0",
+      "dcterms:issued": "2020-02-18T16:20:08+01:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
+      "dcterms:description": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
+      "EVORAO:unitDefinition": "1 ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA, Neutralisation",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reacts with PRRSV isolate \"I10\" solely (after adaption to Marc-145 cells I10 did not show reactivity anymore)!",
+      "EVORAO:antibodyCharacterizationObservation": "IgG2a",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c mouse",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "10227120",
+        "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10 murine monoclonal antibody",
+        "clone Hy P10-a46-15 (CCLV-RIE 1175)",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Porcine reproductive and respiratory syndrome virus 1",
+        "Betaarterivirus suid 1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Porcine reproductive and respiratory syndrome virus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Betaarterivirus suid 1"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "022A-03896",
+      "search:title": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
+      "search:description": "anti-GP 5 of Porcine reproductive and respiratory syndrome virus (PRRSV) strain I10, Hy P10-b38-c16 (CCLV-RIE 1089)",
+      "search:taxonLabel": "Betaarterivirus suid 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Porcine reproductive and respiratory syndrome virus 1"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "022A-03895",
       "@id": "urn:evorao:EVA:FLI:022A-03895",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-gp-5-porcine-reproductive-and-respiratory-syndrome-virus-prrsv-strain-i10",
@@ -140954,127 +141057,6 @@
       "search:sku": "100N-02044",
       "search:title": "Expression plasmid of ZIKV NS5 MTase (2)",
       "search:description": "Expression plasmid for the production of the Nterminal - Domain of ZIKV NS5 (methyltransferase domain, amino acids 4-278). Synthetic gene optimized for E. coli. Coding sequence fused at its 5' with a 6His tag coding sequence",
-      "search:taxonLabel": "Zika virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "AMU_b",
-      "search:accessionNumber": "AHZ13508.1",
-      "search:providerName": "AMU_b",
-      "search:pathogenName": "Zika virus"
-    },
-    {
-      "@type": "EVORAO:Protein",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU_b"
-      },
-      "EVORAO:refSku": "100P-02043",
-      "@id": "urn:evorao:EVA:AMU_b:100P-02043",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/protein/zikv-ns5-methyltransferase-2",
-      "dcterms:issued": "2016-11-30T14:58:52+01:00",
-      "dcterms:modified": "2020-11-27T17:53:58+01:00",
-      "dcterms:title": "ZIKV NS5 methyltransferase (2)",
-      "dcterms:description": "Pure recombinant protein for enzymatic assays. MTase domain (amino acid 4 - 278 of NS5, fused to a N-terminal 6-His tag )",
-      "EVORAO:unitDefinition": "2-5mg",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "protein"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 800,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin"
-      },
-      "EVORAO:domain": "Single domain",
-      "EVORAO:expressedAs": "Soluble",
-      "EVORAO:expressionSystem": "E. coli",
-      "EVORAO:functionalCharacterization": "Functionally characterized",
-      "EVORAO:functionalAndTechnicalDescription": "active as 2&#039;O and N7 MTase",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Protein2.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:proteinPurification": ">95%",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:tagSequence": "His Nterm",
-      "EVORAO:tagStatusOfTheSolubilizedProtein": "Uncleaved Tag",
-      "EVORAO:typeOfFunctionalCharacterization": "Enzymatic",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU_b"
-      },
-      "EVORAO:accessionNumber": "AHZ13508.1",
-      "dcat:keyword": [
-        "Protein",
-        "AMU_b",
-        "Antigen",
-        "Derived product",
-        "His Nterm",
-        "AHZ13508.1",
-        "capping",
-        "Human virus",
-        "methyltransferase",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Non structural protein 5",
-        "Zika virus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "protein",
-      "search:additionalCategory": [
-        "antigen",
-        "derived product"
-      ],
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "AHZ13508.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "French Polynesia",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "100P-02043",
-      "search:title": "ZIKV NS5 methyltransferase (2)",
-      "search:description": "Pure recombinant protein for enzymatic assays. MTase domain (amino acid 4 - 278 of NS5, fused to a N-terminal 6-His tag )",
       "search:taxonLabel": "Zika virus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "No RG",
