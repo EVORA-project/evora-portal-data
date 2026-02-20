@@ -289,7 +289,7 @@ jobs:
               },
               "dcat:byteSize": {
                 "@value": $SIZE,
-                "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal"
               },
               "dcterms:modified": {
                 "@value": "$TODAY",
