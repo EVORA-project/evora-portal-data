@@ -236,7 +236,7 @@ jobs:
                 { "@id": "http://publications.europa.eu/resource/authority/continent/OCEANIA" },
                 { "@id": "http://publications.europa.eu/resource/authority/continent/AFRICA" },
                 { "@id": "http://publications.europa.eu/resource/authority/continent/ASIA" },
-                { "@id": "http://publications.europa.eu/resource/authority/continent/AMERICA" },
+                { "@id": "http://publications.europa.eu/resource/authority/continent/AMERICA" }
               ],
               "dcterms:language": {
                 "@id": "http://publications.europa.eu/resource/authority/language/ENG"
