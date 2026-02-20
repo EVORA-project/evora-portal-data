@@ -22,6 +22,112 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "022A-03897",
+      "@id": "urn:evorao:EVA:FLI:022A-03897",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-n-porcine-reproductive-and-respiratory-syndrome-virus-prrsv-clone-hy-p10",
+      "dcterms:issued": "2020-02-18T16:24:19+01:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV), clone Hy P10-a1-10-c19",
+      "dcterms:description": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV) murine monoclonal antibody, clone Hy P10-a1-10-c19 (CCLV-RIE 1168)",
+      "EVORAO:unitDefinition": "1 ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with multiple Isolates of PRRSV, not reactive with several PRRSV isolates from US (e.g. US 18)",
+      "EVORAO:antibodyCharacterizationObservation": "IgG1",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c mouse",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "10227120",
+        "anti-N",
+        "CCLV-RIE 1168",
+        "clone Hy P10-a1-10-c19",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Porcine reproductive and respiratory syndrome virus",
+        "Porcine reproductive and respiratory syndrome virus 1",
+        "PRRSV",
+        "Betaarterivirus suid 1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Porcine reproductive and respiratory syndrome virus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Betaarterivirus suid 1"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "022A-03897",
+      "search:title": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV), clone Hy P10-a1-10-c19",
+      "search:description": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV) murine monoclonal antibody, clone Hy P10-a1-10-c19 (CCLV-RIE 1168)",
+      "search:taxonLabel": "Betaarterivirus suid 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Porcine reproductive and respiratory syndrome virus 1"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "022A-03896",
       "@id": "urn:evorao:EVA:FLI:022A-03896",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-gp-5-porcine-reproductive-and-respiratory-syndrome-virus-prrsv-strain-0",
@@ -140928,142 +141034,6 @@
       "search:accessionNumber": "KP144332",
       "search:providerName": "DEFRA",
       "search:pathogenName": "Spanish goat encephalitis virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU_b"
-      },
-      "EVORAO:refSku": "100N-02044",
-      "@id": "urn:evorao:EVA:AMU_b:100N-02044",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/expression-plasmid-zikv-ns5-mtase-2",
-      "dcterms:issued": "2016-11-30T15:09:30+01:00",
-      "dcterms:modified": "2020-11-27T17:56:23+01:00",
-      "dcterms:title": "Expression plasmid of ZIKV NS5 MTase (2)",
-      "dcterms:description": "Expression plasmid for the production of the Nterminal - Domain of ZIKV NS5 (methyltransferase domain, amino acids 4-278). Synthetic gene optimized for E. coli. Coding sequence fused at its 5' with a 6His tag coding sequence",
-      "EVORAO:unitDefinition": "aliquot of DNA preparation (>1µg)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "expression plasmid"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 250,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin"
-      },
-      "EVORAO:canBeUsedToProduceGmo": true,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pQE30"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "Ampicillin"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "AHZ13508.1"
-        }
-      },
-      "EVORAO:regionEncompassedInThisProduct": "Coding sequence for the methyltransferase domain (amino acid 4 to 278 of NS5)",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "His Nterm",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU_b"
-      },
-      "EVORAO:descriptionOfModificationsMadeFromTheReferenceSequences": "Synthetic gene optimized for E. coli",
-      "EVORAO:accessionNumber": "AHZ13508.1",
-      "dcat:keyword": [
-        "AMU_b",
-        "Expression plasmid",
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "Derived product",
-        "His Nterm",
-        "Room Temperature",
-        "AHZ13508.1",
-        "Ampicillin",
-        "capping",
-        "Human virus",
-        "methyltransferase",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Non structural protein 5",
-        "pQE30",
-        "Zika virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "expression plasmid",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "French Polynesia",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "100N-02044",
-      "search:title": "Expression plasmid of ZIKV NS5 MTase (2)",
-      "search:description": "Expression plasmid for the production of the Nterminal - Domain of ZIKV NS5 (methyltransferase domain, amino acids 4-278). Synthetic gene optimized for E. coli. Coding sequence fused at its 5' with a 6His tag coding sequence",
-      "search:taxonLabel": "Zika virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "AMU_b",
-      "search:accessionNumber": "AHZ13508.1",
-      "search:providerName": "AMU_b",
-      "search:pathogenName": "Zika virus"
     }
   ]
 }

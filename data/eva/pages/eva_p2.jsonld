@@ -22,6 +22,151 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-05062",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05062",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-x-pvx-isolate-dsmz-pv-0014",
+      "dcterms:issued": "2023-05-26T15:22:54+02:00",
+      "dcterms:modified": "2023-05-26T15:22:54+02:00",
+      "dcterms:title": "Potato virus X (PVX) isolate DSMZ PV-0014",
+      "dcterms:description": "Infectious Potato virus X (PVX) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 180,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1987-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "O. Bode"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana tabacum"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MT374179",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Germany",
+        "Mechanical inoculation",
+        "MT374179",
+        "Nicotiana tabacum",
+        "NON DANGEROUS GOODS",
+        "O. Bode",
+        "Plant virus",
+        "Potato virus X",
+        "RG1",
+        "Solanum tuberosum"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1987-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MT374179"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus X"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus X"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "PPV-Alism",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05062",
+      "search:title": "Potato virus X (PVX) isolate DSMZ PV-0014",
+      "search:description": "Infectious Potato virus X (PVX) isolate",
+      "search:taxonLabel": "Potato virus X",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MT374179",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "O. Bode",
+      "search:pathogenName": "Potato virus X"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-05061",
       "@id": "urn:evorao:EVA:DSMZ:027V-05061",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/plum-pox-virus-ppv-isolate-dsmz-pv-0001",
@@ -139032,112 +139177,6 @@
       "search:sku": "022A-03898",
       "search:title": "anti-GP 3 of Porcine reproductive and respiratory syndrome virus (PRRSV), clone Hy P10-c40-c1 (CCLV-RIE 1167)",
       "search:description": "anti-GP 3 of Porcine reproductive and respiratory syndrome virus (PRRSV) murine monoclonal antibody, clone Hy P10-c40-c1 (CCLV-RIE 1167)",
-      "search:taxonLabel": "Betaarterivirus suid 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine reproductive and respiratory syndrome virus 1"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "022A-03897",
-      "@id": "urn:evorao:EVA:FLI:022A-03897",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-n-porcine-reproductive-and-respiratory-syndrome-virus-prrsv-clone-hy-p10",
-      "dcterms:issued": "2020-02-18T16:24:19+01:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV), clone Hy P10-a1-10-c19",
-      "dcterms:description": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV) murine monoclonal antibody, clone Hy P10-a1-10-c19 (CCLV-RIE 1168)",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with multiple Isolates of PRRSV, not reactive with several PRRSV isolates from US (e.g. US 18)",
-      "EVORAO:antibodyCharacterizationObservation": "IgG1",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c mouse",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "10227120",
-        "anti-N",
-        "CCLV-RIE 1168",
-        "clone Hy P10-a1-10-c19",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Porcine reproductive and respiratory syndrome virus",
-        "Porcine reproductive and respiratory syndrome virus 1",
-        "PRRSV",
-        "Betaarterivirus suid 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine reproductive and respiratory syndrome virus 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Betaarterivirus suid 1"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "022A-03897",
-      "search:title": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV), clone Hy P10-a1-10-c19",
-      "search:description": "anti-N of Porcine reproductive and respiratory syndrome virus (PRRSV) murine monoclonal antibody, clone Hy P10-a1-10-c19 (CCLV-RIE 1168)",
       "search:taxonLabel": "Betaarterivirus suid 1",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "No RG",
