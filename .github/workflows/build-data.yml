@@ -243,7 +243,10 @@ jobs:
                 "@id": "http://publications.europa.eu/resource/authority/language/ENG"
               },
               "dcterms:accessRights": {
-                "@id": "https://publications.europa.eu/resource/authority/access-right/PUBLIC"
+                "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+              },
+              "dcterms:rights": {
+                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
               },
               "dcterms:issued": {
                 "@value": "2026-01-30",
@@ -252,6 +255,17 @@ jobs:
               "dcterms:modified": {
                 "@value": "$TODAY",
                 "@type": "xsd:date"
+              },
+              "dcterms:temporal": {
+                "@type": "dcterms:PeriodOfTime",
+                "dcat:startDate": {
+                  "@value": "1882-01-01",
+                  "@type": "xsd:date"
+                },
+                "dcat:endDate": {
+                  "@value": "$TODAY",
+                  "@type": "xsd:date"
+                }
               },
               "dcterms:publisher": {
                 "@type": "foaf:Organization",
@@ -298,8 +312,11 @@ jobs:
               "dcterms:license": {
                 "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
               },
+              "dcterms:rights": {
+                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
               "dcterms:accessRights": {
-                "@id": "https://publications.europa.eu/resource/authority/access-right/PUBLIC"
+                "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
               },
               "dcat:downloadURL": {
                 "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
