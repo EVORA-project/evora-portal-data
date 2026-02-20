@@ -231,9 +231,13 @@ jobs:
                 { "@id": "https://publications.europa.eu/resource/authority/eurovoc/838" },
                 { "@id": "https://publications.europa.eu/resource/authority/eurovoc/4060" }
               ],
-              "dcterms:spatial": {
-                "@id": "https://publications.europa.eu/resource/authority/country/EUR"
-              },
+              "dcterms:spatial": [
+                { "@id": "http://publications.europa.eu/resource/authority/continent/EUROPE" },
+                { "@id": "http://publications.europa.eu/resource/authority/continent/OCEANIA" },
+                { "@id": "http://publications.europa.eu/resource/authority/continent/AFRICA" },
+                { "@id": "http://publications.europa.eu/resource/authority/continent/ASIA" },
+                { "@id": "http://publications.europa.eu/resource/authority/continent/AMERICA" },
+              ],
               "dcterms:language": {
                 "@id": "http://publications.europa.eu/resource/authority/language/ENG"
               },
@@ -296,7 +300,7 @@ jobs:
                 "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
               },
               "dcat:accessURL": {
-                "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
+                "@id": "https://portal.evora-project.eu"
               },
               "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
