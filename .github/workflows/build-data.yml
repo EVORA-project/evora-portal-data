@@ -273,9 +273,6 @@ jobs:
               "dcat:landingPage": {
                 "@id": "https://portal.evora-project.eu"
               },
-              "dcat:service": {
-                "@id": "https://portal-api.evora-europe.eu/service"
-              },
               "dcat:distribution": {
                 "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
               }
