@@ -191,6 +191,7 @@ jobs:
       
           FILE_ID="${{ secrets.EU_FILE_ID }}"
           TODAY=$(date -u +"%Y-%m-%d")
+          SIZE=$(stat -c%s data/portal/evora_portal_all.jsonld)
       
           cat > eu_dataset_wrapper.jsonld <<EOF
           {
@@ -198,6 +199,7 @@ jobs:
             "dcat": "http://www.w3.org/ns/dcat#",
             "dcterms": "http://purl.org/dc/terms/",
             "foaf": "http://xmlns.com/foaf/0.1/",
+            "vcard": "http://www.w3.org/2006/vcard/ns#",
             "xsd": "http://www.w3.org/2001/XMLSchema#"
           },
           "@graph": [
@@ -225,10 +227,19 @@ jobs:
                 { "@value": "ELIXIR", "@language": "en" }
               ],
               "dcat:theme": [
-                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/33885" },
-                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/3838" },
-                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/34060" }
+                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/3885" },
+                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/838" },
+                { "@id": "https://publications.europa.eu/resource/authority/eurovoc/4060" }
               ],
+              "dcterms:spatial": {
+                "@id": "https://publications.europa.eu/resource/authority/country/EUR"
+              },
+              "dcterms:language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+              },
+              "dcterms:accessRights": {
+                "@id": "https://publications.europa.eu/resource/authority/access-right/PUBLIC"
+              },
               "dcterms:issued": {
                 "@value": "2026-01-30",
                 "@type": "xsd:date"
@@ -241,11 +252,25 @@ jobs:
                 "@type": "foaf:Organization",
                 "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
               },
+              
+              "dcat:contactPoint": {
+                "@type": "vcard:Kind",
+                "vcard:fn": "EVORA FAIR dataset Helpdesk",
+                "vcard:hasEmail": {
+                  "@id": "mailto:data-europa-helpdesk@evora-project.eu"
+                },
+                "vcard:hasURL": {
+                  "@id": "https://evora-project.eu"
+                }
+              },
               "dcterms:license": {
                 "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
               },
               "dcat:landingPage": {
                 "@id": "https://portal.evora-project.eu"
+              },
+              "dcat:service": {
+                "@id": "https://portal-api.evora-europe.eu/service"
               },
               "dcat:distribution": {
                 "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
@@ -255,6 +280,15 @@ jobs:
               "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID",
               "@type": "dcat:Distribution",
               "dcterms:title": "EVORA Portal full JSON-LD export",
+              "dcterms:issued": {
+                "@value": "2026-01-30",
+                "@type": "xsd:date"
+              },
+              "dcat:byteSize": $SIZE,
+              "dcterms:modified": {
+                "@value": "$TODAY",
+                "@type": "xsd:date"
+              },
               "dcterms:license": {
                 "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
               },
@@ -269,6 +303,27 @@ jobs:
               },
               "dcterms:format": {
                 "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+              },
+              "dcat:accessService": {
+                "@id": "https://portal-api.evora-europe.eu/service"
+              }
+            },
+            {
+              "@id": "https://portal-api.evora-europe.eu/service",
+              "@type": "dcat:DataService",
+              "dcterms:title": "EVORA Portal API",
+              "dcterms:description": "REST API providing programmatic access to EVORA catalogue entities including viral materials, products and services.",
+              "dcat:endpointURL": {
+                "@id": "https://portal-api.evora-europe.eu"
+              },
+              "dcat:endpointDescription": {
+                "@id": "https://portal-api.evora-europe.eu/docs"
+              },
+              "dcterms:license": {
+                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "dcterms:accessRights": {
+                "@id": "https://publications.europa.eu/resource/authority/access-right/PUBLIC"
               }
             }
           ]
