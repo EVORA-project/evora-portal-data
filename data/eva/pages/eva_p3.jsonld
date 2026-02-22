@@ -22,6 +22,1880 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-04590",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04590",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/shallot-virus-x-shvx-isolate-dsmz-pv-0622",
+      "dcterms:issued": "2022-02-23T18:32:28+01:00",
+      "dcterms:modified": "2022-02-23T18:32:28+01:00",
+      "dcterms:title": "Shallot virus X (ShVX) isolate DSMZ PV-0622",
+      "dcterms:description": "Infectious Shallot virus X (ShVX) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2001-02-28",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "E. Barg"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chenopodium murale"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW854280",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Allium ascalonicum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Allium ascalonicum",
+        "Chenopodium murale",
+        "E. Barg",
+        "Mechanical inoculation",
+        "MW854280",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Shallot virus X",
+        "Slovenia"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2001-02-28",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW854280"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Shallot virus X"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Shallot virus X"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "5E8",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04590",
+      "search:title": "Shallot virus X (ShVX) isolate DSMZ PV-0622",
+      "search:description": "Infectious Shallot virus X (ShVX) isolate",
+      "search:taxonLabel": "Shallot virus X",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Allium ascalonicum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Slovenia",
+      "search:accessionNumber": "MW854280",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "E. Barg",
+      "search:pathogenName": "Shallot virus X"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04589",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04589",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/shallot-latent-virus-slv-isolate-dsmz-pv-0425",
+      "dcterms:issued": "2022-02-23T18:29:39+01:00",
+      "dcterms:modified": "2022-02-23T18:29:39+01:00",
+      "dcterms:title": "Shallot latent virus (SLV) isolate DSMZ PV-0425",
+      "dcterms:description": "Infectious Shallot latent virus (SLV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1996-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Korea (the Republic of)"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "E. Barg"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chenopodium quinoa"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW854274",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Allium sativum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Allium sativum",
+        "Chenopodium quinoa",
+        "E. Barg",
+        "Korea (the Republic of)",
+        "Mechanical inoculation",
+        "MW854274",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Shallot latent virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1996-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW854274"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Shallot latent virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Shallot latent virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04589",
+      "search:title": "Shallot latent virus (SLV) isolate DSMZ PV-0425",
+      "search:description": "Infectious Shallot latent virus (SLV) isolate",
+      "search:taxonLabel": "Shallot latent virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Allium sativum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Korea (the Republic of)",
+      "search:accessionNumber": "MW854274",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "E. Barg",
+      "search:pathogenName": "Shallot latent virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04588",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04588",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/ryegrass-mosaic-virus-rgmv-isolate-dsmz-pv-1167",
+      "dcterms:issued": "2022-02-23T18:26:48+01:00",
+      "dcterms:modified": "2022-02-23T18:26:48+01:00",
+      "dcterms:title": "Ryegrass mosaic virus (RGMV) isolate DSMZ PV-1167",
+      "dcterms:description": "Infectious Ryegrass mosaic virus (RGMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2015-04-30",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Bulgaria"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "F. Rabenstein"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Lolium multiflorum"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OL311699, OL311700",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Lolium sp."
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Bulgaria",
+        "F. Rabenstein",
+        "Lolium multiflorum",
+        "Lolium sp.",
+        "Mechanical inoculation",
+        "NON DANGEROUS GOODS",
+        "OL311699",
+        "OL311700",
+        "Plant virus",
+        "RG1",
+        "Ryegrass mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2015-04-30",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OL311699, OL311700"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Ryegrass mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Ryegrass mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04588",
+      "search:title": "Ryegrass mosaic virus (RGMV) isolate DSMZ PV-1167",
+      "search:description": "Infectious Ryegrass mosaic virus (RGMV) isolate",
+      "search:taxonLabel": "Ryegrass mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Lolium sp.",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Bulgaria",
+      "search:accessionNumber": "OL311699, OL311700",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "F. Rabenstein",
+      "search:pathogenName": "Ryegrass mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04587",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04587",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rice-yellow-mottle-virus-rymv-isolate-dsmz-pv-0732",
+      "dcterms:issued": "2022-02-23T18:21:55+01:00",
+      "dcterms:modified": "2022-02-23T18:21:55+01:00",
+      "dcterms:title": "Rice yellow mottle virus (RYMV) isolate DSMZ PV-0732",
+      "dcterms:description": "Infectious Rice yellow mottle virus (RYMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2001-11-30",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Tanzania, United Republic of"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "O.O. Banwo"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Oryza sativa"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MT701719",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Oryza sativa"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Mechanical inoculation",
+        "MT701719",
+        "NON DANGEROUS GOODS",
+        "O.O. Banwo",
+        "Oryza sativa",
+        "Plant virus",
+        "RG1",
+        "Rice yellow mottle virus",
+        "Tanzania",
+        "United Republic of"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2001-11-30",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MT701719"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rice yellow mottle virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rice yellow mottle virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Mangula 2",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04587",
+      "search:title": "Rice yellow mottle virus (RYMV) isolate DSMZ PV-0732",
+      "search:description": "Infectious Rice yellow mottle virus (RYMV) isolate",
+      "search:taxonLabel": "Rice yellow mottle virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Oryza sativa",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Tanzania, United Republic of",
+      "search:accessionNumber": "MT701719",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "O.O. Banwo",
+      "search:pathogenName": "Rice yellow mottle virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04586",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04586",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/raspberry-ringspot-virus-rprsv-isolate-dsmz-pv-0429",
+      "dcterms:issued": "2022-02-23T18:19:57+01:00",
+      "dcterms:modified": "2022-02-23T18:19:57+01:00",
+      "dcterms:title": "Raspberry ringspot virus (RpRSV) isolate DSMZ PV-0429",
+      "dcterms:description": "Infectious Raspberry ringspot virus (RpRSV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1996-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "D.-E. Lesemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chenopodium quinoa"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW057710, MW057711",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Vitis vinifera"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Chenopodium quinoa",
+        "D.-E. Lesemann",
+        "Germany",
+        "Mechanical inoculation",
+        "MW057710",
+        "MW057711",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Raspberry ringspot virus",
+        "RG1",
+        "Vitis vinifera"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1996-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW057710, MW057711"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Raspberry ringspot virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Raspberry ringspot virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04586",
+      "search:title": "Raspberry ringspot virus (RpRSV) isolate DSMZ PV-0429",
+      "search:description": "Infectious Raspberry ringspot virus (RpRSV) isolate",
+      "search:taxonLabel": "Raspberry ringspot virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Vitis vinifera",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MW057710, MW057711",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "D.-E. Lesemann",
+      "search:pathogenName": "Raspberry ringspot virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001V-02343",
+      "@id": "urn:evorao:EVA:AMU:001V-02343",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/dengue-2-strain-uvedenv-22016th8309",
+      "dcterms:issued": "2017-06-30T15:28:10+02:00",
+      "dcterms:modified": "2022-02-23T16:07:21+01:00",
+      "dcterms:title": "Dengue 2, strain UVE/DENV-2/2016/TH/8309",
+      "dcterms:description": "Freeze dried, Dengue 2, strain UVE/DENV-2/2016/TH/8309, France 2016, complete genome sequence",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 700,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2016-08-27",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "France"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P4",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10E4.22 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human serum"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "France"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "Category A",
+        "UN2814",
+        "Dengue virus",
+        "Dengue virus 2",
+        "DENV-2",
+        "Flavivirus",
+        "France",
+        "Human serum",
+        "Human virus",
+        "RG3",
+        "V.1.2.4.I3.UK.11.34",
+        "Vero E6"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2016-08-27",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "> 001V-02343 | Complete genome sequence available upon request, produced in house in NGS\nAAAGACAGATTCTTTGAGGGAGCTAAGCTTAACGTAGTTCTAACAGTTTTTTAATTAGAGAGCAGATCTCTGATGAATAA\nCCAACGTAAAAAGGCGAGAAATACGCCTTTCAATATGCTGAAACGCGAGAGAAACCGCGTGTCAACTGTGCAACAGCTGA\nCGAAGAGATTCTCACTTGGAATGCTGCAGGGACGAGGACCGTTGAAACTGTTCATGGCCTTGGTGGCATTCCTTCGTTTC\nCTAACAATCCCACCAACAGCAGGGATACTTAAAAGATGGGGAACGATCAAAAAGTCAAAAGCCATCAATGTCTTGAGAGG\nGTTCAGGAAAGAGATTGGAAGGATGTTGAACATCTTGAATAGGAGACGCAGAACTGCAGGCGTGATCATCATGCTAATTC\nCAACAGCGATGGCGTTCCATTTAACCACACGCAACGGAGAACCACACATGATTGTCAGCAGACAAGAGAAAGGGAAAAGT\nCTCTTGTTCAAAACAGAGGATGGTGTGAACATGTGTACCCTCATGGCCATGGACCTTGGTGAACTATGTGAAGACACAAT\nCACTTATAACTGTCCTCTTCTCAGGCAGAATGAACCAGAAGACATAGATTGTTGGTGTAACTCCACGTCCACATGGGTGA\nCTTATGGGACATGCACTGCCACAGGAGAACACAGAAGGGAAAAAAGATCAGTGGCACTCGTCCCACATGTGGGAATGGGA\nTTGGAAACACGAACTGAAACATGGATGTCATCAGAAGGGGCCTGGAAACACGCCCAGAGAATTGAAACCTGGATCTTGAG\nACATCCAGGTTTTACCATAATGGCAGCAATCTTGGCATACACCATAGGAACGACATACTTCCAAAGAGTCCTGATCTTCA\nTCTTACTGACAGCTGTCGCCCCTTCAATGACAATGCGTTGTATTGGAATATCAAATAGAGACTTTGTGGAAGGGGTTTCA\nGGAGGAAGCTGGGTTGACATAGTCTTAGAACATGGAAGCTGCGTGACAACGATGGCAAAAAACAAACCAACATTGGACTT\nTGAACTAATAAAAACAGAAGCCAAGCAACCTGCCACTCTAAGGAAGTACTGTATAGAAGCAAAGCTGACCAACACAACAA\nCAGCATCCCGATGCCCAACACAAGGAGAACCCAGCCTAAATGAAGAACAGGACAAAAGGTTTGTCTGCAAACATTCCATG\nGTAGACAGAGGATGGGGAAATGGATGTGGATTATTTGGAAAGGGAGGCATCGTGACCTGTGCTATGTTCACATGCAAAAA\nAAATATGGAAGGAAAAATTGTGCAACCAGAAAACCTGGAATACACCATTGTGGTAACACCTCATTCAGGGGAAGAGAATG\nCAGTTGGAAATGACACAGGAAAACATGGCAAGGAAATCAAAGTAACACCACAGAGTTCCATTACAGAAGCAGAACTGACA\nGGCTACGGCACTGTCGCCATGGAGTGCTCTCCAAGAACGGGCCTCGACTTCAATGAAATGGTGTTGCTGCAAATGGAAAA\nTAAGGCTTGGCTGGTGCACAGGCAATGGTTCTTAGACCTGCCGTTACCATGGTTGCCCGGAGCGGACACACAAGGATCAA\nATTGGATACAGAAGGAGACGTTGGTCACCTTCAAAAATCCCCATGCGAAGAAACAGGATGTTGTTGTTTTGGGATCCCAA\nGAAGGGGCTATGCATACAGCACTTACAGGGGCCACGGAAATCCAGATGTCATCAGGAAACCTACTGTTCACAGGACATCT\nCAAGTGCAGGCTGAGAATGGATAAATTACAGCTCAAAGGAATGTCATACTCTATGTGTACAGGAAAGTTTAAAGTTGTAA\nAGGAAATAGCAGAGACACAACATGGAACAATAGTTGTCAGAGTACAATATGAAGGGGATGGCTCTCCATGTAAAATCCCT\nTTTGAGATAATGGATTTGGAAAAAAGACATGTCTTAGGTCGCCTGATTACAGTCAACCCAATCGTAACAGAAAAAGACAG\nTCCAGTCAACATAGAAGCAGAACCTCCATTTGGAGACAGCTACATCATTATAGGAGTAGAACCGGGACAACTGAAGCTCA\nGCTGGTTTAAGAAAGGAAGCTCAATCGGCCAAATGTTCGAGACAACAATGAGAGGAGCGAAGAGAATGGCCATTTTAGGT\nGACACAGCCTGGGATTTTGGATCCCTGGGAGGAGTGTTCACATCTATAGGAAAGGCCCTCCACCAAGTTTTTGGAGCAAT\nCTATGGGGCTGCCTTCAGTGGGGTCTCATGGACTATGAAAATCCTCATAGGAGTTGTCATCACATGGATAGGAATGAATT\nCACGTAGCACCTCACTGTCTGTGTCACTAGTATTGGTGGGGGTCGTGACATTGTATTTGGGAGTTATGGTGCAGGCTGAT\nAGTGGTTGTGTTGTGAGTTGGAAAAACAAAGAATTGAAATGTGGCAGTGGGATTTTTATCACAGACAATGTACACACATG\nGACAGAACAATACAAATTCCAACCAGAATCCCCCTCAAAGCTAGCTTCAGCTATCCAGAAAGCTCATGAAGAGGGCATTT\nGTGGAATCCGTTCAGTAACAAGACTAGAGAATCTAATGTGGAAACAAATAACACCCGAACTGAATCACATTCTATCAGAA\nAATGAGATAAAGTTGACCATCATGACAGGAGACATCAAAGGTATCATGCAGGCAGGAAAACGATCCCTGCGGCCTCAGCC\nCACTGAGCTGAAGTATTCATGGAAAACGTGGGGCAAAGCGAAAATGCTCTCCACAGAGCCTTATAACCAAACCTTTCTCA\nTTGATGGCCCCGAAACAGCAGAATGCCCCAACACAAACAGAGCTTGGAACTCACTAGAAGTTGAAGACTATGGCTTTGGG\nGTATTCACCACCAACATATGGCTGAAATTGAAAGAAAGGCAGGATGTGTTTTGTGACTCAAAACTCATGTCAGCGGCCAT\nAAAAGACAACAGAGCCGTCCATGCCGATATGGGTTATTGGATAGAAAGCGCACTTAATGACACATGGAAGATAGAAAAAG\nCTTCTTTTATTGAAGTTAAAAGTTGCCACTGGCCAAAATCACACACTCTCTGGAGCAATGGAGTGCTAGAAAGTGAGATG\nATAATTCCAAAGAATTTTGCTGGACCAGTATCACAACATAATTACAGACCAGGCTATCACACACAAACAGCAGGACCCTG\nGCATCTAGGCAAGCTTGAGATGGACTTTGATTTTTGCGAAGGAACCACAGTGGTGGTGACTGAAGACTGTGGAAATAGAG\nGACCCTCTCTAAGAACAACTACCGCCTCTGGAAAACTCATAACAGAATGGTGCTGCCGATCCTGCACATTACCACCACTA\nAGATACAAAGGTGAGGATGGATGCTGGTACGGAATGGAAATCAGACCACTGAAAGAGAAAGAAGAGAACTTGGTCAACTC\nCTTGGTCACAGCCGGACATGGACAGATTGACAACTTCTCACTAGGGGTCTTGGGAATGGCACTGTTCCTGGAAGAAATGC\nTCAGGACCCGAGTAGGAACAAAGCATGCAGCATTACTAGTTGCGGTTTCTTTCATGACATTGATCACAGGGAACATGTCT\nTTCCGAGACCTGGGGAGGGTGATGGTCATGGTGGGGGCTGCCATGACGGATGACATAGGTATGGGCGTGACTTATCTTGC\nCTTACTAGCAGCCTTCAAAGTTAGACCAACTTTTGCAGCTGGACTGCTTTTGAGAAAGCTGACCTCCAAGGAATTGATGA\nTGACCACCATAGGAATTGTACTCCTCTCCCAGAGCACCATACCAGAGACCATACTTGAGCTGACTGACGCGTTGGCCTTG\nGGCATGATGATTCTCAAGATAGTGAGGAATATGGAAAAGTATCAATTAGCAGTGACTATCATGGCTATCTTATGTGTTCC\nAAATGCAGTGATATTACAAAATGCATGGAAAGTGAGCTGCACAATACTGGCAGTGGTGTCCGTATCCCCACTGCTCTTAA\nCATCTTCACAGCAGAAAGCGGATTGGATACCATTGGCATTGACGATCAAAGGTCTCAATCCAACAGCCATTTTCCTAACA\nACCCTTTCAAGAACTAATAAGAAAAGGAGTTGGCCACTAAATGAGGCTATCATGGCAGTAGGGATGGTGAGCATTTTAGC\nCAGTTCTCTCTTGAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTTCTCACTGTGTGTTACGTGCTCA\nCTGGAAGATCGGCCGACTTGGAACTGGAGAGAGCCGCCGACGTAAGATGGGAAGATCAGGCAGAGATATCAGGAAGCAGT\nCCAATTCTGTCAATAACAATATCGGAAGATGGCAGCATGTCGATAAAAAATGAAGAGGAAGAACAAACACTGACCATACT\nCATTAGAACAGGATTGCTGGTGATATCAGGACTTTTTCCCGTGTCAATACCAATTACGGCAGCAGCATGGTACCTGTGGG\nAAGTGAAGAAACAACGAGCTGGAGTGTTGTGGGATGTTCCTTCACCCCCACCTGTGGGAAAGGCCGAACTGGAAGATGGA\nGCTTATAGAATCAAGCAGAAAGGGATTCTTGGATACTCCCAGATCGGAGCTGGAGTTTACAAAGAAGGAACATTCCACAC\nAATGTGGCACGTCACACGTGGTGCTGTTCTAATGCATAAAGGGAAGAGGATTGAACCATCATGGGCGGATGTCAGGAAAG\nATCTAATATCGTACGGAGGAGGCTGGAAGCTAGAAGGAGAATGGAAGGAAGGAGAAGAAGTCCAGGTCTTGGCATTAGAG\nCCTGGAAAGAATCCAAGAGCCGTCCAAACGAAACCCGGTCTTTTCAAAACTAACACCGGAACCATAGGTGCTGTGTCTCT\nAGACTTTTCTCCTGGAACGTCAGGATCCCCAATTGTCGACAAAAAAGGAAAGGTCGTGGGTCTCTATGGCAATGGTGTCG\nTCACAAGGAGTGGAACATATGTGAGTGCCATAGCCCAGACTGAAAAAAGCATTGAAGACAATCCAGAGATTGAAGATGAT\nATCTTTCGGAAAAAAAGATTAACCATCATGGACCTCCACCCAGGAGCGGGAAAGACGAAAAGATACCTTCCAGCAATAGT\nCAGAGAGGCCATAAAACGAGGCTTAAGAACGTTAATCCTGGCCCCCACCAGAGTCGTGGCAGCCGAAATGGAAGAAGCTC\nTTAGAGGACTTCCAATAAGATACCAAACCCCAGCCATTAGAGCTGAGCACACTGGGCGAGAAATCGTGGATTTAATGTGT\nCACGCCACATTTACCATGAGGCTGTTATCACCAGTTAGAGTGCCAAATTACAACTTGATCATTATGGATGAAGCCCATTT\nCACAGACCCAGCAAGCATAGCAGCCAGAGGATACATTTCAACTCGAGTGGAGATGGGTGAAGCAGCTGGGATTTTCATGA\nCGGCCACTCCTCCGGGAAGCAGAGACCCATTTCCTCAAAGCAATGCACCAATCATGGATGAAGAAAGGGAAATCCCTGAA\nCGTTCGTGGAACTCTGGACATGAGTGGGTTACAGATTTTAAAGGGAAGACTGTTTGGTTTGTTCCGAGTATAAAAGCAGG\nAAATGATATAGCAGCCTGCCTGAGAAAAAACGGAAAGAAAGTGATACAACTCAGTAGGAAGACCTTTGATTCTGAATACA\nTCAAGACCAGGACCAATGATTGGGATTTTGTGGTCACGACTGACATTTCAGAAATGGGTGCTAACTTCAAGGCTGAAAGG\nGTTATAGACCCCAGGCGCTGCATGAAGCCAGTCATATTGACAGACGGTGAAGAGCGGGTGATTCTGGCAGGACCCATGCC\nAGTGACTCACTCTAGTGCAGCACAAAGAAGAGGGAGAATAGGAAGAAATCCAAAAAATGAAAATGACCAGTACATATACA\nTGGGGGAACCTCTGGAAAATGATGAAGACTGCGCACACTGGAAAGAAGCCAAGATGCTTTTAGACAACATCAACACGCCT\nGAAGGAATCATTCCCAGCATGTTCGAACCAGAGCGTGAAAAAGTGGATGCCATTGATGGTGAATACCGCTTAAGAGGAGA\nAGCGAGGAAAACCTTTGTGGAGCTAATGAGAAGAGGAGACCTACCAGTCTGGCTGGCCTACAGAGTGGCAGCCGAAGGCA\nTTAACTATGCAGACAGAAGGTGGTGTTTTGATGGAATCAAGAACAACCAAATCTTGGAAGAAAATGTGGAAGTGGAAATC\nTGGACAAAAGAAGGAGAAAAGAAGAAACTGAAACCCAGATGGTTGGATGCTAGGATCTACTCCGACCCACTGGCACTCAA\nAGAATTTAAAGAGTTTGCAGCTGGAAGAAAATCCCTGACCATGAATTTAATCACAGAAATGGGTAGGCTCCCAACTTTTA\nTGACTCAGAAAGCAAGGAACGCACTGGACAACTTAGCGGTCCTGCATACAGCTGAAGCAGGCGGAAGGGCGTACAACCAT\nGCTCTCAGTGAACTGCCAGAGACCCTGGAGACATTGCTTTTGCTGACACTCTTGGCCACAGTCACGGGCGGAATTTTTTT\nATTCTTGATGAGTGGAAAAGGCATAGGGAAAATGACCTTGGGAATGTGTTGCATAATTACGGCCAGCATTCTCCTATGGT\nACGCACAAATACAGCCACACTGGATAGCAGCTTCAATAATACTGGAGTTTTTTCTCATAGTCTTGCTCATTCCAGAGCCA\nGAAAAGCAAAGAACACCCCAAGACAACCAATTGACTTACGTCGTCATAGCCATCCTCACAGTGGTGGCCGCAACCATGGC\nAAACGAGATGGGGTTCCTGGAAAAAACGAAGAAAGATTTCGGATTGGGAAGCATTGTAACCCAGCAACCCGAGAGCAACA\nTTCTGGACATAGATCTACGTCCTGCATCAGCATGGACCCTGTATGCAGTGGCCACAACATTTATCACACCAATGTTGAGA\nCATAGCATTGAAAATTCTTCAGTGAATGTGTCTCTAACAGCCATTGCCAATCAAGCCACAGTGCTAATGGGTCTTGGGAA\nGGGATGGCCATTGTCAAAAATGGACATTGGAGTTCCCCTTCTTGCCATCGGGTGCTATTCACAAGTCAACCCCATAACCC\nTTACAGCAGCCCTCCTCTTATTGGTAGCACACTATGCTATCATAGGGCCAGGACTCCAAGCAAAAGCAACCAGAGAAGCG\nCAGAAAAGAGCAGCAGCAGGCATCATGAAAAACCCAACTGTGGATGGAATAACAGTGATTGACCTAGATCCAATACCCTA\nTGATCCAAAATTTGAGAAGCAGCTGGGACAAGTAATGCTCCTAGTCCTCTGCGTGACTCAAGTACTGATGATGAGGACTA\nCATGGGCTTTGTGTGAGGCTCTAACCTTAGCGACCGGGCCCATCTCCACATTGTGGGAAGGAAATCCAGGGAGATTTTGG\nAACACAACCATTGCAGTGTCAATGGCTAACATTTTTAGAGGAAGTTACCTAGCTGGAGCCGGACTTCTCTTTTCCATCAT\nGAAGAACACAACCAACACAAGAAGGGGAACTGGCAACACAGGAGAGACGCTTGGGGAAAAATGGAAAAACCGATTGAATT\nCATTGGGGAAGAGTGAATTCCAGATTTACAAGAGAAGCGGAATCCAGGAAGTGGATAGAACCTTGGCAAAAGAAGGCATT\nAAAAGAGGAGAAACGGACCATCACGCTGTGTCGCGAGGTTCAGCAAAGCTGAGATGGTTCGTCGAGAGAAACCTGGTCAC\nACCAGAGGGGAAAGTAATGGACCT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Dengue virus 2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Dengue virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:genotype": "cosmopolitan",
+        "EVORAO:strain": "UVE/DENV-2/2016/TH/8309",
+        "EVORAO:serotype": 2,
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "001V-02343",
+      "search:title": "Dengue 2, strain UVE/DENV-2/2016/TH/8309",
+      "search:description": "Freeze dried, Dengue 2, strain UVE/DENV-2/2016/TH/8309, France 2016, complete genome sequence",
+      "search:taxonLabel": "Dengue virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Human serum",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "France",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Dengue virus 2"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IP"
+      },
+      "EVORAO:refSku": "014V-03620",
+      "@id": "urn:evorao:EVA:IP:014V-03620",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/coxsackievirus-a24-guf-2017-b0519079",
+      "dcterms:issued": "2019-06-05T16:33:38+02:00",
+      "dcterms:modified": "2022-02-22T14:23:24+01:00",
+      "dcterms:title": "Coxsackievirus A24 GUF-2017-B0519079",
+      "dcterms:description": "Clinical isolate from a case of acute hemorrhagic conjunctivitis, French Guiana, 2017",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2017-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "French Guiana"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "Institut Pasteur de la Guyane"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10^7.3 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IP"
+      },
+      "EVORAO:accessionNumber": "MG557561",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "IP",
+        "29898445",
+        "acute hemorrhagic conjunctivitis",
+        "Category B",
+        "UN3373",
+        "coxsackievirus A24",
+        "CV-A24v",
+        "enterovirus",
+        "French Guiana",
+        "Human virus",
+        "Institut Pasteur de la Guyane",
+        "MG557561",
+        "RD",
+        "RG2",
+        "- 20°C",
+        "Enterovirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2017-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MG557561"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "coxsackievirus A24"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "014V-03620",
+      "search:title": "Coxsackievirus A24 GUF-2017-B0519079",
+      "search:description": "Clinical isolate from a case of acute hemorrhagic conjunctivitis, French Guiana, 2017",
+      "search:taxonLabel": "Enterovirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "IP",
+      "search:countryOfCollection": "French Guiana",
+      "search:accessionNumber": "MG557561",
+      "search:providerName": "IP",
+      "search:originatorName": "Institut Pasteur de la Guyane",
+      "search:pathogenName": "coxsackievirus A24"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04585",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04585",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-x-pvx-isolate-dsmz-pv-0017",
+      "dcterms:issued": "2022-02-21T17:41:12+01:00",
+      "dcterms:modified": "2022-02-21T17:41:12+01:00",
+      "dcterms:title": "Potato virus X (PVX) isolate DSMZ PV-0017",
+      "dcterms:description": "Infectious Potato virus X (PVX) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1987-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "Required for customers in the EU",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "O. Bode"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana tabacum cv. Samsun nn"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MT613318",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Germany",
+        "Mechanical inoculation",
+        "MT613318",
+        "Nicotiana tabacum cv. Samsun nn",
+        "NON DANGEROUS GOODS",
+        "O. Bode",
+        "Plant virus",
+        "Potato virus X",
+        "RG1",
+        "Solanum tuberosum"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1987-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MT613318"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus X"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus X"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "PVX-Cs/78",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04585",
+      "search:title": "Potato virus X (PVX) isolate DSMZ PV-0017",
+      "search:description": "Infectious Potato virus X (PVX) isolate",
+      "search:taxonLabel": "Potato virus X",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MT613318",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "O. Bode",
+      "search:pathogenName": "Potato virus X"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04584",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04584",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-v-pvv-isolate-dsmz-pv-0319",
+      "dcterms:issued": "2022-02-21T17:38:23+01:00",
+      "dcterms:modified": "2022-02-21T17:38:23+01:00",
+      "dcterms:title": "Potato virus V (PVV) isolate DSMZ PV-0319",
+      "dcterms:description": "Infectious Potato virus V (PVV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1990-09-10",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "Required for customers in the EU",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "C.E. Fribourg"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OK181762",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "South America"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "C.E. Fribourg",
+        "Mechanical inoculation",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "OK181762",
+        "Plant virus",
+        "Potato virus V",
+        "RG1",
+        "Solanum tuberosum",
+        "South America",
+        "Unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1990-09-10",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OK181762"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus V"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus V"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04584",
+      "search:title": "Potato virus V (PVV) isolate DSMZ PV-0319",
+      "search:description": "Infectious Potato virus V (PVV) isolate",
+      "search:taxonLabel": "Potato virus V",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Unknown",
+      "search:accessionNumber": "OK181762",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "C.E. Fribourg",
+      "search:pathogenName": "Potato virus V"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04583",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04583",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-m-pvm-isolate-dsmz-pv-0273",
+      "dcterms:issued": "2022-02-21T17:35:25+01:00",
+      "dcterms:modified": "2022-02-21T17:35:25+01:00",
+      "dcterms:title": "Potato virus M (PVM) isolate DSMZ PV-0273",
+      "dcterms:description": "Infectious Potato virus M (PVM) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1990-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.-L. Weidemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana occidentalis"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW582794",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Germany",
+        "H.-L. Weidemann",
+        "Mechanical inoculation",
+        "MW582794",
+        "Nicotiana occidentalis",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Potato virus M",
+        "RG1",
+        "Solanum tuberosum"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1990-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW582794"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus M"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus M"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04583",
+      "search:title": "Potato virus M (PVM) isolate DSMZ PV-0273",
+      "search:description": "Infectious Potato virus M (PVM) isolate",
+      "search:taxonLabel": "Potato virus M",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MW582794",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.-L. Weidemann",
+      "search:pathogenName": "Potato virus M"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04582",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04582",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-pva-isolate-dsmz-pv-0535",
+      "dcterms:issued": "2022-02-21T17:33:10+01:00",
+      "dcterms:modified": "2022-02-21T17:33:10+01:00",
+      "dcterms:title": "Potato virus A (PVA) isolate DSMZ PV-0535",
+      "dcterms:description": "Infectious Potato virus A (PVA) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1999-01-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.-L. Weidemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana occidentalis"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW197135",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Germany",
+        "H.-L. Weidemann",
+        "Mechanical inoculation",
+        "MW197135",
+        "Nicotiana occidentalis",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Potato virus A",
+        "RG1",
+        "Solanum tuberosum"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1999-01-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW197135"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus A"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "ALI",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04582",
+      "search:title": "Potato virus A (PVA) isolate DSMZ PV-0535",
+      "search:description": "Infectious Potato virus A (PVA) isolate",
+      "search:taxonLabel": "Potato virus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MW197135",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.-L. Weidemann",
+      "search:pathogenName": "Potato virus A"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04581",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04581",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-aucuba-mosaic-virus-pamv-isolate-dsmz-pv-0007",
+      "dcterms:issued": "2022-02-21T17:30:24+01:00",
+      "dcterms:modified": "2022-02-21T17:30:24+01:00",
+      "dcterms:title": "Potato aucuba mosaic virus (PAMV) isolate DSMZ PV-0007",
+      "dcterms:description": "Infectious Potato aucuba mosaic virus (PAMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1987-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "O. Bode"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana hesperis"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW080945",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Mechanical inoculation",
+        "MW080945",
+        "Nicotiana hesperis",
+        "NON DANGEROUS GOODS",
+        "O. Bode",
+        "Plant virus",
+        "Potato aucuba mosaic virus",
+        "RG1",
+        "Solanum tuberosum",
+        "Unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1987-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW080945"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato aucuba mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato aucuba mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04581",
+      "search:title": "Potato aucuba mosaic virus (PAMV) isolate DSMZ PV-0007",
+      "search:description": "Infectious Potato aucuba mosaic virus (PAMV) isolate",
+      "search:taxonLabel": "Potato aucuba mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Unknown",
+      "search:accessionNumber": "MW080945",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "O. Bode",
+      "search:pathogenName": "Potato aucuba mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04580",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04580",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/poinsettia-mosaic-virus-pnmv-isolate-dsmz-pv-0340",
+      "dcterms:issued": "2022-02-21T17:27:33+01:00",
+      "dcterms:modified": "2022-02-21T17:27:33+01:00",
+      "dcterms:title": "Poinsettia mosaic virus (PnMV) isolate DSMZ PV-0340",
+      "dcterms:description": "Infectious Poinsettia mosaic virus (PnMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1992-10-19",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "D.-E. Lesemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OK181764",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Euphorbia pulcherrima"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "D.-E. Lesemann",
+        "Euphorbia pulcherrima",
+        "Germany",
+        "Mechanical inoculation",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "OK181764",
+        "Plant virus",
+        "Poinsettia mosaic virus",
+        "RG1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1992-10-19",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OK181764"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Poinsettia mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Poinsettia mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04580",
+      "search:title": "Poinsettia mosaic virus (PnMV) isolate DSMZ PV-0340",
+      "search:description": "Infectious Poinsettia mosaic virus (PnMV) isolate",
+      "search:taxonLabel": "Poinsettia mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Euphorbia pulcherrima",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "OK181764",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "D.-E. Lesemann",
+      "search:pathogenName": "Poinsettia mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-04579",
       "@id": "urn:evorao:EVA:DSMZ:027V-04579",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pepper-yellow-mosaic-virus-pepymv-isolate-dsmz-pv-0026",
@@ -144726,1864 +146600,6 @@
       "search:countryOfCollection": "Germany",
       "search:providerName": "FLI",
       "search:pathogenName": "Macaca mulatta polyomavirus 1"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03882",
-      "@id": "urn:evorao:EVA:FLI:015V-03882",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pestivirus-h-atypically-pestivirus-hobi-pestivirus-bovine-viral-diarrhea-virus-3-strain-hobi",
-      "dcterms:issued": "2020-01-30T09:16:55+01:00",
-      "dcterms:modified": "2021-05-28T07:56:48+02:00",
-      "dcterms:title": "Pestivirus H (atypically pestivirus, HoBi-like pestivirus, Bovine viral diarrhea virus 3), strain &quot;HoBi&quot;",
-      "dcterms:description": "Pestivirus H (atypically pestivirus, HoBi-like pestivirus, Bovine viral diarrhea virus 3), strain \"HoBi\" (2000)",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2000-12-05",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Public Health RG 1; Animal Health RG 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 5,
-      "EVORAO:previouslyKnownAs": "HoBi-like pestivirus, Bovine viral diarrhea virus 3",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "bovine esophagus cells (KOP-R)"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "4.68x10^7",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "AB871953.1",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "lamb"
-      },
-      "EVORAO:doi": "10.1099/vir.0.80238-0",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Gemany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "10.1099/vir.0.80238-0",
-        "AB871953.1",
-        "Animal virus",
-        "atypically pestivirus",
-        "bovine esophagus cells (KOP-R)",
-        "Bovine viral diarrhea virus 3",
-        "BVDV 3",
-        "Category B",
-        "UN3373",
-        "Gemany",
-        "Germany",
-        "HoBi",
-        "HoBi-like pestivirus",
-        "lamb",
-        "Pestivirus H",
-        "RG2",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2000-12-05",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "AB871953.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Pestivirus H"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pestivirus H"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "HoBi",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "015V-03882",
-      "search:title": "Pestivirus H (atypically pestivirus, HoBi-like pestivirus, Bovine viral diarrhea virus 3), strain &quot;HoBi&quot;",
-      "search:description": "Pestivirus H (atypically pestivirus, HoBi-like pestivirus, Bovine viral diarrhea virus 3), strain \"HoBi\" (2000)",
-      "search:taxonLabel": "Pestivirus H",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "lamb",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "AB871953.1",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Pestivirus H"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03639",
-      "@id": "urn:evorao:EVA:FLI:015V-03639",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rabies-virus-dog-ethiopia-1992-7715",
-      "dcterms:issued": "2019-06-13T10:00:32+02:00",
-      "dcterms:modified": "2021-05-28T07:53:15+02:00",
-      "dcterms:title": "Rabies virus, dog, Ethiopia, 1992, 7715",
-      "dcterms:description": "Rabies virus, dog, Ethiopia, 1992, 7715",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1992-06-03",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Ethiopia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:passage": 13,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Dog"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Ethiopia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42))",
-        "1992",
-        "7715",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "Dog",
-        "Ethiopia",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Rabies lyssavirus",
-        "Rabies virus",
-        "RG3",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1992-06-03",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-03639",
-      "search:title": "Rabies virus, dog, Ethiopia, 1992, 7715",
-      "search:description": "Rabies virus, dog, Ethiopia, 1992, 7715",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Dog",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Ethiopia",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabies lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03438",
-      "@id": "urn:evorao:EVA:FLI:015V-03438",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/mokola-lyssavirus-12858",
-      "dcterms:issued": "2019-02-19T16:25:15+01:00",
-      "dcterms:modified": "2021-05-28T07:51:22+02:00",
-      "dcterms:title": "Mokola lyssavirus (12858)",
-      "dcterms:description": "Mokola Virus, Ethiopia, isolated from a dog",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1992-02-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Ethiopia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR/Sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "titration",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:passage": "3rd",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42/13))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "~ 10^5 (TCID50/mL)",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Dog"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Ethiopia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42/13))",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "Dog",
-        "Ethiopia",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Mokola Lyssavirus",
-        "Mokola lyssavirus",
-        "Mokola virus",
-        "RG3",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1992-02-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Mokola lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Mokola lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-03438",
-      "search:title": "Mokola lyssavirus (12858)",
-      "search:description": "Mokola Virus, Ethiopia, isolated from a dog",
-      "search:taxonLabel": "Mokola lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Dog",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Ethiopia",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Mokola lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03645",
-      "@id": "urn:evorao:EVA:FLI:015V-03645",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rabies-virus-dog-estonia-1996",
-      "dcterms:issued": "2019-06-13T10:15:42+02:00",
-      "dcterms:modified": "2021-05-28T07:49:31+02:00",
-      "dcterms:title": "Rabies virus, dog, Estonia, 1996",
-      "dcterms:description": "Rabies virus, dog, Estonia, 1996",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1996-06-07",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Estonia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:passage": 13,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Dog"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Estonia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42))",
-        "1996",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "Dog",
-        "Estonia",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Rabies lyssavirus",
-        "Rabies virus",
-        "RG3",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1996-06-07",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-03645",
-      "search:title": "Rabies virus, dog, Estonia, 1996",
-      "search:description": "Rabies virus, dog, Estonia, 1996",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Dog",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Estonia",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabies lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03643",
-      "@id": "urn:evorao:EVA:FLI:015V-03643",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rabies-virus-fox-estonia-1991-12970",
-      "dcterms:issued": "2019-06-13T10:10:40+02:00",
-      "dcterms:modified": "2021-05-28T07:47:15+02:00",
-      "dcterms:title": "Rabies virus, fox, Estonia, 1991, 12970",
-      "dcterms:description": "Rabies virus, fox, Estonia, 1991, 12970",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1991-06-05",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Estonia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:passage": 13,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Dog"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Estonia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42))",
-        "12970",
-        "1991",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "Dog",
-        "Estonia",
-        "Fox",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Rabies lyssavirus",
-        "Rabies virus",
-        "RG3",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1991-06-05",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-03643",
-      "search:title": "Rabies virus, fox, Estonia, 1991, 12970",
-      "search:description": "Rabies virus, fox, Estonia, 1991, 12970",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Dog",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Estonia",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabies lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03634",
-      "@id": "urn:evorao:EVA:FLI:015V-03634",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rabies-virus-fox-czech-republic-1999-4125",
-      "dcterms:issued": "2019-06-13T09:47:47+02:00",
-      "dcterms:modified": "2021-05-28T07:45:45+02:00",
-      "dcterms:title": "Rabies virus, fox, Czech Republic, 1999, 4125",
-      "dcterms:description": "Rabies virus, fox, Czech Republic, 1999, 4125",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1999-06-02",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Czech Republic (the)"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:passage": 13,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Red Fox"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Czech Republic"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42))",
-        "1999",
-        "4125",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "Czech Republic",
-        "Czech Republic (the)",
-        "Fox",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Rabies lyssavirus",
-        "Rabies virus",
-        "Red Fox",
-        "RG3",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1999-06-02",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-03634",
-      "search:title": "Rabies virus, fox, Czech Republic, 1999, 4125",
-      "search:description": "Rabies virus, fox, Czech Republic, 1999, 4125",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Red Fox",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Czech Republic (the)",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabies lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "022V-03923",
-      "@id": "urn:evorao:EVA:FLI:022V-03923",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/porcine-epidemic-diarrhea-virus-pedv-strain-cv777-rvb-1298-belgium-1978",
-      "dcterms:issued": "2020-03-24T14:47:07+01:00",
-      "dcterms:modified": "2021-05-28T07:44:05+02:00",
-      "dcterms:title": "Porcine epidemic diarrhea Virus (PEDV), strain &quot;CV777&quot; (RVB-1298), Belgium 1978",
-      "dcterms:description": "Porcine epidemic diarrhea Virus (PEDV), strain \"CV777\", Belgium 1978",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1978-06-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Belgium"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "Sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 4,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero 76"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "3.16x10^3",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Domestic Pig"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Belgium"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "Animal virus",
-        "Belgium",
-        "Category B",
-        "UN3373",
-        "CV777",
-        "Domestic Pig",
-        "PEDV",
-        "Porcine epidemic diarrhea virus",
-        "RG2",
-        "Vero 76",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1978-06-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "TCTATCTACGGATAGTTAGTTCTTTTTCTAGACCTTGTCTACTCAATTCAACTAAACGAAATTTTGTCCTTCCGGCCGCATGTTCATGCTGCTGGAAGCTGGCGTGGAATTTCATTAGGTTTGCTTAAGTAGCCATCGCAAGTGCTGTGCTGTCCTCTAGTTCCTGGTTGGCGTTCCGTCGCCTTCTACATACTAGACAAACAGCCTTCCTCCGGTTCCGTCTGGGGGTTGTGTGGATAACTAGTTCCGTCTAGTTTGAAACCAGTAACTGCCGGCTATGGCTAGCAACCATGTCACATTGGCGTTTGCCAATGATGCAGAAATTTCGGCTTTTGGCTTTTGCACTGCTAGTGAAGCCGTCTCATACTATTCTGAGGCCGCCGCTAGTGGATTTATGCAATGCCGTTTTGTGTCCCTCGATCTCGCTGACACTGTTGAGGGATTGCTTCCTGAAGACTATGTCATGGTGGTGATCGGCACTACCAAGCTTAGTGCGTATGTGGACACTTTTGGTAGCCGCCCCAGAAACATTTGTGGTTGGCTGTTATTTTCTAACTGTAATTACTTCCTCGAAGAGTTAGAGCTCACTTTTGGTCGTCGTGGTGGTAACATCGTGCCAGTTGACCAATACATGTGTGGCGCTGACGGGAAACCTGTTCTTCAGGAATCCGAGTGGGAGTATACAGATTTCTTCGCTGACTCCGAAGACGGTCAACTCAACATTGCTGGGATCACTTATGTGAAGGCCTGGATTGTAGAGCGATCGGACGTCTCTTATGCGAGTCAGAATTTAACATCTATTAAGTCTATTACTTACTGTTCAACCTATGAGCATACTTTTCTTGATGGTACTGCCATGAAGGTTGCACGTACTCCAAAGATCAAGAAGAATGTTGTTTTGTCTGAGCCACTTGCTACTATCTACAGGGAAATTGGTTCCCCTTTTGTGGATAATGGGAGCGATGCTCGTTCTATCATTAGGAGACCAGTGTTCCTCCACGCTTTTGTTAAGTGTAAGTGTGGTAGTTATCATTGGACTGTTGGTGATTGGACTTCCTATGTCTCCACTTGCTGTGGCTTTAAGTGCAAGCCAGTCCTTGTGGCCTCATGCTCTGCTATGCCTGGTTCTGTTGTGGTCACACGCGCTGGTGCTGGCACTGGTGTTAAGTACTACAACAACATGTTCCTGCGCCATGTGGCTGACATTGATGGATTGGCATTCTGGCGAATTCTTAAGGTGCAGTCCAAAGACGACCTCGCTTGCTCTGGTAAGTTCCTTGAACACCATGAGGAAGGTTTCACAGACCCTTGCTACTTTTTGAATGATTCGAGCCTTGCTACTAAGCTTAAGTTCGACATCCTTAGTGGCAAGTTTTCTGATGAAGTCAAACAAGCTATCATTGCTGGTCATGTTGTTGTTGGCAGTGCACTCGTTGACATTGTTGACGATGCACTGGGACAACCTTGGTTCATACGTAAGCTTGGTGACCTTGCAAGTGCACCTTGGGAGCAGCTTAAGGCTGTCGTTAGAGGCCTTGGCCTCTTGTCTGATGAGGTTGTGCTCTTTGGCAAAAGACTTAGCTGTGCCACTCTTAGTATCGTTAACGGCGTTTTTGAGTTTCTCGCCGATGTGCCAGAGAAGTTGGCTGCGGCTGTTACAGTTTTTGTCAACTTCTTGAATGAGTTCTTTGAGTCTGCCTGTGACTGCTTAAAGGTCGGAGGTAAGACATTCAACAAGGTTGGTTCCTATGTTCTTTTTGACAATGCATTGGTTAAGCTTGTCAAGGCAAAAGCTCGCGGCCCACGACAGGCAGGTATTTGTGAAGTTCGCTACACAAGCCTGGTTGTTGGGAGTACTACCAAGGTGGTTTCCAAGCGCGTTGAAAATGCCAATGTGAATCTCGTCGTCGTTGACGAGGATGTAACCCTCAACACCACTGGTCGTACAGTTGTCGTTGATGGACTTGCATTCTTCGAGAGTGACGGGTTTTACAGACATCTTGCTGATGCTGACGTTGTCATCGAACATCCTGTTTATAAGTCTGCTTGTGAGCTCAAGCCAGTTTTTGAGTGTGACCCAATACCTGATTTTCCTTTGCCTGTGGCCGCTAGTGTTGCAGAGCTCTGTGTGCAAACCGATCTGTTGCTTAAAAATTACAACACTCCTTATAAAACTTACAGCTGCGTAGTGAGAGGTGATAAGTGTTGCATCACTTGCACCTTACAGTTCAAAGCACCAAGTTATGTGGAGGATGCTGTTAATTTTGTAGACCTATGTACCAAGAACATTGGTACTGCTGGTTTTCATGAGTTTTACATAACGGCCCATGAACAACAGGATCTGCAAGGGTTTTTAACCACTTGTTGCACGATGTCAGGTTTTGAGTGTTTTATGCCTACAATCCCACAGTGTCCAGCAGTGCTTGAAGAGATTGATGGTGGTAGCATATGGCGGTCTTTTATCACTGGTCTTAATACAATGTGGGATTTTTGCAAGCGTCTTAAAGTCAGCTTTGGACTGGATGGCATTGTTGTCACTGTAGCACGCAAATTTAAACGACTTGGTGCTCTTTTGGCAGAAATGTATAACACTTATCTTTCAACTGTGGTGGAAAACTTGGTACTGGCCGGTGTTAGCTTCAAGTATTATGCCACCAGTGTCCCAAAAATTGTTTTGGGCGGTTGTTTTCACAGTGTTAAAAGTGTTTTTGCAAGTGTCTTCCAGATTCCTGTCCAGGCAGGCATTGAGAAGTTTAAAGTTTTCCTTAACTGTGTTCACCCTGTTGTACCACGTGTCATTGAAACTTCTTTTGTGGAATTAGAAGAGACGACATTTAAACCACCAGCACTCAATGGTGGTATTGCTATTGTTGATGGCTTCGCTTTCTATTATGATGGAACACTATACTATCCCACCGATGGTAATAGTGTTGTGCCTATCTGTTTTAAGAAGAAAGGTGGTGGTGATGTTAAATTCTCTGATGAAGTCTCTGTTAAAACCATTGATCCAGTTTATAAGGTCTCCCTTGAATTTGAGTTCGAGTCTGAGACTATTATGGCTGTGCTTAATAAGGCTGTTGGTAATCGTATCAAGGTTACAGGTGGTTGGGATGATGTCGTTGAGTATATTAACGTTGCCATTGAGGTTCTTAAAGATCACGTTGAAGTGCCTAAGTACTACATCTATGATGAGGAAGGTGGCACTGATCCTAATCTGCCCGTAATGGTTTCTCAGTGGCCGTTGAATGATGACACGATCTCACAGGACCTGCTTGATGTGGAAGTTGTTACGGATGCACCAATTGATTCCGAGGGTGATGAAGTAGACTCCTCTGCACCTGAGAAGGTGGCAGATGTGGCTAACTCTGAACCTGGGGATGATGGTCTTCCTGTGGCACCTGAAACAAATGTAGAGTCTGAAGTTGAGGAAGTTGCCGCAACCTTGTCCTTTATTAAAGATACACCTTCCACAGTTACTAAGGACCCTTTTGCTTTTGACTTTGTAAGCTACGGAGGACTTAAAGTTTTAAGACAATCTCATAACAATTGTTGGGTTACTTCTACCTTGGTGCAGCTACAATTGCTTGGCATCGTTGATGACCCTGCAATGGAACTTTTTAGTGCTGGTAGAGTTGGTCCAATGGTTCGCAAATGTTATGAGTCACAAAAGGCTATTTTGGGATCTTTGGGTGATGTGTCGGCTTGCCTAGAGTCTCTGACTAAGGACCTACACACACTTAAGATTACCTGTTCTGTAGTCTGCGGTTGTGGTACTGGTGAACGTATCTATGAGGGTTGTGCTTTTCGTATGACGCCAACTTTGGAACCGTTTCCATATGGTGCTTGTGCTCAGTGTGCTCAAGTTTTGATGCACACTTTTAAAAGTATTGTTGGCACCGGCATCTTTTGCCGAGATACTACTGCTCTCTCCTTGGATTCTTTGGTTGTAAAACCTCTTTGTGCGGCTGCTTTTATAGGCAAGGATAGTGGTCATTATGTCACCAATTTTTATGATGCTGCTATGGCTATTGATGGTTATGGTCGTCATCAGATAAAGTATGACACACTGAACACCATTTGTGTTAAAGACGTGAATTGGACAGCACCTCTTGTCCCTGCCGTTGATTCTGTAGTGGAGCCTGTTGTCAAACCATTCTATTCTTATAAGAATGTTGATTTTTACCAAGGAGATTTTAGTGACCTTGTTAAACTTCCATGTGACTTTGTTGTTAATGCTGCAAATGAGAAGTTGTCTCATGGTGGCGGCATAGCAAAGGCCATTGATGTTTATACCAAGGGCATGTTGCAGAAGTGTTCAAATGATTACATTAAAGCACACGGTCCCATTAAAGTTGGACGTGGTGTCATGTTGGAGGCATTAGGTCTTAAGGTCTTTAATGTTGTTGGTCCACGTAAGGGTAAGCATGCACCTGAGCTTCTTGTTAAGGCTTATAAGTCCGTTTTTGCTAACTCAGGTGTTGCTCTTACACCTTTGATTAGTGTTGGAATTTTTAGTGTTCCTTTGGAAGAATCTTTATCTGCTTTTCTTGCATGTGTTGGTGATCGCCACTGTAAGTGCTTTTGTTATGGTGACAAAGAGCGCGAGGCGATCATTAAGTACATGGATGGCTTGGTAGATGCTATTTTCAAAGAGGCGCTTGTTGACACTACTCCTGTCCAGGAAGATGTTCAACAAGTTTCACAAAAACCAGTTTTGCCTAATTTTGAACCTTTCAGGATTGAAGGTGCTCATGCTTTCTATGAGTGCAACCCTGAAGGTTTGATGTCCTTAGGTGCTGACAAGCTGGTGTTGTTTACAAATTCCAATTTGGATTTTTGTAGTGTTGGTAAGTGTCTTAACGATGTGACCAGCGGTGCATTGCTTGAAGCCATAAATGTATTTAAAAAGAGTAACAAAACAGTGCCTGCTGGCAACTGTGTTACTTTAGATTGTGCAAATATGATTTCTATTACTATGGTAGTATTGCCATTTGATGGTGATGCTAATTATGACAAAAATTATGCACGCGCCGTTGTCAAGGTATCTAAGCTTAAAGGCAAGTTAGTGCTTGCTGTTGATGATGCCACGTTGTATTCCAAGTTGTCCCACCTCAGCGTGTTAGGTTTCGTGTCCACACCTGACGATGTGGAGCGTTTCTACGCAAATAAGAGTGTGGTTATTAAAGTCACTGAGGATACACGTAGTGTCAAGGCTGTTAAAGTAGAATCCACTGCTACTTATGGACAACAAATTGGACCTTGTCTTGTTAATGACACCGTTGTCACAGACAACAAACCTGTTGTCGCTGACGTTGTAGCTAAGGTTGTACCAAATGCTAATTGGGATTCACATTATGGTTTTGATAAGGCTGGTGAGTTCCACATGCTAGACCATACTGGGTTTACCTTTCCTAGCGAAGTTGTTAACGGTAGGCGTGTGATTAAAACCACAGATAATAATTGTTGGGTTAATGTCACATGTTTACAATTACAGTTTGCTAGATTTAGGTTCAAGTCAGCAGGTCTACAGGCTATGTGGGAGTCCTATTGTACTGGTGATGTTGCTATGTTTGTGCATTGGTTGTACTGGCTTACTGGTGTTGACAAAGGTCAGCCTAGTGATTCAGAAAATGCACTTAACATGTTGTCCAAGTACATTGTTCCTGCTGGTTCTGTCACTATTGAACGTGTCACGCATGACGGCTGTTGTTGTAGTAAGCGTGTTGTTACTGCACCAGTTGTGAATGCTAGTGTGTTGAAGCTTGGCGTCGAGGATGGCCTTTGTCCACATGGTCTTAACTACATTGGCAAAGTTGTTGTAGTTAAAGGTACTACAATTGTTGTCAATGTAGGAAAACCTGTAGTGGCACCATCACACCTCTTTCTTAAGGGTGTATCCTACACAACATTCCTAGATAATGGTAACGGTGTTGTCGGCCATTATACTGTTTTTGATCATGGCACTGGTATGGTGCATGATGGCGATGCTTTTGTACCGGGTGATCTTAATGTATCTCCTGTTACAAATGTTGTTGTCTCAGAGCAGACGGCTGTTGTGATTAAAGACCCTGTGAAGAAAGCAGAGTTAGACGCTACTAAGCTGCTCGACACTATGAATTATGCATCGGAAAGATTTTTTTCCTTTGGTGATTTCATGTCACGTAATTTAATTACAGTGTTTTTGTACATCCTTAGCATTTTGGGTCTCTGTTTTAGAGCCTTTCGTAAGAGAGATGTTAAAGTTCTAGCTGGTGTACCCCAACGTACTGGTATTATATTGCGTAAAAGTATGCGCTATAATGCAAAGGCGTTGGGTGTCTTTTTCAAGCTAAAGCTTTATTGGTTCAAAGTTCTTGGTAAGTTTAGTCTGGGTATTTATGCATTGTATGCATTACTATTCATGACAATACGCTTTACACCTATAGGTAGCCCCGTCTGTGATGATGTTGTTGCTGGTTATGCTAATTCTAGTTTTGACAAGAATGAGTACTGCAACAGTGTTATTTGTAAGGTCTGTCTCTATGGGTACCAGGAACTCTCGGACTTCTCCCACACACAGGTTGTATGGCAACACCTTAGAGACCCATTAATTGGTAATGTGATGCCTTTCTTTTATTTGGCATTTTTGGCAATTTTTGGGGGTGTCTATGTAAAGGCTATTACTCTCTATTTTATTTTCCAGTACCTTAATAGTCTTGGTGTGTTTTTGGGCCTACAGCAGTCCATTTGGTTTTTGCAGCTCGTGCCTTTTGATGTCTTTGGTGATGAGATCGTCGTCTTTTTCATCGTTACACGCGTATTGATGTTCATTAAGCATGTTTGCCTTGGCTGCGATAAGGCATCTTGTGTGGCTTGCTCTAAGAGTGCTCGCCTTAAGCGCGTTCCTGTCCAGACTATCTTTCAGGGTACTAGTAAATCCTTCTACGTACATGCCAATGGTGGTTCTAAGTTCTGTAAGAAGCACAATTTCTTTTGTTTAAATTGTGATTCTTATGGTCCAGGCTGCACTTTTATTAACGACGTCATTGCAACTGAAGTTGGTAATGTTGTCAAACTTAATGTGCAACCGACAGGTCCTGCCACTATTCTTATTGACAAGGTTGAATTCAGTAATGGTTTCTACTATCTTTATAGTGGTGACACATTTTGGAAGTACAACTTTGACATAACAGATAGCAAATACACTTGCAAAGAGGCACTTAAAAATTGTAGCATAATCACAGACTTTATTGTTTTTAACAATAATGGTTCCAATGTAAATCAGGTTAAGAATGCATGTGTGTATTTTTCACAGATGCTTTGTAAACCTGTTAAGTTAGTGGACTCAGCGTTGTTGGCCAGTTTGTCTGTTGATTTTGGTGCAAGCTTACATAGTGCTTTTGTTAGTGTGTTGTCGAATAGTTTCGGCAAAGACCTGTCAAGTTGTAATGACATGCAGGATTGCAAGAGCACATTGGGTTTTGATGATGTACCATTGGATACCTTTAATGCTGCTGTTGCTGAGGCTCATCGCTATGATGTCCTCTTGACTGACATGTCATTCAACAATTTTACCACCAGTTATGCAAAACCAGAGGAAAAATTTCCCGTCCATGACATTGCCACGTGTATGCGTGTAGGTGCCAAGATTGTTAATCATAACGTTCTTGTCAAGGATAGTATACCTGTGGTGTGGCTTGTACGTGATTTCATTGCCCTTTCGGAAGAAACTAGGAAGTACATTATTCGTACGACTAAAGTTAAGGGTATAACATTTATGTTGACCTTTAATGATTGTCGTATGCATACTACCATACCTACTGTTTGCATTGCAAATAAGAAGGGTGCAGGTCTTCCTAGTTTTTCAAAGGTTAAGAAATTCTTTTGGTTTTTGTGTCTGTTCATAGTTGCTGCTTTCTTTGCACTAAGCTTTCTTGATTTTAGTACTCAGGTTAGCAGTGATAGCGATTATGATTTCAAGTATATTGAGAGTGGCCAGTTGAAGACTTTTGACAATCCACTTAGTTGTGTGCATAATGTCTTTATTAACTTCGACCAGTGGCATGATGCCAAGTTTGGTTTCACCCCCGTCAACAATCCTAGTTGTCCTATAGTTGTTGGTGTATCAGACGAAGCTCGCACTGTTCCAGGTATCCCAGCAGGTGTTTATTTAGCTGGTAAAACACTTGTGTTTGCTATTAACACCATTTTTGGTACATCTGGTTTGTGCTTCGATGCTAGTGGCGTTGCTGATAAGGGCGCTTGCATTTTTAATTCAGCTTGCACCACATTATCTGGTTTGGGTGGAACTGCTGTCTACTGTTACAAGAATGGGCTAGTTGAAGGTGCCAAACTTTATAGTGAGTTGGCACCTCATAGCTACTATAAAATGGTAGATGGTAATGCTGTGTCTTTACCTGAAATTATTTCACGCGGCTTTGGCATCCGTACTATCCGTACAAAGGCTATGACTTATTGCCGTGTTGGCCAGTGTGTGCAGTCTGCAGAAGGCGTTTGTTTTGGCGCCGATAGATTCTTTGTCTATAATGCAGAATCTGGTTCTGACTTTGTTTGTGGCACAGGGCTCTTCACATTGTTGATGAACGTTATTAGTGTTTTTTCCAAGACAGTACCAGTAACTGTGTTGTCTGGTCAAATACTTTTTAATTGCATTATTGCTTTTGTTGCTGTTGCGGTGTGTTTCTTATTTACAAAGTTTAAGCGCATGTTCGGTGATATGTCTGTTGGCGTTTTCACTGTCGGTGCTTGTACTTTGTTGAACAATGTTTCTTACATTGTAACACAGAACACACTTGGCATGTTGGGCTATGCAACTTTGTATTTCTTGTGCACTAAGGGTGTTAGATATATGTGGATTTGGCACTTGGGATTTTTGATCTCATATATTCTTATTGCACCATGGTGGGTTTTGATGGTTTATGCCTTTTCAGCCATTTTTGAGTTTATGCCTAACCTTTTTAAGCTTAAGGTTTCAACACAACTTTTTGAGGGCGACAAGTTCGTAGGCTCTTTTGAAAATGCTGCAGCAGGTACATTTGTGCTTGATATGCATGCCTATGAGAGACTTGCCAACTCTATCTCAACTGAAAAACTGCGTCAGTATGCTAGTACTTACAATAAGTACAAGTATTATTCAGGCAGTGCTTCAGAGGCTGATTACAGGCTTGCTTGTTTTGCCCATTTGGCCAAGGCTATGATGGATTATGCTTCTAATCATAACGATACGTTATACACACCACCCACTGTGAGTTACAATTCAACTCTACAGGCTGGCTTGCGTAAGATGGCACAACCTTCTGGTGTTGTTGAGAAGTGCATAGTCCGTGTTTGCTATGGTAATATGGCTCTTAATGGCCTATGGCTTGGCGATATTGTTATGTGCCCACGCCATGTTATAGCGTCTAGTACTACTAGCACTATAGATTATGATTATGCCCTTTCTGTTTTACGCCTCCACAACTTCTCCATTTCATCTGGGAATGTTTTCCTAGGTGTTGTGAGTGCAACTATGCGAGGTGCTTTGTTGCAGATAAAGGTTAATCAAAACAATGTCCACACGCCTAAGTACACCTATCGCACAGTTAGACCGGGTGAATCTTTTAATATTTTGGCGTGCTATGATGGTGCTGCAGCTGGTGTTTACGGCGTTAACATGCGCTCTAATTACACTATTAGAGGCTCGTTCATTAATGGCGCTTGTGGTTCACCTGGTTATAATATTAACAATGGTACCGTTGAGTTTTGCTATTTACACCAGCTTGAACTTGGTTCAGGCTGTCATGTTGGTAGCGACTTAGATGGTGTTATGTATGGTGGTTATGAGGACCAACCTACTTTGCAAGTTGAAGGCGCTAGTAGTCTGTTTACAGAGAATGTGTTGGCATTTCTTTATGCAGCACTCATTAATGGTTCTACCTGGTGGCTTAGTTCTTCTAGGATCGCTGTAGACAGGTTTAATGAGTGGGCTGTTCATAATGGTATGACAACAGTGGGCAATACTGATTGCTTTTCTATTCTTGCTGCTAAGACTGGAGTTGATGTACAACGTTTGTTGGCCTCAATCCAGTCTCTGCATAAGAATTTTGGTGGAAAGCAAATTCTTGGCCATACCTCGTTGACAGATGAGTTTACTACAGGTGAAGTTGTACGTCAAATGTATGGCGTTAATCTTCAGGGTGGCTATGTGTCACGCGCCTGCAGAAATGTCTTGCTGGTTGGTTCTTTTCTGACTTTCTTTTGGTCAGAATTAGTTTCCTACACTAAGTTCTTCTGGGTAAATCCTGGTTATGTTACACCTATGTTTGCGTGCTTGTCATTGCTATCCTCACTTTTGATGTTCACACTCAAGCATAAGACATTGTTTTTCCAGGTCTTCTTAATACCTGCTCTGATTGTTACATCTTGCATTAATTTGGCATTTGATGTTGAAGTCTACAACTATTTGGCAGAGCATTTTGATTACCATGTTTCTCTTATGGGTTTTAATGCACAAGGTCTTGTTAACATCTTTGTCTGCTTTGTTGTTACCATTTTACACGGCACATACACATGGCGCTTCTTTAATACACCTGCGAGTTCTGTCACTTATGTGGTAGCTTTGCTGACTGCGGCCTATAACTATTTTTACGCTAGTGACATTCTTAGTTGTGCTATGACACTATTTGCTAGTGTGACTGGCAACTGGTTCGTTGGTGCTGTTTGTTATAAAGTTGCTGTGTATATGGCCTTGAGATTTCCTACGTTCGTGGCTATTTTTGGTGATATTAAGAGTGTTATGTTCTGTTACCTTGTGTTGGGTTATTTTACCTGTTGCTTCTACGGTATTCTCTACTGGTTCAACAGGTTCTTTAAGGTTAGTGTAGGTGTCTATGACTATACTGTTAGTGCTGCTGAGTTTAAGTATATGGTTGCTAATGGCCTACGTGCACCAACTGGAACACTTGATTCACTACTGTTGTCCGCCAAATTGATTGGTATTGGTGGTGAGCGGAATATTAAGATTTCTTCCGTTCAGTCTAAACTGACTGATATTAAGTGTAGTAACGTTGTGCTTTTAGGCTGTCTTTCTAGCATGAATGTTTCAGCAAATTCAACAGAATGGGCTTATTGTGTTGACTTGCATAACAAGATCAACTTGTGTAATGACCCAGAAAAAGCGCAGGAAATGCTACTTGCTTTGTTGGCATTTTTCCTTAGTAAGAATAGTGCCTTTGGTTTAGACGACTTATTGGAATCTTATTTTAATGACAATAGTATGTTGCAGAGTGTTGCATCTACTTATGTAGGTTTGCCTTCCTATGTCATTTATGAAAATGCACGCCAACAGTATGAAGATGCTGTTAATAATGGTTCTCCACCTCAGTTGGTTAAGCAATTGCGCCATGCTATGAATGTAGCAAAGAGCGAATTTGACCGTGAGGCTTCTACTCAGCGTAAGCTTGATAGAATGGCGGAACAGGCTGCAGCACAGATGTATAAAGAGGCAAGGGCAGTTAATAGGAAGTCCAAAGTTGTAAGTGCTATGCATTCACTGCTTTTTGGTATGTTGAGACGTTTGGATATGTCTTCTGTAGACACCATTCTCAACTTGGCAAAGGATGGGGTGGTACCTCTGTCTGTCATACCGGCAGTCAGTGCTACTAAGCTTAACATTGTTACCTCTGATATCGATTCTTATAATCGTATCCAGCGTGAGGGATGTGTCCACTACGCTGGTACCATTTGGAATATAATTGATATCAAGGACAATGATGGCAAGGTGGTACACGTTAAGGAGGTAACCGCACAGAATGCTGAGTCCCTGTCATGGCCCCTGGTCCTTGGGTGTGAGCGTATTGTTAAGCTCCAGAATAATGAGATTATTCCTGGTAAGCTGAAGCAGCGCTCCATTAAGGCAGAAGGAGATGGCATAGTTGGAGAAGGTAAGGCACTTTACAATAATGAGGGTGGACGTACTTTTATGTATGCTTTCATTTCAGATAAACCGGACCTGCGTGTAGTTAAGTGGGAGTTCGATGGTGGTTGTAACACTATTGAGCTAGAACCACCACGTAAGTTCTTGGTGGATTCTCCTAATGGTGCACAGATCAAGTATCTCTACTTTGTTCGTAACCTTAACACGTTGCGTAGGGGTGCTGTTCTTGGCTACATAGGTGCCACTGTACGCTTGCAGGCTGGTAAACAAACAGAACAGGCTATTAACTCTTCATTGTTGACACTTTGCGCTTTCGCTGTGGATCCTGCTAAGACCTACATCGATGCTGTTAAAAGTGGTCACAAACCAGTAGGTAACTGTGTTAAGATGTTGGCCAATGGTTCTGGTAATGGACAAGCTGTTACTAATGGTGTGGAGGCTAGTACTAACCAGGATTCATATGGTGGTGCTTCCGTGTGTCTATATTGTAGAGCACATGTTGAGCATCCATCTATGGATGGTTTTTGCAGACTGAAAGGCAAGTATGTACAGGTGCCACTAGGTACAGTGGATCCTATACGTTTTGTACTTGAGAATGACGTTTGCAAGGTTTGTGGTTGTTGGCTGTCTAATGGCTGCACTTGTGACAGATCCATTATGCAAAGCACTGATATGGCTTATTTAAACGAGTACGGGGCTCTAGTGCAGCTCGACTAGAGCCCTGTAATGGTACTGATACACAACATGTGTATCGTGCTTTTGACATCTACAACAAGGATGTTGCTTGTCTAGGTAAATTCCTCAAGGTGAACTGTGTTCGCCTGAAGAATTTGGATAAGCATGATGCATTCTATGTTGTCAAAAGATGTACCAAGTCTGCGATGGAACACGAGCAATCCATCTATAGCAGACTTGAAAAGTGTGGGGCCATAGCCGAACACGATTTCTTCACTTGGAAGGATGGTCGTGCAATCTATGGTAACGTTTGTAGAAAGGATCTTACCGAGTATACTATGATGGATCTGTGTTACGCTTTACGTAACTTTGATGAAAACAATTGCGATGTTCTTAAGAGCATTTTGATTAAGGTAGGTGCTTGTGAGGAGTCCTACTTTAATAATAAAGTCTGGTTTGACCCTGTTGAAAATGAAGACATTCATCGTGTCTATGCATTGTTAGGTACCATTGTTGCACGTGCTATGCTTAAATGCGTTAAGTTCTGTGATGCAATGGTTGAACAAGGTATAGTTGGTGTTGTCACATTAGATAATCAGGATCTTAATGGTGATTTTTATGATTTTGGTGATTTTACTTGTAGTATCAAGGGAATGGGTGTACCCATTTGCACATCATATTACTCTTATATGATGCCTGTTATGGGTATGACTAATTGCCTTGCTAGTGAGTGTTTTGTTAAGAGTGATATATTTGGTGAGGATTTTAAGTCATATGACCTGCTGGAATATGATTTCACGGAGCATAAGACAGCACTCTTCAACAAGTATTTCAAGTATTGGGGACTGCAATACCACCCTAACTGTGTGGACTGCAGTGATGAGCAGTGCATAGTTCACTGTGCCAACTTCAATACGTTGTTTTCCACTACCATACCTATTACGGCATTTGGACCTTTGTGTCGCAAGTGCTGGATTGATGGTGTTCCACTGGTAACTACAGCTGGTTATCATTTTAAACAGTTAGGTATAGTTTGGAATAATGACCTCAACTTACACTCTAGCAGGCTCTCTATTAATGAATTACTCCAGTTTTGTAGTGATCCTGCACTGCTTATAGCATCATCACCAGCCCTTGTTGACCAGCGTACTGTTTGCTTTTCAGTTGCAGCGCTAGGTACAGGTATGACTAACCAGACTGTGAAACCTGGCCATTTCAATAAGGAGTTTTATGACTTCTTACTTGAGCAAGGTTTCTTCTCTGAGGGCTCTGAGCTTACTTTAAAGCACTTCTTCTTTGCACAGAAGGTTGATGCAGCTGTTAAGGATTTTGACTACTATAGGTATAATAGACCCACTGTTCTGGACATCTGCCAAGCTCGCGTCGTGTATCAAATAGTGCAACGCTATTTTGATATTTACGAGGGTGGTTGTATCACTGCTAAAGAAGTGGTTGTTACAAACCTTAACAAGAGCGCAGGCTATCCTTTGAACAAGTTTGGTAAAGCTGGTCTTTACTATGAGTCTTTATCCTATGAGGAACAGGATGAACTTTATGCTTATACTAAGCGTAACATCCTGCCCACTATGACACAGCTCAACCTTAAATACGCTATTAGTGGCAAAGAACGTGCACGCACAGTGGGTGGTGTCTCGCTTTTGTCAACCATGACCACTCGGCAGTATCATCAGAAACACCTTAAATCCATAGTTAATACTAGGGGCGCTTCGGTTGTTATTGGTACTACTAAGTTTTATGGTGGTTGGGACAATATGCTTAAGAACCTTATTGATGGTGTTGAAAATCCGTGTCTTATGGGTTGGGATTACCCAAAGTGCGATAGAGCACTGCCCAATATGATACGCATGATTTCAGCCATGATCTTAGGCTCTAAGCACACCACATGCTGCAGTTCTACTGACCGCTTTTTCAGGTTGTGCAATGAATTGGCTCAAGTCCTTACTGAGGTTGTTTATTCTAATGGAGGGTTTTATTTGAAGCCAGGTGGTACTACCTCTGGTGATGCAACCACCGCATATGCAAACTCAGTTTTCAATATCTTCCAAGCAGTAAGTGCCAATGTTAACAAACTTCTTAGTGTTGACAGCAATGTCTGTCATAACTTAGAAGTTAAGCAATTACAACGTAAGCTCTATGAGTGCTGTTATAGATCGACTATCGTCGATGACCAGTTCGTCGTTGAGTATTATGGTTACTTGCGTAAACATTTTTCAATGATGATTCTTTCTGATGATGGCGTTGTTTGTTATAACAATGACTATGCATCACTTGGTTATGTCGCGGATCTTAACGCATTCAAGGCTGTTTTGTATTACCAGAACAACGTCTTCATGAGCGCCTCTAAATGTTGGATCGAGCCTGACATTAATAAAGGTCCTCATGAATTTTGTTCGCAGCATACTATGCAGATTGTCGATAAGGAGGGTACTTATTACCTTCCTTACCCTGATCCTTCAAGAATCCTCTCTGCAGGTGTGTTTGTTGATGACGTTGTTAAAACTGATGCAGTTGTATTGCTTGAACGTTATGTGTCATTGGCTATAGATGCCTACCCGTTATCTAAGCATGAAAACCCTGAATATAAGAAGGTGTTTTATGTGCTTTTGGATTGGGTTAAGCATCTGTATAAAACTTTGAATGCTGGTGTGTTAGAGTCTTTTTCTGTCACACTTTTGGAAGATTCTACTGCTAAGTTCTGGGATGAGAGCTTTTATGCCAACATGTATGAGAAATCTGCAGTTTTACAATCTGCAGGGCTTTGTGTTGTTTGTGGCTCTCAAACTGTTTTACGTTGTGGTGATTGTCTACGGCGTCCTATGCTTTGTACTAAGTGTGCTTATGATCATGTCATTGGAACAACTCACAAGTTCATTTTGGCCATCACTCCATATGTGTGTTGTGCTTCAGATTGTGGTGTCAATGATGTAACCAAGCTCTACTTAGGTGGTCTTAGTTACTGGTGTCATGAACACAAGCCACGTCTTGCATTCCCGTTGTGCTCTGCTGGTAATGTTTTTGGCTTATACAAAAATTCTGCTACCGGTTCACCCGATGTTGAAGACTTTAATCGCATTGCTACATCCGATTGGACTGATGTTTCTGACTACAGGTTGGCAAATGATGTCAAGGACTCATTGCGTCTATTTGCAGCGGAAACTATCAAGGCCAAGGAGGAGAGCGTTAAGTCATCCTATGCTTGTGCAACACTACATGAGGTTGTAGGACCTAAAGAGTTGTTGCTCAAATGGGAAGTCGGCAGACCCAAACCACCTCTTAATAGAAATTCGGTTTTCACTTGTTATCATATAACGAAGAACACCAAATTTCAAATCGGTGAGTTTGTGTTTGAGAAGGCAGAATATGATAATGACGCTGTAACATATAAAACTACCGCCACAACAAAACTTGTTCCTGGCATGGTTTTTGTGCTTACCTCACATAATGTTCAGCCATTGCGTGCACCAACCATTGCTAATCAAGAACGTTATTCCACTATACATAAGTTGCATCCTGCTTTTAACATACCTGAAGCTTATTCTAGCTTAGTGCCCTATTACCAATTGATTGGTAAGCAGAAGATTACAACTATCCAGGGACCCCCCGGTAGTGGTAAATCTCACTGTGTTATAGGGCTAGGTTTGTACTATCCAGGTGCACGTATTGTGTTTACAGCTTGTTCTCATGCAGCGGTCGATTCACTCTGTGTGAAGGCCTCCACTGCTTATAGCAATGACAAATGTTCACGCATCATACCACAGCGTGCTCGTGTTGAGTGTTATGATGGTTTCAAGTCTAATAATACTAGTGCTCAGTACCTTTTCTCCACTGTCAATGCTTTGCCAGAGTGTAATGCGGACATTGTTGTGGTGGATGAAGTTTCTATGTGCACTAATTATGACTTGTCTGTCATAAATCAGCGCATCAGCTATAGGCATGTAGTCTATGTTGGTGACCCTCAACAGCTGCCTGCACCACGTGTTATGATTTCACGTGGTACTTTGGAACCAAAGGACTACAATGTTGTCACTCAACGTATGTGTGCCCTTAAGCCTGATGTCTTCTTGCACAAGTGTTATCGCTGTCCTGCAGAGATAGTGCGCACTGTGTCTGAGATGGTCTATGAAAACCAATTCATTCCTGTGCACCCTGACAGCAAGCAGTGTTTTAAGATCTTTTGCAAGGGTAATGTGCAGGTTGATAACGGTTCAAGTATTAACCGCAGGCAATTGGATGTTGTGCGTATGTTTTTGGCTAAAAATCCTAGGTGGTCAAAGGCTGTTTTCATTTCCCCTTATAACAGCCAGAATTATGTTGCCAGCCGTTTGCTAGGTTTACAAATTCAGACAGTTGATTCATCCCAGGGTAGTGAGTATGACTATGTCATTTACGCACAAACCTCAGATACTGCCCATGCCAGTAATGTTAACAGGTTTAATGTTGCCATCACAAGGGCTAAGAAAGGCATATTATGTATAATGTGCGATAGGTCCCTTTTTGATCTGCTTAAATTTTTTGAGCTTAAATTGTCTGATTTGCAGGCTAATGAGGGTTGTGGTCTTTTTAAAGACTGTAGCAGAGGTGATGATTTGTTGCCACCGTCTCATGCTAATACCTTCATGTCTTTAGCGGACAATTTTAAGACTGATCAATATCTTGCTGTTCAAATAGGTGTTAATGGACCCATTAAATATGAGCATGTTATCTCGTTTATGGGTTTCCGTTTTGATATTAACATACCCAACCACCACACTCTCTTTTGCACACGCGACTTTGCCATGCGCAATGTTAGAGGTTGGTTGGGTTTTGACGTTGAAGGAGCACATGTTGTTGGCTCTAACGTCGGTACAAATGTCCCATTGCAATTAGGGTTTTCTAACGGTGTTGATTTTGTTGTCAGACCTGAAGGTTGCGTTGTAACTGAGTCTGGTGACTACATTAAACCCGTCAGAGCTCGTGCTCCACCAGGGGAACAATTCGCACACCTTTTGCCTTTACTTAAACGCGGCCAACCATGGGATGTGGTTCGCAAGCGTATAGTTCAAATGTGTAGTGACTACCTGGCTAACCTATCAGACATACTAATTTTTGTGTTGTGGGCTGGTGGTTTGGAGTTGACAACTATGCGTTACTTTGTCAAGATTGGACCAAGCAAGAGTTGTGATTGTGGTAAGGTTGCTACTTGTTACAATAGTGCGCTGCATACGTACTGTTGTTTCAAACATGCCCTTGGTTGTGATTATCTGTATAACCCATACTGTATTGATATACAGCAGTGGGGATACAAGGGATCACTTAGCCTTAACCACCATGAGCATTGTAATGTACATAGAAACGAGCATGTGGCTTCTGGTGATGCCATAATGACTCGCTGTCTGGCCATACATGATTGCTTTGTCAAGAACGTTGACTGGTCCATCACATACCCATTTATTGGTAATGAGGCTGTTATTAATAAGAGCGGCCGCATTGTGCAATCACACACTATGCGTTCAGTTCTTAAGTTATACAATCCAAAAGCCATATATGATATTGGCAATCCTAAGGGCATTAGATGCGCCGTAACGGATGCTAAGTGGTTCTGCTTTGACAAGAATCCTACTAATTCTAATGTCAAGACATTGGAGTATGACTATATAACACACGGCCAATTTGATGGGTTGTGCTTGTTTTGGAATTGCAATGTGGACATGTATCCAGAATTTTCTGTGGTCTGTCGTTTTGATACTCGCTGTAGGTCACCACTCAACTTGGAGGGTTGTAATGGTGGTTCACTGTATGTTAACAATCATGCATTCCACACACCGGCTTTTGACAAGCGTGCTTTTGCTAAGTTGAAGCCAATGCCATTTTTCTTCTATGATGATACTGAGTGTGACAAGTTACAGGACTCCATAAACTATGTTCCTCTTAGGGCTAGTAACTGCATTACTAAATGTAATGTTGGTGGAGCTGTTTGTAGTAAGCATTGTGCTATGTATCATAGCTATGTCAATGCTTACAACACCTTTACGTCAGCGGGCTTTACGATTTGGGTGCCCACTTCGTTTGACACCTATAATCTGTGGCAGACATTTAGTAACAATTTGCAAGGTCTTGAGAACATTGCTTTCAATGTTTTAAAGAAAGGATCTTTTGTTGGTGATGAAGGTGAGCTTCCTGTAGCTGTGGTCAATGACAAAGTGCTCGTTAGAGATGGTACTGTTGATACTCTTGTTTTTACAAACAAGACATCACTACCCACTAACGTAGCTTTTGAGTTGTATGCCAAGCGTAAGGTAGGACTCACCCCTCCCATTACGATCCTACGTAACTTGGGTGTTGTTTGTACATCTAAGTGTGTCATTTGGGACTATGAAGCCGAACGTCCACTTACTACTTTTACAAAGGATGTCTGTAAATATACCGACTTTGAGGGTGACGTTTGTACACTCTTTGATAACAGCATTGTTGGTTCATTAGAGCGATTCTCTATGACCCAGAATGCTGTGCTTATGTCACTTACAGCTGTTAAAAAGCTTACTGGCATAAAGTTAACTTATGGCTATCTTAATGGTGTCCCAGTTAACACACATGAAGATAAACCTTTTACTTGGTATATTTACACTAGGAAGAACGGCAAGTTCGAGGACTATCCTGATGGCTATTTTACCCAAGGTAGAACAACCGCTGATTTTAGCCCTCGTAGCGACATGGAAAAGGACTTCCTAAGTATGGATATGGGTTTGTTTATTAACAAGTACGGACTTGAAGATTACGGCTTTGAGCACGTTGTGTATGGTGATGTTTCAAAAACCACCCTTGGTGGTTTACATCTACTAATTTCGCAGGTGCGTCTGGCCTGTATGGGTGTGCTTAAAATAGACGAGTTTGTGTCTAGTAATGATAGCACGTTAAAGTCATGTACTGTTACATATGCTGACAACCCTAGTAGTAAGATGGTTTGCACGTATATGGATCTCCTGCTTGACGATTTTGTTAGCATTCTTAAATCTTTGGATTTGAGCGTTGTATCTAAGGTTCATGAAGTTATGGTTGATTGTAAAATGTGGAGGTGGATGTTGTGGTGTAAGGATCATAAACTCCAGACATTTTATCCACAACTTCAAGCCAGTGAATGGAAGTGTGGTTATTCCATGCCTTCTATTTACAAGATACAACGTATGTGCTTAGAACCTTGCAATCTCTATAACTATGGTGCTGGTGTTAAGTTACCTGATGGCATTATGTTTAACGTAGTTAAATACACACAGCTTTGTCAATATCTCAATAGCACCACAATGTGTGTACCCCATCACATGCGTGTGCTACATCTTGGTGCTGGCTCCGATAAGGGTGTTGCACCTGGCACGGCTGTCTTACGACGTTGGTTGCCACTGGATGCCATTATAGTTGACAATGATAGTGTGGATTACGTTAGCGATGCTGATTATAGTGTTACAGGAGATTGCTCTACCTTATACCTGTCAGATAAGTTTGACTTAGTTATATCTGATATGTATGATGGTAAGATTAAAAGTTGTGATGGGGAGAACGTGTCTAAAGAAGGCTTCTTTCCCTATATTAATGGTGTTATCACTGAAAAGTTGGCACTTGGTGGTACTGTAGCTATTAAGGTGACGGAGTTTAGTTGGAATAAGAAGTTGTATGAACTCATTCAGAAGTTTGAGTATTGGACAATGTTCTGTACCAGTGTTAACACGTCATCGTCAGAGGCATTTTTAATTGGTGTTCACTATTTAGGTGATTTTGCAAGTGGCGCTGTGATTGACGGCAACACCATGCATGCCAATTATATCTTCTGGCGTAATTCCACAATTATGACTATGTCTTACAACAGTGTGCTTGATTTAAGCAAGTTCAATTGTAAGCATAAGGCTACAGTTGTTGTTAATTTAAAAGACTCATCCATTAGTGATGTTGTGTTAGGCTTGTTGAAGAATGGTAAGTTGCTAGTGCGTAATAATGACGCCATTTGTGGCTTTTCTAATCATTTGGTCAACGTAAACAAATGAGGTCTTTAATTTACTTCTGGTTGCTCTTACCAGTACTTCCAACACTCAGCCTACCACAAGATGTCACTAGGTGCCAGTCTACTACTAACTTTAGGCGGTTTTTTTCAAAATTTAATGTTCAGGCACCTGCCGTCGTCGTTTTGGGTGGTTACCTACCTAGTATGAACTCTTCTAGCTGGTACTGTGGCACAGGCATTGAAACTGCTAGTGGCGTTCATGGTATTTTTCTCAGCTACATCGATTCTAGTCAGGGCTTTGAGATTGGCATTTCGCAAGAGCCGTTTGATCCTAGTGGTTACCAGCTTTATTTACATAAGGCCACTAATGGTAACACTAATGCTATTGCACGACTGCGCATTTGCCAGTTTCCCGATAATAAAACATTGGGCCCTACTGTTAATGATGTTACAACAGGTCGTAACTGCCTATTCAACAAAGCCATTCCAGCTTATATGCGTGATGGAAAAGATATTGTTGTCGGCATAACATGGGATAATGATCGTGTCACTGTTTTTGCTGACAAGATCTATCATTTTTATCTTAAAAATGATTGGTCCCGCGTTGCGACAAGATGTTACAATCGCAGAAGTTGTGCTATGCAATATGTTTATACACCTACCTACTACATGCTTAATGTTACTAGTGCAGGTGAGGATGGCATTTATTATGAACCCTGTACAGCTAATTGCACTGGTTACGCTGCCAATGTATTTGCCACTGATTCCAATGGCCATATACCAGAAGGTTTTAGTTTTAATAATTGGTTTCTTTTATCCAATGACTCCACTTTGTTGCATGGTAAAGTGGTTTCCAACCAACCCTTGTTGGTCAATTGTCTTTTGGCCATTCCTAAGATTTATGGACTAGGCCAATTTTTCTCATTCAATCACACGATGGATGGCGTTTGTAATGGAGCTGCTGTGGATCGTGCCCCAGAGGCTCTGAGGTTTAATATTAATGACACCTCCGTCATTCTTGCTGAAGGCTCAATTGTACTTCATACTGCTTTAGGAACAAATCTTTCTTTTGTTTGCAGTAATTCCTCAGATCCTCATTTAGCCATCTTTGCCATACCTCTGGGTGCTACTGAAGTACCCTACTATTGCTTTCTTAAAGTGGATACTTACAACTCCACTGTTTATAAATTCTTGGCTGTTTTACCTCCTACTGTCAGGGAAATTGTCATCACCAAGTATGGTGATGTTTATGTCAATGGGTTTGGCTATTTGCATCTCGGTTTGTTGGATGCTGTCACAATTAATTTCACTGGTCATGGCACTGACGATGACGTTTCAGGTTTCTGGACCATAGCATCGACTAATTTTGTTGATGCACTCATCGAGGTTCAAGGAACTTCCATTCAGCGTATTCTTTATTGTGATGATCCTGTTAGCCAACTCAAGTGTTCTCAGGTTGCTTTTGACCTTGACGATGGTTTTTACCCCATCTCTTCTAGAAACCTTCTGAGTCACGAACAGCCAATTTCTTTTGTTACTTTGCCATTATTTAATGATCATTCTTTTGTTAATATTACTGTCTCTGCGGCTTTTGGTGGTCTTAGTAGTGCCAATCTCGTTGCATCTGACACTACTATCAATGGGTTTAGTTCTTTCTGTGTTGACACTAGACAATTTACCATTACACTGTTTTATAATGTTACAAACAGTTATGGTTATGTGTCTAAATCACAGGATAGTAATTGTCCTTTCACCTTGCAATCTGTTAATGATTACCTGTCTTTTAGCAAATTTTGTGTTTCAACCAGCCTTTTGGCTGGTGCTTGTACCATAGATCTTTTTGGTTACCCTGCGTTCGGTAGTGGTGTTAAGTTGACGTCCCTTTATTTTCAATTCACAAAAGGTGAGTTGATTACTGGCACGCCTAAACCACTTGAAGGTATCACAGACGTTTCTTTTATGACTCTGGATGTGTGTACCAAGTATACTATCTATGGCTTTAAAGGTGAGGGTATTATTACCCTTACAAATTCTAGCATTTTGGCAGGTGTTTATTATACATCTGATTCTGGACAGTTGTTAGCCTTTAAGAATGTCACTAGTGGTGCTGTTTATTCTGTCACGCCATGTTCTTTTTCAGAGCAGGCTGCATATGTTAATGATGATATAGTGGGTGTTATTTCTAGTTTGTCTAACTCCACTTTTAACAATACTAGGGAGTTGCCTGGTTTCTTCTACCATTCTAATGACGGCTCCAATTGTACAGAGCCTGTGTTGGTGTATAGTAACATAGGTGTTTGTAAATCTGGCAGTATTGGCTATGTTCCATCTCAGTATGGCCAAGTCAAGATTGCACCCACGGTTACTGGGAATATTAGTATTCCCACCAACTTTAGTATGAGTATTAGAACAGAATATTTACAGCTTTACAACACGCCTGTTAGTGTTGATTGTGCTACATATGTTTGTAATGGTAACTCTCGTTGTAAACAATTACTCACCCAGTACACTGCAGCATGTAAGACCATAGAGTCAGCATTACAACTCAGCGCTAGGCTTGAGTCTGTTGAAGTTAACTCTATGCTTACCATTTCTGAAGAGGCTTTACAGTTAGCTACCATCAGTTCGTTTAATGGTGATGGATATAACTTTACTAATGTGCTGGGTGCTTCCGTGTACGATCCTGCAAGGGGCAGGGTGGTACAAAAAAGGTCTGTTATTGAAGACTTGCTTTTTAATAAAGTGGTTACTAATGGCCTTGGTACTGTTGATGAAGACTATAAGCGCTGTTCTAATGGTCGCTCTGTGGCTGATCTAGTCTGTGCGCAGTATTACTCTGGTGTCATGGTACTACCTGGCGTTGTTGACGCTGAGAAGCTTCACATGTACAGTGCGTCTCTCATAGGTGGTATGGCGCTAGGAGGTATAACTGCTGCAGCGGCATTGCCTTTTAGCTATGCTGTTCAAGCGAGACTCAATTATCTTGCTTTACAGACGGATGTTCTACAGCGGAACCAGCAATTGCTTGCTGAGTCTTTTAACTCTGCTATTGGTAATATAACTTCAGCCTTTGAGAGTGTTAAAGAGGCTATTAGTCAAACTTCCAAGGGTTTGAACACTGTGGCTCATGCGCTTACTAAGGTTCAAGAGGTTGTTAATTCGCAGGGTTCAGCTTTGAACCAACTTACCGTACAGCTGCAACACAACTTCCAAGCCATTTCTAGTTCTATTGATGACATTTATTCCCGACTGGACATTCTTTCAGCCGATGTTCAGGTTGATCGTCTCATCACCGGCAGATTATCAGCACTTAATGCTTTTGTTGCCCAAACCCTCACTAAGTATACTGAGGTTCAGGCTAGCAGGAAGCTAGCACAGCAAAAGGTTAATGAGTGCGTCAAATCGCAATCTCAGCGTTACGGTTTTTGTGGTGGTGATGGCGAGCACATTTTCTCTCTGGTACAGGCCGCACCTCAGGGCCTGCTGTTCTTACATACAGTACTTGTACCGGGTGATTTTGTAAATGTTCTTGCCATCGCTGGCTTATGCGTTAATGGTGAAATTGCCTTGACTCTACGTGAGCCTGGCTTAGTCTTGTTTACGCATGAACTTCAAACTTATACTGCGACGGAATATTTTGTTTCATCGCGACGTATGTTTGAACCTAGAAAACCTACCGTTAGTGATTTTGTTCAAATTGAGAGTTGTGTGGTCACCTATGTCAATCTGACTAGCGACCAGCTACCAGATGTAATCCCAGATTACATCGATGTTAACAAAACACTTGATGAGATTTTAGCTTCTCTGCCCAATAGAAATGGTCCAAGTCTTCCCCTAGATGTTTTTAATGCCACTTATCTTAATCTTACTGGTGAAATTGCAGATCTAGAGCAGCGTTCAGAGTCTCTCCGTAATACTACAGAAGAGCTCCGAAGTCTCATTAACAACATCAACAACACACTTGTTGACCTTGAGTGGCTCAACCGAGTTGAGACATACATCAAGTGGCCGTGGTGGGTTTGGTTGATCATTGTTATTGTTCTCATCTTTGTTGTGTCATTACTAGTGTTCTGCTGCATTTCCACGGGTTGTTGTGGATGCTGCGGTTGCTGCGGTGCTTGTTTTTCAGGTTGTTGTAGGGGTCCTAGACTTCAACCTTACGAAGCTTGACACAGTTGTCAAAGATGTCTCGAAGTCTGTCAACTTGTCTTTGGATGCTGTCCAAGAGTTGGAGCTCAATGTAGTTCCAATTAGACAAGCTTCAAATGTGACGGGTTTTCTTTTCACCAGTGTTTTTGTTTACTTCTTTGCACTGTTTAAAGCGTCTTCTTTGAGGCGCAATTATATTATGTTGGCAGCGCGTTTTGCTGTCGTCTTTCTCTATTGCCCACTTTTATATTACTGTGGTGCACTTTTAGATGCAACTATTATTTGTTGCGCACTTATTGGCAGGCTTTGTTTAGTCTGCTTTTACTCCTGGCGCTATAAAAATGCGCTTTTTATTATCTTTAATACTACGACACTTTCTTTTCTCAATGGTAAAGCAGCTTATTATGACGGCAAATCCATTGTGATTCTAGAAGGTGGCGACCATTACATCACTTTTGGCAACTCTTTTGTTGCTTTCGTTAGTAACATTGACTTGTATCTAGCTATACGTGGGCGGCAAGAAGCTGACCTACATCTGTTGCGAACTGTTGAGCTTCTTGATGGCAAGAAGCTTTATGTCTTTTCGCAACATCAAATTGTTGGCATTACTAATGCTGCATTTGACTCAATTCAACTAGACGAGTATGCTACAATTAGTGAATGATAATGGTCTAGTAGTTAATGTTATACTTTGGCTTTTCGTACTCTTTTTCCTGCTTATTATAAGCATTACCTTCGTCCAATTGGTTAATCTGTGCTTCACTTGTCACCGGTTGTGTAATAGCGCAGTTTATACACCTATAGGGCGCCTGTATAGAGTTTATAAGTCTTACATGCGAATTGACCCCCTCCCCATTACTGTTATTGACGTATAAACGAAATATGTCTAACGGTTCTATTCCCGTTGATGAGGTGATTGAACACCTTAGAAACTGGAATTTCACATGGAATATCATACTGACGATACTACTTGTAGTGCTTCAGTATGGCCATTACAAGTACTCTGTGTTCTTGTATGGTGTCAAGATGGCTATTCTATGGATACTTTGGCCTCTTGTGTTGGCACTGTCACTTTTTGACGCATGGGCTAGCTTCCAGGTCAACTGGGTCTTTTTCGCTTTCAGCATCCTTATGGCTTGCATCACTCTTATGCTGTGGATAATGTATTTTGTCAATAGCATTCGGTTGTGGCGCAGGACACATTCTTGGTGGTCTTTCAATCCTGAAACTGACGCGCTTCTCACTACTTCTGTGATGGGCCGACAGGTCTGCATTCCAGTGCTTGGAGCACCAACTGGTGTAACGCTAACACTCCTTAGTGGTACATTGCTTGTAGAGGGCTATAAGGTTGCTACTGGCGTACAGGTAAGTCAATTACCTAATTTCGTCACAGTCGCCAAGGCCACTACAACAATTGTCTACGGACGTGTTGGTCGTTCAGTCAATGCTTCATCTGGCACTGGTTGGGCTTTCTATGTCCGGTCAAAACACGGCGACTATTCAGCTGTGAGTAATCCGAGTGCGGTTCTCACAGATAGTGAGAAAGTGCTTCATTTAGTCTAAACAGAAACTTTATGGCTTCTGTCAGCTTTCAGGATCGTGGCCGCAAACGGGTGCCATTATCTCTCTATGCCCCTCTTAGGGTTACTAATGACAAGCCCCTTTCTAAGGTACTTGCAAACAACGCTGTACCCACTAACAAGGGGAATAAGGACCAGCAAATTGGGTACTGGAATGAGCAAATTCGCTGGCGCATGCGCCGTGGTGAGCGAATTGAACAACCTTCCAATTGGCATTTCTACTACCTCGGAACAGGACCTCACGGCGACCTCCGTTATAGGACTCGTACTGAGGGTGTTTTCTGGGTTGCTAAAGAAGGCGCAAAGACTGAACCCACTAATTTGGGTGTCAGAAAGGCGTCTGAAAAGCCAATCATTCCAAAATTCTCTCAACAGCTCCCCAGTGTAGTTGAGATTGTTGAACCTAACACACCTCCTGCTTCACGTGCAAATTCGCGTAGCAGGAGTCGTGGCAATGGCAACAATAGGTCTAGATCTCCAAGTAACAACAGAGGCAATAACCAGTCCCGTGGTAATTCACAGAATCGTGGAAATAACCAGGGTCGTGGAGCTTCTCAGAACAGAGGAGGCAATAATAATAACAATAACAAGTCTCGTAACCAGTCCAATAACAGGAACCAGTCAAATGACCGTGGTGGTGTAACATCACGCGATGATCTGGTGGCTGCTGTCAAGGATGCACTTAAATCTTTGGGTATTGGAGAAAATCCTGACAGGCATAAGCAACAGCAGAAGCCTAAGCAGGAAAAGTCTGACAACAGCGGCAAAAATACACCTAAGAAGAACAAATCCAGGGCCACTTCGAAGGAACGTGACCTCAAAGACATCCCAGAGTGGAGGAGAATTCCCAAGGGCGAAAATAGCGTAGCAGCTTGCTTCGGACCCAGAGGGGGCTTCAAAAACTTTGGAGATGCGGAATTTGTCGAAAAAGGTGTTGATGCGTCAGGCTATGCTCAGATCGCCAGTTTAGCACCAAATGTTGCAGCATTGCTCTTTGGTGGTAATGTGGCTGTTCGTGAGCTAGCGGACTCTTACGAGATTACATACAACTATAAAATGACTGTGCCAAAGTCAGATCCAAATGTTGAGCTTCTTGTTTCACAGGTGGATGCATTTAAAACTGGGAATGCAAAACTCCAGAGAAAGAAGGAAAAGAAGAACAAGCGTGAAACCACGCTGCAGCAGCATGAAGAGGCCATCTACGATGATGTGGGTGCGCCATCTGATGTGACCCATGCCAATCTGGAATGGGACACAGCTGTTGATGGTGGTGATACGGCCGTTGAAATTATCAACGAGATCTTCGATACAGGAAATTAAACAATGTTAGACCGGCTTATCCTGGCTATGTTCCAGGGTAGTGCCATTACACTGTTATTACTGAGTGTTTTTCTAGCGACTTGGCTGCTGGGCTATGGCTTTGCCCTCTAACCAGCGGTCTTGGTCTTGCACGCAACGGTAAGCCAGTGGTAATGTCAGTGCAAGAAGGATATTACCATAGCACTGTCACGAGGGGAACGCAGTACCTTTTCATCTAAACCTTTGCACGAGTAATTAAAGATCCGCTTGACGAGCCTATATGGAAGAGCGTGCCAGGTATTTGACTTAAGGACTGTTAGTAACTGAAGACCTGACGGTGTTGATATGGATACAC"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine epidemic diarrhea virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Porcine epidemic diarrhea virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "022V-03923",
-      "search:title": "Porcine epidemic diarrhea Virus (PEDV), strain &quot;CV777&quot; (RVB-1298), Belgium 1978",
-      "search:description": "Porcine epidemic diarrhea Virus (PEDV), strain \"CV777\", Belgium 1978",
-      "search:taxonLabel": "Porcine epidemic diarrhea virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Domestic Pig",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Belgium",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine epidemic diarrhea virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "022V-03922",
-      "@id": "urn:evorao:EVA:FLI:022V-03922",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/equine-arteritis-virus-eav-strain-vienna-rvb-0015-austria-1969",
-      "dcterms:issued": "2020-03-24T14:42:18+01:00",
-      "dcterms:modified": "2021-05-28T07:42:23+02:00",
-      "dcterms:title": "Equine arteritis Virus (EAV), strain &quot;Vienna&quot; (RVB-0015), Austria 1969",
-      "dcterms:description": "Equine arteritis Virus (EAV), strain \"Vienna\" (RVB-0015), Austria 1969",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1969-03-07",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Austria"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "Sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/ml",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 13,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "Vero 76"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "RK-13"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "6.81x10^7",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Horse"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Austria"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "Animal virus",
-        "Austria",
-        "Category B",
-        "UN3373",
-        "EAV",
-        "Equine arteritis Virus",
-        "Equine arteritis virus",
-        "Horse",
-        "RG2",
-        "RK-13",
-        "Vero 76",
-        "Vienna",
-        "Dry ice",
-        "Alphaarterivirus equid"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1969-03-07",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "GCTCGAGGTGTGTATGGTGCCATATAAGGCTCACCACCATATACACTGCAAGAATTACTATTCTTGTGGGCCCCTCTTGGTAATTCCTAGAGGGCTTTCCTCTCGTTATTGCGAGATTCGTCGTTAGTTAACGGCATTTCCCTATTCTTATCTTCCTATTTTCATCTTGTGGCTTGACGAGTCACTGCCATCGTCGTCGATCTCTATCAACTATCCTTGCGACTATGGCATCCTTCTCCGCTACTGGATTTGGAGGGAGTTTTGTTAGGGACTGGTCCCTGGACTTACCCGCTGCTTGTGAGCATGGCGCGGGATTGTGCTGTGAAGTGGACGGTTCCACCCTATGCGCCGAGTGTCTTCGAGGGTGCGAAGGAGTGGAGCAATGTCCTGGCCTGTTCATGGGACTATTAAGACTGGCTTCGCCAGTTCCAGTGGGACATAAGTTCCTGATTGGTTGGTATCGAGCAGCTAAAGTCACCGGGCGTTACAATTTCCTTGAGTTGCTGCAACACCCTGCTTTCGCTCAGCTGCGCGTGGTTGATGCTAGACTAGCCATTGAAGAGGCAAGTGTATTTATCTCTACTGACCACGCGTCTGCTAAGCGTTTTCCTGGCGCCAAATTTGCGCTGACACCGGTGTATGCAAACCCTTGGGTTGTAAGCCCGACCGCTAACAGCTTGATAGTGACCATTGATCAGGAGCAAGATGGTTTCTGCTGGTTAAAACTTCTGCCACCTGACCGCCGTGAGGCTGGTCTGCGGTTGTATTACAACCATTACCGCGAACAAAGAACCGGGTGGCTGTCTAAAACAGGACTACGCTTGTGGCTTGGAGACCTGGGTTTGGGCATCAATGCGAGCTCTGGAGGGTTGAAATTCCACATTATGCGGAGTTCACCTCAACGGGCTTGGCATATCACAACACGCAGCTGCAAGTTGAAAAGCTACTACGTTTGTGACATCTCTGAGGCAGACTGGTCGTGTCTGCCAGCCGGCAACTATGGCGGCTACAACCCACCAGGGGATGGAGCTTGTGGTTATAGGTGCCTGGCCTTCATGAATGGCGCCACCGCTGTGTCAGCTGGTTGCAGTTCTGATTTGTGGTGTGATGATGAATTGGCTTACCGTGTTTTCCAACTGTCACCCACTTTCACGGTCACCATCCCAGGCGGGCGTGTATGTCCGAATGCCAAGTATGTGATGATCTGTGACAAGCAGCATTGGCGCGTCAAACGTGCTAAGGGTGTTGGCTTATGTCTTGATGAAAACTGTTTCAGGGGCACCTGCAATTGCCAACGCATGAGTGGACCACCACCTGCACCCGTGTCAGCCGCCGTGCTAGACCACATATTGGAGGCGGCGACGTTTGGCAACGTGCGCGTGGTTACACCTGAAGGGCAGCCACGCCCCGTACCAGCGCCGCGAGTTCGTCCCAGCGCCAACTCTTCTGGAGATGTCAAAGATCCGGCGCCCGTTCCGCCAGTACCAAAACCAAGGACCAAGCTTGCCACACCGAACCCAACTCAGGCGCCCATCCCAGCACCGCGCACGCGACTTCAAGGGGCCTCAACACAGGAGCCACTGGCGAGTGCAGGAGTTGCTTCTGACTCGGCACCTAAATGGCGTGTGGCCAAAACTGTGTACTGCTCCGCGGAGCGCTTTCGGACCGAACTGGTACAACGTGCTCGGTCCGTTGGAGACGTTCTTGTTCAAGCTCTGCCACTCCAGACCCCAGCAGTGCAGCGGTACATCATGACCTTGAAGATGATGCGCTCGCGCTTCAGTTGGCACTGTGACACTTGGTACCCATTGGCTGTGATTGCTTGCTTGCTCCCTATATGGCCATCTCTTGCTTTGCTCCTTAGTTTTGTCATTGGGTTTGTACCCAGTGTGGGCAATAATGTTGTCCTGACAGCACTCTTGGTTTCATCAGCTAACTATGTCGCGTCAATGGACCAGCAATGCGAAGGCGCGGCTTGCTTAGCCTTGTTAGAGGAAGAACATTACTACAGGGCGGTCCGTTGGCGCCCGATTACGGGTGTGCTGTCGCTTGTGCTCAATTTGCTAGGGCAAGTGGGTTACGTGGCACGTTCTACTTTCGATGCAGCTTATGTTCCTTGCACTGTTTTCGATCTCTGTAGCTTTGCTGTTCTGTATCTTTGCCGCAATCGTTGCTGGAGATGCTTCGGACGCTGTGTGCGGGTTGGGCCCGCTACTCATGTGTTGGGATCCACTGGACAACGAGTGTCGAAACTGGCGCTCATTGATTTGTGCGACCACTTTTCCAAACCCTCCATTGACGTCGTGGGCATGGCAACTGGCTGGAGCGGATGCTACATAGGATCCGCCGCTATGGAGCGCCAGTGTGCCTCTACGGTGGACCCTCACTCGTTCGACCAGAAGAAAGCAGGGGCGCTTGTGTACCTTACTCCCCCTGTCAATAGCGGGTCAGCGCTGCAGTGCCTTAACGTCATGTGGAAGCGACCAATTGGGTCTACCATTCTTGGTGAACAAACGGGAGCTGTCGTGACGGCAGTCAAGAGCATCTCTTTCTCACCTCCCTGCTGCGTCTCTACCACTTTGCCCACCCGACCCGGTGTGACTGTTGTCGACCATGCTCTCTACAACCGGCTGACTGCATCAGGAGTCGATCCTGCATCACTGCGTGTCGGGCAAGGTGATTTTCTAAAGCTTAACCCAGGGTTTCGGCTGATTGGTGGATGGATCTATGGAATATGCTACTTTGTGTTGGTGGTTGTGTCTACCTTYACCTGTTTACCTATTAAATGTGGCATTGGCACCCGCGACCCCTTTTGCCGCAGAGTGTTTTCTGTCCCTGTCATCAAGACTCAAGAACACTGCCATGCTGGCATGTGCGCTAGTGCTGAAGGCATTTCTCTGGACTCTCTGGGGTTAACTCAGTTACAAAGTTACTGGATCGCAGCCGTCACTAGCGGATTAGTGATCCTGTTGGTCTGCCATCGCTTGGCTATCAGCGCCTTGGATTTGTTGACACTGGCTTCCCCCTTAGTATTGCTTGTGTTCCCTTGGGCTGCTGTGGGGCTGCTACTTGCTTGTAGTCTCGCTGGCGCAACTCTGAAAATGCAATTGCTGGCGACGCTTTTTGTGAATCTGTTTTTCCCCCAAGCAACTCTTGTCACTATGGGATACTGGGCATGTGTTGCGGCCCTTGCTGTCTACAGCTTGATGGGCCTGCGAGTGAAAGTGAATGTGCCCATGTGTGTGACACCTGCCCATTTTCTGCTGCTGGCGAGGTCAGCTGGACAGTCAAGAGAGCAGATGCTCCGGGTCAGCGCTGCTGCCCCCACCAATTCACTGCTAGGGGTCGCACGTGACTGCTATGTTACAGGCACAACTCGGCTGTACATACCCAAAGAGGGTGGGATGGTGTTTGAAGGACTGTTCAGATCACCGAAGGCGCGTGGCAACGTCGGTTTCGTGGCTGGTAGCAGCTACGGCACAGGGTCAGTGTGGACTAGGAACAACGAGGTCGTCGTGCTGACAGCGTCACACGTGGTTGGCCGTGCCAATATGGCCACTTTGAAGATCGGCGACACAATGCTGACCCTGACTTTCAAGAAGAACGGCGACTTCGCCGAGGCAGTGACAACACAGTCCGAGCTACCAGGCAACTGGCCACAGTTGAACTATGCTCAGCCAACGACCGGGCCTGCATCATGGTGTACCGCCACAGGAGACGAAGAAGGCTTGCTCAGTGGCGAGGTGTGCTTGGCGTGGACCACTAGCGGCGACTCTGGATCAGCAGTGGTTCAGGGAGACGCCGTGGTAGGGGTTCACACCGGTTCAAACACCAGTGGAGTTGCCTACGTGACCACCCCAAGCGGAAAACTCCTTGGCGCTGACACCGTCACTCTGTCATCGCTCTCCAAACATTTCACAGGCCCGTTGACACCAATCCCGAAGGACATCCCTGACAACATTGTTGCTGATGTTGACGCTGTTCCCCGCTCTCTAGCTATGCTGATTGACGGCTTGTCCAATAGAGAGAGCAGCCTTTCTGGACCTCAGTTGTTGTTAATTGCTTGTTTTATGTGGTCTTATCTTAACCAACCTGCTTACTTGCCTTATGTGTTGGGTTTCTTCGCCGCTAATTTCTTCCTGCCTAAAAGCATTGGCCGCCCTGTGGTCACTGGACTTTTGTGGTTGTGCTGCCTTTTAACACCACTTTCTATGCGCTTATGCTTGTTCCATTTGGTCTGTGCTACTGTTACTGGGAATGTGGTGTCTTTGTGGTTCTACATCACTGCCGCTGGCACGTCTTACCTTTCAGAAATGTGGTTTGGAGGCTATCCCACCATGTTGTTTGTGCCACGGTTTCTGGTATACCAATTCCCCGGCTGGGCCATTGGCACAGTACTAGCGGTATGCAGCATCACCATGCTGGCTGCCGCCCTAGGCCACACTTTGTTGCTGGATGTGTTCTCAGCTTCAGGCCGCTTTGACAGGACTTTCATGATGAAATATTTCTTGGAGGGGGGAGTGAAAGAGAGCGTCACAGCTTCAGTCACCCGTGCCTATGGGAAACCAATTACTCAGGAGAGTCTCACTGCAACATTAGCTGCCCTCACTGATGATGACTTCCAATTCCTCTCTGATGTGCTTGACTGTCGGGCCGTTCGGTCGGCGATGAACCTTCGTGCTGCTCTCACGAGTTTCCAGGTGGCGCAGTATCGTAACATCCTTAATGCGTCTTTGCAAGTCGATCGCGATTCTGCTCGCAGTCGCAGGCTGATGGCAAAACTGGCTGATTTTGCGGTTGAACAAGAAGTAACAGCTGGAGACCGTGTTGTGGTCATTGATGGCTTGGATCGCATGGCTCACTTCAAAGATGACTTGGTGCTAGTTCCTCTGACCACTAAAGTAGTAGGCGGTTCTAGGTGCACCATTTGTGACGTCGTTAAGGAAGAAGCCAATGACACCCCAGTTAAGCCAATGCCCAGCAGGAGACGCCGCAAGGGCCTGCCTAAGGGTGCCCAATTAGAATGGGACCGCCACCAGGAAGAGAAGAGGAGCGCCGGTGATGACGACTTTGCCGTTTCAAATGATTATGTCAAGAGAGTGCCAAAGTACTGGGACCCACATGACACCCGGGGAACAACAGTGAAAATTGCCGGCACCACCTACCAGAAAGTGGTTGACTATTCAGGCAATGTGCATTACGTGGAGCATCAAGAGGACCTGGTGGACTACGTGTTGGGAAAAGGGAGCTATGAAGGCCTGGATCAGGACAAAGTGTTAGACCTCACAAACATGCTCAAAGTAGACCCCACTGAGCTCTCCCCCAAGGACAAGGCTAAGGCGCGGCAGCTTGCACATCTATTGCTGGACCTGGCTAATCCAGTTGAGGCTGTGAATCAGTTAAACTAAGAGCGCCCCACATCTTTCCCGGCGATGTGGGGCGTCGGACCTTTGCTGACTCCAAGGACAAGGGTTTTGTGGCTCTGCACAGTCGCACAATGTTTTTAGCTGCCCGGGACTTTCTGTTTAACATCAAGTTTGTGTGCGACGAAGAGTTCTCTAAGACCCCAAAGGACACACTGCTTGGCTATGTGCGCGCTTGCCCTGGTTATTGGTTTATTTTCCGCCGCACGCACCGGTCACTAATTGACGCATACTGGGACAGCATGGAGTGCGTCTACGCGCAGCCCGCCATATCAGATTTTGATGTGAGCCCGGGTGACGTCGCTGTGACGGGTGAGCGATGGGATTTTGAGTCTCCCGGGGGTGGCCGTGCGAAACGCCTCACAGCTGATCTAGTGCATGCCTTCCAAGGGTTCCATGGTGCCTCTTATGCCTATGATGACAAGGTGGCTGCTGCCGTTAGTGGTGACCCGTACCGGTCAAACGGTGTCTTGTACAACACCCGTTGGGGCAACATTCCATACTCTGTCCCGACCACCGCCTTGGAAGCCACTGCTTGTTACCGTGCAGGGTGTGAGGCCGTCACTGATGGGACCAACGTCATTGCAACAATTGGTCCCTTTCCGGAGCAACAACCGATACCGGACATTCCGAAGAGTGTGCTTGACAATTGCGCTGACATCAGCTGTGACGCCTACATAGCGCCCGCTGCAGAAGCAGCCCTGTGTGGTGACTTAGAGAAGTACAATCTGTCCACGCAGGGTTTTGTGTTGCCTAGTGTGTTCTCTATGGTGCGGGCGTACTTGAAAGAAGAAATCGGTGATGCCCCACCACTCTATTTGCCATCTACTGTGCCATCCAAGAATTCGCAGGCCGGAATCAACGGCGCTGAGTTCCCTACTAAGTCTTTACAGAGCTACTGTTTGATTGATGACATGGTGTCACAGTCCATGAAAAGCAACCTGCAGACCGCCACCATGGCAACTTGCAAACGACAGTACTGCTCCAAATACAAGATTAGGAGCATCCTGGGCACCAACAACTACATCGGCCTAGGTCTGCGTGCCTGCCTTTCGGGGGTTACGGCCGCTTTTCAGAAAGCTGGGAAAGATGGTTCACCGATCTATTTGGGCAAGTCGAAATTTGACCCAATACCAGCCCCTGACAAGTACTGTCTTGAAACAGATCTGGAGAGTTGCGATCGCTCCACCCCGGCTTTGGTGCGCTGGTTCGCTACCAATCTCATTTTTGAGCTGGCTGGTCAGTCAGAGTTGGTGCACAGTTATGTGTTGAACTGCTGCCACGACCTAGTTGTGGCGGGTAGCACAGCATTCACCAAGCGCGGGGGTTTGTCATCTGGAGACCCTATCACCTCCATTTCTAACACCATCTATTCATTGGTGCTATACACTCAGCACATGTTGCTATGTGGGCTTGAAGGCTATTTCYCTGAGATTGCAGAAAAGTACCTTGATGGCAGCCTGGAGCTGCGGGACATGTTTAAGTACGTCCGAGTGTACATCTACTCGGACGATGTGGTCCTAACCACGCCCAATCAGCATTATGCGGCCAGTTTTGACCGCTGGGTCCCACATCTACAGGCGCTGTTGGGGTTTAAAGTTGACCCCAAGAAAACTGTTAACACCAGYTCCCCATCTTTCCTGGGTTGTCGGTTCAAACAAGTGGACGGCAAGTGTTATCTAGCCAGTCTGCAGGACCGCGTTACACGCTCACTGTTGTACCACATTGGGGCAAAGAATCCTTCAGAGTATTATGAAGCAGCTGTTTCCATCTTCAAAGATTCCATCATCTGCTGTGATGAAGACTGGTGGACGGACCTCTACAGACGTATCAGTAGCGCTGCGCGCACTGATGGAGTGGATTTTCCCACCATTGAAGCATTAACGTCCTTCCGCACCAAGCAGTATGAGAGTGCAGTCTGCACAGTCTGCGGGGCCGCCCCCGTTGCCAAGTCTGCTTGTGGAGGGTGGTTCTGTGGCAATTGTGTCCCATACCACGTGGGTCATTGTCACACGACATCGCTCTTCGCCAATTGCGGGCATGACATCATGTACCGCTCCACTTACTGTACTATGTGTGAGGGCTCTCCCAAGCAGATGGTGCCAAAGGTGCCCCACCCAATCCTGGACCACTTGCTGTGCCACATCGACTATGGCAGCAAAGAGGAATTAACTTTGGTAGTGGCAGATGGTCGAACATCATCACCGCCCGGGCGCTACAAAGTAGGTCACAAGGTAGTCGCCGTGGTTGCGGACGTGGGGGGCAACATCGTGTTTGGGTGCGGCCCTGGATCGCATTCTGCAGTGCCACTTCAAGATACGCTCAAAGGTGTGGTGGTGAATAAAGCCCTGAAGAACGCCGCCGCCTCAGAGTATGTGGAAGGGCCCCCTGGGAGTGGGAAGACTTTTCACTTGGTCAAGGACGTACTAGCCGTGGTTGGTAGCGCGACCTTGGTTGTACCCACCCACGCATCCATGTTGGACTGCATTAGCAAACTCAAACAAGCAGGCGCTGACCCATACTTTGTGGTGCCTAAGTATACAGTCCTTGACTTCCCTCGGCCAGGCAGCGGGAACATCACAGTGAGATTACCACAGGTGGGGACCAGTGAAGGAGAGACCTTTGTGGATGAGGTGGCTTACTTTTCTCCGGTGGACCTGGCGCGCATCTTAACTCAGAGCCGAGTCAAGGGTTATGGTGATCTAAATCAGCTCGGGTGCGTCGGACCCGCCAGTGTGCCTCGAGACCTTTGGCTTCGGCATTTTGTCAGCCTGGAGCCACTACGAGTGTGCCATCGATTCGGCGCTGCTGTGTGTGATTTGATCAAGGGCATTTATCCTTACTATGAGCCAGCACCACATACCACCAAAGTAGTGTTTGTACCAAACCCAGATTTTGAGAAAGGAGTGGTTATCACCGCCTACCACAAAGATCGCGGTCTTGGTCACCGCACAATTGATTCAATCCAAGGCTGCACATTCCCTGTTGTGACTCTCCGACTGCCCACACCTCAATCTTTGACGCGCCCACGCGCAGTAGTGGCGGTTACCAGGGCGTCCCAGGAATTATACATCTACGACCCCTTTGATCAGCTTAGCGGGTTGTTGAAGTTCACCAAGGAAGCTGAAGCTCAAGACTTGATTCATGGCCCACCCACAGCATGCCATCTGGGCCAAGAAATTGACCTCTGGTCCAATGAAGGCCTTGAATATTACAAAGAGGTCAACCTGCTGTACACACATGTCCCCATCAAGGATGGCGTGATACACAGCTATCCCAATTGTGGTCCCGCCTGCGGCTGGGAGAAGCAATCCAACAAGGTCTCATGCCTCCCAMGAGTGGCGCAAAATTTGGGCTACCACTATTCTCCAGATTTACCAGGATTTTGTCCCATTCCAAAAGAACTTGCTGAGCATTGGCCTGTAGTGTCCAATGACAGATACCCTAATTGTCTGCAAATTACCTTACAGCAAGTATGTGAACTCAGTAAACCGTGCTCAGCGGGCTATATGGTTGGACAATCTGTTTTCGTGCAGACGCCTGGTGTGACATCTTACTGGCTTACTGAATGGGTCGACGGTAAGGCGCGCGCTCTGCCAGATTCTCTGTTCTCGTCCGGTAGGTTCGAGACCAATTGCCGTGCCTTCCTCGATGAAGCCGAGGAAAAATTTGCTGCCTCTCACCCGCATGCATGTCTTGGGGAAATTAAGAAGTCCACCGTGGGCGGTTCCCACTTCATTTTCTCCCAGTACTTACCACCATTGCTACCCGCAGACGCAGTTGCCCTTGTGGGTGCTTCGTTGGCTGGAAAAGCTGCCAAAGCCGCTTGCAGCGTTGTTGATGTCTATGCTCCATCATTTGAACCTTATCTACACCCTGAGACACAGAGTCGTGTGTATAAAATCATGATAGATTTTAAGCCGTGTAGGCTTATGGTGTGGAGAGATGCGACYTTCTATGTCCAGGAGGGTGTCGATGCAGTTACATCAGCACTGGCAGCTGTGTCTAAACTCATCAAAGTGCCAGCTAACGAGCCTGTTTCCTTCCACTTGGCATCAGGGTTCAGGACCAACGCGCTGGTAGCGCCCCAGGCTAAAATTTCAATTGGAGCCTACGCCGCCGAGTGGGCACTGTCAACTGAACCGCCACCTGCTGGTTACGCGATCGTGCGGCGGTACATTGTGAAGAGACTCCTCAGTTCAATGGAAGTGTTTTTCTGCCGCAGGGGTGTTGTTTCTTCCACCTCAGTGCAGACTGTTTGTGCTCTAGAAGGATGTAAGCCTCTTTTCAACTTCTTACAAATTGGTTCTACCATTGGGCCCGTGTGATGGGCCTGGTGTGGTCATTGATTTCAAATTCTATTCAGACCATAATAGCTGATTTTGCCATTTCTGTGATTGATGCTGCGCTTTTCTTTCTTATGCTTCTTGCATTGGCTATTGCTACTGTGTTTCTTTTCTGGCTCATTGTTGCCATCGGCCGTAGCCTGGTGGCGCGCTGTTCACGAGGTGCGCGTTACAGACCTGTTTAAGGATTTGCAGTGTGACAACCTGCGCGCGAAAGATGCCTTCCCGAATCTGGGATACGCTTTGTCGATTGGCCAGTCGAGGCTATCGTATATGTTGCAGGATTGGTTGCTCGCTGCGCACCGTAAGGAAGTTATGCCCTCCAATGTCATGCCTATGCCCGGTCTTACTCCTGATTGCTTTGATCATCTGGAGTCTTCTAGCTATGCTCCATTTATCAATGCCTATCGGCAAGCAATTTTGAGCCAGTACCCTCAAGAGCTCTTACTCGAAKCCATCAACTGTAAGTTGCTCGCCGTGGTTGCGCCGGCATTGTATCATAATTACCACCTAGCCAATTTGACCGGACCGGCCGTATGGGTTGTACCTACAGTGGGCCAGCTACATTTCTATGCTTCTTCTTCTATTTTCTCCTCATCCGTGGAAGTGTTGGCAGCGCTAATACTACTATTTGCATGCATACCACTAGTAACACGAGTGTACATCTCTTTTACGCGGCTAATGTCACCTTCCCATCGCACTTCCAGCGGCACTTTGCCGCGGCGCAAGATTTTGTAGTGCATACGGGTTATGAATATGCCGGAGTTACAATGCTAGTGCATTTGTTTGCTAATTTGGTTTTGACATTCCCKAGCTTAGTTAATTGTTCCCGCCCTGTGAATGTCTTTGCTAATGCTTCTTGCGTGCAAGTGGTTTGTAGTCATACCAACTCAACTACTGGCTTGGGTCAACTTTCTTTTTCTTTTATAGATGAAGACTTGCGGTTGCATATTAGGCCTACTCTTGTTTGCTGGTTTGCCTTGTTGTTGGTGCACTTTTTACCCATGCCACGCTGCAGAGGCTCGTAATTTCACTTATGTTAGCCATGGTTTGGGCCACGTGCACGGTCATGAGGGATGTAGGAATTTTATTAATGTTACACATTCTGCTTTTCTTTTCCTTAATCCCACAACTCTTACAGCGCCGGCCATAACTCATTGCTTGCTTCTCGTACTGGCAGCCAAAATGGAACACCCAAACGCTACCATTTGGCTGCAACTGCAGCCGTTTGGGTATCACATGGCTGGTGATGTCACTGTCAACTTGGAAGTGAATAAGAGGCATCCTTATTTTAAACTTTTGAGAGCGCCGGCTTTTCCACTTGCTTTTGTGGCTATAGTTTATGTTCTTCTACGATTGGTACGTTGGGCTCAACAATGTTATCTATGATTGTATTGCTGTCTTTGCTTTGGGGTGTGCCATCACATGCTTACTCCTCATATTACACCGCTCAGCGCTTTACAGACTTCACCTTGTGTATGCTGACGGATCGCGGCGTTATTGCCAATTTGCTGCGGTATGATGAGCATACTGCCCTGTACAACTGCTCCGCTAGTGCTACCTGCTGGTATTGCACGTTCTTGGACGAACAGATTATCACGTTTGGGACTGGTTGCAATGACACCTACGCGGTCCCAGTTTCTGTGGTTTTGGAGCAGGCGCATGGGCCGTACAGTACGCTGTTTGATGACATGCCCCCTTTTATTTACTATGGCCGTGAGTTTGGCATATTTGTAATGGATGTGTTTATGTTCTATCCTGTTTTAGTTTTGTTTTTCTTGTCAGTATTGCCTTATGCAACACTTATTCTTGAGATGTGTGTATCTATTCTGTTTATAATCTATGGCATTTACAGCGGGGCCTACTTGGCCATGGGAATATTTGCGACCACGCTCGTTGTACATTCAATTGTGGTCCTCCGTCAGTTGCTGTGGTTATGCCTGGCTTGGCGGTATCGCTGCACGCTCCACGCTTCTTTTGTTTCAGCTGAAGGGAAAGTTTACCCCGTAGACCCCGGACTCCCAATTGCCGCCGCCGGCAACCGGTTGTTAGTCCCAGGTAGGCCCACTATTGATTATGCGGTGGCCTACGGCAGCAAGGTCAACCTTGTGAGGTTAGGGGCAGCTGAAGTATGGGAGCCATAGACTCATTTTGTGGCGACGGGATTTTAGGTGAATACTTAGATTATTTTATTCTGTCCGTCCCACTTCTGTTGCTAATTACTAGGTATGTAGCATCTGGATTGGTATATGTGATGACTGCTTTGTTTTATTCTCTTGTGTTAGCAGCTTATATCTGGTTTGTTATAGTTGGAAGGGCTTTTTCTACTGCCTATGCTTTTGTGCTTTTGGCTGCTTTTCTGCTATTATTATTAAGAATGATTGTAGGTGTGTTGCCTCGTCTTCGGTCCATTTTCAACCACCGGCAACTGGTGGTAGCTGATTTTGTGGACACACCCAGTGGGCCCGTCCCCATCCCTCGCTCAACTACTCAAGTAGTGGTTCGCGGCAACGGGTACACAGCAGTTGGTAACAAGCTTGTCGATGGCGTCAAGACGATCACGTCCGCAGGCCGCCTCTTTTCGAAACGGACGGCGGCGACAGCCTACAAGCTACAATGACCTACTGCGCATGTTTGGTCAGATGCGGGTCCGCAAACCGCCCGCGCAACCCACTCAGGCTATCATCGCAGAGCCTGGAGACCTCAGGCATGAGTTAAATCAACAGGAGCGCGCCACCCTTTCATCGAACGTACAACGGTTCTTTATGATAGGGCATGGTTCACTCACTGCAGATGCCGGAGGACTCACGTACACCGTCAGTTGGGTTCCCACCAAACAAATCCAGCGCAAAGTTGCGCCTTCAGCAGGGCCGTAAGACGTGGATATTCTCCTGTGTGGCGTCATGTTGTAGTATTAGTTAGCCACCCAGGAACC"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Equine arteritis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Alphaarterivirus equid"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "022V-03922",
-      "search:title": "Equine arteritis Virus (EAV), strain &quot;Vienna&quot; (RVB-0015), Austria 1969",
-      "search:description": "Equine arteritis Virus (EAV), strain \"Vienna\" (RVB-0015), Austria 1969",
-      "search:taxonLabel": "Alphaarterivirus equid",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Horse",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Austria",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Equine arteritis virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-03635",
-      "@id": "urn:evorao:EVA:FLI:015V-03635",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rabies-virus-dog-aserbaijan-2002-5989",
-      "dcterms:issued": "2019-06-13T09:50:47+02:00",
-      "dcterms:modified": "2021-05-28T07:40:09+02:00",
-      "dcterms:title": "Rabies virus, dog, Aserbaijan, 2002, 5989",
-      "dcterms:description": "Rabies virus, dog, Aserbaijan, 2002, 5989",
-      "EVORAO:unitDefinition": "1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2002-06-04",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Azerbaijan"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:passage": 13,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Dog"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Azerbaijan"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42))",
-        "2002",
-        "5989",
-        "Animal virus",
-        "Aserbaijan",
-        "Azerbaijan",
-        "Category A",
-        "UN2814",
-        "Dog",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Rabies lyssavirus",
-        "Rabies virus",
-        "RG3",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2002-06-04",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-03635",
-      "search:title": "Rabies virus, dog, Aserbaijan, 2002, 5989",
-      "search:description": "Rabies virus, dog, Aserbaijan, 2002, 5989",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Dog",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Azerbaijan",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabies lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-02896",
-      "@id": "urn:evorao:EVA:FLI:015V-02896",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rabies-virus-dog-afghanistan-20287",
-      "dcterms:issued": "2018-05-18T13:09:14+02:00",
-      "dcterms:modified": "2021-05-28T07:35:19+02:00",
-      "dcterms:title": "Rabies virus, dog, Afghanistan (20287)",
-      "dcterms:description": "Rabies virus isolated from a dog in Afghanistan in 2008; infectifity tested and quantified",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2008-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Afghanistan"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MNA (Mouse Neuroplastoma cell line"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "(Na42/13))"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "~ 10^5 (TCID50/mL)",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Dog"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Afghanistan"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "(Na42/13))",
-        "Afghanistan",
-        "Afghanistan in 2008",
-        "Animal virus",
-        "Category A",
-        "UN2814",
-        "Dog",
-        "Human virus",
-        "MNA (Mouse Neuroplastoma cell line",
-        "Rabies virus",
-        "RG3",
-        "Dry ice",
-        "Rabies lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2008-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-02896",
-      "search:title": "Rabies virus, dog, Afghanistan (20287)",
-      "search:description": "Rabies virus isolated from a dog in Afghanistan in 2008; infectifity tested and quantified",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Dog",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Afghanistan",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabies virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-02791",
-      "@id": "urn:evorao:EVA:UL:007V-02791",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-2-9",
-      "dcterms:issued": "2018-03-28T10:58:58+02:00",
-      "dcterms:modified": "2021-05-27T15:21:13+02:00",
-      "dcterms:title": "Human Mastadenovirus C, Type 2",
-      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 2 (isolate 1896/08) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
-      "EVORAO:unitDefinition": "1000 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2008-06-30",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
-      "EVORAO:passage": "1st passage",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "A549"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": [
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "Patient"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "throat swab"
-        }
-      ],
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "A549",
-        "Adenovirus",
-        "AdV2",
-        "Category B",
-        "UN3373",
-        "Human Adenovirus",
-        "Human adenovirus 2",
-        "Human mastadenovirus",
-        "Human virus",
-        "Patient",
-        "RG2",
-        "Slovenia",
-        "throat swab",
-        "Dry ice",
-        "Human mastadenovirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2008-06-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "AAGACTTCAAACAAAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTC\nATGTCTAGCGCGTGGGCGGAGTTGGCGTAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCG\nCCCATGGACATAAAGTTACTGGAGAATGGGATGCGCCAAAGGGTGCGATCGCAAAGAAAC\nTTTTTCTGGGTAATACTGTCAACCGCGGTTTTGCCTATTAGTGGGTAGGGCACGTTGGCG\nGGGTAAGCCTGTCCCTCGCGCATGGTGGGAGCGAGGTAGCCTACGAATCCTGAGTTGTTA\nTGCTGGTGAAGAATTCCAACCTGCTGATACTCCTTGTATTTAGTATCGTCAACCACTTGC\nCGGCTCATGGGCTGGAAGTTTCTGAAGAACGAGTACATGCGGTCCTTGTAGCTTTCTGGA\nATGTAGAAGCCCTGGTAGCCAATATTGTAGTTGGCCAACATCTGCACCAGGAACCAGTCC\nTTGGTCATGTTGCACTGAGCTACGTTGTAGCCCTCCCCGTCAACTGAGCGTTTAATCTCA\nAACTCATTGGGAGTAAGCAGGCGGTCGTTGCCCGGCCAGCTAACAGAAGAGTCAAAGGTA\nATGGCCACCTTCTTAAAGGTGTGATTAAGATAGAAGGTTCCGTCAAGGTATGGTATGGAG\nCCAGAGTAGGTGTAGTAAGGGTCGTAGCCTGATCCCAGTGAAGGGGTTTCCTTTGTCTTC\nAAGCGTGTGAAGGCCCAACCGCGAAATGCTGCCCAGTTGCGCGATGGGATGGAGATGGGC\nACGTTGGTGGCGTTGGCGGGTATGGGGTATAGCATGTTGGCGGCGGAAAGGTAGTCATTA\nAAGGACTGGTCGTTGGTGTC"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human adenovirus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolate 1896/08",
-        "EVORAO:serotype": "Type 2",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-02791",
-      "search:title": "Human Mastadenovirus C, Type 2",
-      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 2 (isolate 1896/08) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
-      "search:taxonLabel": "Human mastadenovirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Patient, throat swab",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Human adenovirus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-02903",
-      "@id": "urn:evorao:EVA:UL:007V-02903",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-b-type-3-15",
-      "dcterms:issued": "2018-05-21T10:41:15+02:00",
-      "dcterms:modified": "2021-05-27T15:19:41+02:00",
-      "dcterms:title": "Human Mastadenovirus B, Type 3",
-      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus B, Type 3 (isolate 1811/08) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
-      "EVORAO:unitDefinition": "1000 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2008-06-30",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
-      "EVORAO:passage": "2nd passage",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "A549"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": [
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "Patient"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "throat swab"
-        }
-      ],
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "A549",
-        "Adenovirus",
-        "AdV 3",
-        "Category B",
-        "UN3373",
-        "Human mastadenovirus 3",
-        "Human virus",
-        "Patient",
-        "respiratory virus",
-        "RG3",
-        "Slovenia",
-        "throat swab",
-        "Dry ice",
-        "Human mastadenovirus B"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2008-06-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "GATAAAGCAGGGTGGGCTCATCCATGGGATCCACCTCAAAAGTCATGTCCAGCGCATGGG\nCTGAGTTGGCATAGAGCATGTTCTGTCCCAGGTCGGTAAGGGCCCCCATGGACATGAAGT\nTGCTGGAGAAGGGAATGCGCCACATGGTCCTGTCGCACAGGAACTTTTTCTGGGTAACAC\nTCTTAACGGCAGTAGTTCCGATGAGCGGGTATGGATAATTGGCTGGGTAAGGTTCCCCTT\nGTCTCATAGTAGGTGCAAGGTACCCTACAAAGCCAGAGTTGTTGTGTTGGTATGGTAAGG\nTGACGGCTTTGTAGTCAGTGTAATTAACCTCATCAACCACCTGCCTGCTCATAGGCTGGA\nAGTTTCTGAAAAAAGAGTACATGCGATCCTTGTATCCCTCAGGGATGTAAAAGCCCTGGT\nAGCCAATGTTGTAGTTGGCAAGCATCTGAACTAGGAACCAGTCTTTGGTCATGTTGCATT\nGTGCCACGTTGTATCCTTCCCCGTCCACAGTGCGCTTGATTTCAAACTCATTTGGGCTCA\nACAGCCTGTCATTGCCAGGCCAGCTGACTGAGGAGTCAAACATGATGGAGACCTTCTTGA\nAAGTGTGGTTAAGGTAGAAGGTGCCATCCAGGTAGGGAATAGATCCAGAATATACGAAGT\nAAGGATCAAACCCTGATCCAAGAGATGGAGTCTCCTTGGTTTTGAGCCTGGTGAAGGACC\nAGCCCCTGAAGGCTGCCCAGTTGCGAGATGGGATGGAAATTGGAATGTTGGTTGCATTGG\nCAGGAATGGGGTAAAGCATGTTAGCTGCAGAGAGGTAGTCGTTAAATGACTGATCAT"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human mastadenovirus 3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolate 1811/08",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-02903",
-      "search:title": "Human Mastadenovirus B, Type 3",
-      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus B, Type 3 (isolate 1811/08) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
-      "search:taxonLabel": "Human mastadenovirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Patient, throat swab",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Human mastadenovirus 3"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-02829",
-      "@id": "urn:evorao:EVA:UL:007V-02829",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-2-14",
-      "dcterms:issued": "2018-04-06T10:26:12+02:00",
-      "dcterms:modified": "2021-05-27T15:19:03+02:00",
-      "dcterms:title": "Human Mastadenovirus C, Type 2",
-      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 2 (isolate 1762/08) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
-      "EVORAO:unitDefinition": "1000 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2008-06-26",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
-      "EVORAO:passage": "1st passage",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "A549"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": [
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "Patient"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "throat swab"
-        }
-      ],
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "A549",
-        "Adenovirus",
-        "AdV2",
-        "Category B",
-        "UN3373",
-        "Human adenovirus 2",
-        "Human mastadenovirus",
-        "Human virus",
-        "Patient",
-        "RG2",
-        "Slovenia",
-        "throat swab",
-        "Dry ice",
-        "Human mastadenovirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2008-06-26",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "GGTTTAGCTTGTGTTTCTGCATTGTCTGATCCTATTTGTAGCCCGCTTTTTGTAATTGTT\nTCTCCAGACAAAGGAGCCTGGGCATAGACATGTGTTTTCTTAGTAGCCTGATCTCGAGCG\nTTTTGCTCTTCTTCTTCCTCTTCTTCATCTTCATCTTCCTCTTCTTCATCCTCGGCAACT\nGCCCGGCCGCTATCTTCGGTTTGTTCCCACTCACAGGAGTTAGGAGCGCCCTTGGGAGCT\nAGAGCGTTGTAGGCAGTGCCGGAGTAGGGCTTAAAAGTAGGCCCCCTGTCCAGCACGCCG\nCGGATGTCAAAGTACGTGGAAGCCATATCAAGCACACGGTTGTCACCCACAGCCAGGGTG\nAACCGCGCTTTGTACGAGTACGCGGTATCCTCGCGGTCCACGGGGATAAACCGCAGCGTC\nAAACGCTGAGACCGGTCTGTGGTTACGTCGTGCGTAGGTGCCACCGTGGGGTTTCTAAAC\nTTGTTATTCAGGCTGAAGTACGTCTCGGTGGCGCGGGCAAACTGCACCAGCCCGGG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human adenovirus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolate 1762/08",
-        "EVORAO:serotype": "Type 2",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-02829",
-      "search:title": "Human Mastadenovirus C, Type 2",
-      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 2 (isolate 1762/08) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
-      "search:taxonLabel": "Human mastadenovirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Patient, throat swab",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Human adenovirus 2"
     }
   ]
 }

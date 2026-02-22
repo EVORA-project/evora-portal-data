@@ -22,6 +22,1279 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "ERASMUS-MC"
       },
+      "EVORAO:refSku": "011S-03091",
+      "@id": "urn:evorao:EVA:ERASMUS-MC:011S-03091",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/mers-coronavirus-serological-testing-0",
+      "dcterms:issued": "2018-08-14T14:59:39+02:00",
+      "dcterms:modified": "2020-05-20T17:22:34+02:00",
+      "dcterms:title": "MERS-coronavirus serological testing",
+      "dcterms:description": "In this 2-day course the basic principles of routine virus neutralization and ELISA assays will be addressed by a combination of lectures, demonstration and hands-on training. Special attention will be given to quality control and assay validation. Topics include: cell culture, biosafety procedures, preparation of sera and virus stocks, ELISA and microarray formats, different virus neutralization tests using pseudotyped viruses and wildtype viruses, immunofluorescence staining of cells, calculation of titers, assay validation and quality control.",
+      "EVORAO:unitDefinition": "2 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL3",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "ERASMUS-MC"
+      },
+      "dcat:keyword": [
+        "Service",
+        "ERASMUS-MC",
+        "Derived product",
+        "Coronavirus",
+        "diagnostics",
+        "MERS",
+        "MERS-CoV",
+        "RG3",
+        "serology",
+        "Middle East respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "MERS-CoV"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Middle East respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "011S-03091",
+      "search:title": "MERS-coronavirus serological testing",
+      "search:description": "In this 2-day course the basic principles of routine virus neutralization and ELISA assays will be addressed by a combination of lectures, demonstration and hands-on training. Special attention will be given to quality control and assay validation. Topics include: cell culture, biosafety procedures, preparation of sera and virus stocks, ELISA and microarray formats, different virus neutralization tests using pseudotyped viruses and wildtype viruses, immunofluorescence staining of cells, calculation of titers, assay validation and quality control.",
+      "search:taxonLabel": "Middle East respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "ERASMUS-MC",
+      "search:providerName": "ERASMUS-MC",
+      "search:pathogenName": "MERS-CoV"
+    },
+    {
+      "@type": "EVORAO:Bundle",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "100B-03867",
+      "@id": "urn:evorao:EVA:CUB:100B-03867",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/diagnostics-controls-wuhan-coronavirus-2019-2019-ncov",
+      "dcterms:issued": "2020-01-16T11:17:37+01:00",
+      "dcterms:modified": "2020-05-20T16:58:33+02:00",
+      "dcterms:title": "Diagnostics controls for Wuhan coronavirus 2019 / 2019-nCoV",
+      "dcterms:description": "The in vitro transcribed RNA is the control for the first-line screening assay termed E gene assay. The SARS-CoV full virus RNA is required to control the two confirmatory assays. Dislaimer: Import permit maybe be needed in your country for the SARS-CoV full virus RNA. If yes, please indicate so in your online enquiry.",
+      "EVORAO:unitDefinition": "1 x 100 µl for each product in this bundle",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "bundle"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "nucleic acid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        }
+      ],
+      "EVORAO:unitCost": 718,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "skos:note": "Dislaimer: Import permit maybe be needed in your country for the SARS-CoV full virus RNA. If yes, please indicate so in your online enquiry.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Bundle_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:itemsOfTheBundle": [
+        {
+          "@id": "urn:evorao:EVA:CUB:026N-03866",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "026N-03866",
+          "dcterms:title": "Wuhan coronavirus 2019 E gene control"
+        },
+        {
+          "@id": "urn:evorao:EVA:CUB:004N-02005",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "004N-02005",
+          "dcterms:title": "SARS-CoV Frankfurt 1 RNA"
+        }
+      ],
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "Viral RNA",
+        "CUB",
+        "Diagnostic reagent",
+        "Bundle",
+        "Derived product",
+        "2019-nCoV",
+        "NON DANGEROUS GOODS",
+        "novelCoV",
+        "RG1",
+        "SARS coronavirus Frankfurt 1",
+        "SARS-related",
+        "Wuhan Coronavirus 2019 (2019-nCoV)",
+        "WuhanPneumonia",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "bundle",
+      "search:additionalCategory": [
+        "derived product",
+        "nucleic acid",
+        "in vitro transcript",
+        "viral RNA",
+        "diagnostic reagent"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Wuhan Coronavirus 2019 (2019-nCoV)"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "SARS coronavirus Frankfurt 1"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "100B-03867",
+      "search:title": "Diagnostics controls for Wuhan coronavirus 2019 / 2019-nCoV",
+      "search:description": "The in vitro transcribed RNA is the control for the first-line screening assay termed E gene assay. The SARS-CoV full virus RNA is required to control the two confirmatory assays. Dislaimer: Import permit maybe be needed in your country for the SARS-CoV full virus RNA. If yes, please indicate so in your online enquiry.",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Wuhan Coronavirus 2019 (2019-nCoV), SARS coronavirus Frankfurt 1"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FoHM"
+      },
+      "EVORAO:refSku": "012K-03928",
+      "@id": "urn:evorao:EVA:FoHM:012K-03928",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/sars-cov-2-2019-ncov-if-slides",
+      "dcterms:issued": "2020-03-25T10:58:36+01:00",
+      "dcterms:modified": "2020-05-20T14:55:15+02:00",
+      "dcterms:title": "SARS-CoV-2 (2019-nCoV) IF-slides",
+      "dcterms:description": "IF-slides to detect anti-nCoV antibodies by Immunofluorescence assay. The slides were prepared by infecting Vero cells with the first Swedish SARS-CoV-2 isolate (SARS-CoV-2/01/human/2020/SWE). The virus is fully sequenced (Genebank accession: MT093571). The slides are fixated in acetone, air-dried and preserved at -80°C. IF-analysis tested positive with SARS-CoV-2 infected human sera.",
+      "EVORAO:unitDefinition": "12-well slide",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "IFA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 205.85,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:previouslyKnownAs": "2019-nCoV",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/SARS-CoV-2_FoHM.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificity": "immunostaining with SARS-CoV-2 infected human sera",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Ethanol -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FoHM"
+      },
+      "dcat:keyword": [
+        "IFA",
+        "Detection Kit (for RUO)",
+        "FoHM",
+        "Derived product",
+        "2019-nCoV",
+        "coronavirus-2019",
+        "COVID-19",
+        "hCoV-19",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "SARS-CoV-2",
+        "Dry ice",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "IFA",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "SARS-CoV-2/01/human/2020/SWE"
+      },
+      "search:sku": "012K-03928",
+      "search:title": "SARS-CoV-2 (2019-nCoV) IF-slides",
+      "search:description": "IF-slides to detect anti-nCoV antibodies by Immunofluorescence assay. The slides were prepared by infecting Vero cells with the first Swedish SARS-CoV-2 isolate (SARS-CoV-2/01/human/2020/SWE). The virus is fully sequenced (Genebank accession: MT093571). The slides are fixated in acetone, air-dried and preserved at -80°C. IF-analysis tested positive with SARS-CoV-2 infected human sera.",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FoHM",
+      "search:providerName": "FoHM",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-03905",
+      "@id": "urn:evorao:EVA:AMU:001K-03905",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/sars-cov-2-rdrp-gene-stabilized-rna-positive-control-shipping-room-temperature",
+      "dcterms:issued": "2020-03-17T10:17:30+01:00",
+      "dcterms:modified": "2020-05-20T14:54:40+02:00",
+      "dcterms:title": "SARS-CoV-2 RdRp gene stabilized RNA as positive control: shipping at Room Temperature",
+      "dcterms:description": "Lyophilized encapsidated RNA for SARS-CoV-2 (2019-nCoV) real time RT-PCR targeting region of the RdRp gene, for 25 Rxns (Target designed by Charité Universitätsmedizin Berlin). \r\nThe encapsidated RNA has been stabilized to serve as positive control for extraction and real time RT-PCR. Extraction is mandatory before use in real time RT-PCR. SOPs in the attached pdf. \r\nFor RUO (Research Use Only)",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 50,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/ArRNASOP.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "RdRp gene of the SARS-CoV-2",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "2019-nCoV",
+        "Armored RNA",
+        "Coronavirus",
+        "Diagnostic reagent",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "SARS-CoV-2",
+        "Wuhan",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "001K-03905",
+      "search:title": "SARS-CoV-2 RdRp gene stabilized RNA as positive control: shipping at Room Temperature",
+      "search:description": "Lyophilized encapsidated RNA for SARS-CoV-2 (2019-nCoV) real time RT-PCR targeting region of the RdRp gene, for 25 Rxns (Target designed by Charité Universitätsmedizin Berlin). \r\nThe encapsidated RNA has been stabilized to serve as positive control for extraction and real time RT-PCR. Extraction is mandatory before use in real time RT-PCR. SOPs in the attached pdf. \r\nFor RUO (Research Use Only)",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-03884",
+      "@id": "urn:evorao:EVA:AMU:001K-03884",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/2019-ncov-e-gene-stabilized-rna-positive-control-shipping-room-temperature",
+      "dcterms:issued": "2020-02-04T15:46:48+01:00",
+      "dcterms:modified": "2020-05-20T14:49:09+02:00",
+      "dcterms:title": "2019-nCoV E gene stabilized RNA as positive control: shipping at Room Temperature",
+      "dcterms:description": "Lyophilized encapsidated RNA for SARS-CoV-2 (2019-nCoV) real time RT-PCR targeting region of the E gene, for 100 Rxns (Target designed by Charité Universitätsmedizin Berlin ; https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf). \r\nThe encapsidated RNA has been stabilized to serve as positive control for extraction and real time RT-PCR. Extraction is mandatory before use in real time RT-PCR. SOPs in the attached pdf. \r\nFor RUO (Research Use Only)",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:previouslyKnownAs": "2019-nCoV",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/ArRNASOP%20final_0.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "E gene of the SARS-CoV-2",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "2019-nCoV",
+        "Armored RNA",
+        "Coronavirus",
+        "Diagnostic reagent",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "SARS-CoV-2",
+        "Wuhan",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "001K-03884",
+      "search:title": "2019-nCoV E gene stabilized RNA as positive control: shipping at Room Temperature",
+      "search:description": "Lyophilized encapsidated RNA for SARS-CoV-2 (2019-nCoV) real time RT-PCR targeting region of the E gene, for 100 Rxns (Target designed by Charité Universitätsmedizin Berlin ; https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf). \r\nThe encapsidated RNA has been stabilized to serve as positive control for extraction and real time RT-PCR. Extraction is mandatory before use in real time RT-PCR. SOPs in the attached pdf. \r\nFor RUO (Research Use Only)",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "003S-03900",
+      "@id": "urn:evorao:EVA:CUB:003S-03900",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/sars-cov-2-diagnostic-training",
+      "dcterms:issued": "2020-02-20T11:27:54+01:00",
+      "dcterms:modified": "2020-02-20T11:27:54+01:00",
+      "dcterms:title": "SARS-CoV-2 diagnostic training",
+      "dcterms:description": "SARS-CoV-2 diagnostic training, including differential diagnostics of human Coronaviruses and other respiratory pathogens, incl. BSL-2 and BLS-3 conditions.",
+      "EVORAO:unitDefinition": "2 week training.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 10000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "CUB",
+        "Service",
+        "Derived product",
+        "Viruses",
+        "No RG",
+        "SARS-CoV-2",
+        "Training"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "003S-03900",
+      "search:title": "SARS-CoV-2 diagnostic training",
+      "search:description": "SARS-CoV-2 diagnostic training, including differential diagnostics of human Coronaviruses and other respiratory pathogens, incl. BSL-2 and BLS-3 conditions.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IP"
+      },
+      "EVORAO:refSku": "014S-03059",
+      "@id": "urn:evorao:EVA:IP:014S-03059",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/institut-pasteur-paris-management-biosafety-and-biosecurity-bsl3-containment-facilities",
+      "dcterms:issued": "2018-07-10T17:00:56+02:00",
+      "dcterms:modified": "2019-10-21T16:00:35+02:00",
+      "dcterms:title": "Institut Pasteur Paris - Management of biosafety and biosecurity in BSL3 containment facilities. The access will comprise a detailed theoretical and, subject to availability, practical application of the biosafety and biosecurity management of BSL3 in Ins",
+      "dcterms:description": "Institut Pasteur Paris - Access to BSL 3 containment facility. The access will comprise a detailed theoretical and subject to availability practical application of the biosafety and biosecurity management at Institut Pasteur. Among others, establishment and validation of suitable decontamination methods for waist, rooms and material, as well as documentation and information management will be addressed.",
+      "EVORAO:unitDefinition": "3 weeks",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 3000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IP"
+      },
+      "dcat:keyword": [
+        "Service",
+        "Derived product",
+        "IP",
+        "Viruses",
+        "Any virus",
+        "biosafety biosecurity BSL3 management",
+        "RG3"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "014S-03059",
+      "search:title": "Institut Pasteur Paris - Management of biosafety and biosecurity in BSL3 containment facilities. The access will comprise a detailed theoretical and, subject to availability, practical application of the biosafety and biosecurity management of BSL3 in Ins",
+      "search:description": "Institut Pasteur Paris - Access to BSL 3 containment facility. The access will comprise a detailed theoretical and subject to availability practical application of the biosafety and biosecurity management at Institut Pasteur. Among others, establishment and validation of suitable decontamination methods for waist, rooms and material, as well as documentation and information management will be addressed.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "IP",
+      "search:providerName": "IP",
+      "search:pathogenName": "Any virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ERASMUS-MC"
+      },
+      "EVORAO:refSku": "011S-03674",
+      "@id": "urn:evorao:EVA:ERASMUS-MC:011S-03674",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/protein-microarray-training",
+      "dcterms:issued": "2019-09-03T11:15:59+02:00",
+      "dcterms:modified": "2019-09-03T11:15:59+02:00",
+      "dcterms:title": "Protein microarray training",
+      "dcterms:description": "In this 3-day course the basic principles of the protein microarray will be addressed by a combination of lectures, demonstration and hands-on training. The protein microarray technique can be used for HA antibody profiling for group level assessment of exposures to influenza viruses in small sample volumes from humans and animals (birds, horses, pigs, bats, carnivores a.o.).  The training encompasses wet lab training but also the analysis and interpretation of assay results. Special attention will be given to specific issues of Influenza and flavivirus cross reactivity. Specific issues include: principles of a non‐contact spotting machine (Piezorray, Perkin Elmer), principles of microarray multiplex serological testing,  antigen selection, practical wet lab training for testing protein microarray slides, analysis and interpretation of the results, issues with cross reactivity.",
+      "EVORAO:unitDefinition": "1 training, 3 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "ELISA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "IFA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 1500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "ERASMUS-MC"
+      },
+      "EVORAO:doi": "10.1093/infdis/jiz032, 10.1371/journal.pone.0127035, 10.1371/journal.pone.0108043, 10.1111/j.1469-0691.2011.03701.x",
+      "dcat:keyword": [
+        "ELISA",
+        "IFA",
+        "Detection Kit (for RUO)",
+        "Service",
+        "ERASMUS-MC",
+        "Derived product",
+        "Viruses",
+        "10.1093/infdis/jiz032",
+        "10.1111/j.1469-0691.2011.03701.x",
+        "10.1371/journal.pone.0108043",
+        "10.1371/journal.pone.0127035",
+        "Any virus (see additrional information)",
+        "arbovirus",
+        "Diagnostic",
+        "Flavivirus",
+        "Influenza",
+        "multiplex",
+        "No RG",
+        "screening",
+        "serology",
+        "Training",
+        "Workshop"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "detection kit (for RUO)",
+        "ELISA",
+        "IFA",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus (see additrional information)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "011S-03674",
+      "search:title": "Protein microarray training",
+      "search:description": "In this 3-day course the basic principles of the protein microarray will be addressed by a combination of lectures, demonstration and hands-on training. The protein microarray technique can be used for HA antibody profiling for group level assessment of exposures to influenza viruses in small sample volumes from humans and animals (birds, horses, pigs, bats, carnivores a.o.).  The training encompasses wet lab training but also the analysis and interpretation of assay results. Special attention will be given to specific issues of Influenza and flavivirus cross reactivity. Specific issues include: principles of a non‐contact spotting machine (Piezorray, Perkin Elmer), principles of microarray multiplex serological testing,  antigen selection, practical wet lab training for testing protein microarray slides, analysis and interpretation of the results, issues with cross reactivity.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "ERASMUS-MC",
+      "search:providerName": "ERASMUS-MC",
+      "search:pathogenName": "Any virus (see additrional information)"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026S-03669",
+      "@id": "urn:evorao:EVA:CUB:026S-03669",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/diagnostic-training-zooonotic-viruses-under-bsl-2bsl-3-conditions",
+      "dcterms:issued": "2019-07-15T09:22:50+02:00",
+      "dcterms:modified": "2019-07-15T09:22:50+02:00",
+      "dcterms:title": "Diagnostic training in zooonotic viruses under BSL-2/BSL-3 conditions",
+      "dcterms:description": "Diagnostic training in zooonotic viruses under BSL-2/BSL-3 conditions at the Institute of Virology - Charité Universitätsmedizin Berlin, Germany.",
+      "EVORAO:unitDefinition": "2 week training.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 10000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "CUB",
+        "Service",
+        "Derived product",
+        "Viruses",
+        "BSL 3 Laboratory Training",
+        "No RG",
+        "Training"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026S-03669",
+      "search:title": "Diagnostic training in zooonotic viruses under BSL-2/BSL-3 conditions",
+      "search:description": "Diagnostic training in zooonotic viruses under BSL-2/BSL-3 conditions at the Institute of Virology - Charité Universitätsmedizin Berlin, Germany.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Viruses"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026S-03657",
+      "@id": "urn:evorao:EVA:CUB:026S-03657",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/arbovirus-diagnostics-training",
+      "dcterms:issued": "2019-06-26T14:36:47+02:00",
+      "dcterms:modified": "2019-06-26T14:36:47+02:00",
+      "dcterms:title": "Arbovirus diagnostics training",
+      "dcterms:description": "Comparative arbovirus diagnostics training, including molecular and serologic techniques under BSL-2 and BSL-3 conditions",
+      "EVORAO:unitDefinition": "2 week training.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 10000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "CUB",
+        "Service",
+        "Derived product",
+        "Viruses",
+        "Arboviruses",
+        "BSL 3 Laboratory Training",
+        "No RG",
+        "Training"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Arboviruses"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026S-03657",
+      "search:title": "Arbovirus diagnostics training",
+      "search:description": "Comparative arbovirus diagnostics training, including molecular and serologic techniques under BSL-2 and BSL-3 conditions",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Arboviruses"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026S-02847",
+      "@id": "urn:evorao:EVA:CUB:026S-02847",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/vero-c20-dl3-virus-isolation-set",
+      "dcterms:issued": "2018-04-18T12:17:06+02:00",
+      "dcterms:modified": "2019-05-15T13:26:30+02:00",
+      "dcterms:title": "Vero C20-dL3 virus isolation set",
+      "dcterms:description": "Kidney cells (epithelial)/ fibroblast–like, origin: Chlorocebus sabaeus (African green monkey); CRISPR/Cas9-engineered IFN-Lambda deficient phenotype",
+      "EVORAO:unitDefinition": "2 x vials with approx. 1 x 10e6 cells: 1x Vero C20-dL3 cell line, 1x parental cell line.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 15000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "CUB",
+        "Service",
+        "Derived product",
+        "Viruses",
+        "Any virus",
+        "kidney cells (epithelial)/ fibroblast–like",
+        "No RG",
+        "origin: Chlorocebus sabaeus (African green monkey)"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026S-02847",
+      "search:title": "Vero C20-dL3 virus isolation set",
+      "search:description": "Kidney cells (epithelial)/ fibroblast–like, origin: Chlorocebus sabaeus (African green monkey); CRISPR/Cas9-engineered IFN-Lambda deficient phenotype",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Any virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ERASMUS-MC"
+      },
+      "EVORAO:refSku": "011S-03365",
+      "@id": "urn:evorao:EVA:ERASMUS-MC:011S-03365",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/course-sequencing-sequence-analysis-0",
+      "dcterms:issued": "2018-11-12T16:57:05+01:00",
+      "dcterms:modified": "2018-11-12T16:57:05+01:00",
+      "dcterms:title": "Course: From sequencing to sequence analysis",
+      "dcterms:description": "This five-day course includes two modules that can be attended separately. In the first module (Ref-SKU: 011S-02851), the basic principles of routine virus typing that can be used for hospital epidemiology and public health will be addressed by a combination of lectures, demonstration and hands-on training. Participants will visit the Viroscience clinical virology lab, where they will perform all required laboratory and analysis procedures for routine typing of viruses. Typing of enteroviruses will be used as an example, but the general procedures are applicable to typing of other viruses also. After this module participants should have sufficient knowledge to introduce routine typing of viruses in their own laboratory. Special attention will be given to quality control and assay validation. Topics included: - PCR workflow - Nucleic Acid isolation - Reverse transcription and PCR - Sequencing and sequence analysis - Basic phylogeny for virus typing - Assay validation and Quality control in molecular diagnostics The second module is a hands-on three-day course which focuses on the analysis of sequences. After completion of the second analytical module, participants will be able to i) understand the statistical and biological background of sequence analysis including BLAST and phylogenetic approaches including neighbour-joining, maximum likelihood and BEAST analysis, and ii) to independently perform and evaluate complex sequence analysis. Participants are invited to work under supervision on their own sequences.",
+      "EVORAO:unitDefinition": "5 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "ERASMUS-MC"
+      },
+      "dcat:keyword": [
+        "Service",
+        "ERASMUS-MC",
+        "Derived product",
+        "Viruses",
+        "- Assay validation",
+        "Any virus",
+        "Basic phylogeny",
+        "molecular diagnostics",
+        "Nucleic Acid isolation",
+        "PCR",
+        "PCR workflow",
+        "Quality control",
+        "Reverse transcription",
+        "RG2",
+        "sequence analysis",
+        "Sequencing"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "011S-03365",
+      "search:title": "Course: From sequencing to sequence analysis",
+      "search:description": "This five-day course includes two modules that can be attended separately. In the first module (Ref-SKU: 011S-02851), the basic principles of routine virus typing that can be used for hospital epidemiology and public health will be addressed by a combination of lectures, demonstration and hands-on training. Participants will visit the Viroscience clinical virology lab, where they will perform all required laboratory and analysis procedures for routine typing of viruses. Typing of enteroviruses will be used as an example, but the general procedures are applicable to typing of other viruses also. After this module participants should have sufficient knowledge to introduce routine typing of viruses in their own laboratory. Special attention will be given to quality control and assay validation. Topics included: - PCR workflow - Nucleic Acid isolation - Reverse transcription and PCR - Sequencing and sequence analysis - Basic phylogeny for virus typing - Assay validation and Quality control in molecular diagnostics The second module is a hands-on three-day course which focuses on the analysis of sequences. After completion of the second analytical module, participants will be able to i) understand the statistical and biological background of sequence analysis including BLAST and phylogenetic approaches including neighbour-joining, maximum likelihood and BEAST analysis, and ii) to independently perform and evaluate complex sequence analysis. Participants are invited to work under supervision on their own sequences.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "ERASMUS-MC",
+      "search:providerName": "ERASMUS-MC",
+      "search:pathogenName": "Any virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ERASMUS-MC"
+      },
+      "EVORAO:refSku": "011S-03364",
+      "@id": "urn:evorao:EVA:ERASMUS-MC:011S-03364",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/course-sequencing-sequence-analysis",
+      "dcterms:issued": "2018-11-12T16:56:38+01:00",
+      "dcterms:modified": "2018-11-12T16:56:38+01:00",
+      "dcterms:title": "Course: From sequencing to sequence analysis",
+      "dcterms:description": "This five-day course includes two modules that can be attended separately. In the first module (Ref-SKU: 011S-02851), the basic principles of routine virus typing that can be used for hospital epidemiology and public health will be addressed by a combination of lectures, demonstration and hands-on training. Participants will visit the Viroscience clinical virology lab, where they will perform all required laboratory and analysis procedures for routine typing of viruses. Typing of enteroviruses will be used as an example, but the general procedures are applicable to typing of other viruses also. After this module participants should have sufficient knowledge to introduce routine typing of viruses in their own laboratory. Special attention will be given to quality control and assay validation. Topics included: - PCR workflow - Nucleic Acid isolation - Reverse transcription and PCR - Sequencing and sequence analysis - Basic phylogeny for virus typing - Assay validation and Quality control in molecular diagnostics The second module is a hands-on three-day course which focuses on the analysis of sequences. After completion of the second analytical module, participants will be able to i) understand the statistical and biological background of sequence analysis including BLAST and phylogenetic approaches including neighbour-joining, maximum likelihood and BEAST analysis, and ii) to independently perform and evaluate complex sequence analysis. Participants are invited to work under supervision on their own sequences.",
+      "EVORAO:unitDefinition": "5 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "ERASMUS-MC"
+      },
+      "dcat:keyword": [
+        "Service",
+        "ERASMUS-MC",
+        "Derived product",
+        "Viruses",
+        "- Assay validation",
+        "Any virus",
+        "Basic phylogeny",
+        "molecular diagnostics",
+        "Nucleic Acid isolation",
+        "PCR",
+        "PCR workflow",
+        "Quality control",
+        "Reverse transcription",
+        "RG2",
+        "sequence analysis",
+        "Sequencing"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "011S-03364",
+      "search:title": "Course: From sequencing to sequence analysis",
+      "search:description": "This five-day course includes two modules that can be attended separately. In the first module (Ref-SKU: 011S-02851), the basic principles of routine virus typing that can be used for hospital epidemiology and public health will be addressed by a combination of lectures, demonstration and hands-on training. Participants will visit the Viroscience clinical virology lab, where they will perform all required laboratory and analysis procedures for routine typing of viruses. Typing of enteroviruses will be used as an example, but the general procedures are applicable to typing of other viruses also. After this module participants should have sufficient knowledge to introduce routine typing of viruses in their own laboratory. Special attention will be given to quality control and assay validation. Topics included: - PCR workflow - Nucleic Acid isolation - Reverse transcription and PCR - Sequencing and sequence analysis - Basic phylogeny for virus typing - Assay validation and Quality control in molecular diagnostics The second module is a hands-on three-day course which focuses on the analysis of sequences. After completion of the second analytical module, participants will be able to i) understand the statistical and biological background of sequence analysis including BLAST and phylogenetic approaches including neighbour-joining, maximum likelihood and BEAST analysis, and ii) to independently perform and evaluate complex sequence analysis. Participants are invited to work under supervision on their own sequences.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "ERASMUS-MC",
+      "search:providerName": "ERASMUS-MC",
+      "search:pathogenName": "Any virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ERASMUS-MC"
+      },
       "EVORAO:refSku": "011S-03120",
       "@id": "urn:evorao:EVA:ERASMUS-MC:011S-03120",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/serological-tools-detect-arbo-viruses",

@@ -17,6 +17,1514 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019V-05585",
+      "@id": "urn:evorao:EVA:HPI:019V-05585",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-echovirus-7-greece",
+      "dcterms:issued": "2024-01-04T18:24:40+01:00",
+      "dcterms:modified": "2024-01-04T18:24:40+01:00",
+      "dcterms:title": "Human echovirus 7, Greece",
+      "dcterms:description": "Echovirus 7, strain HPI/E-7/GR",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2020-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Greece"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P2",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD   (rhabdomyosarcoma)"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E8.2 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human isolate (stool sample)"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Athens"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Greece"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "HPI",
+        "Athens",
+        "Category B",
+        "UN3373",
+        "Echovirus E-7",
+        "Greece",
+        "Human echovirus 7",
+        "Human isolate (stool sample)",
+        "Human virus",
+        "RD   (rhabdomyosarcoma)",
+        "RG2",
+        "Dry ice",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2020-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "> 019V-05585 | HPI/E-7/GR\nTGGTGGGTGAGTGGCGGCATATCTTGTGCTATGCTAGTCCCAGGTAGTTGTCTACTTGTGATTACAAACGTGATTTCCAT\nATCAAATCTCATGTATGTAAACAGCTCAAACTTTCTCCTCAATTGCACCATTCTTCTGGCATTTATTGTCCACGACATGT\nACCTATTAACATTGTCTTGGTCCTTGGTGTAGTACTCTTCGATGTACACACAAGCGGAGCGACTTAGAAAGTTTTCCACG\nGTTGACTCAGAACGCGAGTGGTAGTTTTTGACATGTCTAGTCTGCATTGTATCGCTGGAC"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human echovirus 7"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": "Human Echovirus type 7",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "019V-05585",
+      "search:title": "Human echovirus 7, Greece",
+      "search:description": "Echovirus 7, strain HPI/E-7/GR",
+      "search:taxonLabel": "Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Human isolate (stool sample)",
+      "search:collectionName": "HPI",
+      "search:countryOfCollection": "Greece",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Human echovirus 7"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019V-05584",
+      "@id": "urn:evorao:EVA:HPI:019V-05584",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-echovirus-5-greece",
+      "dcterms:issued": "2024-01-04T18:21:40+01:00",
+      "dcterms:modified": "2024-01-04T18:21:40+01:00",
+      "dcterms:title": "Human echovirus 5, Greece",
+      "dcterms:description": "Echovirus 5, strain HPI/E-5/GR",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2020-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Greece"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P2",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD   (rhabdomyosarcoma)"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E8.7 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human isolate (stool sample)"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Athens"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Greece"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "HPI",
+        "Athens",
+        "Category B",
+        "UN3373",
+        "Echovirus E-5",
+        "Greece",
+        "Human echovirus 5",
+        "Human isolate (stool sample)",
+        "Human virus",
+        "RD   (rhabdomyosarcoma)",
+        "RG2",
+        "Dry ice",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2020-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "> 019V-05584 | HPI/E-5/GR\nACATAATTTGGTGGGTAAGAACAGGCATATCCTGGTTTAGTTTGGGGCCCTGATCCTGTTTGCTGGTTATAACAAATGTA\nACTTCAATATCAAAGCGCAGATATGTGAACATCTCACACTTTCTACGTAGTTGCACCATTTCACGAATGTTGATCTCCCA\nCCTGTCAAACCTGTCCACATCCGTCTTATCGCCCTTCGCGTTGTAATTGGCGATATGCACACATGCTGACCTACTCAGGA\nAATTTTCAATGGTCGACTCGGACCTAGAGTGGAAATTCTGCACATGTCTGGTTTGGATGGTATCACTTGGAACAACT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human echovirus 5"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": "Human Echovirus type 5",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "019V-05584",
+      "search:title": "Human echovirus 5, Greece",
+      "search:description": "Echovirus 5, strain HPI/E-5/GR",
+      "search:taxonLabel": "Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Human isolate (stool sample)",
+      "search:collectionName": "HPI",
+      "search:countryOfCollection": "Greece",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Human echovirus 5"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019V-05583",
+      "@id": "urn:evorao:EVA:HPI:019V-05583",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-echovirus-3-greece",
+      "dcterms:issued": "2024-01-04T18:15:41+01:00",
+      "dcterms:modified": "2024-01-04T18:15:41+01:00",
+      "dcterms:title": "Human echovirus 3, Greece",
+      "dcterms:description": "Echovirus 3, strain HPI/E-3/GR",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2020-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Greece"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P2",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD   (rhabdomyosarcoma)"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E8.4 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human isolate (stool sample)"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Athens"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Greece"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "HPI",
+        "Athens",
+        "Category B",
+        "UN3373",
+        "Echovirus E-3",
+        "Greece",
+        "Human echovirus 3",
+        "Human isolate (stool sample)",
+        "Human virus",
+        "RD   (rhabdomyosarcoma)",
+        "RG2",
+        "Dry ice",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2020-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "> 019V-05583 | HPI/E-3/GR\nTACATGAGCTGATGAGTTAGTACAGGCATATCTTGTGCCAATTGTGTCCCAGGATCTTGTGTGCTTGTGATCACAAATGT\nGATTTCCATGTCAAAGCGCAAGTATGTGAAGAGCTCAAATTTCCTCCTGAGCTGCACCATTTGCCTGGTGTTTATCCTCC\nAACTTGCATATCGCTCTGTGGGTGTTCCACCAGCTGATTTGTATGTTGTTATATACACGCACGCAGCCCTGCACAGGAAG\nTTTTCAATTGATGACTCTGTCCTGGAGTGATAGTTCTTAACATGCCTCGTCTGCATTGTGTCACCAGGAACGACCTGTGA\nGGTGTGGCC"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human echovirus 3"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": "Human Echovirus type 3",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "019V-05583",
+      "search:title": "Human echovirus 3, Greece",
+      "search:description": "Echovirus 3, strain HPI/E-3/GR",
+      "search:taxonLabel": "Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Human isolate (stool sample)",
+      "search:collectionName": "HPI",
+      "search:countryOfCollection": "Greece",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Human echovirus 3"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05582",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05582",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/peru-tomato-mosaic-virus-ptv-polyclonal-antibodies-dsmz-0183",
+      "dcterms:issued": "2024-01-04T17:02:38+01:00",
+      "dcterms:modified": "2024-01-04T17:02:38+01:00",
+      "dcterms:title": "Peru tomato mosaic virus (PTV) polyclonal antibodies DSMZ AS-0183",
+      "dcterms:description": "Protein A chromatography purified Peru tomato mosaic virus (PTV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Peru tomato mosaic virus",
+        "Plant virus",
+        "S. Winter",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Peru tomato mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Peru tomato mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05582",
+      "search:title": "Peru tomato mosaic virus (PTV) polyclonal antibodies DSMZ AS-0183",
+      "search:description": "Protein A chromatography purified Peru tomato mosaic virus (PTV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Peru tomato mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Peru tomato mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05581",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05581",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/potato-virus-x-pvx-polyclonal-antibodies-dsmz-0126",
+      "dcterms:issued": "2024-01-04T17:01:09+01:00",
+      "dcterms:modified": "2024-01-04T17:01:09+01:00",
+      "dcterms:title": "Potato virus X (PVX) polyclonal antibodies DSMZ AS-0126",
+      "dcterms:description": "Protein A chromatography purified Potato virus X (PVX) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Potato virus X",
+        "S. Winter",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus X"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus X"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05581",
+      "search:title": "Potato virus X (PVX) polyclonal antibodies DSMZ AS-0126",
+      "search:description": "Protein A chromatography purified Potato virus X (PVX) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Potato virus X",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Potato virus X"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05580",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05580",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/potato-virus-v-pvv-polyclonal-antibodies-dsmz-0232",
+      "dcterms:issued": "2024-01-04T17:00:06+01:00",
+      "dcterms:modified": "2024-01-04T17:00:06+01:00",
+      "dcterms:title": "Potato virus V (PVV) polyclonal antibodies DSMZ AS-0232",
+      "dcterms:description": "Protein A chromatography purified Potato virus V (PVV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Potato virus V",
+        "S. Winter",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus V"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus V"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05580",
+      "search:title": "Potato virus V (PVV) polyclonal antibodies DSMZ AS-0232",
+      "search:description": "Protein A chromatography purified Potato virus V (PVV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Potato virus V",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Potato virus V"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05579",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05579",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/raspberry-ringspot-virus-rprsv-polyclonal-antibodies-dsmz-0193",
+      "dcterms:issued": "2024-01-04T16:59:05+01:00",
+      "dcterms:modified": "2024-01-04T16:59:05+01:00",
+      "dcterms:title": "Raspberry ringspot virus (RpRSV) polyclonal antibodies DSMZ AS-0193",
+      "dcterms:description": "Protein A chromatography purified Rice yellow mottle virus (RYMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Raspberry ringspot virus",
+        "S. Winter",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Raspberry ringspot virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Raspberry ringspot virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05579",
+      "search:title": "Raspberry ringspot virus (RpRSV) polyclonal antibodies DSMZ AS-0193",
+      "search:description": "Protein A chromatography purified Rice yellow mottle virus (RYMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Raspberry ringspot virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Raspberry ringspot virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05578",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05578",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/rice-yellow-mottle-virus-rymv-polyclonal-antibodies-dsmz-0732",
+      "dcterms:issued": "2024-01-04T16:58:03+01:00",
+      "dcterms:modified": "2024-01-04T16:58:03+01:00",
+      "dcterms:title": "Rice yellow mottle virus (RYMV) polyclonal antibodies DSMZ AS-0732",
+      "dcterms:description": "Protein A chromatography purified Rice yellow mottle virus (RYMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Rice yellow mottle virus",
+        "S. Winter",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rice yellow mottle virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rice yellow mottle virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05578",
+      "search:title": "Rice yellow mottle virus (RYMV) polyclonal antibodies DSMZ AS-0732",
+      "search:description": "Protein A chromatography purified Rice yellow mottle virus (RYMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Rice yellow mottle virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Rice yellow mottle virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05577",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05577",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/soybean-mosaic-virus-smv-polyclonal-antibodies-dsmz-0543",
+      "dcterms:issued": "2024-01-04T16:56:27+01:00",
+      "dcterms:modified": "2024-01-04T16:56:27+01:00",
+      "dcterms:title": "Soybean mosaic virus (SMV) polyclonal antibodies DSMZ AS-0543",
+      "dcterms:description": "Protein A chromatography purified Soybean mosaic virus (SMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.J. Vetten"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "H.J. Vetten",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology",
+        "Soybean mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Soybean mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Soybean mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05577",
+      "search:title": "Soybean mosaic virus (SMV) polyclonal antibodies DSMZ AS-0543",
+      "search:description": "Protein A chromatography purified Soybean mosaic virus (SMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Soybean mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.J. Vetten",
+      "search:pathogenName": "Soybean mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05576",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05576",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/tobacco-etch-virus-tev-polyclonal-antibodies-dsmz-0138",
+      "dcterms:issued": "2024-01-04T16:55:05+01:00",
+      "dcterms:modified": "2024-01-04T16:55:05+01:00",
+      "dcterms:title": "Tobacco etch virus (TEV) polyclonal antibodies DSMZ AS-0138",
+      "dcterms:description": "Protein A chromatography purified Tobacco etch virus (TEV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "S. Winter",
+        "serological detection",
+        "serology",
+        "Tobacco etch virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Tobacco etch virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tobacco etch virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05576",
+      "search:title": "Tobacco etch virus (TEV) polyclonal antibodies DSMZ AS-0138",
+      "search:description": "Protein A chromatography purified Tobacco etch virus (TEV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Tobacco etch virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Tobacco etch virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05575",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05575",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/zucchini-yellow-mosaic-virus-zymv-polyclonal-antibodies-dsmz-0234",
+      "dcterms:issued": "2024-01-04T16:53:21+01:00",
+      "dcterms:modified": "2024-01-04T16:53:21+01:00",
+      "dcterms:title": "Zucchini yellow mosaic virus (ZYMV) polyclonal antibodies DSMZ AS-0234",
+      "dcterms:description": "Protein A chromatography purified Zucchini yellow mosaic virus (ZYMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.J. Vetten"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "H.J. Vetten",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology",
+        "Zucchini yellow mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zucchini yellow mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zucchini yellow mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05575",
+      "search:title": "Zucchini yellow mosaic virus (ZYMV) polyclonal antibodies DSMZ AS-0234",
+      "search:description": "Protein A chromatography purified Zucchini yellow mosaic virus (ZYMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Zucchini yellow mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.J. Vetten",
+      "search:pathogenName": "Zucchini yellow mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05574",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05574",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/zantedeschia-mosaic-virus-zamv-polyclonal-antibodies-dsmz-0527-cloned-product",
+      "dcterms:issued": "2024-01-04T16:51:53+01:00",
+      "dcterms:modified": "2024-01-04T16:51:53+01:00",
+      "dcterms:title": "Zantedeschia mosaic virus (ZaMV) polyclonal antibodies DSMZ AS-0527 (Cloned product page)",
+      "dcterms:description": "Protein A chromatography purified Zantedeschia mosaic virus (ZaMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "J. Hamacher"
+      },
+      "EVORAO:previouslyKnownAs": "Zantedeschia mosaic virus is regarded as a strain of Konjac mosaic virus",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "J. Hamacher",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology",
+        "Zantedeschia mosaic virus",
+        "Zantedeschia mosaic virus is regarded as a strain of Konjac mosaic virus",
+        "Konjac mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zantedeschia mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Konjac mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05574",
+      "search:title": "Zantedeschia mosaic virus (ZaMV) polyclonal antibodies DSMZ AS-0527 (Cloned product page)",
+      "search:description": "Protein A chromatography purified Zantedeschia mosaic virus (ZaMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Konjac mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "J. Hamacher",
+      "search:pathogenName": "Zantedeschia mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05573",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05573",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/youcai-mosaic-virus-ymov-polyclonal-antibodies-dsmz-0527",
+      "dcterms:issued": "2024-01-04T16:49:49+01:00",
+      "dcterms:modified": "2024-01-04T16:49:49+01:00",
+      "dcterms:title": "Youcai mosaic virus (YMoV) polyclonal antibodies DSMZ AS-0527",
+      "dcterms:description": "Protein A chromatography purified Youcai mosaic virus (YMoV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 480,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "S. Winter"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "S. Winter",
+        "serological detection",
+        "serology",
+        "Youcai mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Youcai mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Youcai mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05573",
+      "search:title": "Youcai mosaic virus (YMoV) polyclonal antibodies DSMZ AS-0527",
+      "search:description": "Protein A chromatography purified Youcai mosaic virus (YMoV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Youcai mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "S. Winter",
+      "search:pathogenName": "Youcai mosaic virus"
+    },
+    {
       "@type": "EVORAO:Antibody",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -137775,1880 +139283,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "W. Huth",
       "search:pathogenName": "Soil-borne wheat mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04590",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04590",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/shallot-virus-x-shvx-isolate-dsmz-pv-0622",
-      "dcterms:issued": "2022-02-23T18:32:28+01:00",
-      "dcterms:modified": "2022-02-23T18:32:28+01:00",
-      "dcterms:title": "Shallot virus X (ShVX) isolate DSMZ PV-0622",
-      "dcterms:description": "Infectious Shallot virus X (ShVX) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-02-28",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "E. Barg"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Chenopodium murale"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW854280",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Allium ascalonicum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Allium ascalonicum",
-        "Chenopodium murale",
-        "E. Barg",
-        "Mechanical inoculation",
-        "MW854280",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "RG1",
-        "Shallot virus X",
-        "Slovenia"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-02-28",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW854280"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Shallot virus X"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Shallot virus X"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "5E8",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04590",
-      "search:title": "Shallot virus X (ShVX) isolate DSMZ PV-0622",
-      "search:description": "Infectious Shallot virus X (ShVX) isolate",
-      "search:taxonLabel": "Shallot virus X",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Allium ascalonicum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Slovenia",
-      "search:accessionNumber": "MW854280",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "E. Barg",
-      "search:pathogenName": "Shallot virus X"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04589",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04589",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/shallot-latent-virus-slv-isolate-dsmz-pv-0425",
-      "dcterms:issued": "2022-02-23T18:29:39+01:00",
-      "dcterms:modified": "2022-02-23T18:29:39+01:00",
-      "dcterms:title": "Shallot latent virus (SLV) isolate DSMZ PV-0425",
-      "dcterms:description": "Infectious Shallot latent virus (SLV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1996-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Korea (the Republic of)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "E. Barg"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Chenopodium quinoa"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW854274",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Allium sativum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Allium sativum",
-        "Chenopodium quinoa",
-        "E. Barg",
-        "Korea (the Republic of)",
-        "Mechanical inoculation",
-        "MW854274",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "RG1",
-        "Shallot latent virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1996-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW854274"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Shallot latent virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Shallot latent virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04589",
-      "search:title": "Shallot latent virus (SLV) isolate DSMZ PV-0425",
-      "search:description": "Infectious Shallot latent virus (SLV) isolate",
-      "search:taxonLabel": "Shallot latent virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Allium sativum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Korea (the Republic of)",
-      "search:accessionNumber": "MW854274",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "E. Barg",
-      "search:pathogenName": "Shallot latent virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04588",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04588",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/ryegrass-mosaic-virus-rgmv-isolate-dsmz-pv-1167",
-      "dcterms:issued": "2022-02-23T18:26:48+01:00",
-      "dcterms:modified": "2022-02-23T18:26:48+01:00",
-      "dcterms:title": "Ryegrass mosaic virus (RGMV) isolate DSMZ PV-1167",
-      "dcterms:description": "Infectious Ryegrass mosaic virus (RGMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-04-30",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Bulgaria"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "F. Rabenstein"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Lolium multiflorum"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OL311699, OL311700",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Lolium sp."
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Bulgaria",
-        "F. Rabenstein",
-        "Lolium multiflorum",
-        "Lolium sp.",
-        "Mechanical inoculation",
-        "NON DANGEROUS GOODS",
-        "OL311699",
-        "OL311700",
-        "Plant virus",
-        "RG1",
-        "Ryegrass mosaic virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-04-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OL311699, OL311700"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Ryegrass mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Ryegrass mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04588",
-      "search:title": "Ryegrass mosaic virus (RGMV) isolate DSMZ PV-1167",
-      "search:description": "Infectious Ryegrass mosaic virus (RGMV) isolate",
-      "search:taxonLabel": "Ryegrass mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Lolium sp.",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Bulgaria",
-      "search:accessionNumber": "OL311699, OL311700",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "F. Rabenstein",
-      "search:pathogenName": "Ryegrass mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04587",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04587",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/rice-yellow-mottle-virus-rymv-isolate-dsmz-pv-0732",
-      "dcterms:issued": "2022-02-23T18:21:55+01:00",
-      "dcterms:modified": "2022-02-23T18:21:55+01:00",
-      "dcterms:title": "Rice yellow mottle virus (RYMV) isolate DSMZ PV-0732",
-      "dcterms:description": "Infectious Rice yellow mottle virus (RYMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-11-30",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Tanzania, United Republic of"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "O.O. Banwo"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Oryza sativa"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MT701719",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Oryza sativa"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Mechanical inoculation",
-        "MT701719",
-        "NON DANGEROUS GOODS",
-        "O.O. Banwo",
-        "Oryza sativa",
-        "Plant virus",
-        "RG1",
-        "Rice yellow mottle virus",
-        "Tanzania",
-        "United Republic of"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-11-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MT701719"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rice yellow mottle virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rice yellow mottle virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Mangula 2",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04587",
-      "search:title": "Rice yellow mottle virus (RYMV) isolate DSMZ PV-0732",
-      "search:description": "Infectious Rice yellow mottle virus (RYMV) isolate",
-      "search:taxonLabel": "Rice yellow mottle virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Oryza sativa",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Tanzania, United Republic of",
-      "search:accessionNumber": "MT701719",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "O.O. Banwo",
-      "search:pathogenName": "Rice yellow mottle virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04586",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04586",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/raspberry-ringspot-virus-rprsv-isolate-dsmz-pv-0429",
-      "dcterms:issued": "2022-02-23T18:19:57+01:00",
-      "dcterms:modified": "2022-02-23T18:19:57+01:00",
-      "dcterms:title": "Raspberry ringspot virus (RpRSV) isolate DSMZ PV-0429",
-      "dcterms:description": "Infectious Raspberry ringspot virus (RpRSV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1996-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.-E. Lesemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Chenopodium quinoa"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW057710, MW057711",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Vitis vinifera"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Chenopodium quinoa",
-        "D.-E. Lesemann",
-        "Germany",
-        "Mechanical inoculation",
-        "MW057710",
-        "MW057711",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "Raspberry ringspot virus",
-        "RG1",
-        "Vitis vinifera"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1996-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW057710, MW057711"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Raspberry ringspot virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Raspberry ringspot virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04586",
-      "search:title": "Raspberry ringspot virus (RpRSV) isolate DSMZ PV-0429",
-      "search:description": "Infectious Raspberry ringspot virus (RpRSV) isolate",
-      "search:taxonLabel": "Raspberry ringspot virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Vitis vinifera",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "MW057710, MW057711",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.-E. Lesemann",
-      "search:pathogenName": "Raspberry ringspot virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001V-02343",
-      "@id": "urn:evorao:EVA:AMU:001V-02343",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/dengue-2-strain-uvedenv-22016th8309",
-      "dcterms:issued": "2017-06-30T15:28:10+02:00",
-      "dcterms:modified": "2022-02-23T16:07:21+01:00",
-      "dcterms:title": "Dengue 2, strain UVE/DENV-2/2016/TH/8309",
-      "dcterms:description": "Freeze dried, Dengue 2, strain UVE/DENV-2/2016/TH/8309, France 2016, complete genome sequence",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 700,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-08-27",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "France"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "Checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "P4",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero E6"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10E4.22 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Human serum"
-      },
-      "EVORAO:isolationTechnique": "cell culture",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "France"
-      },
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "Category A",
-        "UN2814",
-        "Dengue virus",
-        "Dengue virus 2",
-        "DENV-2",
-        "Flavivirus",
-        "France",
-        "Human serum",
-        "Human virus",
-        "RG3",
-        "V.1.2.4.I3.UK.11.34",
-        "Vero E6"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2016-08-27",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 001V-02343 | Complete genome sequence available upon request, produced in house in NGS\nAAAGACAGATTCTTTGAGGGAGCTAAGCTTAACGTAGTTCTAACAGTTTTTTAATTAGAGAGCAGATCTCTGATGAATAA\nCCAACGTAAAAAGGCGAGAAATACGCCTTTCAATATGCTGAAACGCGAGAGAAACCGCGTGTCAACTGTGCAACAGCTGA\nCGAAGAGATTCTCACTTGGAATGCTGCAGGGACGAGGACCGTTGAAACTGTTCATGGCCTTGGTGGCATTCCTTCGTTTC\nCTAACAATCCCACCAACAGCAGGGATACTTAAAAGATGGGGAACGATCAAAAAGTCAAAAGCCATCAATGTCTTGAGAGG\nGTTCAGGAAAGAGATTGGAAGGATGTTGAACATCTTGAATAGGAGACGCAGAACTGCAGGCGTGATCATCATGCTAATTC\nCAACAGCGATGGCGTTCCATTTAACCACACGCAACGGAGAACCACACATGATTGTCAGCAGACAAGAGAAAGGGAAAAGT\nCTCTTGTTCAAAACAGAGGATGGTGTGAACATGTGTACCCTCATGGCCATGGACCTTGGTGAACTATGTGAAGACACAAT\nCACTTATAACTGTCCTCTTCTCAGGCAGAATGAACCAGAAGACATAGATTGTTGGTGTAACTCCACGTCCACATGGGTGA\nCTTATGGGACATGCACTGCCACAGGAGAACACAGAAGGGAAAAAAGATCAGTGGCACTCGTCCCACATGTGGGAATGGGA\nTTGGAAACACGAACTGAAACATGGATGTCATCAGAAGGGGCCTGGAAACACGCCCAGAGAATTGAAACCTGGATCTTGAG\nACATCCAGGTTTTACCATAATGGCAGCAATCTTGGCATACACCATAGGAACGACATACTTCCAAAGAGTCCTGATCTTCA\nTCTTACTGACAGCTGTCGCCCCTTCAATGACAATGCGTTGTATTGGAATATCAAATAGAGACTTTGTGGAAGGGGTTTCA\nGGAGGAAGCTGGGTTGACATAGTCTTAGAACATGGAAGCTGCGTGACAACGATGGCAAAAAACAAACCAACATTGGACTT\nTGAACTAATAAAAACAGAAGCCAAGCAACCTGCCACTCTAAGGAAGTACTGTATAGAAGCAAAGCTGACCAACACAACAA\nCAGCATCCCGATGCCCAACACAAGGAGAACCCAGCCTAAATGAAGAACAGGACAAAAGGTTTGTCTGCAAACATTCCATG\nGTAGACAGAGGATGGGGAAATGGATGTGGATTATTTGGAAAGGGAGGCATCGTGACCTGTGCTATGTTCACATGCAAAAA\nAAATATGGAAGGAAAAATTGTGCAACCAGAAAACCTGGAATACACCATTGTGGTAACACCTCATTCAGGGGAAGAGAATG\nCAGTTGGAAATGACACAGGAAAACATGGCAAGGAAATCAAAGTAACACCACAGAGTTCCATTACAGAAGCAGAACTGACA\nGGCTACGGCACTGTCGCCATGGAGTGCTCTCCAAGAACGGGCCTCGACTTCAATGAAATGGTGTTGCTGCAAATGGAAAA\nTAAGGCTTGGCTGGTGCACAGGCAATGGTTCTTAGACCTGCCGTTACCATGGTTGCCCGGAGCGGACACACAAGGATCAA\nATTGGATACAGAAGGAGACGTTGGTCACCTTCAAAAATCCCCATGCGAAGAAACAGGATGTTGTTGTTTTGGGATCCCAA\nGAAGGGGCTATGCATACAGCACTTACAGGGGCCACGGAAATCCAGATGTCATCAGGAAACCTACTGTTCACAGGACATCT\nCAAGTGCAGGCTGAGAATGGATAAATTACAGCTCAAAGGAATGTCATACTCTATGTGTACAGGAAAGTTTAAAGTTGTAA\nAGGAAATAGCAGAGACACAACATGGAACAATAGTTGTCAGAGTACAATATGAAGGGGATGGCTCTCCATGTAAAATCCCT\nTTTGAGATAATGGATTTGGAAAAAAGACATGTCTTAGGTCGCCTGATTACAGTCAACCCAATCGTAACAGAAAAAGACAG\nTCCAGTCAACATAGAAGCAGAACCTCCATTTGGAGACAGCTACATCATTATAGGAGTAGAACCGGGACAACTGAAGCTCA\nGCTGGTTTAAGAAAGGAAGCTCAATCGGCCAAATGTTCGAGACAACAATGAGAGGAGCGAAGAGAATGGCCATTTTAGGT\nGACACAGCCTGGGATTTTGGATCCCTGGGAGGAGTGTTCACATCTATAGGAAAGGCCCTCCACCAAGTTTTTGGAGCAAT\nCTATGGGGCTGCCTTCAGTGGGGTCTCATGGACTATGAAAATCCTCATAGGAGTTGTCATCACATGGATAGGAATGAATT\nCACGTAGCACCTCACTGTCTGTGTCACTAGTATTGGTGGGGGTCGTGACATTGTATTTGGGAGTTATGGTGCAGGCTGAT\nAGTGGTTGTGTTGTGAGTTGGAAAAACAAAGAATTGAAATGTGGCAGTGGGATTTTTATCACAGACAATGTACACACATG\nGACAGAACAATACAAATTCCAACCAGAATCCCCCTCAAAGCTAGCTTCAGCTATCCAGAAAGCTCATGAAGAGGGCATTT\nGTGGAATCCGTTCAGTAACAAGACTAGAGAATCTAATGTGGAAACAAATAACACCCGAACTGAATCACATTCTATCAGAA\nAATGAGATAAAGTTGACCATCATGACAGGAGACATCAAAGGTATCATGCAGGCAGGAAAACGATCCCTGCGGCCTCAGCC\nCACTGAGCTGAAGTATTCATGGAAAACGTGGGGCAAAGCGAAAATGCTCTCCACAGAGCCTTATAACCAAACCTTTCTCA\nTTGATGGCCCCGAAACAGCAGAATGCCCCAACACAAACAGAGCTTGGAACTCACTAGAAGTTGAAGACTATGGCTTTGGG\nGTATTCACCACCAACATATGGCTGAAATTGAAAGAAAGGCAGGATGTGTTTTGTGACTCAAAACTCATGTCAGCGGCCAT\nAAAAGACAACAGAGCCGTCCATGCCGATATGGGTTATTGGATAGAAAGCGCACTTAATGACACATGGAAGATAGAAAAAG\nCTTCTTTTATTGAAGTTAAAAGTTGCCACTGGCCAAAATCACACACTCTCTGGAGCAATGGAGTGCTAGAAAGTGAGATG\nATAATTCCAAAGAATTTTGCTGGACCAGTATCACAACATAATTACAGACCAGGCTATCACACACAAACAGCAGGACCCTG\nGCATCTAGGCAAGCTTGAGATGGACTTTGATTTTTGCGAAGGAACCACAGTGGTGGTGACTGAAGACTGTGGAAATAGAG\nGACCCTCTCTAAGAACAACTACCGCCTCTGGAAAACTCATAACAGAATGGTGCTGCCGATCCTGCACATTACCACCACTA\nAGATACAAAGGTGAGGATGGATGCTGGTACGGAATGGAAATCAGACCACTGAAAGAGAAAGAAGAGAACTTGGTCAACTC\nCTTGGTCACAGCCGGACATGGACAGATTGACAACTTCTCACTAGGGGTCTTGGGAATGGCACTGTTCCTGGAAGAAATGC\nTCAGGACCCGAGTAGGAACAAAGCATGCAGCATTACTAGTTGCGGTTTCTTTCATGACATTGATCACAGGGAACATGTCT\nTTCCGAGACCTGGGGAGGGTGATGGTCATGGTGGGGGCTGCCATGACGGATGACATAGGTATGGGCGTGACTTATCTTGC\nCTTACTAGCAGCCTTCAAAGTTAGACCAACTTTTGCAGCTGGACTGCTTTTGAGAAAGCTGACCTCCAAGGAATTGATGA\nTGACCACCATAGGAATTGTACTCCTCTCCCAGAGCACCATACCAGAGACCATACTTGAGCTGACTGACGCGTTGGCCTTG\nGGCATGATGATTCTCAAGATAGTGAGGAATATGGAAAAGTATCAATTAGCAGTGACTATCATGGCTATCTTATGTGTTCC\nAAATGCAGTGATATTACAAAATGCATGGAAAGTGAGCTGCACAATACTGGCAGTGGTGTCCGTATCCCCACTGCTCTTAA\nCATCTTCACAGCAGAAAGCGGATTGGATACCATTGGCATTGACGATCAAAGGTCTCAATCCAACAGCCATTTTCCTAACA\nACCCTTTCAAGAACTAATAAGAAAAGGAGTTGGCCACTAAATGAGGCTATCATGGCAGTAGGGATGGTGAGCATTTTAGC\nCAGTTCTCTCTTGAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTTCTCACTGTGTGTTACGTGCTCA\nCTGGAAGATCGGCCGACTTGGAACTGGAGAGAGCCGCCGACGTAAGATGGGAAGATCAGGCAGAGATATCAGGAAGCAGT\nCCAATTCTGTCAATAACAATATCGGAAGATGGCAGCATGTCGATAAAAAATGAAGAGGAAGAACAAACACTGACCATACT\nCATTAGAACAGGATTGCTGGTGATATCAGGACTTTTTCCCGTGTCAATACCAATTACGGCAGCAGCATGGTACCTGTGGG\nAAGTGAAGAAACAACGAGCTGGAGTGTTGTGGGATGTTCCTTCACCCCCACCTGTGGGAAAGGCCGAACTGGAAGATGGA\nGCTTATAGAATCAAGCAGAAAGGGATTCTTGGATACTCCCAGATCGGAGCTGGAGTTTACAAAGAAGGAACATTCCACAC\nAATGTGGCACGTCACACGTGGTGCTGTTCTAATGCATAAAGGGAAGAGGATTGAACCATCATGGGCGGATGTCAGGAAAG\nATCTAATATCGTACGGAGGAGGCTGGAAGCTAGAAGGAGAATGGAAGGAAGGAGAAGAAGTCCAGGTCTTGGCATTAGAG\nCCTGGAAAGAATCCAAGAGCCGTCCAAACGAAACCCGGTCTTTTCAAAACTAACACCGGAACCATAGGTGCTGTGTCTCT\nAGACTTTTCTCCTGGAACGTCAGGATCCCCAATTGTCGACAAAAAAGGAAAGGTCGTGGGTCTCTATGGCAATGGTGTCG\nTCACAAGGAGTGGAACATATGTGAGTGCCATAGCCCAGACTGAAAAAAGCATTGAAGACAATCCAGAGATTGAAGATGAT\nATCTTTCGGAAAAAAAGATTAACCATCATGGACCTCCACCCAGGAGCGGGAAAGACGAAAAGATACCTTCCAGCAATAGT\nCAGAGAGGCCATAAAACGAGGCTTAAGAACGTTAATCCTGGCCCCCACCAGAGTCGTGGCAGCCGAAATGGAAGAAGCTC\nTTAGAGGACTTCCAATAAGATACCAAACCCCAGCCATTAGAGCTGAGCACACTGGGCGAGAAATCGTGGATTTAATGTGT\nCACGCCACATTTACCATGAGGCTGTTATCACCAGTTAGAGTGCCAAATTACAACTTGATCATTATGGATGAAGCCCATTT\nCACAGACCCAGCAAGCATAGCAGCCAGAGGATACATTTCAACTCGAGTGGAGATGGGTGAAGCAGCTGGGATTTTCATGA\nCGGCCACTCCTCCGGGAAGCAGAGACCCATTTCCTCAAAGCAATGCACCAATCATGGATGAAGAAAGGGAAATCCCTGAA\nCGTTCGTGGAACTCTGGACATGAGTGGGTTACAGATTTTAAAGGGAAGACTGTTTGGTTTGTTCCGAGTATAAAAGCAGG\nAAATGATATAGCAGCCTGCCTGAGAAAAAACGGAAAGAAAGTGATACAACTCAGTAGGAAGACCTTTGATTCTGAATACA\nTCAAGACCAGGACCAATGATTGGGATTTTGTGGTCACGACTGACATTTCAGAAATGGGTGCTAACTTCAAGGCTGAAAGG\nGTTATAGACCCCAGGCGCTGCATGAAGCCAGTCATATTGACAGACGGTGAAGAGCGGGTGATTCTGGCAGGACCCATGCC\nAGTGACTCACTCTAGTGCAGCACAAAGAAGAGGGAGAATAGGAAGAAATCCAAAAAATGAAAATGACCAGTACATATACA\nTGGGGGAACCTCTGGAAAATGATGAAGACTGCGCACACTGGAAAGAAGCCAAGATGCTTTTAGACAACATCAACACGCCT\nGAAGGAATCATTCCCAGCATGTTCGAACCAGAGCGTGAAAAAGTGGATGCCATTGATGGTGAATACCGCTTAAGAGGAGA\nAGCGAGGAAAACCTTTGTGGAGCTAATGAGAAGAGGAGACCTACCAGTCTGGCTGGCCTACAGAGTGGCAGCCGAAGGCA\nTTAACTATGCAGACAGAAGGTGGTGTTTTGATGGAATCAAGAACAACCAAATCTTGGAAGAAAATGTGGAAGTGGAAATC\nTGGACAAAAGAAGGAGAAAAGAAGAAACTGAAACCCAGATGGTTGGATGCTAGGATCTACTCCGACCCACTGGCACTCAA\nAGAATTTAAAGAGTTTGCAGCTGGAAGAAAATCCCTGACCATGAATTTAATCACAGAAATGGGTAGGCTCCCAACTTTTA\nTGACTCAGAAAGCAAGGAACGCACTGGACAACTTAGCGGTCCTGCATACAGCTGAAGCAGGCGGAAGGGCGTACAACCAT\nGCTCTCAGTGAACTGCCAGAGACCCTGGAGACATTGCTTTTGCTGACACTCTTGGCCACAGTCACGGGCGGAATTTTTTT\nATTCTTGATGAGTGGAAAAGGCATAGGGAAAATGACCTTGGGAATGTGTTGCATAATTACGGCCAGCATTCTCCTATGGT\nACGCACAAATACAGCCACACTGGATAGCAGCTTCAATAATACTGGAGTTTTTTCTCATAGTCTTGCTCATTCCAGAGCCA\nGAAAAGCAAAGAACACCCCAAGACAACCAATTGACTTACGTCGTCATAGCCATCCTCACAGTGGTGGCCGCAACCATGGC\nAAACGAGATGGGGTTCCTGGAAAAAACGAAGAAAGATTTCGGATTGGGAAGCATTGTAACCCAGCAACCCGAGAGCAACA\nTTCTGGACATAGATCTACGTCCTGCATCAGCATGGACCCTGTATGCAGTGGCCACAACATTTATCACACCAATGTTGAGA\nCATAGCATTGAAAATTCTTCAGTGAATGTGTCTCTAACAGCCATTGCCAATCAAGCCACAGTGCTAATGGGTCTTGGGAA\nGGGATGGCCATTGTCAAAAATGGACATTGGAGTTCCCCTTCTTGCCATCGGGTGCTATTCACAAGTCAACCCCATAACCC\nTTACAGCAGCCCTCCTCTTATTGGTAGCACACTATGCTATCATAGGGCCAGGACTCCAAGCAAAAGCAACCAGAGAAGCG\nCAGAAAAGAGCAGCAGCAGGCATCATGAAAAACCCAACTGTGGATGGAATAACAGTGATTGACCTAGATCCAATACCCTA\nTGATCCAAAATTTGAGAAGCAGCTGGGACAAGTAATGCTCCTAGTCCTCTGCGTGACTCAAGTACTGATGATGAGGACTA\nCATGGGCTTTGTGTGAGGCTCTAACCTTAGCGACCGGGCCCATCTCCACATTGTGGGAAGGAAATCCAGGGAGATTTTGG\nAACACAACCATTGCAGTGTCAATGGCTAACATTTTTAGAGGAAGTTACCTAGCTGGAGCCGGACTTCTCTTTTCCATCAT\nGAAGAACACAACCAACACAAGAAGGGGAACTGGCAACACAGGAGAGACGCTTGGGGAAAAATGGAAAAACCGATTGAATT\nCATTGGGGAAGAGTGAATTCCAGATTTACAAGAGAAGCGGAATCCAGGAAGTGGATAGAACCTTGGCAAAAGAAGGCATT\nAAAAGAGGAGAAACGGACCATCACGCTGTGTCGCGAGGTTCAGCAAAGCTGAGATGGTTCGTCGAGAGAAACCTGGTCAC\nACCAGAGGGGAAAGTAATGGACCT"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Dengue virus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Dengue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:genotype": "cosmopolitan",
-        "EVORAO:strain": "UVE/DENV-2/2016/TH/8309",
-        "EVORAO:serotype": 2,
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "001V-02343",
-      "search:title": "Dengue 2, strain UVE/DENV-2/2016/TH/8309",
-      "search:description": "Freeze dried, Dengue 2, strain UVE/DENV-2/2016/TH/8309, France 2016, complete genome sequence",
-      "search:taxonLabel": "Dengue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Human serum",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "France",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Dengue virus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IP"
-      },
-      "EVORAO:refSku": "014V-03620",
-      "@id": "urn:evorao:EVA:IP:014V-03620",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/coxsackievirus-a24-guf-2017-b0519079",
-      "dcterms:issued": "2019-06-05T16:33:38+02:00",
-      "dcterms:modified": "2022-02-22T14:23:24+01:00",
-      "dcterms:title": "Coxsackievirus A24 GUF-2017-B0519079",
-      "dcterms:description": "Clinical isolate from a case of acute hemorrhagic conjunctivitis, French Guiana, 2017",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2017-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "French Guiana"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "Institut Pasteur de la Guyane"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "RD"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "- 20°C",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^7.3 TCID50/mL",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IP"
-      },
-      "EVORAO:accessionNumber": "MG557561",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IP",
-        "29898445",
-        "acute hemorrhagic conjunctivitis",
-        "Category B",
-        "UN3373",
-        "coxsackievirus A24",
-        "CV-A24v",
-        "enterovirus",
-        "French Guiana",
-        "Human virus",
-        "Institut Pasteur de la Guyane",
-        "MG557561",
-        "RD",
-        "RG2",
-        "- 20°C",
-        "Enterovirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2017-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MG557561"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "coxsackievirus A24"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Enterovirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "014V-03620",
-      "search:title": "Coxsackievirus A24 GUF-2017-B0519079",
-      "search:description": "Clinical isolate from a case of acute hemorrhagic conjunctivitis, French Guiana, 2017",
-      "search:taxonLabel": "Enterovirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "IP",
-      "search:countryOfCollection": "French Guiana",
-      "search:accessionNumber": "MG557561",
-      "search:providerName": "IP",
-      "search:originatorName": "Institut Pasteur de la Guyane",
-      "search:pathogenName": "coxsackievirus A24"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04585",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04585",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-x-pvx-isolate-dsmz-pv-0017",
-      "dcterms:issued": "2022-02-21T17:41:12+01:00",
-      "dcterms:modified": "2022-02-21T17:41:12+01:00",
-      "dcterms:title": "Potato virus X (PVX) isolate DSMZ PV-0017",
-      "dcterms:description": "Infectious Potato virus X (PVX) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1987-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "Required for customers in the EU",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "O. Bode"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana tabacum cv. Samsun nn"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MT613318",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Germany",
-        "Mechanical inoculation",
-        "MT613318",
-        "Nicotiana tabacum cv. Samsun nn",
-        "NON DANGEROUS GOODS",
-        "O. Bode",
-        "Plant virus",
-        "Potato virus X",
-        "RG1",
-        "Solanum tuberosum"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1987-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MT613318"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Potato virus X"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Potato virus X"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "PVX-Cs/78",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04585",
-      "search:title": "Potato virus X (PVX) isolate DSMZ PV-0017",
-      "search:description": "Infectious Potato virus X (PVX) isolate",
-      "search:taxonLabel": "Potato virus X",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "MT613318",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "O. Bode",
-      "search:pathogenName": "Potato virus X"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04584",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04584",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-v-pvv-isolate-dsmz-pv-0319",
-      "dcterms:issued": "2022-02-21T17:38:23+01:00",
-      "dcterms:modified": "2022-02-21T17:38:23+01:00",
-      "dcterms:title": "Potato virus V (PVV) isolate DSMZ PV-0319",
-      "dcterms:description": "Infectious Potato virus V (PVV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1990-09-10",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Unknown"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "Required for customers in the EU",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "C.E. Fribourg"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OK181762",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "South America"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "C.E. Fribourg",
-        "Mechanical inoculation",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "OK181762",
-        "Plant virus",
-        "Potato virus V",
-        "RG1",
-        "Solanum tuberosum",
-        "South America",
-        "Unknown"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1990-09-10",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OK181762"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Potato virus V"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Potato virus V"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04584",
-      "search:title": "Potato virus V (PVV) isolate DSMZ PV-0319",
-      "search:description": "Infectious Potato virus V (PVV) isolate",
-      "search:taxonLabel": "Potato virus V",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Unknown",
-      "search:accessionNumber": "OK181762",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "C.E. Fribourg",
-      "search:pathogenName": "Potato virus V"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04583",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04583",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-m-pvm-isolate-dsmz-pv-0273",
-      "dcterms:issued": "2022-02-21T17:35:25+01:00",
-      "dcterms:modified": "2022-02-21T17:35:25+01:00",
-      "dcterms:title": "Potato virus M (PVM) isolate DSMZ PV-0273",
-      "dcterms:description": "Infectious Potato virus M (PVM) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1990-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "H.-L. Weidemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana occidentalis"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW582794",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Germany",
-        "H.-L. Weidemann",
-        "Mechanical inoculation",
-        "MW582794",
-        "Nicotiana occidentalis",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "Potato virus M",
-        "RG1",
-        "Solanum tuberosum"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1990-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW582794"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Potato virus M"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Potato virus M"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04583",
-      "search:title": "Potato virus M (PVM) isolate DSMZ PV-0273",
-      "search:description": "Infectious Potato virus M (PVM) isolate",
-      "search:taxonLabel": "Potato virus M",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "MW582794",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "H.-L. Weidemann",
-      "search:pathogenName": "Potato virus M"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04582",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04582",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-pva-isolate-dsmz-pv-0535",
-      "dcterms:issued": "2022-02-21T17:33:10+01:00",
-      "dcterms:modified": "2022-02-21T17:33:10+01:00",
-      "dcterms:title": "Potato virus A (PVA) isolate DSMZ PV-0535",
-      "dcterms:description": "Infectious Potato virus A (PVA) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1999-01-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "H.-L. Weidemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana occidentalis"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW197135",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Germany",
-        "H.-L. Weidemann",
-        "Mechanical inoculation",
-        "MW197135",
-        "Nicotiana occidentalis",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "Potato virus A",
-        "RG1",
-        "Solanum tuberosum"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1999-01-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW197135"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Potato virus A"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Potato virus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "ALI",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04582",
-      "search:title": "Potato virus A (PVA) isolate DSMZ PV-0535",
-      "search:description": "Infectious Potato virus A (PVA) isolate",
-      "search:taxonLabel": "Potato virus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "MW197135",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "H.-L. Weidemann",
-      "search:pathogenName": "Potato virus A"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04581",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04581",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-aucuba-mosaic-virus-pamv-isolate-dsmz-pv-0007",
-      "dcterms:issued": "2022-02-21T17:30:24+01:00",
-      "dcterms:modified": "2022-02-21T17:30:24+01:00",
-      "dcterms:title": "Potato aucuba mosaic virus (PAMV) isolate DSMZ PV-0007",
-      "dcterms:description": "Infectious Potato aucuba mosaic virus (PAMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1987-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Unknown"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "O. Bode"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana hesperis"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW080945",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Mechanical inoculation",
-        "MW080945",
-        "Nicotiana hesperis",
-        "NON DANGEROUS GOODS",
-        "O. Bode",
-        "Plant virus",
-        "Potato aucuba mosaic virus",
-        "RG1",
-        "Solanum tuberosum",
-        "Unknown"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1987-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW080945"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Potato aucuba mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Potato aucuba mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04581",
-      "search:title": "Potato aucuba mosaic virus (PAMV) isolate DSMZ PV-0007",
-      "search:description": "Infectious Potato aucuba mosaic virus (PAMV) isolate",
-      "search:taxonLabel": "Potato aucuba mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Unknown",
-      "search:accessionNumber": "MW080945",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "O. Bode",
-      "search:pathogenName": "Potato aucuba mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04580",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04580",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/poinsettia-mosaic-virus-pnmv-isolate-dsmz-pv-0340",
-      "dcterms:issued": "2022-02-21T17:27:33+01:00",
-      "dcterms:modified": "2022-02-21T17:27:33+01:00",
-      "dcterms:title": "Poinsettia mosaic virus (PnMV) isolate DSMZ PV-0340",
-      "dcterms:description": "Infectious Poinsettia mosaic virus (PnMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1992-10-19",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.-E. Lesemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OK181764",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Euphorbia pulcherrima"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "D.-E. Lesemann",
-        "Euphorbia pulcherrima",
-        "Germany",
-        "Mechanical inoculation",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "OK181764",
-        "Plant virus",
-        "Poinsettia mosaic virus",
-        "RG1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1992-10-19",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OK181764"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Poinsettia mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Poinsettia mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04580",
-      "search:title": "Poinsettia mosaic virus (PnMV) isolate DSMZ PV-0340",
-      "search:description": "Infectious Poinsettia mosaic virus (PnMV) isolate",
-      "search:taxonLabel": "Poinsettia mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Euphorbia pulcherrima",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "OK181764",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.-E. Lesemann",
-      "search:pathogenName": "Poinsettia mosaic virus"
     }
   ]
 }
