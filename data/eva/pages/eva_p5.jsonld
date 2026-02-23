@@ -17,6 +17,2747 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-03934",
+      "@id": "urn:evorao:EVA:AMU:001K-03934",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/sars-cov-2-rdrp-ip2ip4-gene-stabilized-rna-positive-control-shipping-room-temperature",
+      "dcterms:issued": "2020-04-21T11:51:50+02:00",
+      "dcterms:modified": "2020-06-01T15:30:02+02:00",
+      "dcterms:title": "SARS-CoV-2 RdRp (IP2/IP4) gene stabilized RNA as positive control: shipping at Room Temperature",
+      "dcterms:description": "Lyophilized encapsidated RNA for SARS-CoV-2 (2019-nCoV) real time RT-PCR targeting region of the RdRp (IP2/IP4) gene, for 100 Rxns (Target designed by Institut Pasteur: https://www.who.int/docs/default-source/coronaviruse/real-time-rt-pcr-assays-for-the-detection-of-sars-cov-2-institut-pasteur-paris.pdf?sfvrsn=3662fcb6_2)\r\nThe encapsidated RNA has been stabilized to serve as positive control for extraction and real time RT-PCR. Extraction is mandatory before use in real time RT-PCR. SOPs in the attached pdf. \r\nFor RUO (Research Use Only)",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:previouslyKnownAs": "2019-nCoV",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/ArRNASOP%20IP2-IP4.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "RdRp (IP2/IP4) gene of the SARS-CoV-2",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "2019-nCoV",
+        "Armored RNA",
+        "Coronavirus",
+        "Diagnostic reagent",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "SARS-CoV-2",
+        "Wuhan",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "001K-03934",
+      "search:title": "SARS-CoV-2 RdRp (IP2/IP4) gene stabilized RNA as positive control: shipping at Room Temperature",
+      "search:description": "Lyophilized encapsidated RNA for SARS-CoV-2 (2019-nCoV) real time RT-PCR targeting region of the RdRp (IP2/IP4) gene, for 100 Rxns (Target designed by Institut Pasteur: https://www.who.int/docs/default-source/coronaviruse/real-time-rt-pcr-assays-for-the-detection-of-sars-cov-2-institut-pasteur-paris.pdf?sfvrsn=3662fcb6_2)\r\nThe encapsidated RNA has been stabilized to serve as positive control for extraction and real time RT-PCR. Extraction is mandatory before use in real time RT-PCR. SOPs in the attached pdf. \r\nFor RUO (Research Use Only)",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Bundle",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007B-03668",
+      "@id": "urn:evorao:EVA:UL:007B-03668",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/eqa-rodent-borne-viruses-bundle",
+      "dcterms:issued": "2019-07-05T11:30:39+02:00",
+      "dcterms:modified": "2020-05-27T15:12:55+02:00",
+      "dcterms:title": "EQA Rodent borne viruses bundle",
+      "dcterms:description": "A bundle of rodent-borne virus stocks to be used for EQA preparation",
+      "EVORAO:unitDefinition": "5 x 40 ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "bundle"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "virus"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 50000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Bundle_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:itemsOfTheBundle": [
+        {
+          "@id": "urn:evorao:EVA:UL:007V-00807",
+          "@type": "EVORAO:Virus",
+          "EVORAO:refSku": "007V-00807",
+          "dcterms:title": "Dobrava Virus"
+        },
+        {
+          "@id": "urn:evorao:EVA:UL:007V-00809",
+          "@type": "EVORAO:Virus",
+          "EVORAO:refSku": "007V-00809",
+          "dcterms:title": "Puumala virus"
+        },
+        {
+          "@id": "urn:evorao:EVA:UL:007v-EVA1433",
+          "@type": "EVORAO:Virus",
+          "EVORAO:refSku": "007v-EVA1433",
+          "dcterms:title": "Hantaan virus"
+        },
+        {
+          "@id": "urn:evorao:EVA:UL:007V-00922",
+          "@type": "EVORAO:Virus",
+          "EVORAO:refSku": "007V-00922",
+          "dcterms:title": "Seoul virus, strain R22"
+        },
+        {
+          "@id": "urn:evorao:EVA:UL:007V-02708",
+          "@type": "EVORAO:Virus",
+          "EVORAO:refSku": "007V-02708",
+          "dcterms:title": "Lymphocytic choriomeningitis virus, strain Armstrong"
+        }
+      ],
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "dcat:keyword": [
+        "Bundle",
+        "UL",
+        "Virus",
+        "Derived product",
+        "Category A",
+        "UN2814",
+        "Dobrava",
+        "Dobrava-Belgrade virus",
+        "EQA",
+        "Hantaan",
+        "Hantaan virus",
+        "Hantavirus",
+        "Lymphocytic choriomeningitis virus",
+        "Lymphocytic choriomenningitis virus",
+        "Orthohantavirus",
+        "Puumala",
+        "Puumala virus",
+        "RG3",
+        "seoul",
+        "Seoul virus R22",
+        "Dobrava-Belgrade orthohantavirus",
+        "Hantaan orthohantavirus",
+        "Puumala orthohantavirus",
+        "Seoul orthohantavirus",
+        "Lymphocytic choriomeningitis mammarenavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "bundle",
+      "search:additionalCategory": [
+        "virus",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Dobrava-Belgrade virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Puumala virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Hantaan virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Seoul virus R22"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Lymphocytic choriomeningitis virus"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Dobrava-Belgrade orthohantavirus, Puumala orthohantavirus, Hantaan orthohantavirus, Seoul orthohantavirus, Lymphocytic choriomeningitis mammarenavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "907/5 |",
+        "EVORAO:strain": "Dobrava | Cg 18-20 | 76-118 | R22 | Armstrong |"
+      },
+      "search:sku": "007B-03668",
+      "search:title": "EQA Rodent borne viruses bundle",
+      "search:description": "A bundle of rodent-borne virus stocks to be used for EQA preparation",
+      "search:taxonLabel": "Dobrava-Belgrade orthohantavirus, Puumala orthohantavirus, Hantaan orthohantavirus, Seoul orthohantavirus, Lymphocytic choriomeningitis mammarenavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "UL",
+      "search:providerName": "UL",
+      "search:pathogenName": "Dobrava-Belgrade virus, Puumala virus, Hantaan virus, Seoul virus R22, Lymphocytic choriomeningitis virus"
+    },
+    {
+      "@type": "EVORAO:Bundle",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU_b"
+      },
+      "EVORAO:refSku": "100B-03445",
+      "@id": "urn:evorao:EVA:AMU_b:100B-03445",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/expression-plasmids-flaviviruses-ns5-full-length",
+      "dcterms:issued": "2019-02-27T10:04:05+01:00",
+      "dcterms:modified": "2020-05-27T11:10:59+02:00",
+      "dcterms:title": "Expression plasmids of flaviviruses NS5 full length",
+      "dcterms:description": "Expression plasmids for the production of flaviviruses NS5 full length (MTase and RdRp domains). Synthetic gene optimized for E. coli. Coding sequence fused at its 5' with a cleavage 6His tag coding sequence",
+      "EVORAO:unitDefinition": "aliquot of DNA preparation (>1µg)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "bundle"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "nucleic acid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "expression plasmid"
+        }
+      ],
+      "EVORAO:unitCost": 6000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Bundle_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:itemsOfTheBundle": [
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03400",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03400",
+          "dcterms:title": "Expression plasmid of DENV 3 NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03401",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03401",
+          "dcterms:title": "Expression plasmid of SLEV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03402",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03402",
+          "dcterms:title": "Expression plasmid of JEV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03403",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03403",
+          "dcterms:title": "Expression plasmid of WNV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03404",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03404",
+          "dcterms:title": "Expression plasmid of ILHEV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03405",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03405",
+          "dcterms:title": "Expression plasmid of AROAV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03406",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03406",
+          "dcterms:title": "Expression plasmid of KOKV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03407",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03407",
+          "dcterms:title": "Expression plasmid of SPOV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03408",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03408",
+          "dcterms:title": "Expression plasmid of MODV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03409",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03409",
+          "dcterms:title": "Expression plasmid of MVEV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03410",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03410",
+          "dcterms:title": "Expression plasmid of NTAV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03411",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03411",
+          "dcterms:title": "Expression plasmid of EHV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03412",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03412",
+          "dcterms:title": "Expression plasmid of SEPV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03413",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03413",
+          "dcterms:title": "Expression plasmid of TMUV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03415",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03415",
+          "dcterms:title": "Expression plasmid of RBV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03416",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03416",
+          "dcterms:title": "Expression plasmid of USUV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03417",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03417",
+          "dcterms:title": "Expression plasmid of POWV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03418",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03418",
+          "dcterms:title": "Expression plasmid of LIV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03419",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03419",
+          "dcterms:title": "Expression plasmid of LGTV NS5 full length"
+        },
+        {
+          "@id": "urn:evorao:EVA:AMU_b:100N-03420",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "100N-03420",
+          "dcterms:title": "Expression plasmid of WESSV  NS5 full length"
+        }
+      ],
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU_b"
+      },
+      "dcat:keyword": [
+        "AMU_b",
+        "Expression plasmid",
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "Bundle",
+        "Derived product",
+        "aroa virus",
+        "Aroa virus",
+        "AROAV",
+        "capping",
+        "Dengue",
+        "Dengue virus 3",
+        "DENV",
+        "DENV-3",
+        "Edge Hill virus",
+        "EHV",
+        "expression plasmid",
+        "Flaviviridae",
+        "Flavivirus",
+        "flavivirus SEPV",
+        "ilheus virus",
+        "Ilheus virus",
+        "ILHV",
+        "Japanese encephalitis virus",
+        "JEV",
+        "kokobera virus",
+        "Kokobera virus",
+        "KOKV",
+        "langat virus",
+        "Langat virus",
+        "LGTV",
+        "LIV",
+        "louping ill virus",
+        "Louping ill virus",
+        "methyltransferase",
+        "Modoc virus",
+        "MODV",
+        "MTase",
+        "Murray Valley encephalitis virus",
+        "MVEV",
+        "NON DANGEROUS GOODS",
+        "Non structural protein 5",
+        "NS5",
+        "NTAV",
+        "ntaya virus",
+        "Ntaya virus",
+        "Powassan virus",
+        "POWV",
+        "RBV",
+        "rdrp",
+        "RG1",
+        "Rio bravo virus",
+        "Rio Bravo virus",
+        "Saint Louis encephalitis virus",
+        "sepik virus",
+        "Sepik virus",
+        "SLEV",
+        "Spondweni",
+        "Spondweni virus",
+        "SPOV",
+        "tembusu virus",
+        "Tembusu virus",
+        "TMUV",
+        "Usutu virus",
+        "USUV",
+        "Wesselsbron",
+        "Wesselsbron virus",
+        "WESSV",
+        "west nile virus",
+        "West Nile virus",
+        "WNV",
+        "Dengue virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "bundle",
+      "search:additionalCategory": [
+        "derived product",
+        "nucleic acid",
+        "cloned nucleic acid",
+        "expression plasmid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Dengue virus 3"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Saint Louis encephalitis virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Japanese encephalitis virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "West Nile virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Ilheus virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Aroa virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Kokobera virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Spondweni virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Modoc virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Murray Valley encephalitis virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Ntaya virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Edge Hill virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Sepik virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Tembusu virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Rio Bravo virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Usutu virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Powassan virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Louping ill virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Langat virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Wesselsbron virus"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Dengue virus, Saint Louis encephalitis virus, Japanese encephalitis virus, West Nile virus, Ilheus virus, Aroa virus, Kokobera virus, Flavivirus, Modoc virus, Murray Valley encephalitis virus, Ntaya virus, Edge Hill virus, Sepik virus, Tembusu virus, Rio Bravo virus, Usutu virus, Powassan virus, Louping ill virus, Langat virus, Wesselsbron virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "100B-03445",
+      "search:title": "Expression plasmids of flaviviruses NS5 full length",
+      "search:description": "Expression plasmids for the production of flaviviruses NS5 full length (MTase and RdRp domains). Synthetic gene optimized for E. coli. Coding sequence fused at its 5' with a cleavage 6His tag coding sequence",
+      "search:taxonLabel": "Dengue virus, Saint Louis encephalitis virus, Japanese encephalitis virus, West Nile virus, Ilheus virus, Aroa virus, Kokobera virus, Flavivirus, Modoc virus, Murray Valley encephalitis virus, Ntaya virus, Edge Hill virus, Sepik virus, Tembusu virus, Rio Bravo virus, Usutu virus, Powassan virus, Louping ill virus, Langat virus, Wesselsbron virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "AMU_b",
+      "search:providerName": "AMU_b",
+      "search:pathogenName": "Dengue virus 3, Saint Louis encephalitis virus, Japanese encephalitis virus, West Nile virus, Ilheus virus, Aroa virus, Kokobera virus, Spondweni virus, Modoc virus, Murray Valley encephalitis virus, Ntaya virus, Edge Hill virus, Sepik virus, Tembusu virus, Rio Bravo virus, Usutu virus, Powassan virus, Louping ill virus, Langat virus, Wesselsbron virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026K-03681",
+      "@id": "urn:evorao:EVA:CUB:026K-03681",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit",
+      "dcterms:issued": "2019-09-12T14:44:34+02:00",
+      "dcterms:modified": "2020-05-27T11:04:07+02:00",
+      "dcterms:title": "Zika virus real time detection kit",
+      "dcterms:description": "Set of primers and probes to detect viral RNA of Zika virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "EVORAO:unitDefinition": "1 x 100 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 872,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Diagnostic",
+        "EQA",
+        "EVD",
+        "kit",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Zika virus",
+        "- 20°C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026K-03681",
+      "search:title": "Zika virus real time detection kit",
+      "search:description": "Set of primers and probes to detect viral RNA of Zika virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FoHM"
+      },
+      "EVORAO:refSku": "024K-02773",
+      "@id": "urn:evorao:EVA:FoHM:024K-02773",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/inactivated-house-ebov-slides",
+      "dcterms:issued": "2018-03-21T11:49:18+01:00",
+      "dcterms:modified": "2020-05-27T11:03:37+02:00",
+      "dcterms:title": "Inactivated in-house EBOV slides",
+      "dcterms:description": "In-house slides to detect anti-EBOV antibodies by Immunofluorecence assay. The slides are fixated and preserved at -80°C. The slide has been tested positive with three different anti-EBOV antibodies; anti-Gp, anti-VP40, and anti-NP antibodies.",
+      "EVORAO:unitDefinition": "12-well slide",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "IFA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 409.85,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/Ebola%20slide%20stained%20with%20Ebola%20Ab.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "+ 4°C",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FoHM"
+      },
+      "EVORAO:doi": "10.1093/ofid/ofw198",
+      "dcat:keyword": [
+        "IFA",
+        "Detection Kit (for RUO)",
+        "FoHM",
+        "Derived product",
+        "+ 4°C",
+        "10.1093/ofid/ofw198",
+        "27975074",
+        "Detection kit",
+        "EBOV",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Zaire ebolavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "IFA",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zaire ebolavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zaire ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "024K-02773",
+      "search:title": "Inactivated in-house EBOV slides",
+      "search:description": "In-house slides to detect anti-EBOV antibodies by Immunofluorecence assay. The slides are fixated and preserved at -80°C. The slide has been tested positive with three different anti-EBOV antibodies; anti-Gp, anti-VP40, and anti-NP antibodies.",
+      "search:taxonLabel": "Zaire ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FoHM",
+      "search:providerName": "FoHM",
+      "search:pathogenName": "Zaire ebolavirus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026K-03680",
+      "@id": "urn:evorao:EVA:CUB:026K-03680",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/yellow-fever-virus-real-time-detection-kit",
+      "dcterms:issued": "2019-09-12T14:43:27+02:00",
+      "dcterms:modified": "2020-05-27T11:01:35+02:00",
+      "dcterms:title": "Yellow fever virus real time detection kit",
+      "dcterms:description": "Set of primers and probes to detect viral RNA of Yellow fever virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "EVORAO:unitDefinition": "1 x 100 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 872,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Diagnostic",
+        "EQA",
+        "EVD",
+        "kit",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Yellow fever virus",
+        "- 20°C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Yellow fever virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Yellow fever virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026K-03680",
+      "search:title": "Yellow fever virus real time detection kit",
+      "search:description": "Set of primers and probes to detect viral RNA of Yellow fever virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "search:taxonLabel": "Yellow fever virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Yellow fever virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026K-03679",
+      "@id": "urn:evorao:EVA:CUB:026K-03679",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/west-nile-virus-real-time-detection-kit",
+      "dcterms:issued": "2019-09-12T14:42:48+02:00",
+      "dcterms:modified": "2020-05-27T10:59:27+02:00",
+      "dcterms:title": "West Nile virus real time detection kit ",
+      "dcterms:description": "Set of primers and probes to detect viral RNA of West Nile virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "EVORAO:unitDefinition": "1 x 100 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 872,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Diagnostic",
+        "EQA",
+        "EVD",
+        "kit",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "West  Nile virus",
+        "West Nile virus",
+        "- 20°C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026K-03679",
+      "search:title": "West Nile virus real time detection kit ",
+      "search:description": "Set of primers and probes to detect viral RNA of West Nile virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "search:taxonLabel": "West Nile virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IP"
+      },
+      "EVORAO:refSku": "014S-03058",
+      "@id": "urn:evorao:EVA:IP:014S-03058",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/institut-pasteur-paris-training-qms-applied-lyssavirus-and-rabies-virus-diagnosis",
+      "dcterms:issued": "2018-07-10T16:59:03+02:00",
+      "dcterms:modified": "2020-05-27T10:54:03+02:00",
+      "dcterms:title": "Institut Pasteur Paris - Training in QMS applied to lyssavirus and rabies virus diagnosis ",
+      "dcterms:description": "Institut Pasteur Paris - In this 2 days course the principles of QMS and its implementation for routine lyssavirus and rabies virus diagnosis will be addressed by a combination of lectures and demonstration",
+      "EVORAO:unitDefinition": "2 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IP"
+      },
+      "dcat:keyword": [
+        "Service",
+        "Derived product",
+        "IP",
+        "Viruses",
+        "QMS lyssavirus rabies diagnosis",
+        "Rabies",
+        "RG3",
+        "Rabies lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabies"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabies lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "014S-03058",
+      "search:title": "Institut Pasteur Paris - Training in QMS applied to lyssavirus and rabies virus diagnosis ",
+      "search:description": "Institut Pasteur Paris - In this 2 days course the principles of QMS and its implementation for routine lyssavirus and rabies virus diagnosis will be addressed by a combination of lectures and demonstration",
+      "search:taxonLabel": "Rabies lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "IP",
+      "search:providerName": "IP",
+      "search:pathogenName": "Rabies"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003K-02704",
+      "@id": "urn:evorao:EVA:DEFRA:003K-02704",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/rabies-virus-rna-pcr-quality-control-panel",
+      "dcterms:issued": "2018-01-25T17:35:18+01:00",
+      "dcterms:modified": "2020-05-26T17:56:01+02:00",
+      "dcterms:title": "Rabies Virus RNA - PCR Quality Control Panel",
+      "dcterms:description": "A panel of 8 samples, including six RNA extracts from different rabies isolates and two NTC's (no tissue control). The source of the rabies isolates can be modified to meet individual needs, area/region isolated from, host species, etc. Also, the panel can be anonymised so that the receiving laboratory does not know which samples are positive and negative, the results will be given on request from the lab. The panel would be ideal for testing staff competence and proficiency.",
+      "EVORAO:unitDefinition": "20ul @ 1ug/ul per RNA sample",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "proficiency test"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 1500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "skos:note": "This panel would be ideal as a proficiency control panel.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "dcat:keyword": [
+        "Proficiency test",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "DEFRA",
+        "control",
+        "Lyssavirus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "PCR",
+        "proficiency",
+        "quality",
+        "Rabies",
+        "Rabies virus",
+        "RABV",
+        "Rhabdoviridae",
+        "RNA",
+        "virus",
+        "Dry ice",
+        "Rabies lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "proficiency test",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabies virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabies lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Various",
+        "EVORAO:strain": "Various"
+      },
+      "search:sku": "003K-02704",
+      "search:title": "Rabies Virus RNA - PCR Quality Control Panel",
+      "search:description": "A panel of 8 samples, including six RNA extracts from different rabies isolates and two NTC's (no tissue control). The source of the rabies isolates can be modified to meet individual needs, area/region isolated from, host species, etc. Also, the panel can be anonymised so that the receiving laboratory does not know which samples are positive and negative, the results will be given on request from the lab. The panel would be ideal for testing staff competence and proficiency.",
+      "search:taxonLabel": "Rabies lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DEFRA",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Rabies virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003K-02712",
+      "@id": "urn:evorao:EVA:DEFRA:003K-02712",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyssavirus-phylogroup-1-rna-pcr-quality-control-panel",
+      "dcterms:issued": "2018-02-01T16:48:31+01:00",
+      "dcterms:modified": "2020-05-26T11:19:38+02:00",
+      "dcterms:title": "Lyssavirus (Phylogroup 1) RNA - PCR Quality Control Panel ",
+      "dcterms:description": "A panel of 12 samples, including 10 RNA extract from different phylogroup 1 lyssaviruses and two NTC's (no tissue controls). The panel can be anonymised so that the receiving laboratory does not know which virus is which, results given to the receiving laboratory on request. The panel would be ideal for test development and assessing staff competence.\r\nRNA from the following lyssaviruses will be included: Rabies virus, Duvenhage virus, European Bat Lyssavirus-1, European Bat Lyssavirus-2, Irkut virus, Australian Bat Lyssavirus, Bokeloh Bat Lyssavirus, Khujand virus, Aravan virus & Gannoruwa Bat Lyssavirus.",
+      "EVORAO:unitDefinition": "20ul @ 1ug/ul per RNA sample",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "proficiency test"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "dcat:keyword": [
+        "Proficiency test",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "DEFRA",
+        "ABLV",
+        "Aravan",
+        "Australian",
+        "Bat",
+        "BBLV",
+        "Bokeloh",
+        "control",
+        "Duvenhage",
+        "DUVV",
+        "EBLV-1",
+        "European",
+        "Gannoruwa",
+        "GBLV",
+        "Irkut",
+        "IRKV",
+        "Khujand",
+        "KHUV",
+        "Lyssavirus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Panel",
+        "Phylogroup 1",
+        "proficiency",
+        "quality",
+        "Rabies",
+        "RABV",
+        "RNA",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "proficiency test",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lyssavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Various",
+        "EVORAO:strain": "Various"
+      },
+      "search:sku": "003K-02712",
+      "search:title": "Lyssavirus (Phylogroup 1) RNA - PCR Quality Control Panel ",
+      "search:description": "A panel of 12 samples, including 10 RNA extract from different phylogroup 1 lyssaviruses and two NTC's (no tissue controls). The panel can be anonymised so that the receiving laboratory does not know which virus is which, results given to the receiving laboratory on request. The panel would be ideal for test development and assessing staff competence.\r\nRNA from the following lyssaviruses will be included: Rabies virus, Duvenhage virus, European Bat Lyssavirus-1, European Bat Lyssavirus-2, Irkut virus, Australian Bat Lyssavirus, Bokeloh Bat Lyssavirus, Khujand virus, Aravan virus & Gannoruwa Bat Lyssavirus.",
+      "search:taxonLabel": "Lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DEFRA",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Lyssavirus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003K-02713",
+      "@id": "urn:evorao:EVA:DEFRA:003K-02713",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyssavirus-phylogroups-2-3-rna-pcr-quality-control-panel",
+      "dcterms:issued": "2018-02-01T17:06:20+01:00",
+      "dcterms:modified": "2020-05-26T11:13:59+02:00",
+      "dcterms:title": "Lyssavirus (Phylogroups 2 &amp; 3) RNA - PCR Quality Control Panel ",
+      "dcterms:description": "A panel of 11 samples, including eight extracts from phylogroup 2 & 3 lyssaviruses, RABV and two NTC's (no tissue control). The panel can be anonymised so that the laboratory does not know which RNA comes from which virus. Results will be given to the requesting laboratory on request. The panel would be good for test development and assessing staff competence. RNA from the following viruses will be included: Rabies virus, Lleida Bat Lyssavirus, Ikoma virus, Shimoni Bat virus, Mokola virus and Lagos Bat Lyssaviruses a, b, c & d.",
+      "EVORAO:unitDefinition": "20ul @ 1ug/ul per RNA sample",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "proficiency test"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 2250,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "dcat:keyword": [
+        "Proficiency test",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "DEFRA",
+        "Bat",
+        "competence",
+        "Ikoma",
+        "IKOV",
+        "Lagos",
+        "LBV-A",
+        "LBV-B",
+        "LBV-C",
+        "LBV-D",
+        "LLEBV",
+        "Lleida",
+        "Lyssavirus",
+        "Mokola",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Panel",
+        "proficiency",
+        "quality",
+        "Rabies",
+        "RABV",
+        "Shimoni",
+        "SHIV",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "proficiency test",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lyssavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Various",
+        "EVORAO:strain": "Various"
+      },
+      "search:sku": "003K-02713",
+      "search:title": "Lyssavirus (Phylogroups 2 &amp; 3) RNA - PCR Quality Control Panel ",
+      "search:description": "A panel of 11 samples, including eight extracts from phylogroup 2 & 3 lyssaviruses, RABV and two NTC's (no tissue control). The panel can be anonymised so that the laboratory does not know which RNA comes from which virus. Results will be given to the requesting laboratory on request. The panel would be good for test development and assessing staff competence. RNA from the following viruses will be included: Rabies virus, Lleida Bat Lyssavirus, Ikoma virus, Shimoni Bat virus, Mokola virus and Lagos Bat Lyssaviruses a, b, c & d.",
+      "search:taxonLabel": "Lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DEFRA",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Lyssavirus"
+    },
+    {
+      "@type": "EVORAO:Bundle",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "BNI"
+      },
+      "EVORAO:refSku": "002B-03119",
+      "@id": "urn:evorao:EVA:BNI:002B-03119",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/lassa-virus-control-rna-set-1",
+      "dcterms:issued": "2018-09-11T11:11:13+02:00",
+      "dcterms:modified": "2020-05-26T11:04:25+02:00",
+      "dcterms:title": "Lassa virus control RNA set 1",
+      "dcterms:description": "Genomic RNAs of Lassa virus isolates AV, Togo/2016/7082, Nig-CSF, Lib06-380 and Nig08-A37 extracted from cell culture supernatant",
+      "EVORAO:unitDefinition": "5 vials (one vial per isolate) with 0.05 ml each",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "bundle"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Bundle_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:itemsOfTheBundle": [
+        {
+          "@id": "urn:evorao:EVA:BNI:002N-EVA520",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "002N-EVA520",
+          "dcterms:title": "Lassa virus AV RNA"
+        },
+        {
+          "@id": "urn:evorao:EVA:BNI:002N-03118",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "002N-03118",
+          "dcterms:title": "Lassa virus Germany ex Togo/2016/7082 RNA"
+        },
+        {
+          "@id": "urn:evorao:EVA:BNI:002N-EVA883",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "002N-EVA883",
+          "dcterms:title": "Lassa virus Nig_CSF RNA"
+        },
+        {
+          "@id": "urn:evorao:EVA:BNI:002N-EVA523",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "002N-EVA523",
+          "dcterms:title": "Lassa virus Lib06-380 RNA"
+        },
+        {
+          "@id": "urn:evorao:EVA:BNI:002N-EVA859",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "002N-EVA859",
+          "dcterms:title": "Lassa virus Nig08-A37 RNA"
+        }
+      ],
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BNI"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "BNI",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "Bundle",
+        "Derived product",
+        "control",
+        "Lassa virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "RNA",
+        "Lassa mammarenavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "bundle",
+      "search:additionalCategory": [
+        "derived product",
+        "viral RNA",
+        "diagnostic reagent",
+        "nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lassa virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lassa mammarenavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "AV | Togo/2016/7082 | CSF | Lib06-380 | Nig08-A37 |"
+      },
+      "search:sku": "002B-03119",
+      "search:title": "Lassa virus control RNA set 1",
+      "search:description": "Genomic RNAs of Lassa virus isolates AV, Togo/2016/7082, Nig-CSF, Lib06-380 and Nig08-A37 extracted from cell culture supernatant",
+      "search:taxonLabel": "Lassa mammarenavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "BNI",
+      "search:providerName": "BNI",
+      "search:pathogenName": "Lassa virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "ERASMUS-MC"
+      },
+      "EVORAO:refSku": "011K-03673",
+      "@id": "urn:evorao:EVA:ERASMUS-MC:011K-03673",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/antigen-microarray-slide-panel-iav-hemagglutinin-ha-subtypes-h1-16",
+      "dcterms:issued": "2019-09-03T11:05:49+02:00",
+      "dcterms:modified": "2020-05-26T10:48:05+02:00",
+      "dcterms:title": "Antigen microarray slide with a panel of IAV hemagglutinin (HA) subtypes (H1-16)",
+      "dcterms:description": "24 pad nitrocellulose glass slides with a set of 33 HA1 proteins printed on each pad. The slides can be used for HA antibody profiling for group level assessment of exposures to influenza viruses in small sample volumes from humans and animals (birds, horses, pigs, bats, carnivores a.o.) in very small volumes of serum (10 μL). Each slides can be used for 24 sera. Scanning and analysis services are included.",
+      "EVORAO:unitDefinition": "1 microarray plate, 4 slides with 33 HA1 recombinant proteins in duplo",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "ELISA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "IFA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "skos:note": "Stran:\r\n-\tH1N1\tA/SOUTH CAROLINA/1/18\r\n-\tH1N1\tA/California/6/2009\r\n-\tH2N2\tA/Canada/720/05\r\n-\tH3N2\tA/Aichi/2/1968\r\n-\tH3N2\tA/VICTORIA/210/2009 \r\n-\tH3-08\tA/equine/Gansu/7/2008\r\n-\tH4-02\tH4N6\tA/mallard/Ohio/657/2002\r\n-\tH5-97\tH5N1\tA/HONG KONG/156/97 (CLADE 0)\r\n-\tH5-02\tH5N8\tA/duck/NY/191255-59/2002 low pathogenic\r\n-\tH5-07\tH5N3\tA/duck/Hokkaido/167/2007 low pathogenic\r\n-\tH5-08\tH5N1\tA/chicken/Egypt/0879-NLQP/2008 (clade 2.2.1.1)\r\n-\tH5-10\tH5N1\tA/Hubei/1/2010 (clade 2.3.2.1)\r\n-\tH5-06\tH5N1\tA/Turkey/15/2006 (clade 2.2)\r\n-\tH5-16\tH5N8\tA/tufted duck/Germany-SH/R8444/2016 (clade 2.3.4.4)\r\n-\tH6-99\tH6N1\tA/quail/HK/1721-30/99\r\n-\tH7-03\tH7N7 \tA/CHICKEN/NETHERLANDS/1/03\r\n-\tH7-13\tH7N9\tA/chicken/Anhui/1/2013\r\n-\tH7-12 \tH7N3\tA/chicken/Jalisco/CPA1/2012\r\n-\tH8-79\tH8N4\tA/pintail duck/Alberta/114/1979\r\n-\tH9-99\tH9N2\tA/GUINEA FOWL/HONG KONG/WF10/99\r\n-\tH9-97\tH9N2\tA/chicken/Hong Kong/G9/97 (G9 lineage)\r\n-\tH9-11\tH9N2\tA/Chicken/India/IVRI-0011/2011\r\n-\tH9-14\tH9N2\tA/Hong Kong/308/2014\r\n-\tH10-07\tH10N7\tA/blue-winged teal/Louisiana/Sg00073/07\r\n-\tH11-02\tH11N2\tA/duck/Yangzhou/906/2002\r\n-\tH12-91\tH12N5\tA/green-winged teal/ALB/199/1991\r\n-\tH13-00\tH13N8\tA/black-headed gull/Netherlands/1/00\r\n-\tH14-82\tH14N5\tA/mallard/Astrakhan/263/1982\r\n-\tH15-83\tH15N8\tA/duck/AUS/341/1983\r\n-\tH16-99\tH16N3\tA/black-headed gull/Sweden/5/99\r\n-\tH17-09\tH17N10\tA/little yellow-shouldered bat/Guatemala/153/2009\r\n-\tH18-10\tH18N11\tA/flat-faced bat/Peru/033/2010\r\n",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Dried",
+      "EVORAO:targetedRegion": "HA1",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "ERASMUS-MC"
+      },
+      "EVORAO:doi": "10.1093/infdis/jiz032, 10.1371/journal.pone.0127035, 10.1371/journal.pone.0108043, 10.1111/j.1469-0691.2011.03701.x",
+      "dcat:keyword": [
+        "ELISA",
+        "IFA",
+        "Detection Kit (for RUO)",
+        "ERASMUS-MC",
+        "Derived product",
+        "Room Temperature",
+        "10.1093/infdis/jiz032",
+        "10.1111/j.1469-0691.2011.03701.x",
+        "10.1371/journal.pone.0108043",
+        "10.1371/journal.pone.0127035",
+        "Antibody",
+        "HA",
+        "Influenza",
+        "Influenza A virus",
+        "multiplex",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "protein array",
+        "protein microarray",
+        "serological assay",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "ELISA",
+        "IFA",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "See details"
+      },
+      "search:sku": "011K-03673",
+      "search:title": "Antigen microarray slide with a panel of IAV hemagglutinin (HA) subtypes (H1-16)",
+      "search:description": "24 pad nitrocellulose glass slides with a set of 33 HA1 proteins printed on each pad. The slides can be used for HA antibody profiling for group level assessment of exposures to influenza viruses in small sample volumes from humans and animals (birds, horses, pigs, bats, carnivores a.o.) in very small volumes of serum (10 μL). Each slides can be used for 24 sera. Scanning and analysis services are included.",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "ERASMUS-MC",
+      "search:providerName": "ERASMUS-MC",
+      "search:pathogenName": "Influenza A virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02577",
+      "@id": "urn:evorao:EVA:CUB:004K-02577",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-e-gene-lanciotti-et-al",
+      "dcterms:issued": "2017-10-09T09:00:08+02:00",
+      "dcterms:modified": "2020-05-25T17:54:45+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - E Gene - Lanciotti et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the envelope gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Lanciotti RS, Kosoy OL, Laven JJ, Velez JO, Lambert AJ, Johnson AJ, et al. Genetic and serologic properties of Zika virus associated with an epidemic, Yap State, Micronesia, 2007. Emerg Infect Dis. 2008 Aug;14(8):1232-9.”",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "Envelope gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "lanciotti et al",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "real time",
+        "Zika virus",
+        "Zika virus kit",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "derived product",
+        "detection kit (for RUO)",
+        "molecular detection kit"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02577",
+      "search:title": "Zika virus real time detection Kit - E Gene - Lanciotti et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the envelope gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Lanciotti RS, Kosoy OL, Laven JJ, Velez JO, Lambert AJ, Johnson AJ, et al. Genetic and serologic properties of Zika virus associated with an epidemic, Yap State, Micronesia, 2007. Emerg Infect Dis. 2008 Aug;14(8):1232-9.”",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02576",
+      "@id": "urn:evorao:EVA:CUB:004K-02576",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-m-gene-lanciotti-et-al",
+      "dcterms:issued": "2017-10-09T08:56:54+02:00",
+      "dcterms:modified": "2020-05-25T17:53:34+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - M Gene - Lanciotti et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the matrix gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by Lanciotti RS, Kosoy OL, Laven JJ, Velez JO, Lambert AJ, Johnson AJ, et al. Genetic and serologic properties of Zika virus associated with an epidemic, Yap State, Micronesia, 2007. Emerg Infect Dis. 2008 Aug;14(8):1232-9.”",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "Matrix gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "lanciotti et al",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "real time",
+        "Zika virus",
+        "Zika virus kit",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "detection kit (for RUO)",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02576",
+      "search:title": "Zika virus real time detection Kit - M Gene - Lanciotti et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the matrix gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by Lanciotti RS, Kosoy OL, Laven JJ, Velez JO, Lambert AJ, Johnson AJ, et al. Genetic and serologic properties of Zika virus associated with an epidemic, Yap State, Micronesia, 2007. Emerg Infect Dis. 2008 Aug;14(8):1232-9.”",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02582",
+      "@id": "urn:evorao:EVA:CUB:004K-02582",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-e-gene-pyke-et-al",
+      "dcterms:issued": "2017-10-09T09:15:06+02:00",
+      "dcterms:modified": "2020-05-25T16:45:59+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - E Gene - Pyke et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the envelope gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Pyke AT, Daly MT, Cameron JN, Moore PR, Taylor CT, Hewitson GR, et al. Imported zika virus infection from the cook islands into australia, 2014. PLoS Curr. 2014;6.”",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "Envelope gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "pyke et al.",
+        "real time",
+        "Zika virus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "detection kit (for RUO)",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02582",
+      "search:title": "Zika virus real time detection Kit - E Gene - Pyke et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the envelope gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Pyke AT, Daly MT, Cameron JN, Moore PR, Taylor CT, Hewitson GR, et al. Imported zika virus infection from the cook islands into australia, 2014. PLoS Curr. 2014;6.”",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02581",
+      "@id": "urn:evorao:EVA:CUB:004K-02581",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-ns2b-gene-waggoner-et-al",
+      "dcterms:issued": "2017-10-09T09:10:03+02:00",
+      "dcterms:modified": "2020-05-25T16:40:36+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - NS2b gene - Waggoner et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the NS2b gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Waggoner JJ, Pinsky BA. Zika Virus: Diagnostics for an Emerging Pandemic Threat. J Clin Microbiol. 2016 Feb 17.“",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "NS2b gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "real time",
+        "waggoner et al",
+        "Zika virus",
+        "Zika virus kit",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "detection kit (for RUO)",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02581",
+      "search:title": "Zika virus real time detection Kit - NS2b gene - Waggoner et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the NS2b gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Waggoner JJ, Pinsky BA. Zika Virus: Diagnostics for an Emerging Pandemic Threat. J Clin Microbiol. 2016 Feb 17.“",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02580",
+      "@id": "urn:evorao:EVA:CUB:004K-02580",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-ns-1-gene-corman-et-al",
+      "dcterms:issued": "2017-10-09T09:08:00+02:00",
+      "dcterms:modified": "2020-05-25T16:39:54+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - NS 1 gene - Corman et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the NS1 gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Corman VM, Rasche A, et al. Clinical comparison, standardization and optimization of Zika virus molecular detection Submitted]. Bull World Health Organ E-pub: 19 Apr 2016.”",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "NS 1 gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Corman et al",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "real time",
+        "Zika virus",
+        "Zika virus kit",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "detection kit (for RUO)",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02580",
+      "search:title": "Zika virus real time detection Kit - NS 1 gene - Corman et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the NS1 gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Corman VM, Rasche A, et al. Clinical comparison, standardization and optimization of Zika virus molecular detection Submitted]. Bull World Health Organ E-pub: 19 Apr 2016.”",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02579",
+      "@id": "urn:evorao:EVA:CUB:004K-02579",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-ns-1-gene-pyke-et-al",
+      "dcterms:issued": "2017-10-09T09:06:18+02:00",
+      "dcterms:modified": "2020-05-25T16:39:19+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - NS 1 gene - Pyke et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the NS1 gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Pyke AT, Daly MT, Cameron JN, Moore PR, Taylor CT, Hewitson GR, et al. Imported zika virus infection from the cook islands into australia, 2014. PLoS Curr. 2014;6.”",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "NS 1 gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Pyke et al",
+        "real time",
+        "Zika virus",
+        "Zika virus kit",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "detection kit (for RUO)",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02579",
+      "search:title": "Zika virus real time detection Kit - NS 1 gene - Pyke et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the NS1 gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Pyke AT, Daly MT, Cameron JN, Moore PR, Taylor CT, Hewitson GR, et al. Imported zika virus infection from the cook islands into australia, 2014. PLoS Curr. 2014;6.”",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004K-02578",
+      "@id": "urn:evorao:EVA:CUB:004K-02578",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/zika-virus-real-time-detection-kit-e-gene-corman-et-al",
+      "dcterms:issued": "2017-10-09T09:02:20+02:00",
+      "dcterms:modified": "2020-05-25T16:37:48+02:00",
+      "dcterms:title": "Zika virus real time detection Kit - E Gene - Corman et al.",
+      "dcterms:description": "Real time detection kit for Zika virus targeting the envelope gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Corman VM, Rasche A, et al. Clinical comparison, standardization and optimization of Zika virus molecular detection Submitted]. Bull World Health Organ E-pub: 19 Apr 2016.”",
+      "EVORAO:unitDefinition": "50 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 436,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:targetedRegion": "Envelope gene",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Corman et al",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "real time",
+        "Zika virus",
+        "Zika virus kit",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "detection kit (for RUO)",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zika virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004K-02578",
+      "search:title": "Zika virus real time detection Kit - E Gene - Corman et al.",
+      "search:description": "Real time detection kit for Zika virus targeting the envelope gene. The kit contains positive control,  primers and probe for 50 reactions. Real time primers and probe were published by “Corman VM, Rasche A, et al. Clinical comparison, standardization and optimization of Zika virus molecular detection Submitted]. Bull World Health Organ E-pub: 19 Apr 2016.”",
+      "search:taxonLabel": "Zika virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Zika virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026K-03678",
+      "@id": "urn:evorao:EVA:CUB:026K-03678",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/dengue-virus-real-time-detection-kit",
+      "dcterms:issued": "2019-09-12T14:39:44+02:00",
+      "dcterms:modified": "2020-05-20T18:02:48+02:00",
+      "dcterms:title": "Dengue virus real time detection kit",
+      "dcterms:description": "Set of primers and probes to detect viral RNA of Dengue virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "EVORAO:unitDefinition": "1 x 100 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 872,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Dengue virus",
+        "Diagnostic",
+        "EQA",
+        "EVD",
+        "kit",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "- 20°C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Dengue virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Dengue virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026K-03678",
+      "search:title": "Dengue virus real time detection kit",
+      "search:description": "Set of primers and probes to detect viral RNA of Dengue virus on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "search:taxonLabel": "Dengue virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Dengue virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FoHM"
+      },
+      "EVORAO:refSku": "024K-03484",
+      "@id": "urn:evorao:EVA:FoHM:024K-03484",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/inactivated-house-cchfv-slide",
+      "dcterms:issued": "2019-04-11T15:03:34+02:00",
+      "dcterms:modified": "2020-05-20T17:57:40+02:00",
+      "dcterms:title": "Inactivated in-house CCHFV slide",
+      "dcterms:description": "In-house IF-slides to detect anti-CCHFV antibodies by Immunofluorecence assay. The slides were prepared by infecting Vero cells with the CCHFV strain, Nigerian IbAr10200. The slides are fixated in acetone, air-dried and preserved at -80°C. The slide has been tested positive with mouse monoclonal anti-CCHFV antibodies against N, Gc and Gn.",
+      "EVORAO:unitDefinition": "12-well slide",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "IFA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 409.85,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/CCHFV-2.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:specificity": "The specificity was assessed by staining the slide with a murine monoclonal antibody to CCHFV. Detailed protocol is available upon request.",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FoHM"
+      },
+      "dcat:keyword": [
+        "IFA",
+        "Detection Kit (for RUO)",
+        "FoHM",
+        "Derived product",
+        "CCHFV",
+        "Crimean-Congo hemorrhagic fever virus",
+        "Detection kit",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Reference Strain",
+        "Dry ice",
+        "Crimean-Congo hemorrhagic fever orthonairovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "IFA",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "024K-03484",
+      "search:title": "Inactivated in-house CCHFV slide",
+      "search:description": "In-house IF-slides to detect anti-CCHFV antibodies by Immunofluorecence assay. The slides were prepared by infecting Vero cells with the CCHFV strain, Nigerian IbAr10200. The slides are fixated in acetone, air-dried and preserved at -80°C. The slide has been tested positive with mouse monoclonal anti-CCHFV antibodies against N, Gc and Gn.",
+      "search:taxonLabel": "Crimean-Congo hemorrhagic fever orthonairovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FoHM",
+      "search:providerName": "FoHM",
+      "search:pathogenName": "Crimean-Congo hemorrhagic fever virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026K-03677",
+      "@id": "urn:evorao:EVA:CUB:026K-03677",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/chikungunya-virus-real-time-detection-kit",
+      "dcterms:issued": "2019-09-12T14:37:34+02:00",
+      "dcterms:modified": "2020-05-20T17:50:47+02:00",
+      "dcterms:title": "Chikungunya virus real time detection kit",
+      "dcterms:description": "Set of primers and probes to detect viral RNA of Chikungunya on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "EVORAO:unitDefinition": "1 x 100 reactions",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 872,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Molecular detection kit",
+        "CUB",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Chikungunya virus",
+        "Diagnostic",
+        "EQA",
+        "EVD",
+        "kit",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "- 20°C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Chikungunya virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Chikungunya virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026K-03677",
+      "search:title": "Chikungunya virus real time detection kit",
+      "search:description": "Set of primers and probes to detect viral RNA of Chikungunya on diagnostic level. Suitable with the EVD-labnet / EVAg EQA of molecular diagnostics on Chikungunya, Dengue, West Nile, Yellow fever and Zika virus 2019.",
+      "search:taxonLabel": "Chikungunya virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Chikungunya virus"
+    },
+    {
       "@type": "EVORAO:Service",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
