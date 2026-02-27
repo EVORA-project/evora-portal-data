@@ -22,6 +22,1307 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-04623",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04623",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/turnip-vein-clearing-virus-tvcv-isolate-dsmz-pv-0148",
+      "dcterms:issued": "2022-03-01T17:33:15+01:00",
+      "dcterms:modified": "2022-03-01T17:33:15+01:00",
+      "dcterms:title": "Turnip vein-clearing virus (TVCV) isolate DSMZ PV-0148",
+      "dcterms:description": "Infectious Turnip vein-clearing virus (TVCV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1988-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "K. Schumann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana tabacum cv. Samsun nn"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OK058510",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Digitalis sp."
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Digitalis sp.",
+        "Germany",
+        "K. Schumann",
+        "Mechanical inoculation",
+        "Nicotiana tabacum cv. Samsun nn",
+        "NON DANGEROUS GOODS",
+        "OK058510",
+        "Plant virus",
+        "RG1",
+        "Turnip vein-clearing virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1988-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OK058510"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Turnip vein-clearing virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Turnip vein-clearing virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RMV-Digitalis",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04623",
+      "search:title": "Turnip vein-clearing virus (TVCV) isolate DSMZ PV-0148",
+      "search:description": "Infectious Turnip vein-clearing virus (TVCV) isolate",
+      "search:taxonLabel": "Turnip vein-clearing virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Digitalis sp.",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "OK058510",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "K. Schumann",
+      "search:pathogenName": "Turnip vein-clearing virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04622",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04622",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/turnip-ringspot-virus-tursv-isolate-dsmz-pv-0355",
+      "dcterms:issued": "2022-03-01T17:26:51+01:00",
+      "dcterms:modified": "2022-03-01T17:26:51+01:00",
+      "dcterms:title": "Turnip ringspot virus (TuRSV) isolate DSMZ PV-0355",
+      "dcterms:description": "Infectious Turnip ringspot virus (TuRSV) isolate. Contains two variants of RNA 2.",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1991-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "skos:note": "Contains two variants of RNA 2.",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.J. Vetten"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW274715, MW274716, MW274717",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Brassica rapa"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Brassica rapa",
+        "Germany",
+        "H.J. Vetten",
+        "Mechanical inoculation",
+        "MW274715",
+        "MW274716",
+        "MW274717",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Turnip ringspot virus",
+        "Comovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1991-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW274715, MW274716, MW274717"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Turnip ringspot virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Comovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04622",
+      "search:title": "Turnip ringspot virus (TuRSV) isolate DSMZ PV-0355",
+      "search:description": "Infectious Turnip ringspot virus (TuRSV) isolate. Contains two variants of RNA 2.",
+      "search:taxonLabel": "Comovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Brassica rapa",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MW274715, MW274716, MW274717",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.J. Vetten",
+      "search:pathogenName": "Turnip ringspot virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04621",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04621",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/turnip-mosaic-virus-tumv-isolate-dsmz-pv-0104",
+      "dcterms:issued": "2022-03-01T17:18:16+01:00",
+      "dcterms:modified": "2022-03-01T17:18:16+01:00",
+      "dcterms:title": "Turnip mosaic virus (TuMV) isolate DSMZ PV-0104",
+      "dcterms:description": "Infectious Turnip mosaic virus (TuMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1988-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "D.-E. Lesemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MZ405633",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Lactuca sativa"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "D.-E. Lesemann",
+        "Germany",
+        "Lactuca sativa",
+        "Mechanical inoculation",
+        "MZ405633",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Turnip mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1988-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MZ405633"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Turnip mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Turnip mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04621",
+      "search:title": "Turnip mosaic virus (TuMV) isolate DSMZ PV-0104",
+      "search:description": "Infectious Turnip mosaic virus (TuMV) isolate",
+      "search:taxonLabel": "Turnip mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Lactuca sativa",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MZ405633",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "D.-E. Lesemann",
+      "search:pathogenName": "Turnip mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04620",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04620",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/turnip-crinkle-virus-tcv-isolate-dsmz-pv-0293",
+      "dcterms:issued": "2022-03-01T17:12:38+01:00",
+      "dcterms:modified": "2022-03-01T17:12:38+01:00",
+      "dcterms:title": "Turnip crinkle virus (TCV) isolate DSMZ PV-0293",
+      "dcterms:description": "Infectious Turnip crinkle virus (TCV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1990-08-20",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "R. Koenig"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OK181761",
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Mechanical inoculation",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "OK181761",
+        "Plant virus",
+        "R. Koenig",
+        "RG1",
+        "Turnip crinkle virus",
+        "Unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1990-08-20",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OK181761"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Turnip crinkle virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Turnip crinkle virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04620",
+      "search:title": "Turnip crinkle virus (TCV) isolate DSMZ PV-0293",
+      "search:description": "Infectious Turnip crinkle virus (TCV) isolate",
+      "search:taxonLabel": "Turnip crinkle virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Unknown",
+      "search:accessionNumber": "OK181761",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "R. Koenig",
+      "search:pathogenName": "Turnip crinkle virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001V-04436",
+      "@id": "urn:evorao:EVA:AMU:001V-04436",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sars-cov-2-virus-strain-uvesars-cov-22021co6600-mu",
+      "dcterms:issued": "2021-12-21T15:57:26+01:00",
+      "dcterms:modified": "2022-03-01T16:36:04+01:00",
+      "dcterms:title": "SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2021/CO/6600 (Mu)",
+      "dcterms:description": "Freeze-dried SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2021/CO/6600 (Mu), Colombia 2021 ,complete genome sequence",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2021-05-21",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Colombia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "qRT-PCR",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "UVE/Centro de Atención y Diagnóstico de Enfermedades Infecciosas- CDI"
+      },
+      "EVORAO:passage": "P1",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6 TMPRSS2"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "1,44E+07 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:accessionNumber": "GISAID:  EPI_ISL_10445340",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human nasopharyngeal swab"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Bucaramanga-Colombia"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "2019-nCoV",
+        "21H/Mu (B.1.621)",
+        "Bucaramanga-Colombia",
+        "Category A",
+        "UN2814",
+        "Colombia",
+        "Coronavirus",
+        "GISAID:  EPI_ISL_10445340",
+        "Human nasopharyngeal swab",
+        "Human virus",
+        "Mu",
+        "Mu variant",
+        "RG3",
+        "SARS-CoV-2",
+        "UVE/Centro de Atención y Diagnóstico de Enfermedades Infecciosas- CDI",
+        "Vero E6 TMPRSS2",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2021-05-21",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "GISAID:  EPI_ISL_10445340"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "UVE/SARS-CoV-2/2021/CO/6600",
+        "EVORAO:hostType": "Human",
+        "EVORAO:variant": {
+          "@type": "EVORAO:Variant",
+          "dcterms:title": "21H/Mu (B.1.621)"
+        }
+      },
+      "search:sku": "001V-04436",
+      "search:title": "SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2021/CO/6600 (Mu)",
+      "search:description": "Freeze-dried SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2021/CO/6600 (Mu), Colombia 2021 ,complete genome sequence",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Human nasopharyngeal swab",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "Colombia",
+      "search:accessionNumber": "GISAID:  EPI_ISL_10445340",
+      "search:providerName": "AMU",
+      "search:originatorName": "UVE/Centro de Atención y Diagnóstico de Enfermedades Infecciosas- CDI",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "021V-04081",
+      "@id": "urn:evorao:EVA:DEFRA:021V-04081",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-bovine-viral-diarrhoea-virus-type-1-ho916",
+      "dcterms:issued": "2021-02-25T14:45:42+01:00",
+      "dcterms:modified": "2022-03-01T09:29:11+01:00",
+      "dcterms:title": "Live Bovine Viral Diarrhoea Virus, type 1 Ho916",
+      "dcterms:description": "Bovine Viral Diarrhoea Virus type 1. This virus (BVDV, Ho916) is preserved under viral storage medium at -80C. Tests for the presence of mycoplasmae have not been performed. To confirm its identity the virus has been fully sequenced.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1050,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "United Kingdom of Great Britain and Northern Ireland (the)"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2900",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Not tested",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "foetal bovine turbinate cells"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:accessionNumber": "MH379638",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "Bovine viral diarrhoea virus 1",
+        "BVDV",
+        "Category A",
+        "UN2900",
+        "foetal bovine turbinate cells",
+        "MH379638",
+        "Reference Strain",
+        "RG2",
+        "United Kingdom of Great Britain and Northern Ireland (the)",
+        "Dry ice",
+        "Pestivirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1993-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "Available on request",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MH379638"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bovine viral diarrhoea virus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Pestivirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Ho916",
+        "EVORAO:subspecies": "Type 1",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "021V-04081",
+      "search:title": "Live Bovine Viral Diarrhoea Virus, type 1 Ho916",
+      "search:description": "Bovine Viral Diarrhoea Virus type 1. This virus (BVDV, Ho916) is preserved under viral storage medium at -80C. Tests for the presence of mycoplasmae have not been performed. To confirm its identity the virus has been fully sequenced.",
+      "search:taxonLabel": "Pestivirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "search:accessionNumber": "MH379638",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Bovine viral diarrhoea virus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04616",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04616",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tomato-yellow-ring-orthotospovirus-tyrv-isolate-dsmz-pv-0526",
+      "dcterms:issued": "2022-02-28T17:22:29+01:00",
+      "dcterms:modified": "2022-02-28T17:22:29+01:00",
+      "dcterms:title": "Tomato yellow ring orthotospovirus (TYRV) isolate DSMZ PV-0526",
+      "dcterms:description": "Infectious Tomato yellow ring orthotospovirus (TYRV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1998-10-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Iran (Islamic Republic of)"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "D.-E. Lesemann"
+      },
+      "EVORAO:previouslyKnownAs": "Tomato yellow fruit ring virus",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MT723994, MT723996",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum lycopersicum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "D.-E. Lesemann",
+        "Iran (Islamic Republic of)",
+        "Mechanical inoculation",
+        "MT723994",
+        "MT723996",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Solanum lycopersicum",
+        "Tomato yellow fruit ring virus",
+        "Tomato yellow ring orthotospovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1998-10-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MT723994, MT723996"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Tomato yellow ring orthotospovirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tomato yellow ring orthotospovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Tomato yellow fruit ring virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04616",
+      "search:title": "Tomato yellow ring orthotospovirus (TYRV) isolate DSMZ PV-0526",
+      "search:description": "Infectious Tomato yellow ring orthotospovirus (TYRV) isolate",
+      "search:taxonLabel": "Tomato yellow ring orthotospovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum lycopersicum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Iran (Islamic Republic of)",
+      "search:accessionNumber": "MT723994, MT723996",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "D.-E. Lesemann",
+      "search:pathogenName": "Tomato yellow ring orthotospovirus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04615",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04615",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tomato-spotted-wilt-orthotospovirus-tswv-isolate-dsmz-pv-0182",
+      "dcterms:issued": "2022-02-28T17:18:12+01:00",
+      "dcterms:modified": "2022-02-28T17:18:12+01:00",
+      "dcterms:title": "Tomato spotted wilt orthotospovirus (TSWV) isolate DSMZ PV-0182",
+      "dcterms:description": "Infectious Tomato spotted wilt orthotospovirus (TSWV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1988-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Bulgaria"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "M. Jankulova"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana rustica"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MZ202328, MZ202329, MZ202330",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Nicotiana tabacum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Bulgaria",
+        "M. Jankulova",
+        "Mechanical inoculation",
+        "MZ202328",
+        "MZ202329",
+        "MZ202330",
+        "Nicotiana rustica",
+        "Nicotiana tabacum",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Tomato spotted wilt orthotospovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1988-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MZ202328, MZ202329, MZ202330"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Tomato spotted wilt orthotospovirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tomato spotted wilt orthotospovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "TSWV-L3",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04615",
+      "search:title": "Tomato spotted wilt orthotospovirus (TSWV) isolate DSMZ PV-0182",
+      "search:description": "Infectious Tomato spotted wilt orthotospovirus (TSWV) isolate",
+      "search:taxonLabel": "Tomato spotted wilt orthotospovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Nicotiana tabacum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Bulgaria",
+      "search:accessionNumber": "MZ202328, MZ202329, MZ202330",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "M. Jankulova",
+      "search:pathogenName": "Tomato spotted wilt orthotospovirus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04614",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04614",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tomato-mosaic-virus-tomv-isolate-dsmz-pv-0135",
+      "dcterms:issued": "2022-02-28T17:15:12+01:00",
+      "dcterms:modified": "2022-02-28T17:15:12+01:00",
+      "dcterms:title": "Tomato mosaic virus (ToMV) isolate DSMZ PV-0135",
+      "dcterms:description": "Infectious Tomato mosaic virus (ToMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 150,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1988-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "U. Melchers"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana tabacum cv. Samsun nn"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW051784",
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Germany",
+        "Mechanical inoculation",
+        "MW051784",
+        "Nicotiana tabacum cv. Samsun nn",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Tomato mosaic virus",
+        "U. Melchers"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1988-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW051784"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Tomato mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tomato mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Dahlemense",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04614",
+      "search:title": "Tomato mosaic virus (ToMV) isolate DSMZ PV-0135",
+      "search:description": "Infectious Tomato mosaic virus (ToMV) isolate",
+      "search:taxonLabel": "Tomato mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "MW051784",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "U. Melchers",
+      "search:pathogenName": "Tomato mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-04613",
       "@id": "urn:evorao:EVA:DSMZ:027V-04613",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tomato-bushy-stunt-virus-tbsv-isolate-dsmz-pv-0268",
@@ -16132,150 +17433,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "Franke",
       "search:pathogenName": "Angelonia flower break virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04500",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04500",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/alternanthera-mosaic-virus-altmv-isolate-dsmz-pv-0725",
-      "dcterms:issued": "2022-02-08T17:33:40+01:00",
-      "dcterms:modified": "2022-02-08T17:33:40+01:00",
-      "dcterms:title": "Alternanthera mosaic virus (AltMV) isolate DSMZ PV-0725",
-      "dcterms:description": "Infectious Alternanthera mosaic virus (AltMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 150,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-08-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Netherlands (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.-E. Lesemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana hesperis"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OL311694",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Portulaca sp."
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Alternanthera mosaic virus",
-        "D.-E. Lesemann",
-        "Mechanical inoculation",
-        "Netherlands (the)",
-        "Nicotiana hesperis",
-        "NON DANGEROUS GOODS",
-        "OL311694",
-        "Plant virus",
-        "Portulaca sp.",
-        "RG1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-08-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OL311694"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Alternanthera mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Alternanthera mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04500",
-      "search:title": "Alternanthera mosaic virus (AltMV) isolate DSMZ PV-0725",
-      "search:description": "Infectious Alternanthera mosaic virus (AltMV) isolate",
-      "search:taxonLabel": "Alternanthera mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Portulaca sp.",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Netherlands (the)",
-      "search:accessionNumber": "OL311694",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.-E. Lesemann",
-      "search:pathogenName": "Alternanthera mosaic virus"
     },
     {
       "@type": "EVORAO:Virus",
@@ -145470,1156 +146627,6 @@
       "search:countryOfCollection": "Germany",
       "search:providerName": "FLI",
       "search:pathogenName": "European bat 2 lyssavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-00800",
-      "@id": "urn:evorao:EVA:FLI:015V-00800",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bovine-viral-diarrhea-virus-2c-isolate-nrw-19-13-1",
-      "dcterms:issued": "2015-11-17T13:32:57+01:00",
-      "dcterms:modified": "2021-05-28T15:20:56+02:00",
-      "dcterms:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 19-13-1&quot;",
-      "dcterms:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 19-13-1\", genotype c,  isolated 2013 in Germany (cattle); 9th cell culture passage; mycoplasma free; infectivity tested",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2013-03-05",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, IFA",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 9,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "bovine esophagus cells (KOP-R)"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "3.16x10^7",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "HG426487, HG426488",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "cattle"
-      },
-      "EVORAO:isolationTechnique": "Isolation on KOP-R cells",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Germany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "24719408",
-        "Animal virus",
-        "bovine esophagus cells (KOP-R)",
-        "Bovine viral diarrhea virus 2",
-        "Category B",
-        "UN3373",
-        "cattle",
-        "Germany",
-        "HG426487",
-        "HG426488",
-        "pestivirus",
-        "RG2",
-        "Dry ice",
-        "Pestivirus B"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2013-03-05",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "HG426487, HG426488"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bovine viral diarrhea virus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pestivirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "NRW 19-13-1",
-        "EVORAO:genotype": "2c",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "015V-00800",
-      "search:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 19-13-1&quot;",
-      "search:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 19-13-1\", genotype c,  isolated 2013 in Germany (cattle); 9th cell culture passage; mycoplasma free; infectivity tested",
-      "search:taxonLabel": "Pestivirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "cattle",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "HG426487, HG426488",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bovine viral diarrhea virus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-00801",
-      "@id": "urn:evorao:EVA:FLI:015V-00801",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bovine-viral-diarrhea-virus-2c-isolate-nrw-19-13-8c",
-      "dcterms:issued": "2015-11-17T13:39:51+01:00",
-      "dcterms:modified": "2021-05-28T15:19:43+02:00",
-      "dcterms:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 19-13-8c&quot;",
-      "dcterms:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 19-13-8c\", genotype c,  isolated 2013 in Germany (cattle); 8th cell culture passage; mycoplasma free; infectivity tested",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2013-03-05",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, IFA",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/ml",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 8,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "bovine esophagus cells (KOP-R)"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "6.81x10^6",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "HG426488, HG426489",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "cattle"
-      },
-      "EVORAO:isolationTechnique": "Isolation on KOP-R cells",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Germany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "24719408",
-        "Animal virus",
-        "bovine esophagus cells (KOP-R)",
-        "Bovine viral diarrhea virus 2",
-        "Category B",
-        "UN3373",
-        "cattle",
-        "Germany",
-        "HG426488",
-        "HG426489",
-        "pestivirus",
-        "RG2",
-        "Dry ice",
-        "Pestivirus B"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2013-03-05",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "HG426488, HG426489"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bovine viral diarrhea virus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pestivirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "NRW 19-13-8c",
-        "EVORAO:genotype": "2c",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "015V-00801",
-      "search:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 19-13-8c&quot;",
-      "search:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 19-13-8c\", genotype c,  isolated 2013 in Germany (cattle); 8th cell culture passage; mycoplasma free; infectivity tested",
-      "search:taxonLabel": "Pestivirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "cattle",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "HG426488, HG426489",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bovine viral diarrhea virus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FoHM"
-      },
-      "EVORAO:refSku": "024V-02738",
-      "@id": "urn:evorao:EVA:FoHM:024V-02738",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lassa-virus-sweden-isolate",
-      "dcterms:issued": "2018-03-07T11:38:50+01:00",
-      "dcterms:modified": "2021-05-28T10:58:36+02:00",
-      "dcterms:title": "Lassa virus (Sweden isolate)",
-      "dcterms:description": "Infectious supernatant of Lassa virus. The virus has  98% sequence similarity to LASV strain LiB07-444 (GenBank accession no. GU830834) based on sequencing of PCR amplicon of partial glycoprotein precursor. The sample was negative for mycoplasma testing.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2176.3,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-03-17",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Sweden"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "RG4",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "FFA",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "2.0E+07 FFU/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FoHM"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Vero-E6"
-      },
-      "EVORAO:isolationTechnique": "Cell culture",
-      "EVORAO:doi": "10.1093/ofid/ofw198",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "ex Liberia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FoHM",
-        "10.1093/ofid/ofw198",
-        "27975074",
-        "arenaviruses Old World",
-        "Category A",
-        "UN2814",
-        "ex Liberia",
-        "Human virus",
-        "Lassa fever",
-        "Lassa virus",
-        "RG4",
-        "Sweden",
-        "Vero",
-        "Vero-E6",
-        "viral hemorrhagic fever",
-        "Dry ice",
-        "Lassa mammarenavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2016-03-17",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Lassa virus glycoprotein precursor (GPC) gene, partial cds\nTGTTTCTCATTACATTTTGCCACCGCCGTGTTCCCAAAGCATTTCAATTCAGCCTCAATC\nAACATCCACCTAGTCAAACAATACCCTCCTGGTGTATCCTTGCCCTCAGAATCCGACAAT\nGTCCATGTGAATGTTCCTAGGAGTCTCCTACTAATGTAGATATCCCTAGTTCTCTGCGAA\nAGAAGCCCAAGATAGCCGATGGGAGATGGTCTTGAAAATTGGCAATGATCTTCCCAAGTT\nGTGTTCTGAATTATCAAGTACTGATAACTGGTCATGATGCAGTCCCATCCACCATGACCT\nGAGTCAAGAGCTATGTAACTACCACCCCAAGCCATTCTCATGAAGGTCTGCAGGACACCA\nTTTGCAACTGTACCGCAGTGTGATGCTGCATCCACAGCATAACTGTGACTCAAATTATAC\nTGCACACTAATCTTCCCTCCATTAAAGTCGCAACTCATGGCCTCATATTGGTTGAAGTTG\nGGAATGGATAGGTGGAAGGTTGAAATTATGCTCATGAGGGCATGATCATAAAGGTTCTTC\nTTGTGAGCATCAGAAAGGTTGCAGAATTTGTGATTGATGATGCTAGTGTTTGTCAGTGTC\nAGCTCCAACCCTGTTTCATTGCCTACCCTTATGTAGTGATGGCTGTTGTTCTTTGTGCAA\nGAAAGAGGCATGGTCATGTTCAATGTTTCCATGTTCAACTCTAGGGTTTGAAGCTCATAG\nACTCCTTTATAAAGAGTGGCTGTGCAAGACCTACCACATAGCAAAAGGAAGGTGACCAGC\nCCAATTATGCCACACGTCGCAACATTGTATAAGCCCTTCAGCACTGCAAGTATAGATAGT\nGCAATAAGCACTATGTTCATCACTTCCTCTATCACATGGGGCACTTCTTGAAAGAATGTC\nACAATCTGCCCCATGTCAAAAGACACTAGAAATTGCGCAACCAAAAATG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Lassa virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Lassa mammarenavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "024V-02738",
-      "search:title": "Lassa virus (Sweden isolate)",
-      "search:description": "Infectious supernatant of Lassa virus. The virus has  98% sequence similarity to LASV strain LiB07-444 (GenBank accession no. GU830834) based on sequencing of PCR amplicon of partial glycoprotein precursor. The sample was negative for mycoplasma testing.",
-      "search:taxonLabel": "Lassa mammarenavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:isolationHostLabel": "Vero-E6",
-      "search:collectionName": "FoHM",
-      "search:countryOfCollection": "Sweden",
-      "search:providerName": "FoHM",
-      "search:pathogenName": "Lassa virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FoHM"
-      },
-      "EVORAO:refSku": "024V-02736",
-      "@id": "urn:evorao:EVA:FoHM:024V-02736",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/ebolavirus-strain-zaire-oslo-isolate",
-      "dcterms:issued": "2018-03-07T11:23:12+01:00",
-      "dcterms:modified": "2021-05-28T09:15:42+02:00",
-      "dcterms:title": "Ebolavirus strain Zaire (Oslo isolate)",
-      "dcterms:description": "Infectious cell culture supernatant containing Zaire ebolavirus. The virus is preserved in Viral Storage Medium at -150°C. Tests for the presence of mycoplasmae were negative. The identity of the virus has been confirmed by sequencing.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2176.3,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2014-10-06",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Norway"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "RG4",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "FFA",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG4"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "5.0E+04 FFU/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FoHM"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Sierra Leone"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FoHM",
-        "Category A",
-        "UN2814",
-        "Ebola Epidemic",
-        "Ebola virus disease",
-        "Human virus",
-        "Norway",
-        "RG4",
-        "Sierra Leone",
-        "Vero",
-        "Virus Isolation",
-        "Zaire ebolavirus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2014-10-06",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Ebola virus complete genome\nCGGACACACAAAAAGAAAGAAGAATTTTTAGGATCTTTTGTGTGCGAATAACTATGAGGA\nAGATTAATAATTTTCCTCTCATTGAAATTTATATCGGAATTTAAATTGAAATTGTTACTG\nTAATCATACCTGGTTTGTTTCAGAGCCATATCACCAAGATAGAGAACAACCTAGGTCTCC\nGGAGGGGGCAAGGGCATCAGTGTGCTCAGTTGAAAATCCCTTGTCAACATCTAGGCCTTA\nTCACATCACAAGTTCCGCCTTAAACTCTGCAGGGTGATCCAACAACCTTAATAGCAACAT\nTATTGTTAAAGGACAGCATTAGTTCACAGTCAAACAAGCAAGATTGAGAATTAACTTTGA\nTTTTGAACCTGAACACCCAGAGGACTGGAGACTCAACAACCCTAAAGCCTGGGGTAAAAC\nATTAGAAATAGTTTAAAGACAAATTGCTCGGAATCACAAAATTCCGAGTATGGATTCTCG\nTCCTCAGAAAGTCTGGATGACGCCGAGTCTCACTGAATCTGACATGGATTACCACAAGAT\nCTTGACAGCAGGTCTGTCCGTTCAACAGGGGATTGTTCGGCAAAGAGTCATCCCAGTGTA\nTCAAGTAAACAATCTTGAGGAAATTTGCCAACTTATCATACAGGCCTTTGAAGCTGGTGT\nTGATTTTCAAGAGAGTGCGGACAGTTTCCTTCTCATGCTTTGTCTTCATCATGCGTACCA\nAGGAGATTACAAACTTTTCTTGGAAAGTGGCGCAGTCAAGTATTTGGAAGGGCACGGGTT\nCCGTTTTGAAGTCAAGAAGTGTGATGGAGTGAAGCGCCTTGAGGAATTGCTGCCAGCAGT\nATCTAGTGGGAGAAACATTAAGAGAACACTTGCTGCCATGCCGGAAGAGGAGACGACTGA\nAGCTAATGCCGGTCAGTTCCTCTCCTTTGCAAGTCTATTCCTTCCGAAATTGGTAGTAGG\nAGAAAAGGCTTGCCTTGAGAAGGTTCAAAGGCAAATTCAAGTACATGCAGAGCAAGGACT\nGATACAATATCCAACAGCTTGGCAATCAGTAGGACACATGATGGTGATTTTCCGTTTGAT\nGCGAACAAATTTTTTGATCAAATTTCTTCTAATACACCAAGGGATGCACATGGTTGCCGG\nACATGATGCCAACGATGCTGTGATTTCAAATTCAGTGGCTCAAGCTCGTTTTTCAGGTCT\nATTGATTGTCAAAACAGTACTTGATCATATCCTACAAAAGACAGAACGAGGAGTTCGTCT\nCCATCCTCTTGCAAGGACCGCCAAGGTAAAAAATGAGGTGAACTCCTTCAAGGCTGCACT\nCAGCTCCCTGGCCAAGCATGGAGAGTATGCTCCTTTCGCCCGACTTTTGAACCTTTCTGG\nAGTAAATAATCTTGAGCATGGTCTTTTCCCTCAACTGTCGGCAATTGCACTCGGAGTCGC\nCACAGCCCACGGGAGCACCCTCGCAGGAGTAAATGTTGGAGAACAGTATCAACAGCTCAG\nAGAGGCAGCCACTGAGGCTGAGAAGCAACTCCAACAATATGCGGAGTCTCGTGAACTTGA\nCCATCTTGGACTTGATGATCAGGAAAAGAAAATTCTTATGAACTTCCATCAGAAAAAGAA\nCGAAATCAGCTTCCAGCAAACAAACGCGATGGTAACTCTAAGAAAAGAGCGCCTGGCCAA\nGCTGACAGAAGCTATCACTGCTGCATCACTGCCCAAAACAAGTGGACATTACGATGATGA\nTGACGACATTCCCTTTCCAGGACCCATCAATGATGACGACAATCCTGGCCATCAAGATGA\nTGATCCGACTGACTCACAGGATACGGCCATTCCCGATGTGGTAGTTGACCCCGATGATGG\nAGGCTACGGCGAATACCAAAGTTACTCGGAAAACGGCATGAGTGCACCAGATGACTTGGT\nCCTATTCGATCTAGACGAGGACGACGAGGACACCAAGCCAGTGCCTAACAGATCGACCAA\nGGGTGGACAACAGAAAAACAGTCAAAAGGGCCAGCATACAGAGGGCAGACAGACACAATC\nCACGCCAACTCAAAACGTCACAGGCCCTCGCAGAACAATCCACCATGCCAGTGCTCCACT\nCACGGACAATGACAGAAGAAACGAACCCTCCGGCTCAACCAGCCCTCGCATGCTGACCCC\nAATCAACGAAGAGGCACACCCACTGGACGATGCCGACGACGAGACGTCTAGCCTTCCGCC\nCTTAGAGTCAGATGATGAAGAACAGGACAGGGACGGAACTTCTAACCGCACACCCACTGT\nCGCCCCACCGGCTCCCGTATACAGAGATCACTCCGAAAAGAAAGAACTCCCGCAAGATGA\nACAACAAGATCAGGACCACATTCAAGAGGCCAGGAACCAAGACAGTGACAACACCCAGCC\nAGAACATTCTTTTGAGGAGATGTATCGCCACATTCTAAGATCACAGGGGCCATTTGATGC\nCGTTTTGTATTATCATATGATGAAGGATGAGCCTGTAGTTTTCAGTACCAGTGATGGTAA\nAGAGTACACGTATCCGGACTCCCTTGAAGAGGAATATCCACCATGGCTCACTGAAAAAGA\nGGCCATGAATGATGAGAATAGATTTGTTACATTGGATGGTCAACAATTTTATTGGCCAGT\nAATGAATCACAGGAATAAATTCATGGCAATCCTGCAACATCATCAGTGAATGAGCATGTA\nATAATGGGATGATTTAATCGACAAATAGCTAACATTAAATAGTCAAGGAACGCAAACAGG\nAAGAATTTTTGATGTCTAAGGTGTGAATTATTATCACAATAAAAGTGATTCTTAGTTTTG\nAATTTAAAGCTAGCTTATTATTACTAGCCGTTTTTCAAAGTTCAATTTGAGTCTTAATGC\nAAATAAGCGTTAAGCCACAGTTATAGCCATAATTGTAACTCAATATCTTAGCCAGCGATT\nTATCTAAATTAAATTACATTATGCTTTTATAACTTACCTACTAGCCTGCCCAACATTTAC\nACGATCGCTTCATAATTAAGAAAAAACTAATGATGAAGATTAAAACCTTCATCATCCTTA\nCGTCAATTGAATTCTCTAGCACTAGAAGCTTATTGTCTTCAATGTAAAAGAAAAGCTGGC\nCTAACAAGATGACAACTAGAACAAAGGGCAGGGGCCATACTGTGGCCACGACTCAAAACG\nACAGAATGCCAGGCCCTGAGCTTTCGGGCTGGATCTCTGAGCAGCTAATGACCGGAAGGA\nTTCCTGTAAACGACATCTTCTGTGATATTGAGAACAATCCAGGATTATGCTACGCATCCC\nAAATGCAACAAACGAAGCCAAACCCGAAGATGCGCAACAGTCAAACCCAAACGGACCCAA\nTTTGCAATCATAGTTTTGAGGAGGTAGTACAAACATTGGCTTCATTGGCTACTGTTGTGC\nAACAACAAACCATCGCATCAGAATCATTAGAACAACGCATTACGAGTCTTGAGAATGGTC\nTAAAGCCAGTTTATGATATGGCAAAAACAATCTCCTCATTGAACAGGGTTTGTGCTGAGA\nTGGTTGCAAAATATGATCTTCTGGTGATGACAACCGGTCGGGCAACAGCAACCGCTGCGG\nCAACTGAGGCTTATTGGGCTGAACATGGTCAACCACCACCTGGACCATCACTTTATGAAG\nAAAGTGCGATTCGGGGTAAGATTGAATCTAGAGATGAGACTGTCCCTCAAAGTGTTAGGG\nAGGCATTCAACAATCTAGACAGTACCACTTCACTAACTGAGGAAAATTTTGGGAAACCTG\nACATTTCGGCAAAGGATTTGAGAAACATTATGTATGATCACTTGCCTGGTTTTGGAACTG\nCTTTCCACCAATTAGTACAAGTGATTTGTAAATTGGGAAAAGATAGCAAGTCATTGGACA\nTTATTCATGCTGAGTTCCAGGCCAGCCTGGCTGAAGGAGACTCCCCTCAATGTGCCCTAA\nTTCAAATTACAAAAAGAGTTCCAATCTTCCAAGATGCTGCTCCACCTGTCATCCACATCC\nGCTCTCGAGGTGACATTCCCCGAGCTTGCCAGAAGAGCTTGCGTCCAGTCCCACCATCAC\nCCAAGATTGATCGAGGTTGGGTATGTGTTTTTCAGCTTCAAGATGGTAAAACACTTGGAC\nTCAAAATTTGAGCCAATCTCTTTTCCCTCCGAAAGAGGCAACTAATAGCAGAGGCTTCAA\nCTGCTGAACTATAGGGTATGTTACATTAATGATACACTTGTGAGTATCAGCCCTAGATAA\nTATAAGTCAATTAAACAACCAAGATAAAATTGTTCATATCCCGCTAGCAGCTTTAAAGAT\nAAATGTAATAGGAGCTATACCTCTGACAGTATTATAATTAATTGTTATTAAGTAACCCAA\nACCAAAAATGATGAAGATTAAGAAAAACCTACCTCGACTGAGAGAGTGTTTTTTCATTAA\nCCTTCATCTTGTAAACGTTGAGCAAAATTGTTAAAAATATGAGGCGGGTTATATTGCCTA\nCTGCTCCTCCTGAATATATGGAGGCCATATACCCTGCCAGGTCAAATTCAACAATTGCTA\nGGGGTGGCAACAGCAATACAGGCTTCCTGACACCGGAGTCAGTCAATGGAGACACTCCAT\nCGAATCCACTCAGGCCAATTGCTGATGACACCATCGACCATGCCAGCCACACACCAGGCA\nGTGTGTCATCAGCATTCATCCTCGAAGCTATGGTGAATGTCATATCGGGCCCCAAAGTGC\nTAATGAAGCAAATTCCAATTTGGCTTCCTCTAGGTGTCGCTGATCAAAAGACCTACAGCT\nTTGACTCAACTACGGCCGCCATCATGCTTGCTTCATATACTATCACCCATTTCGGCAAGG\nCAACCAATCCGCTTGTCAGAGTCAATCGGCTGGGTCCTGGAATCCCGGATCACCCCCTCA\nGGCTCCTGCGAATTGGAAACCAGGCTTTCCTCCAGGAGTTCGTTCTTCCACCAGTCCAAC\nTACCCCAGTATTTCACCTTTGATTTGACAGCACTCAAACTGATCACTCAACCACTGCCTG\nCTGCAACATGGACCGATGACACTCCAACTGGATCAAATGGAGCGTTGCGTCCAGGAATTT\nCATTTCATCCAAAACTTCGCCCCATTCTTTTACCCAACAAAAGTGGGAAGAAGGGGAACA\nGTGCCGATCTAACATCTCCGGAGAAAATCCAAGCAATAATGACTTCACTCCAGGACTTTA\nAGATCGTTCCAATTGATCCAACCAAAAATATCATGGGTATCGAAGTGCCAGAAACCCTGG\nTCCACAAGCTGACCGGTAAGAAGGTGACTTCCAAAAATGGACAACCAATCATCCCTGTTC\nTTTTGCCAAAGTACATTGGGTTGGACCCGGTGGCTCCAGGAGACCTCACCATGGTAATCA\nCACAGGATTGTGACACGTGTCATTCTCCTGCAAGTCTTCCAGCTGTGGTTGAGAAGTAAT\nTGCAATAATTGACTCAGATCCAGTTTTACAGAATCTTCTCAGGGATAGTGATAACATCTT\nTTTAATAATCCGTCTACTAGAAGAGATACTTCTAATTGATCAATATACTAAAGGTGCTTT\nACACCATTGTCTCTTTTCTCTCCTAAATGTAGAACTTAACAAAAGACTCATAATATACCT\nGTTTTTAAAAGATTGATTGATGAAAGATCATGACTAATAACATTACAAACAATCCTACTA\nTAATCAATACGGTGATTCAAATGTCAATCTTTCTCATTGCACATACTCTTTGTCCTTATC\nCTCAAATTGCCTACATGCTTACATCTGAGGACAGCCAGTGTGACTTGGATTGGAGATGTG\nGAGGAAAAATCGGGGCCCATTTCTAAGTTGTTCACAATCTAAGTACAGACATTGCTCTTC\nTAATTAAGAAAAAATCGGCGATGAAGATTAAGCCGACAGTGAGCGTAATCTTCATCTCTC\nTTAGATTATTTGTCTTCCAGAGTAGGGGTCATCAGGTCCTTTTCAATTGGATAACCAAAA\nTAAGCTTCACTAGAAGGATATTGTGAGGCGACAACACAATGGGTGTTACAGGAATATTGC\nAGTTACCTCGTGATCGATTCAAGAGGACATCATTCTTTCTTTGGGTAATTATCCTTTTCC\nAAAGAACATTTTCCATCCCGCTTGGAGTTATCCACAATAGTACATTACAGGTTAGTGATG\nTCGACAAACTAGTTTGTCGTGACAAACTGTCATCCACAAATCAATTGAGATCAGTTGGAC\nTGAATCTCGAGGGGAATGGAGTGGCAACTGACGTGCCATCTGTGACTAAAAGATGGGGCT\nTCAGGTCCGGTGTCCCACCAAAGGTGGTCAATTATGAAGCTGGTGAATGGGCTGAAAACT\nGCTACAATCTTGAAATCAAAAAACCTGACGGGAGTGAGTGTCTACCAGCAGCGCCAGACG\nGGATTCGGGGCTTCCCCCGGTGCCGGTATGTGCACAAAGTATCAGGAACGGGACCATGTG\nCCGGAGACTTTGCCTTCCACAAAGAGGGTGCTTTCTTCCTGTATGATCGACTTGCTTCCA\nCAGTTATCTACCGAGGAACGACTTTCGCTGAAGGTGTCGTTGCATTTCTGATACTGCCCC\nAAGCTAAGAAGGACTTCTTCAGCTCACACCCCTTGAGAGAGCCGGTCAATGCAACGGAGG\nACCCGTCGAGTGGCTATTATTCTACCACAATTAGATATCAGGCTACCGGTTTTGGAACTA\nATGAGACAGAGTACTTGTTCGAGGTTGACAATTTGACCTACGTCCAACTTGAATCAAGAT\nTCACACCACAGTTTCTGCTCCAGCTGAATGAGACAATATATGCAAGTGGGAAGAGGAGCA\nACACCACGGGAAAACTAATTTGGAAGGTCAACCCCGAAATTGATACAACAATCGGGGAGT\nGGGCCTTCTGGGAAACTAAAAAAACCTCACTAGAAAAATTCGCAGTGAAGAGTTGTCTTT\nCACAGCTGTATCAAACGGACCCAAAAACATCAGTGGTCAGAGTCCGGCGCGAACTTCTTC\nCGACCCAGAGACCAACACAACAAATGAAGACCACAAAATCATGGCTTCAGAAAATTCCTC\nTGCAATGGTTCAAGTGCACAGTCAAGGAAGGAAAGCTGCAGTGTCGCATCTGACAACCCT\nTGCCACAATCTCCACGAGTCCTCAACCTCCCACAACCAAAACAGGTCCGGACAACAGCAC\nCCATAATACACCCGTGTATAAACTTGACATCTCTGAGGCAACTCAAGTTGGACAACATCA\nCCGTAGAGCAGACAACGACAGCACAGCCTCCGACACTCCCCCCGCCACGACCGCAGCCGG\nACCCTTAAAAGCAGAGAACACCAACACGAGTAAGAGCGCTGACTCCCTGGACCTCGCCAC\nCACGACAAGCCCCCAAAACTACAGCGAGACTGCTGGCAACAACAACACTCATCACCAAGA\nTACCGGAGAAGAGAGTGCCAGCAGCGGGAAGCTAGGCTTAATTACCAATACTATTGCTGG\nAGTAGCAGGACTGATCACAGGCGGGAGAAGGACTCGAAGAGAAGTAATTGTCAATGCTCA\nACCCAAATGCAACCCCAATTTACATTACTGGACTACTCAGGATGAAGGTGCTGCAATCGG\nATTGGCCTGGATACCATATTTCGGGCCAGCAGCCGAAGGAATTTACATAGAGGGGCTAAT\nGCACAACCAAGATGGTTTAATCTGTGGGTTGAGGCAGCTGGCCAACGAAACGACTCAAGC\nTCTCCAACTGTTCCTGAGAGCCACAACTGAGCTGCGAACCTTTTCAATCCTCAACCGTAA\nGGCAATTGACTTCCTGCTGCAGCGATGGGGTGGCACATGCCACATTTTGGGACCGGACTG\nCTGTATCGAACCACATGATTGGACCAAGAACATAACAGACAAAATTGATCAGATTATTCA\nTGATTTTGTTGATAAAACCCTTCCGGACCAGGGGGACAATGACAATTGGTGGACAGGATG\nGAGACAATGGATACCGGCAGGTATTGGAGTTACAGGTGTTATAATTGCAGTTATCGCTTT\nATTCTGTATATGCAAATTTGTCTTTTAGTCTTTCTTCAGATTGTTTCACGGCAAAACTCA\nACCTCAAATCAATGAAACTAGGATTTAATTATATGAATCACTTGAATCTAAGATTACTTG\nACAAATGATAACATAATACACTGGAGCTTCAAACATAGCCAATGTGATTCTAACTCCTTT\nAAACTCACAGTTAATCATAAACAAGGTTTGACATCAATCTAGCTATATCTTTAAGAATGA\nTAAACTTGATGAAGATTAAGAAAAAGGTAATCTTTCGATTATCTTTAGTCTTCATCCTTG\nATTCTACAATCATGACAGTTGTCTTTAATGAAAAAGGAAAAAAGCCTTTTTATTAAGTTG\nTAATAATCAGATCTGCAAACCGGTAGAATTTAGTTGTAACCTAACACACACAAAGCATTG\nGTAAAAAAGTCAATAGAAATTTAAACAGTGAGTGCAGACAACTCTTAAATGGAAGCTTCA\nTATGAGAGAGGACGCCCCCGAGCTGCCAGACAGCATTCAAGGGATGGACACGACCACCAT\nGTTCGAGCACGATCATCATCCAGAGAGAATTATCGAGGTGAGTACCGTCAATCAAGGAGC\nGCCTCACAAGTGCGCGTTCCTACTGTATTTCATAAGAAGAGAGTTGAACCATTAACAGTT\nCCTCCAGCACCTAAAGACATATGTCCGACCTTGAAAAAAGGATTTTTGTGTGACAGTAGT\nTTTTGCAAAAAAGACCACCAGTTAGAAAGTTTAACTGATAGGGAATTACTCCTACTAATC\nGCCCGTAAGACTTGTGGATCAGTAGAACAACAATTAAATATAACTGCACCCAAGGACTCG\nCGCTTAGCAAATCCAACGGCTGATGATTTCCAGCAAGAGGAAGGTCCCAAAATTACCTTG\nTTGACACTGATCAAGACGGCAGAACACTGGGCGAGACAAGACATCCGAACCATAGAGGAT\nTCCAAATTAAGGGCATTGTTAACTCTATGTGCTGTGATGACGAGGAAATTCTCAAAATCC\nCAGCTGAGTCTTTTGTGTGAGACACACCTAAGGCGCGAAGGGCTTGGGCAAGATCAGGCA\nGAACCCGTTCTCGAAGTATATCAACGATTACACAGTGATAAAGGAGGCAGTTTTGAAGCT\nGCACTATGGCAACAATGGGACCGACAATCCCTAATTATGTTTATCACTGCATTCTTGAAT\nATCGCTCTCCAGTTACCGTGTGAAAGTTCTGCTGTCGTTGTTTCAGGGTTAAGAACATTG\nGTTCCTCAATCAGATAATGAGGAAGCTTCAACCAACCCGGGGACATGCTCATGGTCTGAT\nGAGGGTACCCCTTAATAAGGCTGACTAAAACACTATATAACCTTCTACTTGATCACAATA\nCTCCGTATACCTATCATCATATATTTAATCAAGACGATATCCTTTAAAACTTATTCAGTA\nCTATAATCACTCTCATTTCAAATTGATAAGATATGCATAATTGCCTTAATATATAAAGAG\nGTATGATATAACCCAAACATTGACCAAAGAAAATCATAATCTCGTATCGCTCGCAATATA\nACCTGCCAAGCATACCTCTTGCACAAAGTGATTCTTGTACACAAATAATGTTTGACTCTA\nCAGGAGGTAGCAACGATCCATCTCATCAAAAAATAAGTATTTTATGATTTACTAATGATC\nTCTTAAAATATTAAGAAAAACTGACGGAACATAAATTCTTTCTGCTTCAAGTTGTGGAGG\nAGGTCTATGGTATTCGCTATTGTTATATTACAATCAATAACAAGCTTGTAAAAATATTGT\nTCTTGTTTCAGGAGGTATATTGTGACCGGAAAAGCTAAACTAATGATGAAGATTAATGCG\nGAGGTCTGATGAGAATAAACCTTATTATTCAGATTAGGCCCCAAGAGGCATTCTTCATCT\nCCTTTTAGCAAAATACTATTTCAGGATAGTCCAGCTAGTGACACGTCTTTTAGCTGTATA\nCCAGTTGCCCCTGAGATACGCCACAAAAGTGTCTCTGAGCTAAAGTGGTCTGTACACATC\nTCATACATTGTATTAGGGGCAATAATATCTAATTGAACTTAGCCATTTAAAATTTAGTGC\nATAAATCTGGGCTAACTCCACCAGGTCAACTCCATTGGCTGAAAAGAAGCCCACCTACAA\nCGAACATTACTTTGAGCACCCTCACAATTAAAAAATAAGAGCGTCGTTCCAACAATCGAG\nCGCAAGGTTACAAGGTTGAACTGAGAGTGTCTAGACAACAAAATATCGATACTCCAGACA\nCCAAGCAAGACCTGAGAAAAAACCATGGCCAAAGTTACGGGACGATACAATCTAATATCG\nCCCAAAAAGGACCTGGAGAAAGGGGTTGTCTTAAGCGACCTCTGTAACTTCTTAGTTAGT\nCAAACTATTCAAGGGTGGAAAGTTTATTGGGCTGGTATTGAGTTTGATGTGACTCACAAA\nGGAATGGCCCTATTGCATAGACTGAAAACTAATGACTTTGCCCCTGCATGGTCAATGACA\nAGGAACCTATTTCCCCATTTATTTCAAAATCCGAATTCCACTATTGAATCACCGCTGTGG\nGCACTGAGAGTCATCCTTGCAGCAGGGATACAGGACCAGTTAATTGACCAGTCTTTGATT\nGAACCCTTAGCAGGAGCCCTTGGTCTGATCTCTGATTGGCTGCTAACAACCAACACTAAC\nCATTTCAACATGCGAACACAACGTGTCAAGGAACAATTGAGCCTAAAAATGCTGTCGTTG\nATTCGATCCAATATTCTCAAGTTTATTAACAAATTGGATGCTCTACATGTCGTGAACTAC\nAATGGATTATTGAGCAGTATTGAAATTGGAACTCAAAATCATACAATCATCATAACTCGA\nACTAACATGGGTTTTCTGGTGGAGCTCCAAGAACCCGACAAATCGGCAATGAACCGCAAG\nAAGCCTGGGCCGGCGAAATTTTCCCTCCTTCATGAGTCCACACTGAAAGCATTTACACAA\nGGGTCCTCGACACGAATGCAAAGTTTAATTCTTGAATTCAATAGCTCTCTTGCTATCTAA\nCTAAGATGGAATACTTCATATTGGGCTAACTCATATATGCTGACTCAATAGTTAACTTGA\nCATCTCTGCCTTCATAATCAGATATATAAGCATAATAAATAAATACTCATATTTCTTGAT\nAATTTGTTTAACCACAGATAAATCCTCACTGTAAGCCAGCTTCCAAGTTGACACCCTTAC\nAAAAACCAGGACTCAGAATCCCTCAAATAAGAGATTCCAAGACAACATCATAGAATTGCT\nTTATTATATTAATAAGCATTTTATCACTAGAAATCCAATATACGAAATGGTTAATTGTAA\nCTAAACCCGCAGGTCATGTGTGTTAGGTTTCACAAATTATATATATTACTAACTCCATAC\nTCGTAACTAACATTAGATAAGTAGGTTAAGAAAAAAGCTTGAGGAAGATTAAGAAAAACT\nGCTTATTGGGTCTTTCCGTGTTTTAGATGAAGCAGTTGACATTCTTCCTCTTGATATTAA\nATGGCTACACAACATACCCAATACCCAGACGCCAGGTTATCATCACCAATTGTATTGGAC\nCAATGTGACCTTGTCACTAGAGCTTGCGGGTTGTATTCATCATACTCCCTTAATCCGCAA\nCTACGCAACTGTAAACTCCCGAAACATATATACCGTTTAAAATATGATGTAACTGTTACC\nAAGTTCTTAAGTGATGTACCAGTGGCGACATTGCCCATAGATTTCATAGTCCCAATTCTT\nCTCAAGGCACTATCAGGCAATGGGTTCTGTCCTGTTGAGCCGCGGTGCCAACAGTTCTTA\nGATGAAATTATTAAGTACACAATGCAAGATGCTCTCTTCCTGAAATATTATCTCAAAAAT\nGTGGGTGCTCAAGAAGACTGTGTTGATGACCACTTTCAAGAAAAAATCTTATCTTCAATT\nCAGGGCAATGAATTTTTACATCAAATGTTTTTCTGGTATGACCTGGCTATTTTAACTCGA\nAGGGGTAGATTAAATCGAGGAAACTCTAGATCAACGTGGTTTGTTCATGATGATTTAATA\nGACATCTTAGGCTATGGGGACTATGTTTTTTGGAAGATCCCAATTTCACTGTTACCACTG\nAACACACAAGGAATCCCCCATGCTGCTATGGATTGGTATCAGACATCAGTATTCAAAGAA\nGCGGTTCAAGGGCATACACACATTGTTTCTGTTTCTACTGCCGATGTCTTGATAATGTGC\nAAAGATTTAATTACATGTCGATTCAACACAACTCTAATCTCAAAAATAGCAGAGGTTGAG\nGACCCAGTTTGCTCTGATTATCCCAATTTTAAGATTGTGTCTATGCTTTACCAGAGCGGA\nGATTACTTACTGTCCATATTAGGGTCTGATGGGTATAAAATCATTAAGTTTCTCGAACCA\nTTGTGCTTGGCTAAAATTCAATTGTGCTCAAAGTACACCGAGAGGAAGGGCCGATTCTTA\nACACAAATGCATTTAGCTGTAAATCACACCCTGGAAGAAATTACAGAAATACGTGCACTA\nAAGCCTTCACAGGCTCACAAGATCCGTGAATTCCATAGAACATTGATAAGGCTGGAGATG\nACGCCACAACAACTTTGTGAGCTATTTTCCATACAAAAACACTGGGGGCATCCTGTGCTA\nCATAGTGAAACAGCAATCCAAAAAGTTAAAAAACATGCTACGGTGCTAAAAGCATTACGC\nCCTATCGTGATTTTCGAGACATATTGTGTTTTTAAATATAGCATTGCAAAACATTATTTT\nGATAGTCAAGGATCTTGGTACAGTGTTACCTCAGATAGAAATCTAACACCAGGTCTTAAT\nTCTTATATCAAAAGAAATCAATTCCCTCCGTTGCCAATGATTAAAGAACTGCTATGGGAA\nTTTTACCACCTTGACCATCCTCCACTTTTCTCAACCAAAATTATTAGTGACTTAAGTATT\nTTTATAAAAGACAGAGCTACTGCAGTAGAAAGGACATGCTGGGATGCAGTATTCGAGCCT\nAATGTTCTGGGATATAATCCACCTCACAAATTCAGTACCAAACGTGTACCGGAACAATTT\nTTAGAGCAAGAAAACTTTTCTATTGAGAATGTTCTTTCCTACGCGCAAAAACTCGAGTAT\nCTACTACCACAATATCGGAATTTTTCTTTCTCATTGAAAGAGAAAGAGTTGAATGTAGGG\nAGAACTTTCGGAAAATTGCCTTATCCGACTCGCAATGTTCAAACACTTTGTGAAGCTCTG\nTTAGCTGATGGTCTTGCTAAAGCATTTCCTAGCAATATGATGGTAGTTACGGAACGTGAA\nCAAAAAGAAAGCTTATTGCATCAAGCATCATGGCACCACACAAGTGATGATTTCGGTGAG\nCATGCCACAGTTAGAGGGAGTAGCTTTGTAACTGATTTAGAGAAATACAATCTTGCATTT\nAGGTATGAGTTTACAGCACCTTTTATAGAATATTGCAACCGTTGCTATGGTGTTAAGAAT\nGTTTTTAATTGGATGCATTATACAATCCCACAGTGTTATATGCATGTCAGTGATTATTAT\nAATCCACCGCATAACCTCACACTGGAAAATCGAAACAACCCCCCTGAAGGGCCTAGTTCA\nTACAGGGGTCATATGGGAGGGATTGAAGGACTGCAACAAAAACTCTGGACAAGTATTTCA\nTGTGCTCAAATTTCTTTAGTTGAAATTAAGACTGGTTTTAAGTTGCGCTCAGCTGTGATG\nGGTGACAATCAGTGCATTACCGTTTTATCAGTCTTCCCCTTAGAGACTGATGCAGACGAG\nCAGGAACAGAGCGCCGAGGACAATGCAGCGAGGGTGGCCGCCAGCCTAGCAAAAGTTACA\nAGTGCCTGTGGAATCTTTTTAAAACCTGATGAAACATTTGTACATTCAGGTTTTATCTAT\nTTTGGAAAAAAACAATATTTGAATGGGGTCCAATTGCCCCAGTCCCTTAAAACGGCTACA\nAGAATGGCACCATTGTCTGATGCAATTTTTGATGATCTTCAAGGGACCCTGGCTAGTATA\nGGTACTGCTTTTGAGCGATCCATCTCTGAGACACGACATATCTTTCCTTGCAGAATAACC\nGCAGCTTTCCATACGTTCTTTTCGGTGAGAGTCGTGCAATATCATCACCTCGGATTTAAT\nAAAGGTTTTGACCTTGGACAGTTAACACTCGGCAAACCTCTGGATTTCGGAACAATATCA\nTTGGCACTAGCGGTACCGCAGGTGCTTGGAGGGTTATCCTTCTTGAATCCTGAGAAATGT\nTTCTACCGGAATCTAGGAGATCCAGTTACCTCAGGTTTATTCCAGTTAAAAACTTATCTC\nCGAATGATTGAGATGGATGATTTATTCTTACCTTTAATTGCGAAGAACCCTGGGAACTGC\nACTGCCATTGACTTTGTGCTAAATCCTAGCGGATTAAATGTTCCTGGGTCGCAAGACTTA\nACTTCATTTCTGCGCCAGATTGTACGTAGGACTATCACCCTAAGTGCGAAAAACAAACTT\nATTAATACCTTATTTCATGCATCAGCTGACTTCGAAGACGAAATGGTTTGTAAGTGGCTC\nTTATCATCAACTCCTGTTATGAGTCGTTTCGCAGCCGATATATTTTCACGCACACCGAGC\nGGGAAGCGATTGCAAATTCTAGGATACTTGGAAGGAACACGCACATTATTAGCCTCTAAG\nATCATCAACAATAATACAGAGACGCCGGTTTTGGACAGACTGAGGAAGATAACATTGCAA\nAGGTGGAGTCTATGGTTTAGTTATCTTGATCATTGTGATAATATCCTGGCGGAGGCTTTA\nACCCAAATAACTTGCACAGTTGATTTAGCACAGATCCTGAGGGAATATTCATGGGCACAT\nATTTTAGAGGGGAGACCTCTTATTGGAGCCACACTCCCATGTATGATTGAGCAATTCAAA\nGTGGTTTGGCTGAAACCCTACGAACAATGTCCGCAGTGTTCAAATGCCAAGCAACCTGGT\nGGGAAACCATTCGTGTCAGTAGCAGTCAAGAAACATATTGTTAGTGCATGGCCAAATGCA\nTCCCGAATAAGCTGGACTATCGGGGATGGAATCCCATACATTGGATCAAGGACAGAAGAT\nAAGATAGGGCAACCTGCTATTAAACCAAAATGTCCTTCCGCAGCCTTAAGAGAGGCCATT\nGAATTGGCGTCCCGTTTAACATGGGTAACTCAAGGCAGTTCGAACAGTGACTTGCTAATA\nAAACCATTTTTGGAAGCACGAGTAAATTTAAGTGTTCAAGAAATACTTCAAATGACCCCT\nTCACATTACTCGGGAAATATTGTTCACAGGTACAACGATCAATACAGTCCTCATTCTTTC\nATGGCCAATCGTATGAGTAACTCAGCAACGCGATTGATTGTTTCTACAAACACTTTAGGT\nGAGTTTTCAGGAGGTGGCCAATCGGCACGCGACAGCAATATTATTTTCCAGAATGTTATA\nAATTATGCAGTTGCACTGTTCGATATTAAATTTAGAAACACTGAGGCTACAGATATCCAG\nTATAATCGTGCTCACCTTCATCTAACTAAGTGTTGCACCCGGGAGGTACCAGCTCAGTAC\nTTAACATACACATCTACATTGGATTTAGATTTAACAAGATACCGAGAAAATGAATTGATT\nTATGACAATAATCCTCTAAAAGGAGGACTCAATTGCAATATCTCATTTGATAACCCATTT\nTTCCAAGGCAAACAGCTGAACATTATAGAAGATGACCTTATTCGACTGCCTCACTTATCT\nGGATGGGAGCTAGCTAAGACCATCATGCAATCAATTATTTCAGATAGCAATAATTCGTCT\nACAGACCCAATTAGCAGTGGAGAAACAAGATCATTCACTACCCATTTCTTAACTTATCCC\nAAAATAGGACTTCTGTACAGTTTTGGGGCCTTTGTAAGTTATTATCTTGGCAATACAATT\nCTTCGGACTAAGAAATTAACACTTGACAATTTTTTATATTACTTAACTACCCAAATTCAT\nAATCTACCACATCGCTCATTGCGAATACTTAAGCCAACATTCAAACATGCAAGCGTTATG\nTCACGATTAATGAGTATTGATCCCCATTTTTCTATTTACATAGGCGGTGCTGCAGGTGAC\nAGAGGACTCTCAGATGCGGCCAGGTTATTTTTGAGAACGTCCATTTCATCTTTTCTTACA\nTTTGTAAAGGAATGGATAATTAATCGCGGAACAATTGTCCCTTTATGGATAGTATATCCA\nTTAGAGGGTCAAAATCCAACACCTGTTAATAATTTCCTCCATCAGATCGTAGAACTGCTG\nGTGCATGATTCATCAAGACACCAGGCTTTTAAAACTACCATAAATGATCATGTACATCCT\nCACGACAATCTTGTTTACACATGTAAGAGTACAGCCAGCAATTTCTTCCATGCGTCATTG\nGCGTACTGGAGGAGCAGGCACAGAAACAGCAACCGAAAAGACTTGACAAGAAACTCTTCA\nACTGGATCAAGCACAAACAACAGTGATGGTCATATTAAGAGAAGTCACGACACAAACCAC\nCAGAGATCCACATGATTGGACTGAACGGAGTCTAGTCCTGCAAATGAGCCATGAAATAAA\nAAGAACGACAATTCCACAAGAGAACACGCACCAGGGTCCGTCGTTCCAGTCATTTCTAAG\nTGACTCTGCTTGCGGTACAGCAAACCCAAAACTAAATTTCGATAGATCGAGACACAATGT\nGAAATCTCAGGATCATAACTCAGCATCCAAGAGGGAAGGTCATCAAATAATCTCACATCG\nTCTAGTCCTACCTTTCTTTACATTATCTCAAGGGACACGCCAATTAACGTCATCCAATGA\nGTCACAAACCCAAGATGAGATATCAAAGTACTTACGGCAATTGAGATCCGTCATTGATAC\nCACAGTTTATTGTAGGTTTACCGGTATAGTCTCGTCCATGCATTACAAACTTGATGAGGT\nCCTTTGGGAAATAGAGAATTTTAAGTCGGCTGTGACGCTGGCAGAGGGAGAAGGTGCTGG\nTGCCTTACTATTGATTCAGAAATACCAAGTTAAGACCTTATTCTTCAACACGCTAGCTAC\nTGAGTCCAGTATAGAGTCAGAAATAGTATCAGGAATGACTACTCCTAGGATGCTTCTACC\nTGTTATGTCAAAATTCCATAATGACCAAATTGAGATTATTCTTAACAACTCAGCAAGCCA\nAATAACAGACATAACAAATCCTACTTGGTTTAAAGACCAAAGAGCAAGGCTACCTAGGCA\nAGTCGAGGTTATAACCATGGATGCAGAGACGACAGAGAATATAAACAGATCGAAATTGTA\nCGAAGCTGTACATAAATTGATCTTACACCATGTTGATCCCAGCGTATTGAAAGCAGTGGT\nCCTTAAAGTCTTTCTAAGTGATACCGAGGGTATGTTATGGCTAAATGATAATCTAGCCCC\nGTTTTTTGCCACTGGGTATTTAATTAAGCCAATAACGTCAAGTGCCAGGTCTAGTGAGTG\nGTATCTTTGTCTGACGAACTTCTTATCAACTACACGTAAGATGCCACACCAAAACCATCT\nCAGTTGTAAGCAGGTAATACTTACGGCATTGCAACTGCAAATTCAACGGAGCCCATACTG\nGCTAAGTCATTTAACTCAGTATGCTGACTGCGATTTACATTTAAGCTATATCCGCCTTGG\nTTTTCCATCATTAGAGAAAGTACTATACCACAGGTATAACCTTGTCGATTCAAAAAGAGG\nTCCACTAGTCTCTATCACTCAGCACTTAGCACATCTTAGGGCAGAGATTCGAGAATTGAC\nCAATGATTATAATCAACAGCGACAAAGTCGGACTCAAACATATCACTTTATTCGTACTGC\nAAAAGGACGAATCACAAAACTAGTCAATGATTATTTAAAATTCTTTCTTATTGTACAAGC\nATTAAAACATAATGGGACATGGCAAGCTGAGTTTAAGAAATTACCAGAGTTGATTAGTGT\nGTGCAATAGGTTCTATCATATTAGAGATTGTAATTGTGAAGAACGTTTCTTAGTTCAAAC\nCTTATATTTACATAGAATGCAGGATTCTGAAGTTAAGCTTATCGAAAGGCTGACAGGGCT\nTCTGAGTTTATTTCCAGATGGTCTCTACAGGTTCGATTGAATAACCGTGCATAGTATTTT\nGATACTTGTAAAGGTTGGTTATCAACATACAGATTATAAAAAACTCATAAATTGCTCTCA\nTACATCATCTTGATCTGATTTCAATAAATAACTATTTAGATAACGAAAGGAGTCCTTACA\nTTATACACTATATTTGGCCTCTCTCCCTGCGTGATAATCAAAAAATTCACAATACAGCAT\nGTGTGACATATTACTGCTGCAATGAGTCTAACGCAACATAATAAACTCCGCACTCTTTAT\nAATTAAGCTTTAACGATAGGTCTGGGCTCATATTGTTATTGATATAGTAATGTTGTATCA\nATATCTTGCCAGATGGAATAGTGCTTTGGTTGATAACACGACTTCTTAAAACAAAACTGA\nTCTTTAAGATTAAGTTTTTTATAATTGTCATTGCTTTAATTTGTCGATTTAAAAATGGTG\nATAGCCTTAATCTTTGTGTAAAATAAGAGATTAGGTGTAATAACTTTAACATTTTTGTCT\nAGTAAGCTACTATTCCATTCAGAATGATAAAATTAAAAGAAAAGACATGACTGTAAAATC\nAGAAATACCTTCTTTACAATATAGCAGACTAGATAATAATCTTCGTGTTAATGATAATTA\nAGGCATTGACCACGCTCATCAGAAGGCTCACTAGAATAAACGTTGCAAAAAGGATCCCTG\nGAAAAATGGTCGCACACAAAAATTT"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zaire ebolavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zaire ebolavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "024V-02736",
-      "search:title": "Ebolavirus strain Zaire (Oslo isolate)",
-      "search:description": "Infectious cell culture supernatant containing Zaire ebolavirus. The virus is preserved in Viral Storage Medium at -150°C. Tests for the presence of mycoplasmae were negative. The identity of the virus has been confirmed by sequencing.",
-      "search:taxonLabel": "Zaire ebolavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG4",
-      "search:collectionName": "FoHM",
-      "search:countryOfCollection": "Norway",
-      "search:providerName": "FoHM",
-      "search:pathogenName": "Zaire ebolavirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-00798",
-      "@id": "urn:evorao:EVA:FLI:015V-00798",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bovine-viral-diarrhea-virus-2c-isolate-nrw-12-13",
-      "dcterms:issued": "2015-10-28T15:54:34+01:00",
-      "dcterms:modified": "2021-05-28T08:59:10+02:00",
-      "dcterms:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 12-13&quot;",
-      "dcterms:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 12-13\", genotype c,  isolated 2013 in Germany (cattle); 6th cell culture passage; mycoplasma free; infectivity tested",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2013-02-12",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, IFA",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 6,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "bovine esophagus cells (KOP-R)"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1.47x10^7",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "HG426483, HG426484",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "cattle"
-      },
-      "EVORAO:isolationTechnique": "Isolation on KOP-R cells",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Germany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "24719408",
-        "Animal virus",
-        "bovine esophagus cells (KOP-R)",
-        "Bovine viral diarrhea virus 2",
-        "Category B",
-        "UN3373",
-        "cattle",
-        "Germany",
-        "HG426483",
-        "HG426484",
-        "pestivirus",
-        "RG2",
-        "Dry ice",
-        "Pestivirus B"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2013-02-12",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "HG426483, HG426484"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bovine viral diarrhea virus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pestivirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "NRW 12-13",
-        "EVORAO:genotype": "2c",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "015V-00798",
-      "search:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 12-13&quot;",
-      "search:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 12-13\", genotype c,  isolated 2013 in Germany (cattle); 6th cell culture passage; mycoplasma free; infectivity tested",
-      "search:taxonLabel": "Pestivirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "cattle",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "HG426483, HG426484",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bovine viral diarrhea virus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-00799",
-      "@id": "urn:evorao:EVA:FLI:015V-00799",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bovine-viral-diarrhea-virus-2c-isolate-nrw-14-13",
-      "dcterms:issued": "2015-11-17T13:25:45+01:00",
-      "dcterms:modified": "2021-05-28T08:57:56+02:00",
-      "dcterms:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 14-13&quot;",
-      "dcterms:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 14-13\", genotype c,  isolated 2013 in Germany (cattle); 6th cell culture passage; mycoplasma free; infectivity tested",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2013-02-12",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, IFA",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 6,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "bovine esophagus cells (KOP-R)"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "6.81x10^6",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "HG426485, HG426486",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "cattle"
-      },
-      "EVORAO:isolationTechnique": "Isolation on KOP-R cells",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Germany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "24719408",
-        "Animal virus",
-        "bovine esophagus cells (KOP-R)",
-        "Bovine viral diarrhea virus 2",
-        "Category B",
-        "UN3373",
-        "cattle",
-        "Germany",
-        "HG426485",
-        "HG426486",
-        "pestivirus",
-        "RG2",
-        "Dry ice",
-        "Pestivirus B"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2013-02-12",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "HG426485, HG426486"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bovine viral diarrhea virus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pestivirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "NRW 14-13",
-        "EVORAO:genotype": "2c",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "015V-00799",
-      "search:title": "Bovine viral diarrhea virus 2c, isolate &quot;NRW 14-13&quot;",
-      "search:description": "Bovine viral diarrhea virus 2c, isolate \"NRW 14-13\", genotype c,  isolated 2013 in Germany (cattle); 6th cell culture passage; mycoplasma free; infectivity tested",
-      "search:taxonLabel": "Pestivirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "cattle",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "HG426485, HG426486",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bovine viral diarrhea virus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-00796",
-      "@id": "urn:evorao:EVA:FLI:015V-00796",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/schmallenberg-virus-isolate-bh65212",
-      "dcterms:issued": "2015-10-20T13:40:22+02:00",
-      "dcterms:modified": "2021-05-28T08:55:34+02:00",
-      "dcterms:title": "Schmallenberg virus, isolate &quot;BH652/12&quot;",
-      "dcterms:description": "Schmallenberg virus, isolate \"BH652/12\"; -80°C; isolated 2012 in Germany (cattle); 3rd cell culture passage; mycoplasma free; 10^7.16 per ml (TCID50)",
-      "EVORAO:unitDefinition": "1 vial (1 ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2012-10-24",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Infection studies with succeptible animal species have to be performed under Animal Health BSL-3 conditions.",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50 was calculated by the Spearman & Kaerber algorithm as described in Hierholzer & Killington (1996), Virology Methods Manual",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": 3,
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21 [CT] cells"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:technicalRecommendation": "Multiple cell culture passages lead to reduced or the complete lost of the infectivity in animal systems",
-      "EVORAO:titer": "10^7.16 per ml (TCID50)",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "KP731866, KP731872, KP731880",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "cattle"
-      },
-      "EVORAO:isolationTechnique": "Isolation on BHK-21 [CT] cells",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Germany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "23231006",
-        "Animal virus",
-        "BHK-21 [CT] cells",
-        "Category B",
-        "UN3373",
-        "cattle",
-        "Germany",
-        "KP731866",
-        "KP731872",
-        "KP731880",
-        "RG2",
-        "schmallenberg virus",
-        "unclassified Orthobunyavirus",
-        "Simbu serogroup",
-        "Dry ice",
-        "Schmallenberg orthobunyavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2012-10-24",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KP731866, KP731872, KP731880"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "schmallenberg virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Schmallenberg orthobunyavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "BH652/12",
-        "EVORAO:serotype": "Simbu serogroup",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "015V-00796",
-      "search:title": "Schmallenberg virus, isolate &quot;BH652/12&quot;",
-      "search:description": "Schmallenberg virus, isolate \"BH652/12\"; -80°C; isolated 2012 in Germany (cattle); 3rd cell culture passage; mycoplasma free; 10^7.16 per ml (TCID50)",
-      "search:taxonLabel": "Schmallenberg orthobunyavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "cattle",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "KP731866, KP731872, KP731880",
-      "search:providerName": "FLI",
-      "search:pathogenName": "schmallenberg virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015V-00832",
-      "@id": "urn:evorao:EVA:FLI:015V-00832",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bokeloh-bat-lyssavirus",
-      "dcterms:issued": "2016-02-15T16:15:53+01:00",
-      "dcterms:modified": "2021-05-28T08:53:12+02:00",
-      "dcterms:title": "Bokeloh bat lyssavirus",
-      "dcterms:description": "Bokeloh bat lyssavirus (BBLV); isolated 2012 in Germany (Myotis nattererii); 3rd cell culture passage; mycoplasma not tested; infectivity tested",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1230,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2012-10-20",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50/mL",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "skos:note": "Isolation source: brain",
-      "EVORAO:passage": 3,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Mouse neuroblastoma cell line (Na 42/13)"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "EVORAO:accessionNumber": "KF245925",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Myotis nattererii"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Germany"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "FLI",
-        "Animal virus",
-        "Bokeloh Bat Lyssavirus",
-        "Category A",
-        "UN2814",
-        "Germany",
-        "Human virus",
-        "KF245925",
-        "Lyssavirus",
-        "Mouse neuroblastoma cell line (Na 42/13)",
-        "Myotis nattererii",
-        "RG3",
-        "Dry ice",
-        "Bokeloh bat lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2012-10-20",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KF245925"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bokeloh Bat Lyssavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bokeloh bat lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "015V-00832",
-      "search:title": "Bokeloh bat lyssavirus",
-      "search:description": "Bokeloh bat lyssavirus (BBLV); isolated 2012 in Germany (Myotis nattererii); 3rd cell culture passage; mycoplasma not tested; infectivity tested",
-      "search:taxonLabel": "Bokeloh bat lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Myotis nattererii",
-      "search:collectionName": "FLI",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "KF245925",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bokeloh Bat Lyssavirus"
     }
   ]
 }

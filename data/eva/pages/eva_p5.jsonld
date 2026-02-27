@@ -17,6 +17,840 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "021N-03977",
+      "@id": "urn:evorao:EVA:DEFRA:021N-03977",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/west-caucasian-bat-lyssavirus-rna",
+      "dcterms:issued": "2020-07-03T11:25:21+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "West Caucasian Bat Lyssavirus, RNA",
+      "dcterms:description": "RNA from West Caucasian bat lyssavirus, RV3384, in HPLC water. The RNA was extracted from virus cultured in BHK-21 cell using Trizol LS.",
+      "EVORAO:unitDefinition": "1 vial of 10ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Sanger sequencing of partial N-gene PCR product",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Trizol LS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "EF614258"
+        }
+      },
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:accessionNumber": "EF614258",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "Derived product",
+        "DEFRA",
+        "EF614258",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "WCBL",
+        "WCBV",
+        "West Caucasian bat lyssavirus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Caucasian bat lyssavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Caucasian bat lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV3384",
+        "EVORAO:strain": "WCBV or WCBL"
+      },
+      "search:sku": "021N-03977",
+      "search:title": "West Caucasian Bat Lyssavirus, RNA",
+      "search:description": "RNA from West Caucasian bat lyssavirus, RV3384, in HPLC water. The RNA was extracted from virus cultured in BHK-21 cell using Trizol LS.",
+      "search:taxonLabel": "West Caucasian bat lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DEFRA",
+      "search:accessionNumber": "EF614258",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "West Caucasian bat lyssavirus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA846",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA846",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/flu-b-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "FLU B Plasmid",
+      "dcterms:description": "Influenza B virus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 218,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "pending",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "366.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Influenza B virus",
+        "pCR4-Topo",
+        "RG1",
+        "No Tag"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "cloned nucleic acid",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza B virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza B virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004N-EVA846",
+      "search:title": "FLU B Plasmid",
+      "search:description": "Influenza B virus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Influenza B virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Influenza B virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA525",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA525",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-new-york",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "WNV New York",
+      "dcterms:description": "Viral RNA extracted from infected cell culture lysate.",
+      "EVORAO:unitDefinition": "1 unit = 250 µl with 1000 cp / µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAGEN Viral RNA Kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "1000.00 copies per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "West Nile virus",
+        "WNV",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004N-EVA525",
+      "search:title": "WNV New York",
+      "search:description": "Viral RNA extracted from infected cell culture lysate.",
+      "search:taxonLabel": "West Nile virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA524",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA524",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-africa-uganda",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "WNV Africa-Uganda",
+      "dcterms:description": "Viral RNA extracted from infected cell culture lysate.",
+      "EVORAO:unitDefinition": "1 unit = 250 µl with 1000 cp / µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAGEN Viral RNA Kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "pend",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "1000.00 copies per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "West Nile virus",
+        "WNV",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004N-EVA524",
+      "search:title": "WNV Africa-Uganda",
+      "search:description": "Viral RNA extracted from infected cell culture lysate.",
+      "search:taxonLabel": "West Nile virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA292",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA292",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/vsv-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "VSV IVT",
+      "dcterms:description": "in vitro transcribed RNA for a specific Vesicular stomatitis virus (Indiana strain) real time PCR.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 218,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "500000.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "RG1",
+        "Vesicular stomatitis Indiana virus",
+        "VSV",
+        "Indiana vesiculovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Vesicular stomatitis Indiana virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Indiana vesiculovirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004N-EVA292",
+      "search:title": "VSV IVT",
+      "search:description": "in vitro transcribed RNA for a specific Vesicular stomatitis virus (Indiana strain) real time PCR.",
+      "search:taxonLabel": "Indiana vesiculovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Vesicular stomatitis Indiana virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA485",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA485",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-ic-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "HCV IC Plasmid",
+      "dcterms:description": "Internal control plasmid for in vitro transcription for HCV assays.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 218,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "pending",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "4325.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Hepatitis C virus",
+        "pCR4-Topo",
+        "RG1",
+        "No Tag",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "cloned nucleic acid",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004N-EVA485",
+      "search:title": "HCV IC Plasmid",
+      "search:description": "Internal control plasmid for in vitro transcription for HCV assays.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU_b"
+      },
+      "EVORAO:refSku": "100S-01627",
+      "@id": "urn:evorao:EVA:AMU_b:100S-01627",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/access-amu-infrastructure-viral-recombinant-protein-production",
+      "dcterms:issued": "2016-05-04T15:59:48+02:00",
+      "dcterms:modified": "2020-07-02T13:14:08+02:00",
+      "dcterms:title": "Access to AMU  infrastructure for viral recombinant protein production",
+      "dcterms:description": "Access to AMU/AFMB infrastructure for learning/training on techniques related to viral recombinant proteins",
+      "EVORAO:unitDefinition": "production on demand",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 3500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "skos:note": "For TNA (trans-national access), the access includes travel and accommodation costs",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU_b"
+      },
+      "dcat:keyword": [
+        "AMU_b",
+        "Service",
+        "Derived product",
+        "Viruses",
+        "AFMB",
+        "Any virus",
+        "nanobodies",
+        "protein characterization",
+        "recombinant proteins",
+        "RG1",
+        "VHH",
+        "viral antigen"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "100S-01627",
+      "search:title": "Access to AMU  infrastructure for viral recombinant protein production",
+      "search:description": "Access to AMU/AFMB infrastructure for learning/training on techniques related to viral recombinant proteins",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "AMU_b",
+      "search:providerName": "AMU_b",
+      "search:pathogenName": "Any virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "026S-03464",
+      "@id": "urn:evorao:EVA:CUB:026S-03464",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/rapid-reverse-genetic-isa-sars-cov",
+      "dcterms:issued": "2019-04-05T13:04:16+02:00",
+      "dcterms:modified": "2020-06-11T17:51:44+02:00",
+      "dcterms:title": "Rapid reverse genetic as ISA on SARS-COV",
+      "dcterms:description": "Training in Coronavirus reverse genetics to adapt novel techniques (ISA method) to large RNA viruses and compare different technologies under BSL-3 conditions",
+      "EVORAO:unitDefinition": "2 week training.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 10000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "CUB",
+        "Service",
+        "Derived product",
+        "BSL 3 Laboratory Training",
+        "MERS Cov",
+        "No RG",
+        "SARS coronavirus Frankfurt 1",
+        "Training",
+        "Middle East respiratory syndrome-related coronavirus",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "MERS Cov"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "SARS coronavirus Frankfurt 1"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Middle East respiratory syndrome-related coronavirus, Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "026S-03464",
+      "search:title": "Rapid reverse genetic as ISA on SARS-COV",
+      "search:description": "Training in Coronavirus reverse genetics to adapt novel techniques (ISA method) to large RNA viruses and compare different technologies under BSL-3 conditions",
+      "search:taxonLabel": "Middle East respiratory syndrome-related coronavirus, Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "MERS Cov, SARS coronavirus Frankfurt 1"
+    },
+    {
       "@type": "EVORAO:DetectionKit",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
