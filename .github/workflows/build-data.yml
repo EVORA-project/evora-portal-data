@@ -283,7 +283,7 @@ jobs:
                 }
               },
               "dcterms:license": {
-                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+                "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
               },
               "dcat:landingPage": {
                 "@id": "https://portal.evora-project.eu"
@@ -310,7 +310,7 @@ jobs:
                 "@type": "xsd:date"
               },
               "dcterms:license": {
-                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+                "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
               },
               "dcterms:rights": {
                 "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -347,7 +347,7 @@ jobs:
                 "@id": "https://portal-api.evora-europe.eu/docs"
               },
               "dcterms:license": {
-                "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+                "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
               },
               "dcat:servesDataset": {
                 "@id": "https://portal.evora-project.eu/dataset/evora-portal"
