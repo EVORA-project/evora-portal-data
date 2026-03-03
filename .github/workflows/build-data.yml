@@ -155,6 +155,8 @@ jobs:
     environment: PORTAL_DATA_WORKFLOW
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Install required CLI tools
         run: |
           set -e
