@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build_and_commit:
+    name: Build & commit portal data
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -132,7 +133,34 @@ jobs:
         run: |
           set -e
           python scripts/merge_all_partners.py
+   
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main'
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRSHARING_ELIXIR, ICTV-enriched)"
+            git push
+          fi          
 
+  publish_eu:
+    name: Publish to data.europa.eu
+    needs: build_and_commit
+    runs-on: ubuntu-latest
+    environment: PORTAL_DATA_WORKFLOW
+
+    steps:
+      - name: Install required CLI tools
+        run: |
+          set -e
+          sudo apt-get update
+          sudo apt-get install -y jq
+          
       - name: Get EU Data Portal JWT
         run: |
           set -e
@@ -155,14 +183,14 @@ jobs:
           echo "::add-mask::$TOKEN"
           echo "EU_BEARER=$TOKEN" >> $GITHUB_ENV
 
-      - name: Upload EVORA dataset to data.europa.eu
+      - name: Upload EVORA dataset to data.europa.eu hub-store
         run: |
           set -e
           FILE="data/portal/evora_portal_all.jsonld"
           CATALOG="${{ secrets.EU_ID }}"
           FILE_ID="${{ secrets.EU_FILE_ID }}"
           
-          echo "Uploading EVORA dataset to EU portal..."
+          echo "Uploading EVORA dataset to EU portal (store)..."
           
           if [ -z "$FILE_ID" ]; then
             echo "No FILE_ID → creating new file (POST)"
@@ -360,30 +388,17 @@ jobs:
           }
           EOF
 
-      - name: Publish dataset to EU catalogue
+      - name: Publish dataset to EU catalogue hub-repo
         run: |
           set -e
           CATALOG="${{ secrets.EU_ID }}"
           DATASET_ID="evora-portal-dataset"
       
-          echo "Publishing wrapper dataset..."
+          echo "Publishing wrapper dataset to hub-repo..."
       
           curl --fail --location --request PUT \
             "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/origin?originalId=$DATASET_ID" \
             --header "Content-Type: application/ld+json" \
             --header "Authorization: Bearer $EU_BEARER" \
             --data-binary @eu_dataset_wrapper.jsonld
-   
-      - name: Commit and push changes
-        if: github.ref == 'refs/heads/main'
-        run: |
-          set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          if git diff --cached --quiet; then
-            echo "No data changes to commit."
-          else
-            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRSHARING_ELIXIR, ICTV-enriched)"
-            git push
-          fi
+
