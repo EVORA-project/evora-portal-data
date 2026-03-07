@@ -23997,110 +23997,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
-      "EVORAO:refSku": "001K-05696",
-      "@id": "urn:evorao:EVA:AMU:001K-05696",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyophilized-primers-and-probe-detection-tick-borne-encephalitis-virus-taqman",
-      "dcterms:issued": "2024-03-26T00:11:07+01:00",
-      "dcterms:modified": "2024-03-26T00:11:07+01:00",
-      "dcterms:title": "Lyophilized Primers and Probe for detection of tick borne encephalitis virus (Taqman) ",
-      "dcterms:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of tick borne encephalitis virus (Taqman)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
-      "EVORAO:unitDefinition": "4 vials",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "detection kit"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "molecular detection kit"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "detection kit (for RUO)"
-        }
-      ],
-      "EVORAO:unitCost": 345,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20RT-qPCR%20TBEV%20DUO_CFX.pdf",
-      "EVORAO:specificityDocumented": false,
-      "EVORAO:storageConditions": "Freeze Dried (-20C)",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "dcat:keyword": [
-        "AMU",
-        "Molecular detection kit",
-        "Detection Kit (for RUO)",
-        "Derived product",
-        "Room Temperature",
-        "Animal virus",
-        "Flavivirus",
-        "Human virus",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "TBEV",
-        "tick borne encephalitis",
-        "Tick borne encephalitis virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "detection kit",
-      "search:additionalCategory": [
-        "molecular detection kit",
-        "derived product",
-        "detection kit (for RUO)"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Tick borne encephalitis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Flavivirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "001K-05696",
-      "search:title": "Lyophilized Primers and Probe for detection of tick borne encephalitis virus (Taqman) ",
-      "search:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of tick borne encephalitis virus (Taqman)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
-      "search:taxonLabel": "Flavivirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "AMU",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Tick borne encephalitis virus"
-    },
-    {
-      "@type": "EVORAO:DetectionKit",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
       "EVORAO:refSku": "001K-05695",
       "@id": "urn:evorao:EVA:AMU:001K-05695",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyophilized-primers-and-probe-detection-usutu-virus-taqman",
@@ -137514,6 +137410,168 @@
       "search:collectionName": "IZSVe",
       "search:countryOfCollection": "Italy",
       "search:accessionNumber": "MG543557, MG543632",
+      "search:providerName": "IZSVe",
+      "search:pathogenName": "Infectious pancreatic necrosis virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IZSVe"
+      },
+      "EVORAO:refSku": "025V-04493",
+      "@id": "urn:evorao:EVA:IZSVe:025V-04493",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/aquabirnavirus-ipn-ipnvomikyssitn5244oct78",
+      "dcterms:issued": "2022-02-02T12:14:55+01:00",
+      "dcterms:modified": "2022-03-11T12:47:12+01:00",
+      "dcterms:title": "Aquabirnavirus IPN IPNV/O.mikyss/I/TN/5244/Oct78",
+      "dcterms:description": "Aquabirnavirus IPN strain IPNV/O.mikyss/I/TN/5244/Oct78",
+      "EVORAO:unitDefinition": "1 ml of positive cell culture supernatant",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 400,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1978-10-19",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "RT-PCR and IF",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Viral titration on BF-2",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Bluegill fry cell line (Lepomis marcrochirus)"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10^7.80 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:clinicalInformation": "isolated during active surveillance of trout farms",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IZSVe"
+      },
+      "EVORAO:accessionNumber": "MG543502, MG543577",
+      "EVORAO:isolationConditions": "BF-2 at 15 °C",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Oncorhynchus mykiss"
+      },
+      "EVORAO:isolationTechnique": "cell colture",
+      "EVORAO:doi": "10.1093/ve/vey019",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "North East Italy"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Antigen",
+        "Virus",
+        "IZSVe",
+        "10.1093/ve/vey019",
+        "30046454 ",
+        "Animal virus",
+        "Bluegill fry cell line (Lepomis marcrochirus)",
+        "Category B",
+        "UN3373",
+        "fish virus",
+        "Infectious pacreatic necrosis",
+        "Infectious pancreatic necrosis virus",
+        "IPN",
+        "Italy",
+        "MG543502",
+        "MG543577",
+        "North East Italy",
+        "Oncorhynchus mykiss",
+        "Reference Strain",
+        "RG2",
+        "- 20°C",
+        "Aquabirnavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1978-10-19",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MG543502, MG543577"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Infectious pancreatic necrosis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Aquabirnavirus, Infectious pancreatic necrosis virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "IPNV/O.mikyss/I/TN/5244/Oct78",
+        "EVORAO:genotype": "VP1 genogroup 2; VP2 genogroup V",
+        "EVORAO:serotype": "Sp",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "025V-04493",
+      "search:title": "Aquabirnavirus IPN IPNV/O.mikyss/I/TN/5244/Oct78",
+      "search:description": "Aquabirnavirus IPN strain IPNV/O.mikyss/I/TN/5244/Oct78",
+      "search:taxonLabel": "Aquabirnavirus, Infectious pancreatic necrosis virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Oncorhynchus mykiss",
+      "search:collectionName": "IZSVe",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "MG543502, MG543577",
       "search:providerName": "IZSVe",
       "search:pathogenName": "Infectious pancreatic necrosis virus"
     }

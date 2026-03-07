@@ -22,168 +22,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "IZSVe"
       },
-      "EVORAO:refSku": "025V-04493",
-      "@id": "urn:evorao:EVA:IZSVe:025V-04493",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/aquabirnavirus-ipn-ipnvomikyssitn5244oct78",
-      "dcterms:issued": "2022-02-02T12:14:55+01:00",
-      "dcterms:modified": "2022-03-11T12:47:12+01:00",
-      "dcterms:title": "Aquabirnavirus IPN IPNV/O.mikyss/I/TN/5244/Oct78",
-      "dcterms:description": "Aquabirnavirus IPN strain IPNV/O.mikyss/I/TN/5244/Oct78",
-      "EVORAO:unitDefinition": "1 ml of positive cell culture supernatant",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 400,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1978-10-19",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "RT-PCR and IF",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "Viral titration on BF-2",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Bluegill fry cell line (Lepomis marcrochirus)"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "- 20°C",
-      "EVORAO:specialFeature": "Reference Strain",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10^7.80 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:clinicalInformation": "isolated during active surveillance of trout farms",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:accessionNumber": "MG543502, MG543577",
-      "EVORAO:isolationConditions": "BF-2 at 15 °C",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Oncorhynchus mykiss"
-      },
-      "EVORAO:isolationTechnique": "cell colture",
-      "EVORAO:doi": "10.1093/ve/vey019",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "North East Italy"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Virus",
-        "IZSVe",
-        "10.1093/ve/vey019",
-        "30046454 ",
-        "Animal virus",
-        "Bluegill fry cell line (Lepomis marcrochirus)",
-        "Category B",
-        "UN3373",
-        "fish virus",
-        "Infectious pacreatic necrosis",
-        "Infectious pancreatic necrosis virus",
-        "IPN",
-        "Italy",
-        "MG543502",
-        "MG543577",
-        "North East Italy",
-        "Oncorhynchus mykiss",
-        "Reference Strain",
-        "RG2",
-        "- 20°C",
-        "Aquabirnavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1978-10-19",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MG543502, MG543577"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Infectious pancreatic necrosis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Aquabirnavirus, Infectious pancreatic necrosis virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "IPNV/O.mikyss/I/TN/5244/Oct78",
-        "EVORAO:genotype": "VP1 genogroup 2; VP2 genogroup V",
-        "EVORAO:serotype": "Sp",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-04493",
-      "search:title": "Aquabirnavirus IPN IPNV/O.mikyss/I/TN/5244/Oct78",
-      "search:description": "Aquabirnavirus IPN strain IPNV/O.mikyss/I/TN/5244/Oct78",
-      "search:taxonLabel": "Aquabirnavirus, Infectious pancreatic necrosis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Oncorhynchus mykiss",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "MG543502, MG543577",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "Infectious pancreatic necrosis virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
       "EVORAO:refSku": "025V-04494",
       "@id": "urn:evorao:EVA:IZSVe:025V-04494",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/aquabirnavirus-ipn-ipnvomikyssitn132mar12",
@@ -146905,6 +146743,141 @@
       "search:countryOfCollection": "Denmark",
       "search:providerName": "FLI",
       "search:pathogenName": "Swinepox virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015V-01698",
+      "@id": "urn:evorao:EVA:FLI:015V-01698",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lagos-bat-virus-12860-bat-nigeria",
+      "dcterms:issued": "2016-06-17T13:22:21+02:00",
+      "dcterms:modified": "2021-05-31T16:06:58+02:00",
+      "dcterms:title": "Lagos bat virus; 12860, bat, Nigeria",
+      "dcterms:description": "Lagos bat virus; 12860; host species: bat; origin: Nigeria; year: 1974; tissue culture, passage 3 MNA (Na42/13), infectifity tested",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1230,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1974-02-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Nigeria"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR and Sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID50/mL",
+      "EVORAO:mycoplasmicContent": "Not tested",
+      "EVORAO:passage": "3rd",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Mouse neuroblastoma cell line (Na 42/13)"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10^5",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Bat"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Nigeria"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "FLI",
+        "Animal virus",
+        "Bat",
+        "Category A",
+        "UN2814",
+        "Human virus",
+        "Lagos bat virus",
+        "Lyssavirus",
+        "Mouse neuroblastoma cell line (Na 42/13)",
+        "Nigeria",
+        "RG3",
+        "Dry ice",
+        "Lagos bat lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1974-02-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "complete genome sequence is available on enquiry"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lagos bat virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lagos bat lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "015V-01698",
+      "search:title": "Lagos bat virus; 12860, bat, Nigeria",
+      "search:description": "Lagos bat virus; 12860; host species: bat; origin: Nigeria; year: 1974; tissue culture, passage 3 MNA (Na42/13), infectifity tested",
+      "search:taxonLabel": "Lagos bat lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Bat",
+      "search:collectionName": "FLI",
+      "search:countryOfCollection": "Nigeria",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Lagos bat virus"
     }
   ]
 }
