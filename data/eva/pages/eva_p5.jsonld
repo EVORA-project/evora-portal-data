@@ -22,13 +22,805 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
-      "EVORAO:refSku": "015A-01765",
-      "@id": "urn:evorao:EVA:FLI:015A-01765",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-g-protein-spring-viraemia-carp-virus-svcv",
-      "dcterms:issued": "2016-07-12T16:17:53+02:00",
+      "EVORAO:refSku": "015A-01778",
+      "@id": "urn:evorao:EVA:FLI:015A-01778",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-ns3a-foot-and-mouth-disease-virus-fmdv",
+      "dcterms:issued": "2016-07-14T14:48:47+02:00",
       "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti- G protein of Spring viraemia of carp virus (SVCV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-SVCV antibodies; targeted antigen: G protein; clone: 13C10; immunization antigen: inactivated isolate \"56/70\"",
+      "dcterms:title": "murine mAb: anti- NS3A of Foot-and-mouth disease virus (FMDV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-FMDV antibodies; targeted antigen: NS3A; clone: 5G1; immunization antigen: recombinant protein",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodyCharacterizationObservation": "murine IgG1, other characterization methods not tested",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Derived product",
+        "FLI",
+        "fmdv",
+        "Foot-and-mouth disease virus",
+        "monoclonal antibody",
+        "No RG",
+        "NS3A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Foot-and-mouth disease virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Foot-and-mouth disease virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01778",
+      "search:title": "murine mAb: anti- NS3A of Foot-and-mouth disease virus (FMDV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-FMDV antibodies; targeted antigen: NS3A; clone: 5G1; immunization antigen: recombinant protein",
+      "search:taxonLabel": "Foot-and-mouth disease virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Foot-and-mouth disease virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01750",
+      "@id": "urn:evorao:EVA:FLI:015A-01750",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-salmon-pancreas-disease-virus-anti-spdv",
+      "dcterms:issued": "2016-07-08T14:01:13+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-Salmon pancreas disease virus (anti-SPDV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: unknown; clone: 15B8; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with isolates from trouts (SAV2) and salmon (SAV1 and SAV3)",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "monoclonal antibody",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Salmon pancreas disease virus",
+        "SPDV"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Salmon pancreas disease virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Salmon pancreas disease virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01750",
+      "search:title": "murine mAb: anti-Salmon pancreas disease virus (anti-SPDV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: unknown; clone: 15B8; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
+      "search:taxonLabel": "Salmon pancreas disease virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Salmon pancreas disease virus"
+    },
+    {
+      "@type": "EVORAO:Hybridoma",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "WIV"
+      },
+      "EVORAO:refSku": "022A-03062",
+      "@id": "urn:evorao:EVA:WIV:022A-03062",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mabanti-cchfv-glycoprotein-protein-gn-monoclonal-antibody-29g7",
+      "dcterms:issued": "2018-07-17T04:26:27+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb:Anti-CCHFV glycoprotein protein Gn monoclonal antibody 29G7",
+      "dcterms:description": "mouse monoclonal antibodies against the glycoprotein protein Gn of CCHFV",
+      "EVORAO:unitDefinition": "1 vial to be resuspended in 0.5ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "hybridoma"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "Western Blot, ELISA, IFA",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "+ 4°C",
+      "EVORAO:targetedAntigen": "Protein:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "WIV"
+      },
+      "EVORAO:accessionNumber": "FJ562094",
+      "dcat:keyword": [
+        "Hybridoma",
+        "Antibody or Hybridoma",
+        "Derived product",
+        "WIV",
+        "+ 4°C",
+        "CCHFV",
+        "Crimean-Congo hemorrhagic fever orthonairovirus",
+        "FJ562094",
+        "GN",
+        "hybridoma",
+        "mAb",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "recombinant baculovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "hybridoma",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "FJ562094"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "YL04057"
+      },
+      "search:sku": "022A-03062",
+      "search:title": "murine mAb:Anti-CCHFV glycoprotein protein Gn monoclonal antibody 29G7",
+      "search:description": "mouse monoclonal antibodies against the glycoprotein protein Gn of CCHFV",
+      "search:taxonLabel": "Crimean-Congo hemorrhagic fever orthonairovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "WIV",
+      "search:accessionNumber": "FJ562094",
+      "search:providerName": "WIV",
+      "search:pathogenName": "Crimean-Congo hemorrhagic fever orthonairovirus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-03454",
+      "@id": "urn:evorao:EVA:FLI:015A-03454",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-schmallenberg-orthobunyavirus-gc-antibody-5e1a3",
+      "dcterms:issued": "2019-02-27T13:57:59+01:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "anti-Schmallenberg orthobunyavirus (Gc) antibody 5E1A3",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-Schmallenberg orthobunyavirus antibodies; targeted antigen: Gc; clone: 5E1A3; immunization antigen: recombinant Gc Protein of SBV",
+      "EVORAO:unitDefinition": "1 mL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "Western Blot, ELISA, IFA, Neutralisation",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "Gc of SBV",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Mouse (Balb/c)",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "Gc",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "SBV",
+        "Schmallenberg orthobunyavirus",
+        "Schmallenberg virus",
+        "schmallenberg virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "schmallenberg virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Schmallenberg orthobunyavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-03454",
+      "search:title": "anti-Schmallenberg orthobunyavirus (Gc) antibody 5E1A3",
+      "search:description": "Hybridoma cell culture supernatant containing anti-Schmallenberg orthobunyavirus antibodies; targeted antigen: Gc; clone: 5E1A3; immunization antigen: recombinant Gc Protein of SBV",
+      "search:taxonLabel": "Schmallenberg orthobunyavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "schmallenberg virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01734",
+      "@id": "urn:evorao:EVA:FLI:015A-01734",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv1-11-0",
+      "dcterms:issued": "2016-07-07T16:17:49+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV1-11)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV1-11) antibodies; targeted antigen: unknown; clone: 4B1; immunization antigen: inactivated strain \"Konratice\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with tested isolates of serotypes 1-11",
+      "EVORAO:antibodyCharacterizationObservation": "murine IgG2a, other characterization methods not checked",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "anti-Teschovirus A",
+        "monoclonal antibody",
+        "No RG",
+        "Porcine teschovirus",
+        "Porcine teschovirus (PTV1-11)",
+        "PTV",
+        "Teschovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Porcine teschovirus (PTV1-11)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Teschovirus A"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01734",
+      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV1-11)",
+      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV1-11) antibodies; targeted antigen: unknown; clone: 4B1; immunization antigen: inactivated strain \"Konratice\"",
+      "search:taxonLabel": "Teschovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Porcine teschovirus (PTV1-11)"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UNIBAS"
+      },
+      "EVORAO:refSku": "006A-EVA92",
+      "@id": "urn:evorao:EVA:UNIBAS:006A-EVA92",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/vl-4",
+      "dcterms:issued": "2016-04-05T14:58:43+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "VL-4",
+      "dcterms:description": "Monoclonal antibody against LCMV nucleoprotein",
+      "EVORAO:unitDefinition": "1 vial (1m protein)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodyCharacterizationObservation": "Rat antibody",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:shippingConditions": "+ 4°C",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Protein:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UNIBAS"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "UNIBAS",
+        "Derived product",
+        "+ 4°C",
+        "LCMV",
+        "Lymphocytic choriomeningitis virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Lymphocytic choriomeningitis mammarenavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Lymphocytic choriomeningitis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Lymphocytic choriomeningitis mammarenavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "006A-EVA92",
+      "search:title": "VL-4",
+      "search:description": "Monoclonal antibody against LCMV nucleoprotein",
+      "search:taxonLabel": "Lymphocytic choriomeningitis mammarenavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "UNIBAS",
+      "search:providerName": "UNIBAS",
+      "search:pathogenName": "Lymphocytic choriomeningitis virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01779",
+      "@id": "urn:evorao:EVA:FLI:015A-01779",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-rabbit-haemorrhagic-disease-virus-1-rhdv-1",
+      "dcterms:issued": "2016-07-14T14:53:25+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-Rabbit haemorrhagic disease virus 1 (RHDV 1)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-RHDV 1 antibodies; targeted antigen: unknown; clone: 30H12; immunization antigen: inactivated strain \"Triptis\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not tested",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Derived product",
+        "FLI",
+        "monoclonal antibody",
+        "No RG",
+        "Rabbit haemorrhagic disease virus 1",
+        "Rabbit hemorrhagic disease virus",
+        "RHDV 1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabbit hemorrhagic disease virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabbit hemorrhagic disease virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01779",
+      "search:title": "murine mAb: anti-Rabbit haemorrhagic disease virus 1 (RHDV 1)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-RHDV 1 antibodies; targeted antigen: unknown; clone: 30H12; immunization antigen: inactivated strain \"Triptis\"",
+      "search:taxonLabel": "Rabbit hemorrhagic disease virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Rabbit hemorrhagic disease virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "021A-03979",
+      "@id": "urn:evorao:EVA:DEFRA:021A-03979",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-west-caucasian-bat-lyssavirus",
+      "dcterms:issued": "2020-07-03T11:47:48+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "anti-West Caucasian Bat Lyssavirus",
+      "dcterms:description": "Rabbit polyclonal antiserum raised against BPL inactivated West Caucasian bat lyssavirus. The antiserum has been shown to specifically neutralize West Caucasian bat lyssavirus.",
+      "EVORAO:unitDefinition": "1 vial of 500ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "Neutralisation",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyCharacterizationObservation": "The antiserum has been shown to specifically neutralize West Caucasian bat lyssavirus. The serum will bind to other lyssavirus antigens, only preliminary data available.",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Produced in rabbits using B-propiolactone inactivated virus.",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:targetedAntigen": "Virus:Live West Caucasian Bat Lyssavirus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:accessionNumber": "EF614258",
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DEFRA",
+        "Ab",
+        "EF614258",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "WCBL",
+        "WCBV",
+        "West Caucasian bat lyssavirus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "EF614258"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Caucasian bat lyssavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Caucasian bat lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV3384",
+        "EVORAO:strain": "WCBV or WCBL"
+      },
+      "search:sku": "021A-03979",
+      "search:title": "anti-West Caucasian Bat Lyssavirus",
+      "search:description": "Rabbit polyclonal antiserum raised against BPL inactivated West Caucasian bat lyssavirus. The antiserum has been shown to specifically neutralize West Caucasian bat lyssavirus.",
+      "search:taxonLabel": "West Caucasian bat lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DEFRA",
+      "search:accessionNumber": "EF614258",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "West Caucasian bat lyssavirus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01751",
+      "@id": "urn:evorao:EVA:FLI:015A-01751",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-white-bream-virus-anti-wbv",
+      "dcterms:issued": "2016-07-08T14:05:34+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-White bream virus (anti-WBV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-WBV antibodies; targeted antigen: unknown; clone: 10G7; immunization antigen: inactivated strain \"DF24/00\"",
       "EVORAO:unitDefinition": "1 vial (1ml)",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
@@ -49,8 +841,8 @@
       "EVORAO:availability": "In stock",
       "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
       "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with all tested SVCV isolates, non-reactive with VHSV, IHNV, ARV, PFRV",
-      "EVORAO:antibodyCharacterizationObservation": "murine IgG1 κ",
+      "EVORAO:antibodySpecificity": "reactive with all tested WBV isolates",
+      "EVORAO:antibodyCharacterizationObservation": "murine IgG2b κ",
       "EVORAO:antibodyPurifiedByAffinity": false,
       "EVORAO:qualityGrading": "Gold",
       "EVORAO:productPicture": {
@@ -74,12 +866,10 @@
         "Diagnostic reagent",
         "Derived product",
         "FLI",
-        "G protein",
         "monoclonal antibody",
         "No RG",
-        "Spring viraemia of carp virus",
-        "SVCV",
-        "Carp sprivivirus"
+        "WBV",
+        "White bream virus"
       ],
       "dcterms:publisher": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -97,41 +887,41 @@
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
           "@type": "EVORAO:VirusName",
-          "dcterms:title": "Spring viraemia of carp virus"
+          "dcterms:title": "White bream virus"
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Carp sprivivirus"
+          "dcterms:title": "White bream virus"
         },
         "EVORAO:pathogenType": "Virus"
       },
-      "search:sku": "015A-01765",
-      "search:title": "murine mAb: anti- G protein of Spring viraemia of carp virus (SVCV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-SVCV antibodies; targeted antigen: G protein; clone: 13C10; immunization antigen: inactivated isolate \"56/70\"",
-      "search:taxonLabel": "Carp sprivivirus",
+      "search:sku": "015A-01751",
+      "search:title": "murine mAb: anti-White bream virus (anti-WBV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-WBV antibodies; targeted antigen: unknown; clone: 10G7; immunization antigen: inactivated strain \"DF24/00\"",
+      "search:taxonLabel": "White bream virus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "No RG",
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
-      "search:pathogenName": "Spring viraemia of carp virus"
+      "search:pathogenName": "White bream virus"
     },
     {
-      "@type": "EVORAO:Antibody",
+      "@type": "EVORAO:Hybridoma",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
         "foaf:name": "WIV"
       },
-      "EVORAO:refSku": "022A-03069",
-      "@id": "urn:evorao:EVA:WIV:022A-03069",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-mers-np-rabbit-ab",
-      "dcterms:issued": "2018-07-17T05:00:45+02:00",
+      "EVORAO:refSku": "022A-03063",
+      "@id": "urn:evorao:EVA:WIV:022A-03063",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mabanti-cchfv-glycoprotein-protein-gc-monoclonal-antibody-20c2",
+      "dcterms:issued": "2018-07-17T04:30:07+02:00",
       "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "Anti-MERS NP rabbit Ab",
-      "dcterms:description": "Anti-Middle East respiratory syndrome-related coronavirus NP protein polyclonal rabbit sera",
+      "dcterms:title": "murine mAb:Anti-CCHFV glycoprotein protein Gc monoclonal antibody 20C2",
+      "dcterms:description": "mouse monoclonal antibodies against the glycoprotein protein Gc of CCHFV",
       "EVORAO:unitDefinition": "1 vial to be resuspended in 0.5ml",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
+        "dcterms:title": "hybridoma"
       },
       "EVORAO:additionalCategory": [
         {
@@ -142,11 +932,8 @@
       "EVORAO:unitCost": 500,
       "EVORAO:unitCostCurrency": "EUR",
       "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA, Immunoprecipitation",
-      "EVORAO:antibodyType": "Polyclonal",
-      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:antibodyCharacterizationMethod": "Western Blot, ELISA, IFA",
       "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
       "EVORAO:productPicture": {
         "@type": "EVORAO:Image",
         "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
@@ -162,17 +949,19 @@
         "dcterms:title": "WIV"
       },
       "dcat:keyword": [
-        "Antibody",
+        "Hybridoma",
         "Antibody or Hybridoma",
         "Derived product",
         "WIV",
         "+ 4°C",
-        "MERS-CoV",
-        "Middle East Respiratory syndrom coronavirus",
-        "Middle East respiratory syndrome-related coronavirus",
+        "CCHFV",
+        "Crimean-Congo hemorrhagic fever orthonairovirus",
+        "Gc",
+        "hybridoma",
+        "mAb",
         "No RG",
         "NON DANGEROUS GOODS",
-        "NP protein"
+        "recombinant baculovirus"
       ],
       "dcterms:publisher": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -181,7 +970,7 @@
         "EVORAO:homepage": "https://www.european-virus-archive.com",
         "EVORAO:rorId": "https://ror.org/05qrk8753"
       },
-      "search:category": "antibody",
+      "search:category": "hybridoma",
       "search:additionalCategory": [
         "derived product"
       ],
@@ -189,43 +978,48 @@
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
           "@type": "EVORAO:VirusName",
-          "dcterms:title": "Middle East respiratory syndrome-related coronavirus"
+          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Middle East respiratory syndrome-related coronavirus"
+          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
         },
-        "EVORAO:pathogenType": "Virus"
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "YL04057"
       },
-      "search:sku": "022A-03069",
-      "search:title": "Anti-MERS NP rabbit Ab",
-      "search:description": "Anti-Middle East respiratory syndrome-related coronavirus NP protein polyclonal rabbit sera",
-      "search:taxonLabel": "Middle East respiratory syndrome-related coronavirus",
+      "search:sku": "022A-03063",
+      "search:title": "murine mAb:Anti-CCHFV glycoprotein protein Gc monoclonal antibody 20C2",
+      "search:description": "mouse monoclonal antibodies against the glycoprotein protein Gc of CCHFV",
+      "search:taxonLabel": "Crimean-Congo hemorrhagic fever orthonairovirus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "No RG",
       "search:collectionName": "WIV",
       "search:providerName": "WIV",
-      "search:pathogenName": "Middle East respiratory syndrome-related coronavirus"
+      "search:pathogenName": "Crimean-Congo hemorrhagic fever orthonairovirus"
     },
     {
-      "@type": "EVORAO:Antibody",
+      "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
+        "foaf:name": "CUB"
       },
-      "EVORAO:refSku": "015A-01700",
-      "@id": "urn:evorao:EVA:FLI:015A-01700",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-suid-herpesvirus-1-ghgl",
-      "dcterms:issued": "2016-06-17T14:38:47+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Suid herpesvirus 1 gH/gL",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-Suid herpesvirus 1antibodies; targeted antigen: gH/gL; clone: 14H9; immunization antigen: recombinant gH/gL SuHV-1 \"Kaplan\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:refSku": "004N-EVA524",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA524",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-africa-uganda",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "WNV Africa-Uganda",
+      "dcterms:description": "Viral RNA extracted from infected cell culture lysate.",
+      "EVORAO:unitDefinition": "1 unit = 250 µl with 1000 cp / µl",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
+        "dcterms:title": "nucleic acid"
       },
       "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "diagnostic reagent"
@@ -235,528 +1029,43 @@
           "dcterms:title": "derived product"
         }
       ],
-      "EVORAO:unitCost": 300,
+      "EVORAO:unitCost": 500,
       "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "monoclonal antibody",
-        "No RG",
-        "Suid herpesvirus 1",
-        "Suid alphaherpesvirus 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Suid herpesvirus 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Suid alphaherpesvirus 1"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01700",
-      "search:title": "murine mAb: anti-Suid herpesvirus 1 gH/gL",
-      "search:description": "Hybridoma cell culture supernatant containing anti-Suid herpesvirus 1antibodies; targeted antigen: gH/gL; clone: 14H9; immunization antigen: recombinant gH/gL SuHV-1 \"Kaplan\"",
-      "search:taxonLabel": "Suid alphaherpesvirus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Suid herpesvirus 1"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01740",
-      "@id": "urn:evorao:EVA:FLI:015A-01740",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv6",
-      "dcterms:issued": "2016-07-07T16:48:35+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV6)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV6) antibodies; targeted antigen: unknown; clone: 14B2; immunization antigen: inactivated strain \"PS37\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with tested isolates of serotype 6, not-reactive with isolates of serotypes 1-5 and 7-11",
-      "EVORAO:antibodyCharacterizationObservation": "murine IgG2b, other characterization methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "anti-Teschovirus A",
-        "monoclonal antibody",
-        "No RG",
-        "Porcine teschovirus",
-        "Porcine teschovirus (PTV6)",
-        "PTV",
-        "Teschovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine teschovirus (PTV6)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Teschovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": 6
-      },
-      "search:sku": "015A-01740",
-      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV6)",
-      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV6) antibodies; targeted antigen: unknown; clone: 14B2; immunization antigen: inactivated strain \"PS37\"",
-      "search:taxonLabel": "Teschovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine teschovirus (PTV6)"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-02710",
-      "@id": "urn:evorao:EVA:FLI:015A-02710",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-foot-and-mouth-disease-virus-fmdv-target-3a-clone-8h8a",
-      "dcterms:issued": "2018-01-30T17:42:17+01:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Foot-and-mouth disease virus (FMDV); target: 3A; clone 8H8a",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-FMDVV antibodies; targeted antigen: 3A; clone: 8H8a; immunization antigen: recombinant non-structural protein 3ABC",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "ELISA, IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "tested for NSP 3A of serotypes A and O",
-      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
       "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "QIAGEN Viral RNA Kit.",
       "EVORAO:productPicture": {
         "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
       },
       "EVORAO:riskGroup": {
         "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
+        "dcterms:title": "RG1"
       },
-      "EVORAO:productionSystem": "Mouse (Balb/c)",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:sequence": "pend",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:titer": "1000.00 copies per 5 µl",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
+        "dcterms:title": "CUB"
       },
       "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "fmdv",
-        "Foot-and-mouth disease virus",
-        "monoclonal antibody",
-        "No RG",
-        "NON DANGEROUS GOODS"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-02710",
-      "search:title": "murine mAb: anti-Foot-and-mouth disease virus (FMDV); target: 3A; clone 8H8a",
-      "search:description": "Hybridoma cell culture supernatant containing anti-FMDVV antibodies; targeted antigen: 3A; clone: 8H8a; immunization antigen: recombinant non-structural protein 3ABC",
-      "search:taxonLabel": "Foot-and-mouth disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Foot-and-mouth disease virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-02603",
-      "@id": "urn:evorao:EVA:FLI:015A-02603",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-cyprinid-herpesvirus-3-anti-cyhv-3-1",
-      "dcterms:issued": "2017-10-10T13:51:09+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Cyprinid herpesvirus 3 (anti-CyHV-3)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-CyHV-3 antibodies; targeted antigen: Orf27-HA; IgG subtype: IgG1 κ; clone:30C12; immunization antigen: inactivated strain \"KHV 41/43 (Israel)\"",
-      "EVORAO:unitDefinition": "1vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Mouse (Balb/c)",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "CyHV-3",
-        "Cyprinid herpesvirus 3",
-        "monoclonal antibody",
-        "No RG",
-        "NON DANGEROUS GOODS"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Cyprinid herpesvirus 3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Cyprinid herpesvirus 3"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-02603",
-      "search:title": "murine mAb: anti-Cyprinid herpesvirus 3 (anti-CyHV-3)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-CyHV-3 antibodies; targeted antigen: Orf27-HA; IgG subtype: IgG1 κ; clone:30C12; immunization antigen: inactivated strain \"KHV 41/43 (Israel)\"",
-      "search:taxonLabel": "Cyprinid herpesvirus 3",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Cyprinid herpesvirus 3"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01766",
-      "@id": "urn:evorao:EVA:FLI:015A-01766",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-infectious-salmon-anemia-virus-isav",
-      "dcterms:issued": "2016-07-12T16:22:40+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Infectious salmon anemia virus (ISAV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-ISAV antibodies; targeted antigen: unknown; clone: 11F1; immunization antigen: inactivated isolate \"ISAV Glesvaer/2/90\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with all european ISAV isolates tested",
-      "EVORAO:antibodyCharacterizationObservation": "murine IgG1 κ, other methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
+        "Nucleic Acid",
+        "Viral RNA",
+        "CUB",
         "Diagnostic reagent",
         "Derived product",
-        "FLI",
-        "Infectious salmon anemia virus",
-        "ISAV",
-        "monoclonal antibody",
-        "No RG",
-        "Salmon isavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Infectious salmon anemia virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Salmon isavirus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01766",
-      "search:title": "murine mAb: anti-Infectious salmon anemia virus (ISAV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-ISAV antibodies; targeted antigen: unknown; clone: 11F1; immunization antigen: inactivated isolate \"ISAV Glesvaer/2/90\"",
-      "search:taxonLabel": "Salmon isavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Infectious salmon anemia virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-03421",
-      "@id": "urn:evorao:EVA:FLI:015A-03421",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-rift-valley-fever-virus-rvfv-nss-reference-antibodies-6-different",
-      "dcterms:issued": "2019-01-28T11:35:46+01:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "Anti-Rift Valley Fever Virus (RVFV) NSs reference antibodies (6 different)",
-      "dcterms:description": "Anti-Rift Valley Fever Virus; RVFV; NSs reference constisting of 6 different antibodies",
-      "EVORAO:unitDefinition": "6x 1 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1800,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, ELISA, IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "The NSs reference consists of 6 different monoclonal antibodies reacting with the NSs Protein of RVFV",
-      "EVORAO:antibodyCharacterizationObservation": "Tested reactivity against NSs",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:biosafetyRestrictions": "No",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c mouse",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "monoclonal antibody",
-        "No RG",
         "NON DANGEROUS GOODS",
-        "NSs",
-        "rift valley fever virus",
-        "Rift Valley fever virus",
-        "Rift Valley fever phlebovirus"
+        "RG1",
+        "West Nile virus",
+        "WNV",
+        "Dry ice"
       ],
       "dcterms:publisher": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -765,8 +1074,9 @@
         "EVORAO:homepage": "https://www.european-virus-archive.com",
         "EVORAO:rorId": "https://ror.org/05qrk8753"
       },
-      "search:category": "antibody",
+      "search:category": "nucleic acid",
       "search:additionalCategory": [
+        "viral RNA",
         "diagnostic reagent",
         "derived product"
       ],
@@ -774,43 +1084,47 @@
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
           "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rift Valley fever virus"
+          "dcterms:title": "West Nile virus"
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rift Valley fever phlebovirus"
+          "dcterms:title": "West Nile virus"
         },
         "EVORAO:pathogenType": "Virus"
       },
-      "search:sku": "015A-03421",
-      "search:title": "Anti-Rift Valley Fever Virus (RVFV) NSs reference antibodies (6 different)",
-      "search:description": "Anti-Rift Valley Fever Virus; RVFV; NSs reference constisting of 6 different antibodies",
-      "search:taxonLabel": "Rift Valley fever phlebovirus",
+      "search:sku": "004N-EVA524",
+      "search:title": "WNV Africa-Uganda",
+      "search:description": "Viral RNA extracted from infected cell culture lysate.",
+      "search:taxonLabel": "West Nile virus",
       "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rift Valley fever virus"
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "West Nile virus"
     },
     {
-      "@type": "EVORAO:Antibody",
+      "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
+        "foaf:name": "CUB"
       },
-      "EVORAO:refSku": "015A-01701",
-      "@id": "urn:evorao:EVA:FLI:015A-01701",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-bluetongue-virus-vp2-anti-btv-1-and-btv-8",
-      "dcterms:issued": "2016-06-17T14:54:27+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Bluetongue virus VP2 (anti-BTV-1 and BTV-8)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: VP2; clone: 13C10; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with BTV-1 and BTV-8",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:refSku": "004N-EVA292",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA292",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/vsv-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "VSV IVT",
+      "dcterms:description": "in vitro transcribed RNA for a specific Vesicular stomatitis virus (Indiana strain) real time PCR.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
+        "dcterms:title": "nucleic acid"
       },
       "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
         {
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "diagnostic reagent"
@@ -820,41 +1134,40 @@
           "dcterms:title": "derived product"
         }
       ],
-      "EVORAO:unitCost": 300,
+      "EVORAO:unitCost": 218,
       "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with VP2 of BTV-1 and BTV-8",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
       "EVORAO:productPicture": {
         "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
       },
       "EVORAO:riskGroup": {
         "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
+        "dcterms:title": "RG1"
       },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:sequence": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "500000.00 per 5 µl",
       "EVORAO:collection": {
         "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
+        "dcterms:title": "CUB"
       },
       "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
         "Diagnostic reagent",
         "Derived product",
-        "FLI",
-        "Bluetongue virus",
-        "BTV",
-        "BTV-1",
-        "BTV-8",
-        "monoclonal antibody",
-        "No RG"
+        "RG1",
+        "Vesicular stomatitis Indiana virus",
+        "VSV",
+        "Indiana vesiculovirus"
       ],
       "dcterms:publisher": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -863,119 +1176,9 @@
         "EVORAO:homepage": "https://www.european-virus-archive.com",
         "EVORAO:rorId": "https://ror.org/05qrk8753"
       },
-      "search:category": "antibody",
+      "search:category": "nucleic acid",
       "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": [
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Bluetongue virus"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "BTV-1"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "BTV-8"
-          }
-        ],
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bluetongue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": "1 and 8"
-      },
-      "search:sku": "015A-01701",
-      "search:title": "murine mAb: anti-Bluetongue virus VP2 (anti-BTV-1 and BTV-8)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: VP2; clone: 13C10; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with BTV-1 and BTV-8",
-      "search:taxonLabel": "Bluetongue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bluetongue virus, BTV-1, BTV-8"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01741",
-      "@id": "urn:evorao:EVA:FLI:015A-01741",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv7",
-      "dcterms:issued": "2016-07-07T16:51:05+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV7)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV7) antibodies; targeted antigen: unknown; clone: 35B7; immunization antigen: inactivated strain \"F43\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with tested isolates of serotype 7, not-reactive with isolates of serotypes 1-6 and 8-11",
-      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "anti-Teschovirus A",
-        "monoclonal antibody",
-        "No RG",
-        "Porcine teschovirus",
-        "Porcine teschovirus (PTV7)",
-        "PTV",
-        "Teschovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
+        "in vitro transcript",
         "diagnostic reagent",
         "derived product"
       ],
@@ -983,24 +1186,137 @@
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
           "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine teschovirus (PTV7)"
+          "dcterms:title": "Vesicular stomatitis Indiana virus"
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Teschovirus A"
+          "dcterms:title": "Indiana vesiculovirus"
         },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": 7
+        "EVORAO:pathogenType": "Virus"
       },
-      "search:sku": "015A-01741",
-      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV7)",
-      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV7) antibodies; targeted antigen: unknown; clone: 35B7; immunization antigen: inactivated strain \"F43\"",
-      "search:taxonLabel": "Teschovirus A",
+      "search:sku": "004N-EVA292",
+      "search:title": "VSV IVT",
+      "search:description": "in vitro transcribed RNA for a specific Vesicular stomatitis virus (Indiana strain) real time PCR.",
+      "search:taxonLabel": "Indiana vesiculovirus",
       "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine teschovirus (PTV7)"
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Vesicular stomatitis Indiana virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA485",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA485",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-ic-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2020-09-07T16:24:56+02:00",
+      "dcterms:title": "HCV IC Plasmid",
+      "dcterms:description": "Internal control plasmid for in vitro transcription for HCV assays.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 218,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "pending",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "4325.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Hepatitis C virus",
+        "pCR4-Topo",
+        "RG1",
+        "No Tag",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "cloned nucleic acid",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "004N-EVA485",
+      "search:title": "HCV IC Plasmid",
+      "search:description": "Internal control plasmid for in vitro transcription for HCV assays.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
@@ -1444,327 +1760,6 @@
       "search:collectionName": "CUB",
       "search:providerName": "CUB",
       "search:pathogenName": "West Nile virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA524",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA524",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/wnv-africa-uganda",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2020-09-07T16:24:56+02:00",
-      "dcterms:title": "WNV Africa-Uganda",
-      "dcterms:description": "Viral RNA extracted from infected cell culture lysate.",
-      "EVORAO:unitDefinition": "1 unit = 250 µl with 1000 cp / µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "QIAGEN Viral RNA Kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "pend",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "AVE Buffer -80C",
-      "EVORAO:titer": "1000.00 copies per 5 µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "West Nile virus",
-        "WNV",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "004N-EVA524",
-      "search:title": "WNV Africa-Uganda",
-      "search:description": "Viral RNA extracted from infected cell culture lysate.",
-      "search:taxonLabel": "West Nile virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "West Nile virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA292",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA292",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/vsv-ivt",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2020-09-07T16:24:56+02:00",
-      "dcterms:title": "VSV IVT",
-      "dcterms:description": "in vitro transcribed RNA for a specific Vesicular stomatitis virus (Indiana strain) real time PCR.",
-      "EVORAO:unitDefinition": "100 x 5 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 218,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "500000.00 per 5 µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "RG1",
-        "Vesicular stomatitis Indiana virus",
-        "VSV",
-        "Indiana vesiculovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Vesicular stomatitis Indiana virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Indiana vesiculovirus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "004N-EVA292",
-      "search:title": "VSV IVT",
-      "search:description": "in vitro transcribed RNA for a specific Vesicular stomatitis virus (Indiana strain) real time PCR.",
-      "search:taxonLabel": "Indiana vesiculovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Vesicular stomatitis Indiana virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA485",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA485",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-ic-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2020-09-07T16:24:56+02:00",
-      "dcterms:title": "HCV IC Plasmid",
-      "dcterms:description": "Internal control plasmid for in vitro transcription for HCV assays.",
-      "EVORAO:unitDefinition": "100 x 5 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 218,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "pending",
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "4325.00 per 5 µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Hepatitis C virus",
-        "pCR4-Topo",
-        "RG1",
-        "No Tag",
-        "Hepacivirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "cloned nucleic acid",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hepatitis C virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Hepacivirus C"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "004N-EVA485",
-      "search:title": "HCV IC Plasmid",
-      "search:description": "Internal control plasmid for in vitro transcription for HCV assays.",
-      "search:taxonLabel": "Hepacivirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hepatitis C virus"
     },
     {
       "@type": "EVORAO:Service",
