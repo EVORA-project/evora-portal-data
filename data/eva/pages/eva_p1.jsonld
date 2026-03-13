@@ -22,6 +22,726 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027A-05898",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05898",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/carnation-italian-ringspot-virus-cirv-polyclonal-antibodies-dsmz-0147",
+      "dcterms:issued": "2024-05-08T11:45:54+02:00",
+      "dcterms:modified": "2026-03-12T14:16:40+01:00",
+      "dcterms:title": "Carnation Italian ringspot virus (CIRV) polyclonal antibodies DSMZ AS-0147",
+      "dcterms:description": "Protein A chromatography purified Carnation Italian ringspot virus (CIRV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "R. Koenig"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Carnation Italian ringspot virus",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "R. Koenig",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Carnation Italian ringspot virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Carnation Italian ringspot virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05898",
+      "search:title": "Carnation Italian ringspot virus (CIRV) polyclonal antibodies DSMZ AS-0147",
+      "search:description": "Protein A chromatography purified Carnation Italian ringspot virus (CIRV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Carnation Italian ringspot virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "R. Koenig",
+      "search:pathogenName": "Carnation Italian ringspot virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05897",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05897",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/capsicum-chlorosis-virus-cacv-polyclonal-antibodies-dsmz-0864",
+      "dcterms:issued": "2024-05-08T11:44:57+02:00",
+      "dcterms:modified": "2026-03-12T14:15:57+01:00",
+      "dcterms:title": "Capsicum chlorosis virus (CaCV) polyclonal antibodies DSMZ AS-0864",
+      "dcterms:description": "Protein A chromatography purified Capsicum chlorosis virus (CaCV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Capsicum chlorosis virus",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology",
+        "Capsicum chlorosis orthotospovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Capsicum chlorosis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Capsicum chlorosis orthotospovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05897",
+      "search:title": "Capsicum chlorosis virus (CaCV) polyclonal antibodies DSMZ AS-0864",
+      "search:description": "Protein A chromatography purified Capsicum chlorosis virus (CaCV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Capsicum chlorosis orthotospovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Capsicum chlorosis virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05896",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05896",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/calibrachoa-mottle-virus-cbmv-polyclonal-antibodies-dsmz-0611",
+      "dcterms:issued": "2024-05-08T11:43:04+02:00",
+      "dcterms:modified": "2026-03-12T14:15:32+01:00",
+      "dcterms:title": "Calibrachoa mottle virus (CbMV) polyclonal antibodies DSMZ AS-0611",
+      "dcterms:description": "Protein A chromatography purified Calibrachoa mottle virus (CbMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Calibrachoa mottle virus",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Calibrachoa mottle virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Calibrachoa mottle virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05896",
+      "search:title": "Calibrachoa mottle virus (CbMV) polyclonal antibodies DSMZ AS-0611",
+      "search:description": "Protein A chromatography purified Calibrachoa mottle virus (CbMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Calibrachoa mottle virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Calibrachoa mottle virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05895",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05895",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/brome-streak-mosaic-virus-brsmv-polyclonal-antibodies-dsmz-0932",
+      "dcterms:issued": "2024-05-08T11:42:02+02:00",
+      "dcterms:modified": "2026-03-12T14:15:03+01:00",
+      "dcterms:title": "Brome streak mosaic virus (BrSMV) polyclonal antibodies DSMZ AS-0932",
+      "dcterms:description": "Protein A chromatography purified Brome streak mosaic virus (BrSMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "W. Huth"
+      },
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Brome streak mosaic virus",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology",
+        "W. Huth"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Brome streak mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Brome streak mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05895",
+      "search:title": "Brome streak mosaic virus (BrSMV) polyclonal antibodies DSMZ AS-0932",
+      "search:description": "Protein A chromatography purified Brome streak mosaic virus (BrSMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Brome streak mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "W. Huth",
+      "search:pathogenName": "Brome streak mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05894",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05894",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/brome-mosaic-virus-bmv-polyclonal-antibodies-dsmz-1040",
+      "dcterms:issued": "2024-05-08T11:40:09+02:00",
+      "dcterms:modified": "2026-03-12T14:14:36+01:00",
+      "dcterms:title": "Brome mosaic virus (BMV) polyclonal antibodies DSMZ AS-1040",
+      "dcterms:description": "Protein A chromatography purified Brome mosaic virus (BMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Brome mosaic virus",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Brome mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Brome mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05894",
+      "search:title": "Brome mosaic virus (BMV) polyclonal antibodies DSMZ AS-1040",
+      "search:description": "Protein A chromatography purified Brome mosaic virus (BMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Brome mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Brome mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05893",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05893",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/broad-bean-wilt-virus-2-bbwv-2-polyclonal-antibodies-dsmz-0862",
+      "dcterms:issued": "2024-05-08T11:39:09+02:00",
+      "dcterms:modified": "2026-03-12T14:13:59+01:00",
+      "dcterms:title": "Broad bean wilt virus 2 (BBWV-2) polyclonal antibodies DSMZ AS-0862",
+      "dcterms:description": "Protein A chromatography purified Broad bean wilt virus 2 (BBWV-2) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Broad bean wilt virus 2",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Broad bean wilt virus 2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Broad bean wilt virus 2"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05893",
+      "search:title": "Broad bean wilt virus 2 (BBWV-2) polyclonal antibodies DSMZ AS-0862",
+      "search:description": "Protein A chromatography purified Broad bean wilt virus 2 (BBWV-2) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Broad bean wilt virus 2",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Broad bean wilt virus 2"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027A-05892",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05892",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/broad-bean-wilt-virus-1-bbwv-1-polyclonal-antibodies-dsmz-0548",
+      "dcterms:issued": "2024-05-08T11:38:15+02:00",
+      "dcterms:modified": "2026-03-12T14:13:19+01:00",
+      "dcterms:title": "Broad bean wilt virus 1 (BBWV-1) polyclonal antibodies DSMZ AS-0548",
+      "dcterms:description": "Protein A chromatography purified Broad bean wilt virus 1 (BBWV-1) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Broad bean wilt virus 1",
+        "ELISA",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Broad bean wilt virus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Broad bean wilt virus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05892",
+      "search:title": "Broad bean wilt virus 1 (BBWV-1) polyclonal antibodies DSMZ AS-0548",
+      "search:description": "Protein A chromatography purified Broad bean wilt virus 1 (BBWV-1) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Broad bean wilt virus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Broad bean wilt virus 1"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027A-05891",
       "@id": "urn:evorao:EVA:DSMZ:027A-05891",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/broad-bean-true-mosaic-virus-bbtmv-polyclonal-antibodies-dsmz-0152",
@@ -137341,866 +138061,6 @@
       "search:accessionNumber": "KU321639",
       "search:providerName": "CUB",
       "search:pathogenName": "Zika"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVAg1601",
-      "@id": "urn:evorao:EVA:CUB:004N-EVAg1601",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/zika-virus-ivt-iv",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2025-01-09T12:05:32+01:00",
-      "dcterms:title": "Zika virus IVT IV",
-      "dcterms:description": "A specific RT-PCR was performed on KJ776791. The product was cloned into a vector, sequenced an in vitro transcribed. In vitro transcript: Vector Sequence: 1-36, 674-763 Insert Sequence: 37-673",
-      "EVORAO:unitDefinition": "1 x 100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Real time PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "The in vitro transcript was purified and diluted in water containing Carrier-RNA (Qiagen, c=10µg/ml) to prevent the controls from degradation.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KU321639"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "100000.00 copies / µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "KU321639",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Animal virus",
-        "Human virus",
-        "IVT",
-        "KU321639",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Zika virus",
-        "ZIKV",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:subspecies": "Zika v",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "004N-EVAg1601",
-      "search:title": "Zika virus IVT IV",
-      "search:description": "A specific RT-PCR was performed on KJ776791. The product was cloned into a vector, sequenced an in vitro transcribed. In vitro transcript: Vector Sequence: 1-36, 674-763 Insert Sequence: 37-673",
-      "search:taxonLabel": "Zika virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "KU321639",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Zika virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVAg1600",
-      "@id": "urn:evorao:EVA:CUB:004N-EVAg1600",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/zika-virus-ivt-iii",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2025-01-09T12:04:55+01:00",
-      "dcterms:title": "Zika virus IVT III",
-      "dcterms:description": "A specific RT-PCR was performed on KJ776791. The product was cloned into a vector, sequenced an in vitro transcribed. In vitro transcript: Vector Sequence: 1-36, 638-727 Insert Sequence: 37-637",
-      "EVORAO:unitDefinition": "1 x 100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Real time PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "The in Vitro Transcript was purified and diluted in water containing Carrier-RNA (Qiagen, c=10µg/ml) to prevent the controls from degradation.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KU321639"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "100000.00 copies / µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "KU321639",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Animal virus",
-        "Human virus",
-        "KU321639",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Zika",
-        "ZIKV",
-        "Dry ice",
-        "Zika virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zika"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:subspecies": "Zika v",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "004N-EVAg1600",
-      "search:title": "Zika virus IVT III",
-      "search:description": "A specific RT-PCR was performed on KJ776791. The product was cloned into a vector, sequenced an in vitro transcribed. In vitro transcript: Vector Sequence: 1-36, 638-727 Insert Sequence: 37-637",
-      "search:taxonLabel": "Zika virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "KU321639",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Zika"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVAg1599",
-      "@id": "urn:evorao:EVA:CUB:004N-EVAg1599",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/zika-virus-ivt-ii",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T12:04:21+01:00",
-      "dcterms:title": "Zika virus IVT II",
-      "dcterms:description": "A specific genome region was amplified by PCR, cloned into a vector and in vitro transcribed. In vitro transcript: Vector Sequence: 1-36, 632-721 Insert Sequence: 37-631",
-      "EVORAO:unitDefinition": "1 x 100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Real time PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "The in vitro transcript was purified and diluted in water containing Carrier-RNA (Qiagen, c=10µg/ml) to prevent the controls from degradation.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KU321639"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "100000.00 copies / µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "KU321639",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Animal virus",
-        "Human virus",
-        "KU321639",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Zika",
-        "ZIKV",
-        "Dry ice",
-        "Zika virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zika"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:subspecies": "Zika v",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "004N-EVAg1599",
-      "search:title": "Zika virus IVT II",
-      "search:description": "A specific genome region was amplified by PCR, cloned into a vector and in vitro transcribed. In vitro transcript: Vector Sequence: 1-36, 632-721 Insert Sequence: 37-631",
-      "search:taxonLabel": "Zika virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "KU321639",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Zika"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVAg1598",
-      "@id": "urn:evorao:EVA:CUB:004N-EVAg1598",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/zika-virus-ivt-i",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T12:03:36+01:00",
-      "dcterms:title": "Zika virus IVT I",
-      "dcterms:description": "A specific RT-PCR was performed on KJ776791. The product was cloned into a vector, sequenced and in vitro transcribed. In vitro transcript: Vector Sequence: Position 1-36, 727-816 Insert Sequence: Position 37-726",
-      "EVORAO:unitDefinition": "1 x 100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Real time PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "The in vitro transcript was purified and diluted in water containing Carrier-RNA (Qiagen, c=10µg/ml) to prevent the controls from degradation.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KU321639"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "100000.00 copies / µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "KU321639",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Animal virus",
-        "Human virus",
-        "IVT",
-        "KU321639",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Zika",
-        "ZIKV",
-        "Dry ice",
-        "Zika virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zika"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zika virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:subspecies": "Zika v",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "004N-EVAg1598",
-      "search:title": "Zika virus IVT I",
-      "search:description": "A specific RT-PCR was performed on KJ776791. The product was cloned into a vector, sequenced and in vitro transcribed. In vitro transcript: Vector Sequence: Position 1-36, 727-816 Insert Sequence: Position 37-726",
-      "search:taxonLabel": "Zika virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "KU321639",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Zika"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA452",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA452",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/yfv-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T11:45:22+01:00",
-      "dcterms:title": "YFV Plasmid",
-      "dcterms:description": "Yellow fever virus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "Kanamycin"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA452 | Yellow fever virus\nAATCGAGTGGCTAGGCAAATAAACACATTTGGATTAATTTTAATCGTTCGTTGAGCGATTAGCAGAGAACTGACCAGAAC\nATGTCTGGTCGTAAAGCTCAGGGA",
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "125.00 copies per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Human virus",
-        "Kanamycin",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Yellow fever virus",
-        "YFV",
-        "Dry ice",
-        "No Tag"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Yellow fever virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Yellow fever virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA452",
-      "search:title": "YFV Plasmid",
-      "search:description": "Yellow fever virus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Yellow fever virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Yellow fever virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA540",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA540",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/bkv-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T11:43:12+01:00",
-      "dcterms:title": "BKV Plasmid",
-      "dcterms:description": "Target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA540\nAGCAGGCAAGGGTTCTATTACTAAATACAGCTTGACTAAGAAACTGGTGTAGATCAGAGGGAAAGTCTTTAGGGTCTTCT\nACCTTTCTTTTTTTTTTGGGTGGTGTTGAGTGTTGAGAATCTGCTGTTGCTTC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:titer": "1000.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "BK virus",
-        "BKV",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice",
-        "Human polyomavirus 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "BK virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human polyomavirus 1"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA540",
-      "search:title": "BKV Plasmid",
-      "search:description": "Target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Human polyomavirus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "BK virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA469",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA469",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rota-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T11:31:32+01:00",
-      "dcterms:title": "Rota Plasmid",
-      "dcterms:description": "Rotavirus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "Kanamycin"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA469 | Rotavirus A\nGGAGGTTCTGTACTCATTGTCAAAAACTCTTAAAGATGCTAGGGATAAGATTGTTGAAGGTACATTATATTCTAATGTTA\nGCGATCTTATTCAGCAATTTAATCAAATGATAGTAACTATGAATGGAAATGACTTTCAAACTGGA",
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "149.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Human virus",
-        "Kanamycin",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Rotavirus",
-        "Dry ice",
-        "No Tag",
-        "Rotavirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rotavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rotavirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA469",
-      "search:title": "Rota Plasmid",
-      "search:description": "Rotavirus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Rotavirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Rotavirus"
     }
   ]
 }
