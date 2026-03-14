@@ -22,6 +22,116 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027A-05574",
+      "@id": "urn:evorao:EVA:DSMZ:027A-05574",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/zantedeschia-mosaic-virus-zamv-polyclonal-antibodies-dsmz-1037",
+      "dcterms:issued": "2024-01-04T16:51:53+01:00",
+      "dcterms:modified": "2026-03-13T09:37:18+01:00",
+      "dcterms:title": "Zantedeschia mosaic virus (ZaMV) polyclonal antibodies DSMZ AS-1037",
+      "dcterms:description": "Protein A chromatography purified Zantedeschia mosaic virus (ZaMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 560,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Polyclonal",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "J. Hamacher"
+      },
+      "EVORAO:previouslyKnownAs": "Zantedeschia mosaic virus is regarded as a strain of Konjac mosaic virus",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "ELISA",
+        "J. Hamacher",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "serological detection",
+        "serology",
+        "Zantedeschia mosaic virus",
+        "Zantedeschia mosaic virus is regarded as a strain of Konjac mosaic virus",
+        "Konjac mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zantedeschia mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Konjac mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027A-05574",
+      "search:title": "Zantedeschia mosaic virus (ZaMV) polyclonal antibodies DSMZ AS-1037",
+      "search:description": "Protein A chromatography purified Zantedeschia mosaic virus (ZaMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
+      "search:taxonLabel": "Konjac mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "J. Hamacher",
+      "search:pathogenName": "Zantedeschia mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027A-05898",
       "@id": "urn:evorao:EVA:DSMZ:027A-05898",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/carnation-italian-ringspot-virus-cirv-polyclonal-antibodies-dsmz-0147",
@@ -2959,116 +3069,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "S. Winter",
       "search:pathogenName": "Youcai mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027A-05574",
-      "@id": "urn:evorao:EVA:DSMZ:027A-05574",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/zantedeschia-mosaic-virus-zamv-polyclonal-antibodies-dsmz-0527-cloned-product",
-      "dcterms:issued": "2024-01-04T16:51:53+01:00",
-      "dcterms:modified": "2026-03-11T14:25:42+01:00",
-      "dcterms:title": "Zantedeschia mosaic virus (ZaMV) polyclonal antibodies DSMZ AS-0527 (Cloned product page)",
-      "dcterms:description": "Protein A chromatography purified Zantedeschia mosaic virus (ZaMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
-      "EVORAO:unitDefinition": "1 mg (concentration 1mg/ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 560,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "ELISA",
-      "EVORAO:antibodyType": "Polyclonal",
-      "EVORAO:antibodyPurifiedByAffinity": true,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "J. Hamacher"
-      },
-      "EVORAO:previouslyKnownAs": "Zantedeschia mosaic virus is regarded as a strain of Konjac mosaic virus",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "virus purification, rabbit immunization, Protein A chromatography",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "DSMZ",
-        "Room Temperature",
-        "ELISA",
-        "J. Hamacher",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "serological detection",
-        "serology",
-        "Zantedeschia mosaic virus",
-        "Zantedeschia mosaic virus is regarded as a strain of Konjac mosaic virus",
-        "Konjac mosaic virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zantedeschia mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Konjac mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027A-05574",
-      "search:title": "Zantedeschia mosaic virus (ZaMV) polyclonal antibodies DSMZ AS-0527 (Cloned product page)",
-      "search:description": "Protein A chromatography purified Zantedeschia mosaic virus (ZaMV) polyclonal antibodies, raised in rabbit, suitable for serological detection",
-      "search:taxonLabel": "Konjac mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "DSMZ",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "J. Hamacher",
-      "search:pathogenName": "Zantedeschia mosaic virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
