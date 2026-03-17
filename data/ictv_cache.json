@@ -93461,7 +93461,7 @@
       ]
     }
   },
-  "_fetched_at": "2026-03-16T05:17:40Z",
+  "_fetched_at": "2026-03-17T04:29:46Z",
   "Avian Influenza virus": {
     "status": "not-found",
     "input": "Avian Influenza virus",
@@ -99053,5 +99053,568 @@
         "label": "Orthohantavirus hantanense"
       }
     ]
+  },
+  "Porcine enterovirus B (PEV-10)": {
+    "status": "not-found",
+    "input": "Porcine enterovirus B (PEV-10)",
+    "suggestions": [
+      "Porcine enterovirus B",
+      "Porcine enteroviruses",
+      "Porcine enterovirus 2",
+      "Porcine enterovirus 3",
+      "Porcine enterovirus 4",
+      "Porcine enterovirus 5",
+      "Porcine enterovirus 6",
+      "Porcine enterovirus 7",
+      "Porcine enterovirus 8",
+      "Porcine enterovirus 1"
+    ]
+  },
+  "porcine enterovirus B (PEV-9)": {
+    "status": "not-found",
+    "input": "porcine enterovirus B (PEV-9)",
+    "suggestions": [
+      "Porcine enterovirus B",
+      "Porcine enteroviruses",
+      "Porcine enterovirus 2",
+      "Porcine enterovirus 3",
+      "Porcine enterovirus 4",
+      "Porcine enterovirus 5",
+      "Porcine enterovirus 6",
+      "Porcine enterovirus 7",
+      "Porcine enterovirus 8",
+      "Porcine enterovirus 1"
+    ]
+  },
+  "Porcine sapelovirus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV19790566",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19790566",
+      "ictv_curie": "ictv:MSL40/ICTV19790566",
+      "iri": "http://ictv.global/id/MSL40/ICTV19790566",
+      "label": "Sapelovirus anglia",
+      "synonyms": [
+        "Porcine enterovirus 8",
+        "Porcine enterovirus A",
+        "Porcine sapelovirus",
+        "Sapelovirus A"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20091228",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19710003",
+        "http://ictv.global/id/MSL40/ICTV20080005",
+        "http://ictv.global/id/MSL40/ICTV20091228",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201907209",
+        "http://ictv.global/id/MSL40/ICTV201907210",
+        "http://ictv.global/id/MSL40/ICTV202112925",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19790566",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:AF406813",
+        "refseq:NC_003987"
+      ],
+      "direct_parent_label": "Sapelovirus",
+      "lineage": [
+        "Picornaviridae",
+        "Picornavirales",
+        "Sapelovirus",
+        "Riboviria",
+        "Orthornavirae",
+        "Pisuviricota",
+        "Pisoniviricetes",
+        "Ensavirinae",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:1002921",
+        "label": "Porcine enterovirus 8"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:686984",
+        "label": "Porcine enterovirus A"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:686984",
+        "label": "Porcine sapelovirus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:686984",
+        "label": "Sapelovirus A"
+      }
+    ]
+  },
+  "Ranavirus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV19810091",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19810091",
+      "ictv_curie": "ictv:MSL40/ICTV19810091",
+      "iri": "http://ictv.global/id/MSL40/ICTV19810091",
+      "label": "Ranavirus",
+      "synonyms": [],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20164623",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19750008",
+        "http://ictv.global/id/MSL40/ICTV20164623",
+        "http://ictv.global/id/MSL40/ICTV201907096",
+        "http://ictv.global/id/MSL40/ICTV201907099",
+        "http://ictv.global/id/MSL40/ICTV201908702",
+        "http://ictv.global/id/MSL40/ICTV201908707",
+        "http://ictv.global/id/MSL40/ICTV201908716",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000005",
+        "label": "genus"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19810091",
+      "had_revision": null,
+      "narrow_match": [],
+      "direct_parent_label": "Alphairidovirinae",
+      "lineage": [
+        "Iridoviridae",
+        "Alphairidovirinae",
+        "Megaviricetes",
+        "Pimascovirales",
+        "Varidnaviria",
+        "Bamfordvirae",
+        "Nucleocytoviricota",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:10492",
+        "label": "Ranavirus"
+      }
+    ]
+  },
+  "Epizootic haematopoietic necrosis virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV20041355",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20041355",
+      "ictv_curie": "ictv:MSL40/ICTV20041355",
+      "iri": "http://ictv.global/id/MSL40/ICTV20041355",
+      "label": "Ranavirus perca1",
+      "synonyms": [
+        "Epizootic haematopoietic necrosis virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV19810091",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19750008",
+        "http://ictv.global/id/MSL40/ICTV19810091",
+        "http://ictv.global/id/MSL40/ICTV20164623",
+        "http://ictv.global/id/MSL40/ICTV201907096",
+        "http://ictv.global/id/MSL40/ICTV201907099",
+        "http://ictv.global/id/MSL40/ICTV201908702",
+        "http://ictv.global/id/MSL40/ICTV201908707",
+        "http://ictv.global/id/MSL40/ICTV201908716",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20041355",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ433873",
+        "genbank:JQ724856",
+        "genbank:KT989885",
+        "refseq:NC_017940",
+        "refseq:NC_028461"
+      ],
+      "direct_parent_label": "Ranavirus",
+      "lineage": [
+        "Iridoviridae",
+        "Ranavirus",
+        "Alphairidovirinae",
+        "Megaviricetes",
+        "Pimascovirales",
+        "Varidnaviria",
+        "Bamfordvirae",
+        "Nucleocytoviricota",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:100217",
+        "label": "Epizootic haematopoietic necrosis virus"
+      }
+    ]
+  },
+  "Enterovirus G": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL38/ICTV19991253",
+    "obsolete": {
+      "msl": "MSL38",
+      "ictv_id": "ICTV19991253",
+      "ictv_curie": "ictv:MSL38/ICTV19991253",
+      "iri": "http://ictv.global/id/MSL38/ICTV19991253",
+      "label": "Enterovirus G",
+      "synonyms": [
+        "Porcine enterovirus B"
+      ],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL38/ICTV20081066",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL38/ICTV19710003",
+        "http://ictv.global/id/MSL38/ICTV20080005",
+        "http://ictv.global/id/MSL38/ICTV20081066",
+        "http://ictv.global/id/MSL38/ICTV201857095",
+        "http://ictv.global/id/MSL38/ICTV201907198",
+        "http://ictv.global/id/MSL38/ICTV201907209",
+        "http://ictv.global/id/MSL38/ICTV201907210",
+        "http://ictv.global/id/MSL38/ICTV202112925",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL40/ICTV19991253",
+      "was_revision_of": "http://ictv.global/id/MSL37/ICTV19991253",
+      "had_revision": "http://ictv.global/id/MSL39/ICTV19991253",
+      "narrow_match": [],
+      "direct_parent_label": "Enterovirus",
+      "lineage": [
+        "Picornaviridae",
+        "Picornavirales",
+        "Enterovirus",
+        "Riboviria",
+        "Orthornavirae",
+        "Pisuviricota",
+        "Pisoniviricetes",
+        "Ensavirinae",
+        "Viruses"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL40",
+        "ictv_id": "ICTV19991253",
+        "ictv_curie": "ictv:MSL40/ICTV19991253",
+        "iri": "http://ictv.global/id/MSL40/ICTV19991253",
+        "label": "Enterovirus geswini",
+        "synonyms": [
+          "Enterovirus G",
+          "Porcine enterovirus B"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20081066",
+        "ancestors_iris": [
+          "http://ictv.global/id/MSL40/ICTV19710003",
+          "http://ictv.global/id/MSL40/ICTV20080005",
+          "http://ictv.global/id/MSL40/ICTV20081066",
+          "http://ictv.global/id/MSL40/ICTV201857095",
+          "http://ictv.global/id/MSL40/ICTV201907198",
+          "http://ictv.global/id/MSL40/ICTV201907209",
+          "http://ictv.global/id/MSL40/ICTV201907210",
+          "http://ictv.global/id/MSL40/ICTV202112925",
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL39/ICTV19991253",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:AF363453",
+          "genbank:AF363455",
+          "genbank:HQ702854",
+          "genbank:JN807387",
+          "genbank:JQ277724",
+          "genbank:JQ818253",
+          "genbank:KJ156451",
+          "genbank:KP982873",
+          "genbank:KT265900",
+          "genbank:KT265903",
+          "genbank:KT265909",
+          "genbank:KT265911",
+          "genbank:KT265941",
+          "genbank:KT265961",
+          "genbank:KT266010",
+          "genbank:KU297674",
+          "genbank:KY761948",
+          "genbank:MF113370",
+          "genbank:MF113372",
+          "genbank:MG958646",
+          "refseq:NC_004441",
+          "refseq:NC_034267"
+        ],
+        "direct_parent_label": "Enterovirus",
+        "lineage": [
+          "Picornaviridae",
+          "Picornavirales",
+          "Enterovirus",
+          "Riboviria",
+          "Orthornavirae",
+          "Pisuviricota",
+          "Pisoniviricetes",
+          "Ensavirinae",
+          "Viruses"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19991253",
+      "ictv_curie": "ictv:MSL40/ICTV19991253",
+      "iri": "http://ictv.global/id/MSL40/ICTV19991253",
+      "label": "Enterovirus geswini",
+      "synonyms": [
+        "Enterovirus G",
+        "Porcine enterovirus B"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20081066",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19710003",
+        "http://ictv.global/id/MSL40/ICTV20080005",
+        "http://ictv.global/id/MSL40/ICTV20081066",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201907209",
+        "http://ictv.global/id/MSL40/ICTV201907210",
+        "http://ictv.global/id/MSL40/ICTV202112925",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19991253",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:AF363453",
+        "genbank:AF363455",
+        "genbank:HQ702854",
+        "genbank:JN807387",
+        "genbank:JQ277724",
+        "genbank:JQ818253",
+        "genbank:KJ156451",
+        "genbank:KP982873",
+        "genbank:KT265900",
+        "genbank:KT265903",
+        "genbank:KT265909",
+        "genbank:KT265911",
+        "genbank:KT265941",
+        "genbank:KT265961",
+        "genbank:KT266010",
+        "genbank:KU297674",
+        "genbank:KY761948",
+        "genbank:MF113370",
+        "genbank:MF113372",
+        "genbank:MG958646",
+        "refseq:NC_004441",
+        "refseq:NC_034267"
+      ],
+      "direct_parent_label": "Enterovirus",
+      "lineage": [
+        "Picornaviridae",
+        "Picornavirales",
+        "Enterovirus",
+        "Riboviria",
+        "Orthornavirae",
+        "Pisuviricota",
+        "Pisoniviricetes",
+        "Ensavirinae",
+        "Viruses"
+      ]
+    }
+  },
+  "Sapelovirus A": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL38/ICTV19790566",
+    "obsolete": {
+      "msl": "MSL38",
+      "ictv_id": "ICTV19790566",
+      "ictv_curie": "ictv:MSL38/ICTV19790566",
+      "iri": "http://ictv.global/id/MSL38/ICTV19790566",
+      "label": "Sapelovirus A",
+      "synonyms": [
+        "Porcine enterovirus 8",
+        "Porcine enterovirus A",
+        "Porcine sapelovirus"
+      ],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL38/ICTV20091228",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL38/ICTV19710003",
+        "http://ictv.global/id/MSL38/ICTV20080005",
+        "http://ictv.global/id/MSL38/ICTV20091228",
+        "http://ictv.global/id/MSL38/ICTV201857095",
+        "http://ictv.global/id/MSL38/ICTV201907198",
+        "http://ictv.global/id/MSL38/ICTV201907209",
+        "http://ictv.global/id/MSL38/ICTV201907210",
+        "http://ictv.global/id/MSL38/ICTV202112925",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL40/ICTV19790566",
+      "was_revision_of": "http://ictv.global/id/MSL37/ICTV19790566",
+      "had_revision": "http://ictv.global/id/MSL39/ICTV19790566",
+      "narrow_match": [],
+      "direct_parent_label": "Sapelovirus",
+      "lineage": [
+        "Picornaviridae",
+        "Picornavirales",
+        "Sapelovirus",
+        "Riboviria",
+        "Orthornavirae",
+        "Pisuviricota",
+        "Pisoniviricetes",
+        "Ensavirinae",
+        "Viruses"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL40",
+        "ictv_id": "ICTV19790566",
+        "ictv_curie": "ictv:MSL40/ICTV19790566",
+        "iri": "http://ictv.global/id/MSL40/ICTV19790566",
+        "label": "Sapelovirus anglia",
+        "synonyms": [
+          "Porcine enterovirus 8",
+          "Porcine enterovirus A",
+          "Porcine sapelovirus",
+          "Sapelovirus A"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20091228",
+        "ancestors_iris": [
+          "http://ictv.global/id/MSL40/ICTV19710003",
+          "http://ictv.global/id/MSL40/ICTV20080005",
+          "http://ictv.global/id/MSL40/ICTV20091228",
+          "http://ictv.global/id/MSL40/ICTV201857095",
+          "http://ictv.global/id/MSL40/ICTV201907198",
+          "http://ictv.global/id/MSL40/ICTV201907209",
+          "http://ictv.global/id/MSL40/ICTV201907210",
+          "http://ictv.global/id/MSL40/ICTV202112925",
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL39/ICTV19790566",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:AF406813",
+          "refseq:NC_003987"
+        ],
+        "direct_parent_label": "Sapelovirus",
+        "lineage": [
+          "Picornaviridae",
+          "Picornavirales",
+          "Sapelovirus",
+          "Riboviria",
+          "Orthornavirae",
+          "Pisuviricota",
+          "Pisoniviricetes",
+          "Ensavirinae",
+          "Viruses"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19790566",
+      "ictv_curie": "ictv:MSL40/ICTV19790566",
+      "iri": "http://ictv.global/id/MSL40/ICTV19790566",
+      "label": "Sapelovirus anglia",
+      "synonyms": [
+        "Porcine enterovirus 8",
+        "Porcine enterovirus A",
+        "Porcine sapelovirus",
+        "Sapelovirus A"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20091228",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19710003",
+        "http://ictv.global/id/MSL40/ICTV20080005",
+        "http://ictv.global/id/MSL40/ICTV20091228",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201907209",
+        "http://ictv.global/id/MSL40/ICTV201907210",
+        "http://ictv.global/id/MSL40/ICTV202112925",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19790566",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:AF406813",
+        "refseq:NC_003987"
+      ],
+      "direct_parent_label": "Sapelovirus",
+      "lineage": [
+        "Picornaviridae",
+        "Picornavirales",
+        "Sapelovirus",
+        "Riboviria",
+        "Orthornavirae",
+        "Pisuviricota",
+        "Pisoniviricetes",
+        "Ensavirinae",
+        "Viruses"
+      ]
+    }
   }
 }
