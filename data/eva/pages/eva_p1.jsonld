@@ -17,6 +17,725 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04178",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04178",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/chrysanthemum-stunt-viroid-csvd-isolate-dsmz-pv-0735",
+      "dcterms:issued": "2021-05-03T17:33:12+02:00",
+      "dcterms:modified": "2026-03-18T14:14:40+01:00",
+      "dcterms:title": "Chrysanthemum stunt viroid (CSVd) isolate DSMZ PV-0735",
+      "dcterms:description": "Chrysanthemum stunt viroid (CSVd) isolate",
+      "EVORAO:unitDefinition": "One cutting of viroid infected host plant. Needs to be maintained by rooting/grafting.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "uncultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 280,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2001-12-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "Not tested",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "grafting/rooting",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chrysanthemum sp."
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Living plant material (>= +4°C)",
+      "EVORAO:transmissionMethod": "grafting/rooting",
+      "EVORAO:cultivability": "Uncultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OK340214, OK340215",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Chrysanthemum sp."
+      },
+      "EVORAO:isolationTechnique": "Original host",
+      "dcat:keyword": [
+        "Uncultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "chrysanthemum",
+        "Chrysanthemum sp.",
+        "Chrysanthemum stunt viroid",
+        "CSVd",
+        "Germany",
+        "grafting/rooting",
+        "NON DANGEROUS GOODS",
+        "OK340214",
+        "OK340215",
+        "Plant virus",
+        "RG1",
+        "viroid"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "uncultivable virus"
+      ],
+      "search:collectionDate": "2001-12-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GGAGTAATCCTAAACAGGGTTTTCACCCTTCCTTTAGTTTCCTTCCTCTCCTGGAGAGGT\nCTTCTGCCCTAGCCCGGTCTTCGAAGCTTCCTTTGGCAACTACCCGGTGGAAACAACTGA\nAGCTTCAACGCCATTTTTTCCATATCTTCTTTAGCACCGGGCTAGGGAGTAAGCCCGTGG\nAACCTTAGTTTTGTTCCCTCGGGACTTACTTGTGGTTCCTGTGGTGCACTCCTGACCCTG\nCTGCTTTGAAAGAAAAAGAAATGTGGCGAAGAAGtCCTTCAGGGA",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OK340214, OK340215"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Chrysanthemum stunt viroid"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Chrysanthemum stunt viroid"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04178",
+      "search:title": "Chrysanthemum stunt viroid (CSVd) isolate DSMZ PV-0735",
+      "search:description": "Chrysanthemum stunt viroid (CSVd) isolate",
+      "search:taxonLabel": "Chrysanthemum stunt viroid",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Chrysanthemum sp.",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "OK340214, OK340215",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Chrysanthemum stunt viroid"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04179",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04179",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/chrysanthemum-chlorotic-mottle-viroid-cchmvd-isolate-dsmz-pv-1009",
+      "dcterms:issued": "2021-05-03T17:39:56+02:00",
+      "dcterms:modified": "2026-03-18T14:13:31+01:00",
+      "dcterms:title": "Chrysanthemum chlorotic mottle viroid (CChMVd) isolate DSMZ PV-1009",
+      "dcterms:description": "Chrysanthemum chlorotic mottle viroid (CChMVd) isolate",
+      "EVORAO:unitDefinition": "One cutting of viroid infected host plant. Needs to be maintained by rooting/grafting.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "uncultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 280,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-09-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Netherlands (the)"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "Not tested",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "grafting/rooting",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chrysanthemum sp."
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Living plant material (>= +4°C)",
+      "EVORAO:transmissionMethod": "grafting/rooting",
+      "EVORAO:cultivability": "Uncultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Chrysanthemum sp."
+      },
+      "EVORAO:isolationTechnique": "Original host",
+      "dcat:keyword": [
+        "Uncultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "CChMVd",
+        "chrysanthemum",
+        "Chrysanthemum chlorotic mottle viroid",
+        "Chrysanthemum sp.",
+        "grafting/rooting",
+        "Netherlands (the)",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "viroid"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "uncultivable virus"
+      ],
+      "search:collectionDate": "2010-09-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "> 027V-04179 | PV-1009\nCGAGAGAATGGACTCCAAAGGACCGGAACTGGATCTGTTCCGGGCCCCAACCCCTTTCCTCCCGGGGTTGGGACGGAGGT\nATTAACCTCTACTCCGCTTAAAGGGGAAGGTTACGATCTTCCAGTCGAGACCTGAAGTGGGTTTCCTGACGAGGCTGTGG\nAGAGATCTTTCGATTTACTCCCGCACAAGCCGAAACTGGAAGAGGTTTCGATCCTGTCATGGATCTTCGTCAGGACACCG\nACGTCAGGTGCCGACCTCTTGGGGGTTTGAAACCCAAGGTCCTTTGGAGTGGACTAAGACTCCGTCCAGCCTTCTGCCTA\nGGTTCCCCAGCGGCTGTGACTACGAGAGCGAACCGACCAA"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Chrysanthemum chlorotic mottle viroid"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Chrysanthemum chlorotic mottle viroid"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04179",
+      "search:title": "Chrysanthemum chlorotic mottle viroid (CChMVd) isolate DSMZ PV-1009",
+      "search:description": "Chrysanthemum chlorotic mottle viroid (CChMVd) isolate",
+      "search:taxonLabel": "Chrysanthemum chlorotic mottle viroid",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Chrysanthemum sp.",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Netherlands (the)",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Chrysanthemum chlorotic mottle viroid"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04180",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04180",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/apple-scar-skin-viroid-assvd-isolate-dsmz-pv-1136",
+      "dcterms:issued": "2021-05-03T17:44:11+02:00",
+      "dcterms:modified": "2026-03-18T14:10:49+01:00",
+      "dcterms:title": "Apple scar skin viroid (ASSVd) isolate DSMZ PV-1136",
+      "dcterms:description": "Apple scar skin viroid (ASSVd) isolate",
+      "EVORAO:unitDefinition": "One cutting of viroid infected host plant. Needs to be maintained by rooting/grafting.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "uncultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 280,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2014-05-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "grafting/rooting",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "F. Faggioli"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Malus sp."
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Living plant material (>= +4°C)",
+      "EVORAO:transmissionMethod": "grafting/rooting",
+      "EVORAO:cultivability": "Uncultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MZ202348",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Malus sp."
+      },
+      "EVORAO:isolationTechnique": "Original host",
+      "dcat:keyword": [
+        "Uncultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Apple scar skin viroid",
+        "ASSVd",
+        "F. Faggioli",
+        "grafting/rooting",
+        "Italy",
+        "Malus",
+        "Malus sp.",
+        "MZ202348",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "viroid"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "uncultivable virus"
+      ],
+      "search:collectionDate": "2014-05-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTGAGAAAGGAGCTGCCAGCACTAAGCCGGACGGCGCCCTCGCACCAGTTCCGCTGTGGG\nTTCGCCTACAAGAACGTACGGTGTTGAGGCCCTGTCCGCCGCTGCGCTGCCACCTACTCT\nCGCGCCGCTAGTCGAGCGGACTCCGGGTGGAGCCCCCTGTTCTCTCACGCTCTTTTTCTT\nTGACGCAGCGGCGGGTGGGTTCCCAGGGTAAAACACAATTGGTGTTTCCCGGTAAACACC\nGTGCGGTTCCTGTGGTTCGCCCCGCCAACGCAGATAGATAAAGAAAACGAGGAGAAGAAG\nGAACTCACCTGTCGTCGTCGACGAAGGCCG",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MZ202348"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Apple scar skin viroid"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Apple scar skin viroid"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04180",
+      "search:title": "Apple scar skin viroid (ASSVd) isolate DSMZ PV-1136",
+      "search:description": "Apple scar skin viroid (ASSVd) isolate",
+      "search:taxonLabel": "Apple scar skin viroid",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Malus sp.",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "MZ202348",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "F. Faggioli",
+      "search:pathogenName": "Apple scar skin viroid"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04181",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04181",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pear-blister-canker-viroid-pbcvd-isolate-dsmz-pv-1135",
+      "dcterms:issued": "2021-05-03T17:48:47+02:00",
+      "dcterms:modified": "2026-03-18T14:10:05+01:00",
+      "dcterms:title": "Pear blister canker viroid (PBCVd) isolate DSMZ PV-1135",
+      "dcterms:description": "Pear blister canker viroid (PBCVd) isolate",
+      "EVORAO:unitDefinition": "One cutting of viroid infected host plant. Needs to be maintained by rooting/grafting.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "uncultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 280,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2014-05-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "grafting",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "F. Faggioli"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Pyrus sp."
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Living plant material (>= +4°C)",
+      "EVORAO:transmissionMethod": "grafting/rooting",
+      "EVORAO:cultivability": "Uncultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MZ202347",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Pyrus sp."
+      },
+      "EVORAO:isolationTechnique": "Original host",
+      "dcat:keyword": [
+        "Uncultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "F. Faggioli",
+        "grafting/rooting",
+        "Italy",
+        "MZ202347",
+        "NON DANGEROUS GOODS",
+        "PBCVd",
+        "Pear blister canker viroid",
+        "Plant virus",
+        "Pyrus",
+        "Pyrus sp.",
+        "RG1",
+        "viroid"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "uncultivable virus"
+      ],
+      "search:collectionDate": "2014-05-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "CCCTTTCCTGAGGTTCCTGTGGTGCTCCCCTGACCTGCGTTCCAAAAAGCAAAAAAAGTG\nAGAGGCCCCAGGGGGCTTCTCGGCTCGTCGTCGACGAAGGGTCTAGAAGCCTGGGCGCTG\nGCTGGAGCGCGCGGCTGTGAGTAATCGCTCCTCTGGAGAAGAAAACCAGCGTTGCTTCCC\nGCCTGAGCCTCGTCTTCTGTCCCGCTAGTCGAGCGGACAACCCGAGCACCGCCGAAGGCC\nTTTTTTCTTTTAAGCAGCTTGGCTTCGCGGCGAGGGTGGAAGTTTACCGCGGACCCCCGA\nGAGGAGGCCCTCGGGT",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MZ202347"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Pear blister canker viroid"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Pear blister canker viroid"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": 48,
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04181",
+      "search:title": "Pear blister canker viroid (PBCVd) isolate DSMZ PV-1135",
+      "search:description": "Pear blister canker viroid (PBCVd) isolate",
+      "search:taxonLabel": "Pear blister canker viroid",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Pyrus sp.",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "MZ202347",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "F. Faggioli",
+      "search:pathogenName": "Pear blister canker viroid"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-04182",
+      "@id": "urn:evorao:EVA:DSMZ:027V-04182",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/peach-latent-mosaic-viroid-plmvd-isolate-dsmz-pv-1134",
+      "dcterms:issued": "2021-05-03T17:52:09+02:00",
+      "dcterms:modified": "2026-03-18T14:08:53+01:00",
+      "dcterms:title": "Peach latent mosaic viroid (PLMVd) isolate DSMZ PV-1134",
+      "dcterms:description": "Peach latent mosaic viroid (PLMVd) isolate",
+      "EVORAO:unitDefinition": "One cutting of viroid infected host plant. Needs to be maintained by rooting/grafting.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "uncultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 280,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2014-05-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "grafting",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "F. Faggioli"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Prunus persica"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Living plant material (>= +4°C)",
+      "EVORAO:transmissionMethod": "grafting/rooting",
+      "EVORAO:cultivability": "Uncultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OL311697, OL311698",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Prunus persica"
+      },
+      "EVORAO:isolationTechnique": "Original host",
+      "dcat:keyword": [
+        "Uncultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "F. Faggioli",
+        "grafting/rooting",
+        "Italy",
+        "NON DANGEROUS GOODS",
+        "OL311697",
+        "OL311698",
+        "Peach latent mosaic viroid",
+        "Plant virus",
+        "PLMVd",
+        "Prunus",
+        "Prunus persica",
+        "RG1",
+        "viroid"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "uncultivable virus"
+      ],
+      "search:collectionDate": "2014-05-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "CCCGATAGAAAAGCTAAGCACCTCGCAATGACGTAAGGTGGGACTTTTCCTTCTGGAACC\nAAGCGGTTGGTTCCGAGGGGGGTGTGATCCAGGTACCGCCGTAGAAACTGGATTACGACG\nTCTACCCGGGATTCAAACCCGGTCCCCTCCAGAAGTGATTCTGGAAGAAGAGTCTGTGCT\nTAGCACACTGATGAGTCTCTGAAATGAGACGAAACTCTTCATCATAAGTTTCGCCGTATC\nTCAACGGCTCATCAGTGGGCTAAGCCCAGACTTATGAGAGAAGTGATGACCTCTCAGCCC\nCTCCACCTTGGGGTGCCCTATACGGAGCACTGCAGTT",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OL311697, OL311698"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Peach latent mosaic viroid"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Peach latent mosaic viroid"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": 52,
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-04182",
+      "search:title": "Peach latent mosaic viroid (PLMVd) isolate DSMZ PV-1134",
+      "search:description": "Peach latent mosaic viroid (PLMVd) isolate",
+      "search:taxonLabel": "Peach latent mosaic viroid",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Prunus persica",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "OL311697, OL311698",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "F. Faggioli",
+      "search:pathogenName": "Peach latent mosaic viroid"
+    },
+    {
       "@type": "EVORAO:Antibody",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -136934,663 +137653,6 @@
       "search:collectionName": "CUB",
       "search:providerName": "CUB",
       "search:pathogenName": "Dengue virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA526",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA526",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/denv-1",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T13:36:31+01:00",
-      "dcterms:title": "DENV-1",
-      "dcterms:description": "Dengue virus serotype 1 RNA extracted from infected cell culture lysate.",
-      "EVORAO:unitDefinition": "1 unit = 250 µl with 200 cp / µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "QIAGEN Viral RNA Kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "> 004N-EVA526\nGTTTAAACGAATTCGCCCTTCAAAAGGAAGTCGTGCAATATGGTACATGTGGTTGGGAGCACGCTTTCTAGAATTCGAAG\nCTCTTGGTTTCATGAACGAAGACCACTGGTTCAGTAGAGAGAATTCACTCAGAAGGGCGAATTCGCGGCCGC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "AVE Buffer -80C",
-      "EVORAO:titer": "200.00 copies per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "CUB",
-        "Derived product",
-        "Dengue virus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Dengue virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Dengue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA526",
-      "search:title": "DENV-1",
-      "search:description": "Dengue virus serotype 1 RNA extracted from infected cell culture lysate.",
-      "search:taxonLabel": "Dengue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Dengue virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA541",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA541",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/boca-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T12:54:42+01:00",
-      "dcterms:title": "Boca Plasmid",
-      "dcterms:description": "Target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1998-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.\r\n\r\nSequence information: \r\n\r\n1 - 20 Vector\r\n21 - 374 Insert\r\n375 - 394 Vector",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "> 004N-EVA541 | seq_Boca Plasmid 394 bp\nGCCCTTGAGCTCTGTAAGTACTATTACTTTCTTTAACACTTGGCACGCACAGCCACGTGACGAAGATGAGCTCAGGGAAT\nATGAAAGACAAGCATCGCTCCTACAAAAGAAAAGGGAGTCCAGAAAGAGGGGAGAGGAAGAGACACTGGCAGACAACTCA\nTCACAGGAGCAGGAGCCGCAGCCCGATCCGACACAGTGGGGAGAGAGGCTCGGGCTCATATCATCAGGAACACCCAATCA\nGCCACCTATCGTCTTGCACTGCTTCGAAGACCTCAGACCAAGTGATGAAGACGAGGGAGAGTACATCGGGGAAAAAAGAC\nAATAGAACAAATCCATACACTGTATTCAGTCAACACAGAGAAGGGCGAATTCGTTTAAACCTGCAGGACTAGTC",
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "668.00 per  µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:doi": "10.1128/JCM.00027-07",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "10.1128/JCM.00027-07",
-        "Bocavirus",
-        "Germany",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Dry ice",
-        "No Tag",
-        "Bocaparvovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "search:collectionDate": "1998-01-01",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bocavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bocaparvovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA541",
-      "search:title": "Boca Plasmid",
-      "search:description": "Target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Bocaparvovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:countryOfCollection": "Germany",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Bocavirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA268",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA268",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hpev-ivt",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T12:48:57+01:00",
-      "dcterms:title": "HPeV IVT",
-      "dcterms:description": "in vitro transcribed RNA for Human parechovirus real time PCR",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2006-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "EF051629.2"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "59800 copies per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "EF051629.2",
-      "EVORAO:doi": "10.1128/JCM.01468-07",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "10.1128/JCM.01468-07",
-        "EF051629.2",
-        "Germany",
-        "Human parechovirus",
-        "Human virus",
-        "In vitro transcribed RNA for a specific hPEV PCR",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice",
-        "Parechovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "2006-01-01",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human parechovirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Parechovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA268",
-      "search:title": "HPeV IVT",
-      "search:description": "in vitro transcribed RNA for Human parechovirus real time PCR",
-      "search:taxonLabel": "Parechovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "EF051629.2",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Human parechovirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA538",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA538",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hsv-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T12:46:21+01:00",
-      "dcterms:title": "HSV Plasmid",
-      "dcterms:description": "Herpes simplex virus Plasmid for real time PCR. The target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "Kanamycin"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "X14112.1"
-        }
-      },
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "900.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "X14112.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "HSV",
-        "Human virus",
-        "Kanamycin",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Simplexvirus",
-        "X14112.1",
-        "Dry ice",
-        "No Tag",
-        "Sindbis virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Simplexvirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Sindbis virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA538",
-      "search:title": "HSV Plasmid",
-      "search:description": "Herpes simplex virus Plasmid for real time PCR. The target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Sindbis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "X14112.1",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Simplexvirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA539",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA539",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/jcv-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T12:43:20+01:00",
-      "dcterms:title": "JCV Plasmid",
-      "dcterms:description": "Plasmid for JC virus real time PCR. The target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "Kanamycin"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MN164516.1"
-        }
-      },
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "999.60 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "MN164516.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Human virus",
-        "JC virus",
-        "JCV",
-        "Kanamycin",
-        "MN164516.1",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Dry ice",
-        "No Tag",
-        "Human polyomavirus 2"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "JC virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human polyomavirus 2"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA539",
-      "search:title": "JCV Plasmid",
-      "search:description": "Plasmid for JC virus real time PCR. The target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Human polyomavirus 2",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "MN164516.1",
-      "search:providerName": "CUB",
-      "search:pathogenName": "JC virus"
     }
   ]
 }
