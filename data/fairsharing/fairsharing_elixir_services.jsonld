@@ -873,11 +873,14 @@
       "dcterms:title": "EBI BioSamples JSON Format",
       "dcterms:description": "The EBI BioSamples JSON Format is a JSON schema used for submitting data to the EBI BioSamples database. This format can also be used to update or curate existing samples.",
       "dcat:keyword": [
+        "Transcriptomics",
         "Biology",
+        "Genomics",
         "Experimental measurement",
         "Sample annotation",
         "Biospecimen",
         "All",
+        "dataset",
         "Viruses"
       ],
       "EVORAO:availability": "online",

@@ -93596,7 +93596,7 @@
       ]
     }
   },
-  "_fetched_at": "2026-03-19T04:58:16Z",
+  "_fetched_at": "2026-03-20T04:24:20Z",
   "no taxon": {
     "status": "not-found",
     "input": "no taxon",
@@ -99243,6 +99243,376 @@
         "Rowavirales",
         "Polisuviricotina",
         "Pharingeaviricetes",
+        "Viruses"
+      ]
+    }
+  },
+  "White bream virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV20093532",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20093532",
+      "ictv_curie": "ictv:MSL40/ICTV20093532",
+      "iri": "http://ictv.global/id/MSL40/ICTV20093532",
+      "label": "Bafinivirus bliccae",
+      "synonyms": [
+        "WBV",
+        "White bream virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20186145",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19960002",
+        "http://ictv.global/id/MSL40/ICTV20091084",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV20186141",
+        "http://ictv.global/id/MSL40/ICTV20186142",
+        "http://ictv.global/id/MSL40/ICTV20186143",
+        "http://ictv.global/id/MSL40/ICTV20186145",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201907209",
+        "http://ictv.global/id/MSL40/ICTV201907210",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20093532",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:DQ898157",
+        "refseq:NC_008516"
+      ],
+      "direct_parent_label": "Blicbavirus",
+      "lineage": [
+        "Nidovirales",
+        "Bafinivirus",
+        "Riboviria",
+        "Tornidovirineae",
+        "Tobaniviridae",
+        "Piscanivirinae",
+        "Blicbavirus",
+        "Orthornavirae",
+        "Pisuviricota",
+        "Pisoniviricetes",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:405554",
+        "label": "White bream virus"
+      }
+    ]
+  },
+  "Anguillid rhabdovirus": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL29/ICTV20125914",
+    "obsolete": {
+      "msl": "MSL29",
+      "ictv_id": "ICTV20125914",
+      "ictv_curie": "ictv:MSL29/ICTV20125914",
+      "iri": "http://ictv.global/id/MSL29/ICTV20125914",
+      "label": "Anguillid rhabdovirus",
+      "synonyms": [],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL29/ICTV20125912",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL29/ICTV19750017",
+        "http://ictv.global/id/MSL29/ICTV19900001",
+        "http://ictv.global/id/MSL29/ICTV20125912",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL40/ICTV20125914",
+      "was_revision_of": "http://ictv.global/id/MSL28/ICTV20125914",
+      "had_revision": "http://ictv.global/id/MSL30/ICTV20125914",
+      "narrow_match": [],
+      "direct_parent_label": "Perhabdovirus",
+      "lineage": [
+        "Rhabdoviridae",
+        "Mononegavirales",
+        "Perhabdovirus",
+        "Viruses"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL40",
+        "ictv_id": "ICTV20125914",
+        "ictv_curie": "ictv:MSL40/ICTV20125914",
+        "iri": "http://ictv.global/id/MSL40/ICTV20125914",
+        "label": "Perhabdovirus anguilla",
+        "synonyms": [
+          "EVEX",
+          "Anguillid perhabdovirus",
+          "Anguillid rhabdovirus"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20125912",
+        "ancestors_iris": [
+          "http://ictv.global/id/MSL40/ICTV19750017",
+          "http://ictv.global/id/MSL40/ICTV19900001",
+          "http://ictv.global/id/MSL40/ICTV20125912",
+          "http://ictv.global/id/MSL40/ICTV201857095",
+          "http://ictv.global/id/MSL40/ICTV20186016",
+          "http://ictv.global/id/MSL40/ICTV20186019",
+          "http://ictv.global/id/MSL40/ICTV20186020",
+          "http://ictv.global/id/MSL40/ICTV201907198",
+          "http://ictv.global/id/MSL40/ICTV202008748",
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL39/ICTV20125914",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:FN557213",
+          "genbank:KC608035",
+          "refseq:NC_022581"
+        ],
+        "direct_parent_label": "Perhabdovirus",
+        "lineage": [
+          "Rhabdoviridae",
+          "Mononegavirales",
+          "Perhabdovirus",
+          "Riboviria",
+          "Negarnaviricota",
+          "Haploviricotina",
+          "Monjiviricetes",
+          "Orthornavirae",
+          "Alpharhabdovirinae",
+          "Viruses"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20125914",
+      "ictv_curie": "ictv:MSL40/ICTV20125914",
+      "iri": "http://ictv.global/id/MSL40/ICTV20125914",
+      "label": "Perhabdovirus anguilla",
+      "synonyms": [
+        "EVEX",
+        "Anguillid perhabdovirus",
+        "Anguillid rhabdovirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20125912",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19750017",
+        "http://ictv.global/id/MSL40/ICTV19900001",
+        "http://ictv.global/id/MSL40/ICTV20125912",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV20186016",
+        "http://ictv.global/id/MSL40/ICTV20186019",
+        "http://ictv.global/id/MSL40/ICTV20186020",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV202008748",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20125914",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FN557213",
+        "genbank:KC608035",
+        "refseq:NC_022581"
+      ],
+      "direct_parent_label": "Perhabdovirus",
+      "lineage": [
+        "Rhabdoviridae",
+        "Mononegavirales",
+        "Perhabdovirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Orthornavirae",
+        "Alpharhabdovirinae",
+        "Viruses"
+      ]
+    }
+  },
+  "Anguillid perhabdovirus": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL36/ICTV20125914",
+    "obsolete": {
+      "msl": "MSL36",
+      "ictv_id": "ICTV20125914",
+      "ictv_curie": "ictv:MSL36/ICTV20125914",
+      "iri": "http://ictv.global/id/MSL36/ICTV20125914",
+      "label": "Anguillid perhabdovirus",
+      "synonyms": [
+        "EVEX, EVA",
+        "Anguillid rhabdovirus"
+      ],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL36/ICTV20125912",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL36/ICTV19750017",
+        "http://ictv.global/id/MSL36/ICTV19900001",
+        "http://ictv.global/id/MSL36/ICTV20125912",
+        "http://ictv.global/id/MSL36/ICTV201857095",
+        "http://ictv.global/id/MSL36/ICTV20186016",
+        "http://ictv.global/id/MSL36/ICTV20186019",
+        "http://ictv.global/id/MSL36/ICTV20186020",
+        "http://ictv.global/id/MSL36/ICTV201907198",
+        "http://ictv.global/id/MSL36/ICTV202008748",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL40/ICTV20125914",
+      "was_revision_of": "http://ictv.global/id/MSL35/ICTV20125914",
+      "had_revision": "http://ictv.global/id/MSL37/ICTV20125914",
+      "narrow_match": [],
+      "direct_parent_label": "Perhabdovirus",
+      "lineage": [
+        "Rhabdoviridae",
+        "Mononegavirales",
+        "Perhabdovirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Orthornavirae",
+        "Alpharhabdovirinae",
+        "Viruses"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL40",
+        "ictv_id": "ICTV20125914",
+        "ictv_curie": "ictv:MSL40/ICTV20125914",
+        "iri": "http://ictv.global/id/MSL40/ICTV20125914",
+        "label": "Perhabdovirus anguilla",
+        "synonyms": [
+          "EVEX",
+          "Anguillid perhabdovirus",
+          "Anguillid rhabdovirus"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20125912",
+        "ancestors_iris": [
+          "http://ictv.global/id/MSL40/ICTV19750017",
+          "http://ictv.global/id/MSL40/ICTV19900001",
+          "http://ictv.global/id/MSL40/ICTV20125912",
+          "http://ictv.global/id/MSL40/ICTV201857095",
+          "http://ictv.global/id/MSL40/ICTV20186016",
+          "http://ictv.global/id/MSL40/ICTV20186019",
+          "http://ictv.global/id/MSL40/ICTV20186020",
+          "http://ictv.global/id/MSL40/ICTV201907198",
+          "http://ictv.global/id/MSL40/ICTV202008748",
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL39/ICTV20125914",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:FN557213",
+          "genbank:KC608035",
+          "refseq:NC_022581"
+        ],
+        "direct_parent_label": "Perhabdovirus",
+        "lineage": [
+          "Rhabdoviridae",
+          "Mononegavirales",
+          "Perhabdovirus",
+          "Riboviria",
+          "Negarnaviricota",
+          "Haploviricotina",
+          "Monjiviricetes",
+          "Orthornavirae",
+          "Alpharhabdovirinae",
+          "Viruses"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20125914",
+      "ictv_curie": "ictv:MSL40/ICTV20125914",
+      "iri": "http://ictv.global/id/MSL40/ICTV20125914",
+      "label": "Perhabdovirus anguilla",
+      "synonyms": [
+        "EVEX",
+        "Anguillid perhabdovirus",
+        "Anguillid rhabdovirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20125912",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19750017",
+        "http://ictv.global/id/MSL40/ICTV19900001",
+        "http://ictv.global/id/MSL40/ICTV20125912",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV20186016",
+        "http://ictv.global/id/MSL40/ICTV20186019",
+        "http://ictv.global/id/MSL40/ICTV20186020",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV202008748",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20125914",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FN557213",
+        "genbank:KC608035",
+        "refseq:NC_022581"
+      ],
+      "direct_parent_label": "Perhabdovirus",
+      "lineage": [
+        "Rhabdoviridae",
+        "Mononegavirales",
+        "Perhabdovirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Orthornavirae",
+        "Alpharhabdovirinae",
         "Viruses"
       ]
     }

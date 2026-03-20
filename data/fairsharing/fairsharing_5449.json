@@ -4014,7 +4014,7 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2020-03-09T10:19:37.000Z",
-          "updated_at": "2024-06-06T10:29:32.100Z",
+          "updated_at": "2026-03-19T17:56:30.438Z",
           "metadata": {
             "doi": "10.25504/FAIRsharing.NYAjYd",
             "name": "EBI BioSamples JSON Format ",
@@ -4072,7 +4072,9 @@
           "fairsharing_registry": "Standard",
           "record_type": "model_and_format",
           "subjects": [
-            "Biology"
+            "Transcriptomics",
+            "Biology",
+            "Genomics"
           ],
           "domains": [
             "Experimental measurement",
@@ -4144,7 +4146,9 @@
           ],
           "url_for_logo": null,
           "exhaustive_licences": false,
-          "object_types": [],
+          "object_types": [
+            "dataset"
+          ],
           "internal_identifiers": null
         }
       }
