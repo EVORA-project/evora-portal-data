@@ -7,6 +7,7 @@
         "created_at": "2024-04-22T09:15:29.411Z",
         "updated_at": "2026-02-12T09:33:09.734Z",
         "metadata": {
+          "doi": "10.25504/FAIRsharing.cb28df",
           "name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
           "status": "ready",
           "contacts": [
@@ -26,8 +27,8 @@
         "legacy_ids": [],
         "name": "FAIRsharing record for: EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
         "abbreviation": null,
-        "url": "https://fairsharing.org/5449",
-        "doi": null,
+        "url": "https://fairsharing.org/10.25504/FAIRsharing.cb28df",
+        "doi": "10.25504/FAIRsharing.cb28df",
         "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
         "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository brings together a selection of resources provided by ELIXIR and specifically compiled by EVORA to help to strengthen pandemic preparedness and response. It includes databases, standards, and policies that follow the FAIR principles, ensuring their findability, accessibility, interoperability, and reusability. Designed for researchers, policymakers, and public health professionals, these resources offer reliable tools and information essential for the effective management and mitigation of pandemics.",
         "linked_records": [
