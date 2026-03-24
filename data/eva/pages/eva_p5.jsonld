@@ -22,6 +22,101 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "015A-03450",
+      "@id": "urn:evorao:EVA:FLI:015A-03450",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/anti-atypical-pestivirus-erns-bungowannah-antibody-44e2",
+      "dcterms:issued": "2019-02-27T13:15:30+01:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "anti-atypical pestivirus (ERNS) &quot;Bungowannah&quot; antibody 44E2",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-atypical pestivirus \"Bungowannah\" antibodies; targeted antigen: ERNS; clone: 44E2; immunization antigen: inactivated atypical pestivirus strain \"Bungowannah\"",
+      "EVORAO:unitDefinition": "1 mL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "ERNS of atypical pestivirus \"Bungowannah\"",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Mouse (Balb/c)",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "atypical pestivirus",
+        "Bungowannah",
+        "ERNS",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Pestivirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "atypical pestivirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Pestivirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-03450",
+      "search:title": "anti-atypical pestivirus (ERNS) &quot;Bungowannah&quot; antibody 44E2",
+      "search:description": "Hybridoma cell culture supernatant containing anti-atypical pestivirus \"Bungowannah\" antibodies; targeted antigen: ERNS; clone: 44E2; immunization antigen: inactivated atypical pestivirus strain \"Bungowannah\"",
+      "search:taxonLabel": "Pestivirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "atypical pestivirus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "015A-01730",
       "@id": "urn:evorao:EVA:FLI:015A-01730",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-enterovirus-g-porcine-enterovirus-b-pev-9",
@@ -308,110 +403,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "European catfish virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01746",
-      "@id": "urn:evorao:EVA:FLI:015A-01746",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-bluetongue-virus-anti-btv",
-      "dcterms:issued": "2016-07-08T13:08:38+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Bluetongue virus (anti-BTV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: unknown; clone: 12G11; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with all BTV serotypes",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with all tested BTV serotypes, not reactive with EHDV 1-4",
-      "EVORAO:antibodyCharacterizationObservation": "no other characterization methods tested",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Bluetongue virus",
-        "BTV",
-        "monoclonal antibody",
-        "No RG"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": [
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Bluetongue virus"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "BTV"
-          }
-        ],
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bluetongue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": "all"
-      },
-      "search:sku": "015A-01746",
-      "search:title": "murine mAb: anti-Bluetongue virus (anti-BTV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: unknown; clone: 12G11; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with all BTV serotypes",
-      "search:taxonLabel": "Bluetongue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bluetongue virus, BTV"
     },
     {
       "@type": "EVORAO:Antibody",
