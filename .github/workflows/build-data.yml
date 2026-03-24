@@ -402,7 +402,7 @@ jobs:
                --retry 6 \
                --retry-delay 300 \
                --retry-all-errors \
-               --max-time 300 \      
+               --max-time 300 \
                --request PUT \
             "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/origin?originalId=$DATASET_ID" \
             --header "Content-Type: application/ld+json" \
