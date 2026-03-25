@@ -22,6 +22,145 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "IZSVe"
       },
+      "EVORAO:refSku": "025V-04782",
+      "@id": "urn:evorao:EVA:IZSVe:025V-04782",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/feline-parvovirus-panleukopenia-virus-isolate-21diapd1416-isolated-intestine-cat-collected",
+      "dcterms:issued": "2022-11-04T11:37:27+01:00",
+      "dcterms:modified": "2022-11-04T11:37:27+01:00",
+      "dcterms:title": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
+      "dcterms:description": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
+      "EVORAO:unitDefinition": "0.5mL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2021-01-12",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2900",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "Cells infection and RT-PCR analysis",
+      "EVORAO:mycoplasmicContent": "Not tested",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "CRFK"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IZSVe"
+      },
+      "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Cat"
+      },
+      "EVORAO:isolationTechnique": "CRFK cell line",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "IZSVe",
+        "Animal virus",
+        "Cat",
+        "cat",
+        "Category A",
+        "UN2900",
+        "CRFK",
+        "Feline panleukopenia virus",
+        "Feline Panleukopenia virus",
+        "FPV",
+        "Italy",
+        "RG2",
+        "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)",
+        "Dry ice",
+        "Carnivore protoparvovirus 1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2021-01-12",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Feline Panleukopenia virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Carnivore protoparvovirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "21DIAPD141/6",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "025V-04782",
+      "search:title": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
+      "search:description": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
+      "search:taxonLabel": "Carnivore protoparvovirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Cat",
+      "search:collectionName": "IZSVe",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)",
+      "search:providerName": "IZSVe",
+      "search:pathogenName": "Feline Panleukopenia virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IZSVe"
+      },
       "EVORAO:refSku": "025V-04781",
       "@id": "urn:evorao:EVA:IZSVe:025V-04781",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/feline-parvovirus-panleukopenia-virus-isolate-17diapd162813-isolated-intestine-cat-collected",
@@ -146934,149 +147073,6 @@
       "search:countryOfCollection": "Slovenia",
       "search:providerName": "UL",
       "search:pathogenName": "Human adenovirus 5"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-02755",
-      "@id": "urn:evorao:EVA:UL:007V-02755",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-b-type-3-0",
-      "dcterms:issued": "2018-03-13T10:41:34+01:00",
-      "dcterms:modified": "2021-06-03T14:52:57+02:00",
-      "dcterms:title": "Human Mastadenovirus B, Type 3",
-      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus B, Type 3 (isolate 2261/08) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were negative.To confirm its identity the virus has been partially sequenced.",
-      "EVORAO:unitDefinition": "1000 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2008-08-21",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "2d/1p",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "A549"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": [
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "Patient"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "nasopharyngeal swab"
-        }
-      ],
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "A549",
-        "Adenovirus",
-        "AdV3",
-        "Category B",
-        "UN3373",
-        "Human adenovirus 3",
-        "Human mastadenovirus",
-        "Human virus",
-        "nasopharyngeal swab",
-        "Patient",
-        "RG2",
-        "Slovenia",
-        "Dry ice",
-        "Human mastadenovirus B"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2008-08-21",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "AGATAAAGCAGGGTGGGCTCATCCATGGGATCCACCTCAAAAGTCATGTCCAGCGCATGG\nGCTGAGTTGGCATAGAGCATGTTCTGTCCCAGGTCGGTAAGGGCCCCCATGGACATGAAG\nTTGCTGGAGAAGGGAATGCGCCACATGGTCCTGTCGCACAGGAACTTTTTCTGGGTAACA\nCTCTTAACGGCAGTAGTTCCGATGAGCGGGTATGGATAATTGGCTGGGTAAGGTTCCCCT\nTGTCTCATAGTAGGTGCAAGGTACCCTACAAAGCCAGAGTTGTTGTGTTGGTATGGTAAG\nGTGACGGCTTTGTAGTCAGTGTAATTAACCTCATCAACCACCTGCCTGCTCATAGGCTGG\nAAGTTTCTGAAAAAAGAGTACATGCGATCCTTGTATCCCTCAGGGATGTAAAAGCCCTGG\nTAGCCAATGTTGTAGTTGGCAAGCATCTGAACTAGGAACCAGTCTTTGGTCATGTTGCAT\nTGTGCCACGTTGTATCCTTCCCCGTCCACAGTGCGCTTGATTTCAAACTCATTTGGGCTC\nAACAGCCTGTCATTGCCAGGCCAGCTGACTGAGGAGTCAAACATGATGGAGACCTTCTTG\nAAAGTGTGGTTAAGGTAGAAGGTGCCATCCAGGTAGGGAATAGATCCAGAATATACGAAG\nTAAGGATCAAACCCTGATCCAAGAGATGGAGTCTCCTTGGTTTTGAGCCTGGTGAAGGAC\nCAGCCCCTGAAGGCTGCCCAGTTGCGAGATGGGATGGAAATTGGAATGTTGGTTGCATTG\nGCAGGAATGGGGTAAAGCATGTTAGCTGCAGAGAGGTAGTCGTTAAATGACTGATCATTG\nGTATCGTTGCGCAGCATGG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human adenovirus 3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolate 2261/08",
-        "EVORAO:serotype": "Type 3",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-02755",
-      "search:title": "Human Mastadenovirus B, Type 3",
-      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus B, Type 3 (isolate 2261/08) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were negative.To confirm its identity the virus has been partially sequenced.",
-      "search:taxonLabel": "Human mastadenovirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Patient, nasopharyngeal swab",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Human adenovirus 3"
     }
   ]
 }

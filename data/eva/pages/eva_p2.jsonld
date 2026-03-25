@@ -22,6 +22,142 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA298",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA298",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/ebv-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T13:43:53+01:00",
+      "dcterms:title": "EBV Plasmid",
+      "dcterms:description": "Epstein-Barr-Virus plasmid for real time PCR. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "LC573556.1"
+        }
+      },
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "3000.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "LC573556.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Epstein-Barr-Virus",
+        "Human herpesvirus 4",
+        "Human virus",
+        "LC573556.1",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "Dry ice",
+        "No Tag",
+        "Human gammaherpesvirus 4"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human herpesvirus 4"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human gammaherpesvirus 4"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA298",
+      "search:title": "EBV Plasmid",
+      "search:description": "Epstein-Barr-Virus plasmid for real time PCR. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Human gammaherpesvirus 4",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "LC573556.1",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Human herpesvirus 4"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA1439",
       "@id": "urn:evorao:EVA:CUB:004N-EVA1439",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/chikungunya-virus-rna",
@@ -138658,145 +138794,6 @@
       "search:collectionName": "IZSVe",
       "search:countryOfCollection": "Italy",
       "search:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015657)",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "Feline Panleukopenia virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
-      "EVORAO:refSku": "025V-04782",
-      "@id": "urn:evorao:EVA:IZSVe:025V-04782",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/feline-parvovirus-panleukopenia-virus-isolate-21diapd1416-isolated-intestine-cat-collected",
-      "dcterms:issued": "2022-11-04T11:37:27+01:00",
-      "dcterms:modified": "2022-11-04T11:37:27+01:00",
-      "dcterms:title": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
-      "dcterms:description": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
-      "EVORAO:unitDefinition": "0.5mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2021-01-12",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2900",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "Cells infection and RT-PCR analysis",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "CRFK"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Cat"
-      },
-      "EVORAO:isolationTechnique": "CRFK cell line",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSVe",
-        "Animal virus",
-        "Cat",
-        "cat",
-        "Category A",
-        "UN2900",
-        "CRFK",
-        "Feline panleukopenia virus",
-        "Feline Panleukopenia virus",
-        "FPV",
-        "Italy",
-        "RG2",
-        "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)",
-        "Dry ice",
-        "Carnivore protoparvovirus 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2021-01-12",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Feline Panleukopenia virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Carnivore protoparvovirus 1"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "21DIAPD141/6",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-04782",
-      "search:title": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
-      "search:description": "Feline Parvovirus, Panleukopenia Virus isolate 21DIAPD141/6 isolated from intestine of a cat, collected in 2021 in Italy (Veneto region)",
-      "search:taxonLabel": "Carnivore protoparvovirus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Cat",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015656)",
       "search:providerName": "IZSVe",
       "search:pathogenName": "Feline Panleukopenia virus"
     }

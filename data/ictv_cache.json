@@ -93596,7 +93596,7 @@
       ]
     }
   },
-  "_fetched_at": "2026-03-24T09:55:36Z",
+  "_fetched_at": "2026-03-25T04:30:22Z",
   "no taxon": {
     "status": "not-found",
     "input": "no taxon",
@@ -99616,5 +99616,42 @@
         "Viruses"
       ]
     }
+  },
+  "Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes, Nidovirales, Cornidovirineae, Coronaviridae, Orthocoronavirinae, Betacoronavirus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV201857095",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV201857095",
+      "ictv_curie": "ictv:MSL40/ICTV201857095",
+      "iri": "http://ictv.global/id/MSL40/ICTV201857095",
+      "label": "Riboviria",
+      "synonyms": [],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0001004",
+        "label": "clade"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV201857095",
+      "had_revision": null,
+      "narrow_match": [],
+      "direct_parent_label": "Viruses",
+      "lineage": [
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:2559587",
+        "label": "Riboviria"
+      }
+    ]
   }
 }
