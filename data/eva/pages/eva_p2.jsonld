@@ -22,6 +22,737 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA1441",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA1441",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/h7n9-ivt-rna-hai-and-ha-ii-assay",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T14:00:29+01:00",
+      "dcterms:title": "H7N9 IVT-RNA HA(I) and HA (II) assay",
+      "dcterms:description": "In vitro transcriped RNA of partial hemagglutinin gene. Positive control for diagnostic PCR screening (HA(I) and HA (II) assay) as mentioned in [Corman et al. Eurosurveillance, Volume 18, Issue 16, 18 April 2013]",
+      "EVORAO:unitDefinition": "1 x 100 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2002-12-12",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Sweden"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Qiagen Viral RNA Kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA1441 | H7N9 IVT-RNA HA(I)and HA(II) assay 459 bp\nGGGCGAATTGAATTTAGCGGCCGCGAATTCGCCCTTGTGCACCGCATGTTTCCATTCTTCACACACATGAAGACAAGGCC\nCATTGCAATGGCCAGAAGTATGAAACATGATGCCCCGAAGCTAAACCAAAGTATCACATCTTTGTAGCCGCTACTTAGTT\nTGACTGGGTCAATCTGTATTCTATTTTGCATTGCCTCTTCCCTGTATTTGCTGTGGTCATAGGTGTTGTTTCTAATACTG\nGCCATACAGTCGTCATCACATTTGTGAAATATTTCGAAGCAACCAGTGCCATCTTCTTCAGCATTCTCTCTCAGTTGTCT\nCCTCACTCGTTCGTACAGTTTGTTCATTTCTGAATCAGCCAGATCAATTGAAGGGCGAATTCGTTTAAACCTGCAGGACT\nAGTCCCTTTAGTGAGGGTTAATTCTGAGCTTGGCGTAATCATGGTCATAGCTGTTCCTG",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "100000.00 copies / µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "23611031",
+        "H7N9",
+        "Human virus",
+        "Influenza A virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Sweden",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "2002-12-12",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "A/mallard/Sweden/91/2002",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA1441",
+      "search:title": "H7N9 IVT-RNA HA(I) and HA (II) assay",
+      "search:description": "In vitro transcriped RNA of partial hemagglutinin gene. Positive control for diagnostic PCR screening (HA(I) and HA (II) assay) as mentioned in [Corman et al. Eurosurveillance, Volume 18, Issue 16, 18 April 2013]",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:countryOfCollection": "Sweden",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Influenza A virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA270",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA270",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/flub-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T13:59:11+01:00",
+      "dcterms:title": "FluB IVT",
+      "dcterms:description": "in vitro transcribed RNA for Influenza B virus real time PCR",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequencing": "Not sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "368000 copies per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "DJ399202",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "DJ399202",
+        "Human virus",
+        "In vitro transcribed RNA for a specific Influenzavirus PCR",
+        "Influenza B virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "DJ399202"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza B virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza B virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA270",
+      "search:title": "FluB IVT",
+      "search:description": "in vitro transcribed RNA for Influenza B virus real time PCR",
+      "search:taxonLabel": "Influenza B virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "DJ399202",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Influenza B virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA456",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA456",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/flu-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T13:52:48+01:00",
+      "dcterms:title": "FLU A Plasmid",
+      "dcterms:description": "Influenza A virus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA456 | Influenza A virus \nAGCGTAGACGCTTTGTCCAAAATGCCCTTAATGGGAATGGGGATCCAAATAATATGGACAGAGCAGTCAAACTGTATCGA\nAAGCTTAAGAGGGAGATAACATTCCATGGGGCCAAAGAAATAGCACTCAGTTATTCTGCTGGTGCACTTGCCAGTTGTAT\nGGGACTCATATACAACAGGATGGGGGCTGTGACCACCGAATCAGCATTTGGCCTTATATGTGCAACCTGTGAACAGATTG\nCCGACTCCCAGCATAAGTCTCATAGGCAAATGGTAACAACAACCAATCCATTAATAAGACATGAGAACAGAATGGTTCTG\nGCCAGCACTACAGCTAAGGCTATGGAGCAAATGGCTGGATCGAGCGAACAAGCAGCTGAGGCCATGGAGGTTGCTAGTCA\nGGCCAGGCAGATGGTGCAGGCAATGAGAGCCATTGGGACTCATCCTAGCTCTAGCACTGGTCTGAAAAATGATCTCCTTG\nAAAATTTGCAGGCCTATCAGAAACGAATGGGGGTGCAGATGCAACGATTCAAGTGATCCTCTTGTTGTTGCCGCAAGTAT\nAATTGGGATTGTGCACCTGATATTGTGGATTCTTGATCGTC",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "114.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Category B",
+        "UN3373",
+        "Human virus",
+        "Influenza A virus",
+        "pCR4-Topo",
+        "RG1",
+        "Dry ice",
+        "No Tag"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA456",
+      "search:title": "FLU A Plasmid",
+      "search:description": "Influenza A virus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Influenza A virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA269",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA269",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/flua-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T13:51:15+01:00",
+      "dcterms:title": "FluA IVT",
+      "dcterms:description": "In vitro transcribed RNA for Influenzavirus A real time PCR",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": ": Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA269\nGACGAUCAAGAAUCCACAAUAUCAGGUGCACAAUCCCAAUUAUACUUGCGGCAACAACAAGAGGAUCACUUGAAUCGUUG\nCAUCUGCACCCCCAUUCGUUUCUGAUAGGCCUGCAAAUUUUCAAGGAGAUCAUUUUUCAGACCAGUGCUAGAGCUAGGAU\nGAGUCCCAAUGGCUCUCAUUGCCUGCACCAUCUGCCUGGCCUGACUAGCAACCUCCAUGGCCUCAGCUGCUUGUUCGCUC\nGAUCCAGCCAUUUGCUCCAUAGCCUUAGCUGUAGUGCUGGCCAGAACCAUUCUGUUCUCAUGUCUUAUUAAUGGAUUGGU\nUGUUGUUACCAUUUGCCUAUGAGACUUAUGCUGGGAGUCGGCAAUCUGUUCACAGGUUGCACAUAUAAGGCCAAAUGCUG\nAUUCGGUGGUCACAGCCCCCAUCCUGUUGUAUAUGAGUCCCAUACAACUGGCAAGUGCACCAGCAGAAUAACUGAGUGCU\nAUUUCUUUGGCCCCAUGGAAUGUUAUCUCCCUCUUAAGCUUUCGAUACAGUUUGACUGCUCUGUCCAUAUUAUUUGGAUC\nCCCAUUCCCAUUAAGGGCAUUUUGGACAAAGCGUCUACGCU",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "7960.00 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Human virus",
+        "Influenza A virus",
+        "Influenzavirus A",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenzavirus A"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA269",
+      "search:title": "FluA IVT",
+      "search:description": "In vitro transcribed RNA for Influenzavirus A real time PCR",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Influenzavirus A"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA480",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA480",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/entero-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T13:45:40+01:00",
+      "dcterms:title": "Entero Plasmid",
+      "dcterms:description": "Enterovirus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA480\nAGCAGATCCCCACAAGCCAGTGGGCAGTCTGTCGTAATGGGCAACTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGT",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "178,80 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "18164234",
+        "enterovirus",
+        "Enterovirus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "Dry ice",
+        "No Tag"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Enterovirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA480",
+      "search:title": "Entero Plasmid",
+      "search:description": "Enterovirus plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Enterovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Enterovirus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA266",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA266",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/entero-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T13:45:01+01:00",
+      "dcterms:title": "Entero IVT",
+      "dcterms:description": "in vitro transcribed RNA for Enterovirus real time PCR",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequencing": "Not sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "2440 copies per 5µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "M33854",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Enterovirus",
+        "Human virus",
+        "In vitro transcribed RNA for a specific Enterovirus PCR",
+        "M33854",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "M33854"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Enterovirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA266",
+      "search:title": "Entero IVT",
+      "search:description": "in vitro transcribed RNA for Enterovirus real time PCR",
+      "search:taxonLabel": "Enterovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "M33854",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Enterovirus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA298",
       "@id": "urn:evorao:EVA:CUB:004N-EVA298",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/ebv-plasmid",
@@ -137897,905 +138628,6 @@
       "search:providerName": "IZSLER",
       "search:originatorName": "IZSLER Parma",
       "search:pathogenName": "D/bovine/Italy/287448/2015"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-04380",
-      "@id": "urn:evorao:EVA:IZSLER:026V-04380",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-aswineitaly150383-12014-h1n2",
-      "dcterms:issued": "2021-10-08T17:27:39+02:00",
-      "dcterms:modified": "2022-11-23T12:16:33+01:00",
-      "dcterms:title": "Swine influenza A/swine/Italy/150383-1/2014 (H1N2)",
-      "dcterms:description": "The virus has been isolated from swine and propagated on Caco2 and MDCK cell line",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2014-06-11",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Human Risk Group 1, Animal Risk Group 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "HA test",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "IZSLER Parma"
-      },
-      "EVORAO:passage": "1 x Caco2, 1 x MDCK",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "Caco2"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "MDCK"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:technicalRecommendation": "PCR, sequencing",
-      "EVORAO:titer": "HA titer 1:64 (MDCK),  >128 (CACO2)",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:accessionNumber": "KU322923-KU322930",
-      "EVORAO:isolationConditions": "CACO-2 cells were cultured in 25 cm2 tissue culture flask in MEM with 1 mM of sodium pyruvate and 15% foetal calf serum. When the cells formed a monolayer, usually after 48 h, the medium was removed and cells were washed three times with saline solution. Each sample was inoculated onto CACO-2 cells (1ml) followed by 1ml of MEM with 1 mM of sodium pyruvate. The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM with 1 mM of sodium pyruvate was added to all wells.                                                                                                                                                                                          MDCK cells  were cultured in 25 cm2 tissue culture flask in Eagle&#039;s minimum essential medium in Earle&#039;s balanced salt solution (MEM) with 10% foetal calf serum . When the cells formed a monolayer, usually after 48 h, the medium was removed and the cells were washed three times with saline solution. Each sample was inoculated onto MDCK cells (1 ml) followed by 1 ml of MEM containing 10 μg/ml of trypsin. The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM with 1 μg/ml of trypsin was added",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Swine"
-      },
-      "EVORAO:isolationTechnique": "Propagation on Caco2 , propagation on MDCK cell line",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Modena"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Italy"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "+ 4°C",
-        "28791803",
-        "A/swine/Italy/150383-1/2014 (H1N2)",
-        "Animal virus",
-        "Caco2",
-        "Category B",
-        "UN3373",
-        "IAV",
-        "Influenza A virus",
-        "Italy",
-        "IZSLER Parma",
-        "KU322923-KU322930",
-        "MDCK",
-        "Modena",
-        "Orthomyxoviridae",
-        "RG2",
-        "Swine"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2014-06-11",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KU322923-KU322930"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "A/swine/Italy/150383-1/2014 (H1N2)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza A virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolated in Modena, Italy from swine",
-        "EVORAO:genotype": "H1(1B.1.2.2)-N2",
-        "EVORAO:strain": "A/swine/Italy/150383-1/2014 (H1N2)",
-        "EVORAO:serotype": "H1N2",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-04380",
-      "search:title": "Swine influenza A/swine/Italy/150383-1/2014 (H1N2)",
-      "search:description": "The virus has been isolated from swine and propagated on Caco2 and MDCK cell line",
-      "search:taxonLabel": "Influenza A virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Swine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "KU322923-KU322930",
-      "search:providerName": "IZSLER",
-      "search:originatorName": "IZSLER Parma",
-      "search:pathogenName": "A/swine/Italy/150383-1/2014 (H1N2)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001V-02653",
-      "@id": "urn:evorao:EVA:AMU:001V-02653",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-adenovirus-c-serotype-1-strain-uveadv-c2012fr8580",
-      "dcterms:issued": "2017-10-16T12:57:23+02:00",
-      "dcterms:modified": "2022-11-17T14:49:36+01:00",
-      "dcterms:title": "Human Adenovirus C serotype 1 strain UVE/ADV-C/2012/FR/8580",
-      "dcterms:description": "Freeze-dried Human Adenovirus C serotype 1 strain UVE/ADV-C/2012/FR/8580, France, 2012, partial sequence.",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 325,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2012-12-04",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "France"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "qRT-PCR + sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae - A protocol to remove mycoplasmae is provided",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "APHM"
-      },
-      "EVORAO:passage": 1,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "MRC-5"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Homo sapiens"
-      },
-      "EVORAO:isolationTechnique": "cell culture",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Marseille"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "France"
-        }
-      ],
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "ADV-C",
-        "APHM",
-        "Category B",
-        "UN3373",
-        "France",
-        "Homo sapiens",
-        "Human Adenovirus C serotype 1",
-        "Human virus",
-        "Marseille",
-        "MRC-5",
-        "RG2",
-        "Human mastadenovirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2012-12-04",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 001V-02653 | Partial sequence available upon request\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNCTATGCCAAATCTTGTACCGGAGGTGATCGATCTTACCTGCCACGAGGCTGGC\nTTTCCACCCAGTGACGACGAGGATGAAGAGGGTGAGGAGTTTGTGTTAGATTATGTGGAGCAGCCCGGGCACGGTTGCAG\nGTCTTGTCATTATCATCGGAGGAATACGGGGGACCCAGATATTATGTGTTCGCTTTGCTATATGAGGACCTGTGGCATGT\nTTGTCTACAGTAAGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTTGC\nCGTGAGAGTTGGTGGGCGTCGCCGGGCTGTGGAATGTATCGAGGACTTGCTTAACGAGCCTGGGCAACCTTTGGACTTGA\nGCTGTAAACGCCCCAGGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNAGAGCTCTAACAGTACCTCCTGGTNNNNNNNNNNTCTGTGGGGCTCCTCCCAGGCAAAGTTAGTCTGCAGA\nATTAAGGAGGATTACAAGTGGGAATTTGAAGAGCTTTTGAAATCCTGTGGTGAGCTGTTTGATTCTTTGAATCTGGGTCA\nCCAGGCGCTTTTCCAAGAGAAGGTCATCAAGACTTTGNNNTNNNNCACACCGGGGCGCNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGNNNNTG\nTGGAGAGCAGTGGTGAGACACAAGAATCGCCTGCTACTGTTGTCTTCCGTCCNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nAGGAATTTAACTTTTAGCTTAATGACCAGACACCGTCCTGAGTGTGTTACTTTTCAGCAGATTAAGGATAATTGCGCTAA\nTGAGCTTGATCTGCTGGCGCAGAAGTATTCCATAGAGCAGCTGACCACTTACTGGCTGCAGCCAGGGGATGATTTTGAGG\nAGGCTATTAGGGTATATGCAAAGGTGGCACTTAGGCCAGATTGCAAGTACAAGATTAGCAAACTTGTAAATATCAGGAAT\nTGTTGCTACATTTCTGGGAACGGGGCCGAGGTGGAGATAGATACGGAGGATAGGGTGGCCTTTAGATGTAGCATGATAAA\nTATGTGGCCGGGGGTACTTGGCATGGACGGGGTGGTTATTATGAATGTGAGGTTTACTGGCCCCAATTTTAGCGGTACGG\nTTTTCCTGGCCAATACCAACCTTATCCTACACGGTGTAAGCTTCTATGGGTTTAACAATACCTGCGTGGAAGCCTGGACC\nGATGTAAGGGTTCGAGGCTGTGCCTTTTACTGCTGCTGGAAGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCACAATGNNNNNTNCGNNT\nGTGGTTGCTTCATGCTAGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGGGGTGTTCCTACCTTACCAATGCA\nATTTGAGTCACACTAAGATATTGCTTGAGCCCGAAAGCATGTCCAAGGTGAACCTGAACGGGGTGTTTGACATGACCATG\nAAGATCTGGAAGGTGCTGAGGTACGATGAGACCCGCACCAGGTGCAGACCCTGCGAGTGTGGCGGTAAACATATTAGGAA\nCCAGCCTGTGATGCTGGATGTGACCGAGGAGCTGAGGCCCGATCACTTGGTGCTGGCCTGCACCCGCGCTGAGTTTGGCT\nCTAGCGATGAAGATACAGATTGAGGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCAGCAGCCGCCGCCATGAGCACCAACTCGTTTG\nATGGAAGCATTGTGAGCTCATATTTGACAACGCGCATGCCCCCATGGGCCGGGGTGCGTCAGAATGTGATGGGCTCCAGC\nATTGATGGTCGCCCCGTCCTGCCCGCAAACTCTACTACCTTGACCTACGAGACCGTGTCTGGAACGCCGTTGGAGACTGC\nAGCCTCCGCCGCCGCTTCAGCCGCTGCAGCCACCGCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGAA\nGGCTTCCTCCCCTCCCAATGCGGTTTAAAACATAAATAAAAACCAGACTCTGTTTGGATTTGGATCAAGCAAGTGTATTG\nCTGTCTTTATTTAGGGGTTTTGCGCGCGCGGTAGGCCCGGGACCAGCGGTCTCGGTCGTTGAGGGTCCTGTGTATTTTTT\nCCAGGACGTGGTAGAGATGGCTCTGGATGTTCAGATACATGGGCATAAGCCCGTCTCTGGGGTGGAGGTAGCACCACTGC\nAGAGCTTCATGCTGCGGGGTGGTGTTGTAGATGATCCAGTCGTAGCAGGAGTGCTGGGCGTGGTGCCTAAAAATGTCCTT\nTAGAAGCAAGCTGATTGCCAGGGGCAGGCCCTTGGTGTAAGTGTTTACAAAGCGGTTAAGCTGGGATGGGTGCATACGTG\nGGGATATGAGATGCATCTTGGACTGTATTTTTAGGTTGGCTATGTTCCCAGCCATATCCCTCCTGGGATTCATGTTGTGC\nAGAACCACCAGCACAGTGTATCCGGTGCACTTGGGAAATTTGTCATGTAGCTTAGAAGGAAATGCGTGGAAGAACTTGGA\nGACGCCCTTGTGACCTCCAAGATTTTCCATGCATTCGTCCATAATGATGGCAATGGGCCCACGGGCGGCGGCCTGGGCGA\nAGATATTTCTGGGATCACTAACGTCATAGTTGTGTTCCAGGATGAGATCGTCATAGGCCATTTTTACAAAGCGCGGGCGG\nAGGGTGCCAGACTGCGGTATAATGGTTCCATCCGGCCCAGGGGCGTAGTTACCCTCACAGATTTGCATTTCCCACGCTTT\nGAGTTCAGATGGGGGNNNNNNNNNNACCTGCGGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNAGGTTCCTGAGCAGCTGCGACTTACCGCAGCCGGTGGGCCCGTAAATCACACCTATTACCGGCTGCAACTGGTAG\nTTAAGAGAGCTGCAGCTGCCGTCATCCCTGAGCAAGGGGGCCACTTCGTTAAGCATGTCCCTGACACGCATGTTTTCCCT\nGACCAAATCCGCTAGAAGGCGCTCGCCGCCCAGCGATAGCAGTTCTTGCAAGGAAGCAAAGTTTTTCAACGGTTTGAGGC\nCGTCCGCCGTAGGCATGCTTTTGAGCGTTTGACCAAGCAGTTCCAGGCGGTCCCACAGCTCGGTCACGTGCTCTACGGCA\nTCTCGATCCAGCATATCTCCTCGTTTCGCGGGTTGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCCAGGTGAGCTCTGGCCGNNNNNNNNNNNNNNNCAAGTTTCCCCCAT\nGCTTTTTGATGCGTTTCTTACCTCTGGTTTCCATGAGCCGGTGTCCACGCTCGGTGACGAAAAGGCTGTCCGTGTCCCCG\nTATACAGACTTGAGAGGCCTGTCCTCGAGCGGTGTTCCGCGGTCCTCCTCGTATAGAAACTCGGACCACTCTGAGACGAA\nGGCTCGCGTCCAGGCCAGCACGAAGGAGGCTAAGTGGGAGGGGTAGCGGTCGTTGTCCACTAGGGGGTCCACTCGCTCCA\nGGGTGTGAAGACACATGTCCCCCTCTTCGGCATCAAGGAAGGTGATTGGTTTGTAGGTGTATGCCACGTGACCGGGTGTT\nCCTGAAGGGGGGGTATAAAAGGGGGTGGGGGCGCGTTCGTCCTCACTCTCTTCCGCATCGCTGTCTGCGAGGGCCAGCTG\nTTGGGGTGAGTACTCCCTCTGGAAAGCGGGCATGACTTCTGCGCTAAGGTTGTCAGTTTCCAAAAACGAGGAGGATTTGA\nTATTCACCTGGCCCGCGGTGATGCCTTTGAGGGTGGCCGCGTCCATCTGGTCAGAAAAGACAATCTTTTTGTTGTCAAGC\nTTGGTGGCAAACGACCCGTAGAGGGCGTTGGACAGCAACTTGGCGATGGAGCGCAGGGTTTGGTTTTTGTCGCGATCGGC\nGCGCTCCTTGGCCGCGATGTTTAGCTGCACGTATTCGCGCGCAACGCACCGCCATTCGGGAAAGACGGTGGTGCGCTCGT\nCGGGCACCAGGTGCACGCGCCAACCGCGGTTGTGCAGGGTGACAAGGTCAACGCTGGTGGCTACCTCTCCGCGTAGGCGC\nTCGTTGGTCCAGCAGAGGCGGCCGCCCTTGCGCGAGCAGAATGGCGGTAGGGGGTCTAGCTGCGTCTCGTCCGGGGGGTC\nCGCGTCCACGGTAAAGATCCCGGGCAACAGGCGCGCGTCGAAGTAGTCTATCTTGCATCCTTGCAAGTCTAACGCCTGCT\nGCCATGCGCGGGCGGCAAGCGCGCGCTCGTATGGGTTGAGTGGGGGACCCCATGGCATGGGGTGGGTGAGCGCGGAGGCG\nTACATGCCGCAGATGTCGTAAACGTAGAGGGGCTCCCTGAGTATTCCAAGATATGTAGGGTAGCATCTTCCACCGCGGAT\nGCTGGCGCGCACATAATCGTATAGTTCGTGCGAGGGGGCGAGGAGGTCGGGACCGAGGTTGCTACGGGCGGGCTGCTCTG\nCTCGAAAGACGATCTGCCTGAAGATGGCATGCGAGTTGGATGATATGGTTGGACGCTGGAAGACGTTGAAGCTGGCGTCT\nGTGAGACCTACCGCGTCACGCACGAAGGAGGCGTAGGAGTCGCGCAGCTTGTTGACCAGCTCGGCGGTGACCTGCACGTC\nTAGGGCGCAGTAGTCCAGGGTTTCCTTGATGATGTCATACTTATCCTGTCCCTTTTTTTTCCACAGCTCGCGGTTGAGGA\nCAAACTCTTCGCGGTCTTTCCAGTACTCTTGGATCGGAAACCCGTCGGCCTCCGAACGGTAAGAGCCTAGCATGTAGAAC\nTGGTTGACGGCCTGGTAGGCGCAGCATCCCTTTTCTACGGGTAGCGCGTATGCCTGCGCGGCCTTCCGGAGCGAGGTGTG\nGGTGAGCGCAAAGGTGTCCCTGACCATGACTTTGAGGTACTGGTATTTGAAGTCAGTGTCGTCGCATCCGCCTTGCTCCC\nAGAGCAAAAAGTCCGTGCGCTTTTTGGAACGCGGGTTTGGCAGGGCGAAGGTGACATCGTTGAAAAGTATCTTTCCCGCG\nCGAGGCATAAAGTTGCGTGTGATGCGGAAGGGTCCCGGCACCTCGGAACGGTTGTTAATTACCTGGGCGGCGAGCACGAT\nCTCGTCGAAGCCGTTGATGTTGTGGCCCACGATGTAAAGTTCCAAGAAGCGCGGGGTGCCCTTGATGGAGGGCAATTTTT\nTAAGTTCCTCGTAGGTGAGCTCCTCAGGGGAGCTGAGCCCGTGTTCTGACAGGGCCCAGTCTGCAAGATGAGGGTTGGAA\nGCGACGAATGAGCTCCACAGGTCACGGGCCATTAGCATTTGCAGGTGGTCGCGAAAGGTCCTAAACTGGCGACCTATGGC\nCATTTTTTCTGGGGTGATGCAGTAGAAGGTAAGCGGGTCTTGTTCCCAGCGGTCCCATCCAAGGTCCACGGCTAGGTCTC\nGCGCGGCGGTCACCAGAGGCTCATCTCCGCCGAACTTCATGACCAGCATGAAGGGCACGAGCTGCTTCCCAAAGGCCCCC\nATCCAAGTATAGGTCTCTACATCGTAGGTGACAAAGAGACGCTCGGTGCGAGGATGCGAGCCGATCGGGAAGAACTGGAT\nCTCCCGCCACCAGTTGGAGGAGTGGCTGTTGATGTGGTGAAAGTAGAAGTCCCTGCGACGGGCCGAACACTCGTGCTGGC\nTTTTGTAAAAACGTGCGCAGTACTGGCAGCGGTGCACGGGCTGTACATCCTGCACGAGGTTGACCTGACGACCGCGCACA\nAGGAAGCAGAGTGGGAATTTGAGCCCCTCGCCTGGCGGGTTTGGCTGGTGGTCTTCTACTTCGGCTGCTTGTCCTTGACC\nGTCTGGCTGCTCGAGGGGAGTTATGGTGGATCGGACCACCACGCCGCGCGAGCCCAAAGTCCAGATGTCCGCGCGCGGCG\nGTCGGAGCTTGATGACAACATCGCGCAGATGGGAGCTGTCCATGGTCTGGAGCTCCCGCGGCGTCAGGTCAGGCGGGAGC\nTCCTGCAGGTTTACCTCGCATAGCCGGGTCAGGGCGCGGGCTAGGTCCAGGTGATACCTGATTTCCAGGGGCTGGTTGGT\nGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGAGCTGC\nGAGAAGGCGTTGAGGCCTCCCTCGTTCCAGACGCGGCTGTAGACCACGCCCCCTTCGGCATCGCGGGCGCGCATGACCAC\nCTGCGCGAGATTGAGCTCCACGTGCCGGGCGAAGACGGCGTAGTTTCGCAGGCGCTGAAAGAGGTAGTTGAGGGTGGTGG\nCGGTGTGTTCTGCCACGAAGAAGTACATAACCCAGCGTCGCAACGTGGATTCGTTGATATCCCCCAAGGCCTCAAGGCGC\nTCCATGGCCTCGTAGAAGTCCACGGCGAAGTTGAAAAACTGGGAGTTGCGCGCCGACACGGTTAACTCCTCCTCCAGAAG\nACGGATGAGCTCGGCGACAGTGTCGCGCACCTCGCGCTCAAAGGCTACAGGGGCCTCTTCTTCNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGAGGGACCTGAGCGAGTCCGCA\nTCGACCGGATCGGAAAACCTCTCGAGAAAGGCGTCTAACCAGTCACAGTCGCAAGGTAGGCTGAGCACCGTGGCGGGCGG\nCAGCGGGTGGCGGTCGGGGTTGTTTCTGGCGGAGGTGCTGCTGATGATGTAATTAAAGTAGGCGGTCTTGAGACGGCGGA\nTGGTCGACAGAAGCACCATGTCCTTGGGTCCGGCCTGCTGAATGCGCAGGCGGTCGGCCATGCCCCAGGCTTCGTTTTGA\nCATCGGCGCAGGTCTTTGTAGTAGTCTTGCATGAGCCTTTCTACCGGCACTTCTTCTTCTCCTTCCTCTTGTCCTGCATC\nTCTTGCATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCATGCGTGTGACCCCGAAGCCCCTCATCGG\nCTGAAGCAGGGCCAGGTCGGCGACAACGCGCTCGGCTAATATGGCCTGCTGCACCTGCGTGAGGGTAGACTGGAAGTCAT\nCCATGTCCACAAAGCGGTGGTATGCGCCCGTGTTGATGGTGTAAGTGCAGTTGGCCATAACGGACCAGTTAACGGTCTGG\nTGACCCGGCTGCAAGAGCTCGGTGTACCTGAGACGCGAGTAAGCCCTTGAGTCAAAGACGTAGTCGTTGCAAGTCCGCAC\nCAGGTACTGGTATCCCACCAAAAAGTGCGGCGGCGGCTGGCGGTAGAGGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATGGACTANNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNTTCACCAACGCCATCTTGAACCCGCACTGGCTACCNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCGCGA\nAAAGAACCTGCCTCCGGCGTTTCCCAACAACGGGATAGAGAGCCTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCATGGCACCG\nAGCGTTGGTTTTCTTGTATTCCTCTTAGTATGCGGCGCGCGGCGATGTATGAGGAAGGTCCTCCTCCCTCCTACGAGAGC\nGTGGTGAGCGCGGCGCCAGTGGCGGCGGCGCTGGGTTCCCCCTTCGATGCTCCCCTGGACCCGCCGTTCGTGCCTCCGCG\nGTACCTGCGGCCTACCGGGGGGAGAAACAGCATCCGTTACTCTGAGTTGGCACCCCTATTCGACACCACCCGTGTGTACC\nTTGTGGACAACAAGTCAACGGATGTGGCATCCCTGAACTACCAGAACGACCACAGCAACTTTCTGACCACGGTCATTCAA\nAACAATGACTACAGCCCGGGGGAGGCAAGCACACAGACCATCAATCTTGACGACCGGTCGCACTGGGGCGGCGACCTGAA\nAACCATCCTGCATACCAACATGCCAAATGTGAACGAGTTCATGTTTACCAATAAGTTTAAGGCGCGGGTGATGGTGTCGC\nGCTCGCTTACTAAGGACAATCAGGTGGAGCTGAAATACGAGTGGGTGGAGTTCACGCTGCCCGAGGGCAACTACTCCGAG\nACCATGACCATAGACCTTATGAACAACGCAATCGTGGAGCACTACTTGAAAGTGGGCAGGCAGAACGGGGTTCTGGAAAG\nCGACATCGGGGTAAAGTTTGACACCCGCAACTTCAGACTGGGGTTTGACCCAGTCACTGGTCTTGTCATGCCTGGGGTAT\nATACAAACGAAGCCTTCCATCCAGACATCATTTTGCTGCCAGGATGCGGGGTGGACTTCACCCACAGCCGCCTGAGCAAC\nTTGTTGGGTATCCGCAAGCGGCAACCCTTCCAGGAGGGCTTTAGGATCACCTACGATGACCTGGAGGGTGGTAACATTCC\nCGCACTGTTGGATGTGGACGCCTACCAGGCAAGCTTGAAAGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNAAGCCTCAGAAGAAACCGGTGATTAAACCCCTGACAGAGGACAGCAAGAAACGCAGTTACAACCTA\nATAAGTAATGACAGCACCTTCACCCAGTACCGCAGCTGGTACCTTGCATACAACTACGGCGACCCTCAGGCCGGGATCCG\nCTCATGGACCCTGCTTTGCACTCCTGACGTAACCTGCGGCTCGGAGCAGGTATACTGGTCGTTGCCCGACATGATGCAAG\nACCCCGTGACCTTCCGCTCCACGAGCCAGATCAGCAACTTTCCGGTGGTGGGCGCCGAGCTGTTGCCCGTGCACTCCAAG\nAGCTTCTACAACGACCAGGCCGTCTACTCCCAGCTCATCCGCCAGTTTACCTCTCTGACCCACGTGTTCAATCGCTTTCC\nCGAGAACCAGATTTTGGCGCGCCCGCCAGCCCCCACCATCACCACCGTCAGTGAAAACGTTCCTGCTCTCACAGATCACG\nGGACGCTACCGCTGCGCAACAGCATCGGAGGAGTCCAGCGAGTGACCATTACTGACGCCAGACGCCGCACCTGCCCCTAC\nGTTTACAAGGCCCTGGCATAGTCTCGCCGCGCGTCCTATCGAGCCGCACTTTTTGAGCANNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNTCGCTNNGGAGNNGCNNNNNNNNNNNNNNNNNNNNCGTTAAGAACTATGGNNNNNNGGCCTGGAACAGCAGC\nACAGGCCAAATGCTGAGGGACAAGTTGAAAGAGCAAAATTTCCAACAAAAGGTGGTAGATGGCCTGGCCTCTGGCATTAG\nCGGGNNGGNGGACCTGGCCAACCAGGCAGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\nNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human Adenovirus C serotype 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "UVE/ADV-C/2012/FR/8580",
-        "EVORAO:serotype": 1,
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "001V-02653",
-      "search:title": "Human Adenovirus C serotype 1 strain UVE/ADV-C/2012/FR/8580",
-      "search:description": "Freeze-dried Human Adenovirus C serotype 1 strain UVE/ADV-C/2012/FR/8580, France, 2012, partial sequence.",
-      "search:taxonLabel": "Human mastadenovirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Homo sapiens",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "France",
-      "search:providerName": "AMU",
-      "search:originatorName": "APHM",
-      "search:pathogenName": "Human Adenovirus C serotype 1"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
-      "EVORAO:refSku": "025V-04666",
-      "@id": "urn:evorao:EVA:IZSVe:025V-04666",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/lymphocystis-virus-18-itt-v38",
-      "dcterms:issued": "2022-04-15T16:10:26+02:00",
-      "dcterms:modified": "2022-11-15T17:00:45+01:00",
-      "dcterms:title": "Lymphocystis virus 18 ITT-V/38",
-      "dcterms:description": "LCDV 18 ITT-V/38",
-      "EVORAO:unitDefinition": "0.5 ml of sea bream skin lesions",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 400,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2018-01-17",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR Nested, TEM, Histology",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "skin lesions from diseased sea bream were collected"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "homogenized and feeze dried additioned with FCS"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specialFeature": "Reference Strain",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:clinicalInformation": "Obtained from a clinical disease outbreak",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:isolationConditions": "SAF-1, GHSBL-1 20°C",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Sparus Aurata"
-      },
-      "EVORAO:isolationTechnique": "cell culture",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Virus",
-        "IZSVe",
-        "Room Temperature",
-        "Animal virus",
-        "Category B",
-        "UN3373",
-        "homogenized and feeze dried additioned with FCS",
-        "Italy",
-        "Lymphocystis virus 18 ITT-V/38",
-        "Reference Strain",
-        "RG1",
-        "skin lesions from diseased sea bream were collected",
-        "Sparus Aurata",
-        "Iridoviridae",
-        "Alphairidovirinae",
-        "Lymphocystivirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2018-01-17",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 025V-04666 | TCTGCCTTTGGCATGTGCGGTTCTAAACGCGTAGGTTACGACAACATGATAGGCAATACTTTAGATATGACGCAACCCGT\nTGATTCTAACGGTCTATTACCCGAAAAAGTATTGGTATTACCTTTACCTTATTTCTTTTCCCGAGACAGCGGCGTAGCTT\nTACCCAGTGCCGCGCTGCCTTATAATGAAATAAGATTAACCTTTCATCTTAGAGATTGGACCGAATTGCTTATTTTTCAA\nAACAAAAATGATTCTACCATCATGCCTCTAACGGCGGGAGATTTAGAATGGGGTAAACCTGATTTAAAAGACGTGCAAGT\nATGGATCACTAACGTGGTGGTAACTAACGAAGAACG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Lymphocystis virus 18 ITT-V/38"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Iridoviridae, Alphairidovirinae, Lymphocystivirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Lymphocystis virus 18 ITT-V/38",
-        "EVORAO:genotype": "Genotype VII",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-04666",
-      "search:title": "Lymphocystis virus 18 ITT-V/38",
-      "search:description": "LCDV 18 ITT-V/38",
-      "search:taxonLabel": "Iridoviridae, Alphairidovirinae, Lymphocystivirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Sparus Aurata",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "Lymphocystis virus 18 ITT-V/38"
-    },
-    {
-      "@type": "EVORAO:Protein",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024P-04763",
-      "@id": "urn:evorao:EVA:CSIRO:024P-04763",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/protein/sars-cov-2-s1-protein-aa-val16-gln690-c-terminal-6xhis-tag",
-      "dcterms:issued": "2022-09-21T01:45:54+02:00",
-      "dcterms:modified": "2022-11-15T00:10:46+01:00",
-      "dcterms:title": "SARS-CoV-2 S1 protein (aa Val16-Gln690) with C-terminal 6xHis tag",
-      "dcterms:description": "SARS-CoV-2 S1 protein The Protein was expressed in Expi293F cells and purified using HisTrap HP column followed by size exclusion chromatography. It is provided in PBS, pH7.4.",
-      "EVORAO:unitDefinition": "200 uL of S1 protein at 0.58 mg/mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "protein"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 200,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:SyntheticPartOrigin",
-          "EVORAO:partIdentification": "Produced from a synthetic gene",
-          "EVORAO:modificationsFromTheReferenceSequences": true,
-          "EVORAO:descriptionOfModificationsMadeFromTheReferenceSequences": "The sequence(s) of this synthetic product has been modified from the sequence listing provided as Genbank referencesDescription of modification(s) made from the reference sequence(s): Codon optimisation"
-        },
-        "EVORAO:recombinantMaterial": true,
-        "EVORAO:biologicalSourceType": false
-      },
-      "EVORAO:domain": "Single domain",
-      "EVORAO:expressedAs": "Soluble",
-      "EVORAO:expressionSystem": "Mammalian cells",
-      "EVORAO:functionalCharacterization": "Functionally characterized",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "ACDP Bioassay R&D"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Protein2.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:proteinPurification": ">95%",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:tagSequence": "His Cterm",
-      "EVORAO:tagStatusOfTheSolubilizedProtein": "Uncleaved Tag",
-      "EVORAO:typeOfFunctionalCharacterization": "Antigenic",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:accessionNumber": "YP_009724390.1",
-      "dcat:keyword": [
-        "Protein",
-        "Antigen",
-        "Diagnostic reagent",
-        "Derived product",
-        "CSIRO",
-        "His Cterm",
-        "ACDP Bioassay R&amp",
-        "D",
-        "Animal virus",
-        "Human virus",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "SARS-CoV-2 S1",
-        "SARS-CoV-2",
-        "Severe acute respiratory syndrome coronavirus 2",
-        "YP_009724390.1",
-        "Dry ice",
-        "Coronaviridae"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "protein",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "YP_009724390.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": [
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "SARS-CoV-2"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Severe acute respiratory syndrome coronavirus 2"
-          }
-        ],
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Coronaviridae"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Wuhan-Hu-1",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "024P-04763",
-      "search:title": "SARS-CoV-2 S1 protein (aa Val16-Gln690) with C-terminal 6xHis tag",
-      "search:description": "SARS-CoV-2 S1 protein The Protein was expressed in Expi293F cells and purified using HisTrap HP column followed by size exclusion chromatography. It is provided in PBS, pH7.4.",
-      "search:taxonLabel": "Coronaviridae",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CSIRO",
-      "search:accessionNumber": "YP_009724390.1",
-      "search:providerName": "CSIRO",
-      "search:originatorName": "ACDP Bioassay R&D",
-      "search:pathogenName": "SARS-CoV-2, Severe acute respiratory syndrome coronavirus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
-      "EVORAO:refSku": "025V-04784",
-      "@id": "urn:evorao:EVA:IZSVe:025V-04784",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/feline-parvovirus-panleukopenia-virus-isolate-14vir6873-isolated-intestine-cat-collected-2014",
-      "dcterms:issued": "2022-11-04T11:46:32+01:00",
-      "dcterms:modified": "2022-11-04T11:46:32+01:00",
-      "dcterms:title": "Feline Parvovirus, Panleukopenia Virus isolate 14VIR687/3 isolated from intestine of a cat, collected in 2014 in Italy (Friuli Venezia Giulia region)",
-      "dcterms:description": "Feline Parvovirus, Panleukopenia Virus isolate 14VIR687/3 isolated from intestine of a cat, collected in 2014 in Italy (Friuli Venezia Giulia region)",
-      "EVORAO:unitDefinition": "0.5mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2014-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2900",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "Cells infection and RT-PCR analysis",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "CRFK"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015658)",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Cat"
-      },
-      "EVORAO:isolationTechnique": "CRFK cell line",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSVe",
-        "Animal virus",
-        "Cat",
-        "cat",
-        "Category A",
-        "UN2900",
-        "CRFK",
-        "Feline panleukopenia virus",
-        "Feline Panleukopenia virus",
-        "FPV",
-        "Italy",
-        "RG2",
-        "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015658)",
-        "Dry ice",
-        "Carnivore protoparvovirus 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2014-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015658)"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Feline Panleukopenia virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Carnivore protoparvovirus 1"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "14VIR687/3",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-04784",
-      "search:title": "Feline Parvovirus, Panleukopenia Virus isolate 14VIR687/3 isolated from intestine of a cat, collected in 2014 in Italy (Friuli Venezia Giulia region)",
-      "search:description": "Feline Parvovirus, Panleukopenia Virus isolate 14VIR687/3 isolated from intestine of a cat, collected in 2014 in Italy (Friuli Venezia Giulia region)",
-      "search:taxonLabel": "Carnivore protoparvovirus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Cat",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015658)",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "Feline Panleukopenia virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
-      "EVORAO:refSku": "025V-04783",
-      "@id": "urn:evorao:EVA:IZSVe:025V-04783",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/feline-parvovirus-panleukopenia-virus-isolate-13vir41972-isolated-intestine-cat-collected-2013",
-      "dcterms:issued": "2022-11-04T11:41:26+01:00",
-      "dcterms:modified": "2022-11-04T11:41:26+01:00",
-      "dcterms:title": "Feline Parvovirus, Panleukopenia Virus isolate 13VIR4197/2 isolated from intestine of a cat, collected in 2013 in Italy (Friuli Venezia Giulia region)",
-      "dcterms:description": "Feline Parvovirus, Panleukopenia Virus isolate 13VIR4197/2 isolated from intestine of a cat, collected in 2013 in Italy (Friuli Venezia Giulia region)",
-      "EVORAO:unitDefinition": "0.5mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2013-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2900",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "Cells infection and RT-PCR analysis",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "CRFK"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015657)",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Cat"
-      },
-      "EVORAO:isolationTechnique": "CRFK cell line",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSVe",
-        "Animal virus",
-        "Cat",
-        "cat",
-        "Category A",
-        "UN2900",
-        "CRFK",
-        "Feline panleukopenia virus",
-        "Feline Panleukopenia virus",
-        "FPV",
-        "Italy",
-        "RG2",
-        "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015657)",
-        "Dry ice",
-        "Carnivore protoparvovirus 1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2013-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015657)"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Feline Panleukopenia virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Carnivore protoparvovirus 1"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "13VIR4197/2",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-04783",
-      "search:title": "Feline Parvovirus, Panleukopenia Virus isolate 13VIR4197/2 isolated from intestine of a cat, collected in 2013 in Italy (Friuli Venezia Giulia region)",
-      "search:description": "Feline Parvovirus, Panleukopenia Virus isolate 13VIR4197/2 isolated from intestine of a cat, collected in 2013 in Italy (Friuli Venezia Giulia region)",
-      "search:taxonLabel": "Carnivore protoparvovirus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Cat",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "The partial VP-2 sequence is available upon request. It will be pubblicaly available by 17 Mar 2026 (Genbank reference: ON015657)",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "Feline Panleukopenia virus"
     }
   ]
 }
