@@ -22,6 +22,132 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA1442",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA1442",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/h7n9-ivt-rna-na-i-assay",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T14:01:10+01:00",
+      "dcterms:title": "H7N9 IVT-RNA NA (I) assay",
+      "dcterms:description": "In vitro transcriped RNA of partial neuraminidase gene. Positive control for diagnostic PCR screening (NA (I) assay) as mentioned in [Corman et al. Eurosurveillance, Volume 18, Issue 16, 18 April 2013]",
+      "EVORAO:unitDefinition": "1x 100 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2002-12-12",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Sweden"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Qiagen Viral RNA Kit",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA1442 | H7N9 IVT-RNA NA (I) assay 482 bp\nGGGCGAATTGAATTTAGCGGCCGCGAATTCGCCCTTGTTGTGGCATACACATTCAGATTCCTGTGTTCTTAGTATGTTTC\nGGGCCCATGTGTTAATTTCTGCAACAGGCCTTCTATTGTACCAGACTACTGCAGATGCATTGTTGTTTGGTCCTGATATA\nCATATTGACATCCCGGATTTGCCATCATGACAACTAGTACTTGACCACCCAATGCATTCCACCCTGCTGTTGTATACTGT\nGGGCGGTGATGATAGTGGCCAGCTTATCAGGGCGCGATACTGGGACCTATCGTGTATTGTTCCGTTTGAGTGTTTCCCTC\nTGATTGTTGTCCCTTGACTGAGAGCATAGAACCTGCATTCATCTGGGTCGCATGAAACATAGGGTTCTCTTGAAGGGCGA\nATTCGTTTAAACCTGCAGGACTAGTCCCTTTAGTGAGGGTTAATTCTGAGCTTGGCGTAATCATGGTCATAGCTGTTTCC\nTG",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "50000.00 copies / µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "23611031",
+        "H7N9",
+        "Human virus",
+        "Influenza A virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Sweden",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "2002-12-12",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "A/mallard/Sweden/91/2002",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA1442",
+      "search:title": "H7N9 IVT-RNA NA (I) assay",
+      "search:description": "In vitro transcriped RNA of partial neuraminidase gene. Positive control for diagnostic PCR screening (NA (I) assay) as mentioned in [Corman et al. Eurosurveillance, Volume 18, Issue 16, 18 April 2013]",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:countryOfCollection": "Sweden",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Influenza A virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA1441",
       "@id": "urn:evorao:EVA:CUB:004N-EVA1441",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/h7n9-ivt-rna-hai-and-ha-ii-assay",
@@ -138464,170 +138590,6 @@
       "search:providerName": "IZSLER",
       "search:originatorName": "IZSLER Parma",
       "search:pathogenName": "D/swine/Italy/173287-4/2016"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-04379",
-      "@id": "urn:evorao:EVA:IZSLER:026V-04379",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-dbovineitaly2874482015",
-      "dcterms:issued": "2021-10-08T17:18:35+02:00",
-      "dcterms:modified": "2022-11-23T12:27:54+01:00",
-      "dcterms:title": "Swine influenza D/bovine/Italy/287448/2015",
-      "dcterms:description": "The virus has been isolated from swine and propagated on HRT cell line",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-10-29",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Human Risk Group 2, Animal Risk Group 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "HA test",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "IZSLER Parma"
-      },
-      "EVORAO:passage": "3 X HRT-18",
-      "EVORAO:previouslyKnownAs": "Influenzavirus D",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "HRT-18"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:technicalRecommendation": "PCR, sequencing",
-      "EVORAO:titer": "HA titer >128",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:accessionNumber": "MZ264973-MZ264979",
-      "EVORAO:isolationConditions": "HRT-18 cells were cultured in 25 cm2 tissue culture flask in MEM  and 10% foetal calf serum. When the cells formed a monolayer, usually after 24 h /48 h, the medium was removed and cells were washed three times with saline solution. Each sample was inoculated onto HRT-18 cells (1ml) followed by 1ml of MEM . The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM  was added.",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Bovine"
-      },
-      "EVORAO:isolationTechnique": "Propagation on HRT-18 cell line",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Verona"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Italy"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "+ 4°C",
-        "Animal virus",
-        "Bovine",
-        "Category B",
-        "UN3373",
-        "D/bovine/Italy/287448/2015",
-        "HRT-18",
-        "IDV",
-        "Influenza D virus",
-        "Influenzavirus D",
-        "Italy",
-        "IZSLER Parma",
-        "MZ264973-MZ264979",
-        "Orthomyxoviridae",
-        "RG2",
-        "Verona"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-10-29",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MZ264973-MZ264979"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "D/bovine/Italy/287448/2015"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza D virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolated in Verona, Italy, from bovine",
-        "EVORAO:strain": "D/bovine/Italy/287448/2015",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-04379",
-      "search:title": "Swine influenza D/bovine/Italy/287448/2015",
-      "search:description": "The virus has been isolated from swine and propagated on HRT cell line",
-      "search:taxonLabel": "Influenza D virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Bovine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "MZ264973-MZ264979",
-      "search:providerName": "IZSLER",
-      "search:originatorName": "IZSLER Parma",
-      "search:pathogenName": "D/bovine/Italy/287448/2015"
     }
   ]
 }

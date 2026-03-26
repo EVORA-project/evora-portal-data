@@ -93605,7 +93605,7 @@
       ]
     }
   },
-  "_fetched_at": "2026-03-26T05:06:20Z",
+  "_fetched_at": "2026-03-26T09:15:32Z",
   "Borealpox (Alaskapox)": {
     "status": "not-found",
     "input": "Borealpox (Alaskapox)",
@@ -99255,5 +99255,440 @@
         "label": "Influenza B virus"
       }
     ]
+  },
+  "Dobrava - Kurkino virus": {
+    "status": "not-found",
+    "input": "Dobrava - Kurkino virus",
+    "suggestions": [
+      "Dobrava-Belgrade virus",
+      "Avian leukosis virus - RSA",
+      "Tomato leaf curl virus - Au",
+      "Tomato leaf curl virus - In",
+      "Leishmania RNA virus 1 - 10",
+      "Leishmania RNA virus 1 - 11",
+      "Leishmania RNA virus 1 - 12",
+      "Leishmania RNA virus 1 - 2",
+      "Leishmania RNA virus 1 - 3",
+      "Leishmania RNA virus 1 - 4"
+    ]
+  },
+  "Porcine teschovirus (PTV9)": {
+    "status": "not-found",
+    "input": "Porcine teschovirus (PTV9)",
+    "suggestions": [
+      "Porcine teschovirus",
+      "PTV-9",
+      "Teschovirus",
+      "Teschovirus B",
+      "Teschovirus A",
+      "Porcine parvovirus",
+      "Porcine rubulavirus",
+      "Porcine circovirus",
+      "Porcine astrovirus",
+      "Porcine torovirus"
+    ]
+  },
+  "Porcine teschovirus (PTV7)": {
+    "status": "not-found",
+    "input": "Porcine teschovirus (PTV7)",
+    "suggestions": [
+      "Porcine teschovirus",
+      "PTV-7",
+      "Teschovirus",
+      "Teschovirus B",
+      "Teschovirus A",
+      "Porcine parvovirus",
+      "Porcine rubulavirus",
+      "Porcine circovirus",
+      "Porcine astrovirus",
+      "Porcine torovirus"
+    ]
+  },
+  "Porcine teschovirus (PTV8)": {
+    "status": "not-found",
+    "input": "Porcine teschovirus (PTV8)",
+    "suggestions": [
+      "Porcine teschovirus",
+      "PTV-8",
+      "Teschovirus",
+      "Teschovirus B",
+      "Teschovirus A",
+      "Porcine parvovirus",
+      "Porcine rubulavirus",
+      "Porcine circovirus",
+      "Porcine astrovirus",
+      "Porcine torovirus"
+    ]
+  },
+  "Porcine teschovirus (PTV10)": {
+    "status": "not-found",
+    "input": "Porcine teschovirus (PTV10)",
+    "suggestions": [
+      "Porcine teschovirus",
+      "PTV-10",
+      "Teschovirus",
+      "Teschovirus B",
+      "Teschovirus A",
+      "Porcine parvovirus",
+      "Porcine rubulavirus",
+      "Porcine circovirus",
+      "Porcine astrovirus",
+      "Porcine torovirus"
+    ]
+  },
+  "Rabbit haemorrhagic disease virus": {
+    "status": "not-found",
+    "input": "Rabbit haemorrhagic disease virus",
+    "suggestions": [
+      "Rabbit hemorrhagic disease virus",
+      "Omsk haemorrhagic fever virus",
+      "Herpesvirus cuniculi (virus III of rabbits)",
+      "Rabbitpox virus",
+      "Rabbit papilloma virus",
+      "Rabbit vacuolating virus",
+      "Rabbit fibroma virus",
+      "Rabbit oral papilloma virus",
+      "Rabbit (Shope) fibroma virus",
+      "Marek's disease-like viruses"
+    ]
+  },
+  "Infectious salmon anemia virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV20021214",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20021214",
+      "ictv_curie": "ictv:MSL40/ICTV20021214",
+      "iri": "http://ictv.global/id/MSL40/ICTV20021214",
+      "label": "Isavirus salaris",
+      "synonyms": [
+        "Infectious salmon anemia virus",
+        "Salmon isavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20020287",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19750009",
+        "http://ictv.global/id/MSL40/ICTV20020287",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV20186016",
+        "http://ictv.global/id/MSL40/ICTV20186017",
+        "http://ictv.global/id/MSL40/ICTV20186023",
+        "http://ictv.global/id/MSL40/ICTV20186024",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20021214",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:RNA1: AY373381",
+        "genbank:RNA2: AF404346",
+        "genbank:RNA3: AF404345",
+        "genbank:RNA4: AF404344",
+        "genbank:RNA5: AF404343",
+        "genbank:RNA6: AF404342",
+        "genbank:RNA7: AF404341",
+        "genbank:RNA8: AF404340",
+        "refseq:RNA1: NC_006505",
+        "refseq:RNA2: NC_006503",
+        "refseq:RNA3: NC_006502",
+        "refseq:RNA4: NC_006501",
+        "refseq:RNA5: NC_006500",
+        "refseq:RNA6: NC_006499",
+        "refseq:RNA7: NC_006498",
+        "refseq:RNA8: NC_006497"
+      ],
+      "direct_parent_label": "Isavirus",
+      "lineage": [
+        "Orthomyxoviridae",
+        "Isavirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Insthoviricetes",
+        "Articulavirales",
+        "Orthornavirae",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:2907958",
+        "label": "Infectious salmon anemia virus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:55987",
+        "label": "Isavirus salaris"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:55987",
+        "label": "Salmon isavirus"
+      }
+    ]
+  },
+  "Epizootic hemorrhagic disease virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL40/ICTV19740122",
+    "current": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV19740122",
+      "ictv_curie": "ictv:MSL40/ICTV19740122",
+      "iri": "http://ictv.global/id/MSL40/ICTV19740122",
+      "label": "Orbivirus ruminantium",
+      "synonyms": [
+        "Epizootic disease of deer virus",
+        "Epizootic hemorrhagic disease of deer virus",
+        "Epizootic hemorrhagic disease virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV19740026",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19740026",
+        "http://ictv.global/id/MSL40/ICTV20090683",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://ictv.global/id/MSL40/ICTV201907229",
+        "http://ictv.global/id/MSL40/ICTV201907234",
+        "http://ictv.global/id/MSL40/ICTV201907235",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV19740122",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:Seg10: AM744986",
+        "genbank:Seg1: AM744977",
+        "genbank:Seg2: AM744978",
+        "genbank:Seg3: AM744979",
+        "genbank:Seg4: AM744980",
+        "genbank:Seg5: AM744981",
+        "genbank:Seg6: AM744982",
+        "genbank:Seg7: AM744983",
+        "genbank:Seg8: AM744984",
+        "genbank:Seg9: AM744985",
+        "refseq:Seg10: NC_013405",
+        "refseq:Seg1: NC_013396",
+        "refseq:Seg2: NC_013397",
+        "refseq:Seg3: NC_013398",
+        "refseq:Seg4: NC_013399",
+        "refseq:Seg5: NC_013400",
+        "refseq:Seg6: NC_013401",
+        "refseq:Seg7: NC_013402",
+        "refseq:Seg8: NC_013403",
+        "refseq:Seg9: NC_013404"
+      ],
+      "direct_parent_label": "Orbivirus",
+      "lineage": [
+        "Orbivirus",
+        "Sedoreoviridae",
+        "Riboviria",
+        "Orthornavirae",
+        "Duplornaviricota",
+        "Resentoviricetes",
+        "Reovirales",
+        "Viruses"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:12647",
+        "label": "Epizootic hemorrhagic disease of deer virus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:40054",
+        "label": "Epizootic hemorrhagic disease virus"
+      }
+    ]
+  },
+  "Salmon isavirus": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL36/ICTV20021214",
+    "obsolete": {
+      "msl": "MSL36",
+      "ictv_id": "ICTV20021214",
+      "ictv_curie": "ictv:MSL36/ICTV20021214",
+      "iri": "http://ictv.global/id/MSL36/ICTV20021214",
+      "label": "Salmon isavirus",
+      "synonyms": [
+        "Infectious salmon anemia virus"
+      ],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL36/ICTV20020287",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL36/ICTV19750009",
+        "http://ictv.global/id/MSL36/ICTV20020287",
+        "http://ictv.global/id/MSL36/ICTV201857095",
+        "http://ictv.global/id/MSL36/ICTV20186016",
+        "http://ictv.global/id/MSL36/ICTV20186017",
+        "http://ictv.global/id/MSL36/ICTV20186023",
+        "http://ictv.global/id/MSL36/ICTV20186024",
+        "http://ictv.global/id/MSL36/ICTV201907198",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL40/ICTV20021214",
+      "was_revision_of": "http://ictv.global/id/MSL35/ICTV20021214",
+      "had_revision": "http://ictv.global/id/MSL37/ICTV20021214",
+      "narrow_match": [],
+      "direct_parent_label": "Isavirus",
+      "lineage": [
+        "Orthomyxoviridae",
+        "Isavirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Insthoviricetes",
+        "Articulavirales",
+        "Orthornavirae",
+        "Viruses"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL40",
+        "ictv_id": "ICTV20021214",
+        "ictv_curie": "ictv:MSL40/ICTV20021214",
+        "iri": "http://ictv.global/id/MSL40/ICTV20021214",
+        "label": "Isavirus salaris",
+        "synonyms": [
+          "Infectious salmon anemia virus",
+          "Salmon isavirus"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20020287",
+        "ancestors_iris": [
+          "http://ictv.global/id/MSL40/ICTV19750009",
+          "http://ictv.global/id/MSL40/ICTV20020287",
+          "http://ictv.global/id/MSL40/ICTV201857095",
+          "http://ictv.global/id/MSL40/ICTV20186016",
+          "http://ictv.global/id/MSL40/ICTV20186017",
+          "http://ictv.global/id/MSL40/ICTV20186023",
+          "http://ictv.global/id/MSL40/ICTV20186024",
+          "http://ictv.global/id/MSL40/ICTV201907198",
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL39/ICTV20021214",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:RNA1: AY373381",
+          "genbank:RNA2: AF404346",
+          "genbank:RNA3: AF404345",
+          "genbank:RNA4: AF404344",
+          "genbank:RNA5: AF404343",
+          "genbank:RNA6: AF404342",
+          "genbank:RNA7: AF404341",
+          "genbank:RNA8: AF404340",
+          "refseq:RNA1: NC_006505",
+          "refseq:RNA2: NC_006503",
+          "refseq:RNA3: NC_006502",
+          "refseq:RNA4: NC_006501",
+          "refseq:RNA5: NC_006500",
+          "refseq:RNA6: NC_006499",
+          "refseq:RNA7: NC_006498",
+          "refseq:RNA8: NC_006497"
+        ],
+        "direct_parent_label": "Isavirus",
+        "lineage": [
+          "Orthomyxoviridae",
+          "Isavirus",
+          "Riboviria",
+          "Negarnaviricota",
+          "Polyploviricotina",
+          "Insthoviricetes",
+          "Articulavirales",
+          "Orthornavirae",
+          "Viruses"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL40",
+      "ictv_id": "ICTV20021214",
+      "ictv_curie": "ictv:MSL40/ICTV20021214",
+      "iri": "http://ictv.global/id/MSL40/ICTV20021214",
+      "label": "Isavirus salaris",
+      "synonyms": [
+        "Infectious salmon anemia virus",
+        "Salmon isavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL40/ICTV20020287",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL40/ICTV19750009",
+        "http://ictv.global/id/MSL40/ICTV20020287",
+        "http://ictv.global/id/MSL40/ICTV201857095",
+        "http://ictv.global/id/MSL40/ICTV20186016",
+        "http://ictv.global/id/MSL40/ICTV20186017",
+        "http://ictv.global/id/MSL40/ICTV20186023",
+        "http://ictv.global/id/MSL40/ICTV20186024",
+        "http://ictv.global/id/MSL40/ICTV201907198",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL39/ICTV20021214",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:RNA1: AY373381",
+        "genbank:RNA2: AF404346",
+        "genbank:RNA3: AF404345",
+        "genbank:RNA4: AF404344",
+        "genbank:RNA5: AF404343",
+        "genbank:RNA6: AF404342",
+        "genbank:RNA7: AF404341",
+        "genbank:RNA8: AF404340",
+        "refseq:RNA1: NC_006505",
+        "refseq:RNA2: NC_006503",
+        "refseq:RNA3: NC_006502",
+        "refseq:RNA4: NC_006501",
+        "refseq:RNA5: NC_006500",
+        "refseq:RNA6: NC_006499",
+        "refseq:RNA7: NC_006498",
+        "refseq:RNA8: NC_006497"
+      ],
+      "direct_parent_label": "Isavirus",
+      "lineage": [
+        "Orthomyxoviridae",
+        "Isavirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Insthoviricetes",
+        "Articulavirales",
+        "Orthornavirae",
+        "Viruses"
+      ]
+    }
   }
 }
