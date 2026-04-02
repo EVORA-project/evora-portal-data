@@ -53,21 +53,26 @@ def load_cache(cache_path: Path) -> Dict[str, Any]:
         try:
             with cache_path.open("r", encoding="utf-8") as f:
                 data = json.load(f)
-            print(f" Loaded ICTV cache from {cache_path} ({len(data)} entries)")
+            entry_count = len([k for k in data if not k.startswith("_")])
+            print(f" Loaded ICTV cache from {cache_path} ({entry_count} entries)")
             return data
         except Exception as e:
             print(f"⚠️ Failed to load cache {cache_path}: {e}")
     return {}
 
 
-def save_cache(cache: Dict[str, Any], cache_path: Path):
+def save_cache(cache: Dict[str, Any], cache_path: Path, ols_updated_at: Optional[str] = None):
     try:
-        cache["_fetched_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        if ols_updated_at:
+            cache["_ols_updated_at"] = ols_updated_at
+        else:
+            cache["_ols_updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
         with cache_path.open("w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
 
-        print(f" Saved ICTV cache to {cache_path} ({len(cache)} entries)")
+        entry_count = len([k for k in cache if not k.startswith("_")])
+        print(f" Saved ICTV cache to {cache_path} ({entry_count} entries)")
     except Exception as e:
         print(f"⚠️ Failed to save cache {cache_path}: {e}")
 
@@ -423,7 +428,7 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
 # Main file processing
 # ============================================================
 
-def enrich_file(input_path: Path, output_path: Path, cache_path: Path):
+def enrich_file(input_path: Path, output_path: Path, cache_path: Path, ols_updated_at: Optional[str]):
     with input_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -441,7 +446,7 @@ def enrich_file(input_path: Path, output_path: Path, cache_path: Path):
     cache = resolve_all_labels(labels, cache, max_workers=8)
 
     # 4) Save cache
-    save_cache(cache, cache_path)
+    save_cache(cache, cache_path, ols_updated_at)
 
     # 5) Enrich all entities using cached results
     enrich_graph_with_cache(graph, cache)
@@ -472,18 +477,19 @@ def main() -> int:
         "-c",
         help="Cache file path (default: ictv_cache.json next to input)",
     )
-
+    parser.add_argument('--ols_updated_at', type=str, help="Timestamp string")
     args = parser.parse_args()
 
     input_path = Path(args.input)
     output_path = Path(args.output)
+    ols_updated_at = args.ols_updated_at
 
     if args.cache:
         cache_path = Path(args.cache)
     else:
         cache_path = input_path.with_name("ictv_cache.json")
 
-    enrich_file(input_path, output_path, cache_path)
+    enrich_file(input_path, output_path, cache_path, ols_updated_at)
     return 0
 
 
