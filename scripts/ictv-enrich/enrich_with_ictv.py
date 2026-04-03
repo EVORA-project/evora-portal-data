@@ -5,7 +5,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Dict, Any, Optional, Set
+from typing import Dict, Any, Optional, Set, List
 from datetime import datetime, timezone
 
 from ictv_api import ICTVOLSClient  # fetched by workflow into this folder
@@ -103,15 +103,206 @@ def collect_labels_for_resolution(graph) -> Set[str]:
                 labels.add(str(t).strip())
 
     return labels
+def normalize_str_list(values: Any) -> List[str]:
+    if values is None:
+        return []
+    if isinstance(values, list):
+        return [str(v).strip() for v in values if str(v).strip()]
+    v = str(values).strip()
+    return [v] if v else []
+
+
+def should_fallback_to_historical_parent(res: Dict[str, Any]) -> bool:
+    """
+    EVORA fallback policy:
+    - obsolete + reason == SPLIT
+    - obsolete + several replacements
+    - obsolete + no replacement
+    """
+    if not isinstance(res, dict):
+        return False
+
+    if res.get("status") != "obsolete":
+        return False
+
+    reason = str(res.get("reason") or "").strip().upper()
+    replacements = res.get("replacements") or []
+
+    if reason == "SPLIT":
+        return True
+
+    if not replacements:
+        return True
+
+    if isinstance(replacements, list) and len(replacements) > 1:
+        return True
+
+    return False
+
+
+def unique_preserve_order(values: List[str]) -> List[str]:
+    seen = set()
+    out = []
+    for v in values:
+        s = str(v).strip()
+        if not s or s in seen:
+            continue
+        seen.add(s)
+        out.append(s)
+    return out
+
+
+def collect_revision_names(
+    client: ICTVOLSClient,
+    res: Dict[str, Any],
+    original_label: Optional[str],
+) -> List[str]:
+    """
+    Collect names to preserve as alternate names / search terms:
+    - original matched label
+    - obsolete label
+    - obsolete synonyms
+    - terminal replacement labels
+    - terminal replacement synonyms
+    """
+    names: List[str] = []
+
+    if original_label:
+        names.append(original_label)
+
+    obsolete = res.get("obsolete")
+    if isinstance(obsolete, dict):
+        if obsolete.get("label"):
+            names.append(obsolete["label"])
+        names.extend(normalize_str_list(obsolete.get("synonyms")))
+
+        # NEW: include revision-chain labels if available
+        history = robust_call(client.getHistory, obsolete)
+        if isinstance(history, list):
+            for h in history:
+                if isinstance(h, dict):
+                    if h.get("label"):
+                        names.append(h["label"])
+                    names.extend(normalize_str_list(h.get("synonyms")))
+
+    replacements = res.get("replacements") or []
+    if isinstance(replacements, list):
+        for rep in replacements:
+            if isinstance(rep, dict):
+                if rep.get("label"):
+                    names.append(rep["label"])
+                names.extend(normalize_str_list(rep.get("synonyms")))
+
+    return unique_preserve_order(names)
+
+
+def resolve_historical_parent_fallback(
+    client: ICTVOLSClient,
+    obsolete_entity: Dict[str, Any],
+    max_depth: int = 5,
+) -> Optional[Dict[str, Any]]:
+    """
+    Walk revision links upward using getHistoricalParent(), then resolve the
+    first parent revision found to its latest current/final taxon.
+    """
+    current = obsolete_entity
+    seen_iris = set()
+    depth = 0
+
+    while isinstance(current, dict) and depth < max_depth:
+        iri = current.get("iri")
+        if iri:
+            if iri in seen_iris:
+                break
+            seen_iris.add(iri)
+
+        historical_parent = robust_call(client.getHistoricalParent, current)
+        if not isinstance(historical_parent, dict):
+            break
+
+        parent_label = historical_parent.get("label")
+        if not parent_label:
+            break
+
+        parent_res = robust_call(client.resolveToLatest, parent_label)
+        if isinstance(parent_res, dict):
+            target = choose_evora_target(client, parent_res, depth=depth + 1, max_depth=max_depth)
+            if isinstance(target, dict):
+                return target
+
+        current = historical_parent
+        depth += 1
+
+    return None
+
+
+def choose_evora_target(
+    client: ICTVOLSClient,
+    res: Dict[str, Any],
+    depth: int = 0,
+    max_depth: int = 5,
+) -> Optional[Dict[str, Any]]:
+    """
+    Choose the taxon EVORA should actually use.
+
+    Rules:
+    - current => current
+    - obsolete + SPLIT / multi replacements / no replacements => fallback through historical parent
+    - obsolete otherwise => final if present, else obsolete
+    """
+    if not isinstance(res, dict):
+        return None
+
+    if depth > max_depth:
+        return None
+
+    status = res.get("status")
+
+    if status == "current":
+        return res.get("current")
+
+    if status != "obsolete":
+        return None
+
+    if should_fallback_to_historical_parent(res):
+        obsolete = res.get("obsolete")
+        if isinstance(obsolete, dict):
+            parent_target = resolve_historical_parent_fallback(
+                client,
+                obsolete,
+                max_depth=max_depth,
+            )
+            if isinstance(parent_target, dict):
+                return parent_target
+
+        # last resort: keep direct final if any, otherwise obsolete
+        return res.get("final") or res.get("obsolete")
+
+    return res.get("final") or res.get("obsolete")
 
 
 def resolve_label_once(label: str) -> Optional[Dict[str, Any]]:
     """
     Worker: each thread uses its own ICTV client.
-    Wrapped in robust_call, so it never raises.
+    Returns original ICTV resolution + EVORA-specific target + preserved labels.
     """
     client = ICTVOLSClient()
-    return robust_call(client.resolveToLatest, label)
+    res = robust_call(client.resolveToLatest, label)
+    if not isinstance(res, dict):
+        return None
+
+    target = choose_evora_target(client, res)
+    preserved_names = collect_revision_names(client, res, label)
+
+    res["_evora_target"] = target
+    res["_evora_preserved_names"] = preserved_names
+    res["_evora_strategy"] = (
+        "historical-parent-fallback"
+        if should_fallback_to_historical_parent(res)
+        else "direct"
+    )
+    return res
+
 
 
 def resolve_all_labels(labels: Set[str], cache: Dict[str, Any], max_workers: int = 8):
@@ -161,6 +352,10 @@ def pick_best_ictv_entity(res: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if not isinstance(res, dict):
         return None
 
+    target = res.get("_evora_target")
+    if isinstance(target, dict):
+        return target
+
     status = res.get("status")
     if status == "current":
         return res.get("current")
@@ -174,7 +369,8 @@ def ictv_entity_to_evorao_taxon(
     ent: Dict[str, Any],
     original_label: Optional[str],
     existing_taxon: Optional[Dict[str, Any]] = None,
-) -> Dict[str, Any]:
+    +    preserved_names: Optional[List[str]] = None,
+ ) -> Dict[str, Any]:
     """
     Build an EVORAO:Taxon structure using ONLY existing EVORAO properties:
       - dcterms:title
@@ -262,7 +458,17 @@ def ictv_entity_to_evorao_taxon(
                     "dcterms:title": orig_clean,
                 }
             )
-
+    # preserved revision / replacement names
+    for name in preserved_names or []:
+        name_clean = str(name).strip()
+        if name_clean and name_clean != label:
+            alt_objs.append(
+                {
+                    "@type": "EVORAO:AlternateName",
+                    "dcterms:title": name_clean,
+                }
+            )
+            
     # Merge with any existing AlternateName entries, if present
     if isinstance(existing_taxon, dict):
         existing_alts = existing_taxon.get("EVORAO:alternateName") or []
@@ -308,6 +514,7 @@ def expand_search_fields(
     taxon_obj: Dict[str, Any],
     original_label: Optional[str],
     ent: Dict[str, Any],
+    preserved_names: Optional[List[str]] = None,
 ):
     """
     Populate dcat:keyword, and search:taxon
@@ -347,6 +554,10 @@ def expand_search_fields(
     # Lineage (ancestors labels)
     for l in taxon_obj.get("EVORAO:lineage", []):
         labels.append(str(l))
+        
+   # Preserved revision/replacement labels
+    for p in preserved_names or []:
+        labels.append(str(p))
 
     # Deduplicate, keep order, remove empty
     labels = list(dict.fromkeys([x for x in labels if x]))
@@ -409,16 +620,38 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
         if not ent:
             continue
 
+        preserved_names = []
+        strategy = None
+        if isinstance(resolved, dict):
+            preserved_names = resolved.get("_evora_preserved_names") or []
+            strategy = resolved.get("_evora_strategy")
+
+        # preserve original matched name better
+        original_for_altname = taxon_label or virus_name
+        
         # 3) Build EVORAO-compliant Taxon, preserving @id if possible
         new_taxon = ictv_entity_to_evorao_taxon(
             ent,
-            taxon_label,
+            original_for_altname,
             existing_taxon=existing_taxon,
+            preserved_names=preserved_names,
         )
         pid["EVORAO:taxon"] = new_taxon
 
         # 4) Expand search fields (keywords, taxon search)
-        expand_search_fields(node, new_taxon, taxon_label, ent)
+        expand_search_fields(
+            node,
+            new_taxon,
+            original_for_altname,
+            ent,
+            preserved_names=preserved_names,
+        )
+
+        # lightweight logging for fallback cases
+        if strategy == "historical-parent-fallback":
+            src = virus_name or taxon_label or "?"
+            dst = ent.get("label") or "?"
+            print(f"ℹ️ Historical-parent fallback used for '{src}' -> '{dst}'")
 
         if i % 50 == 0 or i == total:
             print(f" → enriched {i}/{total}")
