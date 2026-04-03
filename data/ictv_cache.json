@@ -93812,5 +93812,223 @@
         "Viruses"
       ]
     }
+  },
+  "tick-borne encephalitis virus 2": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV202523329",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV202523329",
+      "ictv_curie": "ictv:MSL41/ICTV202523329",
+      "iri": "http://ictv.global/id/MSL41/ICTV202523329",
+      "label": "Orthoflavivirus neudoerflense",
+      "synonyms": [
+        "TBEV2"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV202521971",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL41/ICTV19710016",
+        "http://ictv.global/id/MSL41/ICTV19840011",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV201907217",
+        "http://ictv.global/id/MSL41/ICTV201907218",
+        "http://ictv.global/id/MSL41/ICTV201907219",
+        "http://ictv.global/id/MSL41/ICTV202521971",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV19790934",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:U27495"
+      ],
+      "direct_parent_label": "Euflavivirus",
+      "lineage": [
+        "Orthoflavivirus",
+        "Flaviviridae",
+        "Riboviria",
+        "Orthornavirae",
+        "Kitrinoviricota",
+        "Flasuviricetes",
+        "Amarillovirales",
+        "Euflavivirus",
+        "Viruses"
+      ]
+    },
+    "ncbi": []
+  },
+  "Influenza virus": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL3/ICTV19710226",
+    "obsolete": {
+      "msl": "MSL3",
+      "ictv_id": "ICTV19710226",
+      "ictv_curie": "ictv:MSL3/ICTV19710226",
+      "iri": "http://ictv.global/id/MSL3/ICTV19710226",
+      "label": "Influenza virus",
+      "synonyms": [],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL3/ICTV19710033",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL3/ICTV19710033",
+        "http://ictv.global/id/MSL3/ICTV19750009",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL41/ICTV19710226",
+      "was_revision_of": "http://ictv.global/id/MSL2/ICTV19710226",
+      "had_revision": "http://ictv.global/id/MSL4/ICTV19710226",
+      "narrow_match": [],
+      "direct_parent_label": "Influenzavirus",
+      "lineage": [
+        "Influenzavirus",
+        "Orthomyxoviridae",
+        "Viruses"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL41",
+        "ictv_id": "ICTV19710226",
+        "ictv_curie": "ictv:MSL41/ICTV19710226",
+        "iri": "http://ictv.global/id/MSL41/ICTV19710226",
+        "label": "Alphainfluenzavirus influenzae",
+        "synonyms": [
+          "Influenza A virus",
+          "Influenza virus A",
+          "Influenza virus"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19960203",
+        "ancestors_iris": [
+          "http://ictv.global/id/MSL41/ICTV19750009",
+          "http://ictv.global/id/MSL41/ICTV19960203",
+          "http://ictv.global/id/MSL41/ICTV201857095",
+          "http://ictv.global/id/MSL41/ICTV20186016",
+          "http://ictv.global/id/MSL41/ICTV20186017",
+          "http://ictv.global/id/MSL41/ICTV20186023",
+          "http://ictv.global/id/MSL41/ICTV20186024",
+          "http://ictv.global/id/MSL41/ICTV201907198",
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL40/ICTV19710226",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:RNA1: V00603",
+          "genbank:RNA2: J02151",
+          "genbank:RNA3: V01106",
+          "genbank:RNA4: V01088",
+          "genbank:RNA5: J02147",
+          "genbank:RNA6: J02146",
+          "genbank:RNA7: V01099",
+          "genbank:RNA8: J02150",
+          "refseq:RNA1: NC_002023",
+          "refseq:RNA2: NC_002021",
+          "refseq:RNA3: NC_002022",
+          "refseq:RNA4: NC_002017",
+          "refseq:RNA5: NC_002019",
+          "refseq:RNA6: NC_002018",
+          "refseq:RNA7: NC_002016",
+          "refseq:RNA8: NC_002020"
+        ],
+        "direct_parent_label": "Alphainfluenzavirus",
+        "lineage": [
+          "Orthomyxoviridae",
+          "Alphainfluenzavirus",
+          "Riboviria",
+          "Negarnaviricota",
+          "Polyploviricotina",
+          "Insthoviricetes",
+          "Articulavirales",
+          "Orthornavirae",
+          "Viruses"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV19710226",
+      "ictv_curie": "ictv:MSL41/ICTV19710226",
+      "iri": "http://ictv.global/id/MSL41/ICTV19710226",
+      "label": "Alphainfluenzavirus influenzae",
+      "synonyms": [
+        "Influenza A virus",
+        "Influenza virus A",
+        "Influenza virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19960203",
+      "ancestors_iris": [
+        "http://ictv.global/id/MSL41/ICTV19750009",
+        "http://ictv.global/id/MSL41/ICTV19960203",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186017",
+        "http://ictv.global/id/MSL41/ICTV20186023",
+        "http://ictv.global/id/MSL41/ICTV20186024",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV19710226",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:RNA1: V00603",
+        "genbank:RNA2: J02151",
+        "genbank:RNA3: V01106",
+        "genbank:RNA4: V01088",
+        "genbank:RNA5: J02147",
+        "genbank:RNA6: J02146",
+        "genbank:RNA7: V01099",
+        "genbank:RNA8: J02150",
+        "refseq:RNA1: NC_002023",
+        "refseq:RNA2: NC_002021",
+        "refseq:RNA3: NC_002022",
+        "refseq:RNA4: NC_002017",
+        "refseq:RNA5: NC_002019",
+        "refseq:RNA6: NC_002018",
+        "refseq:RNA7: NC_002016",
+        "refseq:RNA8: NC_002020"
+      ],
+      "direct_parent_label": "Alphainfluenzavirus",
+      "lineage": [
+        "Orthomyxoviridae",
+        "Alphainfluenzavirus",
+        "Riboviria",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Insthoviricetes",
+        "Articulavirales",
+        "Orthornavirae",
+        "Viruses"
+      ]
+    }
   }
 }

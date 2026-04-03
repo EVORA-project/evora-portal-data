@@ -22,6 +22,579 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
+      "EVORAO:refSku": "007V-02835",
+      "@id": "urn:evorao:EVA:UL:007V-02835",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-coxsackievirus-a16",
+      "dcterms:issued": "2018-04-06T11:06:14+02:00",
+      "dcterms:modified": "2021-06-03T15:11:46+02:00",
+      "dcterms:title": "Human Coxsackievirus A16",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Coxsackievirus A16 (isolate 4394/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-10-04",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "LLC-MK2"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "placenta"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "CoxA16",
+        "Coxsackievirus A16",
+        "Human Coxsackievirus A16",
+        "Human coxsackievirus A16",
+        "Human virus",
+        "LLC-MK2",
+        "Patient",
+        "placenta",
+        "RG2",
+        "Slovenia",
+        "Dry ice",
+        "Enterovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-10-04",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTTACGACACACCACCCCCTGGATTGAGGGCATGTGCTCCGCAGTTAGGATTAGCCGCAT\nTCAGGGGCCGGAGGACCACTGGCTAGCTCAATAGACTCTTCACACCATGTCTGTATTAGA\nGCGTCCCATGGGTTACCCCATGGGCAGGCCGCCAACGCAGCCACTGCCACGGTCACCCGT\nGGGGTTCGCAGTGACTCATCGACCTGATCTACACGGGGGTAGTGCTGAGCGAAACACTCT\nGCAACTTTCATGATGCTACTGGGTTTCTCGAAGTAGCCAGCCGGGTGACGAACGTTT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human coxsackievirus A16"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 4394/10",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02835",
+      "search:title": "Human Coxsackievirus A16",
+      "search:description": "Infectious cell culture supernatant. This Human Coxsackievirus A16 (isolate 4394/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Enterovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, placenta",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human coxsackievirus A16"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02900",
+      "@id": "urn:evorao:EVA:UL:007V-02900",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/herpes-simplex-virus-1-human-alphaherpesvirus-1-0",
+      "dcterms:issued": "2018-05-21T10:16:40+02:00",
+      "dcterms:modified": "2021-06-03T15:11:04+02:00",
+      "dcterms:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "dcterms:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 4121/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-09-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "2nd passage",
+      "EVORAO:previouslyKnownAs": "herpes simplex virus type 1 (HSV-1)",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "MRC-5"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "conjunctival swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "conjunctival swab",
+        "Herpes simplex virus",
+        "herpes simplex virus type 1 (HSV-1)",
+        "HHV",
+        "HHV 1",
+        "HSV",
+        "HSV 1",
+        "human alphaherpesvirus",
+        "Human alphaherpesvirus 1",
+        "Human virus",
+        "MRC-5",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-09-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTGGCTATGGCAGGGCCTGCCGCCCCGACGTTGGCTGCGAGCCCTGGGCCTTCACCCGAA\nCTTGGGGGGTGGGGTGGGGAAAAGGAAGAAACGCGGGCGTATTGGCCCCAATGGGGTCTC\nGGTGGGGTATCGACAGAGTGCCAGCCCTGGGACCGAACCCCGCGTTTATGAACAAACGAC\nCCAACACCCGTGCGTTTTATTCTGTCTTTTTATTGCCGTCATAGCGCGGGTTCCTTCCGG\nTATTGTCTCCTTCCGTGTTTCAGTGAGCCTCCCCCATCTCCCGGGCAAACGTGCGCGCCA\nGGTCGCARATCGTCGGTATGGAGCCTGGGGTGGTGACATGGGTCTGGACCATCCCGGAGG\nTAAGTTGCAGCAGGGCGTCCCGGCAGCCGGCGGGCGATTGGTCGTAATCCAGGATAAAGA\nCGTGCATGGGACGGAGGCGTTTGGCCAARACGTCCAAGGCCCAGGCAAACACGTTGTACA\nGGTCGCCGTTGGGGGCCAGCAACTCGGGGGCCCGAAACAGGGTAAATAACGTTTCCCCGA\nTATGGGGTCGTGGGCCCGCGTTGCTCTGGGGCTCGGCACCCTGGGGCGTCAAGGCCGTCC\nCCGAAAGCTGTCCCCAATCCTCCCGCCACGACCCGCCGCACTGCARATACCGCACCGTAT\nTGGCAAGTAGCCCGTAAACGCGGCGAATCGCGGCCAGCATAGCCAGGTCAAGCCGCTCAC\nCGGGGCGCTGGCGTTTGGCCAGGCGGTCGATGTGTCTGTCCTCCGGAAGGGCCC"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 4121/10",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02900",
+      "search:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "search:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 4121/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human alphaherpesvirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, conjunctival swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human alphaherpesvirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02758",
+      "@id": "urn:evorao:EVA:UL:007V-02758",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-5-1",
+      "dcterms:issued": "2018-03-14T10:47:07+01:00",
+      "dcterms:modified": "2021-06-03T15:08:43+02:00",
+      "dcterms:title": "Human Mastadenovirus C, Type 5",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 5 (isolate 2552/10) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-04-15",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "A549"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "tracheal aspirate"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "A549",
+        "Adenovirus",
+        "AdV5",
+        "Category B",
+        "UN3373",
+        "Human adenovirus 5",
+        "Human mastadenovirus",
+        "Human virus",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "tracheal aspirate",
+        "Dry ice",
+        "Human mastadenovirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-04-15",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "AAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTCATGTCTAGCGCAT\nGGGCGGAGTTGGCGTAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCGCCCATGGACATAA\nAGTTACTGGAGAATGGGATGCGCCAAAGGGTGCGATCGCAAAGAAACTTTTTCTGGGTAA\nTGCTGTCAACTGCGGTCTTGCCTATAAGCGGATAGGGGAAGTTAGCAGGGTAGGCCTGTC\nCTTCGCGCACGGTGGGGGCAAGGTAGCCAACAAATCCAGAGTTGTTGTGTTGGTGTAGGA\nTGCCCACCTGTTGGTAGTCTTTGTATTTAGTATCATCCACCACCTGACGGCTCATGGGCT\nGGAAGTTTCTAAAGAAGGAGTACATGCGGTCCTTGTAGCTCTCTGGGATATAGAAGCCCT\nGGTAGCCAATGTTATAGTTAGCTAGCATTTGTACCAGGAACCAGTCTTTGGTCATGTTAC\nACTGGGCAACGTTGTAACCCTCCCCGTCAACTGAGCGCTTAATTTCAAACTCGTTGGGGG\nTAAGCAGGCGGTCATTGCCAGGCCAGCTGACAGAAGAGTCAAAGGTAATGGCCACCTTCT\nTAAAGGTGTGGTTGAGGTAAAAGGTTCCATCTAGGTAGGGTATAGAGCCAGAGTAGGTGT\nAATAAGGGTCGTAGCCCGAGCCCAGTGATGGGGTTTCCTTAGTTTTAAGGCGCGTGAAGG\nCCCAGCCGCGGAAAGCCGCCCAGTTGCGGGAGGGGATGGATATGGGCACGTTGGTAGCGT\nTGGCGGGTATAGGGTAGAGCATGTTGGCGGCGGAGAGATAGTCGTTAAAGGACTGGTCGT\nTGGTGTCGT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human adenovirus 5"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human mastadenovirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 2552/10",
+        "EVORAO:serotype": "Type 5",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02758",
+      "search:title": "Human Mastadenovirus C, Type 5",
+      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 5 (isolate 2552/10) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human mastadenovirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, tracheal aspirate",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human adenovirus 5"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02834",
+      "@id": "urn:evorao:EVA:UL:007V-02834",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-coxsackievirus-b3",
+      "dcterms:issued": "2018-04-06T11:01:33+02:00",
+      "dcterms:modified": "2021-06-03T15:02:48+02:00",
+      "dcterms:title": "Human Coxsackievirus B3",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Coxsackievirus B3 (isolate 3096/08) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2008-12-12",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "LLC-MK2"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "heart tissue"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "coxB3",
+        "Coxsackievirus",
+        "coxsackievirus B3",
+        "enterovirus",
+        "heart tissue",
+        "Human virus",
+        "LLC-MK2",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "Dry ice",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2008-12-12",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GACAGACTGCCCACTGGCATGTGAGTATCTGCTCCGCAGTTAGGATTAGCCGCATTCAGG\nGGCCGGAGGACTACCAATTAGCTCAATAGACTCTTCACACCATGTCAGTATTGAAGCGTC\nCCATGGGTTGTCCCATGGGCAGGCCGCCAGCGCAGCCACCGCCACGGTCGCCCGTGGGGA\nACGCGATGACTCATCGGCCTGATCTACACTGGGGTTGTGTGGAGCGAAACACTGCGCAAC\nTTTCATGGTGGTACTAGGTTTTTCGAAGTAATTGGTCGGGTAACGAACGCTTTCCCCTTC\nAGCCGCGCGAGCAG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "coxsackievirus B3"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 3096/2008",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02834",
+      "search:title": "Human Coxsackievirus B3",
+      "search:description": "Infectious cell culture supernatant. This Human Coxsackievirus B3 (isolate 3096/08) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, heart tissue",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "coxsackievirus B3"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
       "EVORAO:refSku": "007V-02759",
       "@id": "urn:evorao:EVA:UL:007V-02759",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-1-0",
@@ -129875,408 +130448,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "Salmon pancreas disease virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01747",
-      "@id": "urn:evorao:EVA:FLI:015A-01747",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-african-horse-sickness-virus-ahsv-9",
-      "dcterms:issued": "2016-07-08T13:19:51+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-African horse sickness virus (AHSV 9)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-AHSV 9 antibodies; targeted antigen: unknown; clone: 9/21a; immunization antigen: inactivated isolate of AHSV 9",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with all tested isolates of AHSV 9, not-reactive with tested isolate of AHSV 4",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "African horse sickness virus",
-        "ahsv",
-        "monoclonal antibody",
-        "No RG"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "African horse sickness virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "African horse sickness virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01747",
-      "search:title": "murine mAb: anti-African horse sickness virus (AHSV 9)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-AHSV 9 antibodies; targeted antigen: unknown; clone: 9/21a; immunization antigen: inactivated isolate of AHSV 9",
-      "search:taxonLabel": "African horse sickness virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "African horse sickness virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01746",
-      "@id": "urn:evorao:EVA:FLI:015A-01746",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-bluetongue-virus-anti-btv",
-      "dcterms:issued": "2016-07-08T13:08:38+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Bluetongue virus (anti-BTV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: unknown; clone: 12G11; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with all BTV serotypes",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with all tested BTV serotypes, not reactive with EHDV 1-4",
-      "EVORAO:antibodyCharacterizationObservation": "no other characterization methods tested",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Bluetongue virus",
-        "BTV",
-        "monoclonal antibody",
-        "No RG"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": [
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Bluetongue virus"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "BTV"
-          }
-        ],
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bluetongue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": "all"
-      },
-      "search:sku": "015A-01746",
-      "search:title": "murine mAb: anti-Bluetongue virus (anti-BTV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: unknown; clone: 12G11; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with all BTV serotypes",
-      "search:taxonLabel": "Bluetongue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Bluetongue virus, BTV"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01745",
-      "@id": "urn:evorao:EVA:FLI:015A-01745",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv11",
-      "dcterms:issued": "2016-07-07T17:00:46+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV11)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV11) antibodies; targeted antigen: unknown; clone: 3C3; immunization antigen: inactivated strain \"Dresden\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with tested isolates of serotype 11, not-reactive with isolates of serotypes 1-10",
-      "EVORAO:antibodyCharacterizationObservation": "murine IgG2a, other characterization methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "anti-Teschovirus A",
-        "monoclonal antibody",
-        "No RG",
-        "Porcine teschovirus",
-        "Porcine teschovirus (PTV11)",
-        "PTV",
-        "Teschovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine teschovirus (PTV11)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Teschovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": 11
-      },
-      "search:sku": "015A-01745",
-      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV11)",
-      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV11) antibodies; targeted antigen: unknown; clone: 3C3; immunization antigen: inactivated strain \"Dresden\"",
-      "search:taxonLabel": "Teschovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine teschovirus (PTV11)"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01744",
-      "@id": "urn:evorao:EVA:FLI:015A-01744",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv10",
-      "dcterms:issued": "2016-07-07T16:58:32+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV10)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV10) antibodies; targeted antigen: unknown; clone: 15G7; immunization antigen: inactivated strain \"VIR 460/88\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with most of the tested isolates of serotype 10, not-reactive with isolates of serotypes 1-9 and 11",
-      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "anti-Teschovirus A",
-        "monoclonal antibody",
-        "No RG",
-        "Porcine teschovirus",
-        "Porcine teschovirus (PTV10)",
-        "PTV",
-        "Teschovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine teschovirus (PTV10)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Teschovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:serotype": 10
-      },
-      "search:sku": "015A-01744",
-      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV10)",
-      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV10) antibodies; targeted antigen: unknown; clone: 15G7; immunization antigen: inactivated strain \"VIR 460/88\"",
-      "search:taxonLabel": "Teschovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Porcine teschovirus (PTV10)"
     }
   ]
 }

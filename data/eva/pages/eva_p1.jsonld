@@ -17,6 +17,565 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019S-06368",
+      "@id": "urn:evorao:EVA:HPI:019S-06368",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/advanced-training-respiratory-syncytial-virus-wgs-using-oxford-nanopore-technology",
+      "dcterms:issued": "2026-04-03T15:25:53+02:00",
+      "dcterms:modified": "2026-04-03T15:36:56+02:00",
+      "dcterms:title": "Advanced Training: Respiratory Syncytial Virus WGS Using Oxford Nanopore Technology",
+      "dcterms:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) invite laboratory professionals to an intensive 4-day hands-on training course offering cutting-edge Next-Generation Sequencing (NGS) training for Respiratory Syncytial Virus (RSV), using Oxford Nanopore Technology. This program combines high-quality sequencing analysis with practical training modules, enabling participants to confidently implement and interpret RSV genomic analysis in their home laboratories. Participants will have the opportunity to engage in real-life RSV surveillance practises at the National Influenza Reference Laboratory of Southern Greece.\r\nParticipants will gain both theoretical knowledge and hands-on experience in key NGS workflows, including: \r\n1. Viral RNA extraction for NGS applications, \r\n2. Library preparation, \r\n3. Operation of Oxford Nanopore platforms, \r\n4. Data Processing Workflow: Basecalling, Alignment, and Assembly,\r\n5. NGS data quality control and validation, \r\n6. Basic bioinformatics pipelines for RSV genomics and variant analysis. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "EVORAO:unitDefinition": "4 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 2200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "skos:note": "For more information before ordering, please contact emmanouilm@pasteur.gr",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "dcat:keyword": [
+        "Service",
+        "Derived product",
+        "HPI",
+        "Viruses",
+        "Animal virus",
+        "Data Processing",
+        "Human respiratory syncytial virus",
+        "Human virus",
+        "Library preparation",
+        "Next-Generation Sequencing",
+        "NGS",
+        "NGS data quality control",
+        "NGS data validation",
+        "Respiratory Syncytial Virus",
+        "RG2",
+        "RSV",
+        "WGS",
+        "Whole-genome sequencing"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human respiratory syncytial virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "019S-06368",
+      "search:title": "Advanced Training: Respiratory Syncytial Virus WGS Using Oxford Nanopore Technology",
+      "search:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) invite laboratory professionals to an intensive 4-day hands-on training course offering cutting-edge Next-Generation Sequencing (NGS) training for Respiratory Syncytial Virus (RSV), using Oxford Nanopore Technology. This program combines high-quality sequencing analysis with practical training modules, enabling participants to confidently implement and interpret RSV genomic analysis in their home laboratories. Participants will have the opportunity to engage in real-life RSV surveillance practises at the National Influenza Reference Laboratory of Southern Greece.\r\nParticipants will gain both theoretical knowledge and hands-on experience in key NGS workflows, including: \r\n1. Viral RNA extraction for NGS applications, \r\n2. Library preparation, \r\n3. Operation of Oxford Nanopore platforms, \r\n4. Data Processing Workflow: Basecalling, Alignment, and Assembly,\r\n5. NGS data quality control and validation, \r\n6. Basic bioinformatics pipelines for RSV genomics and variant analysis. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "HPI",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Human respiratory syncytial virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019S-06369",
+      "@id": "urn:evorao:EVA:HPI:019S-06369",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/advanced-training-influenza-virus-wgs-using-oxford-nanopore-technology",
+      "dcterms:issued": "2026-04-03T15:29:37+02:00",
+      "dcterms:modified": "2026-04-03T15:35:58+02:00",
+      "dcterms:title": "Advanced Training: Influenza Virus WGS Using Oxford Nanopore Technology",
+      "dcterms:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) invite laboratory professionals to an intensive 4-day hands-on training course offering cutting-edge Next-Generation Sequencing (NGS) training for Influenza Virus, using Oxford Nanopore Technology. This program integrates high-quality sequencing analysis with hands-on training, providing skills to generate, analyze, and interpret Influenza genomic data for research, surveillance, and diagnostics. Participants will have the opportunity to engage in real-life Influenza surveillance practises at the National Influenza Reference Laboratory of Southern Greece.\r\n\r\nParticipants will gain both theoretical knowledge and hands-on experience in key NGS workflows, including: \r\n1. Viral RNA extraction for NGS applications,\r\n2. Library preparation, \r\n3. Operation of Oxford Nanopore platforms, \r\n4. Data Processing Workflow: Basecalling, Alignment, and Assembly,\r\n5. NGS data quality control and validation, \r\n6. Basic bioinformatics pipelines for Influenza virus genomics,\r\n7. Bioinformatics tools for variant analysis and mutation detection. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "EVORAO:unitDefinition": "4 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 2200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "skos:note": "or more information before ordering, please contact emmanouilm@pasteur.gr",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "dcat:keyword": [
+        "Service",
+        "Derived product",
+        "HPI",
+        "Viruses",
+        "Data Processing",
+        "Human virus",
+        "Influenza virus",
+        "Library preparation",
+        "Next-Generation Sequencing",
+        "NGS",
+        "NGS data quality control",
+        "NGS data validation",
+        "RG2",
+        "WGS",
+        "Whole-genome sequencing"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Influenza virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "019S-06369",
+      "search:title": "Advanced Training: Influenza Virus WGS Using Oxford Nanopore Technology",
+      "search:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) invite laboratory professionals to an intensive 4-day hands-on training course offering cutting-edge Next-Generation Sequencing (NGS) training for Influenza Virus, using Oxford Nanopore Technology. This program integrates high-quality sequencing analysis with hands-on training, providing skills to generate, analyze, and interpret Influenza genomic data for research, surveillance, and diagnostics. Participants will have the opportunity to engage in real-life Influenza surveillance practises at the National Influenza Reference Laboratory of Southern Greece.\r\n\r\nParticipants will gain both theoretical knowledge and hands-on experience in key NGS workflows, including: \r\n1. Viral RNA extraction for NGS applications,\r\n2. Library preparation, \r\n3. Operation of Oxford Nanopore platforms, \r\n4. Data Processing Workflow: Basecalling, Alignment, and Assembly,\r\n5. NGS data quality control and validation, \r\n6. Basic bioinformatics pipelines for Influenza virus genomics,\r\n7. Bioinformatics tools for variant analysis and mutation detection. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "HPI",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Influenza virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019S-06370",
+      "@id": "urn:evorao:EVA:HPI:019S-06370",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/advanced-training-influenza-rsv-wgs-using-oxford-nanopore-technology",
+      "dcterms:issued": "2026-04-03T15:33:53+02:00",
+      "dcterms:modified": "2026-04-03T15:34:48+02:00",
+      "dcterms:title": "Advanced Training: Influenza &amp; RSV WGS Using Oxford Nanopore Technology",
+      "dcterms:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) offer a comprehensive 5-day training course on Next-Generation Sequencing (NGS) for Influenza and Respiratory Syncytial Virus (RSV), using Oxford Nanopore Technology. This course is designed to provide participants with the knowledge and practical skills required to perform whole-genome sequencing and analysis of two major respiratory viruses—Influenza and RSV—supporting surveillance, research, and diagnostic development. Participants will have the opportunity to engage in real-life Influenza and RSV practises at the National Influenza Reference Laboratory of Southern Greece.\r\nParticipants will gain both theoretical knowledge and hands-on experience in key NGS workflows, including:\r\n1. Viral RNA extraction for NGS applications,\r\n2. Library preparation for multiplexed sequencing, \r\n3. Operation of Oxford Nanopore platforms, \r\n4. Data Processing Workflow: Basecalling, Alignment, and Assembly,\r\n5. NGS data quality control and validation, \r\n6. Basic bioinformatics pipelines for Influenza and RSV virus genomics,\r\n7. Bioinformatics tools for variant analysis and mutation detection. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "EVORAO:unitDefinition": "5 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 2400,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "skos:note": "For more information before ordering, please contact emmanouilm@pasteur.gr",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "dcat:keyword": [
+        "Service",
+        "Derived product",
+        "HPI",
+        "Viruses",
+        "Data Processing",
+        "Human respiratory syncytial virus",
+        "Human virus",
+        "Influenza",
+        "Influenza virus",
+        "Library preparation",
+        "Next-Generation Sequencing",
+        "NGS",
+        "NGS data quality control",
+        "NGS data validation",
+        "Respiratory Syncytial Virus",
+        "RG2",
+        "RSV",
+        "WGS",
+        "Whole-genome sequencing"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Human respiratory syncytial virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Influenza virus"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "019S-06370",
+      "search:title": "Advanced Training: Influenza &amp; RSV WGS Using Oxford Nanopore Technology",
+      "search:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) offer a comprehensive 5-day training course on Next-Generation Sequencing (NGS) for Influenza and Respiratory Syncytial Virus (RSV), using Oxford Nanopore Technology. This course is designed to provide participants with the knowledge and practical skills required to perform whole-genome sequencing and analysis of two major respiratory viruses—Influenza and RSV—supporting surveillance, research, and diagnostic development. Participants will have the opportunity to engage in real-life Influenza and RSV practises at the National Influenza Reference Laboratory of Southern Greece.\r\nParticipants will gain both theoretical knowledge and hands-on experience in key NGS workflows, including:\r\n1. Viral RNA extraction for NGS applications,\r\n2. Library preparation for multiplexed sequencing, \r\n3. Operation of Oxford Nanopore platforms, \r\n4. Data Processing Workflow: Basecalling, Alignment, and Assembly,\r\n5. NGS data quality control and validation, \r\n6. Basic bioinformatics pipelines for Influenza and RSV virus genomics,\r\n7. Bioinformatics tools for variant analysis and mutation detection. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "HPI",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Human respiratory syncytial virus, Influenza virus"
+    },
+    {
+      "@type": "EVORAO:Service",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "HPI"
+      },
+      "EVORAO:refSku": "019S-06367",
+      "@id": "urn:evorao:EVA:HPI:019S-06367",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/training-course-validation-verification-molecular-assays-viral-diagnostics",
+      "dcterms:issued": "2026-04-03T13:54:15+02:00",
+      "dcterms:modified": "2026-04-03T13:56:05+02:00",
+      "dcterms:title": "Training Course: Validation &amp; Verification of Molecular Assays for Viral Diagnostics",
+      "dcterms:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) invite laboratory professionals to participate in an intensive 3-day hands-on training course designed to enhance laboratory expertise in molecular diagnostics of viral infections. This comprehensive program covers the full workflow of assay validation and implementation, combining theory with practical insights.\r\nThe training will be tailored to the trainee’s needs and may include: \r\n1. Detection and typing of key viruses, \r\n2. Validation and Verification of molecular assays (quantification by standard curve analysis, evaluation of sensitivity and specificity, determination of Limit of Detection (LOD) and Limit of Quantification (LOQ), Levey-Jennings charts), \r\n3. Basic principles of biosafety and biosecurity, \r\n4. Basic principles of Quality Assurance of molecular assays. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "EVORAO:unitDefinition": "3 days",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biosafetyRestrictions": "BSL2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "skos:note": "For more information before ordering, please contact emmanouilm@pasteur.gr",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "HPI"
+      },
+      "dcat:keyword": [
+        "Service",
+        "Derived product",
+        "HPI",
+        "Viruses",
+        "Any virus",
+        "biosafety",
+        "biosecurity",
+        "Limit of Detection",
+        "Limit of Quantification",
+        "molecular assays",
+        "Quality Assurance",
+        "RG2",
+        "standard curve",
+        "Validation",
+        "Verification"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "service",
+      "search:additionalCategory": [
+        "derived product",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "019S-06367",
+      "search:title": "Training Course: Validation &amp; Verification of Molecular Assays for Viral Diagnostics",
+      "search:description": "The Public Health Laboratories of Hellenic Pasteur Institute (HPI) invite laboratory professionals to participate in an intensive 3-day hands-on training course designed to enhance laboratory expertise in molecular diagnostics of viral infections. This comprehensive program covers the full workflow of assay validation and implementation, combining theory with practical insights.\r\nThe training will be tailored to the trainee’s needs and may include: \r\n1. Detection and typing of key viruses, \r\n2. Validation and Verification of molecular assays (quantification by standard curve analysis, evaluation of sensitivity and specificity, determination of Limit of Detection (LOD) and Limit of Quantification (LOQ), Levey-Jennings charts), \r\n3. Basic principles of biosafety and biosecurity, \r\n4. Basic principles of Quality Assurance of molecular assays. \r\nA special rate will be offered for accommodation in a 4-star hotel located near the Hellenic Pasteur Institute.",
+      "search:taxonLabel": "Viruses",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "HPI",
+      "search:providerName": "HPI",
+      "search:pathogenName": "Any virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-03086",
+      "@id": "urn:evorao:EVA:UL:007V-03086",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tick-borne-encephalitis-virus-strain-ljubljana-freeze-dried",
+      "dcterms:issued": "2018-08-07T13:46:28+02:00",
+      "dcterms:modified": "2026-04-03T10:46:03+02:00",
+      "dcterms:title": "Tick-borne encephalitis virus (strain Ljubljana) - Freeze Dried",
+      "dcterms:description": "Infectious cell culture supernatant. This Tick-borne encephalitis virus[Ljubljana] is freeze-dryed. To confirm its identity the virus has been fully sequenced.",
+      "EVORAO:unitDefinition": "2 x 250ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2018-07-30",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "11th passage",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10E9,45 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:accessionNumber": "JQ654701.1",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Antigen",
+        "Diagnostic reagent",
+        "UL",
+        "Virus",
+        "Room Temperature",
+        "15566827",
+        "Category B",
+        "UN3373",
+        "Flavivirus",
+        "Human virus",
+        "JQ654701.1",
+        "Ljubljana",
+        "RG3",
+        "Slovenia",
+        "TBE",
+        "TBEV",
+        "Tick-borne encephalitis",
+        "tick-borne encephalitis virus",
+        "tick-borne encephalitis virus 2",
+        "Vero E6",
+        "Tick-borne encephalitis virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "diagnostic reagent",
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2018-07-30",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "JQ654701.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "tick-borne encephalitis virus 2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Tick-borne encephalitis virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "Ljubljana",
+        "EVORAO:subspecies": "Tick-borne encephalitis virus - EU Subtype",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-03086",
+      "search:title": "Tick-borne encephalitis virus (strain Ljubljana) - Freeze Dried",
+      "search:description": "Infectious cell culture supernatant. This Tick-borne encephalitis virus[Ljubljana] is freeze-dryed. To confirm its identity the virus has been fully sequenced.",
+      "search:taxonLabel": "Tick-borne encephalitis virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:accessionNumber": "JQ654701.1",
+      "search:providerName": "UL",
+      "search:pathogenName": "tick-borne encephalitis virus 2"
+    },
+    {
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -137220,621 +137779,6 @@
       "search:countryOfCollection": "United States of America (the)",
       "search:providerName": "CUB",
       "search:pathogenName": "Human coronavirus OC43"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA455",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA455",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hav-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T14:04:16+01:00",
-      "dcterms:title": "HAV Plasmid",
-      "dcterms:description": "Hepatitis A virus plasmid for in vitro transcription",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA455 | Hepatovirus A\nAGGCTACGGGTGAAACCTCTTAGGCTAATACTTCTATGAAGAGATGCTTTGGATAGGGTAACAGCGGCGGATATTGGTGA\nGTTGTAAAGACAAAAACCATTCAACGCCGGAGGACTGACT",
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "172.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "HAV",
-        "Hepatitis A virus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Dry ice",
-        "No Tag",
-        "Hepatovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hepatitis A virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Hepatovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA455",
-      "search:title": "HAV Plasmid",
-      "search:description": "Hepatitis A virus plasmid for in vitro transcription",
-      "search:taxonLabel": "Hepatovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hepatitis A virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA537",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA537",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hav-ivt",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T14:03:33+01:00",
-      "dcterms:title": "HAV IVT",
-      "dcterms:description": "In vitro transcribed RNA for a  specific Hepatitis A virus real time PCR.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA537\nAGGCUACGGGUGAAACCUCUUAGGCUAAUACUUCUAUGAAGAGAUGCUUUGGAUAGGGUAACAGCGGCGGAUAUUGGUGA\nGUUGUAAAGACAAAAACCAUUCAACGCCGGAGGACUGACU",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "4420.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "HAV",
-        "Hepatitis A virus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice",
-        "Hepatovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hepatitis A virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Hepatovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA537",
-      "search:title": "HAV IVT",
-      "search:description": "In vitro transcribed RNA for a  specific Hepatitis A virus real time PCR.",
-      "search:taxonLabel": "Hepatovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hepatitis A virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA454",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA454",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hanta-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T14:02:59+01:00",
-      "dcterms:title": "Hanta Plasmid",
-      "dcterms:description": "Hanta virus plasmid for in vitro transcription. The target region of a specific PCR assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KP970573.1"
-        }
-      },
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "110.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "KP970573.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Animal virus",
-        "Hanta virus",
-        "Hantavirus",
-        "Human virus",
-        "KP970573.1",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Dry ice",
-        "No Tag",
-        "Orthohantavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hantavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Orthohantavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "004N-EVA454",
-      "search:title": "Hanta Plasmid",
-      "search:description": "Hanta virus plasmid for in vitro transcription. The target region of a specific PCR assay was amplified and cloned.",
-      "search:taxonLabel": "Orthohantavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "KP970573.1",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hantavirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA273",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA273",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hanta-ivt",
-      "dcterms:issued": "2016-04-12T13:50:20+02:00",
-      "dcterms:modified": "2025-01-09T14:02:26+01:00",
-      "dcterms:title": "Hanta IVT",
-      "dcterms:description": "In vitro transcribed RNA for Hantavirus nested PCR.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "in vitro transcript"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": "> 004N-EVA273 | seq_Hanta IVT 614 bp\nUUCAAAGGCUCUUGGUUGGAGAUUUCCUUCACUUUGACAUCAAUCAAGCUCUGUGCCAGUGUCCUUAGCUCAGGAUCCAU\nAUCAUCCCCUAAGUGGAAGUUGUCCACAGCCUCCUUUCCCCAGGCAACCAUGAAGAGCACAAUAAUUCUCUGGUCUAGUU\nGUAUCCCCAUUGAUUGUGUCCUUCUGAGGUAGGACUGAUAAAAUGAUGAUUUCUUCCGUAGCUUCUCCUCAGAUGUUCCA\nACUGUCUUAGAUGCCAUGAUUGUAUUUCGCAUGUCCUGCAGGAUGGAAAAAAAUGCCCCAAGCUCAGCAAUACCUGCUAU\nAAACAAACAUGUUGGUGGACAACGGUCUGGUGCUCCAGCAAAAACCCAUAUUGAUGAUGGUGACUCAAUAUCUUCAAUCA\nUGCUACAGCCAGCUGCUUCUGCAUGCUGGCGUAUAGCCUUUGACUCCUUUGUCUCCAUAUUGCCUAAUGCCACUUGCCGC\nUGCCGUAAGUAGUCCCUGUUUGUUGCAGGACCACCAAGGAGGCUAACUGCUGCUGUAUCUGGAAGAAGCUUGCAAGGUUC\nAAUUAACCAUUGUUCGAUACGAUCACUCCAGUCCUUUGCUAAUGCUAGAAAACC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "1472.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "In Vitro Transcript",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Animal virus",
-        "Hantavirus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "RG1",
-        "Dry ice",
-        "Orthohantavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "in vitro transcript",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hantavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Orthohantavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "004N-EVA273",
-      "search:title": "Hanta IVT",
-      "search:description": "In vitro transcribed RNA for Hantavirus nested PCR.",
-      "search:taxonLabel": "Orthohantavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Hantavirus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-EVA530",
-      "@id": "urn:evorao:EVA:CUB:004N-EVA530",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hadv-plasmid",
-      "dcterms:issued": "2016-04-12T13:50:14+02:00",
-      "dcterms:modified": "2025-01-09T14:01:50+01:00",
-      "dcterms:title": "HAdV Plasmid",
-      "dcterms:description": "Human Adenovirus plasmid for real time PCR. The target region of a specific real time assay was amplified and cloned.",
-      "EVORAO:unitDefinition": "500 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "pCR4-Topo"
-      },
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">004N-EVA530\nGCCCCAGTGGTCTTACATGCACATCTCGGGCCAGGACGCCTCGGAGTACCTGAGCCCCGGGCTGGTGCAGTTTGCCCGCG\nCCACCGAGACGTACTTCAGCCTGAATAACAAGTTTAGAAACCCCACCGTGGC",
-      "EVORAO:regionEncompassedInThisProduct": "pending",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:titer": "709.00 per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Cloned nucleic acid",
-        "CUB",
-        "Diagnostic reagent",
-        "Derived product",
-        "Human Adenovirus",
-        "Human adenovirus A",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "pCR4-Topo",
-        "RG1",
-        "Dry ice",
-        "No Tag",
-        "Human mastadenovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human adenovirus A"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-EVA530",
-      "search:title": "HAdV Plasmid",
-      "search:description": "Human Adenovirus plasmid for real time PCR. The target region of a specific real time assay was amplified and cloned.",
-      "search:taxonLabel": "Human mastadenovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Human adenovirus A"
     }
   ]
 }

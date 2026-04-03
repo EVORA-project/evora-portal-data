@@ -22,6 +22,408 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "015A-01747",
+      "@id": "urn:evorao:EVA:FLI:015A-01747",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-african-horse-sickness-virus-ahsv-9",
+      "dcterms:issued": "2016-07-08T13:19:51+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-African horse sickness virus (AHSV 9)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-AHSV 9 antibodies; targeted antigen: unknown; clone: 9/21a; immunization antigen: inactivated isolate of AHSV 9",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with all tested isolates of AHSV 9, not-reactive with tested isolate of AHSV 4",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "African horse sickness virus",
+        "ahsv",
+        "monoclonal antibody",
+        "No RG"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "African horse sickness virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "African horse sickness virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01747",
+      "search:title": "murine mAb: anti-African horse sickness virus (AHSV 9)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-AHSV 9 antibodies; targeted antigen: unknown; clone: 9/21a; immunization antigen: inactivated isolate of AHSV 9",
+      "search:taxonLabel": "African horse sickness virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "African horse sickness virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01746",
+      "@id": "urn:evorao:EVA:FLI:015A-01746",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-bluetongue-virus-anti-btv",
+      "dcterms:issued": "2016-07-08T13:08:38+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-Bluetongue virus (anti-BTV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: unknown; clone: 12G11; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with all BTV serotypes",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with all tested BTV serotypes, not reactive with EHDV 1-4",
+      "EVORAO:antibodyCharacterizationObservation": "no other characterization methods tested",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Bluetongue virus",
+        "BTV",
+        "monoclonal antibody",
+        "No RG"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Bluetongue virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "BTV"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bluetongue virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": "all"
+      },
+      "search:sku": "015A-01746",
+      "search:title": "murine mAb: anti-Bluetongue virus (anti-BTV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-Bluetongue virus antibodies; targeted antigen: unknown; clone: 12G11; immunization antigen: inactivated BTV-8 strain\"BH311/06\" RVB487; reactive with all BTV serotypes",
+      "search:taxonLabel": "Bluetongue virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Bluetongue virus, BTV"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01745",
+      "@id": "urn:evorao:EVA:FLI:015A-01745",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv11",
+      "dcterms:issued": "2016-07-07T17:00:46+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV11)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV11) antibodies; targeted antigen: unknown; clone: 3C3; immunization antigen: inactivated strain \"Dresden\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with tested isolates of serotype 11, not-reactive with isolates of serotypes 1-10",
+      "EVORAO:antibodyCharacterizationObservation": "murine IgG2a, other characterization methods not checked",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "anti-Teschovirus A",
+        "monoclonal antibody",
+        "No RG",
+        "Porcine teschovirus",
+        "Porcine teschovirus (PTV11)",
+        "PTV",
+        "Teschovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Porcine teschovirus (PTV11)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Teschovirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": 11
+      },
+      "search:sku": "015A-01745",
+      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV11)",
+      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV11) antibodies; targeted antigen: unknown; clone: 3C3; immunization antigen: inactivated strain \"Dresden\"",
+      "search:taxonLabel": "Teschovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Porcine teschovirus (PTV11)"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01744",
+      "@id": "urn:evorao:EVA:FLI:015A-01744",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv10",
+      "dcterms:issued": "2016-07-07T16:58:32+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV10)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV10) antibodies; targeted antigen: unknown; clone: 15G7; immunization antigen: inactivated strain \"VIR 460/88\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with most of the tested isolates of serotype 10, not-reactive with isolates of serotypes 1-9 and 11",
+      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not checked",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "anti-Teschovirus A",
+        "monoclonal antibody",
+        "No RG",
+        "Porcine teschovirus",
+        "Porcine teschovirus (PTV10)",
+        "PTV",
+        "Teschovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Porcine teschovirus (PTV10)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Teschovirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": 10
+      },
+      "search:sku": "015A-01744",
+      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV10)",
+      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV10) antibodies; targeted antigen: unknown; clone: 15G7; immunization antigen: inactivated strain \"VIR 460/88\"",
+      "search:taxonLabel": "Teschovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Porcine teschovirus (PTV10)"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "015A-01743",
       "@id": "urn:evorao:EVA:FLI:015A-01743",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv9",
