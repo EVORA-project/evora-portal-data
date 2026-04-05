@@ -369,7 +369,7 @@ def ictv_entity_to_evorao_taxon(
     ent: Dict[str, Any],
     original_label: Optional[str],
     existing_taxon: Optional[Dict[str, Any]] = None,
-    +    preserved_names: Optional[List[str]] = None,
+    preserved_names: Optional[List[str]] = None,
  ) -> Dict[str, Any]:
     """
     Build an EVORAO:Taxon structure using ONLY existing EVORAO properties:
@@ -555,7 +555,7 @@ def expand_search_fields(
     for l in taxon_obj.get("EVORAO:lineage", []):
         labels.append(str(l))
         
-   # Preserved revision/replacement labels
+    # Preserved revision/replacement labels
     for p in preserved_names or []:
         labels.append(str(p))
 
