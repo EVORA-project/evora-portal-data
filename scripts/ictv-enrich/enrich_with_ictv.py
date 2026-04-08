@@ -112,12 +112,12 @@ def normalize_str_list(values: Any) -> List[str]:
     return [v] if v else []
 
 
-def should_fallback_to_historical_parent(res: Dict[str, Any]) -> bool:
+def should_fallback_to_taxonomic_parent(res: Dict[str, Any]) -> bool:
     """
     EVORA fallback policy:
     - obsolete + reason == SPLIT
     - obsolete + several replacements
-    - obsolete + no replacement
+    - obsolete + no replacement (abolished)
     """
     if not isinstance(res, dict):
         return False
@@ -130,7 +130,8 @@ def should_fallback_to_historical_parent(res: Dict[str, Any]) -> bool:
 
     if reason == "SPLIT":
         return True
-
+        
+    # abolished / obsolete without replacement
     if not replacements:
         return True
 
@@ -196,44 +197,51 @@ def collect_revision_names(
     return unique_preserve_order(names)
 
 
-def resolve_historical_parent_fallback(
+def resolve_taxonomic_parent_fallback(
     client: ICTVOLSClient,
     obsolete_entity: Dict[str, Any],
+    depth: int = 0,
     max_depth: int = 5,
 ) -> Optional[Dict[str, Any]]:
     """
-    Walk revision links upward using getHistoricalParent(), then resolve the
-    first parent revision found to its latest current/final taxon.
+    Resolve an obsolete split/abolished taxon to the latest version of its taxonomic parent.
+
+    Strategy:
+    - take the obsolete entity's direct taxonomic parent in that release
+    - resolve that parent label to latest
+    - if needed, recurse again
     """
-    current = obsolete_entity
-    seen_iris = set()
-    depth = 0
+    if not isinstance(obsolete_entity, dict):
+        return None
 
-    while isinstance(current, dict) and depth < max_depth:
-        iri = current.get("iri")
-        if iri:
-            if iri in seen_iris:
-                break
-            seen_iris.add(iri)
+    if depth > max_depth:
+        return None
 
-        historical_parent = robust_call(client.getHistoricalParent, current)
-        if not isinstance(historical_parent, dict):
-            break
+    parent_iri = obsolete_entity.get("direct_parent_iri")
+    if not parent_iri:
+        return None
 
-        parent_label = historical_parent.get("label")
-        if not parent_label:
-            break
+    raw_parent = robust_call(client.retrieveTaxonByIRI, parent_iri)
+    if not isinstance(raw_parent, dict):
+        return None
 
-        parent_res = robust_call(client.resolveToLatest, parent_label)
-        if isinstance(parent_res, dict):
-            target = choose_evora_target(client, parent_res, depth=depth + 1, max_depth=max_depth)
-            if isinstance(target, dict):
-                return target
+    mapped_parent = client.mapEntity(raw_parent)
+    mapped_parent = client.enrichLineage(mapped_parent)
 
-        current = historical_parent
-        depth += 1
+    parent_label = mapped_parent.get("label")
+    if not parent_label:
+        return None
 
-    return None
+    parent_res = robust_call(client.resolveToLatest, parent_label)
+    if not isinstance(parent_res, dict):
+        return None
+
+    return choose_evora_target(
+        client,
+        parent_res,
+        depth=depth + 1,
+        max_depth=max_depth,
+    )
 
 
 def choose_evora_target(
@@ -247,7 +255,7 @@ def choose_evora_target(
 
     Rules:
     - current => current
-    - obsolete + SPLIT / multi replacements / no replacements => fallback through historical parent
+    - obsolete + SPLIT / multi replacements / no replacements =>  latest taxonomic parent
     - obsolete otherwise => final if present, else obsolete
     """
     if not isinstance(res, dict):
@@ -264,12 +272,13 @@ def choose_evora_target(
     if status != "obsolete":
         return None
 
-    if should_fallback_to_historical_parent(res):
+    if should_fallback_to_taxonomic_parent(res):
         obsolete = res.get("obsolete")
         if isinstance(obsolete, dict):
-            parent_target = resolve_historical_parent_fallback(
+            parent_target = resolve_taxonomic_parent_fallback(
                 client,
                 obsolete,
+                depth=depth,
                 max_depth=max_depth,
             )
             if isinstance(parent_target, dict):
@@ -297,8 +306,8 @@ def resolve_label_once(label: str) -> Optional[Dict[str, Any]]:
     res["_evora_target"] = target
     res["_evora_preserved_names"] = preserved_names
     res["_evora_strategy"] = (
-        "historical-parent-fallback"
-        if should_fallback_to_historical_parent(res)
+        "taxonomic-parent-fallback"
+        if should_fallback_to_taxonomic_parent(res)
         else "direct"
     )
     return res
@@ -648,10 +657,10 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
         )
 
         # lightweight logging for fallback cases
-        if strategy == "historical-parent-fallback":
+        if strategy == "taxonomic-parent-fallback":
             src = virus_name or taxon_label or "?"
             dst = ent.get("label") or "?"
-            print(f"ℹ️ Historical-parent fallback used for '{src}' -> '{dst}'")
+            print(f"ℹ️ Taxonomic-parent fallback used for '{src}' -> '{dst}'")
 
         if i % 50 == 0 or i == total:
             print(f" → enriched {i}/{total}")
