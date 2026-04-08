@@ -103,6 +103,7 @@ def collect_labels_for_resolution(graph) -> Set[str]:
                 labels.add(str(t).strip())
 
     return labels
+
 def normalize_str_list(values: Any) -> List[str]:
     if values is None:
         return []
@@ -152,6 +153,53 @@ def unique_preserve_order(values: List[str]) -> List[str]:
         out.append(s)
     return out
 
+def normalize_iri(value: Any) -> Optional[str]:
+    if isinstance(value, list):
+        value = value[0] if value else None
+    if isinstance(value, str):
+        value = value.strip()
+        return value or None
+    return None
+
+def collect_safe_revision_chain_names(
+    client: ICTVOLSClient,
+    start_entity: Dict[str, Any],
+    max_steps: int = 20,
+) -> List[str]:
+    """
+    Safely walk revision links without recursion.
+    """
+    names: List[str] = []
+    seen_iris = set()
+    current = start_entity
+    steps = 0
+
+    while isinstance(current, dict) and steps < max_steps:
+        iri = normalize_iri(current.get("iri"))
+        if not iri or iri in seen_iris:
+            break
+        seen_iris.add(iri)
+
+        label = current.get("label")
+        if label:
+            names.append(label)
+        names.extend(normalize_str_list(current.get("synonyms")))
+
+        next_iri = (
+            normalize_iri(current.get("was_revision_of"))
+            or normalize_iri(current.get("had_revision"))
+        )
+        if not next_iri:
+            break
+
+        raw_next = robust_call(client.retrieveTaxonByIRI, next_iri)
+        if not isinstance(raw_next, dict):
+            break
+
+        current = client.mapEntity(raw_next)
+        steps += 1
+
+    return unique_preserve_order(names)
 
 def collect_revision_names(
     client: ICTVOLSClient,
@@ -176,15 +224,7 @@ def collect_revision_names(
         if obsolete.get("label"):
             names.append(obsolete["label"])
         names.extend(normalize_str_list(obsolete.get("synonyms")))
-
-        # NEW: include revision-chain labels if available
-        history = robust_call(client.getHistory, obsolete)
-        if isinstance(history, list):
-            for h in history:
-                if isinstance(h, dict):
-                    if h.get("label"):
-                        names.append(h["label"])
-                    names.extend(normalize_str_list(h.get("synonyms")))
+        names.extend(collect_safe_revision_chain_names(client, obsolete))
 
     replacements = res.get("replacements") or []
     if isinstance(replacements, list):
