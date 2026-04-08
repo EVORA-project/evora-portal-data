@@ -47077,6 +47077,7 @@
         "Immortalised cells",
         "African Green Monkey",
         "Orthoflavivirus denguei",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47091,6 +47092,7 @@
       "search:taxon": [
         "Orthoflavivirus denguei",
         "Dengue virus",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47216,6 +47218,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dengue virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "DENV"
             }
           ],
           "EVORAO:lineage": [
@@ -47336,6 +47342,7 @@
         "Immortalised cells",
         "African Green Monkey",
         "Orthoflavivirus denguei",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47350,6 +47357,7 @@
       "search:taxon": [
         "Orthoflavivirus denguei",
         "Dengue virus",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47475,6 +47483,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dengue virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "DENV"
             }
           ],
           "EVORAO:lineage": [
@@ -47600,6 +47612,7 @@
         "Immortalised cells",
         "African Green Monkey",
         "Orthoflavivirus denguei",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47614,6 +47627,7 @@
       "search:taxon": [
         "Orthoflavivirus denguei",
         "Dengue virus",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47739,6 +47753,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dengue virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "DENV"
             }
           ],
           "EVORAO:lineage": [
@@ -47839,6 +47857,7 @@
         "Immortalised cells",
         "African Green Monkey",
         "Orthoflavivirus denguei",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47853,6 +47872,7 @@
       "search:taxon": [
         "Orthoflavivirus denguei",
         "Dengue virus",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -47978,6 +47998,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dengue virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "DENV"
             }
           ],
           "EVORAO:lineage": [
@@ -51213,13 +51237,16 @@
         "Immortalised cells",
         "African Green Monkey",
         "Orthoflavivirus encephalitidis",
+        "Orthoflavivirus",
+        "Arbovirus group B",
+        "Flavivirus",
+        "TBEV",
         "Orthoflavivirus zilberi",
         "TBEV1",
         "Orthoflavivirus neudoerflense",
         "TBEV2",
         "Orthoflavivirus mediterranense",
         "TSEV",
-        "Flavivirus",
         "Flaviviridae",
         "Riboviria",
         "Orthornavirae",
@@ -51231,14 +51258,17 @@
       "search:keywords": [],
       "search:taxon": [
         "Orthoflavivirus encephalitidis",
+        "Orthoflavivirus",
+        "Arbovirus group B",
+        "Flavivirus",
         "Tick-borne encephalitis virus",
+        "TBEV",
         "Orthoflavivirus zilberi",
         "TBEV1",
         "Orthoflavivirus neudoerflense",
         "TBEV2",
         "Orthoflavivirus mediterranense",
         "TSEV",
-        "Flavivirus",
         "Flaviviridae",
         "Riboviria",
         "Orthornavirae",
@@ -51314,7 +51344,7 @@
         }
       ],
       "search:pathogenName": "Tick-borne encephalitis virus",
-      "search:taxonLabel": "Tick-borne encephalitis virus",
+      "search:taxonLabel": "Orthoflavivirus",
       "EVORAO:pathogenIdentification": {
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
@@ -51324,12 +51354,12 @@
         "EVORAO:strain": "UVE/TBEV/1995/JP/Oshima",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tick-borne encephalitis virus",
-          "EVORAO:taxonomicId": "ICTV19790934",
+          "dcterms:title": "Orthoflavivirus",
+          "EVORAO:taxonomicId": "ICTV19710016",
           "EVORAO:taxonomy": {
             "@type": "EVORAO:Taxonomy",
             "dcterms:title": "ICTV",
-            "dcat:version": "MSL37",
+            "dcat:version": "MSL41",
             "EVORAO:versionDataProvider": {
               "@type": "EVORAO:DataProvider",
               "dcterms:title": "ICTV via OLS4",
@@ -51338,11 +51368,11 @@
           },
           "EVORAO:rank": {
             "@type": "EVORAO:TaxonomicRank",
-            "dcterms:title": "species",
+            "dcterms:title": "genus",
             "EVORAO:taxonomy": {
               "@type": "EVORAO:Taxonomy",
               "dcterms:title": "ICTV",
-              "dcat:version": "MSL37",
+              "dcat:version": "MSL41",
               "EVORAO:versionDataProvider": {
                 "@type": "EVORAO:DataProvider",
                 "dcterms:title": "ICTV via OLS4",
@@ -51352,12 +51382,28 @@
           },
           "EVORAO:parentTaxon": {
             "@type": "EVORAO:Taxon",
-            "dcterms:title": "Flavivirus"
+            "dcterms:title": "Flaviviridae"
           },
           "EVORAO:alternateName": [
             {
               "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Arbovirus group B"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Flavivirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
               "dcterms:title": "Orthoflavivirus encephalitidis"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Tick-borne encephalitis virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "TBEV"
             },
             {
               "@type": "EVORAO:AlternateName",
@@ -51385,7 +51431,6 @@
             }
           ],
           "EVORAO:lineage": [
-            "Flavivirus",
             "Flaviviridae",
             "Riboviria",
             "Orthornavirae",
@@ -70844,6 +70889,7 @@
         "Dengue virus",
         "Tissue culture",
         "Orthoflavivirus denguei",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -70858,6 +70904,7 @@
       "search:taxon": [
         "Orthoflavivirus denguei",
         "Dengue virus",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -70966,6 +71013,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dengue virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "DENV"
             }
           ],
           "EVORAO:lineage": [
@@ -73596,13 +73647,16 @@
         "Tick-borne encephalitis virus",
         "Tissue culture",
         "Orthoflavivirus encephalitidis",
+        "Orthoflavivirus",
+        "Arbovirus group B",
+        "Flavivirus",
+        "TBEV",
         "Orthoflavivirus zilberi",
         "TBEV1",
         "Orthoflavivirus neudoerflense",
         "TBEV2",
         "Orthoflavivirus mediterranense",
         "TSEV",
-        "Flavivirus",
         "Flaviviridae",
         "Riboviria",
         "Orthornavirae",
@@ -73614,14 +73668,17 @@
       "search:keywords": [],
       "search:taxon": [
         "Orthoflavivirus encephalitidis",
+        "Orthoflavivirus",
+        "Arbovirus group B",
+        "Flavivirus",
         "Tick-borne encephalitis virus",
+        "TBEV",
         "Orthoflavivirus zilberi",
         "TBEV1",
         "Orthoflavivirus neudoerflense",
         "TBEV2",
         "Orthoflavivirus mediterranense",
         "TSEV",
-        "Flavivirus",
         "Flaviviridae",
         "Riboviria",
         "Orthornavirae",
@@ -73685,7 +73742,7 @@
         }
       ],
       "search:pathogenName": "Tick-borne encephalitis virus",
-      "search:taxonLabel": "Tick-borne encephalitis virus",
+      "search:taxonLabel": "Orthoflavivirus",
       "EVORAO:pathogenIdentification": {
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
@@ -73694,12 +73751,12 @@
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tick-borne encephalitis virus",
-          "EVORAO:taxonomicId": "ICTV19790934",
+          "dcterms:title": "Orthoflavivirus",
+          "EVORAO:taxonomicId": "ICTV19710016",
           "EVORAO:taxonomy": {
             "@type": "EVORAO:Taxonomy",
             "dcterms:title": "ICTV",
-            "dcat:version": "MSL37",
+            "dcat:version": "MSL41",
             "EVORAO:versionDataProvider": {
               "@type": "EVORAO:DataProvider",
               "dcterms:title": "ICTV via OLS4",
@@ -73708,11 +73765,11 @@
           },
           "EVORAO:rank": {
             "@type": "EVORAO:TaxonomicRank",
-            "dcterms:title": "species",
+            "dcterms:title": "genus",
             "EVORAO:taxonomy": {
               "@type": "EVORAO:Taxonomy",
               "dcterms:title": "ICTV",
-              "dcat:version": "MSL37",
+              "dcat:version": "MSL41",
               "EVORAO:versionDataProvider": {
                 "@type": "EVORAO:DataProvider",
                 "dcterms:title": "ICTV via OLS4",
@@ -73722,12 +73779,28 @@
           },
           "EVORAO:parentTaxon": {
             "@type": "EVORAO:Taxon",
-            "dcterms:title": "Flavivirus"
+            "dcterms:title": "Flaviviridae"
           },
           "EVORAO:alternateName": [
             {
               "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Arbovirus group B"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Flavivirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
               "dcterms:title": "Orthoflavivirus encephalitidis"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Tick-borne encephalitis virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "TBEV"
             },
             {
               "@type": "EVORAO:AlternateName",
@@ -73755,7 +73828,6 @@
             }
           ],
           "EVORAO:lineage": [
-            "Flavivirus",
             "Flaviviridae",
             "Riboviria",
             "Orthornavirae",
@@ -150328,6 +150400,7 @@
         "Immortalised cells",
         "African Green Monkey",
         "Orthoflavivirus denguei",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -150342,6 +150415,7 @@
       "search:taxon": [
         "Orthoflavivirus denguei",
         "Dengue virus",
+        "DENV",
         "Euflavivirus",
         "Orthoflavivirus",
         "Flaviviridae",
@@ -150458,6 +150532,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dengue virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "DENV"
             }
           ],
           "EVORAO:lineage": [
