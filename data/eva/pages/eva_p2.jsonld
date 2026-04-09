@@ -22,6 +22,761 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA488",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA488",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-ivt",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:25:11+01:00",
+      "dcterms:title": "HCV  X-Tail IVT",
+      "dcterms:description": "Invitro transcript for Hepatitis C virus genomic x-tail region assays.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA488\nGGTGGCTCCGTCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCATGACTGCAGAGAGTGCTGATACTGG\nCCTCTCTGCAGATCATGT",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "8370.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA488",
+      "search:title": "HCV  X-Tail IVT",
+      "search:description": "Invitro transcript for Hepatitis C virus genomic x-tail region assays.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA549",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA549",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-ic-ivt",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:23:29+01:00",
+      "dcterms:title": "HCV IC IVT",
+      "dcterms:description": "In vitro transcribed RNA for HCV real time PCR.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequencing": "Not sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "9500.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "EU835532",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "EU835532",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "EU835532"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA549",
+      "search:title": "HCV IC IVT",
+      "search:description": "In vitro transcribed RNA for HCV real time PCR.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "EU835532",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA547",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA547",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-5ncr-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:22:51+01:00",
+      "dcterms:title": "HCV 5`ncr Plasmid",
+      "dcterms:description": "HCV 5`ncr Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "100 x 5 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "bulk positive control"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA547 | HCV 5&#039;ncr Plasmid 54 bp\nGTGGCTCCATCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCA",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "1190.00 per 5 µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Bulk positive control",
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Room Temperature",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "No Tag",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "bulk positive control",
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA547",
+      "search:title": "HCV 5`ncr Plasmid",
+      "search:description": "HCV 5`ncr Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA546",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA546",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-5ncr-ivt",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:17:56+01:00",
+      "dcterms:title": "HCV 5`ncr IVT",
+      "dcterms:description": "Invitro transcript for Hepatitis C virus genomic 5`ncr region assays. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "EU835532.1"
+        }
+      },
+      "EVORAO:sequenceChecked": false,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "8370.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "EU835532.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "EU835532.1",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "RG1",
+        "Dry ice",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA546",
+      "search:title": "HCV 5`ncr IVT",
+      "search:description": "Invitro transcript for Hepatitis C virus genomic 5`ncr region assays. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "EU835532.1",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA263",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA263",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcov-oc43-ivt",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T14:15:16+01:00",
+      "dcterms:title": "HCoV-OC43 IVT",
+      "dcterms:description": "in vitro transcribed RNA for Human coronavirus OC43 real time PCR",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "in vitro transcript"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1967-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "United States of America (the)"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector, reamplification with vector specific primers followed by T7-driven in vitro transcription using MEGAscript (Asuragen, Lifetech). RNA was subsequently purified by QIAGEN RNeasy kit.",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA263 | seq_OC43 IVT 76 bp\nCGAUGAGGCUAUUCCGACUAGGUUUCCGCCUGGCACGGUACUCCCUCAGGGUUACUAUAUUGAAGGCUCAGGAAGG",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:titer": "4240 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:doi": "10.1073/pnas.58.6.2268",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "In Vitro Transcript",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "10.1073/pnas.58.6.2268",
+        "Human coronavirus OC43",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "OC43",
+        "RG1",
+        "United States of America (the)",
+        "Dry ice",
+        "Betacoronavirus 1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "in vitro transcript",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "1967-01-01",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human coronavirus OC43"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Betacoronavirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "HCoV-OC43",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA263",
+      "search:title": "HCoV-OC43 IVT",
+      "search:description": "in vitro transcribed RNA for Human coronavirus OC43 real time PCR",
+      "search:taxonLabel": "Betacoronavirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:countryOfCollection": "United States of America (the)",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Human coronavirus OC43"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA450",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA450",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcov-oc43-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T14:14:38+01:00",
+      "dcterms:title": "HCoV OC43 Plasmid",
+      "dcterms:description": "Human Coronavirus OC43 plasmid for in vitro transcription",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1967-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "United States of America (the)"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 004N-EVA450 | seq_OC43 Plasmid 76 bp\nCGATGAGGCTATTCCGACTAGGTTTCCGCCTGGCACGGTACTCCCTCAGGGTTACTATATTGAAGGCTCAGGAAGG",
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "69,60 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Human Coronavirus OC43",
+        "Human coronavirus OC43",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "United States of America (the)",
+        "Dry ice",
+        "No Tag",
+        "Human coronavirus 229E"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "search:collectionDate": "1967-01-01",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human coronavirus OC43"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human coronavirus 229E"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "HCoV-OC43",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA450",
+      "search:title": "HCoV OC43 Plasmid",
+      "search:description": "Human Coronavirus OC43 plasmid for in vitro transcription",
+      "search:taxonLabel": "Human coronavirus 229E",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:countryOfCollection": "United States of America (the)",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Human coronavirus OC43"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA455",
       "@id": "urn:evorao:EVA:CUB:004N-EVA455",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hav-plasmid",
@@ -51514,276 +52269,6 @@
       "search:providerName": "CSIRO",
       "search:originatorName": "Australian Centre for Disease Preparedness",
       "search:pathogenName": "Orbivirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
-      "EVORAO:refSku": "025V-05679",
-      "@id": "urn:evorao:EVA:IZSVe:025V-05679",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/mammalian-orthoreovirus-isolate-21diapd41049-3-isolated-faecal-sample-cat-collected-2021-italy",
-      "dcterms:issued": "2024-03-13T14:03:12+01:00",
-      "dcterms:modified": "2024-04-05T12:59:50+02:00",
-      "dcterms:title": "Mammalian Orthoreovirus isolate 21DIAPD41049-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto) ",
-      "dcterms:description": "Mammalian Othoreovirus isolate 21DIAPD41049-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto)",
-      "EVORAO:unitDefinition": "0.5mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2021-07-29",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2900",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero cells"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^6,67TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:accessionNumber": "PP334501\tPP334505\tPP334509\tPP334513\tPP334517\tPP334521\tPP334525\tPP334529\tPP334533\tPP334537",
-      "EVORAO:isolationTechnique": "isolation on Vero cells",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSVe",
-        "21DIAPD41049-3",
-        "Animal virus",
-        "cat",
-        "Category A",
-        "UN2900",
-        "Italy",
-        "mammalian orthoreovirus",
-        "MRV",
-        "PP334501\tPP334505\tPP334509\tPP334513\tPP334517\tPP334521\tPP334525\tPP334529\tPP334533\tPP334537",
-        "RG2",
-        "Vero cells",
-        "Dry ice",
-        "Reoviridae",
-        "Spinareovirinae",
-        "Mammalian orthoreovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2021-07-29",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "PP334501\tPP334505\tPP334509\tPP334513\tPP334517\tPP334521\tPP334525\tPP334529\tPP334533\tPP334537"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "21DIAPD41049-3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Reoviridae, Spinareovirinae, Mammalian orthoreovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "21DIAPD41049-3",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-05679",
-      "search:title": "Mammalian Orthoreovirus isolate 21DIAPD41049-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto) ",
-      "search:description": "Mammalian Othoreovirus isolate 21DIAPD41049-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto)",
-      "search:taxonLabel": "Reoviridae, Spinareovirinae, Mammalian orthoreovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "PP334501\tPP334505\tPP334509\tPP334513\tPP334517\tPP334521\tPP334525\tPP334529\tPP334533\tPP334537",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "21DIAPD41049-3"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSVe"
-      },
-      "EVORAO:refSku": "025V-05680",
-      "@id": "urn:evorao:EVA:IZSVe:025V-05680",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/mammalian-orthoreovirus-isolate-21diapd41051-3-isolated-faecal-sample-cat-collected-2021-italy",
-      "dcterms:issued": "2024-03-13T14:09:10+01:00",
-      "dcterms:modified": "2024-04-05T12:59:40+02:00",
-      "dcterms:title": "Mammalian Orthoreovirus isolate 21DIAPD41051-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto) ",
-      "dcterms:description": "Mammalian Othoreovirus isolate 21DIAPD41051-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto)",
-      "EVORAO:unitDefinition": "0.5mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 1500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2021-07-30",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2900",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero cells"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10^4,43TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSVe"
-      },
-      "EVORAO:accessionNumber": "PP334499\tPP334503\tPP334507\tPP334511\tPP334515\tPP334519\tPP334523\tPP334527\tPP334531\tPP334535",
-      "EVORAO:isolationTechnique": "isolation on Vero cells",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSVe",
-        "21DIAPD41051-3",
-        "Animal virus",
-        "cat",
-        "Category A",
-        "UN2900",
-        "Italy",
-        "mammalian orthoreovirus",
-        "MRV",
-        "PP334499\tPP334503\tPP334507\tPP334511\tPP334515\tPP334519\tPP334523\tPP334527\tPP334531\tPP334535",
-        "RG2",
-        "Vero cells",
-        "Dry ice",
-        "Reoviridae",
-        "Spinareovirinae",
-        "Mammalian orthoreovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2021-07-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "PP334499\tPP334503\tPP334507\tPP334511\tPP334515\tPP334519\tPP334523\tPP334527\tPP334531\tPP334535"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "21DIAPD41051-3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Reoviridae, Spinareovirinae, Mammalian orthoreovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "21DIAPD41051-3",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "025V-05680",
-      "search:title": "Mammalian Orthoreovirus isolate 21DIAPD41051-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto) ",
-      "search:description": "Mammalian Othoreovirus isolate 21DIAPD41051-3 isolated from faecal sample of a cat, collected in 2021 in Italy (Veneto)",
-      "search:taxonLabel": "Reoviridae, Spinareovirinae, Mammalian orthoreovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "IZSVe",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "PP334499\tPP334503\tPP334507\tPP334511\tPP334515\tPP334519\tPP334523\tPP334527\tPP334531\tPP334535",
-      "search:providerName": "IZSVe",
-      "search:pathogenName": "21DIAPD41051-3"
     },
     {
       "@type": "EVORAO:Virus",
@@ -137775,611 +138260,6 @@
       "search:countryOfCollection": "Germany",
       "search:providerName": "CUB",
       "search:pathogenName": "Coxsackievirus B2"
-    },
-    {
-      "@type": "EVORAO:Service",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "ERASMUS-MC"
-      },
-      "EVORAO:refSku": "010S-04799",
-      "@id": "urn:evorao:EVA:ERASMUS-MC:010S-04799",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/principles-and-practice-virus-neutralization-assays",
-      "dcterms:issued": "2022-11-29T10:29:15+01:00",
-      "dcterms:modified": "2022-11-30T10:14:21+01:00",
-      "dcterms:title": "Principles and practice of virus neutralization assays",
-      "dcterms:description": "Virus Neutralization Tests (VNT), also including plaque-reduction and foci-inhibition assays like PRNT and RFFIT, are the gold standard for determining antibody titers against viruses, and are essential serological tools. In this 5-day training the application and basic principles of VNTs will be discussed, and will be combined with wet lab training. The wet lab training will include all steps of the VNT, including analysis and interpretation of the results. The training will be provided on demand and can be designed for the following viruses: rabies virus (RABV), SARS-CoV-2, Zika virus, yellow fever virus and other flaviviruses, \r\nAll lectures and lab training will be targeted to the virus of interest. After this training participants should have sufficient knowledge to establish VNTs in their own laboratory.",
-      "EVORAO:unitDefinition": "5 days",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "service"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "virus"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "bundle"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Upon request",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "skos:note": "Costs are 1500 Euro for a 5 day course (300 euro/day).",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "ERASMUS-MC"
-      },
-      "dcat:keyword": [
-        "Diagnostic reagent",
-        "Bundle",
-        "Virus",
-        "Service",
-        "ERASMUS-MC",
-        "Derived product",
-        "Viruses",
-        "Any virus (see additrional information)",
-        "flaviviruses",
-        "neutralization assay",
-        "Rabies virus",
-        "RG2",
-        "SARS-CoV-2",
-        "serology",
-        "Yellow fever virus",
-        "Zika virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "service",
-      "search:additionalCategory": [
-        "virus",
-        "derived product",
-        "diagnostic reagent",
-        "bundle",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Any virus (see additrional information)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Viruses"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "010S-04799",
-      "search:title": "Principles and practice of virus neutralization assays",
-      "search:description": "Virus Neutralization Tests (VNT), also including plaque-reduction and foci-inhibition assays like PRNT and RFFIT, are the gold standard for determining antibody titers against viruses, and are essential serological tools. In this 5-day training the application and basic principles of VNTs will be discussed, and will be combined with wet lab training. The wet lab training will include all steps of the VNT, including analysis and interpretation of the results. The training will be provided on demand and can be designed for the following viruses: rabies virus (RABV), SARS-CoV-2, Zika virus, yellow fever virus and other flaviviruses, \r\nAll lectures and lab training will be targeted to the virus of interest. After this training participants should have sufficient knowledge to establish VNTs in their own laboratory.",
-      "search:taxonLabel": "Viruses",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "ERASMUS-MC",
-      "search:providerName": "ERASMUS-MC",
-      "search:pathogenName": "Any virus (see additrional information)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-04371",
-      "@id": "urn:evorao:EVA:IZSLER:026V-04371",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-aswineitaly133102016-h1n1",
-      "dcterms:issued": "2021-10-08T11:43:43+02:00",
-      "dcterms:modified": "2022-11-23T12:28:31+01:00",
-      "dcterms:title": "Swine influenza A/swine/Italy/13310/2016 (H1N1) ",
-      "dcterms:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-07-02",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Human Risk Group 1, Animal Risk Group 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50µL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "IZSLER Parma"
-      },
-      "EVORAO:passage": "2 X Caco2",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Caco2"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:technicalRecommendation": "PCR, sequencing",
-      "EVORAO:titer": "10E4,3",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:accessionNumber": "MZ262346-MZ262353",
-      "EVORAO:isolationConditions": "CACO-2 cells were cultured in 25 cm2 tissue culture flask in MEM with 1 mM of sodium pyruvate and 15% foetal calf serum. When the cells formed a monolayer, usually after 48 h, the medium was removed and cells were washed three times with saline solution. Each sample was inoculated onto CACO-2 cells (1ml) followed by 1ml of MEM with 1 mM of sodium pyruvate. The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM with 1 mM of sodium pyruvate was added.",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Swine"
-      },
-      "EVORAO:isolationTechnique": "Propagation on Caco2 cell line",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Mantova"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Italy"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "+ 4°C",
-        "A/swine/Italy/13310/2016 (H1N1)",
-        "Animal virus",
-        "Caco2",
-        "Category B",
-        "UN3373",
-        "IAV",
-        "Influenza A virus",
-        "Italy",
-        "IZSLER Parma",
-        "Mantova",
-        "MZ262346-MZ262353",
-        "Orthomyxoviridae",
-        "RG2",
-        "Swine"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2016-07-02",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MZ262346-MZ262353"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "A/swine/Italy/13310/2016 (H1N1)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza A virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolated in Mantova, Italy from swine",
-        "EVORAO:genotype": "H1-1C.2.1-N1",
-        "EVORAO:strain": "A/SW/13310/2016 (H1N1)",
-        "EVORAO:serotype": "H1N1",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-04371",
-      "search:title": "Swine influenza A/swine/Italy/13310/2016 (H1N1) ",
-      "search:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
-      "search:taxonLabel": "Influenza A virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Swine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "MZ262346-MZ262353",
-      "search:providerName": "IZSLER",
-      "search:originatorName": "IZSLER Parma",
-      "search:pathogenName": "A/swine/Italy/13310/2016 (H1N1)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-04372",
-      "@id": "urn:evorao:EVA:IZSLER:026V-04372",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-aswineitaly332712016-h3n2",
-      "dcterms:issued": "2021-10-08T11:56:16+02:00",
-      "dcterms:modified": "2022-11-23T12:28:27+01:00",
-      "dcterms:title": "Swine influenza A/swine/Italy/33271/2016 (H3N2)",
-      "dcterms:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-11-24",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Human Risk Group 1, Animal Risk Group 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50µL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "IZSLER Parma"
-      },
-      "EVORAO:passage": "1 X Caco2",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Caco2"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:technicalRecommendation": "PCR, sequencing",
-      "EVORAO:titer": "10E4,3",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:accessionNumber": "MZ262338-MZ262345",
-      "EVORAO:isolationConditions": "CACO-2 cells were cultured in 25 cm2 tissue culture flask in MEM with 1 mM of sodium pyruvate and 15% foetal calf serum. When the cells formed a monolayer, usually after 48 h, the medium was removed and cells were washed three times with saline solution. Each sample was inoculated onto CACO-2 cells (1ml) followed by 1ml of MEM with 1 mM of sodium pyruvate. The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM with 1 mM of sodium pyruvate was added.",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Swine"
-      },
-      "EVORAO:isolationTechnique": "Propagation on Caco2 cell line",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Reggio Emila"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Italy"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "+ 4°C",
-        "A/swine/Italy/33271/2016 (H3N2)",
-        "Animal virus",
-        "Caco2",
-        "Category B",
-        "UN3373",
-        "IAV",
-        "Influenza A virus",
-        "Italy",
-        "IZSLER Parma",
-        "MZ262338-MZ262345",
-        "Orthomyxoviridae",
-        "Reggio Emila",
-        "RG2",
-        "Swine"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2016-11-24",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MZ262338-MZ262345"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "A/swine/Italy/33271/2016 (H3N2)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza A virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolated in Reggio Emila, Italy from swine",
-        "EVORAO:genotype": "H3N2",
-        "EVORAO:strain": "A/swine/Italy/33271/2016 (H3N2)",
-        "EVORAO:serotype": "H3N2",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-04372",
-      "search:title": "Swine influenza A/swine/Italy/33271/2016 (H3N2)",
-      "search:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
-      "search:taxonLabel": "Influenza A virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Swine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "MZ262338-MZ262345",
-      "search:providerName": "IZSLER",
-      "search:originatorName": "IZSLER Parma",
-      "search:pathogenName": "A/swine/Italy/33271/2016 (H3N2)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-04373",
-      "@id": "urn:evorao:EVA:IZSLER:026V-04373",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-dswineitaly199724-32015",
-      "dcterms:issued": "2021-10-08T12:20:12+02:00",
-      "dcterms:modified": "2022-11-23T12:28:22+01:00",
-      "dcterms:title": "Swine influenza D/swine/Italy/199724-3/2015 ",
-      "dcterms:description": "The virus has been isolated from swine and propagated on HRT cell line",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-08-05",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Human Risk Group 2, Animal Risk Group 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID 50/µL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "IZSLER Parma"
-      },
-      "EVORAO:passage": "3 X HRT-18",
-      "EVORAO:previouslyKnownAs": "Influenzavirus D",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "HRT-18"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:technicalRecommendation": "PCR, sequencing",
-      "EVORAO:titer": "10E4,2",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:accessionNumber": "KT592530-KT592536",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Swine"
-      },
-      "EVORAO:isolationTechnique": "Propagation on HRT-18 cell line",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Cremona"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Italy"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "+ 4°C",
-        "26812282",
-        "Animal virus",
-        "Category B",
-        "UN3373",
-        "Cremona",
-        "D/swine/Italy/199724-3/2015",
-        "HRT-18",
-        "IDV",
-        "Influenza D virus",
-        "Influenzavirus D",
-        "Italy",
-        "IZSLER Parma",
-        "KT592530-KT592536",
-        "Orthomyxoviridae",
-        "RG2",
-        "Swine"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-08-05",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KT592530-KT592536"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "D/swine/Italy/199724-3/2015"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza D virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolated in Cremona, Italy, from swine",
-        "EVORAO:strain": "D/swine/Italy/199724-3/2015",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-04373",
-      "search:title": "Swine influenza D/swine/Italy/199724-3/2015 ",
-      "search:description": "The virus has been isolated from swine and propagated on HRT cell line",
-      "search:taxonLabel": "Influenza D virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Swine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "KT592530-KT592536",
-      "search:providerName": "IZSLER",
-      "search:originatorName": "IZSLER Parma",
-      "search:pathogenName": "D/swine/Italy/199724-3/2015"
     }
   ]
 }
