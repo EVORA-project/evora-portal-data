@@ -22,6 +22,268 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CUB"
       },
+      "EVORAO:refSku": "004N-EVA302",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA302",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hhv-6-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:20+02:00",
+      "dcterms:modified": "2025-01-09T14:26:39+01:00",
+      "dcterms:title": "HHV-6 Plasmid",
+      "dcterms:description": "Human herpesvirus 6 plasmid for real time PCR",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a pCR4 TOPO vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "Kanamycin"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "KY290217.2"
+        }
+      },
+      "EVORAO:regionEncompassedInThisProduct": "pending",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "7310.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "KY290217.2",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "HHV-6",
+        "Human herpesvirus 6",
+        "Human virus",
+        "Kanamycin",
+        "KY290217.2",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "Dry ice",
+        "No Tag",
+        "Human betaherpesvirus 6A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human herpesvirus 6"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human betaherpesvirus 6A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA302",
+      "search:title": "HHV-6 Plasmid",
+      "search:description": "Human herpesvirus 6 plasmid for real time PCR",
+      "search:taxonLabel": "Human betaherpesvirus 6A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "KY290217.2",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Human herpesvirus 6"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "004N-EVA486",
+      "@id": "urn:evorao:EVA:CUB:004N-EVA486",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-plasmid",
+      "dcterms:issued": "2016-04-12T13:50:14+02:00",
+      "dcterms:modified": "2025-01-09T14:26:05+01:00",
+      "dcterms:title": "HCV X-tail Plasmid",
+      "dcterms:description": "HCV X-tail Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "EVORAO:unitDefinition": "500 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:clonedNucleicAcid": true,
+      "EVORAO:preparationTechnique": "Cloning of target region (details provided in Certificate of Analysis) in a vector. Plasmid DNA was subsequently purified by QIAprep Spin Miniprep Kit.",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "pCR4-Topo"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": ">004N-EVA486\nGGTGGCTCCGTCTTAGCCCTAGTCACGGCTAGCTGTGAAAGGTCCGTGAGCCGCATGACTGCAGAGAGTGCTGATACTGG\nCCTCTCTGCAGATCATGT",
+      "EVORAO:regionEncompassedInThisProduct": "Cloning of target region (details provided in Certificate of Analysis)",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:titer": "238.00 per µl",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Cloned nucleic acid",
+        "CUB",
+        "Diagnostic reagent",
+        "Derived product",
+        "Hepatitis C virus",
+        "Human virus",
+        "NON DANGEROUS GOODS",
+        "pCR4-Topo",
+        "RG1",
+        "Dry ice",
+        "No Tag",
+        "Hepacivirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hepatitis C virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hepacivirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "004N-EVA486",
+      "search:title": "HCV X-tail Plasmid",
+      "search:description": "HCV X-tail Plasmid for in vitro transcription. The target region of a specific real time assay was amplified and cloned.",
+      "search:taxonLabel": "Hepacivirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Hepatitis C virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
       "EVORAO:refSku": "004N-EVA488",
       "@id": "urn:evorao:EVA:CUB:004N-EVA488",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/hcv-x-tail-ivt",
@@ -138032,234 +138294,6 @@
       "search:collectionName": "CUB",
       "search:providerName": "CUB",
       "search:pathogenName": "Human herpesvirus 3"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-02006",
-      "@id": "urn:evorao:EVA:CUB:004N-02006",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/human-mastadenovirus-type-31-dna",
-      "dcterms:issued": "2016-10-11T09:31:04+02:00",
-      "dcterms:modified": "2022-11-30T13:19:38+01:00",
-      "dcterms:title": "Human Mastadenovirus A , Type 31 DNA",
-      "dcterms:description": "Extracted Human Mastadenovirus A  DNA, Type 31.",
-      "EVORAO:unitDefinition": "1 unit = 250 µl with 1000 cp / µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:sequence": ">004N-02006 | Human Mastadenovirus A , Type 31\nATGGCCACTCCCTCGATGATGCCGCAGTGGTCTTACATGCACATCGCCGGTCAGGACGCCTCGGAGTACCTGAGTCCCGG\nTCTGGTGCAATTCGCCCGCGCCACGGACACCTACTTCAC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "1000.00 copies per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "CUB",
-        "Derived product",
-        "Human virus",
-        "Mastadenovirus DNA",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Type 31",
-        "Dry ice",
-        "Human mastadenovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Type 31"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-02006",
-      "search:title": "Human Mastadenovirus A , Type 31 DNA",
-      "search:description": "Extracted Human Mastadenovirus A  DNA, Type 31.",
-      "search:taxonLabel": "Human mastadenovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Type 31"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004V-02196",
-      "@id": "urn:evorao:EVA:CUB:004V-02196",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-enterovirus-b-coxsackie-b2",
-      "dcterms:issued": "2017-03-28T17:33:33+02:00",
-      "dcterms:modified": "2022-11-30T11:49:54+01:00",
-      "dcterms:title": "Human Enterovirus B - Coxsackie B2",
-      "dcterms:description": "Infectious cellculture supernatant of human Enterovirus B - Coxsackie B2",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "CaCo"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "CUB",
-        "Virus",
-        "CaCo",
-        "Category B",
-        "UN3373",
-        "Coxsackie B2",
-        "Coxsackievirus B2",
-        "enterovirus",
-        "Enterovirus B",
-        "Germany",
-        "Human virus",
-        "RG2",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">004V-02196| MH484076.1 Coxsackievirus B2 strain, complete cds\nATGGGAGCACAAGTGTCAACGCAGAAGACCGGCGCGCATGAGACTAGTCTAAATGCCAGTGGAAACTCCATCATTCACTA\nCACAAACATTAACTACTATAAAGATGCAGCTTCTAACTCCGCTAATCGCCAGGATTTTGCCCAGGATCCCGGAAAGTTCA\nCCGAGCCAGTGAAGGATATTATGATAAAGTCTATGCCAGCACTAAATTCACCATCAGCAGAGGAGTGTGGGTATAGTGAT\nAGAGTTAGATCTATAACGCTGGGCAATTCAACAATCACCACTCAAGAGTGTGCCAATGTGGTTGTGGGATATGGGATATG\nGCCACGATATTTGAGCGACGCGGAAGCAACTGCGGAAGACCAACCGACACAACCGGATGTTGCCACATGCAGGTTTTACA\nCACTTTCATCTGTGCAATGGCAGAAAGACTCCGCTGGGTGGTGGTGGAAATTCCCGGATGCTTTGTCAGATATGGGTCTG\nTTTGCTCAAAATATGATGTACCACTACTTGGGAAGGACTGGATATACGATACACGTGCAGTGTAACGCGTCTAAGTTCCA\nCCAGGGATGCCTGCTGGTAGTGTGTGTGCCAGAAGCTGAAATGGGGTGTACTAACAAAGAGAACACCCCTTTATTCGAGA\nAATTGTGCGGTCAAGATAACGCGAAAGAGTTCTCGCGAGAAGGGCCCACGATTTCGGAGGGTTCGACTGATGTCCAAACT\nGCAGTGTGCAATGCTGGTATGGGAGTGGGTGTTGGAAACTTGACAATTTTCCCACACCAGTGGATTAACTTGCGCACCAA\nTAACAGCGCAACTATAGTTATGCCATACATAAATAGTGTACCAATGGATAGCATGATCAGACACAACAATTTTACATTGA\nTGATCATCCCTTTTGTGCCACTCGACTTTGTTAACGGCTCATCTCCGTACATACCCATCACTGTTACCGTAGCTCCAATG\nTCTGCTGAATACAATGGGCTGCGGCTTGCCAGTACGCAAGGCCTTCCAACCATGTTGACACCAGGCAGTAACCAATTCCT\nGACCTCAGACGACTTTCAATCACCCTCTGCCATGCCACAATTTGATGTTACACCCGAGATGGAAATTCCAGGACAAGTGC\nGTAACTTGATGGAAATAGCAGAAGTGGATTCGGTAGTGCCATTGAATAACACTTCGGACAATCTTAGAAAGATGGATGTT\nTACCGAGTACAAGTGTCATCACAAACAAGTCAGGGTTCACAAGTGTTCGGCTTTTCCTTGCAACCCGGTGCCTCCAGTGT\nGTTACAACGCACTCTGCTTGGAGAGATTTTAAATTATTACACACACTGGTCCGGTAGCCTGAAGCTCACGTTCGTGTTCT\nGTGGATCAGCAATGGCGACTGGGAAATTCTTGTTAGCATATTCGCCACCAGGTGCTGGAGTGCCACCAGATAGAAAAAAA\nGCAATGTTAGGAACGCACGTTGTATGGGACGTGGGACTGCAGTCTAGCTGTGTATTGTGCGTACCCTGGATTAGCCAAAC\nACATTACAGATACACAGTACAGGATGAGTATACGGACAGTGGTTACATCACTTGCTGGTACCAAACAAATGTCATAGCAC\nCGGCTGACGCACTGTCTACGTGCTACATAATGTGCATGGTGTCAGCATGCAACGATTTTTCCGTGCGCATGCTGCGCGAC\nACCCGCTTCATTAAGCAAATAGCCTTTTACCAGAGCCCAGTAGAAGAATCTATTGAGAGAAGCATTGGCAGGGTTGCAGA\nCACCATTGGTAGTGGACCGACTAATTCCGAAGCTATACCAGCACTCACTGCGGTCGAGACAGGACACACCTCTCAGGTTA\nCGCCTAGTGACACAATGCAAACGAGACACGTGCGTAATTACCACTCAAGATCAGAATCCAGTGTGGAAAACTTTTTGGCG\nCGATCGGCGTGTGTATTCTACACTACGTACACCAACAGCAAAACTGCAGCCAAAGAGAAAAAGTTTGCAACATGGAAGGT\nGAGTGTTAGACAAGCCGCACAGTTAAGAAGGAAGTTGGAGTTGTTCACATACCTGCGCTGCGACATTGAACTAACATTCG\nTCATCACCAGCGCACAAGATCCATCAACTGCGACCACCTTGGATGTGCCAGTGTTAACCCACCAAATAATGTATGTTCCG\nCCTGGAGGCCCGGTCCCAGATACTGTGGATGATTATAATTGGCAAACATCAACAAATCCTAGTCTATTCTGGACTGAGGG\nCAATGCACCTCCTCGCATGTCAATCCCATTTATGAGCATAGGCAACGCTTACAGCATGTTTTATGACGGGTGGTCTGAAT\nTCAGGCATGATGGTGTTTATGGCCTGAACACCCTTAACAACATGGGCACTATTTACGCTAGACACGTTAATGCTGACAAC\nCCAGGTAGCATTACCAGCACTGTGAGAATATACTTCAAACCTAAACATGTTAAGGCATGGGTTCCACGCCCGCCCCGACT\nGGCACAGTATCTCAAAGCTAACAACGTGAACTTTGAAATAACTGACGTGACAGAGAAGAGGGATAGCCTCATAACCACAG\nGGGCCCTTGGTCACCAGTCCGGTGCAGTGTATGTGTGCAATTACAAGATAGTGAACAGACACCTTGCCACACACGCCGAC\nTGGCAAAACTGTGTATGGGAAGATTATAATAGAGACCTTCTAGTCAGCACCACCACAGCTCACGGTTGTGACGCCATTGC\nTAGGTGCCAATGCACCACGGGTGTGTATTTCTGTGCCTCCAGGAATAAACATTATCCAGTGAATTTTGAAGGGCCCGGAT\nTAGTTGAGGTGCAGGAGAGTGAGTACTACCCGAAGAGATACCAATCTCATGTACTCCTTGCAGCTGGGTTCTCCGAACCA\nGGTGACTGCGGTGGCATCCTGAGGTGTGAACATGGTGTCATCGGGCTCGTGACAATGGGTGGAGAGGGCGTTGTCGGTTT\nCGCCGACGTGCGCGACCTCCTATGGCTGGAGGATGACGCGATGGAGCAGGGAGTCAAGGACTATGTAGAGCAACTCGGAA\nACGCTTTTGGATCCGGTTTCACTAATCAAATCTGTGAACAGGTTAACCTCCTCAAGGAAACCCTCGTAGGCCAAGATTCT\nATATTGGAAAAATCCCTAAAAGCGCTAGTCAAAATCATATCAGCTCTGGTGATCGTAGTCAGAAATCACGATGATCTGAT\nCACGGTGACCGCCACGCTAGCTCTTATTGGATGTACATCATCCCCGTGGCGATGGCTTAAACACAAAGTATCCCAATACT\nATGGAATTCCCATGGCTGAGAGGCAGAACAACGGTTGGTTGAAGAAGTTTACCGAAGTGACCAACGCGTGCAAGGGCATG\nGAGTGGATTGCTATCAAGATTCAAAAATTTATTGAATGGCTTAAGGTCAAAATCCTACCTGAAGTAAAAGAAAAGCATGA\nGTTCCTGAGCAGATTAAAACAACTACCGCTTCTTGAGAGTCAGATTGCCACCATCGAACAGAGCGCGCCCTCACAAAGCG\nATCAAGAACAGCTCTTCTCAAACGTTCAGTACTTCGCGCATTACTGTAGAAAATATGCGCCTCTATATGCCGCCGAGGCA\nAAGAGGGTGTTTTCTCTGGAGAAGAAGATGGGTAATTACATACAGTTCAAGTCCAAATGCCGTATTGAACCCGTATGTCT\nACTCCTTCATGGCAGTCCAGGAGCTGGGAAGTCAGTAGCCACCAACCTAATTGGGCGCTCGCTGGCAGAGAAACTCAACA\nGCTCAGTTTACTCATTACCACCAGATCCTGATCACTTTGACGGTTACAAACAGCAAGCCGTAGTGATCATGGACGACCTG\nTGCCAAAACCCAGACGGAAAGGACGTATCCTTGTTTTGTCAGATGGTGTCAAGTGTTGATTTCGTGCCACCTATGGCAGC\nGCTGGAAGAGAAAGGAATCCTATTCACATCCCCATTTGTGCTGGCATCAACCAATGCAGGGACCATCAACGCGCCTACGG\nTGTCAGATAGTAGGGCGCTTGCCAGAAGATTCCACTTTGATATGAACATTGAGGTGATCTCCACGTACAGCCAGAATGGT\nAAGATCAACATGCCCATGTCTGTAAAAACATGTGATGAAGAGTGTTGTCCGGTCAACTTCAAAAAGTGCTGTCCATTGGT\nGTGTGGAAGAGCCATCCAATTTATTGATAGAAGAACACAAGTCCGATATTCGCTGGACATGTTGGTCACCGAAATGTTTA\nGAGAATATAACCATAGGCACAGCGTGGGCGCCACCCTCGAAGCCCTATTTCAAGGGCCCCCAGTGTATAGGGAGATTAAG\nATCAGTGTCGCCCCAGAAACGCCCCCCCCACCAGCGATTGCTGACCTTTTAAAATCAGTTGATAGTGAGGCAGTTAGGGA\nATACTGTAAAGAAAAAGGTTGGCTTGTGCCAGAGAGCAACTCCACTTTGCAAATCGAGAAGCACGTCAGCAGAGCGTTTA\nTTTGCTTACAAGCACTAACAACTTTTGTCTCAGTAGCTGGCATCATTTACGTCATCTATAAGCTATTCGCCGGCTTTCAG\nGGTGCGTACACAGGGATGCCAAACCAGAAACCCAAAGTACCCACGCTAAGACAGGCTAAAGTGCAAGGCCCAGCGTTTGA\nATTTGCTGTAGCCATGATGAAGAGAAATGCTAGCACAGTGAAAACGGAGTATGGAGAGTTCACCATGCTTGGCATTTATG\nACAGGTGGGCAGTATTACCACGCCACGCCAAGCCTGGACCAACCATCTTGATGAACGACCAAGAAGTTGGGGTGCTAGAT\nGCCAAAGAACTAGTAGACAAAGATGGAGTAAATTTGGAGCTGACCCTCCTAAAGCTCAACCGCAACGAGAAATTCAGAGA\nCATCAGAGGCTTCCTTGCAAGAGAGGAGGTTGAGGTGAGCGAAGCAGTGCTGGCAATAAATACAAGCAAATTCCCAAACA\nTGTACATCCCTGTTGGTCAAGTCACCGATTACGGCTTTCTAAACCTAGGGGGTACCCCTACAAAGAGGATGCTTATGTAC\nAATTTCCCGACAAGGGCAGGGCAGTGTGGTGGTGTTTTAATGTCGACTGGAAAGGTCCTTGGAATACATGTGGGAGGGAA\nTGGCCACCAAGGCTTCTCTGCCGCTCTCCTTAAGCACTACTTCAACGAGGAACAGGGTGAGATTGAATTCATCGAAAACT\nCAAAGGACGCAGGCTTCCCCGTGATTAACACCCCCAGCAAGACTAAGTTGGAACCAAGCGTATTCCATCAAGTATTTGAA\nGGTAGCAAAGAACCTGCAGTGCTGAGAAATGGGGATCCACGCCTTAAAGCTAACTTTGAGGAAGCAATCTTCTCCAAATA\nCATCGGCAATGTCAACACTCATGTAGACGAGTATATGACAGAGGCCGTGGATCATTATGCAGGACAATTAGCCACACTAG\nACATTAACACTGAACCCATGAAATTGGAGGATGCTGTGTATGGTACCGAAGGACTGGAAGCATTAGACTTGACCACTAGC\nGCAGGATACCCTTACGTGGCCCTAGGCATTAAGAAGAGAGACATCCTGTCAAAGAAAACCAAAGACCTCACTAAACTAAA\nGGAGTGTATGGACAAATATGGCTTGAACCTACCAATGGTGACATATGTAAAAGATGAGCTGAGGTCATCCGAAAAGGTGG\nCTAGGGGAAAGTCCAGGCTCATTGAAGCTTCAAGCCTAAATGACTCAGTGGCCATGAGACAAACTTTTGGAAATCTATAC\nAAGACCTTTCATCTTAATCCAGGCATTGTCACAGGTAGTGCTGTTGGGTGTGATCCAGATGTATTTTGGAGCAAGATCCC\nTGTCATGCTCGATGGCCACCTCATAGCCTTCGATTATTCGGGCTATGATGCAAGTCTCAGCCCAGTGTGGTTTGTATGCC\nTAAAGCTTCTTCTGGAGAAATTGGGATATACAAACAGGGAGACAAACTACATAGATTACCTCTGCAACTCCCATCACTTG\nTACAGGGACAAACACTACTTTGTAAGGGGTGGAATGCCATCAGGATGCTCAGGCACCAGCATATTCAACTCTATGATTAA\nTAATATCATAATTAGAACCCTTATGCTGAAGGTCTATAAAGGTATTGATTTGGATCAGTTTAGAATGATCGCCTATGGAG\nATGATGTGATCGCTTCCTACCCATGGCCAATTGATGCTTCATTGTTAGCAGAAGCAGGGAAAGATTATGGTTTGATCATG\nACTCCAGCTGACAAAGGCGAGTACTTCAATGAAGTGACTTGGACAAACGTGACCTTTCTGAAAAGGTATTTTAGGGCAGA\nTGAGCAATATCCGTTCCTAGTCCACCCTGTAATGCCAATGAAAGACATTCATGAATCCATCAGATGGACCAAAGACCCTA\nAGAATACACAGGACCATGTGCGCTCATTGTGCCTATTGGCATGGCACAATGGTGAGCATGAATATGAGGAGTTTATTCGT\nAAGATCAGAAGTGTGCCCGTTGGGCGCTGCTTAACCCTCCCTGCGTTCTCAACATTACGCAGGAAGTGGCTGGACTCCTT\nCTAAA"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Coxsackievirus B2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Enterovirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004V-02196",
-      "search:title": "Human Enterovirus B - Coxsackie B2",
-      "search:description": "Infectious cellculture supernatant of human Enterovirus B - Coxsackie B2",
-      "search:taxonLabel": "Enterovirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "CUB",
-      "search:countryOfCollection": "Germany",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Coxsackievirus B2"
     }
   ]
 }

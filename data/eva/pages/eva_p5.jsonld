@@ -22,6 +22,207 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "015A-01750",
+      "@id": "urn:evorao:EVA:FLI:015A-01750",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-salmon-pancreas-disease-virus-anti-spdv",
+      "dcterms:issued": "2016-07-08T14:01:13+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-Salmon pancreas disease virus (anti-SPDV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: unknown; clone: 15B8; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with isolates from trouts (SAV2) and salmon (SAV1 and SAV3)",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "monoclonal antibody",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Salmon pancreas disease virus",
+        "SPDV"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Salmon pancreas disease virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Salmon pancreas disease virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01750",
+      "search:title": "murine mAb: anti-Salmon pancreas disease virus (anti-SPDV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: unknown; clone: 15B8; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
+      "search:taxonLabel": "Salmon pancreas disease virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Salmon pancreas disease virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-01749",
+      "@id": "urn:evorao:EVA:FLI:015A-01749",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-salmon-pancreas-disease-virus-envelope-anti-spdv-envelope",
+      "dcterms:issued": "2016-07-08T13:58:22+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-Salmon pancreas disease virus envelope (anti-SPDV envelope)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: envelope; clone: 12A5; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with tested SPDV isolates from trouts (SAV2) and most isolates from salmon (SAV1 and SAV3)",
+      "EVORAO:antibodyCharacterizationObservation": "electron immunomicroscopy",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "monoclonal antibody",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Salmon pancreas disease virus",
+        "SPDV"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Salmon pancreas disease virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Salmon pancreas disease virus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01749",
+      "search:title": "murine mAb: anti-Salmon pancreas disease virus envelope (anti-SPDV envelope)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: envelope; clone: 12A5; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
+      "search:taxonLabel": "Salmon pancreas disease virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Salmon pancreas disease virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "015A-01747",
       "@id": "urn:evorao:EVA:FLI:015A-01747",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-african-horse-sickness-virus-ahsv-9",

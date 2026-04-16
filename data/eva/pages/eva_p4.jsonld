@@ -22,6 +22,295 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
+      "EVORAO:refSku": "007V-02765",
+      "@id": "urn:evorao:EVA:UL:007V-02765",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-1-1",
+      "dcterms:issued": "2018-03-15T11:01:32+01:00",
+      "dcterms:modified": "2021-06-03T15:15:09+02:00",
+      "dcterms:title": "Human Mastadenovirus C, Type 1",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2012-01-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "A549"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "throat swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "A549",
+        "Adenovirusm Human mastadenovirus",
+        "AdV",
+        "AdV1",
+        "Category B",
+        "UN3373",
+        "Human adenovirus 1",
+        "Human virus",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "throat swab",
+        "Dry ice",
+        "Human mastadenovirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2012-01-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "AAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTCATATCTAGCGCGT\nGGGCGGAGTTTGCATAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCACCCATGGACATAA\nAGTTACTGGAGAATGGAATGCGCCAAAGGGTGCGGTCGCAAAGAAACTTTTTCTGGGTAA\nTACTGTCAACCGCGGTCTTGCCTATAAGCGGGTAGGGGAAGTTGGCGGGGTAGGCCTGTC\nCCTCTCGCATGGTGGGAGCGAGGTAACCAACAAAGCCAGAGTTATTGTGCTGGTGGAGGA\nTGCCCACCTGTTGGTAGTCCTTGTATTTGGTATCGTCCACCACCTGACGGCTCATGGGCT\nGGAAGTTTCTAAAGAAGGAGTACATGCGGTCCTTATAGCTTTCTGGGATATAAAAGCCCT\nGGTAGCCTATGTTGTAGTTGGCTAGCATTTGTACCAAGAACCAGTCTTTGGTCATGTTGC\nATTGGGCAACGTTGTAGCCCTCTCCGTCAACTGAACGCTTGATCTCAAACTCGTTGGGGG\nTAAGCAGACGGTCATTGCCAGGCCAGCTAACAGAAGAGTCAAAGGTGATGGCCACCTTTT\nTGAAGGTGTGATTAAGGTAAAAGGTTCCGTCTAGGTAGGGTATGGAGCCAGAGTAGGTAT\nAGTAAGGGTCGTAGCCGGAACCCAGGGATGGGGTTTCCTTAGTCTTAAGGCGCGTAAAGG\nCCCAGCCTCGGAAAGCCGCCCAGTTGCGCGAGGGGATAGAGATGGGCACGTTGGTGGCGT\nTG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human adenovirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human mastadenovirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 5116/2011",
+        "EVORAO:serotype": "Type 1",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02765",
+      "search:title": "Human Mastadenovirus C, Type 1",
+      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human mastadenovirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, throat swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human adenovirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02881",
+      "@id": "urn:evorao:EVA:UL:007V-02881",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/herpes-simplex-virus-1-human-alphaherpesvirus-1",
+      "dcterms:issued": "2018-05-16T14:09:55+02:00",
+      "dcterms:modified": "2021-06-03T15:13:35+02:00",
+      "dcterms:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "dcterms:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 75/12) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2012-01-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "2nd passage",
+      "EVORAO:previouslyKnownAs": "herpes simplex virus type 1 (HSV-1)",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "MRC-5"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "swab hard palate"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "Herpes simplex virus",
+        "herpes simplex virus type 1 (HSV-1)",
+        "HHV",
+        "HHV 1",
+        "HSV",
+        "HSV 1",
+        "human alphaherpesvirus",
+        "Human alphaherpesvirus 1",
+        "Human virus",
+        "MRC-5",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "swab hard palate",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2012-01-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GCTATGGCAGGGCTTGCCGCCCCGACGTTGGCTGCGAGCCCTGGGCCTTCACCCGAACTT\nGGGGGTTGGGGTGGGGAAAAGGAAGAAACGCGGGCGTATTGGCCCCAATGGGGTCTCGGT\nGGGGTATCGACAGAGTGCCAGCCCTGGGACCGAACCCCGCGTTTATGAACAAACGACCCA\nACACCCGTGCGTTTTATTCTGTCTTTTTATTGCCGTCATAGCGCGGGTTCCTTCCGGTAT\nTGTCTCCTTCCGTGTTTCAGTTAGCCTCCCCCATCTCCCGGGCAAACGTGCGCGCCAGGT\nCGCARATCGTCGGTATGGAGCCTGGGGTGGTGACGTGGGTCTGGACCATCCCGGAGGTAA\nGTTGCAGCAGGGCGTCCCGGCAGCCGGCGGGCGATTGGTCGTAATCCAGGATAAAGACGT\nGCATGGGACGGAGGCGTTTGGCCAAGACGTCCAAGGCCCAGGCAAACACGTTATACAGGT\nCGCCGTTGGGGGCCAGCAACTCGGGGGCCCGAAACAGGGTAAATAACGTGTCCCCRATAT\nGGGGTCGTGGGCCCGCGTTGCTCTGGGGCTCGGCACCCTGGGGCGGCACGGCCGTCCCCG\nAAAGCTGTCCCCAATCCTCCCGCCACGACCCGCCGCCCTGCAGATACCGCACCGTATTGG\nCAAGCAGCCCGTAAACGCGGCGAATCGCGGCCAGCATAGCCAGGTCAAGCCGCTCGCCGG\nGGCGCTGGCGTTTGGCCAGGCGGTCGATGTGTCTGTCCTCCGG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 75/2012",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02881",
+      "search:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "search:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 75/12) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human alphaherpesvirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, swab hard palate",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human alphaherpesvirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
       "EVORAO:refSku": "007V-02835",
       "@id": "urn:evorao:EVA:UL:007V-02835",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-coxsackievirus-a16",
@@ -130247,207 +130536,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "White bream virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01750",
-      "@id": "urn:evorao:EVA:FLI:015A-01750",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-salmon-pancreas-disease-virus-anti-spdv",
-      "dcterms:issued": "2016-07-08T14:01:13+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Salmon pancreas disease virus (anti-SPDV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: unknown; clone: 15B8; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with isolates from trouts (SAV2) and salmon (SAV1 and SAV3)",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "monoclonal antibody",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Salmon pancreas disease virus",
-        "SPDV"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Salmon pancreas disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Salmon pancreas disease virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01750",
-      "search:title": "murine mAb: anti-Salmon pancreas disease virus (anti-SPDV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: unknown; clone: 15B8; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
-      "search:taxonLabel": "Salmon pancreas disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Salmon pancreas disease virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01749",
-      "@id": "urn:evorao:EVA:FLI:015A-01749",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-salmon-pancreas-disease-virus-envelope-anti-spdv-envelope",
-      "dcterms:issued": "2016-07-08T13:58:22+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Salmon pancreas disease virus envelope (anti-SPDV envelope)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: envelope; clone: 12A5; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with tested SPDV isolates from trouts (SAV2) and most isolates from salmon (SAV1 and SAV3)",
-      "EVORAO:antibodyCharacterizationObservation": "electron immunomicroscopy",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "monoclonal antibody",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Salmon pancreas disease virus",
-        "SPDV"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Salmon pancreas disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Salmon pancreas disease virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01749",
-      "search:title": "murine mAb: anti-Salmon pancreas disease virus envelope (anti-SPDV envelope)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-SPDV antibodies; targeted antigen: envelope; clone: 12A5; immunization antigen: inactivated strain \"S49P (rainbow trout)\"",
-      "search:taxonLabel": "Salmon pancreas disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Salmon pancreas disease virus"
     }
   ]
 }
