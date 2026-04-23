@@ -17,111 +17,6 @@
   },
   "@graph": [
     {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004N-02006",
-      "@id": "urn:evorao:EVA:CUB:004N-02006",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/human-mastadenovirus-type-31-dna",
-      "dcterms:issued": "2016-10-11T09:31:04+02:00",
-      "dcterms:modified": "2022-11-30T13:19:38+01:00",
-      "dcterms:title": "Human Mastadenovirus A , Type 31 DNA",
-      "dcterms:description": "Extracted Human Mastadenovirus A  DNA, Type 31.",
-      "EVORAO:unitDefinition": "1 unit = 250 µl with 1000 cp / µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:sequence": ">004N-02006 | Human Mastadenovirus A , Type 31\nATGGCCACTCCCTCGATGATGCCGCAGTGGTCTTACATGCACATCGCCGGTCAGGACGCCTCGGAGTACCTGAGTCCCGG\nTCTGGTGCAATTCGCCCGCGCCACGGACACCTACTTCAC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:titer": "1000.00 copies per µl",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "CUB",
-        "Derived product",
-        "Human virus",
-        "Mastadenovirus DNA",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Type 31",
-        "Dry ice",
-        "Human mastadenovirus A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Type 31"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus A"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004N-02006",
-      "search:title": "Human Mastadenovirus A , Type 31 DNA",
-      "search:description": "Extracted Human Mastadenovirus A  DNA, Type 31.",
-      "search:taxonLabel": "Human mastadenovirus A",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Type 31"
-    },
-    {
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -147248,6 +147143,149 @@
       "search:accessionNumber": "MG457078 - MG457087, available from May 2018",
       "search:providerName": "UL",
       "search:pathogenName": "Mammalian orthoreovirus 3"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02765",
+      "@id": "urn:evorao:EVA:UL:007V-02765",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-1-1",
+      "dcterms:issued": "2018-03-15T11:01:32+01:00",
+      "dcterms:modified": "2021-06-03T15:15:09+02:00",
+      "dcterms:title": "Human Mastadenovirus C, Type 1",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2012-01-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "A549"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "throat swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "A549",
+        "Adenovirusm Human mastadenovirus",
+        "AdV",
+        "AdV1",
+        "Category B",
+        "UN3373",
+        "Human adenovirus 1",
+        "Human virus",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "throat swab",
+        "Dry ice",
+        "Human mastadenovirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2012-01-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "AAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTCATATCTAGCGCGT\nGGGCGGAGTTTGCATAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCACCCATGGACATAA\nAGTTACTGGAGAATGGAATGCGCCAAAGGGTGCGGTCGCAAAGAAACTTTTTCTGGGTAA\nTACTGTCAACCGCGGTCTTGCCTATAAGCGGGTAGGGGAAGTTGGCGGGGTAGGCCTGTC\nCCTCTCGCATGGTGGGAGCGAGGTAACCAACAAAGCCAGAGTTATTGTGCTGGTGGAGGA\nTGCCCACCTGTTGGTAGTCCTTGTATTTGGTATCGTCCACCACCTGACGGCTCATGGGCT\nGGAAGTTTCTAAAGAAGGAGTACATGCGGTCCTTATAGCTTTCTGGGATATAAAAGCCCT\nGGTAGCCTATGTTGTAGTTGGCTAGCATTTGTACCAAGAACCAGTCTTTGGTCATGTTGC\nATTGGGCAACGTTGTAGCCCTCTCCGTCAACTGAACGCTTGATCTCAAACTCGTTGGGGG\nTAAGCAGACGGTCATTGCCAGGCCAGCTAACAGAAGAGTCAAAGGTGATGGCCACCTTTT\nTGAAGGTGTGATTAAGGTAAAAGGTTCCGTCTAGGTAGGGTATGGAGCCAGAGTAGGTAT\nAGTAAGGGTCGTAGCCGGAACCCAGGGATGGGGTTTCCTTAGTCTTAAGGCGCGTAAAGG\nCCCAGCCTCGGAAAGCCGCCCAGTTGCGCGAGGGGATAGAGATGGGCACGTTGGTGGCGT\nTG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human adenovirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human mastadenovirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 5116/2011",
+        "EVORAO:serotype": "Type 1",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02765",
+      "search:title": "Human Mastadenovirus C, Type 1",
+      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human mastadenovirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, throat swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human adenovirus 1"
     }
   ]
 }
