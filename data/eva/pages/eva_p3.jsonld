@@ -20,405 +20,6 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "004V-02196",
-      "@id": "urn:evorao:EVA:CUB:004V-02196",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-enterovirus-b-coxsackie-b2",
-      "dcterms:issued": "2017-03-28T17:33:33+02:00",
-      "dcterms:modified": "2022-11-30T11:49:54+01:00",
-      "dcterms:title": "Human Enterovirus B - Coxsackie B2",
-      "dcterms:description": "Infectious cellculture supernatant of human Enterovirus B - Coxsackie B2",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "CaCo"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "CUB",
-        "Virus",
-        "CaCo",
-        "Category B",
-        "UN3373",
-        "Coxsackie B2",
-        "Coxsackievirus B2",
-        "enterovirus",
-        "Enterovirus B",
-        "Germany",
-        "Human virus",
-        "RG2",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">004V-02196| MH484076.1 Coxsackievirus B2 strain, complete cds\nATGGGAGCACAAGTGTCAACGCAGAAGACCGGCGCGCATGAGACTAGTCTAAATGCCAGTGGAAACTCCATCATTCACTA\nCACAAACATTAACTACTATAAAGATGCAGCTTCTAACTCCGCTAATCGCCAGGATTTTGCCCAGGATCCCGGAAAGTTCA\nCCGAGCCAGTGAAGGATATTATGATAAAGTCTATGCCAGCACTAAATTCACCATCAGCAGAGGAGTGTGGGTATAGTGAT\nAGAGTTAGATCTATAACGCTGGGCAATTCAACAATCACCACTCAAGAGTGTGCCAATGTGGTTGTGGGATATGGGATATG\nGCCACGATATTTGAGCGACGCGGAAGCAACTGCGGAAGACCAACCGACACAACCGGATGTTGCCACATGCAGGTTTTACA\nCACTTTCATCTGTGCAATGGCAGAAAGACTCCGCTGGGTGGTGGTGGAAATTCCCGGATGCTTTGTCAGATATGGGTCTG\nTTTGCTCAAAATATGATGTACCACTACTTGGGAAGGACTGGATATACGATACACGTGCAGTGTAACGCGTCTAAGTTCCA\nCCAGGGATGCCTGCTGGTAGTGTGTGTGCCAGAAGCTGAAATGGGGTGTACTAACAAAGAGAACACCCCTTTATTCGAGA\nAATTGTGCGGTCAAGATAACGCGAAAGAGTTCTCGCGAGAAGGGCCCACGATTTCGGAGGGTTCGACTGATGTCCAAACT\nGCAGTGTGCAATGCTGGTATGGGAGTGGGTGTTGGAAACTTGACAATTTTCCCACACCAGTGGATTAACTTGCGCACCAA\nTAACAGCGCAACTATAGTTATGCCATACATAAATAGTGTACCAATGGATAGCATGATCAGACACAACAATTTTACATTGA\nTGATCATCCCTTTTGTGCCACTCGACTTTGTTAACGGCTCATCTCCGTACATACCCATCACTGTTACCGTAGCTCCAATG\nTCTGCTGAATACAATGGGCTGCGGCTTGCCAGTACGCAAGGCCTTCCAACCATGTTGACACCAGGCAGTAACCAATTCCT\nGACCTCAGACGACTTTCAATCACCCTCTGCCATGCCACAATTTGATGTTACACCCGAGATGGAAATTCCAGGACAAGTGC\nGTAACTTGATGGAAATAGCAGAAGTGGATTCGGTAGTGCCATTGAATAACACTTCGGACAATCTTAGAAAGATGGATGTT\nTACCGAGTACAAGTGTCATCACAAACAAGTCAGGGTTCACAAGTGTTCGGCTTTTCCTTGCAACCCGGTGCCTCCAGTGT\nGTTACAACGCACTCTGCTTGGAGAGATTTTAAATTATTACACACACTGGTCCGGTAGCCTGAAGCTCACGTTCGTGTTCT\nGTGGATCAGCAATGGCGACTGGGAAATTCTTGTTAGCATATTCGCCACCAGGTGCTGGAGTGCCACCAGATAGAAAAAAA\nGCAATGTTAGGAACGCACGTTGTATGGGACGTGGGACTGCAGTCTAGCTGTGTATTGTGCGTACCCTGGATTAGCCAAAC\nACATTACAGATACACAGTACAGGATGAGTATACGGACAGTGGTTACATCACTTGCTGGTACCAAACAAATGTCATAGCAC\nCGGCTGACGCACTGTCTACGTGCTACATAATGTGCATGGTGTCAGCATGCAACGATTTTTCCGTGCGCATGCTGCGCGAC\nACCCGCTTCATTAAGCAAATAGCCTTTTACCAGAGCCCAGTAGAAGAATCTATTGAGAGAAGCATTGGCAGGGTTGCAGA\nCACCATTGGTAGTGGACCGACTAATTCCGAAGCTATACCAGCACTCACTGCGGTCGAGACAGGACACACCTCTCAGGTTA\nCGCCTAGTGACACAATGCAAACGAGACACGTGCGTAATTACCACTCAAGATCAGAATCCAGTGTGGAAAACTTTTTGGCG\nCGATCGGCGTGTGTATTCTACACTACGTACACCAACAGCAAAACTGCAGCCAAAGAGAAAAAGTTTGCAACATGGAAGGT\nGAGTGTTAGACAAGCCGCACAGTTAAGAAGGAAGTTGGAGTTGTTCACATACCTGCGCTGCGACATTGAACTAACATTCG\nTCATCACCAGCGCACAAGATCCATCAACTGCGACCACCTTGGATGTGCCAGTGTTAACCCACCAAATAATGTATGTTCCG\nCCTGGAGGCCCGGTCCCAGATACTGTGGATGATTATAATTGGCAAACATCAACAAATCCTAGTCTATTCTGGACTGAGGG\nCAATGCACCTCCTCGCATGTCAATCCCATTTATGAGCATAGGCAACGCTTACAGCATGTTTTATGACGGGTGGTCTGAAT\nTCAGGCATGATGGTGTTTATGGCCTGAACACCCTTAACAACATGGGCACTATTTACGCTAGACACGTTAATGCTGACAAC\nCCAGGTAGCATTACCAGCACTGTGAGAATATACTTCAAACCTAAACATGTTAAGGCATGGGTTCCACGCCCGCCCCGACT\nGGCACAGTATCTCAAAGCTAACAACGTGAACTTTGAAATAACTGACGTGACAGAGAAGAGGGATAGCCTCATAACCACAG\nGGGCCCTTGGTCACCAGTCCGGTGCAGTGTATGTGTGCAATTACAAGATAGTGAACAGACACCTTGCCACACACGCCGAC\nTGGCAAAACTGTGTATGGGAAGATTATAATAGAGACCTTCTAGTCAGCACCACCACAGCTCACGGTTGTGACGCCATTGC\nTAGGTGCCAATGCACCACGGGTGTGTATTTCTGTGCCTCCAGGAATAAACATTATCCAGTGAATTTTGAAGGGCCCGGAT\nTAGTTGAGGTGCAGGAGAGTGAGTACTACCCGAAGAGATACCAATCTCATGTACTCCTTGCAGCTGGGTTCTCCGAACCA\nGGTGACTGCGGTGGCATCCTGAGGTGTGAACATGGTGTCATCGGGCTCGTGACAATGGGTGGAGAGGGCGTTGTCGGTTT\nCGCCGACGTGCGCGACCTCCTATGGCTGGAGGATGACGCGATGGAGCAGGGAGTCAAGGACTATGTAGAGCAACTCGGAA\nACGCTTTTGGATCCGGTTTCACTAATCAAATCTGTGAACAGGTTAACCTCCTCAAGGAAACCCTCGTAGGCCAAGATTCT\nATATTGGAAAAATCCCTAAAAGCGCTAGTCAAAATCATATCAGCTCTGGTGATCGTAGTCAGAAATCACGATGATCTGAT\nCACGGTGACCGCCACGCTAGCTCTTATTGGATGTACATCATCCCCGTGGCGATGGCTTAAACACAAAGTATCCCAATACT\nATGGAATTCCCATGGCTGAGAGGCAGAACAACGGTTGGTTGAAGAAGTTTACCGAAGTGACCAACGCGTGCAAGGGCATG\nGAGTGGATTGCTATCAAGATTCAAAAATTTATTGAATGGCTTAAGGTCAAAATCCTACCTGAAGTAAAAGAAAAGCATGA\nGTTCCTGAGCAGATTAAAACAACTACCGCTTCTTGAGAGTCAGATTGCCACCATCGAACAGAGCGCGCCCTCACAAAGCG\nATCAAGAACAGCTCTTCTCAAACGTTCAGTACTTCGCGCATTACTGTAGAAAATATGCGCCTCTATATGCCGCCGAGGCA\nAAGAGGGTGTTTTCTCTGGAGAAGAAGATGGGTAATTACATACAGTTCAAGTCCAAATGCCGTATTGAACCCGTATGTCT\nACTCCTTCATGGCAGTCCAGGAGCTGGGAAGTCAGTAGCCACCAACCTAATTGGGCGCTCGCTGGCAGAGAAACTCAACA\nGCTCAGTTTACTCATTACCACCAGATCCTGATCACTTTGACGGTTACAAACAGCAAGCCGTAGTGATCATGGACGACCTG\nTGCCAAAACCCAGACGGAAAGGACGTATCCTTGTTTTGTCAGATGGTGTCAAGTGTTGATTTCGTGCCACCTATGGCAGC\nGCTGGAAGAGAAAGGAATCCTATTCACATCCCCATTTGTGCTGGCATCAACCAATGCAGGGACCATCAACGCGCCTACGG\nTGTCAGATAGTAGGGCGCTTGCCAGAAGATTCCACTTTGATATGAACATTGAGGTGATCTCCACGTACAGCCAGAATGGT\nAAGATCAACATGCCCATGTCTGTAAAAACATGTGATGAAGAGTGTTGTCCGGTCAACTTCAAAAAGTGCTGTCCATTGGT\nGTGTGGAAGAGCCATCCAATTTATTGATAGAAGAACACAAGTCCGATATTCGCTGGACATGTTGGTCACCGAAATGTTTA\nGAGAATATAACCATAGGCACAGCGTGGGCGCCACCCTCGAAGCCCTATTTCAAGGGCCCCCAGTGTATAGGGAGATTAAG\nATCAGTGTCGCCCCAGAAACGCCCCCCCCACCAGCGATTGCTGACCTTTTAAAATCAGTTGATAGTGAGGCAGTTAGGGA\nATACTGTAAAGAAAAAGGTTGGCTTGTGCCAGAGAGCAACTCCACTTTGCAAATCGAGAAGCACGTCAGCAGAGCGTTTA\nTTTGCTTACAAGCACTAACAACTTTTGTCTCAGTAGCTGGCATCATTTACGTCATCTATAAGCTATTCGCCGGCTTTCAG\nGGTGCGTACACAGGGATGCCAAACCAGAAACCCAAAGTACCCACGCTAAGACAGGCTAAAGTGCAAGGCCCAGCGTTTGA\nATTTGCTGTAGCCATGATGAAGAGAAATGCTAGCACAGTGAAAACGGAGTATGGAGAGTTCACCATGCTTGGCATTTATG\nACAGGTGGGCAGTATTACCACGCCACGCCAAGCCTGGACCAACCATCTTGATGAACGACCAAGAAGTTGGGGTGCTAGAT\nGCCAAAGAACTAGTAGACAAAGATGGAGTAAATTTGGAGCTGACCCTCCTAAAGCTCAACCGCAACGAGAAATTCAGAGA\nCATCAGAGGCTTCCTTGCAAGAGAGGAGGTTGAGGTGAGCGAAGCAGTGCTGGCAATAAATACAAGCAAATTCCCAAACA\nTGTACATCCCTGTTGGTCAAGTCACCGATTACGGCTTTCTAAACCTAGGGGGTACCCCTACAAAGAGGATGCTTATGTAC\nAATTTCCCGACAAGGGCAGGGCAGTGTGGTGGTGTTTTAATGTCGACTGGAAAGGTCCTTGGAATACATGTGGGAGGGAA\nTGGCCACCAAGGCTTCTCTGCCGCTCTCCTTAAGCACTACTTCAACGAGGAACAGGGTGAGATTGAATTCATCGAAAACT\nCAAAGGACGCAGGCTTCCCCGTGATTAACACCCCCAGCAAGACTAAGTTGGAACCAAGCGTATTCCATCAAGTATTTGAA\nGGTAGCAAAGAACCTGCAGTGCTGAGAAATGGGGATCCACGCCTTAAAGCTAACTTTGAGGAAGCAATCTTCTCCAAATA\nCATCGGCAATGTCAACACTCATGTAGACGAGTATATGACAGAGGCCGTGGATCATTATGCAGGACAATTAGCCACACTAG\nACATTAACACTGAACCCATGAAATTGGAGGATGCTGTGTATGGTACCGAAGGACTGGAAGCATTAGACTTGACCACTAGC\nGCAGGATACCCTTACGTGGCCCTAGGCATTAAGAAGAGAGACATCCTGTCAAAGAAAACCAAAGACCTCACTAAACTAAA\nGGAGTGTATGGACAAATATGGCTTGAACCTACCAATGGTGACATATGTAAAAGATGAGCTGAGGTCATCCGAAAAGGTGG\nCTAGGGGAAAGTCCAGGCTCATTGAAGCTTCAAGCCTAAATGACTCAGTGGCCATGAGACAAACTTTTGGAAATCTATAC\nAAGACCTTTCATCTTAATCCAGGCATTGTCACAGGTAGTGCTGTTGGGTGTGATCCAGATGTATTTTGGAGCAAGATCCC\nTGTCATGCTCGATGGCCACCTCATAGCCTTCGATTATTCGGGCTATGATGCAAGTCTCAGCCCAGTGTGGTTTGTATGCC\nTAAAGCTTCTTCTGGAGAAATTGGGATATACAAACAGGGAGACAAACTACATAGATTACCTCTGCAACTCCCATCACTTG\nTACAGGGACAAACACTACTTTGTAAGGGGTGGAATGCCATCAGGATGCTCAGGCACCAGCATATTCAACTCTATGATTAA\nTAATATCATAATTAGAACCCTTATGCTGAAGGTCTATAAAGGTATTGATTTGGATCAGTTTAGAATGATCGCCTATGGAG\nATGATGTGATCGCTTCCTACCCATGGCCAATTGATGCTTCATTGTTAGCAGAAGCAGGGAAAGATTATGGTTTGATCATG\nACTCCAGCTGACAAAGGCGAGTACTTCAATGAAGTGACTTGGACAAACGTGACCTTTCTGAAAAGGTATTTTAGGGCAGA\nTGAGCAATATCCGTTCCTAGTCCACCCTGTAATGCCAATGAAAGACATTCATGAATCCATCAGATGGACCAAAGACCCTA\nAGAATACACAGGACCATGTGCGCTCATTGTGCCTATTGGCATGGCACAATGGTGAGCATGAATATGAGGAGTTTATTCGT\nAAGATCAGAAGTGTGCCCGTTGGGCGCTGCTTAACCCTCCCTGCGTTCTCAACATTACGCAGGAAGTGGCTGGACTCCTT\nCTAAA"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Coxsackievirus B2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Enterovirus B"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "004V-02196",
-      "search:title": "Human Enterovirus B - Coxsackie B2",
-      "search:description": "Infectious cellculture supernatant of human Enterovirus B - Coxsackie B2",
-      "search:taxonLabel": "Enterovirus B",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "CUB",
-      "search:countryOfCollection": "Germany",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Coxsackievirus B2"
-    },
-    {
-      "@type": "EVORAO:Service",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "ERASMUS-MC"
-      },
-      "EVORAO:refSku": "010S-04799",
-      "@id": "urn:evorao:EVA:ERASMUS-MC:010S-04799",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/principles-and-practice-virus-neutralization-assays",
-      "dcterms:issued": "2022-11-29T10:29:15+01:00",
-      "dcterms:modified": "2022-11-30T10:14:21+01:00",
-      "dcterms:title": "Principles and practice of virus neutralization assays",
-      "dcterms:description": "Virus Neutralization Tests (VNT), also including plaque-reduction and foci-inhibition assays like PRNT and RFFIT, are the gold standard for determining antibody titers against viruses, and are essential serological tools. In this 5-day training the application and basic principles of VNTs will be discussed, and will be combined with wet lab training. The wet lab training will include all steps of the VNT, including analysis and interpretation of the results. The training will be provided on demand and can be designed for the following viruses: rabies virus (RABV), SARS-CoV-2, Zika virus, yellow fever virus and other flaviviruses, \r\nAll lectures and lab training will be targeted to the virus of interest. After this training participants should have sufficient knowledge to establish VNTs in their own laboratory.",
-      "EVORAO:unitDefinition": "5 days",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "service"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "virus"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "bundle"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Upon request",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "skos:note": "Costs are 1500 Euro for a 5 day course (300 euro/day).",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "ERASMUS-MC"
-      },
-      "dcat:keyword": [
-        "Diagnostic reagent",
-        "Bundle",
-        "Virus",
-        "Service",
-        "ERASMUS-MC",
-        "Derived product",
-        "Viruses",
-        "Any virus (see additrional information)",
-        "flaviviruses",
-        "neutralization assay",
-        "Rabies virus",
-        "RG2",
-        "SARS-CoV-2",
-        "serology",
-        "Yellow fever virus",
-        "Zika virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "service",
-      "search:additionalCategory": [
-        "virus",
-        "derived product",
-        "diagnostic reagent",
-        "bundle",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Any virus (see additrional information)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Viruses"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "010S-04799",
-      "search:title": "Principles and practice of virus neutralization assays",
-      "search:description": "Virus Neutralization Tests (VNT), also including plaque-reduction and foci-inhibition assays like PRNT and RFFIT, are the gold standard for determining antibody titers against viruses, and are essential serological tools. In this 5-day training the application and basic principles of VNTs will be discussed, and will be combined with wet lab training. The wet lab training will include all steps of the VNT, including analysis and interpretation of the results. The training will be provided on demand and can be designed for the following viruses: rabies virus (RABV), SARS-CoV-2, Zika virus, yellow fever virus and other flaviviruses, \r\nAll lectures and lab training will be targeted to the virus of interest. After this training participants should have sufficient knowledge to establish VNTs in their own laboratory.",
-      "search:taxonLabel": "Viruses",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "ERASMUS-MC",
-      "search:providerName": "ERASMUS-MC",
-      "search:pathogenName": "Any virus (see additrional information)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-04371",
-      "@id": "urn:evorao:EVA:IZSLER:026V-04371",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-aswineitaly133102016-h1n1",
-      "dcterms:issued": "2021-10-08T11:43:43+02:00",
-      "dcterms:modified": "2022-11-23T12:28:31+01:00",
-      "dcterms:title": "Swine influenza A/swine/Italy/13310/2016 (H1N1) ",
-      "dcterms:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-07-02",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:biosafetyRestrictions": "Human Risk Group 1, Animal Risk Group 2",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50µL",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "IZSLER Parma"
-      },
-      "EVORAO:passage": "2 X Caco2",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Caco2"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:technicalRecommendation": "PCR, sequencing",
-      "EVORAO:titer": "10E4,3",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:accessionNumber": "MZ262346-MZ262353",
-      "EVORAO:isolationConditions": "CACO-2 cells were cultured in 25 cm2 tissue culture flask in MEM with 1 mM of sodium pyruvate and 15% foetal calf serum. When the cells formed a monolayer, usually after 48 h, the medium was removed and cells were washed three times with saline solution. Each sample was inoculated onto CACO-2 cells (1ml) followed by 1ml of MEM with 1 mM of sodium pyruvate. The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM with 1 mM of sodium pyruvate was added.",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Swine"
-      },
-      "EVORAO:isolationTechnique": "Propagation on Caco2 cell line",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Mantova"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Italy"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "+ 4°C",
-        "A/swine/Italy/13310/2016 (H1N1)",
-        "Animal virus",
-        "Caco2",
-        "Category B",
-        "UN3373",
-        "IAV",
-        "Influenza A virus",
-        "Italy",
-        "IZSLER Parma",
-        "Mantova",
-        "MZ262346-MZ262353",
-        "Orthomyxoviridae",
-        "RG2",
-        "Swine"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2016-07-02",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MZ262346-MZ262353"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "A/swine/Italy/13310/2016 (H1N1)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza A virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolated in Mantova, Italy from swine",
-        "EVORAO:genotype": "H1-1C.2.1-N1",
-        "EVORAO:strain": "A/SW/13310/2016 (H1N1)",
-        "EVORAO:serotype": "H1N1",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-04371",
-      "search:title": "Swine influenza A/swine/Italy/13310/2016 (H1N1) ",
-      "search:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
-      "search:taxonLabel": "Influenza A virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Swine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:accessionNumber": "MZ262346-MZ262353",
-      "search:providerName": "IZSLER",
-      "search:originatorName": "IZSLER Parma",
-      "search:pathogenName": "A/swine/Italy/13310/2016 (H1N1)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
         "foaf:name": "IZSLER"
       },
       "EVORAO:refSku": "026V-04372",
@@ -147286,6 +146887,440 @@
       "search:countryOfCollection": "Slovenia",
       "search:providerName": "UL",
       "search:pathogenName": "Human adenovirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02881",
+      "@id": "urn:evorao:EVA:UL:007V-02881",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/herpes-simplex-virus-1-human-alphaherpesvirus-1",
+      "dcterms:issued": "2018-05-16T14:09:55+02:00",
+      "dcterms:modified": "2021-06-03T15:13:35+02:00",
+      "dcterms:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "dcterms:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 75/12) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2012-01-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "2nd passage",
+      "EVORAO:previouslyKnownAs": "herpes simplex virus type 1 (HSV-1)",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "MRC-5"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "swab hard palate"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "Herpes simplex virus",
+        "herpes simplex virus type 1 (HSV-1)",
+        "HHV",
+        "HHV 1",
+        "HSV",
+        "HSV 1",
+        "human alphaherpesvirus",
+        "Human alphaherpesvirus 1",
+        "Human virus",
+        "MRC-5",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "swab hard palate",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2012-01-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GCTATGGCAGGGCTTGCCGCCCCGACGTTGGCTGCGAGCCCTGGGCCTTCACCCGAACTT\nGGGGGTTGGGGTGGGGAAAAGGAAGAAACGCGGGCGTATTGGCCCCAATGGGGTCTCGGT\nGGGGTATCGACAGAGTGCCAGCCCTGGGACCGAACCCCGCGTTTATGAACAAACGACCCA\nACACCCGTGCGTTTTATTCTGTCTTTTTATTGCCGTCATAGCGCGGGTTCCTTCCGGTAT\nTGTCTCCTTCCGTGTTTCAGTTAGCCTCCCCCATCTCCCGGGCAAACGTGCGCGCCAGGT\nCGCARATCGTCGGTATGGAGCCTGGGGTGGTGACGTGGGTCTGGACCATCCCGGAGGTAA\nGTTGCAGCAGGGCGTCCCGGCAGCCGGCGGGCGATTGGTCGTAATCCAGGATAAAGACGT\nGCATGGGACGGAGGCGTTTGGCCAAGACGTCCAAGGCCCAGGCAAACACGTTATACAGGT\nCGCCGTTGGGGGCCAGCAACTCGGGGGCCCGAAACAGGGTAAATAACGTGTCCCCRATAT\nGGGGTCGTGGGCCCGCGTTGCTCTGGGGCTCGGCACCCTGGGGCGGCACGGCCGTCCCCG\nAAAGCTGTCCCCAATCCTCCCGCCACGACCCGCCGCCCTGCAGATACCGCACCGTATTGG\nCAAGCAGCCCGTAAACGCGGCGAATCGCGGCCAGCATAGCCAGGTCAAGCCGCTCGCCGG\nGGCGCTGGCGTTTGGCCAGGCGGTCGATGTGTCTGTCCTCCGG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 75/2012",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02881",
+      "search:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "search:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 75/12) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human alphaherpesvirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, swab hard palate",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human alphaherpesvirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02835",
+      "@id": "urn:evorao:EVA:UL:007V-02835",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-coxsackievirus-a16",
+      "dcterms:issued": "2018-04-06T11:06:14+02:00",
+      "dcterms:modified": "2021-06-03T15:11:46+02:00",
+      "dcterms:title": "Human Coxsackievirus A16",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Coxsackievirus A16 (isolate 4394/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-10-04",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "LLC-MK2"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "placenta"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "CoxA16",
+        "Coxsackievirus A16",
+        "Human Coxsackievirus A16",
+        "Human coxsackievirus A16",
+        "Human virus",
+        "LLC-MK2",
+        "Patient",
+        "placenta",
+        "RG2",
+        "Slovenia",
+        "Dry ice",
+        "Enterovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-10-04",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTTACGACACACCACCCCCTGGATTGAGGGCATGTGCTCCGCAGTTAGGATTAGCCGCAT\nTCAGGGGCCGGAGGACCACTGGCTAGCTCAATAGACTCTTCACACCATGTCTGTATTAGA\nGCGTCCCATGGGTTACCCCATGGGCAGGCCGCCAACGCAGCCACTGCCACGGTCACCCGT\nGGGGTTCGCAGTGACTCATCGACCTGATCTACACGGGGGTAGTGCTGAGCGAAACACTCT\nGCAACTTTCATGATGCTACTGGGTTTCTCGAAGTAGCCAGCCGGGTGACGAACGTTT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human coxsackievirus A16"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 4394/10",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02835",
+      "search:title": "Human Coxsackievirus A16",
+      "search:description": "Infectious cell culture supernatant. This Human Coxsackievirus A16 (isolate 4394/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Enterovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, placenta",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human coxsackievirus A16"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02900",
+      "@id": "urn:evorao:EVA:UL:007V-02900",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/herpes-simplex-virus-1-human-alphaherpesvirus-1-0",
+      "dcterms:issued": "2018-05-21T10:16:40+02:00",
+      "dcterms:modified": "2021-06-03T15:11:04+02:00",
+      "dcterms:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "dcterms:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 4121/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-09-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "2nd passage",
+      "EVORAO:previouslyKnownAs": "herpes simplex virus type 1 (HSV-1)",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "MRC-5"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "conjunctival swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "conjunctival swab",
+        "Herpes simplex virus",
+        "herpes simplex virus type 1 (HSV-1)",
+        "HHV",
+        "HHV 1",
+        "HSV",
+        "HSV 1",
+        "human alphaherpesvirus",
+        "Human alphaherpesvirus 1",
+        "Human virus",
+        "MRC-5",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-09-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTGGCTATGGCAGGGCCTGCCGCCCCGACGTTGGCTGCGAGCCCTGGGCCTTCACCCGAA\nCTTGGGGGGTGGGGTGGGGAAAAGGAAGAAACGCGGGCGTATTGGCCCCAATGGGGTCTC\nGGTGGGGTATCGACAGAGTGCCAGCCCTGGGACCGAACCCCGCGTTTATGAACAAACGAC\nCCAACACCCGTGCGTTTTATTCTGTCTTTTTATTGCCGTCATAGCGCGGGTTCCTTCCGG\nTATTGTCTCCTTCCGTGTTTCAGTGAGCCTCCCCCATCTCCCGGGCAAACGTGCGCGCCA\nGGTCGCARATCGTCGGTATGGAGCCTGGGGTGGTGACATGGGTCTGGACCATCCCGGAGG\nTAAGTTGCAGCAGGGCGTCCCGGCAGCCGGCGGGCGATTGGTCGTAATCCAGGATAAAGA\nCGTGCATGGGACGGAGGCGTTTGGCCAARACGTCCAAGGCCCAGGCAAACACGTTGTACA\nGGTCGCCGTTGGGGGCCAGCAACTCGGGGGCCCGAAACAGGGTAAATAACGTTTCCCCGA\nTATGGGGTCGTGGGCCCGCGTTGCTCTGGGGCTCGGCACCCTGGGGCGTCAAGGCCGTCC\nCCGAAAGCTGTCCCCAATCCTCCCGCCACGACCCGCCGCACTGCARATACCGCACCGTAT\nTGGCAAGTAGCCCGTAAACGCGGCGAATCGCGGCCAGCATAGCCAGGTCAAGCCGCTCAC\nCGGGGCGCTGGCGTTTGGCCAGGCGGTCGATGTGTCTGTCCTCCGGAAGGGCCC"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 4121/10",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02900",
+      "search:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "search:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 4121/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human alphaherpesvirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, conjunctival swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human alphaherpesvirus 1"
     }
   ]
 }
