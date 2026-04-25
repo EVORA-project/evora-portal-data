@@ -4174,7 +4174,7 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2025-12-16T16:04:57.635Z",
-          "updated_at": "2025-12-17T10:30:15.858Z",
+          "updated_at": "2026-04-24T12:55:45.836Z",
           "metadata": {
             "name": "RDMkit Virology Domain",
             "status": "ready",
@@ -4311,6 +4311,14 @@
               "linked_record_type": "reporting_guideline",
               "relation": "collects",
               "link_id": 26336
+            },
+            {
+              "linked_record_name": "ICTV Ontology",
+              "linked_record_id": 7551,
+              "linked_record_registry": "Standard",
+              "linked_record_type": "terminology_artefact",
+              "relation": "collects",
+              "link_id": 29003
             }
           ],
           "linking_records": [
