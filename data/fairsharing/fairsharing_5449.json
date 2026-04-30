@@ -1255,21 +1255,21 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2014-11-04T15:23:40.000Z",
-          "updated_at": "2026-04-27T16:20:46.234Z",
+          "updated_at": "2026-04-29T15:39:00.542Z",
           "metadata": {
             "doi": "10.25504/FAIRsharing.dj8nt8",
             "name": "European Nucleotide Archive",
             "status": "ready",
             "contacts": [
               {
-                "contact_name": "Guy Cochrane",
-                "contact_email": "datasubs@ebi.ac.uk",
-                "contact_orcid": "0000-0001-7954-7057"
+                "contact_name": "Colman O'Cathail",
+                "contact_email": "ocathail@ebi.ac.uk",
+                "contact_orcid": "0000-0002-0151-0657"
               },
               {
-                "contact_name": "Jerry Lanfear",
-                "contact_email": "jerry.lanfear@elixir-europe.org",
-                "contact_orcid": "0000-0002-8007-5568"
+                "contact_name": "Mar Gonzalez-Porta",
+                "contact_email": "mar@ebi.ac.uk",
+                "contact_orcid": null
               }
             ],
             "homepage": "http://www.ebi.ac.uk/ena",
@@ -1333,7 +1333,7 @@
                 "portal": "SciCrunch"
               }
             ],
-            "internal_identifiers": false,
+            "internal_identifiers": true,
             "data_access_condition": {
               "url": "https://www.ebi.ac.uk/ena/browser/about",
               "type": "open"
@@ -1882,7 +1882,7 @@
             "dataset",
             "image"
           ],
-          "internal_identifiers": false
+          "internal_identifiers": true
         }
       }
     },
@@ -4174,7 +4174,7 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2025-12-16T16:04:57.635Z",
-          "updated_at": "2026-04-24T12:55:45.836Z",
+          "updated_at": "2026-04-29T15:39:37.130Z",
           "metadata": {
             "name": "RDMkit Virology Domain",
             "status": "ready",
