@@ -22,6 +22,107 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "015A-01745",
+      "@id": "urn:evorao:EVA:FLI:015A-01745",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv11",
+      "dcterms:issued": "2016-07-07T17:00:46+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV11)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV11) antibodies; targeted antigen: unknown; clone: 3C3; immunization antigen: inactivated strain \"Dresden\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "reactive with tested isolates of serotype 11, not-reactive with isolates of serotypes 1-10",
+      "EVORAO:antibodyCharacterizationObservation": "murine IgG2a, other characterization methods not checked",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Bronze",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "anti-Teschovirus A",
+        "monoclonal antibody",
+        "No RG",
+        "Porcine teschovirus",
+        "Porcine teschovirus (PTV11)",
+        "PTV",
+        "Teschovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Porcine teschovirus (PTV11)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Teschovirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:serotype": 11
+      },
+      "search:sku": "015A-01745",
+      "search:title": "murine mAb:  anti-Teschovirus A / Porcine teschovirus (PTV11)",
+      "search:description": "Hybridoma cell culture supernatant containing  anti-Teschovirus A / Porcine teschovirus (PTV11) antibodies; targeted antigen: unknown; clone: 3C3; immunization antigen: inactivated strain \"Dresden\"",
+      "search:taxonLabel": "Teschovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Porcine teschovirus (PTV11)"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "015A-01744",
       "@id": "urn:evorao:EVA:FLI:015A-01744",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-teschovirus-porcine-teschovirus-ptv10",
@@ -3982,164 +4083,6 @@
       "search:collectionName": "AMU",
       "search:providerName": "AMU",
       "search:pathogenName": "SARS-CoV-2"
-    },
-    {
-      "@type": "EVORAO:Bundle",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007B-03668",
-      "@id": "urn:evorao:EVA:UL:007B-03668",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/eqa-rodent-borne-viruses-bundle",
-      "dcterms:issued": "2019-07-05T11:30:39+02:00",
-      "dcterms:modified": "2020-05-27T15:12:55+02:00",
-      "dcterms:title": "EQA Rodent borne viruses bundle",
-      "dcterms:description": "A bundle of rodent-borne virus stocks to be used for EQA preparation",
-      "EVORAO:unitDefinition": "5 x 40 ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "bundle"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "virus"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 50000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Bundle_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:itemsOfTheBundle": [
-        {
-          "@id": "urn:evorao:EVA:UL:007V-00807",
-          "@type": "EVORAO:Virus",
-          "EVORAO:refSku": "007V-00807",
-          "dcterms:title": "Dobrava Virus"
-        },
-        {
-          "@id": "urn:evorao:EVA:UL:007V-00809",
-          "@type": "EVORAO:Virus",
-          "EVORAO:refSku": "007V-00809",
-          "dcterms:title": "Puumala virus"
-        },
-        {
-          "@id": "urn:evorao:EVA:UL:007v-EVA1433",
-          "@type": "EVORAO:Virus",
-          "EVORAO:refSku": "007v-EVA1433",
-          "dcterms:title": "Hantaan virus"
-        },
-        {
-          "@id": "urn:evorao:EVA:UL:007V-00922",
-          "@type": "EVORAO:Virus",
-          "EVORAO:refSku": "007V-00922",
-          "dcterms:title": "Seoul virus, strain R22"
-        },
-        {
-          "@id": "urn:evorao:EVA:UL:007V-02708",
-          "@type": "EVORAO:Virus",
-          "EVORAO:refSku": "007V-02708",
-          "dcterms:title": "Lymphocytic choriomeningitis virus, strain Armstrong"
-        }
-      ],
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "dcat:keyword": [
-        "Bundle",
-        "UL",
-        "Virus",
-        "Derived product",
-        "Category A",
-        "UN2814",
-        "Dobrava",
-        "Dobrava-Belgrade virus",
-        "EQA",
-        "Hantaan",
-        "Hantaan virus",
-        "Hantavirus",
-        "Lymphocytic choriomeningitis virus",
-        "Lymphocytic choriomenningitis virus",
-        "Orthohantavirus",
-        "Puumala",
-        "Puumala virus",
-        "RG3",
-        "seoul",
-        "Seoul virus R22",
-        "Dobrava-Belgrade orthohantavirus",
-        "Hantaan orthohantavirus",
-        "Puumala orthohantavirus",
-        "Seoul orthohantavirus",
-        "Lymphocytic choriomeningitis mammarenavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "bundle",
-      "search:additionalCategory": [
-        "virus",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": [
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Dobrava-Belgrade virus"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Puumala virus"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Hantaan virus"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Seoul virus R22"
-          },
-          {
-            "@type": "EVORAO:VirusName",
-            "dcterms:title": "Lymphocytic choriomeningitis virus"
-          }
-        ],
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Dobrava-Belgrade orthohantavirus, Puumala orthohantavirus, Hantaan orthohantavirus, Seoul orthohantavirus, Lymphocytic choriomeningitis mammarenavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "907/5 |",
-        "EVORAO:strain": "Dobrava | Cg 18-20 | 76-118 | R22 | Armstrong |"
-      },
-      "search:sku": "007B-03668",
-      "search:title": "EQA Rodent borne viruses bundle",
-      "search:description": "A bundle of rodent-borne virus stocks to be used for EQA preparation",
-      "search:taxonLabel": "Dobrava-Belgrade orthohantavirus, Puumala orthohantavirus, Hantaan orthohantavirus, Seoul orthohantavirus, Lymphocytic choriomeningitis mammarenavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:collectionName": "UL",
-      "search:providerName": "UL",
-      "search:pathogenName": "Dobrava-Belgrade virus, Puumala virus, Hantaan virus, Seoul virus R22, Lymphocytic choriomeningitis virus"
     },
     {
       "@type": "EVORAO:Bundle",

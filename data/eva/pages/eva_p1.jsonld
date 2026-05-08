@@ -17,6 +17,128 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "BNI"
+      },
+      "EVORAO:refSku": "002N-06373",
+      "@id": "urn:evorao:EVA:BNI:002N-06373",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/andes-virus-9717869af291704-rna",
+      "dcterms:issued": "2026-05-07T13:02:10+02:00",
+      "dcterms:modified": "2026-05-07T13:02:10+02:00",
+      "dcterms:title": "Andes Virus 9717869/AF291704 RNA",
+      "dcterms:description": "RNA extracted from cell culture supernatant",
+      "EVORAO:unitDefinition": "1 vial of 0.05 ml RNA extract",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Chile"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequencing": "Not sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "AVE Buffer -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "BNI"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "BNI",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "Derived product",
+        "Andes orthohantavirus",
+        "Chile",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Nucleic acid",
+        "Dry ice",
+        "Hantaviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "2010-01-01",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Andes orthohantavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hantaviridae"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "9717869/AF425256",
+        "EVORAO:strain": "NGA/2011/IRR_001",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "002N-06373",
+      "search:title": "Andes Virus 9717869/AF291704 RNA",
+      "search:description": "RNA extracted from cell culture supernatant",
+      "search:taxonLabel": "Hantaviridae",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "BNI",
+      "search:countryOfCollection": "Chile",
+      "search:providerName": "BNI",
+      "search:pathogenName": "Andes orthohantavirus"
+    },
+    {
       "@type": "EVORAO:DetectionKit",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -137368,111 +137490,6 @@
       "search:countryOfCollection": "France",
       "search:providerName": "IP",
       "search:pathogenName": "SARS-CoV-2, Severe acute respiratory syndrome coronavirus 2"
-    },
-    {
-      "@type": "EVORAO:DetectionKit",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001K-04809",
-      "@id": "urn:evorao:EVA:AMU:001K-04809",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyophilized-primers-and-probe-detection-sudan-virus-ebolavirus",
-      "dcterms:issued": "2022-12-09T14:22:11+01:00",
-      "dcterms:modified": "2025-02-14T15:40:25+01:00",
-      "dcterms:title": "Lyophilized Primers and Probe for detection of Sudan virus (Ebolavirus)",
-      "dcterms:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 12x8 rxns) for real time PCR of Sudan virus (Ebolavirus)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).\r\nExtracted RNA of Sudan ebolavirus Gulu can be found here : Ref-SKU: 002N-04805\r\nhttps://www.european-virus-archive.com/nucleic-acid/sudan-ebolavirus-strain-gulu-rna",
-      "EVORAO:unitDefinition": "12 vials",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "detection kit"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "molecular detection kit"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "detection kit (for RUO)"
-        }
-      ],
-      "EVORAO:unitCost": 345,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20RT-qPCR%20Ebola%20Sudan_CFX.pdf",
-      "EVORAO:specificityDocumented": false,
-      "EVORAO:storageConditions": "Freeze Dried (-20C)",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "dcat:keyword": [
-        "AMU",
-        "Molecular detection kit",
-        "Detection Kit (for RUO)",
-        "Derived product",
-        "Room Temperature",
-        "Animal virus",
-        "ebolavirus",
-        "EBOV",
-        "Human virus",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Sudan virus",
-        "SUDV",
-        "Ebolavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "detection kit",
-      "search:additionalCategory": [
-        "molecular detection kit",
-        "derived product",
-        "detection kit (for RUO)"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Sudan virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Ebolavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "001K-04809",
-      "search:title": "Lyophilized Primers and Probe for detection of Sudan virus (Ebolavirus)",
-      "search:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 12x8 rxns) for real time PCR of Sudan virus (Ebolavirus)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).\r\nExtracted RNA of Sudan ebolavirus Gulu can be found here : Ref-SKU: 002N-04805\r\nhttps://www.european-virus-archive.com/nucleic-acid/sudan-ebolavirus-strain-gulu-rna",
-      "search:taxonLabel": "Ebolavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "AMU",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Sudan virus"
     }
   ]
 }

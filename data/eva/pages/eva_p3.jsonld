@@ -22,6 +22,170 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "IZSLER"
       },
+      "EVORAO:refSku": "026V-04372",
+      "@id": "urn:evorao:EVA:IZSLER:026V-04372",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-aswineitaly332712016-h3n2",
+      "dcterms:issued": "2021-10-08T11:56:16+02:00",
+      "dcterms:modified": "2022-11-23T12:28:27+01:00",
+      "dcterms:title": "Swine influenza A/swine/Italy/33271/2016 (H3N2)",
+      "dcterms:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
+      "EVORAO:unitDefinition": "1 mL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 550,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2016-11-24",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:biosafetyRestrictions": "Human Risk Group 1, Animal Risk Group 2",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID_50µL",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "IZSLER Parma"
+      },
+      "EVORAO:passage": "1 X Caco2",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Caco2"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "+ 4°C",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:technicalRecommendation": "PCR, sequencing",
+      "EVORAO:titer": "10E4,3",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IZSLER"
+      },
+      "EVORAO:accessionNumber": "MZ262338-MZ262345",
+      "EVORAO:isolationConditions": "CACO-2 cells were cultured in 25 cm2 tissue culture flask in MEM with 1 mM of sodium pyruvate and 15% foetal calf serum. When the cells formed a monolayer, usually after 48 h, the medium was removed and cells were washed three times with saline solution. Each sample was inoculated onto CACO-2 cells (1ml) followed by 1ml of MEM with 1 mM of sodium pyruvate. The inoculum was allowed to adsorb at 37 °C for 45 min in presence of 5% CO2 and then 8 ml of MEM with 1 mM of sodium pyruvate was added.",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Swine"
+      },
+      "EVORAO:isolationTechnique": "Propagation on Caco2 cell line",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Reggio Emila"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Italy"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "IZSLER",
+        "+ 4°C",
+        "A/swine/Italy/33271/2016 (H3N2)",
+        "Animal virus",
+        "Caco2",
+        "Category B",
+        "UN3373",
+        "IAV",
+        "Influenza A virus",
+        "Italy",
+        "IZSLER Parma",
+        "MZ262338-MZ262345",
+        "Orthomyxoviridae",
+        "Reggio Emila",
+        "RG2",
+        "Swine"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2016-11-24",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MZ262338-MZ262345"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "A/swine/Italy/33271/2016 (H3N2)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolated in Reggio Emila, Italy from swine",
+        "EVORAO:genotype": "H3N2",
+        "EVORAO:strain": "A/swine/Italy/33271/2016 (H3N2)",
+        "EVORAO:serotype": "H3N2",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "026V-04372",
+      "search:title": "Swine influenza A/swine/Italy/33271/2016 (H3N2)",
+      "search:description": "The virus has been isolated from swine and propagated on Caco2 cell line",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Swine",
+      "search:collectionName": "IZSLER",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "MZ262338-MZ262345",
+      "search:providerName": "IZSLER",
+      "search:originatorName": "IZSLER Parma",
+      "search:pathogenName": "A/swine/Italy/33271/2016 (H3N2)"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IZSLER"
+      },
       "EVORAO:refSku": "026V-04373",
       "@id": "urn:evorao:EVA:IZSLER:026V-04373",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/swine-influenza-dswineitaly199724-32015",
@@ -147157,149 +147321,6 @@
       "search:countryOfCollection": "Slovenia",
       "search:providerName": "UL",
       "search:pathogenName": "Human alphaherpesvirus 1"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-02758",
-      "@id": "urn:evorao:EVA:UL:007V-02758",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-5-1",
-      "dcterms:issued": "2018-03-14T10:47:07+01:00",
-      "dcterms:modified": "2021-06-03T15:08:43+02:00",
-      "dcterms:title": "Human Mastadenovirus C, Type 5",
-      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 5 (isolate 2552/10) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
-      "EVORAO:unitDefinition": "1000 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2010-04-15",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "1st passage",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "A549"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": [
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "Patient"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "tracheal aspirate"
-        }
-      ],
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "UL",
-        "Virus",
-        "A549",
-        "Adenovirus",
-        "AdV5",
-        "Category B",
-        "UN3373",
-        "Human adenovirus 5",
-        "Human mastadenovirus",
-        "Human virus",
-        "Patient",
-        "RG2",
-        "Slovenia",
-        "tracheal aspirate",
-        "Dry ice",
-        "Human mastadenovirus C"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2010-04-15",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "AAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTCATGTCTAGCGCAT\nGGGCGGAGTTGGCGTAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCGCCCATGGACATAA\nAGTTACTGGAGAATGGGATGCGCCAAAGGGTGCGATCGCAAAGAAACTTTTTCTGGGTAA\nTGCTGTCAACTGCGGTCTTGCCTATAAGCGGATAGGGGAAGTTAGCAGGGTAGGCCTGTC\nCTTCGCGCACGGTGGGGGCAAGGTAGCCAACAAATCCAGAGTTGTTGTGTTGGTGTAGGA\nTGCCCACCTGTTGGTAGTCTTTGTATTTAGTATCATCCACCACCTGACGGCTCATGGGCT\nGGAAGTTTCTAAAGAAGGAGTACATGCGGTCCTTGTAGCTCTCTGGGATATAGAAGCCCT\nGGTAGCCAATGTTATAGTTAGCTAGCATTTGTACCAGGAACCAGTCTTTGGTCATGTTAC\nACTGGGCAACGTTGTAACCCTCCCCGTCAACTGAGCGCTTAATTTCAAACTCGTTGGGGG\nTAAGCAGGCGGTCATTGCCAGGCCAGCTGACAGAAGAGTCAAAGGTAATGGCCACCTTCT\nTAAAGGTGTGGTTGAGGTAAAAGGTTCCATCTAGGTAGGGTATAGAGCCAGAGTAGGTGT\nAATAAGGGTCGTAGCCCGAGCCCAGTGATGGGGTTTCCTTAGTTTTAAGGCGCGTGAAGG\nCCCAGCCGCGGAAAGCCGCCCAGTTGCGGGAGGGGATGGATATGGGCACGTTGGTAGCGT\nTGGCGGGTATAGGGTAGAGCATGTTGGCGGCGGAGAGATAGTCGTTAAAGGACTGGTCGT\nTGGTGTCGT"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Human adenovirus 5"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Human mastadenovirus C"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Isolate 2552/10",
-        "EVORAO:serotype": "Type 5",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-02758",
-      "search:title": "Human Mastadenovirus C, Type 5",
-      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 5 (isolate 2552/10) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were negative. To confirm its identity the virus has been partially sequenced.",
-      "search:taxonLabel": "Human mastadenovirus C",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Patient, tracheal aspirate",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Human adenovirus 5"
     }
   ]
 }
