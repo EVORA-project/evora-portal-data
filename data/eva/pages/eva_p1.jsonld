@@ -26,7 +26,7 @@
       "@id": "urn:evorao:EVA:BNI:002N-06373",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/andes-virus-9717869af291704-rna",
       "dcterms:issued": "2026-05-07T13:02:10+02:00",
-      "dcterms:modified": "2026-05-07T13:02:10+02:00",
+      "dcterms:modified": "2026-05-08T14:52:44+02:00",
       "dcterms:title": "Andes Virus 9717869/AF291704 RNA",
       "dcterms:description": "RNA extracted from cell culture supernatant",
       "EVORAO:unitDefinition": "1 vial of 0.05 ml RNA extract",
@@ -124,7 +124,7 @@
         },
         "EVORAO:pathogenType": "Virus",
         "EVORAO:isolate": "9717869/AF425256",
-        "EVORAO:strain": "NGA/2011/IRR_001",
+        "EVORAO:strain": "9717869/AF425256",
         "EVORAO:hostType": "Human"
       },
       "search:sku": "002N-06373",
