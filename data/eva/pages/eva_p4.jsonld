@@ -22,6 +22,294 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
+      "EVORAO:refSku": "007V-02835",
+      "@id": "urn:evorao:EVA:UL:007V-02835",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-coxsackievirus-a16",
+      "dcterms:issued": "2018-04-06T11:06:14+02:00",
+      "dcterms:modified": "2021-06-03T15:11:46+02:00",
+      "dcterms:title": "Human Coxsackievirus A16",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Coxsackievirus A16 (isolate 4394/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-10-04",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "LLC-MK2"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "placenta"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "CoxA16",
+        "Coxsackievirus A16",
+        "Human Coxsackievirus A16",
+        "Human coxsackievirus A16",
+        "Human virus",
+        "LLC-MK2",
+        "Patient",
+        "placenta",
+        "RG2",
+        "Slovenia",
+        "Dry ice",
+        "Enterovirus A"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-10-04",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTTACGACACACCACCCCCTGGATTGAGGGCATGTGCTCCGCAGTTAGGATTAGCCGCAT\nTCAGGGGCCGGAGGACCACTGGCTAGCTCAATAGACTCTTCACACCATGTCTGTATTAGA\nGCGTCCCATGGGTTACCCCATGGGCAGGCCGCCAACGCAGCCACTGCCACGGTCACCCGT\nGGGGTTCGCAGTGACTCATCGACCTGATCTACACGGGGGTAGTGCTGAGCGAAACACTCT\nGCAACTTTCATGATGCTACTGGGTTTCTCGAAGTAGCCAGCCGGGTGACGAACGTTT"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human coxsackievirus A16"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus A"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 4394/10",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02835",
+      "search:title": "Human Coxsackievirus A16",
+      "search:description": "Infectious cell culture supernatant. This Human Coxsackievirus A16 (isolate 4394/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Enterovirus A",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, placenta",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human coxsackievirus A16"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02900",
+      "@id": "urn:evorao:EVA:UL:007V-02900",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/herpes-simplex-virus-1-human-alphaherpesvirus-1-0",
+      "dcterms:issued": "2018-05-21T10:16:40+02:00",
+      "dcterms:modified": "2021-06-03T15:11:04+02:00",
+      "dcterms:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "dcterms:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 4121/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-09-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "2nd passage",
+      "EVORAO:previouslyKnownAs": "herpes simplex virus type 1 (HSV-1)",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "MRC-5"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "conjunctival swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "Category B",
+        "UN3373",
+        "conjunctival swab",
+        "Herpes simplex virus",
+        "herpes simplex virus type 1 (HSV-1)",
+        "HHV",
+        "HHV 1",
+        "HSV",
+        "HSV 1",
+        "human alphaherpesvirus",
+        "Human alphaherpesvirus 1",
+        "Human virus",
+        "MRC-5",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-09-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GTGGCTATGGCAGGGCCTGCCGCCCCGACGTTGGCTGCGAGCCCTGGGCCTTCACCCGAA\nCTTGGGGGGTGGGGTGGGGAAAAGGAAGAAACGCGGGCGTATTGGCCCCAATGGGGTCTC\nGGTGGGGTATCGACAGAGTGCCAGCCCTGGGACCGAACCCCGCGTTTATGAACAAACGAC\nCCAACACCCGTGCGTTTTATTCTGTCTTTTTATTGCCGTCATAGCGCGGGTTCCTTCCGG\nTATTGTCTCCTTCCGTGTTTCAGTGAGCCTCCCCCATCTCCCGGGCAAACGTGCGCGCCA\nGGTCGCARATCGTCGGTATGGAGCCTGGGGTGGTGACATGGGTCTGGACCATCCCGGAGG\nTAAGTTGCAGCAGGGCGTCCCGGCAGCCGGCGGGCGATTGGTCGTAATCCAGGATAAAGA\nCGTGCATGGGACGGAGGCGTTTGGCCAARACGTCCAAGGCCCAGGCAAACACGTTGTACA\nGGTCGCCGTTGGGGGCCAGCAACTCGGGGGCCCGAAACAGGGTAAATAACGTTTCCCCGA\nTATGGGGTCGTGGGCCCGCGTTGCTCTGGGGCTCGGCACCCTGGGGCGTCAAGGCCGTCC\nCCGAAAGCTGTCCCCAATCCTCCCGCCACGACCCGCCGCACTGCARATACCGCACCGTAT\nTGGCAAGTAGCCCGTAAACGCGGCGAATCGCGGCCAGCATAGCCAGGTCAAGCCGCTCAC\nCGGGGCGCTGGCGTTTGGCCAGGCGGTCGATGTGTCTGTCCTCCGGAAGGGCCC"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human alphaherpesvirus 1"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 4121/10",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02900",
+      "search:title": "Herpes simplex virus 1 (Human alphaherpesvirus 1)",
+      "search:description": "Infectious cell culture supernatant. This Herpes simplex virus 1 (Human alphaherpesvirus 1) (isolate 4121/10) is preserved under Viral Storage Medium -80°C. Tests for the presence of mycoplasmae were positive. To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human alphaherpesvirus 1",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, conjunctival swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human alphaherpesvirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
       "EVORAO:refSku": "007V-02758",
       "@id": "urn:evorao:EVA:UL:007V-02758",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-5-1",
@@ -110411,141 +110699,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
-      "EVORAO:refSku": "007N-EVA1425",
-      "@id": "urn:evorao:EVA:UL:007N-EVA1425",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/puumala-virus-rna-rodents",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2020-12-15T13:16:51+01:00",
-      "dcterms:title": "Puumala virus RNA from rodents",
-      "dcterms:description": "Puumala virus RNA extracted from naturally infected Myodes glareolus - low viral load",
-      "EVORAO:unitDefinition": "100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-03-15",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR, IFA",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "TRIzol reagent (Invitrogen Life Technologies)",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KF776872.1"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "- 20°C",
-      "EVORAO:storageConditions": "AVE Buffer -20C",
-      "EVORAO:titer": "3540.00 copies/ml",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:accessionNumber": "KF776872.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "UL",
-        "Derived product",
-        "Hantavirus",
-        "Human virus",
-        "KF776872.1",
-        "NON DANGEROUS GOODS",
-        "Puumala",
-        "Puumala virus",
-        "RG1",
-        "Slovenia",
-        "- 20°C",
-        "Puumala orthohantavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "2016-03-15",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Puumala virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Puumala orthohantavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007N-EVA1425",
-      "search:title": "Puumala virus RNA from rodents",
-      "search:description": "Puumala virus RNA extracted from naturally infected Myodes glareolus - low viral load",
-      "search:taxonLabel": "Puumala orthohantavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:accessionNumber": "KF776872.1",
-      "search:providerName": "UL",
-      "search:pathogenName": "Puumala virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
       "EVORAO:refSku": "007N-EVA1426",
       "@id": "urn:evorao:EVA:UL:007N-EVA1426",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/dobrava-aa-virus-rna-isolated-rodents-0",
@@ -111212,135 +111365,6 @@
       "search:accessionNumber": "L41916.1, L33685.1",
       "search:providerName": "UL",
       "search:pathogenName": "Dobrava virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007N-EVA370",
-      "@id": "urn:evorao:EVA:UL:007N-EVA370",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/puumala-virus-rna",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2020-12-15T12:59:26+01:00",
-      "dcterms:title": "Puumala Virus RNA",
-      "dcterms:description": "Viral RNA extracted from infected cell culture lysate",
-      "EVORAO:unitDefinition": "100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2016-03-15",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Sequencing",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "Automated purification with EZ1 Virus Mini Kit v2.0",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": ">Puumala Virus RNA \r\nGGAATGAGTGACTTGACAGACATCCAAGAGGAGATAACCCGCCATGAGCAACAACTTGTTGTTGCCAGACAAAAACTCAAGGATGCAGAGAGAGCAGTGGAAGTGGACCCGGATGACGTTAACAAGAGCACATTACAAGCAAGACAACAAACAGTGTCAGCACTGGAGGATAAACTCGCAGACTACAAGAGAAGAATGGCAGATGCTGTGTCCCGGAAGAAAATGGATACTAAACCTACTGACCCGACTGGGATTGAACCTGATGATCATCTCAAGGAGAGATCAAGCCTTAGATATGGAAATGTCCTTGATGTGAATGCTATTGACATTGAAGAACCAAGTGGCCAGACAGCAGATTGGTATACTATCGGAGTCTATGTAATAGGGTTCACAATTCCTATCATTTTGAAGGCTCTATATATGTTGTCAACACGTGGAAGACAGACTGTAAAGGAAAACAAAGGAACACGGATCAGGTTCAAGGATGACACATCATTTGAGGATATCAATGGCATCAGGAGACCAAAACACCTATATGTATCCATGCCTACTGCCCAGTCCACCATGAAAGCTGAAGAACTTACACCTGGACGGTTCCGTACAATAGTATGTGGCTTATTCCCTACACAGATACAAGTTCGTAACATCATGAGTCCAGTAATGGGAGTGATTGGTTTTTCTTTCTTCGTTAAAGACTGGCCAGAAAAAATTAGGGAGTTTATGGAGAAAGAATGCCCTTTCATAAAGCCAGAAGTTAAACCTGGGACACCAGCACAGGAGGTAGAATTTTTGAAAAGAAATAGAGTTTATTTCATGACCCGCCAGGATGTTCTTGACAAAAATCATGTGGCTGACATCGATAAGTTGATTGACTATGCTGCCTCTGGTGACCCTACATCGCCTGATGACATCGAATCTCCTAATGCACCATGGGTATTTGCTTGTGCACCAGATCGGTGCCCCCCAACATGTATTTATGTTGCTGGGATGGCTGAATTAGGTGCATTCTTTTCCATCTTACAGGATATGAGGAACACCATTATGGCATCTAAAACTGTGGGCACAGCAGAAGAGAAACTGAAAAAGAAGTCCTCCTTCTATCAATCATATTTGCGCCGAACACAATCAATGGGGATTCAACTTGATCAGAGGATAATCCTACTGTACATGTTGGAATGGGGAAGAGAAATGGTGGATCATTTCCATCTTGGTGATGACATGGATCCTGAGCTAAGGGGCCTTGCTCAGTCACTCATAGACCAGAAGGTAAAAGAGATATCAAACCAAGAACCCTTAAAGATATGATTAATTCAGATTTATTACTAATTGTAGGTATAGTATATTACTAATCTCAGATTATATCATGTATTCAGGGATTTTTGATTAATTGTTTACTAATTTGAAATATACGGGTTTGACAATTATTATTATCAGGGTTTTGAATTAATGCACTAATCAGGGTTTAACTGGAATTATACAATCACAATTACATATCAAATTATAGATTTAATACAGGGAATTACTAATGACAGTTATGAATTTAATATCATAGTATATATTTTGTAATCAATATCCAATTAGCATTATATACGTATAGATTTATATTTTATTACTCCATTTAAGGGGCCCAGAGAATGTGAAACTGAGCTATCCCTTTCCTTTTCACC",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "- 20°C",
-      "EVORAO:storageConditions": "AVE Buffer -20C",
-      "EVORAO:titer": "100000.00 genome copies/ml",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "UL",
-        "Derived product",
-        "Bunyavirus",
-        "Cg18-20",
-        "Hantavirus",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "Puumala",
-        "Puumala virus",
-        "RG1",
-        "RNA",
-        "Slovenia",
-        "- 20°C",
-        "Puumala orthohantavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "2016-03-15",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Puumala virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Puumala orthohantavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Cg 18-20",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007N-EVA370",
-      "search:title": "Puumala Virus RNA",
-      "search:description": "Viral RNA extracted from infected cell culture lysate",
-      "search:taxonLabel": "Puumala orthohantavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Puumala virus"
     },
     {
       "@type": "EVORAO:NucleicAcid",
