@@ -485,7 +485,7 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2015-06-10T09:45:47.000Z",
-          "updated_at": "2026-03-26T09:55:07.554Z",
+          "updated_at": "2026-05-15T15:37:38.509Z",
           "metadata": {
             "doi": "10.25504/FAIRsharing.2b3at8",
             "name": "ENA Sample Checklists",
@@ -498,19 +498,14 @@
               }
             ],
             "homepage": "https://www.ebi.ac.uk/ena/browser/checklists",
-            "citations": [
-              {
-                "doi": "10.1186/s40793-015-0001-5",
-                "pubmed_id": 26203332,
-                "publication_id": 1787
-              }
-            ],
+            "citations": [],
             "identifier": 1333,
             "description": "There is a minimum amount of information required during ENA sample registration and all samples must conform to a defined checklist of expected metadata values. The most suitable checklist for sample registration depends on the type of the sample. These sample checklists have been developed to meet the needs of different research communities. Different communities have different requirements on the minimum metadata expected to describe biological samples.",
             "abbreviation": null,
             "support_links": [
               {
                 "url": "https://www.ebi.ac.uk/ena/browser/support",
+                "name": "Support",
                 "type": "Contact form"
               }
             ],
