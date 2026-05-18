@@ -86,16 +86,20 @@ jobs:
         run: |
           set -e
           CACHE="data/ictv_cache.json"
-          OLS_META=$(curl -f -s https://www.ebi.ac.uk/ols4/api/ontologies/ictv)
-          OLS_UPDATED=$(echo "$OLS_META" | jq -r '.updated // empty')
+          OLS_META=$(curl -f -s \
+            --retry 5 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            https://www.ebi.ac.uk/ols4/api/ontologies/ictv || true)
+          OLS_UPDATED=$(echo "$OLS_META" | jq -r '.updated // empty' 2>/dev/null || true)
           echo "OLS_UPDATED=$OLS_UPDATED" >> $GITHUB_ENV
 
           if [ ! -f "$CACHE" ]; then
             echo "📦 No existing cache — nothing to delete."
             exit 0
           fi
-
-          LOCAL_TS=$(jq -r '._ols_updated_at // empty' "$CACHE")
+          
+          LOCAL_TS=$(jq -r '._ols_updated_at // empty' "$CACHE" 2>/dev/null || true)
 
           if [ -z "$LOCAL_TS" ]; then
             echo "❗ Cache has no timestamp — deleting."
