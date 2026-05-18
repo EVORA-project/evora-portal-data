@@ -22,6 +22,294 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "UL"
       },
+      "EVORAO:refSku": "007V-02717",
+      "@id": "urn:evorao:EVA:UL:007V-02717",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/mammalian-orthoreovirus-mrv-isolate-si-mrv02",
+      "dcterms:issued": "2018-02-19T10:38:35+01:00",
+      "dcterms:modified": "2021-06-03T15:27:21+02:00",
+      "dcterms:title": "Mammalian orthoreovirus (MRV); isolate SI-MRV02 ",
+      "dcterms:description": "Infectious cell culture supernatant. Mammalian orthoreovirus (MRV); isolate SI-MRV02 is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been fully sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2015-02-28",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "Sequencing, PCR",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae - A protocol to remove mycoplasmae is provided",
+      "EVORAO:passage": "2 passage",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "LLC-MK2 cells"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E5,59 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:accessionNumber": "MG457078 - MG457087, available from May 2018",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Guano from bat Eptesicus serotinus from Slovenia"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "available from May 2018",
+        "Bat",
+        "Category B",
+        "UN3373",
+        "Guano from bat Eptesicus serotinus from Slovenia",
+        "Human virus",
+        "LLC-MK2 cells",
+        "mammalian orthoreovirus",
+        "Mammalian orthoreovirus 3",
+        "MG457078 - MG457087",
+        "MRV",
+        "RG2",
+        "Slovenia",
+        "Dry ice",
+        "Mammalian orthoreovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2015-02-28",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MG457078 - MG457087, available from May 2018"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Mammalian orthoreovirus 3"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Mammalian orthoreovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "SI-MRV02",
+        "EVORAO:serotype": "MRV 3",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02717",
+      "search:title": "Mammalian orthoreovirus (MRV); isolate SI-MRV02 ",
+      "search:description": "Infectious cell culture supernatant. Mammalian orthoreovirus (MRV); isolate SI-MRV02 is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been fully sequenced.",
+      "search:taxonLabel": "Mammalian orthoreovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Guano from bat Eptesicus serotinus from Slovenia",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:accessionNumber": "MG457078 - MG457087, available from May 2018",
+      "search:providerName": "UL",
+      "search:pathogenName": "Mammalian orthoreovirus 3"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02765",
+      "@id": "urn:evorao:EVA:UL:007V-02765",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-1-1",
+      "dcterms:issued": "2018-03-15T11:01:32+01:00",
+      "dcterms:modified": "2021-06-03T15:15:09+02:00",
+      "dcterms:title": "Human Mastadenovirus C, Type 1",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2012-01-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "A549"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "throat swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "A549",
+        "Adenovirusm Human mastadenovirus",
+        "AdV",
+        "AdV1",
+        "Category B",
+        "UN3373",
+        "Human adenovirus 1",
+        "Human virus",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "throat swab",
+        "Dry ice",
+        "Human mastadenovirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2012-01-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "AAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTCATATCTAGCGCGT\nGGGCGGAGTTTGCATAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCACCCATGGACATAA\nAGTTACTGGAGAATGGAATGCGCCAAAGGGTGCGGTCGCAAAGAAACTTTTTCTGGGTAA\nTACTGTCAACCGCGGTCTTGCCTATAAGCGGGTAGGGGAAGTTGGCGGGGTAGGCCTGTC\nCCTCTCGCATGGTGGGAGCGAGGTAACCAACAAAGCCAGAGTTATTGTGCTGGTGGAGGA\nTGCCCACCTGTTGGTAGTCCTTGTATTTGGTATCGTCCACCACCTGACGGCTCATGGGCT\nGGAAGTTTCTAAAGAAGGAGTACATGCGGTCCTTATAGCTTTCTGGGATATAAAAGCCCT\nGGTAGCCTATGTTGTAGTTGGCTAGCATTTGTACCAAGAACCAGTCTTTGGTCATGTTGC\nATTGGGCAACGTTGTAGCCCTCTCCGTCAACTGAACGCTTGATCTCAAACTCGTTGGGGG\nTAAGCAGACGGTCATTGCCAGGCCAGCTAACAGAAGAGTCAAAGGTGATGGCCACCTTTT\nTGAAGGTGTGATTAAGGTAAAAGGTTCCGTCTAGGTAGGGTATGGAGCCAGAGTAGGTAT\nAGTAAGGGTCGTAGCCGGAACCCAGGGATGGGGTTTCCTTAGTCTTAAGGCGCGTAAAGG\nCCCAGCCTCGGAAAGCCGCCCAGTTGCGCGAGGGGATAGAGATGGGCACGTTGGTGGCGT\nTG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human adenovirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human mastadenovirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 5116/2011",
+        "EVORAO:serotype": "Type 1",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02765",
+      "search:title": "Human Mastadenovirus C, Type 1",
+      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human mastadenovirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, throat swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human adenovirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
       "EVORAO:refSku": "007V-02881",
       "@id": "urn:evorao:EVA:UL:007V-02881",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/herpes-simplex-virus-1-human-alphaherpesvirus-1",
@@ -18599,289 +18887,6 @@
       "search:accessionNumber": "JF260924",
       "search:providerName": "IP",
       "search:pathogenName": "Coxsackievirus A17"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001V-04202",
-      "@id": "urn:evorao:EVA:AMU:001V-04202",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bregalaka-virus-strain-uvebrev2015mkm31",
-      "dcterms:issued": "2021-05-19T17:00:51+02:00",
-      "dcterms:modified": "2021-05-19T17:00:51+02:00",
-      "dcterms:title": "Bregalaka virus, strain UVE/BREV/2015/MK/M31",
-      "dcterms:description": "Freeze-dried Bregalaka virus, strain UVE/BREV/2015/MK/M31, Macedonia 2015, complete genome sequence",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Macedonia (the former Yugoslav Republic of)"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "qRT-PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "P4",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10E+6.32 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:accessionNumber": "Segment L : MG573144      Segment M: MG573145             Segment S: MG573146",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Phlebotomus perfiliewi"
-      },
-      "EVORAO:isolationTechnique": "cell culture",
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "Animal virus",
-        "bregalaka",
-        "Bregalaka virus",
-        "Bunyaviridae",
-        "Category B",
-        "UN3373",
-        "Macedonia (the former Yugoslav Republic of)",
-        "Phlebotomus perfiliewi",
-        "Phlebovius",
-        "RG2",
-        "salehabad",
-        "Segment L : MG573144      Segment M: MG573145             Segment S: MG573146",
-        "Vero",
-        "Salehabad phlebovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "Segment L : MG573144      Segment M: MG573145             Segment S: MG573146"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bregalaka virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Salehabad phlebovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "UVE/BREV/2015/MK/M31",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "001V-04202",
-      "search:title": "Bregalaka virus, strain UVE/BREV/2015/MK/M31",
-      "search:description": "Freeze-dried Bregalaka virus, strain UVE/BREV/2015/MK/M31, Macedonia 2015, complete genome sequence",
-      "search:taxonLabel": "Salehabad phlebovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Phlebotomus perfiliewi",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "Macedonia (the former Yugoslav Republic of)",
-      "search:accessionNumber": "Segment L : MG573144      Segment M: MG573145             Segment S: MG573146",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Bregalaka virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001V-04201",
-      "@id": "urn:evorao:EVA:AMU:001V-04201",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/zaba-virus-strain-uvezabav2015hrc48",
-      "dcterms:issued": "2021-05-19T16:53:13+02:00",
-      "dcterms:modified": "2021-05-19T16:53:13+02:00",
-      "dcterms:title": "Zaba virus, strain UVE/ZABAV/2015/HR/C48",
-      "dcterms:description": "Freeze-dried Zaba virus, strain UVE/ZABAV/2015/HR/C48, Croatia 2015, complete genome sequence",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Croatia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "qRT-PCR",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "P4",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10E+6,57 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:accessionNumber": "segment L : MG573142     Segment M : MG573143            Segment S: MG573147",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Phlebotomus neglectus"
-      },
-      "EVORAO:isolationTechnique": "cell culture",
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "Animal virus",
-        "Bunyaviridae",
-        "Category B",
-        "UN3373",
-        "Croatia",
-        "Phlebotomus neglectus",
-        "RG2",
-        "salehabad",
-        "segment L : MG573142     Segment M : MG573143            Segment S: MG573147",
-        "Vero",
-        "zaba",
-        "Zaba virus",
-        "Salehabad phlebovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "segment L : MG573142     Segment M : MG573143            Segment S: MG573147"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zaba virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Salehabad phlebovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "UVE/ZABAV/2015/HR/C48",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "001V-04201",
-      "search:title": "Zaba virus, strain UVE/ZABAV/2015/HR/C48",
-      "search:description": "Freeze-dried Zaba virus, strain UVE/ZABAV/2015/HR/C48, Croatia 2015, complete genome sequence",
-      "search:taxonLabel": "Salehabad phlebovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Phlebotomus neglectus",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "Croatia",
-      "search:accessionNumber": "segment L : MG573142     Segment M : MG573143            Segment S: MG573147",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Zaba virus"
     },
     {
       "@type": "EVORAO:Virus",
