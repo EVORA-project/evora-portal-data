@@ -165018,5 +165018,342 @@
       "Mammarenavirus lassaense"
     ],
     "_evora_strategy": "direct"
+  },
+  "Zerdali virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV201907617",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV201907617",
+      "ictv_curie": "ictv:MSL41/ICTV201907617",
+      "iri": "http://ictv.global/id/MSL41/ICTV201907617",
+      "label": "Phlebovirus zerdaliense",
+      "synonyms": [
+        "ZERV",
+        "Zerdali phlebovirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19910109",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186017",
+        "http://ictv.global/id/MSL41/ICTV20186018",
+        "http://ictv.global/id/MSL41/ICTV202315134",
+        "http://ictv.global/id/MSL41/ICTV20164611",
+        "http://ictv.global/id/MSL41/ICTV19910109"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV201907617",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:L: KP966616",
+        "genbank:M: KP966617",
+        "genbank:S: KP966618",
+        "refseq:L: NC_029901",
+        "refseq:M: NC_037612",
+        "refseq:S: NC_037613"
+      ],
+      "direct_parent_label": "Phlebovirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Hareavirales",
+        "Phenuiviridae",
+        "Phlebovirus"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:3052690",
+        "label": "Phlebovirus zerdaliense"
+      }
+    ],
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV201907617",
+      "ictv_curie": "ictv:MSL41/ICTV201907617",
+      "iri": "http://ictv.global/id/MSL41/ICTV201907617",
+      "label": "Phlebovirus zerdaliense",
+      "synonyms": [
+        "ZERV",
+        "Zerdali phlebovirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19910109",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186017",
+        "http://ictv.global/id/MSL41/ICTV20186018",
+        "http://ictv.global/id/MSL41/ICTV202315134",
+        "http://ictv.global/id/MSL41/ICTV20164611",
+        "http://ictv.global/id/MSL41/ICTV19910109"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV201907617",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:L: KP966616",
+        "genbank:M: KP966617",
+        "genbank:S: KP966618",
+        "refseq:L: NC_029901",
+        "refseq:M: NC_037612",
+        "refseq:S: NC_037613"
+      ],
+      "direct_parent_label": "Phlebovirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Hareavirales",
+        "Phenuiviridae",
+        "Phlebovirus"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Zerdali virus"
+    ],
+    "_evora_strategy": "direct"
+  },
+  "Zerdali phlebovirus": {
+    "status": "obsolete",
+    "input": "http://ictv.global/id/MSL37/ICTV201907617",
+    "obsolete": {
+      "msl": "MSL37",
+      "ictv_id": "ICTV201907617",
+      "ictv_curie": "ictv:MSL37/ICTV201907617",
+      "iri": "http://ictv.global/id/MSL37/ICTV201907617",
+      "label": "Zerdali phlebovirus",
+      "synonyms": [
+        "ZERV"
+      ],
+      "is_obsolete": true,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL37/ICTV19910109",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL37/ICTV201857095",
+        "http://ictv.global/id/MSL37/ICTV201907198",
+        "http://ictv.global/id/MSL37/ICTV20186016",
+        "http://ictv.global/id/MSL37/ICTV20186017",
+        "http://ictv.global/id/MSL37/ICTV20186018",
+        "http://ictv.global/id/MSL37/ICTV20164603",
+        "http://ictv.global/id/MSL37/ICTV20164611",
+        "http://ictv.global/id/MSL37/ICTV19910109"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": "http://ictv.global/id/MSL41/ICTV201907617",
+      "was_revision_of": "http://ictv.global/id/MSL36/ICTV201907617",
+      "had_revision": "http://ictv.global/id/MSL38/ICTV201907617",
+      "narrow_match": [],
+      "direct_parent_label": "Phlebovirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Ellioviricetes",
+        "Bunyavirales",
+        "Phenuiviridae",
+        "Phlebovirus"
+      ]
+    },
+    "reason": null,
+    "replacements": [
+      {
+        "msl": "MSL41",
+        "ictv_id": "ICTV201907617",
+        "ictv_curie": "ictv:MSL41/ICTV201907617",
+        "iri": "http://ictv.global/id/MSL41/ICTV201907617",
+        "label": "Phlebovirus zerdaliense",
+        "synonyms": [
+          "ZERV",
+          "Zerdali phlebovirus"
+        ],
+        "is_obsolete": false,
+        "obsolescence_reason": null,
+        "reason_iri": null,
+        "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19910109",
+        "ancestors_iris": [
+          "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+          "http://ictv.global/id/MSL41/ICTV201857095",
+          "http://ictv.global/id/MSL41/ICTV201907198",
+          "http://ictv.global/id/MSL41/ICTV20186016",
+          "http://ictv.global/id/MSL41/ICTV20186017",
+          "http://ictv.global/id/MSL41/ICTV20186018",
+          "http://ictv.global/id/MSL41/ICTV202315134",
+          "http://ictv.global/id/MSL41/ICTV20164611",
+          "http://ictv.global/id/MSL41/ICTV19910109"
+        ],
+        "rank": {
+          "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+          "label": "species"
+        },
+        "replaced_by": null,
+        "was_revision_of": "http://ictv.global/id/MSL40/ICTV201907617",
+        "had_revision": null,
+        "narrow_match": [
+          "genbank:L: KP966616",
+          "genbank:M: KP966617",
+          "genbank:S: KP966618",
+          "refseq:L: NC_029901",
+          "refseq:M: NC_037612",
+          "refseq:S: NC_037613"
+        ],
+        "direct_parent_label": "Phlebovirus",
+        "lineage": [
+          "Viruses",
+          "Riboviria",
+          "Orthornavirae",
+          "Negarnaviricota",
+          "Polyploviricotina",
+          "Bunyaviricetes",
+          "Hareavirales",
+          "Phenuiviridae",
+          "Phlebovirus"
+        ]
+      }
+    ],
+    "final": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV201907617",
+      "ictv_curie": "ictv:MSL41/ICTV201907617",
+      "iri": "http://ictv.global/id/MSL41/ICTV201907617",
+      "label": "Phlebovirus zerdaliense",
+      "synonyms": [
+        "ZERV",
+        "Zerdali phlebovirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19910109",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186017",
+        "http://ictv.global/id/MSL41/ICTV20186018",
+        "http://ictv.global/id/MSL41/ICTV202315134",
+        "http://ictv.global/id/MSL41/ICTV20164611",
+        "http://ictv.global/id/MSL41/ICTV19910109"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV201907617",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:L: KP966616",
+        "genbank:M: KP966617",
+        "genbank:S: KP966618",
+        "refseq:L: NC_029901",
+        "refseq:M: NC_037612",
+        "refseq:S: NC_037613"
+      ],
+      "direct_parent_label": "Phlebovirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Hareavirales",
+        "Phenuiviridae",
+        "Phlebovirus"
+      ]
+    },
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV201907617",
+      "ictv_curie": "ictv:MSL41/ICTV201907617",
+      "iri": "http://ictv.global/id/MSL41/ICTV201907617",
+      "label": "Phlebovirus zerdaliense",
+      "synonyms": [
+        "ZERV",
+        "Zerdali phlebovirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19910109",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186017",
+        "http://ictv.global/id/MSL41/ICTV20186018",
+        "http://ictv.global/id/MSL41/ICTV202315134",
+        "http://ictv.global/id/MSL41/ICTV20164611",
+        "http://ictv.global/id/MSL41/ICTV19910109"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV201907617",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:L: KP966616",
+        "genbank:M: KP966617",
+        "genbank:S: KP966618",
+        "refseq:L: NC_029901",
+        "refseq:M: NC_037612",
+        "refseq:S: NC_037613"
+      ],
+      "direct_parent_label": "Phlebovirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Hareavirales",
+        "Phenuiviridae",
+        "Phlebovirus"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Zerdali phlebovirus",
+      "ZERV",
+      "Phlebovirus zerdaliense"
+    ],
+    "_evora_strategy": "direct"
   }
 }
