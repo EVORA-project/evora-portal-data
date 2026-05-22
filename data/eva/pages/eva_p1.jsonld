@@ -17,6 +17,147 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001v-EVA130",
+      "@id": "urn:evorao:EVA:AMU:001v-EVA130",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sepik-virus-strain-uvesepvunkxx7148",
+      "dcterms:issued": "2015-09-25T12:37:53+02:00",
+      "dcterms:modified": "2026-05-21T09:39:49+02:00",
+      "dcterms:title": "Sepik virus strain UVE/SEPV/UNK/XX/7148",
+      "dcterms:description": "Freeze-dried Sepik virus strain UVE/SEPV/UNK/XX/7148,  complete ORF sequence.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 750,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1993-01-01",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "qRT-PCR (-Moureau et al, 2007) + partial sequence",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "AMU/UVE/kindly donated by Ernest A. Gould"
+      },
+      "EVORAO:passage": ">1 (1 passages recorded in the production lab)",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "C6/36"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "10E4.32 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:accessionNumber": "DQ859063",
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "19741066",
+        "AMU/UVE/kindly donated by Ernest A. Gould",
+        "Animal virus",
+        "C6/36",
+        "Category B",
+        "UN3373",
+        "DQ859063",
+        "flavivirus SEPV",
+        "RG2",
+        "sepik",
+        "Sepik virus",
+        "Unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1993-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "DQ859063"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Sepik virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Sepik virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "UVE/SEPV/UNK/XX/7148",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "001v-EVA130",
+      "search:title": "Sepik virus strain UVE/SEPV/UNK/XX/7148",
+      "search:description": "Freeze-dried Sepik virus strain UVE/SEPV/UNK/XX/7148,  complete ORF sequence.",
+      "search:taxonLabel": "Sepik virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "Unknown",
+      "search:accessionNumber": "DQ859063",
+      "search:providerName": "AMU",
+      "search:originatorName": "AMU/UVE/kindly donated by Ernest A. Gould",
+      "search:pathogenName": "Sepik virus"
+    },
+    {
       "@type": "EVORAO:Protein",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -2097,147 +2238,6 @@
       "search:providerName": "AMU",
       "search:originatorName": "AMU/UVE/kindly donated by Ernest A. Gould",
       "search:pathogenName": "Zika virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001v-EVA130",
-      "@id": "urn:evorao:EVA:AMU:001v-EVA130",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sepik-virus-strain-uvesepvunkxx7148",
-      "dcterms:issued": "2015-09-25T12:37:53+02:00",
-      "dcterms:modified": "2026-05-18T10:03:39+02:00",
-      "dcterms:title": "Sepik virus strain UVE/SEPV/UNK/XX/7148",
-      "dcterms:description": "Freeze-dried Sepik virus strain UVE/SEPV/UNK/XX/7148,  complete ORF sequence.",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 750,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1993-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Unknown"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "qRT-PCR (-Moureau et al, 2007) + partial sequence",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "Oxford Institute of Virology/ UTMB collection"
-      },
-      "EVORAO:passage": ">1 (1 passages recorded in the production lab)",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "C6/36"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "10E4.32 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "EVORAO:accessionNumber": "DQ859063",
-      "dcat:keyword": [
-        "AMU",
-        "Cultivable virus",
-        "Virus",
-        "Room Temperature",
-        "19741066",
-        "Animal virus",
-        "C6/36",
-        "Category B",
-        "UN3373",
-        "DQ859063",
-        "flavivirus SEPV",
-        "Oxford Institute of Virology/ UTMB collection",
-        "RG2",
-        "sepik",
-        "Sepik virus",
-        "Unknown"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1993-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "DQ859063"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Sepik virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Sepik virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "UVE/SEPV/UNK/XX/7148",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "001v-EVA130",
-      "search:title": "Sepik virus strain UVE/SEPV/UNK/XX/7148",
-      "search:description": "Freeze-dried Sepik virus strain UVE/SEPV/UNK/XX/7148,  complete ORF sequence.",
-      "search:taxonLabel": "Sepik virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "AMU",
-      "search:countryOfCollection": "Unknown",
-      "search:accessionNumber": "DQ859063",
-      "search:providerName": "AMU",
-      "search:originatorName": "Oxford Institute of Virology/ UTMB collection",
-      "search:pathogenName": "Sepik virus"
     },
     {
       "@type": "EVORAO:Virus",
