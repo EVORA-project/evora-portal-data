@@ -22,137 +22,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "IZSLER"
       },
-      "EVORAO:refSku": "026V-05300",
-      "@id": "urn:evorao:EVA:IZSLER:026V-05300",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/porcine-teschovirus-animal-2014-italy-porcine-enterovirus-o2b-type-3",
-      "dcterms:issued": "2023-07-14T14:59:26+02:00",
-      "dcterms:modified": "2023-10-09T11:01:09+02:00",
-      "dcterms:title": "Porcine teschovirus, Animal, 2014, Italy, Porcine enterovirus O2b type 3",
-      "dcterms:description": "PEV-3 isolate",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2014-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50/ml",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "12 x PK15.28",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "PK15.28"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1x10^6.5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:isolationConditions": "confluent cell culture",
-      "EVORAO:isolationTechnique": "propagation on PK15.28 cell line",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "Animal virus",
-        "Category B",
-        "UN3373",
-        "enterovirus",
-        "Italy",
-        "PEV-3",
-        "picornaviridae",
-        "PK15.28",
-        "Porcine teschovirus",
-        "RG2",
-        "Swine",
-        "Dry ice",
-        "Teschovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2014-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 026V-05300 | Porcine teschovirus O2b type3\nCTGATAAGTGATGATCCTTGGAAGCTAGGTACTTGTTACGCTAGTTTTGGATTATCTTGTGCCCAACACTAGTCTCCGGA\nCTTCTGTTGTGTTTAAACACAGAAATTTGACTATCTGGCTATGAATTCATTGGAATGACCCCTTTGAAAGACCTGCTCTG\nGCGCGAGCTAAAGCGCAATTGTCACCGGGTATTGCACCAATGGTGGCGACAGGGTACAGAAGAGCAAGTACTCCTGACTG\nGGCAATGGGACTGCATTGCATATCCCTAGGCACCTATTGAGATTTCTCTGGGGCCCACCAGCGTGGAGTTCCTGTATGGG\nAATGCAGGACTGGACTTGTGCTGCCTGACAGGGTCGCGGCTGGCCGTCTGTACTTTGTATAGTCAGTTGAAACTCACTAT\nGGCATGTTTGAAAATTTTCTCTCTGAAACGCAAGGATAAGAGCCACTCATACTCTCCTCGTGGGATTGAGTTGAAATATA\nATTCAGATTTTGCTTTCAAACCAAGACCATTGGCACCACTTCTGCGTCTTGAACCATCTGATACTAAAACACGCAGAATT\nGAGTGCGCGGAAGTTGAATATGATTCATGGTATCCCAACCCCTTGGACCCCACTTCTTTAGCTTGCGATTTTGAACTTGA\nGATGCTGCAGTTTCAAGGCACTGGTTCATCTAGAATGGAAAATGGCAACACTAACAATTCTGGAAATACTGGAGTGATAA\nATTACAATTTTTATTCCAATTCATACACTGATGCAGTTGACCTATCTGGGGCACTGTCAACACAAGAGTCAAATGTAGCT\nGAGAATGCCGCCTCGGGCCCTTCATCTCTTCTTAAGGCTGGTATAAATGCGGCTGCCAGAATTGGACCATTGCTTGCAGA\nACCCAAATTTGAGGAATATAAACTTTCTGATAGGGTTGATATGCTTCAGAAGGGGACCAGCACAATAATTTCACAGAACA\nGTGTGGGATCTAATACCTACATTGATTGTCCCAAATTTGATGTGACATCAGTTGCTGATGAAGGGACATCTGGTGGTCCA\nGCAGTTTCCCGATTTGTGACACTTAGAGCCCAGCAGTGGTCAGCTGCACAAGATGTTTATTCTTTCCAGGCTGCCCATCT\nACCATATGCCTTGGTTGCGCAAGATACACCATTCAAAGCCCTCATGTCTAAACATCAACTTCTTAAATGTGGATGGATTG\nTCCAAGTACAAATTAATACAACCAGGTTTCATGGTGGTTGCATTGGTGTGTTTGCTGTCCCTGAATTCAATGTCTATTTG\nAAACCCAATAATAACCAGCCCACATACACAAACAACAGTGGTGGTGTCCCGAGTAATGCTTGGGATAGATTTTCAAAATG\nGCATAATCCAGATAACATGTATGGGACATGGCATTACTATCACACCTTTGATGATTTAGATAAACACTGGTACAAACCAG\nAAGGACAACCGTATGGCGGGATATCGCCTCAGTCATTGTTTTGCTTCCCCCACCAGCTGATTAATCCTAGGACAAATTCA\nTCAGCAACATTGTGCATACCTTATGTGGACTGTGGGCCTATTACTGATGTTACTGTCCACTGTCCTTGGGCCATTGTAAT\nTGTGGTCTTGCGCCAACTGACAGTGGCTTCTGGTGGGACATCTAGTGTGGATATCAATGTTTCCCTGGCTCCTTGTAATG\nTCGAATACCACGGGCTTCGTCAGAGCTCTGTGTACCAAAGCCCAATACCAAAAGCTGATATTGATGCTAGTATGGCACTT\nTTCTCATCAACTCAACCATACACGGCTGCCCCTGTTTATGGTAAGATTCCTGCAAGCAGCCCATCTTATATGCCAGGAGA\nATTCTTGGACTATGTCCAGCTTGCCCAAATTCCCTGTTTAGTGAAGAACCGTGAGATTCGTGTTTCTGGCACAGATAAGC\nTCACTCCCATCTTTCAGATGCCTTTGAGACCTGTTAACGAGGAAACCACGAACACTATGCTAGGTTCTGTGACAAGAATG\nTTTACGCAGTGGCGTGGTTCTTTAGTTGTGAGGTGTGTCTTTGTTGGAAATCAGATGCAGAATTGTAGGCTTCTCATAGC\nCTGGACTCCACAGGGCTTTAACGCACCAGCACCAGCGACCATGGCTGAAGCAATGCAAGGCCACTATGTTATTTATGACA\nCTGGTGTGGACAGTAGTGCAGACTTGGTTGTTCCTTATGTGTCACCATATGATTTTTCCCCTGTTCGGACTCCTTACACA\nAAAACAGATTTTCCTATGGTACAGACCAACACACCTGTTTTAGTTGATACCCCATATTGGTCAAAAGGCTATGTAACAGT\nTTGGCAATATTCCAATTTGGCTTCCCCTCCCAACTCGTCACCACAAGCAGACTTTTTGTTGTTTGTCTTTGCTGGGGAAG\nATTATGTGCTGAAGGGACCCTCTAATATTTCTGCCAGCTTCCAGGGGAACACAGATTCTCCACTTCAGCCAGCTGAGACA\nGGGTGTGACAAGGCAATGACAAACAGCGCATCAAATGAGAATCCCATCCCTCTACCAGTTGAGACCATTGGTTCATCCCG\nAGTATCATTCTTCTGGGATAGGTACTTCCATATTTCAACAATCACCGGAGTGACTAGTACTAATCCTCAATACCTGCGAT\nTAAACATTTCAGACATTCTACGGGACCCCACTATACGGCAGTCTCTGCACGCCACCTATTTGAGATGTGGGTTGTCTGTA\nGCAGTGAGAGTAATGCCAATGGATCCTAGTAATACTGAGTGTTTGGATGGCTTGACTGTGAACTTGCTATATGTGCCTCC\nTGGGAGTGGCTGGAACATCAGCAATGTTAACTCATCAACTCCCATTGAGCAAGCAAAAGATTCAGTGGACAATTATGCCT\nTACCTTCTTTTACTTGGAAGCCAGCGCAAACTCCGGTTTTTACATGCTCGGTGCCATATGTTTCATTCACATCTGTGTTA\nCCCACTGCCTATTCAGGTTTTGAAACATCATACCGAATTCCCAAGAGAAACAATCAGATCCCTCAGGATTTTGGGTTTGG\nCATGCTTGTGCTCAGATCTTCATCAACGCTAGGGCTGGCTGCTTCTGTGTGGGTGAAATTTGAAAATGTGAGACTCTTCT\nGCCCACGACCTGGAATTCATGATCCCAYTGCTTACTCGAGGAGCCATCCTGAAGAAAGCAGGGAATATGGTGGAGGTTTG\nTCTGCAACTATGACCACCATGTCATTTCAGGGGCCAGGCGCCTCAAGCTTTTCCCTGTTGAAGCAAGCAGGGGATGTTGA\nGGAGAACCCAGGGCCTTCTCTTTCTAAATTATACCAGATTTTGAAAGATCCAGCAGTTGATGCCCTGTGTGAAGCCTATA\nATGAGCTAAAGAAATTTAAAGAGCAAGCCACTAACCTACTGGATTCATTCTCTGGGGATTCTGAAAACCCCTGGTTGAAT\nAAATTTATTAAATATTTGGGTTATGCTATTCTAGCCTGGAAGTCACTTCATGATCCCATGACAGCAGCAGCCGTTTGTTT\nCATAATTGGCAGTGATGTGACAGCATTTGTGGTTTCTAAATTGGCTAAACATTTGAAGAAATTTGCCAAGACCGACCCCC\nCACCTGTGCCCAAACCCAGATCCTGCAAGAAAGAGGGGTGTTGTTGTGGTAATAAACACAACTACCCTGATGRGCTTAAC\nCCATTTTCAGAGAACGGGTTTTGGAGCCGTTTTAAGAAAGGCCACCTTCAAGGGCCAATGCAGGATGTGAGTTCTTTAAT\nCAACATTCTAAAGGGTGCAGAGTGGATCTATCACCAATTTGAGAAAGTAATTAAATGGCTTAGGACCTGGAGAACAGCTG\nAATATGAGGTTTCCTCTGACTTCCTCCAGAATGAGATGAAGAATTATCCACATTACCACAGGAAGTATAAAGAGTGTGCA\nAACAATTACAGGCATCCAGACAGGACTGAGGTAGCAAACTACTTTAAGAAGATGAGAAAATGTGCAGCCCATGTTAATCC\nAAGATTAATGGGTATGTTTCCTGAATTTGATCCATCTCCACCTGATCCCACTCGCCCCGAACCAGTTGTGGTCGTTTTGC\nGCGGCGCGCCTGGGCAGGGTAAGAGTGTGTGTTCTGAGATGCTTGCTAGAATGCTCTCTTATACCTTGGTTGGCAAATCT\nTCTTATTATGCATTCAACTCAGCCACTAAGCACTTTGATGGCTACAAACAACAAGCTGTCACAATAATTGATGATCTTGG\nGCAAGATACATCTGGTGAGGATTTCCGGCTGTTCTGTCAGCTGGTATCCACCACCGAATGTATTGTGCCCATGGCTGATT\nTGCCCGATAAGGGGATGCATTTTAAATCTGAGATATTGATTGCCAATACTAATCTTCCTTCCTTTAATCCCATTACTGTA\nTCTGATCCAGCTGCCATTAAGAGAAGAATTTTTCTTGATCTCACAGTTGAGGCAAATCGGGCCTACACCAAGCCCGACGG\nGACTTTAGACCTTGTCCGAGCTCTTCAATCAACTGGCAAGGAGTCTCAATCTCCCTTATTGAGACAAGACCATCATATTT\nTGTATTCTGATTGTGTCGCATTTAAACATGGTAGGCACACTTTGTCCTTCTTGGAAGTTTTTGACATGATTAAGAGAGAG\nCTTCAGAGACGCCAGAATGTTTCTAACTCCTTAACAAACCTTTTCACCTTCCAAGGGCCCAGCGACGATTCCTGGTTCAC\nCACCTTCTACAAGAAATGGAATCTGAGAGCAAAAGAGAATTCTGAAGAGAAATTGATTCTTGAACTTATCAGATACTGCC\nATGGATCTGACATGCTAAAGGAGTATTGTCAGCTTGCAGCTGCCAATAAGGAGAAGAGAACAGATTATTGGAACATGGTC\nAGAATTATTGAGGAAATACTTGCAGCCCTAACCTTAATTTTGTCCCTCATTTCTATTATGATAGTTATGTACCAGCTCTT\nTTTTCAGGGACCCTATGAGGCCACTGCCACAAAACCAGCAAAGCCTAATAGGCAATCTCTGTTGAAATTAGTAGAGATGC\nAAGGGCCAAAAGGACAAGCCAACATGGAAATGGAAAGGACCTTGATGAAAAAGAATATAGTGGAGATGACATATGAGAAG\nCACAATGGGAAATTTCAAACCACCACTGTCCTGTTTGTGCGTGACCGGATATTCTTGATCAATACTCACATATTGTCATC\nAATTAAGAACTTCCACTATGAGAACACTGAAATTCCAGCAGCTTCAGTGCAGAAAGTTCAAGCCATCTTTGATGGACATC\nCATCAGATGTGACAGCAGTTCAGTTTGCTGTTGGACGACAGTACCGTGATATTACCAACAATTTCATTAACAGCCTGCCA\nAACCCTGGAACACCAATAGTAGGCTTGATGAAGACAGAAGGCAGCAGCTACGTGTGGTCTGGTGAATGCCTTCCATTCAA\nAAACACAATGAACACCTATGAAGGTTGTGTCCCCCATGTGTTACCATACAAGGCTGTAACAGCTCACGGCTACTGTGGCT\nCTGTTATGGTTGCAGATGCTGGAGTTTGGAAAGGAATCTGTGGTGTCCATTCCCTAGGTGATGGCACCATAGGTGCAGCA\nACTGTGCTATCAAGACAGCATTTGCTTAATCTTCTTGAGGGATTCTTGGAATTCCAGGGAAAGATCTATGATGTGCAGAA\nAGCAGACTTTGTGTACACACCCACTAGAACTTCTCTGAAACCAACATTTGTATGTGTTGACCCAAAATTGGAGCCTGCAG\nCTCTTTCACATTTAGACCCAAGGCTGAAAGAGCCAGAAAATTTCAAAGCTGTCATCTTGTCCAAACATGTGGGCGATTCA\nCTGCAGCTTCCGTGGGGCATCAGATGGGCCTCATACAAGTATGCAGAGAGGATTCGCGCCATGCTGCCACCTGATTTCCT\nGGAACCCCTTTCTGTCAGGGAGGCAGTTGAAGGAATTGATGGATTGGACCCAATGGATATGGATAAATCTCCTGGCCTTC\nCGTATGTCAAGAAAGGCTTGCGCCGGACTGACTTATGGAATCCCAAGACTGGACCGTCATTGGAATTGATGGCTGAGATA\nAATCGCTATCTTGATTATAATTATGATAAACATGTGTTTCTTACATTTTTAAAAGATGAATTGAGACCAAAAGAGAAAGT\nTCAAGCCGGGAAAACCCGTGTCATTGATGTGGCAGGGTTTGGACATGCAATAGTTGGCCGAATGTTATTTGGTCGATTGT\nTCGCCTTTTTCCACAAAAATCCCGGTTGGAACACAGGATCAGCTGTTGGGGTGAACCCGGACTTGGCCTGGACACAGATC\nTTTTATACTGCCCCTAGCCGTAATGTATTGGCTATGGATTATTCTGGATTTGATGCTTCCCATACATCTGGCATGTTTTG\nCATTTTGAAGCATTTCCTGACCACTCTTGGTTACGGAACTTTGCAGCTATCCTATATAGATTCCCTTTGTTATTCTAAAC\nACCATTGGGATGATGAGACCTACCGCCTTGATGGAGGACTGCCCTCTGGGTGCTCTGGCACGACAATCTTTAACACCATT\nATGAACAACATTGTTGCCCGAGCCGCAGCAAGTTATGCTGCTGATGGCCCTGTTGGCATTCTTTGTTATGGTGATGACAT\nCCTGGTTTCATCCCCTGAGAAATTTCCAGTTTCTGACTGGATGGAGTTTTACTCCAAGACACCTTATAAAGTGACTGCAG\nCTGATAAGAGTGAGCAGATTGACTGGCGCGACATCACACAGTGCACGTTCCTTAAACGGGGATTTGTGCTGGATGGCAGT\nCTTGTACGTCCAGTCATGGAAGAACAACATTTGGCTGAATTGCTAAAATGGGCTAGGCCAGGAACATTGCAGGCCAAGTT\nGCTGTCCATTGCCCAGTTGGCATTTCATCTTCCGCGCCCGGCATACGAACGCCTCATGCTCCCGTTTGAGGAGGCTGGAT\nATGAAATCCCCAGCCACGAACGCCTGAACGAGGAGTGGCGCGAGATGTTCATTTGAATGGCTATAGTTGTGAGCAGTTTA\nGTGATTTTCTGCCTGTTGCTTAAGTAG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Porcine teschovirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Teschovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Porcine enterovirus O2b type 3",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-05300",
-      "search:title": "Porcine teschovirus, Animal, 2014, Italy, Porcine enterovirus O2b type 3",
-      "search:description": "PEV-3 isolate",
-      "search:taxonLabel": "Teschovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:providerName": "IZSLER",
-      "search:pathogenName": "Porcine teschovirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
       "EVORAO:refSku": "026V-05264",
       "@id": "urn:evorao:EVA:IZSLER:026V-05264",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/murine-norovirus-animal-2015-italy",
@@ -142662,6 +142531,151 @@
       "search:accessionNumber": "MG457088-MG457097, available from May 2018",
       "search:providerName": "UL",
       "search:pathogenName": "Mammalian orthoreovirus 1"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02717",
+      "@id": "urn:evorao:EVA:UL:007V-02717",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/mammalian-orthoreovirus-mrv-isolate-si-mrv02",
+      "dcterms:issued": "2018-02-19T10:38:35+01:00",
+      "dcterms:modified": "2021-06-03T15:27:21+02:00",
+      "dcterms:title": "Mammalian orthoreovirus (MRV); isolate SI-MRV02 ",
+      "dcterms:description": "Infectious cell culture supernatant. Mammalian orthoreovirus (MRV); isolate SI-MRV02 is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been fully sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2015-02-28",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "Sequencing, PCR",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae - A protocol to remove mycoplasmae is provided",
+      "EVORAO:passage": "2 passage",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "LLC-MK2 cells"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E5,59 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:accessionNumber": "MG457078 - MG457087, available from May 2018",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Guano from bat Eptesicus serotinus from Slovenia"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "available from May 2018",
+        "Bat",
+        "Category B",
+        "UN3373",
+        "Guano from bat Eptesicus serotinus from Slovenia",
+        "Human virus",
+        "LLC-MK2 cells",
+        "mammalian orthoreovirus",
+        "Mammalian orthoreovirus 3",
+        "MG457078 - MG457087",
+        "MRV",
+        "RG2",
+        "Slovenia",
+        "Dry ice",
+        "Mammalian orthoreovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2015-02-28",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MG457078 - MG457087, available from May 2018"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Mammalian orthoreovirus 3"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Mammalian orthoreovirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "SI-MRV02",
+        "EVORAO:serotype": "MRV 3",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02717",
+      "search:title": "Mammalian orthoreovirus (MRV); isolate SI-MRV02 ",
+      "search:description": "Infectious cell culture supernatant. Mammalian orthoreovirus (MRV); isolate SI-MRV02 is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been fully sequenced.",
+      "search:taxonLabel": "Mammalian orthoreovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Guano from bat Eptesicus serotinus from Slovenia",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:accessionNumber": "MG457078 - MG457087, available from May 2018",
+      "search:providerName": "UL",
+      "search:pathogenName": "Mammalian orthoreovirus 3"
     }
   ]
 }
