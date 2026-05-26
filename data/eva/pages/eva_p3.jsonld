@@ -22,148 +22,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "IZSLER"
       },
-      "EVORAO:refSku": "026V-05264",
-      "@id": "urn:evorao:EVA:IZSLER:026V-05264",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/murine-norovirus-animal-2015-italy",
-      "dcterms:issued": "2023-06-29T11:17:32+02:00",
-      "dcterms:modified": "2023-10-09T11:00:11+02:00",
-      "dcterms:title": "Murine Norovirus, Animal, 2015, Italy",
-      "dcterms:description": "Virus propagated on mouse monocyte macrophage, BS TCL 177",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2015-11-02",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50/ml",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "11 x RAW 264.7",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": [
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "Mouse monocyte macrophage"
-        },
-        {
-          "@type": "EVORAO:ProductionCellLine",
-          "dcterms:title": "BS TCL 177"
-        }
-      ],
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1x10^3.5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:isolationConditions": "confluent cell culture",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Mouse"
-      },
-      "EVORAO:isolationTechnique": "Propagation on RAW 264.7 (Mouse monocyte macrophage, BS TCL 177)",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "Animal virus",
-        "BS TCL 177",
-        "Caliciviridae",
-        "Category B",
-        "UN3373",
-        "Italy",
-        "MNV",
-        "Mouse",
-        "mouse",
-        "Mouse monocyte macrophage",
-        "Murine Norovirus",
-        "Norovirus",
-        "RG2",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2015-11-02",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 026V-05264 | MNV\nCGCCATCTTCTGCGCCCTCTGTGCGCAACACAGAGAAACGCAAAAACAAGAAGGCTTCGTCTAAAGCTAGTGTCTCCTTT\nGGAGCACCTAGCCCCCTCTCTTCGGAGAGCGAAGACGAAAYTAATTACATGACCCCTCCTGAGCAGGAAGCTCAGCCCGG\nCGCCCTTGCGGCCCTTCATGCGGAAGGGCCGCTTGCCGGGCTCCCCGTGACGCGTAGTGATGCACGCGTGCTGATCTTCA\nATGAGTGGGAGGAGAGGAAGAAGTCTGATCCGTGGCTACGGCTGGACATGTCTGATAAGGCTATCTTCCGCCGTTACCCC\nCATCTGCGGCCTAAGGAGGATAGGCCTGACGCGCCCTCCCATGCGGAGGACGCTATGGATGCCAAGGAGCCTGTGATCGG\nCTCTATCTTGGAGCAGGATGATCACAAGTTTTACCATTACTCTGTCTACATCGGTGGCGGCCTTGTGATGGGGGTCAACA\nACCCCAGTGCTGCGGTCTGCCAGGCAACGATTGATGTGGAGAAGCTACACCTCTGGTGGCGGCCTGTCTGGGAGCCCCGC\nCATCCCCTTGACTCGGCTGAGTTGAGGAAGTGCGTGGGCATGACTGTCCCCTACGTGGCCACCACCGTCAACTGTTATCA\nGGTCTGCTGCTGGATTGTTGGCATCAAGGACACCTGGCTGAAGAGGGCGAAGATCTCTAGAGATCTGCCCTTCTACAGCC\nCCGTCCAGGACTGGAACGTCGACCCCCAGGAGCCCTTCATTCCATCCAAGCTCAGGATGGTCTCGGATGGCATCCTGGTG\nGCCTTGTCGGCAGTGATTGGCCGGCCAATTAAGAACCTACTGGCCTCAGTTAAGCCGCTCAACATTCTCAACATCGTGCT\nGAGCTGTGATTGGACCTTTTCGGGCATTGTCAATGCCCTGATCTTGCTTGCTGAGCTCTTTGACATCTTTTGGACCCCCC\nCTGATGTGACCAACTGGATGATCTCTATCTTCGGGGAATGGCAGGCCGAAGGGCCCTTCGACCTTGCTCTTGACGTGGTG\nCCCACCCTGTTGGGCGGGATCGGGATGGCTTTTGGCCTCACCTCTGAGACCATCGGGCGCAAGCTCGCTTCCACCAACTC\nGGCTCTCAAGGCCGCCCAAGAGATGGGCAAGTTCGCCATGGAGGTCTTCAAGCAAATTATGGCCTGGATCTGGCCCTCTG\nAGGACCCAGTGCCAGCCCTCTTATCCAACATGGAGCAGGCCATCATTAAGAATGAGTGTCAACTGGAGAACCAACTCACG\nGCCATGTTGCGGGATCGCAACGCAGGGGCTGAATTCCTAAGGTCCCTTGATGAGGAGGAGCAGGAAGTCCGCAAGATCGC\nAGCTAAGTGCGGCAACTCGGCCACCACTGGAACCACCAACGCTCTGCTGGCCAGGATCAGCATGGCCCGCGCGGCCTTTG\nAGAAAGCTCGCGCTGAACAGACCTCCCGAGTCCGCCCTGTGGTGATCATGGTCTCAGGCAGGCCCGGGATCGGGAAAACC\nTGCTTTTGCCAAAACCTGGCCAAGAGGATTGCTGCGTCCCTGGGTGATGAGACCTCTGTTGGCATCATACCACGCGCTGA\nTGTCGACCACTGGGATGCTTACAAGGGAGCCAGAGTGGTTCTCTGGGATGATTTCGGCATGGACAACGTGGTGAAGGATG\nCACTGAGGCTTCAGATGCTTGCCGACACGTGCCCAGTGACACTCAATTGTGACAGGATTGAGAACAAGGGAAAGATGTTT\nGACTCTCAGGTCATTATCATCACCACAAATCAACAAACCCCCGTGCCCCTGGACTATGTCAACCTGGAGGCGGTCTGCCG\nCCGCATAGATTTCCTGGTTTATGCTGAGAGCCCTGTTGTTGATGATGCTCGGGCCAGAGCCCCTGGCGATGTGAATGCAG\nTGAAAGCTGCCATGAGGCCCGATTACAGCCACATCAATTTCATCTTGGCACCGCAGGGCGGCTTTGACCGTCAGGGAAAC\nACCCCCTACGGTAAGGGCGTCACCAAGATCATTGGCGCCACTGCTCTTTGCGCGAGAGCGGTTGCTCTTGTCCATGAGCG\nCCATGATGATTTCGGCCTCCAGAACAAGGTCTATGACTTTGATGCCGGCAAGATCACCGCCTTCAAAGCCATGGCGGCTG\nACGCCGGCATTCCATGGTACAAAATGGCAGCTATTGGGTGCAAAGCAATGGGGTGCACCTGTGTAGAGGAGGCCATGCAT\nTTACTTAAGGATTATGAGGTGGCTCCCTGTCAGGTGATCTACAATGGTGCCACCTATAATGTGAGCTGCATCAAGGGTGC\nCCCAATGGTTGAAAAGGTCAAGGAGCCTGAATTGCCCAAAACACTTGTCAACTGTGTCAGAAGGATAAAGGAGGCCCGCC\nTCCGCTGCTACTGTAGGATGGCTGCTGACGTCATCACGTCCATTCTGCAGGCGGCCGGCACGGCCTTCTCTATTTACCAC\nCAGATTGAGAAGAGGTCTAGACCATCCTTTTATTGGGATCGTGGATACACCTACCGTGACGGACCTGGATCCTTTGACAT\nCTTTGAGGATGACGATGATGGGTGGTACCACTCTGAGGGAAAGAAGGGCAAGAACAAGAAGGGCCGGGGGCGACCCGGAG\nTCTTCAGAACCCGTGGGCTCACGGATGAGGAGTACGATGAATTCAAGAAGCGCCGCGAGTCTAGGGGCGGCAAGTACTCC\nATTGATGATTACCTCGCTGACCGCGAGCGAGAAGAAGAACTCCTGGAGCGGGACGAGGAGGAGGCTATCTTCGGGGATGG\nCTTCGGGTTGAAGGCCACCCGCCGTTCCCGCAAGGCAGAGAGAGCCAAACTGGGCCTGGTTTCTGGTGGCGACATCCGCG\nCCCGCAAGCCGATCGACTGGAATGTGGTTGGCCCCTCCTGGGCTGACGATGACCGCCAGGTCGACTACGGCGAGAAGATC\nAACTTTGAGGCCCCAGTCTCCATCTGGTCCCGTGTTGTGCAGTTCGGCACGGGGTGGGGCTTTTGGGTGAGCGGCCACGT\nCTTCATCACCGCCAAGCATGTGGCGCCCCCCAAGGGCACGGAGATCTTTGGGCGCAAGCCCGGGGACTTCACTGTCACTT\nCCAGCGGGGACTTCTTGAAGTACTACTTCACCAGCGCCGTCAGGCCTGACATTCCCGCCATGGTCCTGGAGAATGGGTGC\nCAGGAGGGCGTCGTCGCCTCGGTCCTTGTCAAGAGAGCCTCCGGCGAGATGCTTGCCCTGGCTGTCAGGATGGGTTCACA\nGGCCGCCATCAAGATTGGTAGTGCCGTTGTGCATGGGCAAACTGGCATGCTCCTGACTGGCTCTAATGCCAAGGCCCAGG\nACCTCGGGACCATCCCGGGCGACTGTGGCTGTCCCTATGTTTATAAGAAGGGTAACACCTGGGTTGTGATTGGGGTGCAC\nGTGGCGGCCACTAGGTCTGGTAACACAGTCATTGCCGCCACTCACGGAGAACCCACACTTGAGGCTCTGGAGTTCCAGGG\nACCCCCCATGCTTCCCCGCCCCTCAGGCACCTATGCAGGCCTCCCCATCGCCGATTACGGCGACGCTCCCCCCTTGAGCA\nCCAAGACCATGTTCTGGCGTACCTCGCCAGAGAAGCTTCCCCCTGGGGCTTGGGAGCCAGCCTATCTCGGCTCTAAAGAT\nGAGAGGGTGGACGGTCCTTCCCTTCAGCAGGTCATGCGAGATCAGCTTAAGCCCTATTCAGAACCACGCGGTCTGCTTCC\nCCCTCAAGAAATCCTTGATGCAGTCTGCGACGCCATTGAGAACCGCCTTGAGAACACCCTTGAACCACAGAAGCCCTGGA\nCATTTAAGAAGGCTTGTGAGAGCTTGGACAAGAACACCAGTAGTGGGTATCCCTATCACAAGCAGAAGAGCAAGGACTGG\nACGGGGAGCGCTTTTATTGGCGATCTTGGTGACCAGGCCACCCACGCCAACAACATGTATGAGATGGGTAAATCCATGCG\nACCCATTTATACAGCTGCCCTCAAGGATGAACTGGTTAAGCCAGACAAGATCTACGGGAAGATAAAGAAGAGGCTTCTCT\nGGGGCTCTGACCTTGGCACCATGATTCGCGCTGCCCGTGCTTTTGGCCCTTTCTGTGATGCTCTGAAAGAAACCTGCATT\nTTCAACCCCATCAGAGTGGGCATGTCGATGAACGAAGATGGCCCCTTCATCTTCGCAAGACACGCCAATTTCAGGTACCA\nCATGGATGCTGACTATACCAGGTGGGACTCCACCCAACAGAGAGCCATCCTAAAGCGCGCTGGCGACATCATGGTGCGCC\nTCTCCCCTGAGCCAGACTTGGCTCGGGTTGTCATGGATGATCTCCTGGCCCCCTCGCTGTTGGACGTCGGCGACTATAAG\nATCGTTGTCGAGGAGGGGCTCCCATCCGGCTGCCCTTGCACCACACAGCTGAATAGTTTGGCTCACTGGATTTTGACCCT\nTTGTGCAATGGTTGAGGTAACCCGAGTTGACCCTGACATTGTGATGCAAGAATCTGAGTTCTCCTTCTATGGTGATGACG\nAGGTGGTTTCGACCAACCTCGAGTTGGATATGGTTAAGTACACCATGGCTTTGAGGCGGTACGGTCTCCTCCCGACTCGC\nGCGGACAAGGAGGAGGGACCTCTGGAGCGTCGCCAGACGCTGCAGGGCATCTCCTTCCTGCGCCGTGCGATAGTTGGTGA\nCCAGTTTGGGTGGTACGGTCGTCTTGATCGTGCCAGCATCGACCGCCAGCTCCTCTGGACTAAAGGACCTAACCACCAGA\nACCCCTTTGAGACTCTCCCTGGACATGCTCAGAGACCCTCCCAACTAATGGCCCTGCTCGGTGAGGCTGCCATGCATGGT\nGAAAAGTATTACAGGACTGTGGCTTCCCGTGTCTCCAAGGAGGCCGCCCAAAGTGGGATAGAAATGGTAGTCCCACGCCA\nCCGATCTGTTCTGCGCTGGGTGCGCTTTGGAACAATGGATGCTGAGACCCCGCAGGAACGCTCAGCAGTCTTTGTGAATG\nAGGATGAGTGATGGCGCAGCGCCAAAAGCCAATGGCTCTGAGGCCAGCGGCCAGGATCTTGTTCCTGCCGCCGTTGAACA\nGGCCGTCCCCATTCAACCCGTGGCTGGCGCGGCTCTTGCCGCCCCCGCCGCCGGGCAAATTAACCAAATTGACCCCTGGA\nTCTTCCAAAATTTTGTCCAGTGCCCCCTTGGTGAGTTTTCCATCTCGCCTCGAAACACCCCAGGTGAAATACTGTTTGAT\nTTGGCCCTCGGGCCAGGGCTTAACCCCTACCTTGCCCACCTCTCAGCCATGTACACCGGCTGGGTTGGGAACATGGAGGT\nTCAGCTGGTCCTCGCCGGCAATGCCTTTACTGCTGGCAAGGTGGTTGTTGCCCTTGTACCACCCTATTTTCCCAAGGGGT\nCACTCACTACTGCCCAGATCACATGCTTCCCACATGTCATGTGTGATGTGCGCACCCTGGAGCCCATTCAACTCCCTCTT\nCTTGATGTGCGTCGAGTCCTTTGGCATGCTACCCAGGATCAAGAGGAATCTATGCGCCTGGTTTGCATGCTGTACACGCC\nACTCCGCACAAACAGCCCGGGTGATGAGTCTTTTGTGGTCTCTGGCCGCCTTCTTTCTAAGCCGGCGGCTGATTTCAATT\nTTGTCTACCTAACTCCCCCCATAGAGAGAACCATCTACCGGATGGTCGACTTGCCCGTGATACAGCCGCGGCTGTGCACG\nCACGCACGTTGGCCTGCCCCGGTCTATGGTCTCTTGGTGGACCCATCCCTCCCCTCAAATCCCCAGTGGCAGAATGGAAG\nGGTGCACGTTGATGGGACCCTGCTTGGTACCACCCCAATCTCCGGTTCATGGGTGTCCTGCTTTGCGGCGGAGGCTGCCT\nATGAGTTCCAATCGGGCACCGGTGAGGTGGCGACATTCACCCTGATTGAGCAGGATGGATCTGCCTACGTCCCCGGTGAC\nAGGGCAGCACCACTCGGTTACCCCGATTTCTCTGGGCAACTGGAGATCGAGGTCCAGACCGAGACCACCAAGACTGGAGA\nCAAGCTCAAGGTCACCACTTTTGAGATGATTCTTGGCCCAACGACCAACGCGGACCAGGCCCCCTACCAGGGCAGGGTGT\nTCGCCAGCGTCACTGCTGCGGCCTCTCTTGACTTGGTGGATGGCAGGGTTCGTGCGGTCCCAAGATCCATCTACGGTTTT\nCAGGACACCATCCCTGAATACAACGATGGGCTACTGGTTCCCCTTGCCCCCCCAATTGGTCCCTTTCTCCCCGGCGAGGT\nCCTCCTGAGGTTCCGGACCTACATGCGTCAGATCGACACCGCTGACGCCGCAGCAGAGGCGATAGACTGTGCACTCCCCC\nAGGAGTTTGTCTCCTGGTTCGCGTCTAACGCGTTCACCGTGCAGTCCGAGGCCCTGCTCCTTAGATACAGGAACACCCTG\nACTGGGCAACTGCTGTTCGAGTGCAAGCTCTACAACGAAGGTTACATCGCCTTGTCTTATTCCGGCTCAGGACCCCTCAC\nCTTCCCGACCGATGGCATCTTTGAGGTCGTCAGTTGGGTTCCTCGCCTTTACCAATTGGCCTCTGTGGGAAGTTTGGCAA\nCAGGCCGAATGCTCAAACAATAATGGCTGGTGCTCTTTTTGGAGCGATTGGAGGTGGCCTGATGGGCATAATTGGCAATT\nCCATCTCAAATGTTCAAAACCTTCAGGCAAATAAACAATTGGCAGCTCAGCAATTTGGTTATAATTCTTCCCTGCTTGCA\nACGCAAATTCAAGCCCAGAAGGATCTCACTCTGATGGGGCAGCAATTCAACCAGCAGCTCCAAACCAACTCTTTCAAGCA\nCGACTTGGAAATGCTTGGCGCTCAGGTGCAAGCCCAGGCGCAGGCCCAGGAGAACGCCATCAATATCAAAACGGCGCAGC\nTCCAGGCCGCAGGCTTTTCAAAGACGGATGCCGCACGCCTTGCCTTGGGGCAGCAGCCCACGAGGGCCGTGGATTGGTCT\nGGGACGCGGTACTACACCGCTAACCAGCCAGTCACGGGCTTCTCGGGTGGCTTTACCCCAACCTACACTCCAGGTAGGCA\nAGTGACATCCCGCCCTGTGGACACATCCCCTCTACCGATCTCGGGTGGACGCTTGCCCTCCCTTCGTGGAGGTTCCTGGT\nCCCCGCGCGACCATACGCCGGCGACTCAAGGCACCTACACGAACGGACGGTTCGTGTCTCTCCCTAAGATCGGGAGCAGC\nAGGGCATAGGTTGGAAGAGAAACCTTTTGTGAAAATGATTTCTGCTTACTGCTTTCTTTTCTTTGTGGTAGTTAGATGCA\nTTT"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Murine Norovirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Norovirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-05264",
-      "search:title": "Murine Norovirus, Animal, 2015, Italy",
-      "search:description": "Virus propagated on mouse monocyte macrophage, BS TCL 177",
-      "search:taxonLabel": "Norovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Mouse",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:providerName": "IZSLER",
-      "search:pathogenName": "Murine Norovirus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
       "EVORAO:refSku": "026V-05297",
       "@id": "urn:evorao:EVA:IZSLER:026V-05297",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/canine-parvovirus-animal-2005-italy-canine-parvovirus-17-80-iss",
@@ -142676,6 +142534,149 @@
       "search:accessionNumber": "MG457078 - MG457087, available from May 2018",
       "search:providerName": "UL",
       "search:pathogenName": "Mammalian orthoreovirus 3"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007V-02765",
+      "@id": "urn:evorao:EVA:UL:007V-02765",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-mastadenovirus-c-type-1-1",
+      "dcterms:issued": "2018-03-15T11:01:32+01:00",
+      "dcterms:modified": "2021-06-03T15:15:09+02:00",
+      "dcterms:title": "Human Mastadenovirus C, Type 1",
+      "dcterms:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "EVORAO:unitDefinition": "1000 ul",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2012-01-13",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
+      "EVORAO:passage": "1st passage",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "A549"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": [
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "Patient"
+        },
+        {
+          "@type": "EVORAO:IsolationHost",
+          "dcterms:title": "throat swab"
+        }
+      ],
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Slovenia"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "A549",
+        "Adenovirusm Human mastadenovirus",
+        "AdV",
+        "AdV1",
+        "Category B",
+        "UN3373",
+        "Human adenovirus 1",
+        "Human virus",
+        "Patient",
+        "RG2",
+        "Slovenia",
+        "throat swab",
+        "Dry ice",
+        "Human mastadenovirus C"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2012-01-13",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "AAACATAAAGAAGGGTGGGCTCGTCCATGGGATCCACCTCAAAAGTCATATCTAGCGCGT\nGGGCGGAGTTTGCATAGAGAAGGTTTTGGCCCAGGTCTGTGAGTGCACCCATGGACATAA\nAGTTACTGGAGAATGGAATGCGCCAAAGGGTGCGGTCGCAAAGAAACTTTTTCTGGGTAA\nTACTGTCAACCGCGGTCTTGCCTATAAGCGGGTAGGGGAAGTTGGCGGGGTAGGCCTGTC\nCCTCTCGCATGGTGGGAGCGAGGTAACCAACAAAGCCAGAGTTATTGTGCTGGTGGAGGA\nTGCCCACCTGTTGGTAGTCCTTGTATTTGGTATCGTCCACCACCTGACGGCTCATGGGCT\nGGAAGTTTCTAAAGAAGGAGTACATGCGGTCCTTATAGCTTTCTGGGATATAAAAGCCCT\nGGTAGCCTATGTTGTAGTTGGCTAGCATTTGTACCAAGAACCAGTCTTTGGTCATGTTGC\nATTGGGCAACGTTGTAGCCCTCTCCGTCAACTGAACGCTTGATCTCAAACTCGTTGGGGG\nTAAGCAGACGGTCATTGCCAGGCCAGCTAACAGAAGAGTCAAAGGTGATGGCCACCTTTT\nTGAAGGTGTGATTAAGGTAAAAGGTTCCGTCTAGGTAGGGTATGGAGCCAGAGTAGGTAT\nAGTAAGGGTCGTAGCCGGAACCCAGGGATGGGGTTTCCTTAGTCTTAAGGCGCGTAAAGG\nCCCAGCCTCGGAAAGCCGCCCAGTTGCGCGAGGGGATAGAGATGGGCACGTTGGTGGCGT\nTG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Human adenovirus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Human mastadenovirus C"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Isolate 5116/2011",
+        "EVORAO:serotype": "Type 1",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007V-02765",
+      "search:title": "Human Mastadenovirus C, Type 1",
+      "search:description": "Infectious cell culture supernatant. This Human Mastadenovirus C, Type 1 (isolate 5116/11) is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were positive.To confirm its identity the virus has been partially sequenced.",
+      "search:taxonLabel": "Human mastadenovirus C",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Patient, throat swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "Human adenovirus 1"
     }
   ]
 }
