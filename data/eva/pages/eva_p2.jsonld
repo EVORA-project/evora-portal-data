@@ -22,6 +22,579 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-05491",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05491",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-s-pvs-isolate-dsmz-pv-0758",
+      "dcterms:issued": "2024-01-02T15:42:45+01:00",
+      "dcterms:modified": "2026-02-26T14:40:16+01:00",
+      "dcterms:title": "Potato virus S (PVS) isolate DSMZ PV-0758",
+      "dcterms:description": "Infectious Potato virus S (PVS) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 220,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2000-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Chile"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "Required for customers in the EU",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "D.-E. Lesemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chenopodium quinoa"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MW051778",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Chenopodium quinoa",
+        "Chile",
+        "D.-E. Lesemann",
+        "Mechanical inoculation",
+        "MW051778",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "Potato virus S",
+        "RG1",
+        "Solanum tuberosum"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2000-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MW051778"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus S"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus S"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "Chile 31",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05491",
+      "search:title": "Potato virus S (PVS) isolate DSMZ PV-0758",
+      "search:description": "Infectious Potato virus S (PVS) isolate",
+      "search:taxonLabel": "Potato virus S",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Chile",
+      "search:accessionNumber": "MW051778",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "D.-E. Lesemann",
+      "search:pathogenName": "Potato virus S"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-05492",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05492",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-v-pvv-isolate-dsmz-pv-0318",
+      "dcterms:issued": "2024-01-02T16:02:40+01:00",
+      "dcterms:modified": "2026-02-26T14:39:43+01:00",
+      "dcterms:title": "Potato virus V (PVV) isolate DSMZ PV-0318",
+      "dcterms:description": "Infectious Potato virus V (PVV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 220,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1990-09-20",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.-L. Weidemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OQ731901",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Solanum tuberosum"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Germany",
+        "H.-L. Weidemann",
+        "Mechanical inoculation",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "OQ731901",
+        "Plant virus",
+        "Potato virus V",
+        "RG1",
+        "Solanum tuberosum"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1990-09-20",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OQ731901"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus V"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus V"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05492",
+      "search:title": "Potato virus V (PVV) isolate DSMZ PV-0318",
+      "search:description": "Infectious Potato virus V (PVV) isolate",
+      "search:taxonLabel": "Potato virus V",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Solanum tuberosum",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "OQ731901",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.-L. Weidemann",
+      "search:pathogenName": "Potato virus V"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-05493",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05493",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/apple-chlorotic-leaf-spot-virus-aclsv-isolate-dsmz-pv-1000",
+      "dcterms:issued": "2024-01-02T16:06:21+01:00",
+      "dcterms:modified": "2026-02-26T14:39:14+01:00",
+      "dcterms:title": "Apple chlorotic leaf spot virus (ACLSV) isolate DSMZ PV-1000",
+      "dcterms:description": "Infectious Apple chlorotic leaf spot virus (ACLSV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 220,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-05-03",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "W. Menzel"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Chenopodium quinoa"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OQ731902",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Malus sylvestris"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Apple chlorotic leaf spot virus",
+        "Chenopodium quinoa",
+        "Germany",
+        "Malus sylvestris",
+        "NON DANGEROUS GOODS",
+        "OQ731902",
+        "Plant virus",
+        "RG1",
+        "W. Menzel"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-05-03",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OQ731902"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Apple chlorotic leaf spot virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Apple chlorotic leaf spot virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05493",
+      "search:title": "Apple chlorotic leaf spot virus (ACLSV) isolate DSMZ PV-1000",
+      "search:description": "Infectious Apple chlorotic leaf spot virus (ACLSV) isolate",
+      "search:taxonLabel": "Apple chlorotic leaf spot virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Malus sylvestris",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "OQ731902",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "W. Menzel",
+      "search:pathogenName": "Apple chlorotic leaf spot virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027V-05494",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05494",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/celery-mosaic-virus-cemv-isolate-dsmz-pv-1003",
+      "dcterms:issued": "2024-01-02T16:08:49+01:00",
+      "dcterms:modified": "2026-02-26T14:38:41+01:00",
+      "dcterms:title": "Celery mosaic virus (CeMV) isolate DSMZ PV-1003",
+      "dcterms:description": "Infectious Celery mosaic virus (CeMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 220,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2010-08-23",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.-J.Vetten"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Apium graveolens"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "OQ731903",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Apium graveolens"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Apium graveolens",
+        "Celery mosaic virus",
+        "Germany",
+        "H.-J.Vetten",
+        "NON DANGEROUS GOODS",
+        "OQ731903",
+        "Plant virus",
+        "RG1"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2010-08-23",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OQ731903"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Celery mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Celery mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "QLB",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05494",
+      "search:title": "Celery mosaic virus (CeMV) isolate DSMZ PV-1003",
+      "search:description": "Infectious Celery mosaic virus (CeMV) isolate",
+      "search:taxonLabel": "Celery mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Apium graveolens",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "OQ731903",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.-J.Vetten",
+      "search:pathogenName": "Celery mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-05495",
       "@id": "urn:evorao:EVA:DSMZ:027V-05495",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/carrot-thin-leaf-virus-ctlv-isolate-dsmz-pv-1014",
@@ -20241,163 +20814,6 @@
       "search:accessionNumber": "KP271122.1",
       "search:providerName": "CSIRO",
       "search:pathogenName": "Cedar virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "HPI"
-      },
-      "EVORAO:refSku": "019V-06281",
-      "@id": "urn:evorao:EVA:HPI:019V-06281",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/human-influenza-b-victoria-virus-bathensgr110122025",
-      "dcterms:issued": "2026-01-12T10:01:07+01:00",
-      "dcterms:modified": "2026-02-17T16:11:39+01:00",
-      "dcterms:title": "Human Influenza B victoria virus, B/Athens.GR/11012/2025",
-      "dcterms:description": "Human Influenza B victoria virus isolated in 2024/2025 season in Greece. The viral isolate can be shipped in dry ice or freeze dried. Infectious cell culture supernatant preserved in Viral Storage Medium -80°C. To confirm its identity the hemagglutinin and neuraminidase genes have been sequenced by sanger sequencing method and confirmed by WGS.",
-      "EVORAO:unitDefinition": "500 ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 800,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2025-02-11",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Greece"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "sanger sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "NIRLSG"
-      },
-      "EVORAO:passage": "1st passage",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "MDCK"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "+ 4°C and dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "HA titer 1:256",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "HPI"
-      },
-      "EVORAO:isolationHost": [
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "throat swab"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "human (female"
-        },
-        {
-          "@type": "EVORAO:IsolationHost",
-          "dcterms:title": "53 years old)"
-        }
-      ],
-      "EVORAO:isolationTechnique": "MDCK cell culture",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Greece"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "HPI",
-        "53 years old)",
-        "Athens",
-        "Category B",
-        "UN3373",
-        "Greece",
-        "human (female",
-        "Human virus",
-        "Influenza",
-        "Influenza B",
-        "Influenza B virus",
-        "MDCK",
-        "NIRLSG",
-        "RG2",
-        "throat swab",
-        "Victoria",
-        "+ 4°C and dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2025-02-11",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_PB2\nATGACATTAGCCAAAATTGAATTGTTAAAACAACTGCTAAGGGACAATGAGGCCAAAACAGTTTTGAAGCAAACAACAGT\nAGACCAATATAACATAATAAGAAAATTCAATACATCAAGGATTGAAAAGAATCCTTCACTAAGGATGAAGTGGGCCATGT\nGTTCTAACTTCCCCTTGGCTCTAACCAAGGGCGATATGGCAAACAGAATCCCCTTGGAATACAAAGGGATACAACTCAAA\nACAAATGCTGAAGACATAGGAACCAAAGGCCAAATGTGCTCAATAGCAGCAGTTACATGGTGGAATACATATGGACCAAT\nAGGAGACACTGAAGGTTTTGAAAGGGTCTACGAAAGCTTTTTTCTCAGAAAAATGAGACTTGACAACGCCACTTGGGGCC\nGGATAACTTTTGGCCCAGTTGAAAGAGTGAGAAAAAGAGTACTACTAAACCCTCTCACCAAGGAAATGCCTCCGGATGAG\nGCGAGCAATGTGATAATGGAAATATTATTTCCTAAAGAAGCAGGAATACCAAGAGAATCCACTTGGATACATAGGGAACT\nGATAAAAGAAAAGAGAGAAAAATTGAAAGGGACAATGATAACTCCAATCGTACTGGCATACATGCTTGAAAGAGAACTGG\nTTGCTCGAAGAAGATTCTTGCCAGTGGCAGGAGCAACATCAGCTGAGTTCATAGAAATGCTGCACTGCTTACAAGGTGAA\nAATTGGAGACAAATATATCACCCAGGAGGGAATAAATTAACTGAGTCCAGGTCTCAATCAATGATAGTAGCTTGTAGGAA\nAATAATCAGAAGATCAATAGTCGCTTCAAACNNACTGGAGCTAGCTGTAGAAATTGCAAACAAGACTGTGATAGATACTG\nANNNTTTAAAGTCATGTCTGNNAGNNATAGACGGAGGTGATGTAGCTTGTGACATAATAAGAGNNGCATTAGGANNAAAG\nATNNNACAAANNNAAAGATTTGGACGGCTTGAGCTAAAAAGAATATCAGGAAGAGGATTCAAAAATGATGAAGAAATATT\nAATAGGGAACGGGACAATACAGANGATTGGAATATGGGATGGGGAAGAGGAGTTCCACGTAAGATGTGGTGAATGCAGGG\nGANTATTAAAAAAGAGTAAAATGAAACTGGAAAAATTACTAATAAATTCAGCCAAAAAGGAGGATATGAGAGATTTAATA\nATCTTATGCATGGTATTTTCTCAAGACACTAGGATGTTCCAAGGAGTGAGAGGAGAAATAAATTTTCTTAATCGAGCAGG\nCCAACTTTTATCTCCAATGTACCAACTCCAACGATATTTTTTGAATAGAAGCAACGACCTTTTTGACCAATGGGGGTATG\nAGGAATCACCCAAAGCAAGTGAACTACATGGGATAAATGAATCAATGAATGCATCTGACTATACATTGAAAGGGATTGTA\nGTGACAAGAAATGTAATTGACGACTTTAGCTCTACTGAAACAGAGAAAGTATCCATAACAAAAAATCTTAGCTTAATAAA\nAAGGACTGGAGAAGTCATAATGGGAGCTAATGACGTGAGTGAGTTAGAATCACAAGCACAGCTGATGATAACATATGATA\nCACCTAAAATGTGGGAAATGGGAACAACCAAAGAACTGGTGCAAAACACTTATCAATGGGTGCTAAAAAACTTGGTGACA\nCTGAAGGCTCAGTTCCTTCTAGGAAAAGAGGACATGTTCCAATGGGATGCATTTGAAGCATTTGAGAGCATAATTCCTCA\nAAAAATGGCTGGTCAGTACAGTGGATTTGCAAGAGCAGTGCTCAAACAAATGAGAGACCAGGAGGTTATGAAAACTGATC\nAGTTCATAAAGCTGCTGCCTTTTTGTTTCTCACCACCAAAATTAAGAAGCAATGGGGAGCCTTATCAATTCTTAAAACTT\nGTATTGAAAGGAGGAGGGGAAAATTTCATCGAAGTAAGGAAAGGGTCTCCTCTATTTTCCTATAACCCACAAACAGAAGT\nCTTAACTATATGCGGCAGAATGATGTCATTAAAAGGGAAAATTGAAGATGAAGAAAGGAATAGATCAATGGGGAATGCAG\nTATTAGCAGGCTTTCTCGTTAGTGGCAAGTATGACCCGGATCTTGGAGATTTCAAAACTATTGAAGAACTTGAAAAGCTG\nAAACCAGGGGAAAAGGCAAACATCTTGCTTTATCAAGGAAAACCAGTTAAAGTAGTGAAAAGGAAAAGATATAGTGCTTT\nGTCCAATGACATTTCACAAGGAATTAAAAGACAAAGAATGACAGTTGAGTCCATGGGGTGGGCCTTGAGCTAATATAAAT\nTTATCTATTAATTCAATGAACGCAATTGAGTGAAAAAT\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_PB1\nATGAATATAAATCCTTATTTTCTCTTCATAGATGTGCCCGTACAGGCAGCAATTTCAACAACATTCCCATACACTGGTGT\nTCCCCCTTATTCTCATGGAACAGGAACAGGTTACACAATAGACACCGTGATCAGAACGCATGAGTACTCAAACAAGGGGA\nAACAGTACATTTCTGATGTTACAGGATGCACAATAGTGGATCCAACAAATGGACCATTACCCGAAGATAATGAGCCGAGT\nGCCTATGCGCAATTAGATTGCGTTTTAGAGGCTTTGGATAGAATGGATGAAGAACACCCAGGTCTTTTTCAAGCAGCCTC\nACAGAATGCTATGGAGGCCCTAATGGTCACAACTGTGGACAAATTAACCCAGGGGAGACAAACTTTTGATTGGACAGTAT\nGCAGAAACCAACCTGCTGCAACGGCACTGAATACAACAATAACCTCTTTTAGGTTGAATGATTTAAATGGAGCCGACAAA\nGGTGGATTAATACCTTTTTGCCAGGATATCATTGATTCACTAGACAGACCTGAAATGACTTTCTTCTCAGTAAAGAATAT\nAAAGAAAAAATTGCCTGCCAAAAACAGAAAGGGTTTCCTCATAAAGAGGATACCAATGAAGGTAAAAGACAAAATAACCA\nAAGTGGAATACATCAAAAGAGCATTATCATTAAACACAATGACAAAAGACGCTGAAAGAGGCAAACTGAAAAGAAGAGCG\nATTGCCACTGCTGGAATACAAATAAGAGGGTTTGTATTAGTAGTTGAAAACTTGGCTAAAAATATATGTGAAAATCTAGA\nACAAAGTGGTTTACCAGTAGGTGGGAACGAGAAGAAAGCCAAACTGTCAAATGCAGTGGCCAAAATGCTCAGTAACTGCC\nCACCAGGAGGGATTAGCATGACAGTAACAGGAGACAATACAAAATGGAATGAATGTTTAAACCCAAGGATCTTTTTGGCC\nATGACCGAAAGAATAACCAGAGACAGCCCAGTCTGGTTCAGGGATTTTTGTAGTATAGCACCGGTCCTGTTCTCCAATAA\nGATAGCAAGATTGGGGAAAGGATTTATGATAACAAGCAAAACAAAAAGACTAAAGGCCCAAATACCTTGTCCTGATCTGT\nTTAGTATACCATTAGAAAGATATAATGAAGAAACAAGGGCAAAATTGAAGAAACTAAAACCATTCTTCAATGAAGAAGGA\nACTGCATCTCTGTCACCTGGGATGATGATGGGAATGTTTAATATGCTATCTACCGTGTTGGGAGTAGCTGCACTAGGTAT\nCAAGAACATTGGAAACAAAGAATACCTATGGGATGGACTGCAATCTTCTGATGATTTTGCTCTATTTGTTAATGCAAAGG\nATGAAGAAACATGTATGGAAGGAATAAACGACTTTTACCGAACGTGTAAACTATTGGGAATAAACATGAGCAAAAAGAAA\nAGTTACTGTAATGAGACTGGAATGTTTGAATTTACAAGCATGTTCTACAGAGATGGATTTGTATCTAATTTTGCAATGGA\nACTCCCTTCGTTTGGGGTTGCTGGAGTAAATGAATCAGCAGATATGGCAATAGGAATGACAATAATAAAGAACAACATGA\nTCAACAATGGAATGGGTCCAGCAACAGCACAGACAGCCATACAGCTATTCATAGCTGATTATAGATACACCTACAAATGC\nCACAGGGGAGATTCCAAAGTAGAAGGAAAGAGAATGAAAATCATAAAGGAGTTATGGGAAAACACTAAAGGGAGAGATGG\nTCTATTAGTAGCAGATGGTGGGCCCAACATTTACAATTTGAGAAACTTGCATATCCCAGAAATAGTATTGAAGTATAATC\nTAATGGACCCTGAATACAAAGGGCGATTACTTCATCCTCAAAATCCCTTTGTGGGACATTTGTCTATTGAGGGCATCAAA\nGAGGCAGACATAACTCCAGCACATGGTCCAGTAAAGAAAATGGACTACGATGCAGTGTCTGGGACTCATAGTTGGAGAAC\nCAAAAGAAACAGATCTATACTAAACACTGATCAGAGAAACATGATTCTTGAGGAACAATGTTACGCTAAATGTTGCAACC\nTATTTGAGGCCTGTTTTAACAGTGCATCATACAGGAAGCCAGTGGGTCAACATAGCATGCTTGAGGCTATGGCCCACAGA\nTTAAGAATGGATGCACGATTAGATTATGAATCAGGGAGAATGTCAAAAGATGATTTTGAGAAAGCAATGGCTCATCTTGG\nTGAGATTGGGTACATATAAGCTTCGAAGATGTTTATGGGGTTATTGGTCATCATTGAATACATGCAATACACAAATGATT\nAAAATGAAAAAAG\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_PA\nATGGATACTTTTATTACAAGAAACTTCCAGACTACAATAATACAAAAGGCCAAAAACACAATGGCAGAATTTAGTGAAGA\nTCCTGAACTGCAACCAGCAATGCTATTCAACATCTGTGTCCATCTAGAGGTTTGCTATGTAATAAGTGACATGAATTTTC\nTTGACGAAGAAGGAAAAGCATATACAGCATTAGAAGGACAAGGGAAAGAACAAAACTTGAGACCACAATATGAAGTAATT\nGAGGGAATGCCAAGAACCATAGCATGGATGGTCCAGAGATCCTTAGCTCAAGAGCATGGAATAGAGACTCCCAAGTATCT\nGGCTGATTTGTTTGATTACAAAACCAAAAGATTTATAGAAGTTGGAATAACAAAGGGATTGGCTGATGATTACTTTTGGA\nAAAAGAAAGAAAAATTGGGAAACAGCATGGAACTGATGATATTCAGCTACAATCAAGACTACTCGTTAAGTAATGAATCC\nTCATTGGATGAGGAAGGGAAAGGGAGAGTGCTAAGCAGACTCACAGAACTTCAGGCTGAATTAAGTCTAAAAAATTTATG\nGCAAGTTCTCATAGGAGAAGAAGATGTTGAAAAGGGAATTGATTTTAAACTTGGACAGACAATATCTAGACTAAGGGATA\nTATCTGTTCCAGCCGGTTTCTCCAATTTTGAAGGAATGAGGAGCTACATAGACAATATAGACCCAAAAGGAGCAATAGAG\nAGAAATCTAGCAAGGATGTCTCCCTTAGTATCAGTCACACCTAAAAAGTTGACATGGGAGGACCTAAGACCAATAGGGCC\nTCACATTTACGATCATGAGCTACCAGAAGTTCCATACAATGCCTTTCTTCTAATGTCTGATGAACTAGGATTGGCCAATA\nTGACTGAGGGAAAGTCTAAAAAACCGAAGACATTAGCCAAAGAATGTCTAGAAAGATACTCAACACTACGGGATCAAACT\nGACCCAATATTAATAATGAAAAGCGAGAAAGCTAACGAAAATTTCTTATGGAAGCTTTGGAGAGACTGTGTAAATACAAT\nAAGTAATGAGGAAGCAAGTAACGAATTACAGAAAACTAATTATGCCAAATGGGCCACAGGGGATGGATTAACATACCAGA\nAAATAATGAAAGAAGTAGCAATAGATGACGAGACAATGTGCCAAGAAGAGCCTAAAATCCCTAACAAATGTAGAGTGGCT\nGCTTGGGTTCAAACAGAGATGAATCTATTGAGCACTCTGACAAGTAAAAGAGCTCTGGACCTACCAGAAATAGGGCCAGA\nCATAGCACCTGTAGAGCATGTAGGAAGTGAAAGAAGGAAATACTTTGTTAACGAAATCAACTACTGTAAGGCCTCTACCG\nTTATGATGAAGTATGTGCTTTTTCATACTTCATTGTTGAATGAAAGCAATGCCAGCATGGGAAAATACAAAGTAATACCA\nATAACCAACAGAGTAGTAAATGAAAAAGGAGAAAGTTTCGACATGCTTTACGGCTTGGCGGTTAAAGGACAATCTCATCT\nGAGGGGAGATACCGATGTTGTGACAGTTGTAACTTTTGAATTCAGTAGTACAGACCCCAGGGTGGACACAGGAAAGTGGC\nCAAAATATACTGTGTTTAGGATTGGCTCCCTATTTGTGAGTGGGAGGGAAAAATCTGTGTACTTGTATTGCAGAGTGAAT\nGGCACAAATAAGATCCAAATGAAATGGGGAATGGAAGCTAGAAGATGTTTGCTTCAATCAATGCAACAAATGGAGGCAAT\nTGTAGAACAGGAATCATCAATACAAGGATATGACATGACCAAAGCCTGTTTCAAGGGAGACAGAGTAAATAGCCCCAAAA\nCTTTTAGTATTGGAACTCAAGAAGGAAAACTAGTAAAAGGATCCTTTGGAAAAGCACTAAGAGTAATATTTACTAAATGC\nTTGATGCACTATGTATTTGGGAATGCCCAATTGGAGGGGTTTAGTGCTGAGTCTAGGAGACTTCTATTGTTGATTCAAGC\nATTAAAGGACAGAAAGGGTCCTTGGGTGTTCGACTTAGAGGGAATGTATTCTGGAATAGAAGAATGTATTAGCAACAACC\nCTTGGGTGATACAGAGTGTATACTGGTTCAATGAATGGTTGGGCGTTGAAAAGGAGGGGAGCAAAGTGTTGGAATCAGTG\nGATGAAGTAATGGATGAATAAGAGGAAATAGTACTCAATTTGGTACTATTTTGTTCATTATGTATCTAAACATCCAATAA\nAAGAAACAAGAATCAAAAAT\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_HA\nATGAAAGCAATAATTGTACTACTCATGGTAGTAACATCCAATGCAGATCGAATCTGCACTGGGATAACATCGTCAAACTC\nACCACATGTCGTCAAAACTGCTACTCAAGGGGAGGTCAATGTGACTGGTGTAATACCACTGACAACAACACCCATCAAAT\nCTCATTTTGCAAATCTCAAAGGAACAGAAACCAGGGGGAAACTATGCCCAAAATGCCTAAACTGCACAGATCTGGATGTA\nGCATTGGGCAGACCAAAATGCACAGGGAAAATACCCTCTGCAAGGGTTTCAATACTCCATGAAGTCAGACCTGTTACGTC\nTGGGTGCTTTCCTATAATGCATGATAGAACAAAAATTAGACAGCTGCCTAACCTTCTCCGAGGATACGAACATGTCAGGT\nTGTCAATTCACAACGTTATCAACACAGATAATGCGCCAGGAGGACCCTACGAAATTGGAACCTCAGGGTCTTGTCTCAAC\nATTACCAATGGAAAAGGATTCTTCGCAACAATGGCTTGGGCTGTCCCAAAAAACAAAACAGCAACAAATCCATTAACAAT\nAGAAGTACCATACATTTGTACAGAAGAAGAAGACCAAATTACCGTTTGGGGGTTCCACTCTGACGAAGAGGCCCAAATGG\nCAAGACTTTATGGGGATTCAAAGCCCCAGAAGTTCACCTCATCTGCCAACGGAGTGACCACACACTACGTCTCACAGATT\nGGTGGCTTCCCAAATCAAACAGAAGACGGAGGACTACCACAAAGTGGCAGAATTGTTGTTGATTACATGGTGCAAAAATC\nTGGAAAAACAGGAACAATTACCTATCAAAGAGGTATTTTATTGCCTCAAAAGGTGTGGTGCGCAAGTGGCAAGAGCAAGG\nTAATAAAAGGATCCTTGCCCTTAATTGGAGAAGCAGATTGCCTCCATGAAAAATACGGTGGATTAAACAAAAGCAAGCCT\nTACTACACAGGGGAACATGCAAAGGCCATAGGAAATTGCCCAATATGGGTGAAAACACCCTTGAAGCTGGCCAATGGAAC\nCAAATATAGACCTCCTGCAAAACTGTTAAAGGAAAGAGGTTTCTTCGGAGCCATTGCTGGTTTCTTGGAAGGAGGATGGG\nAAGGAATGATTGCAGGTTGGCACGGATACACATCCCATGGGGCACATGGAGTAGCAGTGGCAGCTGACCTTAAGAGCACT\nCAAGAGGCCATAAACAAGATAACAAAAAATCTCAACTCTTTGAGTGAGCTGGAAGTAAAGAATCTTCAAAGACTAAGCGG\nTGCCATGGATGAACTCCACAACGAAATACTAGAACTAGATGAGAAAGTGGATGATCTCAGAGCTGATACAATAAGCTCAC\nAGATAGAACTCGCAGTCCTGCTTTCCAATGAAGGAATAATAAACAGTGAAGATGAACATCTCTTGGCGCTTGAAAGAAAG\nCTGAAGAAAATGCTGGGCCCCTCTGCTGTAGAGATAGGAAATGGATGCTTTGAAACCAAACACAAGTGCAACCAGACCTG\nTCTCGACAGAATAGCTGCTGGTACCTTTGATGCAGGAGAATTTTCTCTCCCCACCTTTGATTCACTGAATATTACTGCTG\nCATCTTTAAATGATGATGGATTGGACAATCATACTATACTGCTTTACTACTCAACTGCTGCCTCCAGTTTGGCTGTAACA\nCTGATGATAGCTATCTTTGTTGTTTATATGGTCTCCAGAGACAATGTTTCTTGCTCCATTTGTCTATAAGGAAAGTTAAG\nCCTTGTATTTTCCTTTATTGTAGTGCTTGTTTGCTTGTTGTCATTACAAAGAAACGTTATTGAAAAAT\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_NP\nATGTCCAACATGGATATCGATGGTATGAACACTGGGACAATTGACAAAACACCGGAAGAAATAACTTCTGGAACCAGTGG\nGACAACCAGACCGATCATTAGACCAGCAACCCTTGCCCCACCAAGCAACAAACGAACCCGTAACCCATCTCCGGAAAGAG\nCAACCACAAGCAGTGAAGATGATGTCGGAAGGAAAGCCCAAAAGAAGCAGACCCCAACAGAGATAAAGAAGAGCGTCTAC\nAACATGGTGGTGAAACTGGGCGAATTCTACAACCAGATGATGGTTAAAGCTGGACTCAATGATGACATGGAGAGAAATCT\nAATCCAAAATGCACATGCCGTGGAGAGAATTTTATTGGCTGCCACTGATGACAAGAAAACCGAGTTCCAGAAGAAAAAGA\nATGCCAGAGATGTCAAAGAAGGGAAGGAAGAAATAGATCACAACAAAACAGGAGGCACCTTTTACAAGATGGTAAGAGAT\nGATAAAACCATCTATTTCAGCCCTATAAGAATTACCTTTTTAAAAGAAGAGGTGAAAACAATGTACAAAACCACCATGGG\nGAGTGATGGCTTCAGTGGATTAAATCACATAATGATTGGGCATTCGCAGATGAATGATGTCTGTTTCCAAAGATCAAAGG\nCACTAAAAAGAGTTGGACTTGATCCTTCATTAATCAGTACCTTTGCTGGAAGCACAGTCCCCAGAAGATCAGGTGCGACT\nGGTGTTGCAATCAAGGGAGGTGGAACCTTAGTGGCTGAAGCCATTCGATTTATAGGAAGAGCAATGGCAGACAGAGGGCT\nATTGAGAGACATTAAAGCCAAGACTGCCTATGAAAAGATTCTTCTGAATCTAAAGAACAAATGCTCTGCGCCCCAACAAA\nAGGCTCTAGTTGATCAAGTGATCGGAAGCAGAAATCCGGGGATTGCAGACATTGAAGATCTAACCCTGCTTGCTCGTAGT\nATGGTCGTTGTTAGGCCCTCTGTGGCAAGCAAAGTGGTGCTTCCCATAAGCATTTATGCCAAAATACCTCAACTAGGGTT\nCAATGTTGAAGAGTACTCTATGGTTGGGTACGAAGCCATGGCTCTTTACAATATGGCAACACCTGTTTCCATATTAAGAA\nTGGGAGATGATGCAAAGGATAAATCGCAATTATTCTTCATGTCTTGCTTCGGAGCTGCCTATGAAGACCTGAGAGTTTTG\nTCTGCATTAACAGGCACAGAATTCAAGCCTAGATCAGCATTAAAATGCAAGGGTTTCCATGTTCCAGCAAAGGAACAAGT\nAGAAGGAATGGGAGCAGCTCTGATGTCCATCAAGCTCCAGTTTTGGGCTCCGATGACCAGATCTGGGGGGAACGAAGCAG\nGTGGAGACGGAGGGTCTGGCCAAATAAGCTGCAGCCCAGTGTTTGCAGTGGAGAGACCTATTGCTCTAAGCAAGCAAGCT\nGTAAGAAGAATGCTGTCAATGAATATTGAGGGGCGTGATGCAGATGTCAAAGGAAATCTACTCAAGATGATGAATGACTC\nAATGGCTAAGAAAACCAGTGGAAATGCTTTCATTGGGAAGAAAATGTTCCAAATATCAGACAAAAACAAAACCAATCCCA\nTTGAAATTCCAATTAAGCAGACCATCCCCAATTTCTTCTTTGGGAGGGACACAGCAGAGGATTATGATGACCTCGATTAT\nTAAATCAACAAAATAGACACTATGACTGTGATTGTTTCAGTACGTTTGGAATATGGGTGTTTATTCTCATTAAAATAAAT\nATAAAAAAT\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_NA\nATGCTACCCTCAACTATACAAACGTTAACCCTATTTCTCACATCAGGGGGAGTATTATTATCACTATATGTGTCAGCTTC\nATTATCATACTTACTATATTCGGATATATTGCTAAAATTCTCACAAACAGAAACAACTGCACCAACAATGCCATTGAATT\nGTGCAAACGCATCAAATGTTCAGGCTGTGAACCGTTCTGCAACAAAAGGCGCGACACTTCTTCTCCCAGAACCGGAGTGG\nACATACCCGCGTTTATCTTGCCCGGGCTCAACCTTTCAGAAAGCACTCCTAATTAGCCCTCATAGATTCGGAGAAACCAA\nAGGAAACTCAGCTCCCTTGATAATAAGGGAACCTTTTGTTGCTTGTGGACCAAATGAATGCAAACACTTTGCTTTAACTC\nATTATGCAGCCCAACCAGGGGGATACTACAATGGAACAAGAGGAGACAGAAACAAGCTGAGGCATCTAATTTCAGTCAAA\nTTGGGCAAAATCCCAACAGTAGAGAACTCCATTTTCCATATGGCAGCATGGAGTGGGTCCGCGTGCCATGATGGTAAGGA\nATGGACATATATCGGAGTTGATGGCCCTGACAATAATGCATTGCTCAAAGTAAAATATGGAGAAGCATATACTGACACAT\nACCATTCCTATGCAAACAACATCCTAAGAACACAAGAAAGTGCCTGCAATTGCATCGGGGGAAATTGTTATCTAATGATA\nACTGATGGCTCAGCTTCAGGTGTTAGTGAATGCAGATTTCTTAAGATTCGAGAGGGCCGAATAATAAAAGAAATATTTCC\nAACAGGAAGAGTAAAACACACTGAGGAATGCACATGCGGATTTGCCAGTAATAAAACCATAGAATGTGCCTGTAGAGACA\nACAGGTACACAGCAAAAAGACCTTTTGTCAAATTAAACGTGGAGACTGATACAGCAGAAATAAGGTTGATGTGTACAGAT\nACTTATTTGGACACCCCCAGACCAAATGATGGAAGCATAACAGGCCCTTGTGAATCTGATGGGGACGAGGGGAGTGGAGG\nCATCAAAGGAGGATTTGTTCATCAAAGAATGAAATCCAAGATTGGAAGGTGGTACTCTCGAACGATGTCTAAAACTGAAA\nGGATGGGGATGGGACTGTATGTCAAGTATGGTGGAGACCCATGGGCTGACAGTGATGCCCTAGTTTTTAATGGAGTAATG\nATTTCAATGAGAGAACCTGGTTGGTATTCCTTTGGCTTCGAAATAAAAGATAAGAAATGCGATGTCCCCTGTATTGGGAT\nAGAGATGGTACATGATGGTGGAAAAGAGACTTGGCACTCAGCAGCAACAGCCATTTACTGTTTAATGGGCTCAGGACAGC\nTGCTGTGGGACACTGTCACAGGTGTTGATATGGCTCTGTAATGGGAGAGTGGTTAAGTCTGTTCTAAACCCTTTGTTCCT\nATTTTATTTGAACAATTATCCTTACTAAACTTAATTGTTTCTGAAAAAT\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_M\nATGTCGCTGTTTGGAGACACAATTGCCTACTTGCTTTCATTGATAGAAGATGGAGAAGGCAAAGCAGAACTAGCAGAAAA\nGTTACACTGTTGGTTTGGTGGGAAAGAATTCGACCTAGACTCAGCCTTGGAATGGATAAAAAACAAAAGATGCTTAACTG\nATATACAAAAAGCACTAATTGGTGCCTCTATATGCTTTTTAAAACCCAAAGACCAGGAAAGAAAAAGAAGATTCATCACA\nGAGCCCTTATCAGGAATGGGAACAACAGCAACAAAAAAGAAAGGCCTGATTCTGGCTGAGAGAAAAATGAGAAAATGTGT\nGAGCTTTCATGAAGCATTTGAAATAGCAGAAGGCCATGAAAGCTCAGCGCTACTATACTGTCTCATGGTCATGTACCTGA\nATCCTGGAAATTATTCGATGCAAGTAAAACTAGGAACGCTCTGTGCTTTATGCGAGAAACAAGCATCACATTCACACAGA\nGCTCATAGCAGAGCAGCTAGATCTTCAGTGCCTGGAGTAAGACGAGAAATGCAAATGGTCTCAGCTATGAACACAGCAAA\nAACGATGAATGGAATGGGAAAAGGAGAAGACGTCCAAAAGCTGGCAGAAGAGTTGCAAAGCAACATTGGAGTGCTGAGAT\nCTCTTGGGGCAAGTCAAAAGAATGGGGAAGGGATTGCAAAGGATGTAATGGAAGTGCTAAAGCAGAGCTCCATGGGAAAT\nTCAGCTCTTGTGAAGAAATATCTATAATGCTCGAACCATTTCAGATTCTTACAATTTGTTCTTTTATCTTATCAGCTCTC\nCATTTCATGGCTTGGACAATAGGGCATTTGAATCAAATAAAAAGAGGAATAAACATGAAAATACGAATAAAAGGTCCAAA\nCAAAGAGACAATAAACAGAGAGGTATCAATTTTGAGGCACAGTTACCAAAAAGAAATCCAGGCCAAAGAAACAATGAAGG\nAAGTGCTCTCTAACAACATGGAGGTATTGAATGACCACATAATAATTGAGGGGCTTTCTGCCGAAGAGATAATAAAAATG\nGGTGAAACAGTTTTGGAGATAGAAGAATTGCATTAAATTCAATTTTACTGTATTTCTTACTATGCATTTAAGCAAATTGT\nAATCAATGTCAGCAAATAAACTGGAAA\n\n> 019V-06281 | HPI/INFLUENZAVictoria/11012/2025_NS\nATGGCGAACAACAACATGACCACAACACAAATTGAGGTGGGTCCGGGAGCAACCAATGCCACCATAAACTTTGAAGCAGG\nAATTCTGGAGTGCTATGAAAGGCTTTCATGGCAAAGAGCCCTTGACTACCCCGGTCAAGACCGCCTAAACAGACTAAAAA\nGAAAATTAGAGTCAAGAATAAAGACTCACAACAAAAGTGAGCCTGAAAGTAAAAGGATGTCCCTTGAAGAGAGAAAAGCA\nATTGGAGTAAAAATGATGAAAGTACTCCTATTTATGAATCCGTCTGCTGGAATTGAAGGGTTTGAGCCACACTGTATGAA\nCAGCTCCTCAAATAGCAACTGTACAAAATACAATTGGACCGATTACCCTTCAACACCAGAGAGGTGCTTTGATGACATAG\nAGGAAGAACCAGAGGATGTTGATGGCCCAACTGAAATAGTATTAAGGGACATGAACAACAAAGATGCAAGGCAAAAGATA\nAAGGAGGAAGTAAACACTCAGAAAGAAGGGAAGTTCCGTTTGACAATAAAAAGGGATATGCGTAATGTATTGTCCTTGAG\nAGTGTTGGTAAATGGAACTTTCCTCAAACACCCCAATGGATACAAGTCCTTATCAACTCTGCATAGATTAAATGCATATG\nACCAGAGTGGAAGGCTTGTTGCTAAACTTGTTGCCACTGATGATCTTACAGTGGAGGATGAAGAAGATGGCCATCGGATC\nCTCAACTCACTCTTCGAGCGTCTCAATGAAGGACATTCAAAGCCAATTCGAGCAGCTGAAACTGCGGTGGGAGTCTTATC\nCCAATTTGGTCAAGAGCACCGATTATCACCAGAAGAGGGAGACAATTAGATTGGTCACGGAAGAACTTTATCTTTTAAGT\nAAAAGAATTGATGATAACATACTATTCCACAAAACAGTGATAGCTAACAGCCCCATAATAGCTGACATGGTTGTATCATT\nATCATTATTAGAAACATTGTATGAAATGAAGGATGTGGTTGAAGTGTACAGCAGGCAGTGCTTGTGAATTTAAAATAAA"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Influenza B virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza B virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "B/Athens.GR/11012/2025 Victoria",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "019V-06281",
-      "search:title": "Human Influenza B victoria virus, B/Athens.GR/11012/2025",
-      "search:description": "Human Influenza B victoria virus isolated in 2024/2025 season in Greece. The viral isolate can be shipped in dry ice or freeze dried. Infectious cell culture supernatant preserved in Viral Storage Medium -80°C. To confirm its identity the hemagglutinin and neuraminidase genes have been sequenced by sanger sequencing method and confirmed by WGS.",
-      "search:taxonLabel": "Influenza B virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "throat swab, human (female, 53 years old)",
-      "search:collectionName": "HPI",
-      "search:countryOfCollection": "Greece",
-      "search:providerName": "HPI",
-      "search:originatorName": "NIRLSG",
-      "search:pathogenName": "Influenza B virus"
     },
     {
       "@type": "EVORAO:Protein",
@@ -140836,358 +141252,6 @@
       "search:countryOfCollection": "Slovenia",
       "search:providerName": "UL",
       "search:pathogenName": "SARS-CoV-2"
-    },
-    {
-      "@type": "EVORAO:Service",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "JKI"
-      },
-      "EVORAO:refSku": "028S-05429",
-      "@id": "urn:evorao:EVA:JKI:028S-05429",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/service/training-workshop-diagnostics-african-researchers-second-edition",
-      "dcterms:issued": "2023-10-08T23:31:46+02:00",
-      "dcterms:modified": "2023-10-09T12:32:04+02:00",
-      "dcterms:title": "Training workshop on diagnostics for African researchers (Second Edition)",
-      "dcterms:description": "We would like to invite African researchers to a training workshop on virus diagnostics. In the scope of this three-day workshop, participants from various African countries will acquire hands-on experience in the detection and characterisation of viruses using electron microscopy and Reverse Transcription Polymerase Chain Reaction (RT-PCR). This workshop offers a valuable opportunity for participants to connect and to network with each other, contributing to the prevention of virus outbreaks. The workshop is scheduled to take place from the 27th to the 29th of November 2023 at the Julius Kühn-Institut, Braunschweig, Germany.",
-      "EVORAO:unitDefinition": "Four nights accommodation, food, consumables and travelling support",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "service"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1700,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Service.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "JKI"
-      },
-      "dcat:keyword": [
-        "Service",
-        "Derived product",
-        "JKI",
-        "Viruses",
-        "Any virus",
-        "Biobanking",
-        "Molecular biology training workshop",
-        "Networking",
-        "RG1",
-        "virus diagnostics",
-        "Virus outbreak prevention"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "service",
-      "search:additionalCategory": [
-        "derived product",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Any virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Viruses"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "028S-05429",
-      "search:title": "Training workshop on diagnostics for African researchers (Second Edition)",
-      "search:description": "We would like to invite African researchers to a training workshop on virus diagnostics. In the scope of this three-day workshop, participants from various African countries will acquire hands-on experience in the detection and characterisation of viruses using electron microscopy and Reverse Transcription Polymerase Chain Reaction (RT-PCR). This workshop offers a valuable opportunity for participants to connect and to network with each other, contributing to the prevention of virus outbreaks. The workshop is scheduled to take place from the 27th to the 29th of November 2023 at the Julius Kühn-Institut, Braunschweig, Germany.",
-      "search:taxonLabel": "Viruses",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "JKI",
-      "search:providerName": "JKI",
-      "search:pathogenName": "Any virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-05293",
-      "@id": "urn:evorao:EVA:IZSLER:026V-05293",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bovine-parainfluenza-virus-3-animal-2014-italy-bpiv3-51622",
-      "dcterms:issued": "2023-07-11T15:56:14+02:00",
-      "dcterms:modified": "2023-10-09T11:08:47+02:00",
-      "dcterms:title": "Bovine parainfluenza virus 3, Animal, 2014, Italy, BPIV3 51622",
-      "dcterms:description": "bovine parainfluenza virus 3 isolate",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2014-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50/ml",
-      "EVORAO:mycoplasmicContent": "Contains mycoplasmae",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BEK"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1x10^5.1",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:isolationConditions": "confluent cell culture",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Bovine"
-      },
-      "EVORAO:isolationTechnique": "propagation on BEK cell line",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "Animal virus",
-        "BEK",
-        "Bovine",
-        "Bovine parainfluenza virus 3",
-        "Bovine respirovirus 3",
-        "Category B",
-        "UN3373",
-        "Italy",
-        "RG2",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2014-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 026V-05293 | BPIV3\nTGTTTGGAAATATGAATTCAAATAGAAATTAACTTAGGATTAAAGAACTTTACCGGAAGGTAAGGGAGAAGAAATCCTTA\nAATTGTCATCATGTTGAGTCTGTTTGATACATTCAGTGCACGCAGGCAGGAAAACATAACCAAATCAGCTGGTGGAGCCG\nTTATTCCTGGGCAAAAGAACACAGTCTCTATATTTGCCCTTGGTCCCTCAATAACAGATGACAATGATAAAATGACATTA\nGCACTCCTGTTCTTATCTCACTCACTAGATAATGAGAAGCAGCATGCACAAAGGGCTGGATTTTTAGTCTCCTTGCTATC\nCATGGCTTATGCTAACCCAGAATTATACCTAACATCAAATGGTAATAATGCAGATGTCAAATATGTTATCTATATGATAG\nAAAAAGACTCAGGGAGACAAAAATACGGTGGCTTAGTTGTTAAGACTAGGGAAATGGTTTATGAGAAGACAACTGATTGG\nATGTTTGGAAGTGATCTTGAATATGATCAAGATAACATGTTACAGAATGGTAGGAGCACCTCCACGATTGAAGATCTTGT\nTCACACATTTGGGTATCCAGCATGCCTTGGAGCTCTTATAATCCAGATTTGGATAATACTTGTTAAAGCTATAACCAGTA\nTCTCAGGATTGAGAAAAGGTTTTTTTACTCGGTTAGAGGCATTTAGACAAGACGGGACAGTCAAATCCAGTCTGGTATTA\nAGTGGAGATGCAGTAGAGCAGATCGGATCGATCATGAGGTCTCAGCAAAGTTTGGTTACGCTTATGGTCGAGACGCTGAT\nAACAATGAACACAGGAAGGAATGATCTAACAACAATAGAGAAGAACATACAAATTGTAGGAAACTACATAAGAGATGCAG\nGCCTTGCCTCATTCTTTAATACAATCAGATATGGCATTGAAACCAGAATGGCAGCTCTAACATTGTCTACTCTTAGACCA\nGACATCAACAGACTCAAAGCATTAATAGAGTTATACCTATCAAAGGGGCCACGTGCCCCTTTTATATGTATTTTAAGGGA\nTCCTATTCATGGCGAGTTTGCACCAGGCAATTATCCTGCTCTTTGGAGTTATGCAATGGGTGTAGCAGTTGTCCAGAACA\nAAGCTATGCAACAGTATGTAACAGGACGGTCTTATCTAGATATTGAGATGTTCCAACTAGGTCAAGCAGTGGCACGTGAC\nGCCGAGTCACAAATGAATTCAATATTAGATGAAGAATTGGGGATTACACAGGAGGCTAAGCAGAGTTTGAAGAAACACAT\nGAAGAAAATCAGTAGTTCGGACACAACTTTCTACAAACCTACAGGGGGAACAGCCATAGAAATGGCAATAGACGAGGAGA\nTAGAACAACCAGAATCCAGAGGAGACCAGGATCAAACTGATGATCTTCAGTCATCTATAATCCCCTATGCATGGGCAGAT\nGAGGCAGGCAACAAAAACCAAGCAGGGTCAACCACAGACGCTGACAGCCTCGGAGTTGAGCAAAGAAATATCAGAGATAG\nATTGAACAAGAGGCTCAACGAAAAAAGAAAACAGAATGAATCAAAATCAGCTGACATAATAAACAATGCTGACCAGACTG\nAGATAGATGACCTGTTCAGCGCATTCGGAAGTAGCTAATTAAATAGTGGTGATTATTACCATTTGCAACAAATAAGAAAA\nACTTAGGATTAACGGAGATTATCCAATCCTGACACAGCAGACCAAGACCAGACTCCATCTACAACCCAACCGATCGAGAA\nTTCATGGAAGACAATGTTCAAAACAATCAAATCATGGATTCTTGGGAAGAGAGATCAGGAGACAAGTCATCCGACATCTC\nATCAGCCCTCGACATCATTGAATTCATACTCAGCACCGATCCCCAAGAAAGCGCGGTCAGTGACAATGAGAACGGCGCAG\nGGGTCACAAGGCTCAGCACAACAATCCACCGGCCTGACCCAAAATCAACAAAGACAGGCGAGGAAAATAGTGGACCAACT\nAACGAAGATCGACAGCTTGGGACATCATACAAATGTACCGCAGAAACAAAAGATAGAGTTGTTAATCAGGAAGCTATACA\nGGGAAGAAATAGGAGAGGAAGCAGCTCAGATAGTAGAACTGAGACTATGGTCATTAGAAGAATCACCAGAAGCAGCTCAG\nATCCTGACACTGGAACCGAAATCCAGGAAAATCTTGATTACAATGAAACTAGAGAGGTGGATAAGAACCCTACTAAGGGG\nAAAGTGCGACAACTTGAAAATGTTCCAGTCAAGGTACCAAGAAGTGATGCCATACCTCCAGCAAAATCAGATGGAAACAG\nTGATGATGGAGGAAGCCTGGAATCTATCAGTACACCTAATCCAAGACACAATAGCCTAGTGACCACAGCAACACCAGATG\nATGAAGAGGAGCTTCTCTCGAAAAACAAAAGGTCAAAAAGGCACCAGCTAACAAACCAGAGAGACAACAAAGAAATTAAA\nAAAGGGGGAGAGGAGGAGATTTGGAAGCACGCAGATATCAACCATCAGTCATCTAGATTGGACTACGAACCCGACTCCAA\nAGGATCGAAGAGGAACCAGAGGACCCTCAAGACCAGTACAGATGCAGAGGAACCAACAAGAATACAGAATGGGTCCCAAA\nAGAAGAGAATCACATCCTGGAACATCCTCAACAACAAGAGCAGCAATCGAGAGGAACAGACAGTCAGAAATCCCCAACGA\nTCAGCACACGGACAGAAGCAAACAATGGTATCAGACAGATCAGCTCCCGAACAACAAGTCAAAGCACAGAAGACGAACGG\nAGAGGAAAGAAAGGACACAGAAGAGAGCACTCAATTTACAGAAAGGGCGATTACATTATTACAGAGTCTTGGTGTAATCC\nAATCTGCAGCAAAATTAGACCTGTACCAAGACAAGAGAGTTGTATGTGTGGCGAATGTCCTAAACAATGCAGATACTGCA\nTCGAAGATCGATTTTTTAGCGGGTCTGATGATTGGAGTATCGATGGATCAGGACAACAGACTTAATCAGATTCAAAATGA\nGATAATAGATTTAAAGACTGATCTCAAAAAGATGGATGAATCACACAGAAGGTTGATTGAGAATCAAAAAGAACAACTAT\nCATTAATCACATCATTAATTTCGAATCTTAAGATTATGACAGAGAGAGGAGGAAAGAAAGATCAGGTTGAGACAAGTGGA\nAGAACACCAATGATTAAAACAAAAATGAAAGAAGAGAAGATAAGGAAAGTTAAGTTCGATCCTCTCATGGAAACACAAGG\nCATCGAAAAGAATGTTCCTGATTTATACAGGTCGATAGAGAAGGCACCAGAAAGTGACGTGCAGATTAAATCAGAAATTA\nGTAAGTTAAGTGATGAATCGAATGCAACTAGACTAATACCAAAGAGAATAAGCAGCACAATGAGGTCATTAATCATAATC\nATCAATAACAGCAGCCTGTCATCAAAGGCAAAACAGTCATACATAAATGAACTCAAGCTCTGCAAGAGTGACGAAGAAGT\nATCTGAATTGATGGATATGTTTAATGAAGACATCAGCTCTCAATAGATAGCCAAATGACAATCACCACCACAGAATACAC\nCGACACACATCAGCAAACCAAAGATTATCCCCAACTACCAAGCCAATCAACACACCACAGTAGTTCCCAGACACAAGCCA\nATCAAGAAAAACTTAGGACAAAAGAGCCAATCAGTCCCTTGACAAAATGAGCATCACAAACTCCGCAATATACACATTTC\nCAGAATCCTCATTCTCTGAAAGTGGCAATATAGAGCCACTACCACTAAAGGTCAACGAACAAAGGAAGGCAATTCCTCAC\nATCAGAGTTGTTAAAATAGGTGACCCACCCAAACATGGTTCAAGATATCTTGATGTATTTCTACTGGGGTTTTTTGAGAT\nGGAGCGGTCAAAGGACAGATATGGGAGTGTCAGTGATCTGGATGGCGACCCAAGTTATAAAGTCTGTGGTTCTGGATCTC\nTACCACTTGGGCTAGCAAAATACACTGGGAATGATCAGGAACTCCTACAAGCCGCAATTAAGTTAGACATAGAAGTGAGA\nAGAACTGTCAAAGCCACGGAGATGATAGTCTACACCGTACAGAACATTAAACCTGAATTGTACCCATGGTCAAGCAGATT\nAAGAAAAGGGATGTTATTTGACGCCAACAAAGTTGCGCTTGCACCTCAGTGTCTTCCACTCGATAGAGGGATAAAATTCA\nGAGTAATATTTGTGAATTGTACAGCGATTGGATCAATAACACTCTTTAAAATTCCCAAATCCATGGCTTTGCTATCATTG\nCCAAACACTATATCAATAAACTTACAAGTACACATAAAAACAGGAATCCAAACTGATTCTAAGGGGGTTGTTCAGATCTT\nAGATGAGAAAGGTGAGAAATCGTTAAACTTTATGGTCCATCTTGGATTAATTAAACGGAAGGTAGGTCGAATGTATTCAG\nTAGAGTATTGCAAACAAAAGATTGAGAAGATGAGACTACTATTTTCATTGGGATTAGTTGGAGGAATTAGCTTTCATGTC\nAATGCAACTGGGTCCATTTCGAAGACATTGGCGAGTCAACTAGCGTTCAAAAGGGAAATCTGTTATCCTCTCATGGATTT\nAAATCCACACCTAAATCTGGTTATATGGGCATCATCAGTTGAAATCACAAGAGTGGATGCAATCCTCCAACCTTCATTGC\nCCGGTGAGTTCAGATATTACCCAAACATAATAGCAAAAGGAGTCGGGAAAATTAAGCAGTAACACCGACAGCCTGGACAA\nGCAACACTACAAATCAGATCATTCAAAAAACCAAAATCAAAAACTTAGGACTAAAGAGACCAACCAGATCCCACAGGCGC\nAACCAAATCAGCACCCAGAGACAACACAGACAGAGCAGAAGAGGCACTAGGGGAAGAACCAACAAACAGGAAAGGGGAAG\nGAACAACAGAAAACAGGGGCAAACACCAGAGAACAAAGGAACACCACCAACGAACACACCAGCAACCCTATAACAGAACA\nCAAGAAAAAAGAACAGAAAACAAAGAGTATCAAAGATGATCATTATAGTTGCAACAACAGTCATATTATTATTACCTTTA\nTCACTATGTCAGATAGATATAACAAAGTTGCAACGAGTAGGGGTGCTAGTCAACAATCCAAAAGGCATGAAGATTTCACA\nAAATTTTGAAACAAGATACTTAATATTAAGTTTAATACCAAAGATAGAGAACTCACAACCATGTGGAGACCAACAAATAA\nATCAATATAAGAAATTATTAGATAGATTAATTATTCCTTTATATGATGGGTTAAAATTACAGAGAGATGTAATCGTAGTA\nAGGCATGAGTCTAATAACAGTACTAGTTCCAGGAAGAAGCGGTTCTTCGGAGAAATAATTGGGACAATTGCGATAGGGAT\nAGCAACATCAGCTCAAATAACTGCAGCAGTTGCCCTTGTTGAAGCCAAACAAGCAAGAGCAGATATAGACAAGCTCAAGG\nAAGCCATCAGAGATACAAACAGGGCAGTACAGTCAATTCAAAGCTCAGTAGGAAATCTAATTGTTGCGGTTAAGTCAGTT\nCAAGATTACGTCAACAATGAGATTGTACCATCAATAGCAAGACTAGGCTGTGAAGCAGCAGGATTACAACTAGGAATTGC\nATTGACACAACATTACTCAGAGTTAACAAATATATTTGGTGATAACATAGGAACACTGAAGGAGAAGGGAATAAAATTAC\nAAGGGATAGCATCATTATATCGCACAAACATAACAGAGATATTCACTACTTCAACAGTTGATCAATATGACATTTATGAT\nCTATTGTTCACTGAGTCAATCAAAATGAGAGTTATAGATGTAGACTTAAATGACTATTCAATTACACTACAGGTTAGACT\nACCCTTATTAACAAAATTATCAAACACTCAGATTTATAGAGTGGATTCTATATCATATAATATCCAAGGTAAGGAATGGT\nACATTCCTCTTCCCAATCACATCATGACAAAGGGGGCATTTTTAGGTGGTGCTGATATAAAAGAGTGTATAGAAGCATTC\nAGCAGCTACATATGTCCCTCTGACCCAGGTTTTATATTAAATCGTGAGATAGAAAACTGTCTATCAGGGAATATCACACA\nGTGTCCGAAGACTGTCGTTACATCAGACATAGTACCAAGATATGCATTTGTTAATGGCGGAGTAATTGCCAATTGTATAC\nCAACCACTTGTACATGCGATGGGATTGACAATAGGATCAACCAGGCACCCGACCAAGGGATAAGGATAATAACACATAAA\nGAATGTCAAGTGATAGGCATAAACGGGATGTTATTCAGACCTAACAAAGAAGGGACTTTGGCAACTTATACATATGATGA\nCATTGTTTTAAACAATTCTGTCGCGCTTGACCCAATCGACATATCAATGGAACTCAACAAAGCTAAATTGGAACTAGAAG\nAATCAAAAGAATGGATAAAGAAGTCAAATCAAAAATTGGACTCTGTTGGAGGTTGGTATCAGTCAAATATAACAATTACT\nATAATAATAGTGATGATAATAATTCTGTTTATAATCAACATGATAATCATTATAATAATCTTTAAACAATTCAAGATTCA\nCAATAGACACCCAATCGACAAGAGCAATGAACCCTATGTCCTGACCAGGAAACAGTAGGGAAATGTGGCACCAAACATCA\nAGGGTATAAAAAACTTAGGAACAAAGCAGTTCCACTCAGAGACAAAGAACAAACGACAAGGAATCCCAACCTCAAAAATG\nGAATATTGGAGGCACACAAACAACGCTAAAAACACCAACACTGAATTCCAAACAGAGACAACCAGGCGCAATAATAAAGT\nTACAAATGTCATGATGTCCATCTTCGGGGCAATACTCTCAACTATATTGTTGACAGTGTTCATAATGATACTGGTAAGTT\nTGATTCAAGAAAGCAACTACAACAAAATAGCATCACAACAAATGAGAAGAGAATTCGCAGAAATTGAGAAAAAAATCCAG\nCAAGCTGCAGATGAAATTGGTACATCAATACAATCGGGAATAAACACAAGACTCCTAACTATCCAGAGTCATGTCCAAAA\nTTATATTCCATTATCTTTGACACAACAAATATCGGATCTTAGAAAATTTATCAATGAATTAGCAAATAAGAGAGATCAAC\nAGGAGGTACCTATACAGAGAATGACTCATGACAGCGGGATTGAGCCTCTAAACCCTGACAAATTCTGGAGATGTACCTCT\nGGCAATCCATCCTTAGCAAGTAACCCAAAGATAAGACTAATACCAGGTCCTAGTCTGTTAGCAGCATCTACCACTGTAAA\nTGGTTGTATAAGGATCCCGTCTTTCGTAATCAACAATCTAATATATGCTTACACTTCCAACCTTATTGTTCAAGGTTGCC\nAGGATATAGGGAAGTCTTATCAGGTATTACAAATCGGGATCATCACTATAAATTCAGACCTGGTACCTGACCTAAATCCT\nAGAGTTACACATACTTTTAATATTGATGATAATAGAAGGTCCTGTTCTTTAGCACTACTAAATACAGATGTATATCAGTT\nGTGCTCAACTCCGAAAGTTGATGAAAGATCAGACTATGCATCAATAGGGATTGAAGACATCGTACTTGATATTATTACTA\nACAATGGATTAATCATCACAACAAGATTTACCAATGATAATATAACATTTGACAAACCATATGCAGCACTGTATCCATCA\nGTAGGACCGGGGATTTATTATAAAGGTAAGGTTATTTTTCTCGGATATGGTGGATTAGAACATGCAGAGAATGGTGATGT\nAATATGCAATTTAACTGGTTGTCCAGGTAAAACACAGAGAGACTGTAATCAGGCTTCCTACAGTCCATGGTTTTCAAATA\nGGAGAATGGTGAACTCTATTATTGTTGTTAATAAAGGTGTGGACACAACTTTCAACTTAAGAGTATGGACTATCCCAATG\nAGGCAAAACTATTGGGGATCAGAAGGGAGATTACTTTTATTAGGCAATAAGATATACATATATACTAGATCTACAAGTTG\nGCATAGTAAACTCCAATTAGGGACAATTGATATTACCAATTACAGTGATATCAGGATCAATTGGACTTGGCATAATGCAT\nTATCGAGACCAGGAAATGATGATTGTCCGTGGGGTCACTCATGCCCGGATGGGTGTATAACAGGGGTTTATACTGATGCA\nTACCCATTAAACCCATCAGGAAGTGTTGTATCATCAGTTATTCTTGATTCTCGGAAGTCCAGGGAAAATCCGATCATCAC\nTTACGCAACAGACACACGTAGAGTAAATGAACTGGCTATATATAACAGGACACTTCCAGCTGCATACACAACAACAAATT\nGCATTATGCATTATGATAAGGGATACTGCTTCCACATTGTCGAGATAAATCATAGGAGCCTAAATACATTCCAACCTATG\nTTATTCAAAACAGAGATTCCAAAGAACTGTAGTTGAGTTGACTCTCCAATGTTAATCATCAAACACAGAAGACAGGCATC\nAACAGATGGGAGATTCAAAAAATGAGATGACAAATAGGGGGAAAATAAAAAACTTAGGAGAAAAGTTTGTCGGGAAAATG\nGACACCGAATTCAGCGGTGGCACAACATCTGATATTCTATATCCAGAATGTCATCTCAATTCTCCTATAGTCAAAGGGAA\nAATAGCACAATTACACACTATAATGAGTTTGCCTCAACCTTATGATATGGATGATGACTCAATACTAGTTATAACTAGGC\nAGAAGATTAGGCTAAATAAATTAGATAAAAGACAACGATCAATCAGGAGATTGAAATCTGTCTTAATGGAAAGAGTAATT\nGACTTAGGTAAATATAACTTTATTAGGTATCCAGAAATGTCTAATGAAATGTTCCAATTGTGTATACCTGGAATTAATAG\nCAGAATAAATGAATTATTAAGTAAAGCACATAAGACTTATAATCAAATGACTGATGGATTAAGGAATTTATGGGTTACTA\nTCCTATCAAAATTGGCATCAAAAAATGATGGAAGTAATTATAATATTAACGAAGATATCAGTAACATATCTAGTGTTCAC\nACAACCTATCAATCAGATAGATGGTATAATCCATTCAAGACATGGTTTACCATTAAATATGATATGAGGAGGCTACAAAA\nAGCCAAAAATGAGGTTACATGTAATAAGTACAAGGATTACAATTTATTAGAAGATCAAAGGAATGTATTACTGATACATA\nCGGAGCTTGTCCTCATACTAGACAAACAAAATTATAAAGGATATATAATAACCCCTGAACTGGTATTAATGTATTGTGAC\nGTAGTTGAAGGAAGATGGAATATTAGCTCGTGTGCAAAACTAGACCCTAAATTACATTCAATGTATTACAAAGGTAACAA\nCTTGTGGGAAACAATAGATGGGTTGTTCCCAAAATTAGGAGAGAAAACTTTTGATATAATATCATTGTTAGAACCACTAG\nCTTTGTCACTCATACAAACTCATGATCCAGTTAAGCAATTACGTGGAGCCTTCTTGAACCATGTATTATCTGAAATGGAG\nTCAATTTTAGACACCAGGTATAAGACCGAAGAAACACCTGAATTGGACTACATAGACAAAATTCTAGATGTATTCAAAGA\nATCAACAATAGATGAAATAGCAGAGATTTTCTCTTTTTTCCGAACTTTTGGACATCCTCCATTAGAAGCTAGTATAGCAG\nCAGAAAAAGTCAGGAAATATATGTATACTGAGAAAAGCTTAGATTTTGATACTATTAATAAATGTCATGCTATTTTCTGC\nACAATCATTATAAATGGGTATAGAGAAAGACACGGAGGACAATGGCCTCCAATTACATTGCCTGCTCATGCACATGAATT\nCATTATAAATGCTTATGGATCAAATTCTGCTATATCATATGAAAATGCTGTTGATTACTATAGGAGCTTTATAGGAATTA\nAATTCAACAAATTTATAGAACCCCAATTAGATGAAGACTTAACTATTTATATGAAAGATAAAGCATTATCTCCAAAAAAA\nTCAAACTGGGACACTGTATATCCCTCCTCAAACTTGTTGTATCGTACTAGTACATCCCACGATTCAAGAAGGTTAGTTGA\nGGTTTTTATAGCAGATAGTAAATTTGACCCTCATCAGGTATTAGATTATGTGGAGTCAGGAGAATGGTTGAATGACCCTG\nAGTTCAATATCTCATATAGTCTAAAAGAGAAGGAGATAAAGCAAGAAGGTAGGCTTTTCGCAAAGATGACATATAAAATG\nAGAGCTGCGCAAGTTTTGTCAGAAACGTTACTAGCAAACAATATAGGGAAATTCTTTCAGGAAAATGGAATGGTCAAAGG\nAGAGATTGAGCTACTTAAAAGATTGACAACAATATCTATGTCTGGAGTCCCACGATACAATGAAGTATACAATAATCCCA\nAAAGTCATACAGATGAGATCAAAGCCTACAACGCAATTAGTAATTCTAATTTATCTTCTAACCAAAAATCAAGAAGATTC\nGAATTCAAGTCAACAGACATATACAATGACGGATATGAAACTGTAAGTTGTTTTTTAACAACAGATCTAAAGAAATATTG\nTTTAAATTGGAGATATGAATCAACAGCTCTATTTGGTGATACTTGCAATCAGATTTTCGGGTTAAAAGAGTTATTCAATT\nGGTTGCATCCTCGCCTTGAAAAGAGTACAATATATGTTGGAGATCCCTATTGCCCGCCCTTAGATATAGAACACTTACAA\nCTTGATGATCACCCTGATTCAGGGTTTTATGTTCATAATCCTAGAGGAGGAATAGAAGGATTTTGTCAAAAATTATGGAC\nACTTATATCTATTAGCGCAATACACCTAGCGGCTGTCAAAATAGGTGTTAGAGTGACTGCAATGGTGCAAGGAGATAATC\nAAGCCATTGCTGTGACTACAAGGGTGCCAAATAACTATGATTACAGGATCAAGAAGGAAATTGTTTACAAGGATGTGGTT\nAAGTTTTTTGATTCTTTAAGAGAGGTTATGGATGATCTGGGTCATGAACTTAAATTAAATGAAACAATAATAAGCAGCAA\nAATGTTCATATACAGCAAAAGAATATATTATGATGGAAGAATTCTCCCTCAAGCTTTAAAAGCATTATCTAGATGTGTCT\nTTTGGTCTGAAACCATTATAGACGAAACAAGATCGGCATCTTCTAATTTAGCAACATCATTTGCAAAAGCTATTGAGAAT\nGGTTATTCACCTGTGTTAGGATATGTGTGTTCAATATTCAAAAATATCCAACAATTGTACATAGCACTCGGAATGAATAT\nTAATCCTACTATAACTCAGAATATCAGAGATCAATATTTTAGGAACACCCATTGGATGCAATATGCTTCTTTAATACCTG\nCAAGTGTTGGAGGGTTTAATTATATGGCCATGTCTAGGTGTTTTGTAAGAAACATTGGAGACCCCACGGTTGCCGCATTG\nGCGGATATTAAAAGATTTATAAAAGCAAATCTATTGGATCGTGGTGTTCTTTATCGAATTATGAATCAAGAACCAGGTGA\nATCTTCGTTTCTAGACTGGGCTTCTGATCCGTACTCATGTAACTTACCACAATCCCAAAATATAACAACTATGATAAAAA\nATATAACTGCAAGAAATGTACTACAAGATTCACCAAATCCATTATTATCAGGATTATTTACAAACACGATGATAGAAGAG\nGATGAAGAACTAGCTGAATTTCTGATGGATAGGAGAATAATTCTTCCAAGAGTTGCACATGATATTTTAGATAATTCTCT\nTACTGGAATCAGAAATGCTATAGCAGGAATGCTGGACACAACAAAATCGTTAATTCGGGTAGGAATAAATCGAGGAGGGT\nTAACTTATAGTTTGTTAAGAAAGATAAGCAACTATGATCTTGTACAATATGAGACACTTAGTAGAACCTTAAGATTAATT\nGTTAGTGATAAGATAAAGTATGAAGACATGTGCTCAGTAGATCTAGCTATCTCGTTAAGACAAAAAATGTGGATGCATTT\nATCAGGAGGGAGAATGATAAATGGGCTTGAAACACCTGATCCATTAGAACTATTGTCTGGAGTAATAATAACAGGGTCTG\nAGCACTGTAGGATATGTTATTCAACTGAAGGAGAAAGCCCATACACTTGGATGTATTTACCTGGCAATCTGAGTATAGGA\nTCAGCCGAAAAAGGGATTGCATCATTAAGAGTCCCTTACTTTGGGTCGGTAACAGATGAGAGATCTGAAGCACAACTAGG\nGTACATTAAGAATTTAAGCAAACCTGCAAGAGCTGCTATAAGAATAGCAATGATCTATACTTGGGCATTTGGCAATGATG\nAGATATCCTGGATGGAGGCATCACAGATTGCACAGACACGCGCGAATTTTACGTTAGATAGCTTAAAGATTCTGACACCA\nGTGACTACATCAACAAATTTATCACACAGATTAAAGGATACCGCTACCCAGATGAAATTTTCTAGTACATCACTTATCAG\nGGTAAGCAGATTTATCACAATATCAAATGATAATATGTCTATCAAGGAAGCTAACGAGACAAAAGATACAAATCTTATTT\nATCAACAGGTAATGTTAACAGGGTTAAGTATATTTGAATATTTATTTAGATTAGAAGAAAATACAGGACACAATCCTATG\nGTTATGCATCTACATATAGAAGACGGGTGTTGTATTAAAGAAAGTTACAATGATGATCATATCAATCCAGAGTCCACATT\nGGAGTTGATTAGGTATCCTGAAAGTAATGAGTTTATATATGACAATGACCCTCTCAGAGATGTAGATCTGACAAAACTAA\nTGATTATAAGAGATCATTCCTATACTATTGATATGAATTATTGGGATGACACAGATATTATACATGCAGTATCAATATGT\nACAGCAATCACAATAGCAGACACCATGTCACAGCTTGACCGAGACAATCTTAAGGAGCTAATAGTTATTGCAAATGATGA\nTGATATAAATAGTCTTATAACTGAATTCCTAACCCTTGACATATTAGTATTTCTTAAAACATTCGGAGGATTACTTGTTA\nATCAATTCGCATATACTCTATACGGGTTGAAAATAGAAGGAAGGGATCCTATCTGGGACTATATAATGAGGACACTAAAA\nGACACCTCACACTCAATATTAAAAGTTTTGTCAAATGCATTATCCCATCCAAAGGTTTTTAAAAGGTTCTGGGATTATGG\nAGTTTTAAATCCTATCTATGGGCCTAACACTGCTAGTCAAGACCAAATCAAGCTTGCTCTTTCTGTTTGTGAGTATTCTC\nTTGATTTATTTATGAGAGAATGGCTGAACGGTGCATCGCTTGAAATCTATATTTGCGATAGTGACATAGAAATAGCAAAT\nGACAGGAGACAAGCATTTGTTTCGAGACATCTCGCGTTTGTGTGTTGTTTAGCAGAAATAGCATCATTTGGACCGAATTT\nATTAAACTTGACGTATTTGGAAAGGTTAGAAGAATTAAAGCGGTATTTAGATTTAAACATTAAAGAAGATCCAACTCTCA\nAATACGTACAAGTATCAGGACTATTAATCAAATCATTCCCTTCAACTGTTACATATGTAAGAAAGACAGCAATTAAATAT\nCTAAGAATTCGTGGAATTGACCCACCTAATGTACTTGAGGATTGGGATCCCATAGAAGATGAGAATATATTAGATAATAT\nTGTTAAGACTGTGAATGATAATTGTGACGATAATCCAAGGAAATGTAAGAGTAATTATTTTTGGGGTTTAGCTCTTAAAA\nACTATCAAGTTGTGAGGATAAGATCTATAACCAGTGATCCTGAAGTCTATGAGACCTCAGATGATATTGAACATGGATTG\nACACTTCCTGAGGGAGGAAATTATTTATCACACCAGTTGCGATTATTTGGAGTGAATAGTACAAGTTGTATCAAAGCCCT\nTGAGCTATCGCAGATTCTAATGAAAGAAGTTAAAAGAGATAAGGATAGACTTTTCCTAGGAGAGGGAGCAGGTGCTATGC\nTAGCATGTTATGATGCTACACTTGGTCCTGCAATAAATTATTACAATTCTGGTCTAAATATTACAGATGTAATTGGTCAA\nAGAGAATTAAAAATCTTCCCATCAGAAGTTTCATTAGTAGGTAAGAAACTAGGTAATGTGACACAGATCCTCAATCGTGT\nGAAAGTATTATTTAACGGGAATCCCAACTCAACATGGATAGGAAATATGGAATGCGAAAGTTTAATATGGAGTGAATTAA\nATGACAAATCAATTGGTTTAGTACATTGTGATATGGAAGGAGCAATAGGCAAATCAGAGGAAACTGTCTTACATGAACAC\nTATAGTATTATTAGAATCACATATTTAGTTGGAGATGATGATGTTATCTTGGTATCCAAAATCATACCAACCATCACTCC\nAAATTGGTCTAAAATACTTCATTTATATAAATTGTATTGGAAGGATGTGAGAATAATATCCCTTAAGACATCTAACCCCG\nCTTCGACAGAACTGTATCTAATTTCTAAGGAAGCATATTGTACTGTGATGGAGCCCAGTAATCTTGTGTTATCAAAACTC\nAGAAGAATATCATCAATAGAAGAGAATAATCTACTAAAGTGGATAATCTTATCTAAAAAGAAGAATAATGAATGGTTGCA\nACATGAAATTAAAGAAGGAGAAAGAGACTACGGAGTAATGAGACCCTATCACACAGCACTGCAAATATTCGGATTCCAGA\nTTAATTTAAACCATCTAGCAAAAGAGTTTCTATCAACTCCTGATTTAACCAATATTAACATTGTGATACAAAGTTTCATA\nAGAACAGTAAAAGATGTTATATTCGAATGGGTAAACATAACTCATGACAACAAAAGACATAAATTAGGAGGGAAATATAA\nTTTGTTTCCGCTCAAAAATAGAGGAAAGTTAAAATTACTTTCACGGAGATTAGTGTTGAGCTGGATATCATTATCTCTAT\nCGACCAGATTACTGACGGGTCGTTTCCCGGATGAGAAGTTTGAGGGTAGAGCGCAGACCGGGTTTGTGTCATTAGCTGAC\nACTGATCTCGAACCTCTAAAATTACTGTCCAAAACTCTTATCAGAGATTATAAAGAACACATAGGATTAATATCATATTG\nGTTTCTAACCAAAGAGATCAAAATACTGATGAAACTTATAGGAGGAGTTAAATTGTTGGGGATCCCTAAACAATATAAAG\nAACTTGAACACCAATCATATCCGAATTATGAGTATGATAATGAATTTGATATTGATTAATGTATAAATCTAGTAAATAGT\nGTACTTAATCCTCATCTGTATATATTAAGAAAAACAAATAATAAGAAAAACATATGATATCTATATACCAAACAG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bovine parainfluenza virus 3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bovine respirovirus 3"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "BPIV3 51622",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-05293",
-      "search:title": "Bovine parainfluenza virus 3, Animal, 2014, Italy, BPIV3 51622",
-      "search:description": "bovine parainfluenza virus 3 isolate",
-      "search:taxonLabel": "Bovine respirovirus 3",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Bovine",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:providerName": "IZSLER",
-      "search:pathogenName": "Bovine parainfluenza virus 3"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "IZSLER"
-      },
-      "EVORAO:refSku": "026V-05286",
-      "@id": "urn:evorao:EVA:IZSLER:026V-05286",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bovine-viral-diarrhea-virus-1-animal-1983-italy-bvd-i-tvm2",
-      "dcterms:issued": "2023-07-10T11:20:37+02:00",
-      "dcterms:modified": "2023-10-09T11:03:14+02:00",
-      "dcterms:title": "Bovine viral diarrhea virus 1, Animal, 1983, Italy, BVD (I) TVM2",
-      "dcterms:description": "Bovine viral diarrhea virus type 1 isolate",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1983-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Italy"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID_50/ml",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "7 x MDBK",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "MDBK"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1x10^6.5",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "IZSLER"
-      },
-      "EVORAO:isolationConditions": "confluent cell culture",
-      "EVORAO:isolationTechnique": "Propagation on MDBK cell line",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "IZSLER",
-        "Animal virus",
-        "Bovine viral diarrhea virus 1",
-        "Category B",
-        "UN3373",
-        "Flaviviridae",
-        "Italy",
-        "MDBK",
-        "pestivirus",
-        "RG2",
-        "viral diarrhea virus type 1",
-        "Dry ice",
-        "Pestivirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1983-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "> 026V-05286 | BVD (I) TVM2\nTGATACACCCTTATGAAGCCTACTTGAAGCTGAATCAATCTCTCGTATGCGTATTGAGCAAACTAAATAATAATTAGGCC\nTAGGGAACAAATCCTCCTCAGCGAAGGCCGAAAAGAGGCTAGCCATGCCCTTAGTAGGACTAGCATATTGGGGAGGGTAG\nCAACAGTGGTGAGTTAGTTGGATGGCTGAAGCCCTGAGTACAGGGTAGTCGTCAGTGGTTCGACGCCTTAGGATATAGGC\nCTCGAGATGCCACGTGGACGAGGGCATGCCCACAGCACATCTTAACCTGAGCAGGGGTCGCCCAGGTGAAAGCGGATAAA\nATACCGTTACTAACACAGCCTGATAGGGTGCTGCAGAGGCCCACTGCAATGCTACTAAAAATCTCTGCTGTACATGGCAC\nATGGAGTTGATTTCAAATGAACTTTTATACAAAACATACAAACAAAAACCCGCAGGAGTGGAGGAACCAGTCTATGACCA\nAGCAGGCAATCCACTGTTTGGTGAAAGAGGAGCAATTCATCCCCAGTCCACGCTGAAGGTCCCACACAAGAGGGGGGAAC\nGCAATGTCCTTACCGACTTAACTTCCTTACCAAGAAAGGGTGACTGCAGAACAGGTAACAGCAAAGGGCCTGTGAGTGGG\nATCTACCTGAAGCCAGGGCCGTTATTGTATCAAGATTACAAAGGACCCGTTTATTACAGAGCCCCATTGGAACTGTTTGA\nGGAAGGGAACATGTGTGAAACAACCAAGAGAGTTGGGAGGGTTACTGGTAGTGATGGCAAGTTATACCACATCTATGTGT\nGCATAGATGGGTGCATATTGATAAAGAGTGCCACTAGAGTTCACCAGAAGGTACTTAAATGGGTCCGCAATAGACTGGAT\nTGCCCACTATGGGTAACTAGCTGTTCCGACCCAAAAGAGGGAGGGACAGCAAGAAAGAAAGGGCAAAAACCAGATAGACT\nGGAGAAAGGAAAAATGAAGATAACACCTAAGGAGTCTGAGAAAGATAGCAAAACGAGGCCGCCGGATGCCACAATAGTGG\nTAGATGGGGTTAAATACCAGGTGAAGAAGAAAGGGAAGGTCAGAAGCAAGAATACTGAAGATGGATTATACCACAATAAA\nAATAAACCACCAGAGTCACGCAAGAAACTTGAGAAGGCCTTGTTGGCCTGGGCAATATTGGCTATTATTTTCTTTCAGGT\nTACAATTGGGGAGAACGTGACACAGTGGAACCTGCAGGACAATGGGACTGAAGGAATACAACGAGCGATGTTCCAAAGAA\nACGTGAGTAGGAGCCTACACGGAATCTGGCCAGAAAAAATCTGTACGGGTGTCCCTTCCCATCTAGCCACTGACACTGAG\nCTGAAAATGATTCATGGCATGATGGACGCAAGTGAAAAGACCAACTACACCTGCTGTAAGCTCCAGCGTCATGAATGGAA\nCAAACATGGCTGGTGCAACTGGTACAATATTGAACCTTGGATCCATCTCATGAACAAAACCCAGGCCAATCTTACTGAAG\nGTCTGCCACCGAGAGAATGTGCAGTTACATGCAGATATGACAGGGATAGTGACCTAAATGTGGTAACGCAGGCTAGAGAC\nAGCCCCACACCACTGACAGGCTGTAAGAAGGGAAAGAAATTCTCTTTCGCAGGCACGCTAACGAAAGGGCCTTGTAATTT\nTGAAATAGCTGCGAGTGATGTCCTATTTAAAGAACATGCCTGCACTAACGTACTTCAGGACACTGCTCATTATCTGGTTG\nATGGTATGACTAATACACTGGAGGGTGCTAGGCAAGGCACGGCAAAACTAACAACGTGGCTAGGAAGGCAACTAGGAATA\nCTAGGAAAAAAATTGGAAAACAAGAGCAAGACGTGGTTCGGTGCATATGCAGCCTCCCCTTACTGTGATGTGGAGAGAAA\nGATAGGTTACATTTGGTACACAAAAAATTGCACCCCTGCGTGTTTGCCTAGGAACACAAAGATTATAGGCCCCGGGAAGT\nTTGACACCAACGGAGATGATGGTAAGATATTACACGAGATGGGAGGCCACCTGTCAGAGGTGTTGCTACTTTCATTAGTA\nGTTTTGTCTGACTTTGCTCCGGAAACAGCTAGCGCGGTCTATTTAATCCTACACTTTTCCATACCACAAAGCCATAGTGA\nTGTCCTTAACTGTGACAAAAACCAACTAAACCTCACCGTGGAGCTCACAACAGAGCAAGTGATACCGGGATCGGTTTGGA\nACCTGGGTAGATATGTTTGCATAAGACCAAATTGGTGGCCTTATGAGACAGCTACAGTGTTGGCACTTGAGGAAATAGGC\nCAGGTGATAAACATAGTCTTGAGAGCACTTAGAGACCTGACACGCATCTGGAACGCTGCTACAACTACCGCGTTTTTGGT\nGTGTCTAGTGAAGGTGGTGAGGGGCCAGGTACTGCAGGGTATATTATGGCTGTTACTGATAACAGGAGTGCAAGGGTACC\nCAGATTGCAAACCTGATTTTTCATATGCCATAGCCAGCAACGACAGAGTCGGCCCGTTAGGGGCTGAAGGTCTTACCACG\nACCTGGCACGAATACTCAGTAGGGATGCGATTGGAGGACACGATGGTTGTAGTATGGTGCAGTAAAGGTGAGTTCAAGGT\nCCTCGAGAGATGCGTGAGAGAAGACAGGTACCTTGCCATATTGCACACGAGAGCCTTACCGACGTCTGTACAGTTTAAAA\nAGATCGTCGATGGGCGGAAAATAGCAGATATGGTGGATATGGAAGACAACTTTGAATTTGGACTCTGTCCGTGTGATGCC\nAAGCCCGTGGTAAAAGGGAAATTCAATACAACCTTGCTAAATGGGCCAGCTTTCCAGATGGTATGCCCTATTGGGTGGAC\nAGGGGTCGTGGAATGCATTCTAGTCAATGAGGACACCCTACACACGACCAAGGTGAGGACATACAGGAGGACTAAGCCGT\nTTCCTTATAGGCAGGGTTGTACCACACAGAAGGTGGTTGGAGAAGATCTCTATACTTGTGATCTAGGAGGCAATTGGACA\nTGCGTCACGGGTGATCAGTTACACTACACAGGGGGCCCCATCGAGACCTGTAAGTGGTGCGGGTACAATTTCAAAAAAAA\nTGAGGGCCTACCACACTACCCTATTGGTAAGTGCAGGCTGAAGAATGAGACGGGTTACCGGTTAGTGGATGACACCTCCT\nGTAACAGAGACGGCGTAGCCATAGTGCCGCAAGGGTATCTGAAATGCAAGATAGGAGATACAGTAGTGCAGGTTATAGCA\nATGGATACCACACTCGGTCCTATGCCCTGTAAACCATATGAGGTTACGCAAAGCGAAGGGCCCGCGGAGAAAACAGCATG\nCACCTTCAATTACACAAAGACTTTAAAAAACAAGTACTTTGAGCCCAGAGATAGTTATTTCCAACAATACATGCTGAAAG\nGAGAGTACCAATACTGGTTCGACCTAGAAGTTACAGACCACCACAAAGACTACTTCTCCGAGTTTATCCTCGTGGTAGTG\nGTGGCCCTCCTGGGTGGAAGGTACGTGTTATGGCTGCTAGTCACTTATATGGTCCTGTCAGAACAAAAGGCCTCGGGTTC\nTCAGTATGGAGCAGGACAGATAGTGATGATGGGCAACTTGTTAACACATGAAGATATTGAGGTGACAACATACTTCTTGC\nTGTTATACCTGTTACTGAAAGAGGAAAGTATCAAGAAATGGGTCATACTTTTATACCATCTTTTCGTGGTACACCCTTTG\nAAGTCAGTGGTAGTGATACTATTAATGATAGGGGAGGCCGTAAAGGCCGAGCCAGAGGTTGAGGGGTACCTAGAACGAGT\nAGACCTTTGCTTCATAATAGTTGTGCTCATCGTCGTGGGCCTAGTCGTGGCTAAACGTGATCCGACCGTTGTGCCACTGG\nTGACGATAGTCGCGTCACTGAGAGTTACAGGATTGGCCTTAGGAACTGGAGTGGACATAGCTATGGCAACATTGACCCTG\nACCTTACTGATGATCAGTTTTGTAACAGACTATTTCAGGTATAAGAAGTGGTTGCAATGTATCCTAAGTTTGGTAGCAGG\nAGTGTTCTTGATCAAAAGTTTAAAACATCTGGGTGAGATTGAAACACCAGAATTGGCAATCCCGAGCTGGAGGCCGCTGA\nCACTCATACTATTATACCTGATTTCAACTTCAATTGTCACAATGTGGAAGGTTGATTTAGCCGGCCTACTATTACAGGGA\nGTGCCTATTCTATTGCTAATCACCACCCTATGGGCTGACTTCCTGACCCTATTGCTAGTTCTGCCCACTTACGAACTAGT\nGAAATTATACTACCTAAAGACAGTCAAGACTGATGTAGAACGGAGTTGGCTGGGAGGGTTGGATTACAGGAGGGTCAACT\nCTGTCTACGACGTGGATGAGAGTGGAGAAGGTGTATACCTCTTCCCATCTAAGCAGGGGGCACACAAAAATTTTGGTATA\nCTCTTACCCCTTATTAGAGCAACACTGATAAGCTGCGTTAGCAGCAAATGGCAACTGATTTACATATCCTACTTGACTGT\nTGACTTTATGTATTACATGCACAGGAAAGTTATAGAAGAAATCTCAGGAGGAACCAACGTAATTTCTAGGATAGTAGCAG\nCACTCATAGAATTAAATTGGTCCATAGATGATGAGGAGTGCAAAGGTTTGAAGAAGTTCTACCTACTATCCGGGAGGCTG\nAGGAACCTAATAATAAAGCACAAGGTCAGGAATGAGACAGTGGCCAACTGGTATGCAGAGGAAGAAGTCTACGGCATGCC\nAAAGATCTTGACAATAATCAAGGCTAGTACTCTAAACAAAAGCAAGCATTGTATAATATGCACAGTGTGTGAGGGCCGGA\nAGTGGAAGGGTGGCAACTGCCCAAAGTGCGGGCGCCACGGAAAACCCATAACATGTGGGATGACATTGGCAGATTTTGAA\nGAAAGGCACTACAAGAGGATCTTCATAAGAGAAGGGGATCATACGGTGATGTGCAGCCGATGCCAGGGAAAGCATAGGAG\nGTTTGAAACGGACCGGGAACCTAAGAGTGCCAGATACTGTGCTGAGTGTAATAGGCTGCATCCTGCTGAGGAAGGTGACT\nTTTGGGCAGAGTCAAGCATGGGCCTCAAAATCACCTACTTTGCGCTGATGGATGGAAAGGTGCATGATATCACAGAGTGG\nGCTGGATGCCAGCGTGTGGGAATCTCCCCAGATACCCACAGAGTCCCTTATCACATCTCATTTGGTTCACGGATGCCAGG\nCACCAGTGGGCGGCAGAGAGCTACTCCAGATGCCCCTCCTGCTGACCTTCAGGATTTCAGGCAGGAGTGCAACGGCTTTG\nCACAATATACCGCTAGAGGGCAACTGTTTTTGAGAAATCTGCCAATACTAGCAACCAAAGTAAAAATGCTTATGGTGGGT\nAACCTAGGGGAAGAAGTCGGAGATCTGGAACATCTCGGGTGGATTCTGAGGGGGCCTGCCGTGTGCAAAAAGATCACTGA\nGCATGAGAAGTGCCATATCAGCATACTGGACAAACTGACCGCTTTCTTCGGAATAATGCCGAGGGGGACCACACCCAGAG\nCCCCGGTGAGATTCCCTACGGCATTACTGAAGGTGAGAAGGGGTCTGGAGACTGGTTGGGCCTACACACACCAAGGAGGC\nATAAGCTCAGTGGATCATGTAACTGCTGGCAAGGATTTGTTAGTCTGTGATAGCATGGGAAGGACCAGGGTGGTTTGCCA\nAAGCAATAACAAGCTGACAGATGAGGCAGAGTACGGTGTCAAGACAGACTCCGGGTGCCCGGATGGTGCCAGATGTTACG\nTATTGAACCCGGAGGCGGTTAACATATCAGGGTCCAAGGGCGCGGTGGTGCATCTCCAAAAGACTGGTGGGGAATTTACA\nTGCGTCACCGCATCTGGCACACCAGCCTTCTTTGATCTAAAGAACCTGAAAGGGTGGTCGGGTCTACCGATATTTGAAGC\nCTCGAGCGGAAGGGTGGTAGGCAGGGTTAAGGTAGGAAAGAATGAAGAGGCCAAGCCAACAAAGATAATGAGTGGTATCC\nAAACAGTTTCAAAGAACAATGCTGACTTAACTGAGATGGTCAAAAAAATAACTAGTATGAATAGAGGAGACTTCAAGCAG\nATAACACTGGCAACGGGGGCAGGAAAAACCACGGAGCTCCCAAAGGCAGTAATAGAAGAGATAGGAAGACACAAGCGGGT\nGCTAGTGCTTATACCACTGAGGGCAGCAGCAGAGTCAGTATACCAATACATGAAATTGAAACATCCAAGCATCTCTTTCA\nATCTAAGGATAGGAGATATGAAAGAGGGTGATATGGCGACCGGGATAACCTATGCATCATATGGGTACTTCTGCCAGATG\nCCTCAACCAAAACTTAGAGCTGCAATGGTAGAGTATTCATACATATTCCTGGATGAATACCATTGCGCTACCCCAGAACA\nACTGGCAATAATTGGAAAGATCCATAGATTCTCAGAGAGTATAAGGGTGGTTGCTATGACTGCTACCCCGGCGGGGACAG\nTGACCACAACAGGGCAAAAGCACCCGATAGAGGAATTTATAGCCCCCGAAGTGATGAAAGGGGAAGACCTTGGTGGCCAA\nTTCCTTGATATAGCAGGATTGAAGATCCCCGTGGAGGAGATGAAGGGTAACATGCTGGTTTTTGTGCCGACAAGGAACAT\nGGCAGTTGAGGTTGCGAAAAAGCTAAAGGCTAAGGGCTACAACTCAGGGTACTACTATAGTGGAGAGGACCCGGCCAATT\nTGAGAGTGGTGACATCACAATCCCCATATGTTGTTGTAGCCACAAATGCCATTGAGTCAGGAGTGACACTACCAGACTTA\nGATACAGTTGTGGACACCGGACTTAAATGTGAAAAGAGAGTGAGAGTGTCATCCAAAATTCCCTTTATCGTGACAGGCCT\nCAAAAGAATGGCCGTTACTGTGGGTGAGCAGGCCCAGCGTAGAGGAAGAGTAGGTAGGGTAAAGCCAGGGAGATATTATA\nGAAGCCAGGAAACCGCAACTGGGTCAAAGGATTACCACTATGATCTGTTGCAGGCACAGAGGTATGGGATAGAGGACGGA\nATCAATGTGACAAAATCATTTAGAGAAATGAATTATGACTGGAGTCTATATGAGGAAGATAGCCTGCTAATAACTCAGCT\nGGAGGTATTAAACAATCTACTCATCTCTGATGACTTACCTGCAGCTGTCAAGAACATCATGGCCAGGACTGATCACCCTG\nAACCAATTCAGCTCGCATACAATAGTTATGAGACCCAGGTTCCGGTCTTGTTCCCAAAAATAAGGAATGGAGAAGTCACA\nGACACCTACGAAAATTACTCATTCCTGAACGCAAGAAAGCTAGGGGAGGATGTGCCTGTGTATATATATGCCACCGAAGA\nTGAAGATCTGGCAGTGGACCTCCTAGGTTTAGACTGGCCTGACCCTGGGAATCAGCAGGTGGTTGAGACCGGAAAAGCAC\nTAAAGCAAGTGATTGGCCTTTCTTCAGCTGAAAATGCCCTGCTCATAGCTTTATTTGGGTATGTGGGATACCAAGCTTTG\nTCAAAGAGGCATGTCCCAATGATTACAGATATTTACACCATAGAGGATCAGAGATTGGAAGACACGACGCACCTTCAGTA\nCGCGCCTAATGCTATAAGAGCTGAGGGGAAAGAGACCGAACTAAAGGAACTAGCATTGGGCGACGTGGACAAGCTTATGG\nGAGCCATATCAGATTACGCATCTGGGGGACTGGATTTCATCAAAACCCAAGCAGAAAAGATAAAAACTTCCCCCCCTTTT\nAAAGAAAATGTGGAAGCTGTAAAGAATTACGTCCAAAGATTTATTGATTCACTCACAGAAAACAAGGAAGAGATAATCAA\nATATGGCTTGTGGGGAACACACACAGCACTCTATAAAAGCATAGCAGCTAGACTGGGGCATGAAACAGCTTTTGCTTCAC\nTAGTAATAAAATGGCTAGCCTTTGGAGGGGAGTCAGTATCAGACCACATCAGACAGGTGGCAGTCGACTTGGTGGTCTAT\nTATGTAATCAACAAACCATCCTTCCCCGGTGATTCAGAAACCCAGCAAGAGGGGAGGCGGTTTGTCGCTAGTTTATTCAT\nCTCTGCCTTGGCCACTTACACGTACAAGACTTGGAATTACAATAACCTCTCTAAGGTGGTAGAACCAGCATTGGCATACC\nTCCCTTATGCCACCAGTGCATTAAAGATGTTCACCCCAACTAGGCTGGAAAGCGTGGTCATACTGAGTACCACGATATAC\nAAAACCTACCTTTCTATAAGAAAAGGAAAAAGTGATGGACTGCTGGGTACAGGAATAAGTGCGGCCATGGAGATCCTATC\nCCAGAACCCAGTATCAGTAGGTATATCCGTGATGCTGGGAGTGGGAGCTATAGCTGCACACAATGCCATCGAGTCCAGCG\nAACAGAAAAGGACCTTATTGATGAAAGTGTTTGTAAAAAACTTTTTGGATCAAGCTGCAACAGACGAATTAGTGAAAGAA\nAATCCAGAAAAAATAATAATGGCCTTATTCGAAGCAGTTCAGACAATTGGCAATCCATTGAGACTTGTATACCATCTGTA\nTGGGGTGTACTACAAAGGTTGGGAGGCTAAGGAACTATCTGAGAGGACGGCAGGCAGGAACCTGTTTACCTTAATAATGT\nTTGAAGCTTTCGAACTACTAGGAATGGATTCAGAAGGGAAGATAAGGAACTTGTCAGGGAACTATATCTTAGATCTGATC\nTGTAGCTTACATAAGCAGATAAACAGGCACCTGAGGAGAACAGTGTTAAGGTGGGCCCCTGCACCTTTTAGCTGTGACTG\nGACCCCCAGTGACGAGAGAATCGGGTTGCCCACAGACAACTACCTAAGGATTGAGACAAAGTGTCCATGTGGTTATGAAA\nTGAAAGCACTCAGGAACGTAAGTGGCGGAGTCACTAAAGTGGAAGAGAGAGGGCCCTTTCTTTGCAGGAACAGGCCTGGT\nAGAGGGGGAGTCAATTATAGAGTCACCAAATATTACGATGACAACCTCAAAGAAATAAAACCAATTGCAAGGTTAGAGGG\nACAGGTGGAGCACTACTATAAAGGTGTTACAGCAAGGATAGACTACAGTAAGGGAAAGATGCTCCTAGCCACAGATAAAT\nGGGAGGTAGAGCATGGCACAATAACCAGGTTGGCTAAAAGGTACACTGGGGTTGGATTCAAAGGTGCATACCTAGGTGAT\nGAGCCCAACTACGGTGACCTGGTGGAGAGGGATTGTGCAACTATCACCAAGAATACAGTACAGTTCCTAAAAATGAAGAG\nAGGGTGTGCATTCACCTATGATCTAACTTTGTCCAATCTAACCAGGTTAATTGAGCTCGTACACAAGAATAATCTTGAAG\nAGAAGGACATCCCCACAGCTACGGTCACCACATGGCTAGCTTACACATTTGTAAATGAAGATGTTGGAACCATAAGACCA\nGTCCTGGGTGAAAGAGTGGTCCCCGATCCAGTATCAGAAGTCAATCTACAACCAGAGGTTGAAATAGACACATCAGAGGT\nCGGGATTACAATAATTGGAAAAGAGGCCTTGATGACAACTGGTATCACCCCTGTTCTGGAAAAGGGAGGACCCAACGTTA\nCCAACAGCCAAAACATAGTAAAGATTGGGTTGGAAATAGGTAATTACCCGGGACCTAACAAGCAAACCCACACCCTGGTC\nGATGAAATACATGAAAAGGATGGTAGACCTTACATCATGGTCCTGGGCTCAAGGGATTCCATGTCAAACAGAGCAAAAAC\nCGCTAGAAATATAAATTTTTACACAGGCAAAGACCCCAGGGAGATAAGAGATTTGATGGCACAAGGGCGTATGTTAGTGG\nTGGCTCTAAAAGACTTTGATGCTGAGTTGTCTGAATTGGTAGATTATAAGGGGACTTTCCTGGACAGGGAGGCCTTGGAG\nGCTCTTAGCCTCGGGCAGCCGAAGCCGAGGAGGGTATCAAAAGCCGCAATAAGAAATTTACTGGAACAGAAAGAGCAGGT\nGGAAATCCCTGGTTGGTTTTGTTCAGATGACCCTGTCTTCTTGGAAGTAGCTGTAAAAAGGAACAAGTACTACCTGGTTG\nGAGATGTTGAGCAAGTAAAAACCAAGGCTAAGGAACTAGGGGCTACGGACCAAACAAGGATAGTGAAGGAGGTAGGTGCA\nAGGACATATACCATGAAGCTGTCTAGTTGGTTCCTACAAGAATCTAAGAAACAGATGACCCTAACCCCGCTATTTGAGGA\nACTGCTGCTACGGTGCCCACCCAGAGAAAAAAATAGCCGAGGGCACATGGCATCAGCGTACCAACTGGCACAGGGTAACT\nGGGTGCCCCTGGATTGCGGGGTGTATATGGGTACCATACCTGTTAAAAGGGTAAAGATACACCCTTATGAAGCCTACTTG\nAAGCTGAAGGATTTGCTAGAGGAAGAAGAAAAGAAACCAAGAAGTAAGGATGCAGTAATGAGAGAACACAACAAATGGAT\nCCTTACAAAAGTGAGGTACCATGGGAACCTCAACACTAAGAAAATGCTGAACCCTGGAAAGCTGTCAGAACAGCTAGACA\nGAGAGGGTCATAAGAGAAATGTTTACAACAACCAGATTGGTGCCATAATGTCGGGTGCAGGGATAAGGTTGGAAAAGCTA\nCCAATTGTAAGGGCCCAAACTGACACAAAAAGCTTCCACGAAGCTATCAGGGATAAGATAGACAAGACTGAAAACCAACA\nAAATCCGGAATTACACAGCAAATTACTTGAGATCTTCCACACCATAGCCCAACCCACCCTAAAGAATACCTATAGTGAGG\nTGACATGGGAGCAACTCGAAGCAGGGATAAATAGGAAAGGGGCAGCAGGCTTCCTGGAAAAAAAGAATATCGGGGAGGTG\nTTGGACTCAGAGAAACACCTAGTGGAGCAACTAATCCGAGACTTAAAAACAGGAAAGAAAATAAGGTATTATGAGACAGC\nAATACCAAAAAATGAAAAGAGGGATGTGAGTGATGATTGGCAAACAGGAGATATGGTGGATGAGAAGAAGCCAAGAGTCA\nTCCAATACCCTGAAGCTAAAACGAGATTGGCTATAACCAAGGTCATGTACAATTGGGTGAAACAGCAACCCGTCGTGATA\nCCAGGGTACGAAGGAAAGACCCCCTTATTCAACATTTTCAATAAAGTGAGAAAAGAATGGGATTTGTTCAATGAGCCAGT\nAGCTGTGAGCTTTGATACCAAGGCTTGGGACACCCAAGTAACTAGCAGGGATCTGCGGCTTATTGGGGAAATCCAGAAGT\nACTACTACAAGAAGGAATGGCACAAGTTCATTGACACAATCACCGATCATATGACAGAGGTGCCAGTTATAACAGCAGAT\nGGTGAAGTGTACATAAGAAATGGACAGAGAGGTAGTGGCCAACCAGATACAAGTGCAGGAAATAGCATGCTGAATGTCTT\nAACAATGATATATGCCTTCTGTGAGAGTACAGGAGTCCCATACAAGAGTTTCAACAGGGTAGCAAGGATCCATGTCTGCG\nGGGATGATGGCTTCCTAATAACTGAGAAAGGGCTGGGACTGAGATTTGCCGATAAAGGGATGCAAATCTTACATGAGGCA\nGGCAAGCCCCAGAAAATAACAGAAGGGGAAAAGATGAAAGTCTCTTATAGATTTGAGGACATAGAATTCTGTTCCCACAC\nCCCAGTCCCAGTTAGGTGGTCTGATAACACCAGTAGCTACATGGCTGGCAGAGACACTGCTGTGATATTATCAAAGATGG\nCAACAAGACTGGATTCAAGTGGAGAGAGAGGAACCACAGCATATGAGAAAGCAGTGGCCTTTAGCTTCCTATTGATGTAC\nTCGTGGAATCCGTTAGTCAGGAGAATCTGTTTGTTGACTCTATCACAGCGGCCAGAGACAGCACCATCGTCTCAGACCAC\nCTATTATTATAGTGGAGACCCAATAGGGGCATATAAAGATGTGACTGGCAGGAATTTGAATGAATTAAAAAGGACAGGCT\nTTGAAAAATTGGCAAATTTAAACTTGAGCATGTCTACACTTGGGATATGGACCAGACACACAAGTAAGAGAATAATACAA\nGATTGCATAGCCATAGGGAAGGAAGAAGGCAATTGGTTGGTCAACGCCGATAGGCTGGTATCCAGTAAGACTGGTCAACC\nATACATACCTGGAAAAGGTTATGCACTACAAGGAAAGCATTATGAACAACTGACATTGAAAGCAAGTAATAGTCCCATTG\nTGGAAGTTGGGACAGAAAGATACAAGATAGGCCCCATAGTTAACTTGCTGCTACGGAGGCTGAAAGTTCTGCTTATGGCG\nGCTGTAGGCGCCAGCAGTTGAAAGAATATGTATATATTGTATATAAACAGTTACACATGTATGTATTAAATGTAAATATA\nGTTGAGATTAGTAGTGATAGAAATTCATCTACCTCAAGCTAACACTACACTCAATGCACACAGCACTTTAGCTGTATGAG\nGGTAAACCCGACGTCTACAGTTGGACTAGGGAATACCTCTAACA"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bovine viral diarrhea virus 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pestivirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "BVD (I) TVM2",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "026V-05286",
-      "search:title": "Bovine viral diarrhea virus 1, Animal, 1983, Italy, BVD (I) TVM2",
-      "search:description": "Bovine viral diarrhea virus type 1 isolate",
-      "search:taxonLabel": "Pestivirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "IZSLER",
-      "search:countryOfCollection": "Italy",
-      "search:providerName": "IZSLER",
-      "search:pathogenName": "Bovine viral diarrhea virus 1"
     }
   ]
 }
