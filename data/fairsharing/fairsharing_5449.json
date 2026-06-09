@@ -35,97 +35,121 @@
           {
             "linked_record_name": "Electron Microscopy Data Bank",
             "linked_record_id": 2126,
+            "linked_record_url": "https://www.ebi.ac.uk/emdb/",
             "linked_record_registry": "Database",
             "linked_record_type": "repository",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 19701
           },
           {
             "linked_record_name": "COVID-19 Data Portal",
             "linked_record_id": 2934,
+            "linked_record_url": "https://www.covid19dataportal.org",
             "linked_record_registry": "Database",
             "linked_record_type": "repository",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 19703
           },
           {
             "linked_record_name": "European Nucleotide Archive",
             "linked_record_id": 1850,
+            "linked_record_url": "http://www.ebi.ac.uk/ena",
             "linked_record_registry": "Database",
             "linked_record_type": "repository",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 19704
           },
           {
             "linked_record_name": "RDMkit Virology Domain",
             "linked_record_id": 7482,
+            "linked_record_url": "https://rdmkit.elixir-europe.org/virology",
             "linked_record_registry": "Collection",
             "linked_record_type": "collection",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26760
           },
           {
             "linked_record_name": "Image Data Resource ",
             "linked_record_id": 2303,
+            "linked_record_url": "https://idr.openmicroscopy.org",
             "linked_record_registry": "Database",
             "linked_record_type": "repository",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26761
           },
           {
             "linked_record_name": "The COVID-19 Vocabulary",
             "linked_record_id": 4947,
+            "linked_record_url": "https://github.com/EBISPOT/covoc",
             "linked_record_registry": "Standard",
             "linked_record_type": "terminology_artefact",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26762
           },
           {
             "linked_record_name": "Protein Data Bank in Europe",
             "linked_record_id": 1860,
+            "linked_record_url": "https://www.ebi.ac.uk/pdbe/",
             "linked_record_registry": "Database",
             "linked_record_type": "repository",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26763
           },
           {
             "linked_record_name": "ENA Sequence Flat File Format",
             "linked_record_id": 1478,
+            "linked_record_url": "https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html",
             "linked_record_registry": "Standard",
             "linked_record_type": "model_and_format",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26764
           },
           {
             "linked_record_name": "ENA Sequence XML Schema",
             "linked_record_id": 1061,
+            "linked_record_url": "https://ena-docs.readthedocs.io/en/latest/submit/general-guide/programmatic.html",
             "linked_record_registry": "Standard",
             "linked_record_type": "model_and_format",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26765
           },
           {
             "linked_record_name": "ENA Sample Checklists",
             "linked_record_id": 1333,
+            "linked_record_url": "https://www.ebi.ac.uk/ena/browser/checklists",
             "linked_record_registry": "Standard",
             "linked_record_type": "reporting_guideline",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26766
           },
           {
             "linked_record_name": "EBI BioSamples JSON Format ",
             "linked_record_id": 735,
+            "linked_record_url": "https://www.ebi.ac.uk/biosamples/docs/references/api/submit",
             "linked_record_registry": "Standard",
             "linked_record_type": "model_and_format",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26770
           },
           {
             "linked_record_name": "BioSamples",
             "linked_record_id": 1554,
+            "linked_record_url": "https://www.ebi.ac.uk/biosamples/",
             "linked_record_registry": "Database",
             "linked_record_type": "repository",
             "relation": "collects",
+            "relation_id": 10,
             "link_id": 26771
           }
         ],
@@ -363,33 +387,41 @@
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12561
             },
             {
               "linking_record_name": "Multi-Omics Metadata Standards Integration Working Group Iterative Collection",
               "linking_record_id": 5742,
+              "linking_record_url": "https://rda-momsi.github.io/Dashboard",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 21021
             },
             {
               "linking_record_name": "Life Science Standards",
               "linking_record_id": 6225,
+              "linking_record_url": "https://fairsharing.org/advancedsearch?operator=_and&fields=%28operator%3D_and%26registry%3Dstandard%26status%3Dready%2Bin_development%26subjects%3DLife%20Science%29",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 22550
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26765
             }
           ],
@@ -526,57 +558,71 @@
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12485
             },
             {
               "linking_record_name": "Genomic Standards Consortium",
               "linking_record_id": 3528,
+              "linking_record_url": "http://gensc.org",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 16037
             },
             {
               "linking_record_name": "Multi-Omics Metadata Standards Integration Working Group Iterative Collection",
               "linking_record_id": 5742,
+              "linking_record_url": "https://rda-momsi.github.io/Dashboard",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 21026
             },
             {
               "linking_record_name": "EUREMAP: EUROPEAN RESEARCH INFRASTRUCTURES FOR MARINE BIOPROSPECTING",
               "linking_record_id": 6042,
+              "linking_record_url": "https://euremap.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 21417
             },
             {
               "linking_record_name": "Life Science Standards",
               "linking_record_id": 6225,
+              "linking_record_url": "https://fairsharing.org/advancedsearch?operator=_and&fields=%28operator%3D_and%26registry%3Dstandard%26status%3Dready%2Bin_development%26subjects%3DLife%20Science%29",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 22710
             },
             {
               "linking_record_name": "ELIXIR Biodiversity Community",
               "linking_record_id": 6505,
+              "linking_record_url": "https://elixir-europe.org/communities/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 24068
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26766
             }
           ],
@@ -729,25 +775,31 @@
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12439
             },
             {
               "linking_record_name": "Life Science Standards",
               "linking_record_id": 6225,
+              "linking_record_url": "https://fairsharing.org/advancedsearch?operator=_and&fields=%28operator%3D_and%26registry%3Dstandard%26status%3Dready%2Bin_development%26subjects%3DLife%20Science%29",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 22854
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26764
             }
           ],
@@ -944,89 +996,111 @@
             {
               "linking_record_name": "ELIXIR Toxicology Community",
               "linking_record_id": 3496,
+              "linking_record_url": "https://elixir-europe.org/communities/toxicology",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 17059
             },
             {
               "linking_record_name": "ELIXIR Data resource services",
               "linking_record_id": 3535,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 17080
             },
             {
               "linking_record_name": "EOSC-Life",
               "linking_record_id": 3513,
+              "linking_record_url": "https://www.eosc-life.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11317
             },
             {
               "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
               "linking_record_id": 3527,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11828
             },
             {
               "linking_record_name": "Bioschemas Deploys",
               "linking_record_id": 3517,
+              "linking_record_url": "https://bioschemas.org",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 19499
             },
             {
               "linking_record_name": "European Life Science Research Infrastructures",
               "linking_record_id": 6457,
+              "linking_record_url": "https://lifescience-ri.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 23798
             },
             {
               "linking_record_name": "ELIXIR Biodiversity Community",
               "linking_record_id": 6505,
+              "linking_record_url": "https://elixir-europe.org/communities/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 24146
             },
             {
               "linking_record_name": "RDMkit Plant sciences Domain",
               "linking_record_id": 7479,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/plant_sciences",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26291
             },
             {
               "linking_record_name": "RDMkit Virology Domain",
               "linking_record_id": 7482,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/virology",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26344
             },
             {
               "linking_record_name": "RDMkit Biodiversity Domain",
               "linking_record_id": 7490,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26439
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26771
             }
           ],
@@ -1358,161 +1432,201 @@
             {
               "linking_record_name": "Genomic Standards Consortium",
               "linking_record_id": 3528,
+              "linking_record_url": "http://gensc.org",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 17569
             },
             {
               "linking_record_name": "Data Citation Implementation",
               "linking_record_id": 3500,
+              "linking_record_url": "https://www.force11.org/group/data-citation-implementation-pilot-dcip",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 10939
             },
             {
               "linking_record_name": "EOSC-Life",
               "linking_record_id": 3513,
+              "linking_record_url": "https://www.eosc-life.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11336
             },
             {
               "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
               "linking_record_id": 3527,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11837
             },
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12636
             },
             {
               "linking_record_name": "TDR COVID-19 Participant-level data sharing platforms & registries",
               "linking_record_id": 3544,
+              "linking_record_url": "https://coronavirus.tghn.org/research-resources/data-sharing-covid-19/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12954
             },
             {
               "linking_record_name": "Biodiversity Community Integrated Knowledge Library",
               "linking_record_id": 3776,
+              "linking_record_url": "https://bicikl-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 13907
             },
             {
               "linking_record_name": "Global Biodata Coalition  - Global Core Biodata Resources",
               "linking_record_id": 4566,
+              "linking_record_url": "https://globalbiodata.org/what-we-do/global-core-biodata-resources/list-of-current-global-core-biodata-resources/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 16203
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 19704
             },
             {
               "linking_record_name": "ELIXIR Data resource services",
               "linking_record_id": 3535,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 20298
             },
             {
               "linking_record_name": "EUREMAP: EUROPEAN RESEARCH INFRASTRUCTURES FOR MARINE BIOPROSPECTING",
               "linking_record_id": 6042,
+              "linking_record_url": "https://euremap.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 21418
             },
             {
               "linking_record_name": "European Life Science Research Infrastructures",
               "linking_record_id": 6457,
+              "linking_record_url": "https://lifescience-ri.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 23817
             },
             {
               "linking_record_name": "ELIXIR Biodiversity Community",
               "linking_record_id": 6505,
+              "linking_record_url": "https://elixir-europe.org/communities/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 24136
             },
             {
               "linking_record_name": "RDMkit Microbial biotechnology Domain",
               "linking_record_id": 7481,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/microbial_biotechnology",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26332
             },
             {
               "linking_record_name": "RDMkit Virology Domain",
               "linking_record_id": 7482,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/virology",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26348
             },
             {
               "linking_record_name": "RDMkit Single-cell sequencing Domain",
               "linking_record_id": 7487,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/single_cell_sequencing",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26412
             },
             {
               "linking_record_name": "RDMkit Human pathogen genomics Domain",
               "linking_record_id": 7489,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/human_pathogen_genomics",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26433
             },
             {
               "linking_record_name": "RDMkit Biodiversity Domain",
               "linking_record_id": 7490,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26454
             },
             {
               "linking_record_name": "RDMkit Epitranscriptome data Domain",
               "linking_record_id": 7478,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/epitranscriptome_data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26488
             },
             {
               "linking_record_name": "Systems Biology  Identifier Systems and Ontologies",
               "linking_record_id": 8014,
+              "linking_record_url": "https://elixir-europe.org/communities/systems-biology",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 28843
             }
           ],
@@ -2021,57 +2135,71 @@
             {
               "linking_record_name": "EOSC-Life",
               "linking_record_id": 3513,
+              "linking_record_url": "https://www.eosc-life.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11340
             },
             {
               "linking_record_name": "Bioschemas Deploys",
               "linking_record_id": 3517,
+              "linking_record_url": "https://bioschemas.org",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11521
             },
             {
               "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
               "linking_record_id": 3527,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11839
             },
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12638
             },
             {
               "linking_record_name": "ELIXIR Data resource services",
               "linking_record_id": 3535,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 20308
             },
             {
               "linking_record_name": "European Life Science Research Infrastructures",
               "linking_record_id": 6457,
+              "linking_record_url": "https://lifescience-ri.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 23821
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26763
             }
           ],
@@ -2098,32 +2226,32 @@
           ],
           "user_defined_tags": [],
           "countries": [
-            "Germany",
-            "Lithuania",
-            "Greece",
-            "Czech Republic",
-            "United Kingdom",
-            "Iceland",
-            "Malta",
-            "Portugal",
-            "Luxembourg",
-            "Denmark",
-            "Ireland",
-            "Norway",
-            "Belgium",
-            "Slovakia",
-            "Croatia",
-            "Italy",
-            "Spain",
             "Austria",
-            "Switzerland",
-            "Montenegro",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
             "Finland",
-            "Sweden",
             "France",
-            "Netherlands",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
             "Israel",
-            "Hungary"
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
           ],
           "publications": [
             {
@@ -2732,89 +2860,111 @@
             {
               "linking_record_name": "Data Citation Implementation",
               "linking_record_id": 3500,
+              "linking_record_url": "https://www.force11.org/group/data-citation-implementation-pilot-dcip",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 10973
             },
             {
               "linking_record_name": "EOSC-Life",
               "linking_record_id": 3513,
+              "linking_record_url": "https://www.eosc-life.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11358
             },
             {
               "linking_record_name": "ELIXIR Core Data Resources and Deposition Databases",
               "linking_record_id": 3527,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11848
             },
             {
               "linking_record_name": "COVID-19 Resources",
               "linking_record_id": 3538,
+              "linking_record_url": "https://fairsharing.org/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12319
             },
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12696
             },
             {
               "linking_record_name": "TDR COVID-19 Participant-level data sharing platforms & registries",
               "linking_record_id": 3544,
+              "linking_record_url": "https://coronavirus.tghn.org/research-resources/data-sharing-covid-19/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12957
             },
             {
               "linking_record_name": "BY-COVID Data Resources",
               "linking_record_id": 3773,
+              "linking_record_url": "https://by-covid.org/about#partners",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 13978
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 19701
             },
             {
               "linking_record_name": "ELIXIR Data resource services",
               "linking_record_id": 3535,
+              "linking_record_url": "https://elixir-europe.org/platforms/data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 20271
             },
             {
               "linking_record_name": "European Life Science Research Infrastructures",
               "linking_record_id": 6457,
+              "linking_record_url": "https://lifescience-ri.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 23839
             },
             {
               "linking_record_name": "RDMkit Structural Bioinformatics Domain",
               "linking_record_id": 7477,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/structural_bioinformatics",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26278
             }
           ],
@@ -3201,89 +3351,111 @@
             {
               "linking_record_name": "Open Microscopy Environment",
               "linking_record_id": 3502,
+              "linking_record_url": "https://openmicroscopy.org",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11016
             },
             {
               "linking_record_name": "Euro-BioImaging ERIC ",
               "linking_record_id": 3508,
+              "linking_record_url": "http://www.eurobioimaging.eu",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11224
             },
             {
               "linking_record_name": "EOSC-Life",
               "linking_record_id": 3513,
+              "linking_record_url": "https://www.eosc-life.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11369
             },
             {
               "linking_record_name": "BY-COVID Data Resources",
               "linking_record_id": 3773,
+              "linking_record_url": "https://by-covid.org/about#partners",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 13980
             },
             {
               "linking_record_name": "ISO 20691 - Requirements for data formatting and description in the life sciences",
               "linking_record_id": 3533,
+              "linking_record_url": "https://www.iso.org/committee/4514241.html",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 14563
             },
             {
               "linking_record_name": "AgroServ",
               "linking_record_id": 5796,
+              "linking_record_url": "https://agroserv.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 20409
             },
             {
               "linking_record_name": "European Life Science Research Infrastructures",
               "linking_record_id": 6457,
+              "linking_record_url": "https://lifescience-ri.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 23850
             },
             {
               "linking_record_name": "ELIXIR Biodiversity Community",
               "linking_record_id": 6505,
+              "linking_record_url": "https://elixir-europe.org/communities/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 24098
             },
             {
               "linking_record_name": "RDMkit Bioimaging data Domain",
               "linking_record_id": 7476,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/bioimaging_data",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26277
             },
             {
               "linking_record_name": "RDMkit Microbial biotechnology Domain",
               "linking_record_id": 7481,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/microbial_biotechnology",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26310
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26761
             }
           ],
@@ -3653,57 +3825,71 @@
             {
               "linking_record_name": "Bioschemas Deploys",
               "linking_record_id": 3517,
+              "linking_record_url": "https://bioschemas.org",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 11559
             },
             {
               "linking_record_name": "COVID-19 Resources",
               "linking_record_id": 3538,
+              "linking_record_url": "https://fairsharing.org/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12350
             },
             {
               "linking_record_name": "RDA Covid-19 WG Resources",
               "linking_record_id": 3540,
+              "linking_record_url": "https://www.rd-alliance.org/groups/rda-covid19",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 12897
             },
             {
               "linking_record_name": "BY-COVID Data Resources",
               "linking_record_id": 3773,
+              "linking_record_url": "https://by-covid.org/about#partners",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 15207
             },
             {
               "linking_record_name": "Euro-BioImaging ERIC ",
               "linking_record_id": 3508,
+              "linking_record_url": "http://www.eurobioimaging.eu",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 15948
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 19703
             },
             {
               "linking_record_name": "RDMkit Human pathogen genomics Domain",
               "linking_record_id": 7489,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/human_pathogen_genomics",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26431
             }
           ],
@@ -3939,17 +4125,21 @@
             {
               "linking_record_name": "Life Science Standards",
               "linking_record_id": 6225,
+              "linking_record_url": "https://fairsharing.org/advancedsearch?operator=_and&fields=%28operator%3D_and%26registry%3Dstandard%26status%3Dready%2Bin_development%26subjects%3DLife%20Science%29",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 23022
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26762
             }
           ],
@@ -4063,25 +4253,31 @@
             {
               "linking_record_name": "Life Science Standards",
               "linking_record_id": 6225,
+              "linking_record_url": "https://fairsharing.org/advancedsearch?operator=_and&fields=%28operator%3D_and%26registry%3Dstandard%26status%3Dready%2Bin_development%26subjects%3DLife%20Science%29",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 22389
             },
             {
               "linking_record_name": "ELIXIR Biodiversity Community",
               "linking_record_id": 6505,
+              "linking_record_url": "https://elixir-europe.org/communities/biodiversity",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 24241
             },
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26770
             }
           ],
@@ -4102,32 +4298,32 @@
           ],
           "user_defined_tags": [],
           "countries": [
-            "Austria",
-            "Belgium",
-            "Croatia",
-            "Czech Republic",
-            "Denmark",
-            "Finland",
-            "France",
             "Germany",
-            "Greece",
-            "Hungary",
-            "Iceland",
-            "Ireland",
-            "Israel",
-            "Italy",
             "Lithuania",
-            "Luxembourg",
+            "Greece",
+            "Czech Republic",
+            "United Kingdom",
+            "Iceland",
             "Malta",
-            "Montenegro",
-            "Netherlands",
-            "Norway",
             "Portugal",
+            "Luxembourg",
+            "Denmark",
+            "Ireland",
+            "Norway",
+            "Belgium",
             "Slovakia",
+            "Croatia",
+            "Italy",
             "Spain",
-            "Sweden",
+            "Austria",
             "Switzerland",
-            "United Kingdom"
+            "Montenegro",
+            "Finland",
+            "Sweden",
+            "France",
+            "Netherlands",
+            "Israel",
+            "Hungary"
           ],
           "publications": [],
           "licence_links": [
@@ -4205,121 +4401,151 @@
             {
               "linked_record_name": "Dublin Core Metadata Initiative Terms",
               "linked_record_id": 905,
+              "linked_record_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
               "linked_record_registry": "Standard",
               "linked_record_type": "terminology_artefact",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26337
             },
             {
               "linked_record_name": "The European Genome-phenome Archive",
               "linked_record_id": 1865,
+              "linked_record_url": "https://ega-archive.org/",
               "linked_record_registry": "Database",
               "linked_record_type": "repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26338
             },
             {
               "linked_record_name": "Data Catalog Vocabulary",
               "linked_record_id": 747,
+              "linked_record_url": "https://www.w3.org/TR/vocab-dcat/",
               "linked_record_registry": "Standard",
               "linked_record_type": "model_and_format",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26339
             },
             {
               "linked_record_name": "FAIRsharing",
               "linked_record_id": 2521,
+              "linked_record_url": "https://fairsharing.org",
               "linked_record_registry": "Database",
               "linked_record_type": "knowledgebase_and_repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26340
             },
             {
               "linked_record_name": "Global Initiative on Sharing Avian Influenza Data",
               "linked_record_id": 2925,
+              "linked_record_url": "https://www.gisaid.org/",
               "linked_record_registry": "Database",
               "linked_record_type": "repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26341
             },
             {
               "linked_record_name": "NCBI Genetic Sequence Database",
               "linked_record_id": 1547,
+              "linked_record_url": "https://www.ncbi.nlm.nih.gov/genbank/",
               "linked_record_registry": "Database",
               "linked_record_type": "repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26342
             },
             {
               "linked_record_name": "Nextstrain",
               "linked_record_id": 6193,
+              "linked_record_url": "https://nextstrain.org/",
               "linked_record_registry": "Database",
               "linked_record_type": "knowledgebase",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26343
             },
             {
               "linked_record_name": "BioSamples",
               "linked_record_id": 1554,
+              "linked_record_url": "https://www.ebi.ac.uk/biosamples/",
               "linked_record_registry": "Database",
               "linked_record_type": "repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26344
             },
             {
               "linked_record_name": "International Committee on Taxonomy of Viruses",
               "linked_record_id": 5428,
+              "linked_record_url": "https://ictv.global/taxonomy",
               "linked_record_registry": "Database",
               "linked_record_type": "knowledgebase_and_repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26345
             },
             {
               "linked_record_name": "Pathoplexus",
               "linked_record_id": 6071,
+              "linked_record_url": "https://pathoplexus.org",
               "linked_record_registry": "Database",
               "linked_record_type": "repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26346
             },
             {
               "linked_record_name": "Minimum Information about an Uncultivated Virus Genome",
               "linked_record_id": 4153,
+              "linked_record_url": "https://genomicsstandardsconsortium.github.io/mixs/0010012/",
               "linked_record_registry": "Standard",
               "linked_record_type": "model_and_format",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26347
             },
             {
               "linked_record_name": "European Nucleotide Archive",
               "linked_record_id": 1850,
+              "linked_record_url": "http://www.ebi.ac.uk/ena",
               "linked_record_registry": "Database",
               "linked_record_type": "repository",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26348
             },
             {
               "linked_record_name": "Bioschemas Sample Profile",
               "linked_record_id": 3589,
+              "linked_record_url": "https://bioschemas.org/profiles/Sample/0.2-RELEASE-2018_11_10",
               "linked_record_registry": "Standard",
               "linked_record_type": "model_and_format",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26335
             },
             {
               "linked_record_name": "Minimum Information about any (x) Sequence",
               "linked_record_id": 262,
+              "linked_record_url": "https://github.com/GenomicsStandardsConsortium/mixs",
               "linked_record_registry": "Standard",
               "linked_record_type": "reporting_guideline",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26336
             },
             {
               "linked_record_name": "ICTV Ontology",
               "linked_record_id": 7551,
+              "linked_record_url": "https://www.ebi.ac.uk/ols4/ontologies/ictv",
               "linked_record_registry": "Standard",
               "linked_record_type": "terminology_artefact",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 29003
             }
           ],
@@ -4327,17 +4553,21 @@
             {
               "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
               "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26760
             },
             {
               "linking_record_name": "FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
               "linking_record_id": 7589,
+              "linking_record_url": "https://evora-project.eu/",
               "linking_record_registry": "Collection",
               "linking_record_type": "collection",
               "relation": "collects",
+              "relation_id": 10,
               "link_id": 26843
             }
           ],
