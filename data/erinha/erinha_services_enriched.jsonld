@@ -27217,7 +27217,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -27234,7 +27233,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -27350,10 +27348,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -28679,7 +28673,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -28697,7 +28690,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -28823,10 +28815,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -28962,7 +28950,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -28980,7 +28967,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -29106,10 +29092,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -29245,7 +29227,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -29263,7 +29244,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -29389,10 +29369,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -29528,7 +29504,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -29546,7 +29521,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -29672,10 +29646,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -32027,7 +31997,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32045,7 +32014,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32171,10 +32139,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -32300,7 +32264,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32318,7 +32281,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32444,10 +32406,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -32573,7 +32531,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32591,7 +32548,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32717,10 +32673,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -32846,7 +32798,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32864,7 +32815,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -32990,10 +32940,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -33119,7 +33065,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33137,7 +33082,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33263,10 +33207,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -33392,7 +33332,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33410,7 +33349,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33536,10 +33474,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -33665,7 +33599,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33683,7 +33616,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33809,10 +33741,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -33938,7 +33866,6 @@
         "Orthohantavirus dobravaense",
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -33956,7 +33883,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -34082,10 +34008,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -38436,7 +38358,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -38453,7 +38374,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -38583,10 +38503,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -38727,7 +38643,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -38744,7 +38659,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -38874,10 +38788,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -39018,7 +38928,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39035,7 +38944,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39165,10 +39073,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -39309,7 +39213,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39326,7 +39229,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39456,10 +39358,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -39600,7 +39498,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39617,7 +39514,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39747,10 +39643,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -39871,7 +39763,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -39888,7 +39779,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40018,10 +39908,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -40142,7 +40028,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40159,7 +40044,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40289,10 +40173,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -40413,7 +40293,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40430,7 +40309,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40560,10 +40438,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -40684,7 +40558,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40701,7 +40574,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40831,10 +40703,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -40960,7 +40828,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -40977,7 +40844,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41107,10 +40973,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -41236,7 +41098,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41253,7 +41114,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41383,10 +41243,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -41512,7 +41368,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41529,7 +41384,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41659,10 +41513,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -41788,7 +41638,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41805,7 +41654,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -41935,10 +41783,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -42064,7 +41908,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -42081,7 +41924,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -42211,10 +42053,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -42340,7 +42178,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -42357,7 +42194,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -42487,10 +42323,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -42616,7 +42448,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -42633,7 +42464,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -42763,10 +42593,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -42909,6 +42735,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -43038,6 +42865,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -43181,6 +43012,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -43310,6 +43142,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -43995,6 +43831,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -44124,6 +43961,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -48181,7 +48022,6 @@
         "Alphainfluenzavirus influenzae",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -48198,7 +48038,6 @@
         "Influenza A virus",
         "Influenza virus A",
         "Influenza virus",
-        "FLUAV",
         "Alphainfluenzavirus",
         "Viruses",
         "Riboviria",
@@ -48328,10 +48167,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Influenza virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "FLUAV"
             }
           ],
           "EVORAO:lineage": [
@@ -50297,6 +50132,7 @@
         "O'Nyong-nyong virus",
         "O'nyong-nyong virus",
         "Onyong-nyong virus",
+        "O'nyong'nyong virus",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -50425,6 +50261,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Onyong-nyong virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "O'nyong'nyong virus"
             }
           ],
           "EVORAO:lineage": [
@@ -51886,7 +51726,6 @@
         "Immortalised cells",
         "African Green Monkey",
         "Alphavirus venezuelan",
-        "VEEV",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -51900,7 +51739,6 @@
       "search:taxon": [
         "Alphavirus venezuelan",
         "Venezuelan equine encephalitis virus",
-        "VEEV",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -52016,10 +51854,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Venezuelan equine encephalitis virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "VEEV"
             }
           ],
           "EVORAO:lineage": [
@@ -53082,7 +52916,6 @@
         "Dobrava-Belgrade hantavirus",
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -53101,7 +52934,6 @@
         "Dobrava-Belgrade orthohantavirus",
         "Dobrava-Belgrade virus",
         "Dobrava-Belgrade Virus",
-        "DOBV",
         "Orthohantavirus",
         "Viruses",
         "Riboviria",
@@ -53231,10 +53063,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Dobrava-Belgrade Virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "DOBV"
             }
           ],
           "EVORAO:lineage": [
@@ -65221,6 +65049,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -65346,6 +65175,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -65453,6 +65286,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -65578,6 +65412,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -65685,6 +65523,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -65810,6 +65649,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -65917,6 +65760,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -66042,6 +65886,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -66149,6 +65997,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -66274,6 +66123,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -66381,6 +66234,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -66506,6 +66360,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -71171,7 +71029,6 @@
         "Eastern equine encephalitis virus",
         "Tissue culture",
         "Alphavirus eastern",
-        "EEEV",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -71185,7 +71042,6 @@
       "search:taxon": [
         "Alphavirus eastern",
         "Eastern equine encephalitis virus",
-        "EEEV",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -71293,10 +71149,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Eastern equine encephalitis virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "EEEV"
             }
           ],
           "EVORAO:lineage": [
@@ -73982,7 +73834,6 @@
         "Venezuelan equine encephalitis virus",
         "Tissue culture",
         "Alphavirus venezuelan",
-        "VEEV",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -73996,7 +73847,6 @@
       "search:taxon": [
         "Alphavirus venezuelan",
         "Venezuelan equine encephalitis virus",
-        "VEEV",
         "Alphavirus",
         "Viruses",
         "Riboviria",
@@ -74104,10 +73954,6 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Venezuelan equine encephalitis virus"
-            },
-            {
-              "@type": "EVORAO:AlternateName",
-              "dcterms:title": "VEEV"
             }
           ],
           "EVORAO:lineage": [
@@ -75962,6 +75808,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -76078,6 +75925,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -76187,6 +76038,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -76303,6 +76155,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -76428,6 +76284,7 @@
       "search:taxon": [
         "Orthoebolavirus bundibugyoense",
         "Bundibugyo ebolavirus",
+        "Ebolavirus Bundibugyo virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -76536,6 +76393,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Bundibugyo ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Bundibugyo virus"
             }
           ],
           "EVORAO:lineage": [
@@ -76646,6 +76507,7 @@
         "Ivory Coast ebolavirus",
         "Tai Forest ebolavirus",
         "Taï Forest ebolavirus",
+        "Ebolavirus Tai Forest virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -76774,6 +76636,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Taï Forest ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Tai Forest virus"
             }
           ],
           "EVORAO:lineage": [
@@ -76858,11 +76724,38 @@
       "dcat:keyword": [
         "Ebolavirus Reston virus",
         "Tissue culture",
-        "Orthoeboavirus restonense"
+        "Orthoeboavirus restonense",
+        "Orthoebolavirus restonense",
+        "Ebola virus Reston",
+        "Reston Ebola virus",
+        "Reston ebolavirus",
+        "Orthoebolavirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "search:keywords": [],
       "search:taxon": [
-        "Orthoeboavirus restonense"
+        "Orthoeboavirus restonense",
+        "Orthoebolavirus restonense",
+        "Ebola virus Reston",
+        "Reston Ebola virus",
+        "Reston ebolavirus",
+        "Ebolavirus Reston virus",
+        "Orthoebolavirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
@@ -76919,7 +76812,7 @@
         }
       ],
       "search:pathogenName": "Ebolavirus Reston virus",
-      "search:taxonLabel": "Orthoeboavirus restonense",
+      "search:taxonLabel": "Orthoebolavirus restonense",
       "EVORAO:pathogenIdentification": {
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
@@ -76928,7 +76821,69 @@
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Orthoeboavirus restonense"
+          "dcterms:title": "Orthoebolavirus restonense",
+          "EVORAO:taxonomicId": "ICTV19950285",
+          "EVORAO:taxonomy": {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            "dcat:version": "MSL41",
+            "EVORAO:versionDataProvider": {
+              "@type": "EVORAO:DataProvider",
+              "dcterms:title": "ICTV via OLS4",
+              "EVORAO:weight": 1
+            }
+          },
+          "EVORAO:rank": {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": "species",
+            "EVORAO:taxonomy": {
+              "@type": "EVORAO:Taxonomy",
+              "dcterms:title": "ICTV",
+              "dcat:version": "MSL41",
+              "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                "EVORAO:weight": 1
+              }
+            }
+          },
+          "EVORAO:parentTaxon": {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": "Orthoebolavirus"
+          },
+          "EVORAO:alternateName": [
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebola virus Reston"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Reston Ebola virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Orthoeboavirus restonense"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
+            }
+          ],
+          "EVORAO:lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Haploviricotina",
+            "Monjiviricetes",
+            "Mononegavirales",
+            "Filoviridae",
+            "Orthoebolavirus"
+          ]
         }
       },
       "search:additionalCategory": [
@@ -89620,6 +89575,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -89744,6 +89700,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -89900,6 +89860,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -90024,6 +89985,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -90175,6 +90140,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -90299,6 +90265,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -90455,6 +90425,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -90579,6 +90550,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -90730,6 +90705,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -90854,6 +90830,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -91010,6 +90990,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -91134,6 +91115,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -91285,6 +91270,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -91409,6 +91395,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -91555,6 +91545,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -91679,6 +91670,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -91820,6 +91815,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -91944,6 +91940,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -92090,6 +92090,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -92214,6 +92215,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -92355,6 +92360,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -92479,6 +92485,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -92625,6 +92635,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -92749,6 +92760,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -92890,6 +92905,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -93015,6 +93031,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -93161,6 +93181,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -93286,6 +93307,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -93427,6 +93452,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -93552,6 +93578,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -93698,6 +93728,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -93823,6 +93854,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan virus"
             }
           ],
           "EVORAO:lineage": [
@@ -93964,6 +93999,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -94089,6 +94125,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -94235,6 +94275,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -94360,6 +94401,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -145323,6 +145368,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -145452,6 +145498,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -145554,6 +145604,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -145683,6 +145734,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -145785,6 +145840,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -145914,6 +145970,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -146015,6 +146075,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -146139,6 +146200,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -146471,6 +146536,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -146601,6 +146667,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -146698,6 +146768,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -146828,6 +146899,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -146925,6 +147000,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -147055,6 +147131,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -147127,6 +147207,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -147257,6 +147338,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -147329,6 +147414,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -147459,6 +147545,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire virus"
             }
           ],
           "EVORAO:lineage": [
@@ -147530,6 +147620,7 @@
         "Ebola virus Reston",
         "Reston Ebola virus",
         "Reston ebolavirus",
+        "Ebolavirus Reston virus",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -147655,6 +147746,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Reston ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Reston virus"
             }
           ],
           "EVORAO:lineage": [
@@ -149151,6 +149246,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -149275,6 +149371,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire"
             }
           ],
           "EVORAO:lineage": [
@@ -149376,6 +149476,7 @@
         "Ebola virus Zaire",
         "Zaire Ebola virus",
         "Zaire ebolavirus",
+        "Ebolavirus Zaire",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -149500,6 +149601,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Zaire ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Zaire"
             }
           ],
           "EVORAO:lineage": [
@@ -149601,6 +149706,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -149725,6 +149831,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan"
             }
           ],
           "EVORAO:lineage": [
@@ -149826,6 +149936,7 @@
         "Ebola virus Sudan",
         "Sudan Ebola virus",
         "Sudan ebolavirus",
+        "Ebolavirus Sudan",
         "Orthoebolavirus",
         "Viruses",
         "Riboviria",
@@ -149950,6 +150061,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Sudan ebolavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Ebolavirus Sudan"
             }
           ],
           "EVORAO:lineage": [
