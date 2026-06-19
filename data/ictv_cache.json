@@ -144463,5 +144463,121 @@
       "Mammarenavirus guanaritoense"
     ],
     "_evora_strategy": "direct"
+  },
+  "Madariaga virus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV20125921",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20125921",
+      "ictv_curie": "ictv:MSL41/ICTV20125921",
+      "iri": "http://ictv.global/id/MSL41/ICTV20125921",
+      "label": "Alphavirus madariaga",
+      "synonyms": [
+        "Madariaga virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19710015",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV201907217",
+        "http://ictv.global/id/MSL41/ICTV201907225",
+        "http://ictv.global/id/MSL41/ICTV201907226",
+        "http://ictv.global/id/MSL41/ICTV19740006",
+        "http://ictv.global/id/MSL41/ICTV19710015"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20125921",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:DQ241303",
+        "genbank:EF151503",
+        "genbank:KJ469640",
+        "refseq:NC_023812",
+        "refseq:NC_075011"
+      ],
+      "direct_parent_label": "Alphavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Kitrinoviricota",
+        "Alsuviricetes",
+        "Martellivirales",
+        "Togaviridae",
+        "Alphavirus"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:3426305",
+        "label": "Alphavirus madariaga"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:1440170",
+        "label": "Madariaga virus"
+      }
+    ],
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20125921",
+      "ictv_curie": "ictv:MSL41/ICTV20125921",
+      "iri": "http://ictv.global/id/MSL41/ICTV20125921",
+      "label": "Alphavirus madariaga",
+      "synonyms": [
+        "Madariaga virus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19710015",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV201907217",
+        "http://ictv.global/id/MSL41/ICTV201907225",
+        "http://ictv.global/id/MSL41/ICTV201907226",
+        "http://ictv.global/id/MSL41/ICTV19740006",
+        "http://ictv.global/id/MSL41/ICTV19710015"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20125921",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:DQ241303",
+        "genbank:EF151503",
+        "genbank:KJ469640",
+        "refseq:NC_023812",
+        "refseq:NC_075011"
+      ],
+      "direct_parent_label": "Alphavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Kitrinoviricota",
+        "Alsuviricetes",
+        "Martellivirales",
+        "Togaviridae",
+        "Alphavirus"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Madariaga virus"
+    ],
+    "_evora_strategy": "direct"
   }
 }
