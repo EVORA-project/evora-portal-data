@@ -2745,7 +2745,7 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2014-11-04T15:23:40.000Z",
-          "updated_at": "2025-07-31T13:16:59.650Z",
+          "updated_at": "2026-06-23T16:58:15.676Z",
           "metadata": {
             "doi": "10.25504/FAIRsharing.651n9j",
             "name": "Electron Microscopy Data Bank",
@@ -2831,7 +2831,7 @@
                 "portal": "SciCrunch"
               }
             ],
-            "internal_identifiers": false,
+            "internal_identifiers": true,
             "data_access_condition": {
               "type": "open"
             },
@@ -3214,7 +3214,7 @@
             "image",
             "model"
           ],
-          "internal_identifiers": false
+          "internal_identifiers": true
         }
       }
     },
