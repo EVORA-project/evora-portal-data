@@ -144579,5 +144579,21 @@
       "Mammarenavirus lassaense"
     ],
     "_evora_strategy": "direct"
+  },
+  "Aedes flavivirus": {
+    "status": "not-found",
+    "input": "Aedes flavivirus",
+    "suggestions": [
+      "Flavivirus",
+      "Crangon crangon flavivirus",
+      "Orthoflavivirus flavi",
+      "Aedes anphevirus",
+      "Euflavivirus"
+    ],
+    "_evora_target": null,
+    "_evora_preserved_names": [
+      "Aedes flavivirus"
+    ],
+    "_evora_strategy": "direct"
   }
 }

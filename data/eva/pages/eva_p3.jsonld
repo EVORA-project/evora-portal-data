@@ -20,6 +20,285 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "CNR"
+      },
+      "EVORAO:refSku": "029V-05438",
+      "@id": "urn:evorao:EVA:CNR:029V-05438",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bean-common-mosaic-necrosis-virus-isolate-plavit-ve5",
+      "dcterms:issued": "2023-10-12T15:31:41+02:00",
+      "dcterms:modified": "2023-10-12T15:31:41+02:00",
+      "dcterms:title": "Bean common mosaic necrosis virus, isolate PLAVIT-VE5 ",
+      "dcterms:description": "Bean common mosaic necrosis virus from bean",
+      "EVORAO:unitDefinition": "Vial containing infectious freeze dried leaf tissue",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 2 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1986-11-24",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Rwanda"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "Not tested",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "bioassay;; RT-PCR; Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "CIAT"
+      },
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CNR"
+      },
+      "EVORAO:accessionNumber": "OR482968",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Phaseolus vulgaris"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "CNR",
+        "Room Temperature",
+        "bean",
+        "Bean common mosaic necrosis virus",
+        "CIAT",
+        "Mechanical inoculation",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "OR482968",
+        "Phaseolus vulgaris",
+        "Plant virus",
+        "potyvirus",
+        "RG1",
+        "Rwanda"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1986-11-24",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "Bean common mosaic necrosis virus, isolate PLAVIT-VE5 polyprotein gene, partial cds\nAAAATTGGTGACAGATCTGTTTGGAAGTGAAGTCAGTGTGCAGAGCAAGAAGGACAAATGGGTTTTAGAAGCAGTTGAAGGTAATCTGGTTGCATGTGGACAAGCTGAGAGTGCATTGGTGACAAAACATGTTGTCAAAGGAAAATGTTGCTATTTTGCGCAGTATCTATCATTGCACCCGGATGCACAAGCATTCTTCAAACCACTAATGAGTGCATACCAACCAAGCAAGCTCAATAAAGAGGCTTTTAAGAAAGATTTCTTCAAGTATAACAAACCAGTTATGCTAAACGAAGTCAATTTTGAAGCATTTGAGAGAGCAGTAGAGGGGGTGAAGATAATGATGATTGAATTTGGATTCAACGAGTGCGTGTATGTGACTGACCCTGACGATATCTATGACTCATTGAACATGAAAGCAGCGGTTGGTGCTCAGTATAAAGGGAAGAAGCAGGACTACTTCCAGGACATGGACTCATTCGACAAGGAAAGGTTGCTCTTTTTGAGTTGCGAGCGCTTGTTCTATGGCCAAAAAGGAATTTGGAATGGATCACTCAAAGCTGAATTGAGACCGTTAGAAAAAGTACAAGCTAACAAGACTCGAACGTTCACAGCTGCTCCAATTGACACACTGCTCGGGGCGAAGGTGTGCGTTGATGACTTTAACAACCAATTCTATTCCTTCAACTTAATTTGTCCTTGGACAGTAGGAATGACAAAGTTTTATGGGGGCTGGGACAAGTTGATGCGAGCACTCCCTGATGGGTGGGTTTACTGTCATGCAGATGGATCACAATTTGACAGTTCGCTCACACCTTTGTTGCTCAACTCTGTTCTTAGCATAAGAAGTTTCTTCATGGAGGACTGGTGGGTTGGAAAAGAAATGCTGGAGAATTTGTATGCTGAAATTGTCTACACACCAATACTCACACCAGATGGGACAATTTTCAAGAAGTTCAGGGGCAATAACAGTGGACAACCTTCAACAGTTGTGGACAACACATTGATGGTTGTCATTTCCATGTACTACTCATGCATAAAAGAGGGCTGGACTTATGATGATATTCAGGAAAGGCTAGTTTTCTTCGCCAATGGTGATGATATCATACTAGCAGTTCAAAAAGAGGATGTGTGGTTATATAACACACTCAGCAATTCTTTTAAAGAGCTCGGTCTGAACTATGATTTTTCAGAACAAACTACAAAGCGTGAGGAGCTA",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OR482968"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bean common mosaic necrosis virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bean common mosaic necrosis virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "PLAVIT-VE5",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "029V-05438",
+      "search:title": "Bean common mosaic necrosis virus, isolate PLAVIT-VE5 ",
+      "search:description": "Bean common mosaic necrosis virus from bean",
+      "search:taxonLabel": "Bean common mosaic necrosis virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Phaseolus vulgaris",
+      "search:collectionName": "CNR",
+      "search:countryOfCollection": "Rwanda",
+      "search:accessionNumber": "OR482968",
+      "search:providerName": "CNR",
+      "search:originatorName": "CIAT",
+      "search:pathogenName": "Bean common mosaic necrosis virus"
+    },
+    {
+      "@type": "EVORAO:Protein",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU_b"
+      },
+      "EVORAO:refSku": "100P-05434",
+      "@id": "urn:evorao:EVA:AMU_b:100P-05434",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/protein/ns1-dengue-virus-3-recombinant-protein",
+      "dcterms:issued": "2023-10-09T15:08:53+02:00",
+      "dcterms:modified": "2023-10-10T14:33:05+02:00",
+      "dcterms:title": "NS1 Dengue virus 3 Recombinant protein ",
+      "dcterms:description": "Recombinant NS1 from Dengue virus serotype 3, produced in Expi293F HEK cells, fused to an Hexahistidine tag.",
+      "EVORAO:unitDefinition": "500 µg",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "protein"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 800,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 2 months",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:SyntheticPartOrigin",
+          "EVORAO:partIdentification": "all the protein is synthetic",
+          "EVORAO:sequence": {
+            "@type": "EVORAO:Sequence",
+            "EVORAO:sequenceReference": {
+              "@type": "EVORAO:SequenceReference",
+              "EVORAO:sequenceProvider": "GenBank",
+              "EVORAO:accessionNumber": "WDE20542.1"
+            }
+          },
+          "EVORAO:modificationsFromTheReferenceSequences": false
+        },
+        "EVORAO:recombinantMaterial": true,
+        "EVORAO:biologicalSourceType": false
+      },
+      "EVORAO:domain": "Full length",
+      "EVORAO:expressedAs": "Soluble",
+      "EVORAO:expressionSystem": "Mammalian cells",
+      "EVORAO:functionalCharacterization": "Functionally characterized",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Protein2.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:proteinPurification": ">95%",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:tagSequence": "His Cterm",
+      "EVORAO:tagStatusOfTheSolubilizedProtein": "Uncleaved Tag",
+      "EVORAO:typeOfFunctionalCharacterization": "Antigenic",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU_b"
+      },
+      "dcat:keyword": [
+        "Protein",
+        "AMU_b",
+        "Antigen",
+        "Derived product",
+        "His Cterm",
+        "arbovirus",
+        "Dengue virus 3",
+        "dengue virus type 3",
+        "DENV",
+        "DENV 3",
+        "Diagnostic",
+        "Flavivirus",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "non structural protein 1",
+        "NS1",
+        "recombinant",
+        "serology",
+        "Dry ice",
+        "Dengue virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "protein",
+      "search:additionalCategory": [
+        "antigen",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Dengue virus 3"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Dengue virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "100P-05434",
+      "search:title": "NS1 Dengue virus 3 Recombinant protein ",
+      "search:description": "Recombinant NS1 from Dengue virus serotype 3, produced in Expi293F HEK cells, fused to an Hexahistidine tag.",
+      "search:taxonLabel": "Dengue virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU_b",
+      "search:providerName": "AMU_b",
+      "search:pathogenName": "Dengue virus 3"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "HPI"
       },
       "EVORAO:refSku": "019V-05391",
@@ -142265,300 +142544,6 @@
       "search:countryOfCollection": "Unknown",
       "search:providerName": "UL",
       "search:pathogenName": "Zika virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-03831",
-      "@id": "urn:evorao:EVA:UL:007V-03831",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/west-nile-virussloveniako1692018",
-      "dcterms:issued": "2019-11-29T15:04:37+01:00",
-      "dcterms:modified": "2021-06-03T15:59:35+02:00",
-      "dcterms:title": "West Nile virus/Slovenia/Ko169/2018",
-      "dcterms:description": "Infectious cell culture supernatant. This West Nile virus[Slovenia,Ko 169/18] is preserved under Viral Storage Medium -80C. Virus is mycoplasma free. To confirm its identity the virus has been fully sequenced.",
-      "EVORAO:unitDefinition": "1 mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2019-05-13",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing, IFA",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "4th passage",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero E6"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1.58E+11",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Mosquito"
-      },
-      "EVORAO:isolationTechnique": "Isolated in 2018 on BMB (1 passage), 3 passages on VERO E6",
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Diagnostic reagent",
-        "UL",
-        "Virus",
-        "Category B",
-        "UN3373",
-        "Flavivirus",
-        "Human virus",
-        "Mosquito",
-        "RG3",
-        "Slovenia",
-        "Vero E6",
-        "west nile virus",
-        "West Nile virus",
-        "WNV",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2019-05-13",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "Available upon request."
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "West Nile virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:genotype": "Lineage 2",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-03831",
-      "search:title": "West Nile virus/Slovenia/Ko169/2018",
-      "search:description": "Infectious cell culture supernatant. This West Nile virus[Slovenia,Ko 169/18] is preserved under Viral Storage Medium -80C. Virus is mycoplasma free. To confirm its identity the virus has been fully sequenced.",
-      "search:taxonLabel": "West Nile virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Mosquito",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "West Nile virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007V-03829",
-      "@id": "urn:evorao:EVA:UL:007V-03829",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/usutu-virussloveniako2082018",
-      "dcterms:issued": "2019-11-29T14:42:42+01:00",
-      "dcterms:modified": "2021-06-03T15:58:56+02:00",
-      "dcterms:title": "Usutu virus/Slovenia/Ko208/2018",
-      "dcterms:description": "Infectious cell culture supernatant. This Usutu virus[Slovenia,Ko 208/18] is freeze dried. Virus is mycoplasma free. To confirm its identity the virus has been fully sequenced.",
-      "EVORAO:unitDefinition": "2x250ul",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2018-10-10",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "PCR, sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "4th passage",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero E6"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:titer": "3,75E+06",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Mosquito"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Slovenia"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Diagnostic reagent",
-        "UL",
-        "Virus",
-        "Room Temperature",
-        "Category B",
-        "UN3373",
-        "Flavivirus",
-        "Human virus",
-        "Mosquito",
-        "RG2",
-        "Slovenia",
-        "Usutu",
-        "Usutu virus",
-        "USUV",
-        "Vero E6"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2018-10-10",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "available upon request"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Usutu virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Usutu virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007V-03829",
-      "search:title": "Usutu virus/Slovenia/Ko208/2018",
-      "search:description": "Infectious cell culture supernatant. This Usutu virus[Slovenia,Ko 208/18] is freeze dried. Virus is mycoplasma free. To confirm its identity the virus has been fully sequenced.",
-      "search:taxonLabel": "Usutu virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Mosquito",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:providerName": "UL",
-      "search:pathogenName": "Usutu virus"
     }
   ]
 }
