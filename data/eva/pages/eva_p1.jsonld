@@ -17,6 +17,983 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:Bundle",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "003B-06412",
+      "@id": "urn:evorao:EVA:CUB:003B-06412",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/orthoebolavirus%C2%A0bundibugyoense-bdbv-ivt-panel",
+      "dcterms:issued": "2026-06-26T15:43:38+02:00",
+      "dcterms:modified": "2026-06-26T15:43:38+02:00",
+      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) IVT Panel",
+      "dcterms:description": "In vitro-transcript of the full coding sequence of the BDBV NP gene, Length 2.223 kb and In vitro-transcript of the full coding sequence of the BDBV L gene, Length 6.637 kb",
+      "EVORAO:unitDefinition": "vial with IVT NP and one vial with IVT L",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "bundle"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/Bundle_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:itemsOfTheBundle": [
+        {
+          "@id": "urn:evorao:EVA:CUB:003N-06410",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "003N-06410",
+          "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) NP IVT"
+        },
+        {
+          "@id": "urn:evorao:EVA:CUB:003N-06411",
+          "@type": "EVORAO:NucleicAcid",
+          "EVORAO:refSku": "003N-06411",
+          "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) L IVT"
+        }
+      ],
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "CUB",
+        "Bundle",
+        "Derived product",
+        "BDBV",
+        "Bundibugyo",
+        "Human virus",
+        "IVT",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Orthoebolavirus bundibugyoense",
+        "postive control material",
+        "Filoviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "bundle",
+      "search:additionalCategory": [
+        "derived product",
+        "nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Orthoebolavirus bundibugyoense"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Filoviridae"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "003B-06412",
+      "search:title": "Orthoebolavirus bundibugyoense (BDBV) IVT Panel",
+      "search:description": "In vitro-transcript of the full coding sequence of the BDBV NP gene, Length 2.223 kb and In vitro-transcript of the full coding sequence of the BDBV L gene, Length 6.637 kb",
+      "search:taxonLabel": "Filoviridae",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Orthoebolavirus bundibugyoense"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "003N-06409",
+      "@id": "urn:evorao:EVA:CUB:003N-06409",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/orthoebolavirus%C2%A0bundibugyoense-bdbv-trunc-l-ivt",
+      "dcterms:issued": "2026-06-26T15:13:21+02:00",
+      "dcterms:modified": "2026-06-26T15:13:21+02:00",
+      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. L IVT",
+      "dcterms:description": "In vitro-transcript of a short part of the sequence of the BDBV L gene, Length 0.306 kb, Position 13,654-13,957. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "EVORAO:unitDefinition": "1 tube",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequencing": "Not sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "PP_006XXY5.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "CUB",
+        "Derived product",
+        "BDBV",
+        "Bundibugyo",
+        "Human virus",
+        "IVT",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Orthoebolavirus bundibugyoense",
+        "postive control material",
+        "PP_006XXY5.1",
+        "Dry ice",
+        "Filoviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PP_006XXY5.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Orthoebolavirus bundibugyoense"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Filoviridae"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "003N-06409",
+      "search:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. L IVT",
+      "search:description": "In vitro-transcript of a short part of the sequence of the BDBV L gene, Length 0.306 kb, Position 13,654-13,957. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "search:taxonLabel": "Filoviridae",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "PP_006XXY5.1",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Orthoebolavirus bundibugyoense"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "003N-06408",
+      "@id": "urn:evorao:EVA:CUB:003N-06408",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/orthoebolavirus%C2%A0bundibugyoense-bdbv-trunc-np-ivt",
+      "dcterms:issued": "2026-06-26T15:08:44+02:00",
+      "dcterms:modified": "2026-06-26T15:08:44+02:00",
+      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. NP IVT",
+      "dcterms:description": "In vitro-transcript of a short part of the sequence of the BDBV NP gene, Length 0.322 kb, Position 847-1165. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "EVORAO:unitDefinition": "1 tube",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequencing": "Not sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "PP_006XXY5.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "CUB",
+        "Derived product",
+        "BDBV",
+        "Bundibugyo",
+        "Human virus",
+        "IVT",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Orthoebolavirus bundibugyoense",
+        "postive control material",
+        "PP_006XXY5.1",
+        "Dry ice",
+        "Filoviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PP_006XXY5.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Orthoebolavirus bundibugyoense"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Filoviridae"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "003N-06408",
+      "search:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. NP IVT",
+      "search:description": "In vitro-transcript of a short part of the sequence of the BDBV NP gene, Length 0.322 kb, Position 847-1165. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "search:taxonLabel": "Filoviridae",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "PP_006XXY5.1",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Orthoebolavirus bundibugyoense"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06407",
+      "@id": "urn:evorao:EVA:AMU:001K-06407",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/encapsidated-rna-corresponding-gp-and-np-bundibugyo-ebolavirus-sequence-amplified",
+      "dcterms:issued": "2026-06-26T09:59:38+02:00",
+      "dcterms:modified": "2026-06-26T09:59:38+02:00",
+      "dcterms:title": "Encapsidated RNA corresponding to the GP and NP of Bundibugyo ebolavirus sequence amplified by specific P&amp;P ",
+      "dcterms:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence of the GP and NP region from Bundibugyo ebolavirus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref:  001K-06404\r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20ArRNA%20generic_SOP_CFX_1.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "NP and GP",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "Armored RNA",
+        "Bundibugyo ebolavirus",
+        "Bundibugyo ebolaviruS",
+        "Diagnostic reagent",
+        "GP",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "NP"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bundibugyo ebolaviruS"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06407",
+      "search:title": "Encapsidated RNA corresponding to the GP and NP of Bundibugyo ebolavirus sequence amplified by specific P&amp;P ",
+      "search:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence of the GP and NP region from Bundibugyo ebolavirus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref:  001K-06404\r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Bundibugyo ebolaviruS"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06406",
+      "@id": "urn:evorao:EVA:AMU:001K-06406",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/encapsidated-rna-corresponding-np-bundibugyo-ebolavirus-sequence-amplified-specific-pp",
+      "dcterms:issued": "2026-06-26T09:58:04+02:00",
+      "dcterms:modified": "2026-06-26T09:58:04+02:00",
+      "dcterms:title": "Encapsidated RNA corresponding to the NP of Bundibugyo ebolavirus sequence amplified by specific P&amp;P",
+      "dcterms:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence of the NP region from Bundibugyo ebolavirus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref:  001K-06403\r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20ArRNA%20generic_SOP_CFX_0.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "NP",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "Armored RNA",
+        "Bundibugyo ebolavirus",
+        "Bundibugyo ebolaviruS",
+        "Diagnostic reagent",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "NP"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bundibugyo ebolaviruS"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06406",
+      "search:title": "Encapsidated RNA corresponding to the NP of Bundibugyo ebolavirus sequence amplified by specific P&amp;P",
+      "search:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence of the NP region from Bundibugyo ebolavirus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref:  001K-06403\r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Bundibugyo ebolaviruS"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06405",
+      "@id": "urn:evorao:EVA:AMU:001K-06405",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/encapsidated-rna-corresponding-gp-bundibugyo-ebolavirus-sequence-amplified-specific-pp",
+      "dcterms:issued": "2026-06-26T09:56:28+02:00",
+      "dcterms:modified": "2026-06-26T09:56:28+02:00",
+      "dcterms:title": "Encapsidated RNA corresponding to the GP of Bundibugyo ebolavirus sequence amplified by specific P&amp;P",
+      "dcterms:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence of the GP region from Bundibugyo ebolavirus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref:  001K-06402\r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20ArRNA%20generic_SOP_CFX.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "GP",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "Armored RNA",
+        "Bundibugyo ebolavirus",
+        "Bundibugyo ebolaviruS",
+        "Diagnostic reagent",
+        "GP",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bundibugyo ebolaviruS"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06405",
+      "search:title": "Encapsidated RNA corresponding to the GP of Bundibugyo ebolavirus sequence amplified by specific P&amp;P",
+      "search:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence of the GP region from Bundibugyo ebolavirus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref:  001K-06402\r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Bundibugyo ebolaviruS"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06404",
+      "@id": "urn:evorao:EVA:AMU:001K-06404",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyophilized-primers-and-probe-detection-bundibugyo-ebolavirus-taqman",
+      "dcterms:issued": "2026-06-26T09:52:41+02:00",
+      "dcterms:modified": "2026-06-26T09:52:55+02:00",
+      "dcterms:title": "Lyophilized Primers and Probe for detection of Bundibugyo ebolavirus (Taqman)",
+      "dcterms:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of Bundibugyo ebolavirus (Taqman - DUO)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
+      "EVORAO:unitDefinition": "4 vials",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 345,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20RT-qPCR%20BDBV%20DUO%20_CFX.pdf",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "NP and GP",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "BDBV",
+        "Bundibugyo",
+        "Bundibugyo ebolaviruS",
+        "ebolavirus",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "NP",
+        "Ebola",
+        "Bundibugyo ebolavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bundibugyo ebolaviruS"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06404",
+      "search:title": "Lyophilized Primers and Probe for detection of Bundibugyo ebolavirus (Taqman)",
+      "search:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of Bundibugyo ebolavirus (Taqman - DUO)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Bundibugyo ebolaviruS"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06403",
+      "@id": "urn:evorao:EVA:AMU:001K-06403",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyophilized-primers-and-probe-detection-np-bundibugyo-ebolavirus-taqman",
+      "dcterms:issued": "2026-06-26T09:50:24+02:00",
+      "dcterms:modified": "2026-06-26T09:50:24+02:00",
+      "dcterms:title": "Lyophilized Primers and Probe for detection of NP of Bundibugyo ebolavirus (Taqman)  ",
+      "dcterms:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of Bundibugyo ebolavirus NP (Taqman - monoplex)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
+      "EVORAO:unitDefinition": "4 vials",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 345,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20RT-qPCR%20BDBV%20NP%20_CFX.pdf",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "NP",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "BDBV",
+        "Bundibugyo",
+        "Bundibugyo ebolaviruS",
+        "ebolavirus",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "NP",
+        "Ebola",
+        "Bundibugyo ebolavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bundibugyo ebolaviruS"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06403",
+      "search:title": "Lyophilized Primers and Probe for detection of NP of Bundibugyo ebolavirus (Taqman)  ",
+      "search:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of Bundibugyo ebolavirus NP (Taqman - monoplex)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Bundibugyo ebolaviruS"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06402",
+      "@id": "urn:evorao:EVA:AMU:001K-06402",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/lyophilized-primers-and-probe-detection-gp-bundibugyo-ebolavirus-taqman",
+      "dcterms:issued": "2026-06-26T09:47:39+02:00",
+      "dcterms:modified": "2026-06-26T09:48:46+02:00",
+      "dcterms:title": "Lyophilized Primers and Probe for detection of GP of Bundibugyo ebolavirus (Taqman)  ",
+      "dcterms:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of Bundibugyo ebolavirus GP (Taqman - monoplex)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
+      "EVORAO:unitDefinition": "4 vials",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 345,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20RT-qPCR%20BDBV%20GP%20_CFX.pdf",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:targetedRegion": "GP",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "BDBV",
+        "Bundibugyo",
+        "Bundibugyo ebolaviruS",
+        "ebolavirus",
+        "Human virus",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Ebola",
+        "Bundibugyo ebolavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bundibugyo ebolaviruS"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06402",
+      "search:title": "Lyophilized Primers and Probe for detection of GP of Bundibugyo ebolavirus (Taqman)  ",
+      "search:description": "Lyophilized ready-to-use primers and probe (Lyoph-P&P, 96 rxns in the form of 24x4 rxns) for real time RT-PCR of Bundibugyo ebolavirus GP (Taqman - monoplex)\r\nSOPs in the attached pdf.\r\nDisclaimer: This product does not contain the polymerase.\r\nFor RUO (research use only).",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Bundibugyo ebolaviruS"
+    },
+    {
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -138277,1281 +139254,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "G. P. Martelli",
       "search:pathogenName": "Pothos latent virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05150",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05150",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/leek-yellow-stripe-virus-lysv-dsmz-pv-0623",
-      "dcterms:issued": "2023-05-31T15:03:31+02:00",
-      "dcterms:modified": "2026-02-26T14:52:51+01:00",
-      "dcterms:title": "Leek yellow stripe virus (LYSV) DSMZ PV-0623",
-      "dcterms:description": "Infectious Leek yellow stripe virus (LYSV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-02-09",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Netherlands (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "E. Barg"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Allium porrum"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OQ102063",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Allium porrum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Allium porrum",
-        "E. Barg",
-        "Leek yellow stripe virus",
-        "Netherlands (the)",
-        "NON DANGEROUS GOODS",
-        "OQ102063",
-        "Plant virus",
-        "RG1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-02-09",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OQ102063"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Leek yellow stripe virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Leek yellow stripe virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Aa22",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05150",
-      "search:title": "Leek yellow stripe virus (LYSV) DSMZ PV-0623",
-      "search:description": "Infectious Leek yellow stripe virus (LYSV) isolate",
-      "search:taxonLabel": "Leek yellow stripe virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Allium porrum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Netherlands (the)",
-      "search:accessionNumber": "OQ102063",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "E. Barg",
-      "search:pathogenName": "Leek yellow stripe virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05151",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05151",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/nemesia-ring-necrosis-virus-nernv-dsmz-pv-0630",
-      "dcterms:issued": "2023-05-31T15:09:41+02:00",
-      "dcterms:modified": "2026-02-26T14:52:16+01:00",
-      "dcterms:title": "Nemesia ring necrosis virus (NeRNV) DSMZ PV-0630",
-      "dcterms:description": "Infectious Nemesia ring necrosis virus (NeRNV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-01-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.-E. Lesemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OP947580",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Diascia sp."
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "D.-E. Lesemann",
-        "Diascia sp.",
-        "Germany",
-        "Nemesia ring necrosis virus",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "OP947580",
-        "Plant virus",
-        "RG1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-01-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OP947580"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Nemesia ring necrosis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Nemesia ring necrosis virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05151",
-      "search:title": "Nemesia ring necrosis virus (NeRNV) DSMZ PV-0630",
-      "search:description": "Infectious Nemesia ring necrosis virus (NeRNV) isolate",
-      "search:taxonLabel": "Nemesia ring necrosis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Diascia sp.",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "OP947580",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.-E. Lesemann",
-      "search:pathogenName": "Nemesia ring necrosis virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05152",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05152",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pepino-mosaic-virus-pepmv-dsmz-pv-0674",
-      "dcterms:issued": "2023-05-31T15:11:46+02:00",
-      "dcterms:modified": "2026-02-26T14:51:32+01:00",
-      "dcterms:title": "Pepino mosaic virus (PepMV) DSMZ PV-0674",
-      "dcterms:description": "Infectious Pepino mosaic virus (PepMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-05-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "United Kingdom of Great Britain and Northern Ireland (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.-E. Lesemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "ON604836",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum lycopersicum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "D.-E. Lesemann",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "ON604836",
-        "Pepino mosaic virus",
-        "Plant virus",
-        "RG1",
-        "Solanum lycopersicum",
-        "United Kingdom of Great Britain and Northern Ireland (the)"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-05-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "ON604836"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Pepino mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pepino mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "Chile 2",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05152",
-      "search:title": "Pepino mosaic virus (PepMV) DSMZ PV-0674",
-      "search:description": "Infectious Pepino mosaic virus (PepMV) isolate",
-      "search:taxonLabel": "Pepino mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum lycopersicum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "search:accessionNumber": "ON604836",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.-E. Lesemann",
-      "search:pathogenName": "Pepino mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05153",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05153",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pepino-mosaic-virus-pepmv-dsmz-pv-0973",
-      "dcterms:issued": "2023-05-31T15:14:05+02:00",
-      "dcterms:modified": "2026-02-26T14:50:26+01:00",
-      "dcterms:title": "Pepino mosaic virus (PepMV) DSMZ PV-0973",
-      "dcterms:description": "Infectious Pepino mosaic virus (PepMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2009-09-23",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Netherlands (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "H.-J. Vetten"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OQ993363",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum lycopersicum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "H.-J. Vetten",
-        "Netherlands (the)",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "OQ993363",
-        "Pepino mosaic virus",
-        "Plant virus",
-        "RG1",
-        "Solanum lycopersicum"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2009-09-23",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OQ993363"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Pepino mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pepino mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "EU",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05153",
-      "search:title": "Pepino mosaic virus (PepMV) DSMZ PV-0973",
-      "search:description": "Infectious Pepino mosaic virus (PepMV) isolate",
-      "search:taxonLabel": "Pepino mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum lycopersicum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Netherlands (the)",
-      "search:accessionNumber": "OQ993363",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "H.-J. Vetten",
-      "search:pathogenName": "Pepino mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05154",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05154",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pepino-mosaic-virus-pepmv-dsmz-pv-0750",
-      "dcterms:issued": "2023-05-31T15:16:57+02:00",
-      "dcterms:modified": "2026-02-26T14:49:52+01:00",
-      "dcterms:title": "Pepino mosaic virus (PepMV) DSMZ PV-0750",
-      "dcterms:description": "Infectious Pepino mosaic virus (PepMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2002-04-02",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Spain"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "Stravvato"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "ON604837",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum lycopersicum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "ON604837",
-        "Pepino mosaic virus",
-        "Plant virus",
-        "RG1",
-        "Solanum lycopersicum",
-        "Spain",
-        "Stravvato"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2002-04-02",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "ON604837"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Pepino mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Pepino mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05154",
-      "search:title": "Pepino mosaic virus (PepMV) DSMZ PV-0750",
-      "search:description": "Infectious Pepino mosaic virus (PepMV) isolate",
-      "search:taxonLabel": "Pepino mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum lycopersicum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Spain",
-      "search:accessionNumber": "ON604837",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "Stravvato",
-      "search:pathogenName": "Pepino mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04500",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04500",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/alternanthera-mosaic-virus-altmv-isolate-dsmz-pv-0725",
-      "dcterms:issued": "2022-02-08T17:33:40+01:00",
-      "dcterms:modified": "2026-02-26T14:49:03+01:00",
-      "dcterms:title": "Alternanthera mosaic virus (AltMV) isolate DSMZ PV-0725",
-      "dcterms:description": "Infectious Alternanthera mosaic virus (AltMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-08-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Netherlands (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing and serological reaction",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D.-E. Lesemann"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana hesperis"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OL311694",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Portulaca sp."
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Alternanthera mosaic virus",
-        "D.-E. Lesemann",
-        "Mechanical inoculation",
-        "Netherlands (the)",
-        "Nicotiana hesperis",
-        "NON DANGEROUS GOODS",
-        "OL311694",
-        "Plant virus",
-        "Portulaca sp.",
-        "RG1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-08-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OL311694"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Alternanthera mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Alternanthera mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04500",
-      "search:title": "Alternanthera mosaic virus (AltMV) isolate DSMZ PV-0725",
-      "search:description": "Infectious Alternanthera mosaic virus (AltMV) isolate",
-      "search:taxonLabel": "Alternanthera mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Portulaca sp.",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Netherlands (the)",
-      "search:accessionNumber": "OL311694",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D.-E. Lesemann",
-      "search:pathogenName": "Alternanthera mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05156",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05156",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sugarcane-mosaic-virus-scmv-dsmz-pv-0731",
-      "dcterms:issued": "2023-05-31T15:23:23+02:00",
-      "dcterms:modified": "2026-02-26T14:44:31+01:00",
-      "dcterms:title": "Sugarcane mosaic virus (SCMV) DSMZ PV-0731",
-      "dcterms:description": "Infectious Sugarcane mosaic virus (SCMV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2001-11-30",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "E. Fuchs"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Zea mays"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OP150410",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Zea mays"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "E. Fuchs",
-        "Germany",
-        "NON DANGEROUS GOODS",
-        "OP150410",
-        "Plant virus",
-        "RG1",
-        "Sugarcane mosaic virus",
-        "Zea mays"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2001-11-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OP150410"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Sugarcane mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Sugarcane mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Borsdorf",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05156",
-      "search:title": "Sugarcane mosaic virus (SCMV) DSMZ PV-0731",
-      "search:description": "Infectious Sugarcane mosaic virus (SCMV) isolate",
-      "search:taxonLabel": "Sugarcane mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Zea mays",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "OP150410",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "E. Fuchs",
-      "search:pathogenName": "Sugarcane mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05157",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05157",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/cactus-virus-x-cvx-dsmz-pv-0746",
-      "dcterms:issued": "2023-05-31T15:26:08+02:00",
-      "dcterms:modified": "2026-02-26T14:44:02+01:00",
-      "dcterms:title": "Cactus virus X (CVX) DSMZ PV-0746",
-      "dcterms:description": "Infectious Cactus virus X (CVX) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2002-02-20",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "United States of America (the)"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Chenopodium quinoa"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MW051787",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Schlumbergera sp."
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Cactus virus X",
-        "Chenopodium quinoa",
-        "MW051787",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "RG1",
-        "Schlumbergera sp.",
-        "United States of America (the)"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2002-02-20",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MW051787"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Cactus virus X"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Cactus virus X"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05157",
-      "search:title": "Cactus virus X (CVX) DSMZ PV-0746",
-      "search:description": "Infectious Cactus virus X (CVX) isolate",
-      "search:taxonLabel": "Cactus virus X",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Schlumbergera sp.",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "United States of America (the)",
-      "search:accessionNumber": "MW051787",
-      "search:providerName": "DSMZ",
-      "search:pathogenName": "Cactus virus X"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05158",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05158",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/cucumber-vein-yellowing-virus-cvyv-dsmz-pv-0776",
-      "dcterms:issued": "2023-05-31T15:28:33+02:00",
-      "dcterms:modified": "2026-02-26T14:43:32+01:00",
-      "dcterms:title": "Cucumber vein yellowing virus (CVYV) DSMZ PV-0776",
-      "dcterms:description": "Infectious Cucumber vein yellowing virus (CVYV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2002-09-30",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Portugal"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "D. Louro"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Cucumis sativus"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OK181771",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Cucumis sativus"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Cucumber vein yellowing virus",
-        "Cucumis sativus",
-        "D. Louro",
-        "NON DANGEROUS GOODS",
-        "OK181771",
-        "Plant virus",
-        "Portugal",
-        "RG1"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2002-09-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OK181771"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Cucumber vein yellowing virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Cucumber vein yellowing virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05158",
-      "search:title": "Cucumber vein yellowing virus (CVYV) DSMZ PV-0776",
-      "search:description": "Infectious Cucumber vein yellowing virus (CVYV) isolate",
-      "search:taxonLabel": "Cucumber vein yellowing virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Cucumis sativus",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Portugal",
-      "search:accessionNumber": "OK181771",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "D. Louro",
-      "search:pathogenName": "Cucumber vein yellowing virus"
     }
   ]
 }

@@ -144479,5 +144479,439 @@
       "TSEV"
     ],
     "_evora_strategy": "taxonomic-parent-fallback"
+  },
+  "Filoviridae": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV19870011",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV19870011",
+      "ictv_curie": "ictv:MSL41/ICTV19870011",
+      "iri": "http://ictv.global/id/MSL41/ICTV19870011",
+      "label": "Filoviridae",
+      "synonyms": [],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19900001",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000004",
+        "label": "family"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV19870011",
+      "had_revision": null,
+      "narrow_match": [],
+      "direct_parent_label": "Mononegavirales",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:11266",
+        "label": "Filoviridae"
+      }
+    ],
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV19870011",
+      "ictv_curie": "ictv:MSL41/ICTV19870011",
+      "iri": "http://ictv.global/id/MSL41/ICTV19870011",
+      "label": "Filoviridae",
+      "synonyms": [],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19900001",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000004",
+        "label": "family"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV19870011",
+      "had_revision": null,
+      "narrow_match": [],
+      "direct_parent_label": "Mononegavirales",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Filoviridae"
+    ],
+    "_evora_strategy": "direct"
+  },
+  "Orthoebolavirus bundibugyoense": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV20115622",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20115622",
+      "ictv_curie": "ictv:MSL41/ICTV20115622",
+      "iri": "http://ictv.global/id/MSL41/ICTV20115622",
+      "label": "Orthoebolavirus bundibugyoense",
+      "synonyms": [
+        "Bundibugyo ebolavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19980158",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001",
+        "http://ictv.global/id/MSL41/ICTV19870011",
+        "http://ictv.global/id/MSL41/ICTV19980158"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20115622",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ217161",
+        "refseq:NC_014373"
+      ],
+      "direct_parent_label": "Orthoebolavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae",
+        "Orthoebolavirus"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:565995",
+        "label": "Bundibugyo ebolavirus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:3052458",
+        "label": "Orthoebolavirus bundibugyoense"
+      }
+    ],
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20115622",
+      "ictv_curie": "ictv:MSL41/ICTV20115622",
+      "iri": "http://ictv.global/id/MSL41/ICTV20115622",
+      "label": "Orthoebolavirus bundibugyoense",
+      "synonyms": [
+        "Bundibugyo ebolavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19980158",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001",
+        "http://ictv.global/id/MSL41/ICTV19870011",
+        "http://ictv.global/id/MSL41/ICTV19980158"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20115622",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ217161",
+        "refseq:NC_014373"
+      ],
+      "direct_parent_label": "Orthoebolavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae",
+        "Orthoebolavirus"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Orthoebolavirus bundibugyoense"
+    ],
+    "_evora_strategy": "direct"
+  },
+  "Bundibugyo ebolavirus": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV20115622",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20115622",
+      "ictv_curie": "ictv:MSL41/ICTV20115622",
+      "iri": "http://ictv.global/id/MSL41/ICTV20115622",
+      "label": "Orthoebolavirus bundibugyoense",
+      "synonyms": [
+        "Bundibugyo ebolavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19980158",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001",
+        "http://ictv.global/id/MSL41/ICTV19870011",
+        "http://ictv.global/id/MSL41/ICTV19980158"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20115622",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ217161",
+        "refseq:NC_014373"
+      ],
+      "direct_parent_label": "Orthoebolavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae",
+        "Orthoebolavirus"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:565995",
+        "label": "Bundibugyo ebolavirus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:3052458",
+        "label": "Orthoebolavirus bundibugyoense"
+      }
+    ],
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20115622",
+      "ictv_curie": "ictv:MSL41/ICTV20115622",
+      "iri": "http://ictv.global/id/MSL41/ICTV20115622",
+      "label": "Orthoebolavirus bundibugyoense",
+      "synonyms": [
+        "Bundibugyo ebolavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19980158",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001",
+        "http://ictv.global/id/MSL41/ICTV19870011",
+        "http://ictv.global/id/MSL41/ICTV19980158"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20115622",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ217161",
+        "refseq:NC_014373"
+      ],
+      "direct_parent_label": "Orthoebolavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae",
+        "Orthoebolavirus"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Bundibugyo ebolavirus"
+    ],
+    "_evora_strategy": "direct"
+  },
+  "Bundibugyo ebolaviruS": {
+    "status": "current",
+    "input": "http://ictv.global/id/MSL41/ICTV20115622",
+    "current": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20115622",
+      "ictv_curie": "ictv:MSL41/ICTV20115622",
+      "iri": "http://ictv.global/id/MSL41/ICTV20115622",
+      "label": "Orthoebolavirus bundibugyoense",
+      "synonyms": [
+        "Bundibugyo ebolavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19980158",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001",
+        "http://ictv.global/id/MSL41/ICTV19870011",
+        "http://ictv.global/id/MSL41/ICTV19980158"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20115622",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ217161",
+        "refseq:NC_014373"
+      ],
+      "direct_parent_label": "Orthoebolavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae",
+        "Orthoebolavirus"
+      ]
+    },
+    "ncbi": [
+      {
+        "ncbiCurie": "ncbitaxon:565995",
+        "label": "Bundibugyo ebolavirus"
+      },
+      {
+        "ncbiCurie": "ncbitaxon:3052458",
+        "label": "Orthoebolavirus bundibugyoense"
+      }
+    ],
+    "_evora_target": {
+      "msl": "MSL41",
+      "ictv_id": "ICTV20115622",
+      "ictv_curie": "ictv:MSL41/ICTV20115622",
+      "iri": "http://ictv.global/id/MSL41/ICTV20115622",
+      "label": "Orthoebolavirus bundibugyoense",
+      "synonyms": [
+        "Bundibugyo ebolavirus"
+      ],
+      "is_obsolete": false,
+      "obsolescence_reason": null,
+      "reason_iri": null,
+      "direct_parent_iri": "http://ictv.global/id/MSL41/ICTV19980158",
+      "ancestors_iris": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+        "http://ictv.global/id/MSL41/ICTV201857095",
+        "http://ictv.global/id/MSL41/ICTV201907198",
+        "http://ictv.global/id/MSL41/ICTV20186016",
+        "http://ictv.global/id/MSL41/ICTV20186019",
+        "http://ictv.global/id/MSL41/ICTV20186020",
+        "http://ictv.global/id/MSL41/ICTV19900001",
+        "http://ictv.global/id/MSL41/ICTV19870011",
+        "http://ictv.global/id/MSL41/ICTV19980158"
+      ],
+      "rank": {
+        "iri": "http://purl.obolibrary.org/obo/TAXRANK_0000006",
+        "label": "species"
+      },
+      "replaced_by": null,
+      "was_revision_of": "http://ictv.global/id/MSL40/ICTV20115622",
+      "had_revision": null,
+      "narrow_match": [
+        "genbank:FJ217161",
+        "refseq:NC_014373"
+      ],
+      "direct_parent_label": "Orthoebolavirus",
+      "lineage": [
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae",
+        "Orthoebolavirus"
+      ]
+    },
+    "_evora_preserved_names": [
+      "Bundibugyo ebolaviruS"
+    ],
+    "_evora_strategy": "direct"
   }
 }
