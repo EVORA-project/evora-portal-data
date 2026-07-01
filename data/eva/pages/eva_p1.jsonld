@@ -17,6 +17,228 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "003N-06409",
+      "@id": "urn:evorao:EVA:CUB:003N-06409",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/orthoebolavirus%C2%A0bundibugyoense-bdbv-trunc-l-ivt",
+      "dcterms:issued": "2026-06-26T15:13:21+02:00",
+      "dcterms:modified": "2026-06-30T11:12:26+02:00",
+      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. L IVT",
+      "dcterms:description": "In vitro-transcript of a short part of the sequence of the BDBV L gene, Length 0.306 kb, Position 13,654-13,957. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "EVORAO:unitDefinition": "1 tube",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PP_006XXY5.1"
+        }
+      },
+      "EVORAO:sequenceChecked": false,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "PP_006XXY5.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "CUB",
+        "Derived product",
+        "BDBV",
+        "Bundibugyo",
+        "Human virus",
+        "IVT",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Orthoebolavirus bundibugyoense",
+        "postive control material",
+        "PP_006XXY5.1",
+        "Dry ice",
+        "Bundibugyo ebolavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Orthoebolavirus bundibugyoense"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "003N-06409",
+      "search:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. L IVT",
+      "search:description": "In vitro-transcript of a short part of the sequence of the BDBV L gene, Length 0.306 kb, Position 13,654-13,957. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "PP_006XXY5.1",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Orthoebolavirus bundibugyoense"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CUB"
+      },
+      "EVORAO:refSku": "003N-06408",
+      "@id": "urn:evorao:EVA:CUB:003N-06408",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/orthoebolavirus%C2%A0bundibugyoense-bdbv-trunc-np-ivt",
+      "dcterms:issued": "2026-06-26T15:08:44+02:00",
+      "dcterms:modified": "2026-06-30T11:11:18+02:00",
+      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. NP IVT",
+      "dcterms:description": "In vitro-transcript of a short part of the sequence of the BDBV NP gene, Length 0.322 kb, Position 847-1165. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "EVORAO:unitDefinition": "1 tube",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin",
+        "EVORAO:recombinantMaterial": false
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PP_006XXY5.1"
+        }
+      },
+      "EVORAO:sequenceChecked": false,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CUB"
+      },
+      "EVORAO:accessionNumber": "PP_006XXY5.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "CUB",
+        "Derived product",
+        "BDBV",
+        "Bundibugyo",
+        "Human virus",
+        "IVT",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Orthoebolavirus bundibugyoense",
+        "postive control material",
+        "PP_006XXY5.1",
+        "Dry ice",
+        "Bundibugyo ebolavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Orthoebolavirus bundibugyoense"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bundibugyo ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "003N-06408",
+      "search:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. NP IVT",
+      "search:description": "In vitro-transcript of a short part of the sequence of the BDBV NP gene, Length 0.322 kb, Position 847-1165. Suitable for usage in the BDBV EURL-PHAS L and N assay",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "CUB",
+      "search:accessionNumber": "PP_006XXY5.1",
+      "search:providerName": "CUB",
+      "search:pathogenName": "Orthoebolavirus bundibugyoense"
+    },
+    {
       "@type": "EVORAO:Bundle",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -26,7 +248,7 @@
       "@id": "urn:evorao:EVA:CUB:003B-06412",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/bundle/orthoebolavirus%C2%A0bundibugyoense-bdbv-ivt-panel",
       "dcterms:issued": "2026-06-26T15:43:38+02:00",
-      "dcterms:modified": "2026-06-26T15:43:38+02:00",
+      "dcterms:modified": "2026-06-30T10:01:10+02:00",
       "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) IVT Panel",
       "dcterms:description": "In vitro-transcript of the full coding sequence of the BDBV NP gene, Length 2.223 kb and In vitro-transcript of the full coding sequence of the BDBV L gene, Length 6.637 kb",
       "EVORAO:unitDefinition": "vial with IVT NP and one vial with IVT L",
@@ -88,7 +310,7 @@
         "NON DANGEROUS GOODS",
         "Orthoebolavirus bundibugyoense",
         "postive control material",
-        "Filoviridae"
+        "Bundibugyo ebolavirus"
       ],
       "dcterms:publisher": {
         "@type": "EVORAO:ResearchInfrastructure",
@@ -110,7 +332,7 @@
         },
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Filoviridae"
+          "dcterms:title": "Bundibugyo ebolavirus"
         },
         "EVORAO:pathogenType": "Virus",
         "EVORAO:hostType": "Human"
@@ -118,230 +340,10 @@
       "search:sku": "003B-06412",
       "search:title": "Orthoebolavirus bundibugyoense (BDBV) IVT Panel",
       "search:description": "In vitro-transcript of the full coding sequence of the BDBV NP gene, Length 2.223 kb and In vitro-transcript of the full coding sequence of the BDBV L gene, Length 6.637 kb",
-      "search:taxonLabel": "Filoviridae",
+      "search:taxonLabel": "Bundibugyo ebolavirus",
       "search:publisherName": "European Virus Archive",
       "search:riskGroupLabel": "No RG",
       "search:collectionName": "CUB",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Orthoebolavirus bundibugyoense"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "003N-06409",
-      "@id": "urn:evorao:EVA:CUB:003N-06409",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/orthoebolavirus%C2%A0bundibugyoense-bdbv-trunc-l-ivt",
-      "dcterms:issued": "2026-06-26T15:13:21+02:00",
-      "dcterms:modified": "2026-06-26T15:13:21+02:00",
-      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. L IVT",
-      "dcterms:description": "In vitro-transcript of a short part of the sequence of the BDBV L gene, Length 0.306 kb, Position 13,654-13,957. Suitable for usage in the BDBV EURL-PHAS L and N assay",
-      "EVORAO:unitDefinition": "1 tube",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:sequencing": "Not sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "PP_006XXY5.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "CUB",
-        "Derived product",
-        "BDBV",
-        "Bundibugyo",
-        "Human virus",
-        "IVT",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Orthoebolavirus bundibugyoense",
-        "postive control material",
-        "PP_006XXY5.1",
-        "Dry ice",
-        "Filoviridae"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "PP_006XXY5.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Orthoebolavirus bundibugyoense"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Filoviridae"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "003N-06409",
-      "search:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. L IVT",
-      "search:description": "In vitro-transcript of a short part of the sequence of the BDBV L gene, Length 0.306 kb, Position 13,654-13,957. Suitable for usage in the BDBV EURL-PHAS L and N assay",
-      "search:taxonLabel": "Filoviridae",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "PP_006XXY5.1",
-      "search:providerName": "CUB",
-      "search:pathogenName": "Orthoebolavirus bundibugyoense"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CUB"
-      },
-      "EVORAO:refSku": "003N-06408",
-      "@id": "urn:evorao:EVA:CUB:003N-06408",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/orthoebolavirus%C2%A0bundibugyoense-bdbv-trunc-np-ivt",
-      "dcterms:issued": "2026-06-26T15:08:44+02:00",
-      "dcterms:modified": "2026-06-26T15:08:44+02:00",
-      "dcterms:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. NP IVT",
-      "dcterms:description": "In vitro-transcript of a short part of the sequence of the BDBV NP gene, Length 0.322 kb, Position 847-1165. Suitable for usage in the BDBV EURL-PHAS L and N assay",
-      "EVORAO:unitDefinition": "1 tube",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin",
-        "EVORAO:recombinantMaterial": false
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:sequencing": "Not sequenced",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Nuclease-Free Water -80C",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CUB"
-      },
-      "EVORAO:accessionNumber": "PP_006XXY5.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "CUB",
-        "Derived product",
-        "BDBV",
-        "Bundibugyo",
-        "Human virus",
-        "IVT",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Orthoebolavirus bundibugyoense",
-        "postive control material",
-        "PP_006XXY5.1",
-        "Dry ice",
-        "Filoviridae"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "PP_006XXY5.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Orthoebolavirus bundibugyoense"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Filoviridae"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "003N-06408",
-      "search:title": "Orthoebolavirus bundibugyoense (BDBV) trunc. NP IVT",
-      "search:description": "In vitro-transcript of a short part of the sequence of the BDBV NP gene, Length 0.322 kb, Position 847-1165. Suitable for usage in the BDBV EURL-PHAS L and N assay",
-      "search:taxonLabel": "Filoviridae",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CUB",
-      "search:accessionNumber": "PP_006XXY5.1",
       "search:providerName": "CUB",
       "search:pathogenName": "Orthoebolavirus bundibugyoense"
     },
