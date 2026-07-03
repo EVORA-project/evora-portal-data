@@ -363,7 +363,7 @@
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "2303",
       "dcterms:title": "Image Data Resource",
-      "dcterms:description": "The Image Data Resource (IDR) is a public repository of image datasets from published scientific studies, where the community can submit, search and access high-quality bio-image data. It follows the Euro-BioImaging/ELIXIR imaging strategy using the OMERO and Bio-Formats open source software built by the Open Microscopy Environment. Deployed on an OpenStack cloud running on the EMBL-EBI’s Embassy resource, it includes image data linked to independent studies from genetic, RNAi, chemical, localisation and geographic high content screens, super-resolution microscopy, and digital pathology.",
+      "dcterms:description": "The Image Data Resource (IDR) is a public repository of image datasets from published scientific studies, where the community can submit, search and access high-quality bio-image data. It follows the Euro-BioImaging/ELIXIR imaging strategy using the OMERO and Bio-Formats open source software built by the Open Microscopy Environment. It includes image data linked to independent studies from genetic, RNAi, chemical, localisation and geographic high content screens, super-resolution microscopy, and digital pathology.",
       "dcat:keyword": [
         "Life Science",
         "Botany",

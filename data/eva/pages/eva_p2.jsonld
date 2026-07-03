@@ -22,6 +22,143 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-05148",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05148",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-y-pvy-dsmz-pv-0579",
+      "dcterms:issued": "2023-05-31T14:58:30+02:00",
+      "dcterms:modified": "2026-02-26T14:53:51+01:00",
+      "dcterms:title": "Potato virus Y (PVY) DSMZ PV-0579",
+      "dcterms:description": "Infectious Potato virus Y (PVY) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 220,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1999-11-24",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Spain"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "ON604835",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Nicotiana glauca"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "Nicotiana benthamiana",
+        "Nicotiana glauca",
+        "NON DANGEROUS GOODS",
+        "ON604835",
+        "Plant virus",
+        "Potato virus Y",
+        "RG1",
+        "Spain"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1999-11-24",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "ON604835"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Potato virus Y"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Potato virus Y"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "YC strain",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05148",
+      "search:title": "Potato virus Y (PVY) DSMZ PV-0579",
+      "search:description": "Infectious Potato virus Y (PVY) isolate",
+      "search:taxonLabel": "Potato virus Y",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "Nicotiana glauca",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Spain",
+      "search:accessionNumber": "ON604835",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Potato virus Y"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-05149",
       "@id": "urn:evorao:EVA:DSMZ:027V-05149",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/pothos-latent-virus-polv-dsmz-pv-0604",
@@ -72838,170 +72975,6 @@
       "search:countryOfCollection": "Congo (the Democratic Republic of the)",
       "search:providerName": "CSIRO",
       "search:pathogenName": "Ebola virus"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024N-06116",
-      "@id": "urn:evorao:EVA:CSIRO:024N-06116",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/reston-virus-reverse-genetics-system",
-      "dcterms:issued": "2024-10-15T00:34:50+02:00",
-      "dcterms:modified": "2024-10-15T00:37:46+02:00",
-      "dcterms:title": "Reston virus reverse genetics system",
-      "dcterms:description": "Reverse genetics system to generate infectious Reston virus 1989 US strain",
-      "EVORAO:unitDefinition": "5ug",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "DNA template for recombinant virus or replicon"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cloned nucleic acid"
-        }
-      ],
-      "EVORAO:unitCost": 3000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Synthetic origin, Natural origin",
-        "EVORAO:biologicalPartOrigin": [
-          {
-            "@type": "EVORAO:NaturalPartOrigin",
-            "EVORAO:partIdentification": "Reston virus",
-            "EVORAO:sequence": {
-              "@type": "EVORAO:Sequence",
-              "EVORAO:sequenceReference": {
-                "@type": "EVORAO:SequenceReference",
-                "EVORAO:sequenceProvider": "GenBank",
-                "EVORAO:accessionNumber": "KY798004Collection"
-              }
-            },
-            "EVORAO:collectionDate": "1990-01-01",
-            "EVORAO:countryOfCollection": {
-              "@type": "EVORAO:Country",
-              "dcterms:title": "United States of America (the)"
-            }
-          },
-          {
-            "@type": "EVORAO:SyntheticPartOrigin",
-            "EVORAO:partIdentification": "pcDNA3.1",
-            "EVORAO:modificationsFromTheReferenceSequences": false
-          }
-        ],
-        "EVORAO:recombinantMaterial": true,
-        "EVORAO:biologicalSourceType": [
-          true,
-          false
-        ]
-      },
-      "EVORAO:biosafetyRestrictions": "Recovery of infectious material must be conducted at BSL4, adequate facilities must be available",
-      "EVORAO:canBeUsedToProduceGmo": true,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:clonedNucleicAcid": true,
-      "EVORAO:preparationTechnique": "Maxiprep",
-      "EVORAO:clonedIntoPlasmid": {
-        "@type": "EVORAO:ExpressionVector",
-        "dcterms:title": "pcDNA3.1"
-      },
-      "EVORAO:plasmidSelection": {
-        "@type": "EVORAO:PlasmidSelection",
-        "dcterms:title": "Ampicillin"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:sequence": "> 024N-06116 | pFILO-Eb_Reston\nCGGTCCGACCTGGGCATCCGAAGGAGGACGTCGTCCACTCGGATGGCTAAGGGAGAGCTCGGATCCGGCTGCTAACAAAG\nCCCGAAAGGAAGCTGAGTTGGCTGCTGCCACCGCTGAGCAATAACTAGCATAACCCCTTGGGGCCTCTAAACGGGTCTTG\nAGGGGTTTTTTGCTGAAAGGAGGAACTATATCCGGATCGAGATCCTCTAGCCAGATCCTCTACGCCGGAGCTTAAGTTTA\nAACCGCTGATCAGCCTCGACTGTGCCTTCTAGTTGCCAGCCATCTGTTGTTTGCCCCTCCCCCGTGCCTTCCTTGACCCT\nGGAAGGTGCCACTCCCACTGTCCTTTCCTAATAAAATGAGGAAATTGCATCGCATTGTCTGAGTAGGTGTCATTCTATTC\nTGGGGGGTGGGGTGGGGCAGGACAGCAAGGGGGAGGATTGGGAAGACAATAGCAGGCATGCTGGGGATGCGGTGGGCTCT\nATGGCTTCTGAGGCGGAAAGAACCAGCTGGGGCTCTAGGGGGTATCCCCACGCGCCCTGTAGCGGCGCATTAAGCGCGGC\nGGGTGTGGTGGTTACGCGCAGCGTGACCGCTACACTTGCCAGCGCCCTAGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCT\nTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGG\nCACCTCGACCCCAAAAAACTTGATTAGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTT\nGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGTCTATTCTT\nTTGATTTATAAGGGATTTTGCCGATTTCGGCCTATTGGTTAAAAAATGAGCTGATTTAACAAAAATTTAACGCGAATTAA\nTTCTGTGGAATGTGTGTCAGTTAGGGTGTGGAAAGTCCCCAGGCTCC",
-      "EVORAO:regionEncompassedInThisProduct": "Full-genome",
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
-      "EVORAO:tagSequence": "No Tag",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:collectionDate": "1990-01-01",
-      "EVORAO:countryOfCollection": "United States of America (the)",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "DNA template for recombinant virus or replicon",
-        "Cloned nucleic acid",
-        "Derived product",
-        "CSIRO",
-        "Room Temperature",
-        "Ampicillin",
-        "Animal virus",
-        "full-length genome",
-        "Human virus",
-        "NON DANGEROUS GOODS",
-        "pcDNA3.1",
-        "plasmid clone",
-        "primate",
-        "Reston",
-        "Reston virus",
-        "reverse genetics",
-        "RG2",
-        "United States of America (the)",
-        "No Tag",
-        "Reston ebolavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "DNA template for recombinant virus or replicon",
-        "derived product",
-        "cloned nucleic acid"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Reston virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Reston ebolavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "1989 Reston primate isolate",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "024N-06116",
-      "search:title": "Reston virus reverse genetics system",
-      "search:description": "Reverse genetics system to generate infectious Reston virus 1989 US strain",
-      "search:taxonLabel": "Reston ebolavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:collectionName": "CSIRO",
-      "search:countryOfCollection": "United States of America (the)",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Reston virus"
     },
     {
       "@type": "EVORAO:Virus",
