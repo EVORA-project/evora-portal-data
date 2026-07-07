@@ -20,6 +20,141 @@
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "007N-EVA1424",
+      "@id": "urn:evorao:EVA:UL:007N-EVA1424",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/puumala-virus-rna-extracted-rodents",
+      "dcterms:issued": "2016-04-12T13:50:05+02:00",
+      "dcterms:modified": "2026-07-06T08:41:46+02:00",
+      "dcterms:title": "Puumala virus RNA extracted from rodents",
+      "dcterms:description": "Puumala virus RNA extracted from naturally infected Myodes glareolus - high viral load",
+      "EVORAO:unitDefinition": "100 µl",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "PCR, IFA, sequencing",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "EZ1 Virus Mini kit",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "KF776880.1"
+        }
+      },
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Partly sequenced",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:storageConditions": "AVE Buffer -20C",
+      "EVORAO:titer": "ct = 20.5 (Kramski et al.)",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:accessionNumber": "KF776880.1",
+      "dcat:keyword": [
+        "Nucleic Acid",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "UL",
+        "Derived product",
+        "Hantavirus",
+        "Human virus",
+        "KF776880.1",
+        "Myodes glareolus",
+        "NON DANGEROUS GOODS",
+        "Puumala",
+        "Puumala virus",
+        "RG1",
+        "Slovenia",
+        "- 20°C",
+        "Puumala orthohantavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Puumala virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Puumala orthohantavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "007N-EVA1424",
+      "search:title": "Puumala virus RNA extracted from rodents",
+      "search:description": "Puumala virus RNA extracted from naturally infected Myodes glareolus - high viral load",
+      "search:taxonLabel": "Puumala orthohantavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:accessionNumber": "KF776880.1",
+      "search:providerName": "UL",
+      "search:pathogenName": "Puumala virus"
+    },
+    {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "CSIRO"
       },
       "EVORAO:refSku": "024N-06116",
@@ -77239,141 +77374,6 @@
       "search:countryOfCollection": "France",
       "search:providerName": "IP",
       "search:pathogenName": "Human respiratory syncytial virus A"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "007N-EVA1424",
-      "@id": "urn:evorao:EVA:UL:007N-EVA1424",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/puumala-virus-rna-extracted-rodents",
-      "dcterms:issued": "2016-04-12T13:50:05+02:00",
-      "dcterms:modified": "2026-04-21T09:59:16+02:00",
-      "dcterms:title": "Puumala virus RNA extracted from rodents",
-      "dcterms:description": "Puumala virus RNA extracted from naturally infected Myodes glareolus - high viral load",
-      "EVORAO:unitDefinition": "100 µl",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 1000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "PCR, IFA, sequencing",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "EZ1 Virus Mini kit",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KF776880.1"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Partly sequenced",
-      "EVORAO:shippingConditions": "- 20°C",
-      "EVORAO:storageConditions": "AVE Buffer -20C",
-      "EVORAO:titer": "ct = 20,5 (Kramski et al.)",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:accessionNumber": "KF776880.1",
-      "dcat:keyword": [
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "UL",
-        "Derived product",
-        "Hantavirus",
-        "Human virus",
-        "KF776880.1",
-        "Myodes glareolus",
-        "NON DANGEROUS GOODS",
-        "Puumala",
-        "Puumala virus",
-        "RG1",
-        "Slovenia",
-        "- 20°C",
-        "Puumala orthohantavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Puumala virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Puumala orthohantavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Human"
-      },
-      "search:sku": "007N-EVA1424",
-      "search:title": "Puumala virus RNA extracted from rodents",
-      "search:description": "Puumala virus RNA extracted from naturally infected Myodes glareolus - high viral load",
-      "search:taxonLabel": "Puumala orthohantavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:accessionNumber": "KF776880.1",
-      "search:providerName": "UL",
-      "search:pathogenName": "Puumala virus"
     },
     {
       "@type": "EVORAO:Virus",
