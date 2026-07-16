@@ -17,6 +17,115 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
+      "EVORAO:refSku": "001K-06150",
+      "@id": "urn:evorao:EVA:AMU:001K-06150",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/encapsidated-rna-corresponding-measles-virus-sequence-amplified-specific-pp-ref-001k",
+      "dcterms:issued": "2025-01-24T11:17:10+01:00",
+      "dcterms:modified": "2026-07-15T09:55:44+02:00",
+      "dcterms:title": "Encapsidated RNA corresponding to the Measles virus sequence amplified by specific P&amp;P (ref: 001K-06149) ",
+      "dcterms:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence in the Nucleoprotein region from Measles virus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref: 001K-06149 . \r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "molecular detection kit"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 200,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20ArRNA%20Measles%20%2B%20RNase_CFX.pdf",
+      "EVORAO:specificity": "SOP",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:storageConditions": "Freeze Dried (-20C)",
+      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "dcat:keyword": [
+        "AMU",
+        "Molecular detection kit",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "Room Temperature",
+        "Animal virus",
+        "Armored RNA",
+        "Diagnostic reagent",
+        "Human virus",
+        "Measles",
+        "Measles virus",
+        "morbillivirus",
+        "MV",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Morbillivirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "molecular detection kit",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Measles virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Morbillivirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "001K-06150",
+      "search:title": "Encapsidated RNA corresponding to the Measles virus sequence amplified by specific P&amp;P (ref: 001K-06149) ",
+      "search:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence in the Nucleoprotein region from Measles virus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref: 001K-06149 . \r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
+      "search:taxonLabel": "Morbillivirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU",
+      "search:providerName": "AMU",
+      "search:pathogenName": "Measles virus"
+    },
+    {
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -5904,116 +6013,6 @@
       "search:collectionName": "AMU",
       "search:providerName": "AMU",
       "search:pathogenName": "O&#039, nyong nyong virus and Chikungunya virus"
-    },
-    {
-      "@type": "EVORAO:DetectionKit",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU"
-      },
-      "EVORAO:refSku": "001K-06150",
-      "@id": "urn:evorao:EVA:AMU:001K-06150",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/encapsidated-rna-corresponding-measles-virus-sequence-amplified-specific-pp-ref-001k",
-      "dcterms:issued": "2025-01-24T11:17:10+01:00",
-      "dcterms:modified": "2026-05-26T11:58:18+02:00",
-      "dcterms:title": "Encapsidated RNA corresponding to the Measles virus sequence amplified by specific P&amp;P (ref: 001K-06149) ",
-      "dcterms:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence in the Nucleoprotein region from Measles virus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref: 001K-06149 . \r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "detection kit"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "molecular detection kit"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "detection kit (for RUO)"
-        }
-      ],
-      "EVORAO:unitCost": 200,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/HeLa2_381b.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/EN_SoP%20ArRNA%20Measles%20%2B%20RNase_CFX.pdf",
-      "EVORAO:specificity": "SOP",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:storageConditions": "Freeze Dried (-20C)",
-      "EVORAO:technicalRecommendation": "Extraction is mandatory before use in real time RT-PCR",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU"
-      },
-      "dcat:keyword": [
-        "AMU",
-        "Molecular detection kit",
-        "Detection Kit (for RUO)",
-        "Derived product",
-        "Room Temperature",
-        "Animal virus",
-        "Armored RNA",
-        "Diagnostic reagent",
-        "EURLs",
-        "Human virus",
-        "Measles",
-        "Measles virus",
-        "morbillivirus",
-        "MV",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Morbillivirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "detection kit",
-      "search:additionalCategory": [
-        "molecular detection kit",
-        "derived product",
-        "detection kit (for RUO)"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Measles virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Morbillivirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "001K-06150",
-      "search:title": "Encapsidated RNA corresponding to the Measles virus sequence amplified by specific P&amp;P (ref: 001K-06149) ",
-      "search:description": "The lyophilized, non infectious, encapsidated RNA (Armored RNA) contains the sequence in the Nucleoprotein region from Measles virus and can be used as positive control for extraction and real time RT-PCR using specific Primers and probe ref: 001K-06149 . \r\nExtraction is mandatory before use in real time RT-PCR. \r\nPackaged for 100 Rxns, for RUO (Research Use Only). \r\nSOPs in the attached pdf.",
-      "search:taxonLabel": "Morbillivirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "AMU",
-      "search:providerName": "AMU",
-      "search:pathogenName": "Measles virus"
     },
     {
       "@type": "EVORAO:DetectionKit",
