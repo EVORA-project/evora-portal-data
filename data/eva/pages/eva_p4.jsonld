@@ -17,6 +17,697 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027K-04207",
+      "@id": "urn:evorao:EVA:DSMZ:027K-04207",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/elisa-survey-package-legume-viruses",
+      "dcterms:issued": "2021-05-20T19:10:11+02:00",
+      "dcterms:modified": "2021-06-15T18:00:29+02:00",
+      "dcterms:title": "ELISA survey package for legume viruses",
+      "dcterms:description": "Many regularly cultivated field crops are affected by viral pathogens, especially if they are grown on a large scale, which usually results in significant yield reductions. As a first step, it is important to obtain an overview of which viruses are involved in order to counter this problem. To obtain a representative overview, it is necessary to investigate a significant number of samples. This survey package contains the ELISA antibodies needed to test up to 500 individual samples for eight of the most common viruses found in legumes: Alfalfa mosaic virus (AMV), Bean common mosaic virus (BCMV), Bean common mosaic necrosis virus (BCMNV), Bean yellow mosaic virus (BYMV), Cucumber mosaic virus (CMV), Cowpea mild mottle virus (CABMV), Soybean mosaic virus (SMV) and Cowpea aphid borne mosaic virus (CABMV).",
+      "EVORAO:unitDefinition": "Package contains all antibodies (IgGs and conjugates) required for the analysis of up to 500 samples (or 250 samples analysed in duplicate wells) by ELISA (200 µl scale) plus 2 positive controls per virus (2 ml).",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "ELISA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 1888,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/20131114_01_6258.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/DSMZ-ELISA_SPL500.pdf",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "TE Buffer +4C",
+      "EVORAO:targetedRegion": "coat protein",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "ELISA",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "Alfalfa mosaic virus",
+        "bean",
+        "Bean common mosaic necrosis virus",
+        "Bean common mosaic virus",
+        "Bean yellow mosaic virus",
+        "Cowpea aphid borne mosaic virus",
+        "Cowpea mild mottle virus",
+        "Cucumber mosaic virus",
+        "legumes",
+        "Leguminosae",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Soybean mosaic virus",
+        "Cowpea aphid-borne mosaic virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "ELISA",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Alfalfa mosaic virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Bean common mosaic virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Bean common mosaic necrosis virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Bean yellow mosaic virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Cucumber mosaic virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Cowpea mild mottle virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Soybean mosaic virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Cowpea aphid borne mosaic virus"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Alfalfa mosaic virus, Bean common mosaic virus, Bean common mosaic necrosis virus, Bean yellow mosaic virus, Cucumber mosaic virus, Cowpea mild mottle virus, Soybean mosaic virus, Cowpea aphid-borne mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027K-04207",
+      "search:title": "ELISA survey package for legume viruses",
+      "search:description": "Many regularly cultivated field crops are affected by viral pathogens, especially if they are grown on a large scale, which usually results in significant yield reductions. As a first step, it is important to obtain an overview of which viruses are involved in order to counter this problem. To obtain a representative overview, it is necessary to investigate a significant number of samples. This survey package contains the ELISA antibodies needed to test up to 500 individual samples for eight of the most common viruses found in legumes: Alfalfa mosaic virus (AMV), Bean common mosaic virus (BCMV), Bean common mosaic necrosis virus (BCMNV), Bean yellow mosaic virus (BYMV), Cucumber mosaic virus (CMV), Cowpea mild mottle virus (CABMV), Soybean mosaic virus (SMV) and Cowpea aphid borne mosaic virus (CABMV).",
+      "search:taxonLabel": "Alfalfa mosaic virus, Bean common mosaic virus, Bean common mosaic necrosis virus, Bean yellow mosaic virus, Cucumber mosaic virus, Cowpea mild mottle virus, Soybean mosaic virus, Cowpea aphid-borne mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Alfalfa mosaic virus, Bean common mosaic virus, Bean common mosaic necrosis virus, Bean yellow mosaic virus, Cucumber mosaic virus, Cowpea mild mottle virus, Soybean mosaic virus, Cowpea aphid borne mosaic virus"
+    },
+    {
+      "@type": "EVORAO:DetectionKit",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
+      "EVORAO:refSku": "027K-04247",
+      "@id": "urn:evorao:EVA:DSMZ:027K-04247",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/detection-kit/elisa-survey-package-pepper-viruses",
+      "dcterms:issued": "2021-06-15T17:57:04+02:00",
+      "dcterms:modified": "2021-06-15T17:57:04+02:00",
+      "dcterms:title": "ELISA survey package for pepper viruses",
+      "dcterms:description": "Many regularly cultivated field crops are affected by viral pathogens, especially if they are grown on a large scale, which usually results in significant yield reductions. As a first step, it is important to obtain an overview of which viruses are involved in order to counter this problem. To obtain a representative overview, it is necessary to investigate a significant number of samples. This survey package contains the ELISA antibodies needed to test up to 500 individual samples for eight of the most common viruses found in pepper crops: Capsicum chlorosis orthotospovirus (CaCV), Chilli veinal mottle virus (ChiVMV), Cucumber mosaic virus (CMV), Paprika mild mottle virus (PaMMV), Pepper mild mottle virus (PMMoV), Pepper mottle virus (PepMoV), Pepper veinal mottle virus (PVMV), Pepper yellow mosaic virus (PepYMV).",
+      "EVORAO:unitDefinition": "Package contains all antibodies (IgGs and conjugates) required for the analysis of up to 500 samples (or 250 samples analysed in duplicate wells) by ELISA (200 µl scale) plus 2 positive controls per virus (2 ml).",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "detection kit"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "ELISA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "detection kit (for RUO)"
+        }
+      ],
+      "EVORAO:unitCost": 1888,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/20131114_01_6222.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:standardOperatingProcedureFile": "https://www.european-virus-archive.com/sites/default/files/detection_kit/DAS-ELISA_DSMZ_0.pdf",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:storageConditions": "TE Buffer +4C",
+      "EVORAO:targetedRegion": "coat protein",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "dcat:keyword": [
+        "ELISA",
+        "Detection Kit (for RUO)",
+        "Derived product",
+        "DSMZ",
+        "Room Temperature",
+        "bell pepper",
+        "Capsicum",
+        "Capsicum chlorosis orthotospovirus",
+        "Chilli veinal mottle virus",
+        "Cucumber mosaic virus",
+        "hot pepper",
+        "NON DANGEROUS GOODS",
+        "Paprika mild mottle virus",
+        "Pepper mild mottle virus",
+        "Pepper mottle virus",
+        "Pepper veinal mottle virus",
+        "Pepper yellow mosaic virus",
+        "Plant virus",
+        "RG1",
+        "solanaceae",
+        "sweet pepper"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "detection kit",
+      "search:additionalCategory": [
+        "ELISA",
+        "derived product",
+        "detection kit (for RUO)"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": [
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Capsicum chlorosis orthotospovirus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Chilli veinal mottle virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Cucumber mosaic virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Paprika mild mottle virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Pepper mild mottle virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Pepper mottle virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Pepper veinal mottle virus"
+          },
+          {
+            "@type": "EVORAO:VirusName",
+            "dcterms:title": "Pepper yellow mosaic virus"
+          }
+        ],
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Capsicum chlorosis orthotospovirus, Chilli veinal mottle virus, Cucumber mosaic virus, Paprika mild mottle virus, Pepper mild mottle virus, Pepper mottle virus, Pepper veinal mottle virus, Pepper yellow mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027K-04247",
+      "search:title": "ELISA survey package for pepper viruses",
+      "search:description": "Many regularly cultivated field crops are affected by viral pathogens, especially if they are grown on a large scale, which usually results in significant yield reductions. As a first step, it is important to obtain an overview of which viruses are involved in order to counter this problem. To obtain a representative overview, it is necessary to investigate a significant number of samples. This survey package contains the ELISA antibodies needed to test up to 500 individual samples for eight of the most common viruses found in pepper crops: Capsicum chlorosis orthotospovirus (CaCV), Chilli veinal mottle virus (ChiVMV), Cucumber mosaic virus (CMV), Paprika mild mottle virus (PaMMV), Pepper mild mottle virus (PMMoV), Pepper mottle virus (PepMoV), Pepper veinal mottle virus (PVMV), Pepper yellow mosaic virus (PepYMV).",
+      "search:taxonLabel": "Capsicum chlorosis orthotospovirus, Chilli veinal mottle virus, Cucumber mosaic virus, Paprika mild mottle virus, Pepper mild mottle virus, Pepper mottle virus, Pepper veinal mottle virus, Pepper yellow mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "DSMZ",
+      "search:providerName": "DSMZ",
+      "search:pathogenName": "Capsicum chlorosis orthotospovirus, Chilli veinal mottle virus, Cucumber mosaic virus, Paprika mild mottle virus, Pepper mild mottle virus, Pepper mottle virus, Pepper veinal mottle virus, Pepper yellow mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IP"
+      },
+      "EVORAO:refSku": "017V-04238",
+      "@id": "urn:evorao:EVA:IP:017V-04238",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/echovirus-24-decamp",
+      "dcterms:issued": "2021-06-10T16:30:33+02:00",
+      "dcterms:modified": "2021-06-10T16:33:47+02:00",
+      "dcterms:title": "Echovirus 24 DeCamp",
+      "dcterms:description": "Prototype Strain",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1956-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "United States of America (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Polio laboratory manual, 4th edition, 2004, World Health Organization, Geneva, Switzerland",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD   (rhabdomyosarcoma)"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Viral Storage Medium -20C",
+      "EVORAO:titer": "10e7,2 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IP"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "IP",
+        "Category B",
+        "UN3373",
+        "E24",
+        "echovirus 24",
+        "enterovirus",
+        "Human virus",
+        "RD   (rhabdomyosarcoma)",
+        "Reference Strain",
+        "RG2",
+        "United States of America (the)",
+        "- 20°C",
+        "Picornaviridae",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1956-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">E24-DeCamp\nTTAAAACAGCTTGGGGGTTGCACCCACCCACAGGGCCCACAGGGCGCTAGCACTCTGGTATCACGGTACCTTTGTGCGCCTGTTTTATTACCCCTTCCCCAATTGAAAATTAGAAGCAATGCACACCGATCAACAGCAGGCGTGGCGCACCAGTCACGTCTCGATCAAGCACTTCTGTTTCCCCGGACCGAGTATCAATAGACTGCTCACGCGGTTGAAGGAGAAAGTGTTCGTTATCCGGCTAACCACTTCGAGAAACCCAGTAACACCATGAAAGTTGCAGGGTGTTTCGCTCAGCACTTCCCCAGTGTAGATCAGGTCGATGAGTCACCGCGTTCCCCACGGGCGACCGTGGCGGTGGCTGCGTTGGCGGCCTGCCTATGGGTTAACCCATAGGACGCTCTAATACAGACATGGTGCGAAGAGTTTATTGAGCTGGTTAGTATCCCTCCGGCCCCTGAATGCGGCTAATCCTAACTGCGGAGCACGTGCCTCCAATCCAGGGGGTTGCATGTCGTAACGGGTAACTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGTTTCCTTTTATTCTTATACTGGCTGCTTATGGTGACAATCGAGGAATTGTTACCATATAGCTATCGGATTGGCCATCCGGTGTCTAACAGAGCGATTATATACCTCTTTGTTGGATTTATACAGCTCAATACCACCAACTTTAACACATTGAAATATATCTTAAAGTTAAACACAGCAAAATGGGAGCTCAAGTGTCAACGCAGAAAACAGGTGCCCACGAGACTAGCCTGAGTGCTAGTGGGAATTCCATCATACACTACACTAATATAAATTACTACAAGGATGCTGCATCAAACTCGGCCAACAGGCAAGATTTCTCACAAGATCCTAGCAAATTCACCGAGCCAATGAAAGACATCATGGTCAAATCACTGCCAGCCTTGAACTCACCGAAAGCCGAGGAGTGTGGATACAGTGATAGAGTTAGAACAATCACTCTAGGCAACTCAACGATAACAACACAAGAGTGCGCAAATGTAGTGGTGGCGTATGGTGAGTGGCCAGATTACCTAAGTGACAAAGAAGCGGTTGCTGAAGATCAGCCCACACAACCCGATGTGGCTACATGCCGCTTTTACACACTGGATTCTGTTTCGTGGCAGAAAACCTCCGACGGTTGGTGGTGGAAGTTTCCCAACGCACTAAAAGATATGGGGTTGTTTGGACAAAACATGTTGTACCACTACCTGGGTCGAACGGGATATACCATACATGTGCAGTGCAACGCATCCAAGTTTCATCAAGGTTGCCTGTTGGTAGTGTGTGTGCCCGAGGCTGAGATGGGATGTGCTACGGTCACTAATACCCTGAATGCCACTGCACTGTGCAATGGGGACACTGCAATGAACTTCACCAAAACACGTGCGAACACTACAAACGGTGTCCAAACGGCCACCCACAACGCTGGGATGGGGGTGGCCACCGGCAACTTGACCATATTTCCACACCAGTGGATCAACCTGCGCACAAACAATAGCGCCACCATCGTGATGCCATACATCAACAGTGTGCCTATGGACAACATGTACAGACACCATAATTTCACACTGATGATCATCCCGTTCGCCCCATTAGACTTCGCCACTGGAGCCTCATCATACGTCCCTATAACAGTGACCATAGCGCCGATGAGTGCTGAGTACAACGGCTTGAGATTAGCTGGCCCGCAAGGCTTGCCCACCATGCTGACACCAGGTAGCAATCAGTTCCTTACATCAGATGACTTTCAATCACCATCGGCAATGCCACAGTTTGATGTAACCCCAGAAATGCACATACCTGGTGAGGTGAGGAACTTAATGGAAATTGCTGAGGTTGATTCTGTGATACCAATAAACAACTTGCAAAATACAGTTAATTCAATGGAGGCCTATCGAGTGGGAGTGGTGGCGAACGCAGAGGCAGGAAAGCAAATATTTGGGTTTCAGTTGCAACCCGGTGCTAGCTCTGTGTTTAAACGCACGCTACTTGGAGAGATCTTAAATTATTACACCCACTGGTCTGGAAGCATTAAGCTCACTTTTGTCTTTTGTGGTTCGGCTATGGCTACAGGCAAATTTCTGCTCGCATATTCACCCCCTGGTGCTGGTGTGCCCAAAGATCGGAAAGGAGCGATGCTGGGAACCCACGTCGTATGGGATGTAGGGCTCCAGTCCAGCTGTGTGTTGTGTGTGCCATGGATTAGCCAGACCCATTACAGATTCGTCACTGATGATGTGTACACGGACGCAGGTTTTGTCACTTGCTGGTATCAAACGAGTGTTGTTGCCCCAGCTCATGCCCAGAGTGCATGTTATATACTTGGATTTGTCTCTGCGTGCAATGACTTCTCAGTGCGCCTACTCAAAGATACACCTTTTATAAGTCAGCAGAACTTCTACCAAGGAGATGTCTGTGAGGAAGTAGAGAGGGCTATTACCAGGGTTGCAGATACTGTCGGACGCGGTCCTGCTAACACTGAGAGTGTACCAGTGCTGACTGCAGTTGAAACTGGACACACTTCACAAGTTGTACCCGGGGACACCATGCAAACCAGACATGTTAAAAACTTTCACACGCGGTCAGAATCATCTGTGGAAAATTTCATGTGCAGAGCAGCGTGTGTGTATTATGTGGATTACCACACACAAAATGACAGTGAGGATGAAAAATATGCATCTTGGATTATCAACACGAGACAGGTAGCACAGCTACGCAGGAAAATTGAGCTGTTCACGTACACTAGGTTTGATGTCGAAATCACATTCGTGATCACCACCACACAGCAGCAATCCACAGCTCCCAACCCCGACACTCCTCTGCTGACACACCAGATCATGTATGTGCCCCCGGGTGGCCCAGTGCCAAATAGTGCTACCGATTATTGTTGGCAATCATCCACAAATCCCAGTATATTCTGGACCGAGGGTAGCGCACCACCCAGAATGTCAATACCCTTTATAAGTGTGGGAAATGCATACAGCAGTTTTTATGATGGGTGGTCACATTTCACTCAGAATGGGGTGTACGGGTTCAACACTCTGAACAATATGGGCAAATTATACTTCAGGCACGTAAATGACAACACCGTAGGGCCATATGTGAGCAAAGCCCGCATTTATTTCAAACCAAAGCATGTGCGTGCGTGGGTTCCCAGACCTCCCAGGCTCTGTGAATACAACAATCGAGCCAACGTGAACTTTGAACCACGAGGGGTTACCGATGCCAGGTCTAGTATCACGGCCACAACCGACACGATCACTGAGAGCAGAGGGATGCAAACGACTGGTGCGTTTGGTCAACAATCAGGCGCTGCTTATGTGGGCAACTACAGAGTAGTGAACAGACACCTAGCTACACACACAGACTGGCGAAACTGCGTGTGGGAGGACTACAACAGAGACTTGCTTGTTAGCACCACCACAGCCCACGGGTGTGACGTCATAGCCAGATGCCAATGCACGACGGGAGTTTATTTCTGTCAAAGCAAGAACAAGCACTACCCAGTCTCATTTGAGGGCCCAGGCCTAGTTGAAGTCCAAGAGAGTGAGTACTACCCCAAGAGATACCAATCCCATGTGCTTCTTGCAGTAGGGTTCTCTGAGCCAGGAGATTGTGGTGGAATCCTCAGATGCGAACATGGTGTGATAGGGCTCGTTACCATGGGTGGTGAAGGTGTTGTAGGATTTGCAGATGTACGTGACCTCCTGTGGCTGGAAGATGATGCGATGGAGCAGGGAGTCAAAGATTATGTGGAACAACTTGGAAATGCTTTTGGATCGGGCTTTACAAACCAAATTCATGAACAGATAAATCTTCTGAAAGAGTCCCTGGTGGGTCAAGACTCCATCTTGGAGAAGTCTTTGAAAGCCCTAGTAAAAATTATATCAGCTTTAGTGATTGTGGTGAGAAACCACGATGATCTGATCACGGTGACTGCCACACTAGCCCTCATTGGTTGTACCTCGTCCCCATGGCGATGGCTCAAACAGAAAGTGTCCCAATATTACGGAATACCCATGGCTGAACGCCAAAATAACGGATGGCTTAAGAAATTCACTGAGATGACAAACGCTTGCAAGGGTATGGAATGGATAGCCATCAAAATTCAGAAGTTCATTGAGTGGCTTAAAGTCAAAATCCTACCAGAGGTCAAGGAAAAACATGAATTCCTGAATAGACTTAAGCAACTCCCTCTATTAGAAAGTCAGATCGCCACAATCGAACAGAGCGCACCATCCCAGAGTGATCAAGAGCAACTGTTCTCCAATGTCCAGTACTTTGCTCACTATTGCAGAAAGTATGCCCCCCTCTATGCAGCAGAAGCAAAGAGAGTGTTCTCCCTTGAAAAGAAGATGAGCAACTACATACAGTTCAAGTCCAAATGTCGTATTGAGCCTGTATGTCTGCTCCTACACGGGAGTCCTGGCGCCGGCAAATCAGTAGCAACAAACCTAATTGGAAGGTCACTTGCTGAAAAGCTTAACAGTTCAGTGTACTCACTACCCCCAGATCCAGATCACTTCGATGGCTATAAACAACAGGCCGTGGTGATCATGGATGATCTGTGCCAGAATCCCGACGGGAAAGATATCTCCTTGTTCTGTCAGATGGTCTCCAGCGTGGATTTCGTACCACCCATGGCTGCCCTGGAAGAGAAAGGCATTTTGTTCACCTCCCCGTTCGTATTGGCATCTACCAATGCAGGATCTATCAATGCTCCAACTGTGTCAGATAGTGGGGCCTTGGCAAGGAGGTTCCACTTTGACATGAACATTGAAGTTATTTCCATGTATAGCCAAAATGGCAAGATAAACATGCCAATGTCAGTGAAGACGTGTGATGAGGAGTGTTGTCCAGTCAACTTTAAGAAGTGTTGCCCGCTAGTGTGTGGAAAAGCTATCCAGTTCATAGACAGAAGAACTCAAGTCAGATACTCCCTCGATATGCTGGTGACTGAGATGTTTAGGGAATACAACCACAGGCACAGTGTTGGGGCCACCCTTGAGGCACTGTTCCAGGGTCCGCCAGTATACAGAGAGATCAAAATTAGCGTGGCACCAGAAACACCACCACCACCAGCCATCGCGGATTTGCTTAAATCAGTGGATAGCGAAGCCGTGAGAGAGTATTGCAAAGAAAGGGGGTGGTTGGTTCCTGAGGTAAACTCCACCCTCCAAATTGAAAAACATGTTAGCCGGGCTTTCATCTGTCTACAGGCAATAACCACATTCGTGTCAGTGGCTGGAATTATCTACATAATATACAAGCTCTTTGCAGGCTTTCAAGGTGCATACACAGGAATGCCCAACCAGAAGCCCAAGGTACCCACTCTAAGGCAAGCAAAAGTACAGGGTCCCGCGTTTGAATTTGCTGTTGCAATGATGAAGAGGAACTCAAGCACAGTGAAAACTGAATATGGTGAATTCACCATGTTGGGCATCTATGATAGGTGGGCTGTCCTGCCGCGTCATGCTAAACCTGGTCCAACTATTTTGATGAATGATCAAGAAGTAGGTGTGCTGGACGCTAAAGAGTTGGTGGACAAGGATGGCACAAATCTAGAGCTGACACTACTCAAGCTGAACAGGAACGAGAAGTTCAGAGACATTAGAGGGTTCTTAGCCAAGGAAGAGGTGGAAGTCAATGAGGCCGTACTAGCAATTAACACCAGCAAGTTCCCCAACATGTACATCCCAGTAGGACAAGTCACGGATTACGGTTTCCTGAATCTAGGCGGCACACCCACTAAGAGAATGCTTATGTACAACTTCCCCACAAGGGCCGGTCAATGTGGTGGGGTGCTCATGTCCACCGGTAAAGTCCTGGGGATCCATGTTGGGGGGAATGGTCATCAAGGCTTTTCAGCTGCACTCCTTAAGCACTATTTTAACGATGAACAAGGGGAGATCGAGTTCATCGAGAGCTCAAGAGATGCGGGGTTTCCAATCATCAACACACCTAGCAAGACCAAATTGGAACCGAGTGTCTTTCACCAGGTTTTTGAAGGCAATAAAGAGCCAGCAGTTCTCAGGAGTGGTGACCCACGCCTCAAAACTAATTTTGAGGAAGCCATCTTTTCCAAATACATCGGAAATGTTAACACACACGTGGATGAATACATGCTGGAAGCCGTTGACCACTACGCTGGGCAATTAGCCACCCTAGACATCAGCACTGAACCTATGAAATTGGAAGATGCCGTGTATGGAACCGAAGGTCTTGAAGCTCTTGATTTAACAACAAGTGCAGGCTACCCCTATGTCGCACTGGGTATAAAGAAGAGAGACATCCTCTCAAAGAAGACCAAGGACCTGACTAAGCTAAAAGAGTGCATGGATAAGTATGGTTTGAACCTGCCGATGGTGACTTATGTGAAAGATGAACTCAGGTCCGCAGAGAAGGTAGCAAAAGGCAAGTCTAGGCTGATCGAAGCATCCAGTTTGAATGATTCAGTGGCAATGAGACAGACATTTGGTAATCTGTACAAGACCTTCCACCTGAACCCAGGGATTGTGACTGGTAGTGCAGTTGGGTGTGACCCAGACATCTTTTGGAGTAAAATACCGGTGATGTTGGATGGACATCTCATAGCTTTTGATTACTCTGGGTATGATGCTAGCTTAAGTCCTGTCTGGTTTGCTTGCTTAAAAATGCTACTTGAGAAGCTTGGATATACACACAAAGAGACAAACTATATTGATTACTTGTGCAACTCCCATCACCTGTACAGAGACAAGCATTACTTTGTGAGGGGTGGTATGCCCTCAGGGTGTTCTGGCACCAGCATCTTTAACACAATGATCAACAACATCATAATCAGGACACTAATGCTGAAAGTGTACAAGGGAATTGACTTGGACCAGTTCAGGATGATTGCATACGGTGATGATGTAATTGCGTCATACCCATGGCCCATAGATGCATCCTTACTCGCTGAGGCTGGTAAGGATTACGGGTTGATCATGACACCAGCAGACAAGGGGGAGTGCTTTAATGAAGTCACTTGGACCAACGTCACTTTCCTAAAGAGGTTTTTTAGAGCAGATGAACAATACCCCTTCTTGGTGCACCCTGTCATGCCCATGGAAGACATACATGAGTCAATCAGATGGACTAAAGATCCAAAGAACACCCAAGATCATGTGCGCTCACTGTGTCTATTGGCCTGGCACAACGGGGAGCACGAATATGAAGAGTTCATCCGTAAAATTAGAAGCGTTCCAGTCGGACGTTGCTTGACCCTCCCTGCATTTTCAACCCTGCGCAGGAAGTGGTTGGACTCTTTCTAAATTAGAGACAACTTGAAATAATTTGAATTGGCTTAACCCTACTGTACTAACCGAACTAGATAACGGTGCAGTAGGGGTAAATTCTCCGCATTCGGTGCGG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "echovirus 24"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Picornaviridae, Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "017V-04238",
+      "search:title": "Echovirus 24 DeCamp",
+      "search:description": "Prototype Strain",
+      "search:taxonLabel": "Picornaviridae, Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:collectionName": "IP",
+      "search:countryOfCollection": "United States of America (the)",
+      "search:providerName": "IP",
+      "search:pathogenName": "echovirus 24"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IP"
+      },
+      "EVORAO:refSku": "014V-02076",
+      "@id": "urn:evorao:EVA:IP:014V-02076",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/echovirus-13-del-carmen",
+      "dcterms:issued": "2017-02-10T15:17:34+01:00",
+      "dcterms:modified": "2021-06-10T16:32:35+02:00",
+      "dcterms:title": "echovirus 13 Del carmen",
+      "dcterms:description": "prototype strain",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1953-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Philippines (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Polio laboratory manual, 4th edition, 2004, World Health Organization, Geneva, Switzerland",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD   (rhabdomyosarcoma)"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Viral Storage Medium -20C",
+      "EVORAO:titer": "10^8.1 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IP"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Rectal swab from 4-month old female"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Philippines"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "IP",
+        "Category B",
+        "UN3373",
+        "echovirus",
+        "echovirus 13",
+        "enterovirus",
+        "Human virus",
+        "Philippines",
+        "Philippines (the)",
+        "RD   (rhabdomyosarcoma)",
+        "Rectal swab from 4-month old female",
+        "Reference Strain",
+        "RG2",
+        "- 20°C",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1953-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">E13-DelCarmen\nTTAAAACAGCCTGTGGGTTGTACCCACCCACAGGGCCCACTGGGCGCCAGCACACTGGTATCACGGTACCCTTGTGCGCCTGTTTTATCCACCCCTCCCCGAAGTAACTTAGAAGCTCTAAATAAGCGGTCAGCAGCCAGCCCAGCACACCAGCTGGGTTTTGACCAAGTACTTCTGTTACCCCGGACCGAGTATCAATAGGCTGCACACGCGGCTGAAGGAGAAAACGTTCGTTACCCGGCCATCTACTTCGAGAAACCTAGTACCACTATGAAAGTTGCGAAGCGTTTCGCTCCACACAACCCCAGTGTAGATCAGGCTGATGAGTCACCGCATTCCCCACAGGTGACTGTGGCGGTGGCTGCGTTGGCGGCCTGCCCATGGGGCAACCCATGGGACGCTTCAATACCGACATGGTGCGAAGAGTCTATTGAGCTAGATGGTAGTCCTCCGGCCCCTGAATGCGGCTAATCCTAACTGCGGAGCAGGTGCACACAAACCAGTGAGTAGCCTGTCGTAATGGGCAACTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGTTTCTTTTTATTCTTATATTGGCTGCTTATGGTGACAATTGAAAGATTGTTACCATATAGCTATTGGATTGGCCATCCGGTGACTAGCAGAGCACTGATATACCTATTTGTGGGCTTTGTACCACTCAACTTTGTCAGCTACACCACATTGCTATATATTGTCCAACTGAACGCAAGAAGATGGGAGCACAAGTATCGACTCAAAAGACTGGGGCTCACGAGACCGGGCTTAACGCCAGCGGCAATTCTGTGATCCACTATACAAATATCAACTACTACAAAGATGCTGCCTCTAACTCGGCAAACCGACAAGACTTCACTCAGGATCCAAGCAAATTCACCGAACCAATGAAAGATGTAATGATCAAGACATTACCGGCGTTGAACTCCCCATCAGTGGAAGAGTGTGGATTTAGTGATAGAGTGAGATCAATAACCCTTGGCAACTCAACCATTACAACTCAAGAGTGCGCAAATGTGGTAGCAGCATATGGTGAGTGGCCCTCATATTTAAAGGATACTGAGGCAACGGCAGAGGATCAACCAACACAACCTGATGTTGCCACCTGCAGGTTCTATACACTAGAATCAGTTGAGTGGCAGGGAAGTTCTGCTGGGTGGTGGTGGAAGTTCCCAGAAGCCCTGAAAGACATGGGCTTATTTGGCCAGAACATGCATTACCACTACCTTGGGAGGGCAGGCTACACCATCCACGTGCAGTGCAATGCATCGAAATTCCATCAAGGGTGCCTGCTAGTAGTGTGTGTACCTGAGGCTGAAATGGGTTGTTCAAATATTGACAGAGTGGTGACAGCTAGTGCTCTAACTAGTGGTGAAAGAGCTAGTACCTTTCAAGCCCAAGCCAACACCAATCAAAATGATGTACAAAATGTGGTGCACAACGCAGCAATGGGGGTTGGAGTGGGCAACCTGACAATATTCCCCCATCAGTGGATAAACCTGCGTACAAACAACAGTGCCACCATTGTCATGCCTTACATCAATAGCGTGCCTATGGACAATATGTTCCGGCACTACAATTTCACACTAATGATCATCCCGTTTGCTAAGCTAGAATACGTCTCTGGTGCTTCGAGCGTGGTGCCAATCACAGTGACCATTGCGCCCATGTCAGCTGAGTATAACGGGCTGAGGCTGGGTTCAGTGCAGGGACTCCCCACCATGAATACACCGGGTAGTACACAGTTTTTAACATCTGACGACTTCCAATCACCCTCGGCCATGCCACAATTCGATGTTACCCCCGAGATGCACATCCCAGGAGAAGTGCGAAATCTAATGGAAATTGCAGAGGTGGATTCTGTGGTGCCCGTTAACAACACAGCCGCCAACGTCAACAACATGGACGCATATCGCATACCAGTCCAGGTGAGCAAGGTAGGGGAGCAGGTGTTTGGATTCCAGCTTGAACCGGGTAGTGGTAGTGTGCTATGCAGGACCCTATTGGGTGAGATATTGAATTATTATACTCATTGGAGCGGTAGCATAAAATTGACATTTATGTTTTGTGGTTCAGCGATGGCAACCGGCAAATTTTTAATATCATACGCCCCGCCTGGTGCTGGCTTCCCGGAAAACCGGAAAGATGCAATGTTAGGGACACATGTGGTATGGGATGTTGGGCTGCAGTCTAGCTGCGTTCTGTGTATACCTTGGATCAGCCAAACCCACTATCGTTTTGTGCAACACGACGTGTATACCGATGCTGGGTATATTACGTGTTGGTACCAGACCAGCCTTGTGGTTCCTGCAGAAACCCCTCAGCAGTGCACTATTTTGTGTTTCATCTCAGCATGTAACGATTTCTCAGTAAGACTCTTAAAAGACACACCCTTCATATCCCAAAAGAACTTTTTCCAAGGGGATGAGAGTGCAAAGGCTACAGTTTCCAACACACAGCCTAGCGGTCCAAGTAATTCTGTCAGCGTGCCAATGCTTACTGCTGCTGAGACCGGGCACACATCTCAAGCAGTACCCAGTGACACTATACAGACCAGGTGCGTAGTGAACCAACACAAGCGGTCGGAATCATCCGTGGAAAATTTCCTGTGTCGCTCCGCTTGCGTATACTACACAACCTATGACACTCACGGGGATGCAGCCGACGCAAAGTACGCCAGTTGGACGATAACCACCCGAAAAGCTGCACAGCTGCGGAGAAAACTAGAGATGTTCACATACTTGAGGTTTGATTTAGAAGTGACATTCGTTATAACAAGTGCACAAGTAACATCTACCAATAAAAGGCAGGACACGCCTGTTCTCACGCATCAAGTCATGTACGTGCCACCAGGTGGTGCAGTACCCGCTAGTGTGGACGATTATGCGTGGCAGACGTCCACAAACCCAAGTATCTTCTGGACGGAAGGGAATGCACCAGCACGCATGTCTATACCCTTTATCAGCGTGGGCAACGCATACAGTAGCTTCTATGATGGGTGGTCCAACTTTACACAGAATGGAGTTTACGGGTTCAACACGCTAAACAACATGGGAAAGCTATACGTACGACACGTCAATGGAGCTAGCCCCGGCCCTGTGAAGAGTACCATACGGTTTTACATGAAGCCCAAACACGTGAAGGCTTGGATACCCAGACCTCCTCGCCTCTGCGAGTACGAAAAATCAGGCAATGTAAACTTCAAACCCAAGGGCGTGACAGAGAGCCGGACGTCTATCAAATTAGAAAAACCAAACCCTGCGTCCAAATTAATGAACCACGGCCCCTTTGGACACCAATCTGGTGCAATATATGTGGGAAACTATAGGATAGCCAATAGACACCTGGCAACGCATGATGATTGGCAGAATTGCGTGTGGGAAGATTATAACAGGGATCTGTTAGTCAGCACCACCACAGCTCACGGGTGTGACACTATAGCCAGATGTCAGTGTACAACCGGAGTGTACTTCTGTGCTTCAAAAAACAAGCACTACCCAGTTAGCTTTGAAGGGCCTGGCCTCGTGGAGGTCCAAGAAAGTGAATACTACCCCAAGAGGTATCAATCCCATGTATTACTAGCTGCAGGATTTTCAGAGCCAGGGGATTGTGGTGGAATCCTCAGGTGCGAACATGGTGTTATCGGTCTTGTGACCATGGGCGGAGAAGGTGTTGTCGGTTTTGCCGATGTGCGTGACCTGCTGTGGTTAGAGGATGATGCCATGGAACAAGGAGTGAAAGATTACGTGGAACAGCTGGGGAACGCCTTCGGGTCGGGCTTCACCAACCAGATCTGCGAACAGGTTAACCTCCTTAAGGAATCTTTAGTGGGACAAGATTCTATCTTAGAAAAATCTCTCAAGGCCCTGGTCAAGATTATATCAGCACTGGTGATAGTGGTAAGAAATCATGATGATCTGATAACAGTGACTGCTACCCTCGCCCTTATCGGATGCACCACATCTCCATGGCGCTGGCTCAAGCAAAAGGTGTCCCAGTACTATGGCATCCCCATGGCTGAACGACAGAACAACGGGTGGCTTAAGAAATTCACTGAGATGACCAATGCCTGCAAAGGCATGGAGTGGATCTCTATCAAAATTCAGAAATTTATCGAATGGCTTAAGGTCAAGATTCTACCAGAAGTGAGGGAGAAGCATGAGTTCCTCAACAGACTGAAGCAGCTACCACTTCTAGAAAGTCAGATTGCCACCATAGAACAGAGTGCACCGTCACAAAGTGATCAAGAGCAGCTCTTTTCCAACGTGCAGTACTTCGCCCACTACTGCAGAAAATACGCACCCCTGTATGCAGCTGAAGCAAAGAGAGTGTTCTCCCTTGAAAAGAAGATGAGCAACTACATACAGTTCAAGTCCAAATGCCGTATTGAACCTGTATGCTTGCTCTTACATGGGAGCCCCGGAGCGGGGAAATCGGTTGCTACTAACCTGATTGGGCGTTCGCTAGCTGAGAAATTGAATAGTTCAGTGTACTCCTTGCCACCAGACCCAGATCACTTTGATGGATACAAGCAACAGGCTGTTGTGATCATGGACGATTTGTGCCAAAACCCGGACGGCAAGGATGTGTCCTTATTCTGCCAAATGGTATCTAGTGTAGACTTTGTACCACCAATGGCCGCACTAGAGGAAAAGGGCATCCTGTTCACTTCCCCTTTTGTCCTGGCTTCAACCAATGCTGGTTCCATCAATGCGCCAACGGTGTCAGACAGCCGGGCTTTGGCTAGAAGGTTCCATTTTGATATGAACATTGAAGTTATTTCCATGTATAGCCAGAATGGCAAAATCAACATGCCCATGTCAGTTAAGACGTGTGATGAAGAGTGTTGCCCGGTCAATTTTAAAAGATGTTGCCCTCTCGTTTGTGGAAAGGCTATCCAATTCATTGACAGGAAGACTCAAGTGAGACACTCCCTGGATATGTTGGTTACGGAGATGTTTAGGGAATACAACCACAGACACAGTGTCGGGGCAACCCTTGAGGCGCTATTCCAAGGTCCACCAGTGTACAAAGAGATCAAAATCAGCGTTGCACCCGAGACTCCACCGCCACCTGCAATTGCAGACTTATTGAAGTCGGTGGACAGTGAAGTAGTAAGAGAGTACTGCAAGGAGAAAGGATGGCTAGTTCCTGAAATCAATTCTACTCTCCAAATTGAGAAGCATGTTAGTCGAGCCTTTATCTGCCTCCAAGCACTAACAACTTTTGTGTCTGTGGCTGGAATCATTTACATAATTTATAAGTTGTTTGCAGGGTTCCAGGGCGCATACACGGGGATGCCTAACCAAAAACCTAAAGTGCCCACACTAAGACAGGCCAAGGTGCAAGGCCCCGCTTTTGAATTTGCTGTGGCCATGATGAAAAGGAACTCCAGTACAGTGAAAACAGAGTACGGTGAATTTACTATGCTAGGCATCTACGATAGATGGGCTGTTCTACCGCGCCACGCCAAGCCCGGACCAACCATTCTTATGAATGAACAAGAAGTTGGCGTGCTGGATGCTAAAGAATTAGTGGATAAAGATGGCACAAATCTTGAACTGACATTGCTAAGACTCAACCGGAATGAGAAGTTCAGAGACATCAGAGGATTCCTGGCCAAAGAAGAGGTGGAAGTCAATGAAGCAGTCCTAGCAATTAACACTAGCAAATTTCCAAATATGTACATCCCTGTGGGGCAGGTCACGGACTATGGCTTTCTAAATCTGGGTGGTACCCCCACAAAAAGAATGCTCATGTATAATTTTCCCACCAGAGCAGGCCAGTGCGGCGGTGTCCTCATGTCCACTGGCAAGGTGCTGGGGATACATGTAGGTGGGAACGGGCACCAGGGCTTTTCAGCAGCTCTTCTCAAGCACTACTTCAATGATGAGCAAGGGGAGATTGAGTTCATTGAGAGCTCAAAGGAAGCAGGGTTCCCAATTATCAACACACCAAGCAAGACAAAATTGGAACCAAGTGTCTTCCATCAAGTTTTTGAAGGGAATAAAGAACCAGCAGTCCTCAGAAATGGAGACCCACGCCTCAAAGCCAACTTTGAAGAGGCCATATTTTCTAAGTACATAGGGAATGTCAACACGCACGTGGACGAGTACATGCTAGAAGCCGTGGACCACTATGCAGGGCAACTGGCCACCCTCGACATTAACACTGAACCAATGAAACTAGAGGACGCAGTGTATGGTACTGAGGGTTTGGAGGCCCTCGACTTAACAACCAGCGCAGGGTATCCATACGTGGCACTAGGTATTAAGAAGAGAGACATCTTGTCCAAGAAGACCAAGGACCTAACCAAATTAAAAGAGTGCATGGATAAGTATGGCCTGAACTTACCAATGGTGACTTATGTAAAGGATGAGCTAAGATCAGCGGAAAAGGTGGCCAAGGGTAAATCTAGACTTATCGAAGCATCCAGCTTGAACGATTCCGTTGCAATGAGACAGACATTTGGTAATTTATATAAGACATTTCACCTGAATCCGGGGATTGTGACTGGCAGTGCAGTGGGATGTGACCCAGATCTTTTCTGGAGCAAAATACCAGTAATGCTAGATGGACATCTCATAGCATTTGACTACTCTGGTTACGACGCCAGCCTGAGCCCTGTGTGGTTTGCATGCTTAAAACTGCTGCTCGAGAAGATCGGGTACTCACACAAGGAGACAAATTACATAGATTACCTATGTAACTCACACCACCTGTATAGAGATAAACACTACTTTGTGCGTGGTGGTATGCCATCAGGGTGTTCAGGAACTAGCATTTTCAACTCAATGATTAACAACATCATAATCAGGACACTAATGCTGAAAGTGTACAAGGGGATTGACTTGGACCGATTTAGAATGATTGCATACGGCGATGATGTGATTGCATCATACCCTTGGCCCATAGATGCTTCTCTGCTTGCTGAGGCTGGAAAAGGTTATGGACTGATTATGACACCAGCAGATAAGGGGGAGTGTTTCAACGAAGTCACTTGGACTAATGTCACCTTTTTGAAGAGATACTTCAGGGCTGATGAGCAGTACCCCTTTTTAGTCCACCCAGTCATGCCCATGAAGGATATCCACGAATCTATCAGGTGGACCAAAGACCCGAAAAACACCCAAGATCACGTTCGATCGTTGTGCTTATTGGCCTGGCACAACGGGGAACAGGAATACGAGGAATTCATCCAAAAGATCAGAAGCGTCCCGGTTGGGCGCTGTTTGACTCTACCTGCGTTTTCAACTCTGCGCAGAAAATGGTTGGACTCCTTTTAAAATTAGAGACAATTTGAGATAATTAAAATTGGCTTAACCCTACTGCACTAACCGAACTAGATAACGGTGCAGTAGGGGTAAATTCTCCGCATTCGGTGCGG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "echovirus 13"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "Del carmen",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "014V-02076",
+      "search:title": "echovirus 13 Del carmen",
+      "search:description": "prototype strain",
+      "search:taxonLabel": "Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Rectal swab from 4-month old female",
+      "search:collectionName": "IP",
+      "search:countryOfCollection": "Philippines (the)",
+      "search:providerName": "IP",
+      "search:pathogenName": "echovirus 13"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "IP"
+      },
+      "EVORAO:refSku": "014V-02083",
+      "@id": "urn:evorao:EVA:IP:014V-02083",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/coxsackievirus-b1-ro-98174",
+      "dcterms:issued": "2017-02-10T15:57:50+01:00",
+      "dcterms:modified": "2021-06-10T15:56:42+02:00",
+      "dcterms:title": "coxsackievirus B1 RO-98/1/74",
+      "dcterms:description": "field isolate",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1974-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Romania"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:biosafetyRestrictions": "This virus was isolated in Romania when the trivalent oral polio vaccine was in use. Therefore, it is considered as an OPV2/Sabin 2 potentially infected material and must be handled in compliance with the WHO GUIDANCE FOR NON-POLIOVIRUS FACILITIES TO MINIMIZE RISK OF SAMPLE COLLECTIONS POTENTIALLY INFECTIOUS FOR POLIOVIRUSES available at http://polioeradication.org/polio-today/preparing-for-a-polio-free-world/containment/containment-resources/.",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Polio laboratory manual, 4th edition, 2004, World Health Organization, Geneva, Switzerland",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "RD   (rhabdomyosarcoma)"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:storageConditions": "Viral Storage Medium -20C",
+      "EVORAO:titer": "10^8.7 TCID50/mL",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "IP"
+      },
+      "EVORAO:accessionNumber": "LS451286",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "stool"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Romania"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "IP",
+        "11125161",
+        "Category B",
+        "UN3373",
+        "Coxsackievirus",
+        "coxsackievirus B1",
+        "enterovirus",
+        "Human virus",
+        "LS451286",
+        "RD   (rhabdomyosarcoma)",
+        "RG2",
+        "Romania",
+        "stool",
+        "- 20°C",
+        "Enterovirus B"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1974-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "sequence available upon request",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "LS451286"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "coxsackievirus B1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Enterovirus B"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "014V-02083",
+      "search:title": "coxsackievirus B1 RO-98/1/74",
+      "search:description": "field isolate",
+      "search:taxonLabel": "Enterovirus B",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "stool",
+      "search:collectionName": "IP",
+      "search:countryOfCollection": "Romania",
+      "search:accessionNumber": "LS451286",
+      "search:providerName": "IP",
+      "search:pathogenName": "coxsackievirus B1"
+    },
+    {
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -63478,422 +64169,6 @@
       "search:pathogenName": "European bat lyssavirus 1"
     },
     {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024A-04015",
-      "@id": "urn:evorao:EVA:CSIRO:024A-04015",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/foot-and-mouth-disease-virus-3abc-polyclonal-antibody-igy-raised-chicken-0",
-      "dcterms:issued": "2021-01-14T03:39:41+01:00",
-      "dcterms:modified": "2021-02-01T09:08:20+01:00",
-      "dcterms:title": "Foot and mouth disease virus 3ABC polyclonal antibody (IgY) raised in chicken",
-      "dcterms:description": "Chicken (egg) anti-FMDV 3ABC polyclonal antibody (W22)",
-      "EVORAO:unitDefinition": "1 mL purified IgY",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "ELISA",
-      "EVORAO:antibodyType": "Polyclonal",
-      "EVORAO:antibodyCharacterizationObservation": "SDS PAGE, ELISA",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Chicken was immunized with recombinant, IMAC-purified, FMDV 3ABC antigen. Eggs were collected and the IgG purified using an ammonium sulphate cut method.",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:targetedAntigen": "Protein:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:doi": "10.1128/JCM.03491-14",
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "CSIRO",
-        "10.1128/JCM.03491-14",
-        "25788546",
-        "Animal virus",
-        "Foot-and-mouth disease virus",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "non-structural protein",
-        "NSP",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "024A-04015",
-      "search:title": "Foot and mouth disease virus 3ABC polyclonal antibody (IgY) raised in chicken",
-      "search:description": "Chicken (egg) anti-FMDV 3ABC polyclonal antibody (W22)",
-      "search:taxonLabel": "Foot-and-mouth disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CSIRO",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Foot-and-mouth disease virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024A-04021",
-      "@id": "urn:evorao:EVA:CSIRO:024A-04021",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/african-swine-fever-virus-p72-polyclonal-antiserum-0",
-      "dcterms:issued": "2021-01-14T04:04:11+01:00",
-      "dcterms:modified": "2021-02-01T09:07:50+01:00",
-      "dcterms:title": "African swine fever virus p72 polyclonal antiserum",
-      "dcterms:description": "Rabbit anti-African swine fever virus p72 polyclonal serum (#282)",
-      "EVORAO:unitDefinition": "1 mL serum (neat)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot",
-      "EVORAO:antibodyType": "Serum",
-      "EVORAO:antibodyCharacterizationObservation": "SDS PAGE, immunoblot",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Rabbits were immunized with recombinant, IMAC-purified, ASFV p72 protein. Serum was collected and filtered to 0.22um and stored in 1 mL aliquots at -80C.",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:targetedAntigen": "Protein:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:doi": "10.1038/s41598-017-10186-4",
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "CSIRO",
-        "10.1038/s41598-017-10186-4",
-        "28860602",
-        "African Swine Fever Virus",
-        "Animal virus",
-        "ASFV",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Dry ice",
-        "African swine fever virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "African Swine Fever Virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "African swine fever virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "024A-04021",
-      "search:title": "African swine fever virus p72 polyclonal antiserum",
-      "search:description": "Rabbit anti-African swine fever virus p72 polyclonal serum (#282)",
-      "search:taxonLabel": "African swine fever virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CSIRO",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "African Swine Fever Virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024A-04019",
-      "@id": "urn:evorao:EVA:CSIRO:024A-04019",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/african-swine-fever-virus-p30-polyclonal-antiserum-1",
-      "dcterms:issued": "2021-01-14T03:56:28+01:00",
-      "dcterms:modified": "2021-02-01T09:07:06+01:00",
-      "dcterms:title": "African swine fever virus p30 polyclonal antiserum",
-      "dcterms:description": "Rabbit anti-African swine fever virus p30 polyclonal serum (#280)",
-      "EVORAO:unitDefinition": "1 mL serum (neat)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot",
-      "EVORAO:antibodyType": "Serum",
-      "EVORAO:antibodyCharacterizationObservation": "SDS PAGE, immunoblot",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Rabbits were immunized with recombinant, IMAC-purified, ASFV p30 protein. Serum was collected and filtered to 0.22um and stored in 1 mL aliquots at -80C.",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:targetedAntigen": "Protein:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:doi": "10.1038/s41598-017-10186-4",
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "CSIRO",
-        "10.1038/s41598-017-10186-4",
-        "28860602",
-        "African Swine Fever Virus",
-        "Animal virus",
-        "ASFV",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Dry ice",
-        "African swine fever virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "African Swine Fever Virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "African swine fever virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "Georgia/07",
-        "EVORAO:genotype": 2,
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "024A-04019",
-      "search:title": "African swine fever virus p30 polyclonal antiserum",
-      "search:description": "Rabbit anti-African swine fever virus p30 polyclonal serum (#280)",
-      "search:taxonLabel": "African swine fever virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CSIRO",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "African Swine Fever Virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024A-04027",
-      "@id": "urn:evorao:EVA:CSIRO:024A-04027",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/foot-and-mouth-disease-virus-3b-recombinant-monoclonal-scfv-alkaline",
-      "dcterms:issued": "2021-01-14T05:02:28+01:00",
-      "dcterms:modified": "2021-02-01T08:53:11+01:00",
-      "dcterms:title": "Foot-and-mouth disease virus 3B recombinant monoclonal scFv-alkaline phosphatase",
-      "dcterms:description": "Affinity-purified (IMAC) recombinant monoclonal scFv-Alk. Phos. fusion protein against foot-and-mouth disease virus 3B non-structural protein",
-      "EVORAO:unitDefinition": "0.1 mL at 0.5 mg/mL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 200,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "Western Blot, ELISA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "FMDV 3B",
-      "EVORAO:antibodyCharacterizationObservation": "SDS PAGE",
-      "EVORAO:antibodyPurifiedByAffinity": true,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Gold",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "IMAC purification",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Protein:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "CSIRO",
-        "3B",
-        "Animal virus",
-        "fmdv",
-        "Foot-and-mouth disease virus",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "NSP",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "024A-04027",
-      "search:title": "Foot-and-mouth disease virus 3B recombinant monoclonal scFv-alkaline phosphatase",
-      "search:description": "Affinity-purified (IMAC) recombinant monoclonal scFv-Alk. Phos. fusion protein against foot-and-mouth disease virus 3B non-structural protein",
-      "search:taxonLabel": "Foot-and-mouth disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "CSIRO",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Foot-and-mouth disease virus"
-    },
-    {
       "@type": "EVORAO:NucleicAcid",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -122269,188 +122544,6 @@
       "search:collectionName": "AMU",
       "search:providerName": "AMU",
       "search:pathogenName": "SARS-CoV-2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "023V-03479",
-      "@id": "urn:evorao:EVA:CSIRO:023V-03479",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bluetongue-virus-serotype-1",
-      "dcterms:issued": "2019-04-10T04:00:54+02:00",
-      "dcterms:modified": "2020-11-23T07:25:50+01:00",
-      "dcterms:title": "Bluetongue virus serotype 1",
-      "dcterms:description": "Bluetongue virus serotype 1 CSIRO 156",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Upon request",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1979-03-27",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Australia"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "Serology and whole genome sequencing (next generation sequencing)",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Isolated from cattle blood collected from Beatrice Hill, Northern Territory on the 27th March 1979.",
-      "EVORAO:passage": "3xBHK, 4x Vero, 3x BHK, 1x BHK/BSR",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-BSR"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:specialFeature": "Reference Strain",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10E6.47/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:accessionNumber": "JN881985, JN881986, JN881987, JN881988, JN881989, JN881990, JN881991, JN881992, JN881993, JN881994",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Bos taurus"
-      },
-      "EVORAO:isolationTechnique": "Inoculation of BHK-21 cell monolayer.",
-      "EVORAO:doi": "10.1128/JVI.00182-12",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Beatrice Hill"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Northern Territory"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Australia"
-        }
-      ],
-      "dcat:keyword": [
-        "Antigen",
-        "Diagnostic reagent",
-        "Virus",
-        "CSIRO",
-        "10.1128/JVI.00182-12",
-        "22514341",
-        "6264910",
-        "Animal virus",
-        "Australia",
-        "Beatrice Hill",
-        "BHK-BSR",
-        "Bluetongue Virus Serotype 1",
-        "Bos taurus",
-        "BTV",
-        "Category B",
-        "UN3373",
-        "Cultivable virus",
-        "JN881985",
-        "JN881986",
-        "JN881987",
-        "JN881988",
-        "JN881989",
-        "JN881990",
-        "JN881991",
-        "JN881992",
-        "JN881993",
-        "JN881994",
-        "Northern Territory",
-        "orbivirus",
-        "Reference Strain",
-        "Reoviridae",
-        "RG2",
-        "Dry ice",
-        "Bluetongue virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent"
-      ],
-      "search:collectionDate": "1979-03-27",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "JN881985, JN881986, JN881987, JN881988, JN881989, JN881990, JN881991, JN881992, JN881993, JN881994"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bluetongue Virus Serotype 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bluetongue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "CSIRO 156",
-        "EVORAO:genotype": "Australia A",
-        "EVORAO:serotype": "Serotype 1",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "023V-03479",
-      "search:title": "Bluetongue virus serotype 1",
-      "search:description": "Bluetongue virus serotype 1 CSIRO 156",
-      "search:taxonLabel": "Bluetongue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Bos taurus",
-      "search:collectionName": "CSIRO",
-      "search:countryOfCollection": "Australia",
-      "search:accessionNumber": "JN881985, JN881986, JN881987, JN881988, JN881989, JN881990, JN881991, JN881992, JN881993, JN881994",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Bluetongue Virus Serotype 1"
     },
     {
       "@type": "EVORAO:Antibody",
