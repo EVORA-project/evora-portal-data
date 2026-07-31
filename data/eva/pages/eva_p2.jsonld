@@ -22,6 +22,151 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DSMZ"
       },
+      "EVORAO:refSku": "027V-05069",
+      "@id": "urn:evorao:EVA:DSMZ:027V-05069",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/turnip-mosaic-virus-tumv-isolate-dsmz-pv-0054",
+      "dcterms:issued": "2023-05-26T15:38:58+02:00",
+      "dcterms:modified": "2026-03-04T14:48:25+01:00",
+      "dcterms:title": "Turnip mosaic virus (TuMV) isolate DSMZ PV-0054",
+      "dcterms:description": "Infectious Turnip mosaic virus (TuMV) isolate",
+      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 220,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1987-12-31",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Unknown"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "Illumina sequencing",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "mechanical inoculation",
+      "EVORAO:letterOfAuthority": "NOT Required",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "H.-L. Weidemann"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:propagationHost": {
+        "@type": "EVORAO:PropagationHost",
+        "dcterms:title": "Nicotiana benthamiana"
+      },
+      "EVORAO:genomeSequencing": "Complete coding sequence",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:transmissionMethod": "Mechanical inoculation",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DSMZ"
+      },
+      "EVORAO:accessionNumber": "MT663307",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "unknown"
+      },
+      "EVORAO:isolationTechnique": "mechanical inoculation",
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DSMZ",
+        "Room Temperature",
+        "H.-L. Weidemann",
+        "Mechanical inoculation",
+        "MT663307",
+        "Nicotiana benthamiana",
+        "NON DANGEROUS GOODS",
+        "Plant virus",
+        "RG1",
+        "Turnip mosaic virus",
+        "Unknown",
+        "unknown"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1987-12-31",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MT663307"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Turnip mosaic virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Turnip mosaic virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "TuMV-cbr",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "027V-05069",
+      "search:title": "Turnip mosaic virus (TuMV) isolate DSMZ PV-0054",
+      "search:description": "Infectious Turnip mosaic virus (TuMV) isolate",
+      "search:taxonLabel": "Turnip mosaic virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:isolationHostLabel": "unknown",
+      "search:collectionName": "DSMZ",
+      "search:countryOfCollection": "Unknown",
+      "search:accessionNumber": "MT663307",
+      "search:providerName": "DSMZ",
+      "search:originatorName": "H.-L. Weidemann",
+      "search:pathogenName": "Turnip mosaic virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DSMZ"
+      },
       "EVORAO:refSku": "027V-05071",
       "@id": "urn:evorao:EVA:DSMZ:027V-05071",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/broad-bean-wilt-virus-2-bbwv-2-isolate-dsmz-pv-0066",
@@ -142253,150 +142398,6 @@
       "search:accessionNumber": "MK956829",
       "search:providerName": "CNR",
       "search:pathogenName": "Zucchini yellow mosaic virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CNR"
-      },
-      "EVORAO:refSku": "029V-05008",
-      "@id": "urn:evorao:EVA:CNR:029V-05008",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tobacco-vein-banding-mosaic-virus-isolate-plavit-ve372",
-      "dcterms:issued": "2023-05-05T15:12:45+02:00",
-      "dcterms:modified": "2023-10-26T17:44:54+02:00",
-      "dcterms:title": "Tobacco vein banding mosaic virus, isolate PLAVIT- VE372",
-      "dcterms:description": "Tobacco vein banding mosaic virus VE372 isolate from Datura",
-      "EVORAO:unitDefinition": "Vial containing infectious freeze dried leaf tissue",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 200,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1998-07-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "China"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "Not tested",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "bioassay; electron microscopy; PCR; Sanger sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation on Nicotiana tabacum",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/Ve372_sintomi%20foglia_edited_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana tabacum"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CNR"
-      },
-      "EVORAO:accessionNumber": "AF274315",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Datura stramonium"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "EVORAO:doi": "10.1094/PDIS.2000.84.10.1152D",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "CNR",
-        "Room Temperature",
-        "10.1094/PDIS.2000.84.10.1152D",
-        "30831916",
-        "AF274315",
-        "China",
-        "Datura stramonium",
-        "Mechanical inoculation",
-        "Nicotiana tabacum",
-        "NON DANGEROUS GOODS",
-        "Plant virus",
-        "potyvirus",
-        "RG1",
-        "Tobacco vein banding mosaic virus",
-        "TVBMV"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1998-07-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "AF274315"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Tobacco vein banding mosaic virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tobacco vein banding mosaic virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "PLAVIT-VE372",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "029V-05008",
-      "search:title": "Tobacco vein banding mosaic virus, isolate PLAVIT- VE372",
-      "search:description": "Tobacco vein banding mosaic virus VE372 isolate from Datura",
-      "search:taxonLabel": "Tobacco vein banding mosaic virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Datura stramonium",
-      "search:collectionName": "CNR",
-      "search:countryOfCollection": "China",
-      "search:accessionNumber": "AF274315",
-      "search:providerName": "CNR",
-      "search:pathogenName": "Tobacco vein banding mosaic virus"
     }
   ]
 }
