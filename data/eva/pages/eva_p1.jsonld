@@ -20,6 +20,172 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "CSIRO"
+      },
+      "EVORAO:refSku": "024V-05237",
+      "@id": "urn:evorao:EVA:CSIRO:024V-05237",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/influenza-awild-birdqldp17-14428-0030-012017-h5n1",
+      "dcterms:issued": "2023-06-22T02:38:53+02:00",
+      "dcterms:modified": "2026-07-31T09:18:23+02:00",
+      "dcterms:title": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
+      "dcterms:description": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1). This isolate is regulated under the Australian Security Sensitive Biological Agents (SSBA) Regulatory Scheme and is subject to the security and transport conditions of the scheme.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 550,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2017-06-12",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Australia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "Genome Sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "EID50",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "ECE x 4",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Chicken embryonated eggs"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "3.16E7 EID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CSIRO"
+      },
+      "EVORAO:accessionNumber": "OL371375.1",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Wild waterbird"
+      },
+      "EVORAO:isolationTechnique": "Inoculation into the allantoic sac of 9-11 day old embryonated chicken eggs with clinical faecal swabs",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Port of Brisbane"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Queensland"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Antigen",
+        "Diagnostic reagent",
+        "Virus",
+        "CSIRO",
+        "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
+        "Animal virus",
+        "Australia",
+        "Brisbane",
+        "Category A",
+        "UN2814",
+        "Chicken embryonated eggs",
+        "OL371375.1",
+        "Port of Brisbane",
+        "Queensland",
+        "RG3",
+        "Wild waterbird",
+        "wild waterbird",
+        "Dry ice",
+        "Influenza A virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "diagnostic reagent",
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2017-06-12",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "OL371375.1"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
+        "EVORAO:serotype": "H5N1",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "024V-05237",
+      "search:title": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
+      "search:description": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1). This isolate is regulated under the Australian Security Sensitive Biological Agents (SSBA) Regulatory Scheme and is subject to the security and transport conditions of the scheme.",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Wild waterbird",
+      "search:collectionName": "CSIRO",
+      "search:countryOfCollection": "Australia",
+      "search:accessionNumber": "OL371375.1",
+      "search:providerName": "CSIRO",
+      "search:pathogenName": "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "IZSLER"
       },
       "EVORAO:refSku": "026V-04389",
@@ -8344,172 +8510,6 @@
       "search:countryOfCollection": "Australia",
       "search:providerName": "CSIRO",
       "search:pathogenName": "A/Turkey/NSW/33/2012 (H9N2)"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "024V-05237",
-      "@id": "urn:evorao:EVA:CSIRO:024V-05237",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/influenza-awild-birdqldp17-14428-0030-012017-h5n1",
-      "dcterms:issued": "2023-06-22T02:38:53+02:00",
-      "dcterms:modified": "2026-07-17T08:39:02+02:00",
-      "dcterms:title": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
-      "dcterms:description": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2017-06-12",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Australia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "Genome Sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "EID50",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "ECE x 4",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Chicken embryonated eggs"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "3.16E7 EID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:accessionNumber": "OL371375.1",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Wild waterbird"
-      },
-      "EVORAO:isolationTechnique": "Inoculation into the allantoic sac of 9-11 day old embryonated chicken eggs with clinical faecal swabs",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Port of Brisbane"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Queensland"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Diagnostic reagent",
-        "Virus",
-        "CSIRO",
-        "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
-        "Animal virus",
-        "Australia",
-        "Brisbane",
-        "Category A",
-        "UN2814",
-        "Chicken embryonated eggs",
-        "OL371375.1",
-        "Port of Brisbane",
-        "Queensland",
-        "RG3",
-        "Wild waterbird",
-        "wild waterbird",
-        "Dry ice",
-        "Influenza A virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2017-06-12",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OL371375.1"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Influenza A virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
-        "EVORAO:serotype": "H5N1",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "024V-05237",
-      "search:title": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
-      "search:description": "Influenza A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)",
-      "search:taxonLabel": "Influenza A virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Wild waterbird",
-      "search:collectionName": "CSIRO",
-      "search:countryOfCollection": "Australia",
-      "search:accessionNumber": "OL371375.1",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "A/wild bird/Qld/P17-14428-0030-01/2017 (H5N1)"
     },
     {
       "@type": "EVORAO:Virus",
