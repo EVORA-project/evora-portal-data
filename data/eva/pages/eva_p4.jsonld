@@ -17,6 +17,401 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "005V-04144",
+      "@id": "urn:evorao:EVA:UL:005V-04144",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sars-cov-2-strain-hcov-19slovenia6500621-a27-d796y-g1219v-a653v-h655y-n501y",
+      "dcterms:issued": "2021-04-14T16:35:13+02:00",
+      "dcterms:modified": "2021-06-22T13:41:54+02:00",
+      "dcterms:title": "SARS-CoV-2, strain hCoV-19/Slovenia/65006/21 (A.27)  (D796Y, G1219V, A653V, H655Y, N501Y)",
+      "dcterms:description": "Infectious cell culture supernatant containing SARS-CoV-2 (strain hCoV-19/Slovenia/65006/21 (lineage A.27). This strain is preserved in viral storage medium -80°C. To confirm its identity the virus has been completely sequenced.  (D796Y, G1219V, A653V, H655Y, N501Y)",
+      "EVORAO:unitDefinition": "1 mL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2021-03-02",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "3rd passage",
+      "EVORAO:previouslyKnownAs": "nCoV-2019",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:technicalRecommendation": "Clarified supernatant. viral culture was transferred to a fresh tube and centrifuged for removal of VERO E6  cellular debris. The clarified supernatant was aliquoted and frozen at -80 to serve as representative stock.",
+      "EVORAO:titer": "10E5 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Unknown"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "19B/501Y (A.27)",
+        "A.27",
+        "A653V",
+        "Category A",
+        "UN2814",
+        "D796Y",
+        "G1219V",
+        "H655Y",
+        "Human virus",
+        "lineage A.27",
+        "N501Y",
+        "nCoV-2019",
+        "RG3",
+        "SARS",
+        "SARS CoV-2",
+        "SARS-CoV-2",
+        "Slovenia",
+        "Unknown",
+        "Vero E6",
+        "Dry ice",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2021-03-02",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "GISAID ID: EPI_ISL_1668566"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human",
+        "EVORAO:variant": {
+          "@type": "EVORAO:Variant",
+          "dcterms:title": "19B/501Y (A.27)"
+        }
+      },
+      "search:sku": "005V-04144",
+      "search:title": "SARS-CoV-2, strain hCoV-19/Slovenia/65006/21 (A.27)  (D796Y, G1219V, A653V, H655Y, N501Y)",
+      "search:description": "Infectious cell culture supernatant containing SARS-CoV-2 (strain hCoV-19/Slovenia/65006/21 (lineage A.27). This strain is preserved in viral storage medium -80°C. To confirm its identity the virus has been completely sequenced.  (D796Y, G1219V, A653V, H655Y, N501Y)",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "005V-04248",
+      "@id": "urn:evorao:EVA:UL:005V-04248",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sars-cov-2-human-2021-slovenia-ex-imported-20j501yv3-p1",
+      "dcterms:issued": "2021-06-22T13:30:02+02:00",
+      "dcterms:modified": "2021-06-22T13:30:02+02:00",
+      "dcterms:title": "SARS-CoV-2, Human, 2021, Slovenia ex imported, 20J/501Y.V3 (P.1)",
+      "dcterms:description": "Infectious cell culture supernatant containing SARS-CoV-2 (strain hCoV-19/Slovenia/54017/21 (Gamma: lineage P.1). This strain is preserved in viral storage medium -80°C. To confirm its identity the virus has been completely sequenced.",
+      "EVORAO:unitDefinition": "1 mL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2021-05-18",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR, sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "4th passage",
+      "EVORAO:previouslyKnownAs": "nCoV-2019",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:technicalRecommendation": "Clarified supernatant. viral culture was transferred to a fresh tube and centrifuged for removal of VERO E6 cellular debris. The clarified supernatant was aliquoted and frozen at -80 to serve as representative stock.",
+      "EVORAO:titer": "10E4 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human patient: nasopharyngeal swab"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "imported"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "UL",
+        "Virus",
+        "20J/501Y.V3/Gamma",
+        "V3 (P.1)",
+        "Category A",
+        "UN2814",
+        "Gamma",
+        "Human patient: nasopharyngeal swab",
+        "Human virus",
+        "imported",
+        "lineage P.1",
+        "nCoV-2019",
+        "P.1",
+        "RG3",
+        "SARS",
+        "SARS CoV-2",
+        "SARS-CoV-2",
+        "Slovenia",
+        "Vero E6",
+        "Dry ice",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2021-05-18",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "full genome; available upon request"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Human",
+        "EVORAO:variant": [
+          {
+            "@type": "EVORAO:Variant",
+            "dcterms:title": "20J/501Y.V3/Gamma"
+          },
+          {
+            "@type": "EVORAO:Variant",
+            "dcterms:title": "V3 (P.1)"
+          }
+        ]
+      },
+      "search:sku": "005V-04248",
+      "search:title": "SARS-CoV-2, Human, 2021, Slovenia ex imported, 20J/501Y.V3 (P.1)",
+      "search:description": "Infectious cell culture supernatant containing SARS-CoV-2 (strain hCoV-19/Slovenia/54017/21 (Gamma: lineage P.1). This strain is preserved in viral storage medium -80°C. To confirm its identity the virus has been completely sequenced.",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Human patient: nasopharyngeal swab",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:providerName": "UL",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "JKI"
+      },
+      "EVORAO:refSku": "028A-04196",
+      "@id": "urn:evorao:EVA:JKI:028A-04196",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/sweet-potato-chlorotic-stunt-virus",
+      "dcterms:issued": "2021-05-18T14:44:27+02:00",
+      "dcterms:modified": "2021-06-22T08:16:13+02:00",
+      "dcterms:title": "Sweet potato chlorotic stunt virus",
+      "dcterms:description": "monoclonal antiserum, IgG and conjugate for ELISA-testing",
+      "EVORAO:unitDefinition": "1000 tests",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 400,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "JKI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Derived product",
+        "JKI",
+        "Room Temperature",
+        "ELISA",
+        "IgG and conjugate",
+        "monoclonal antibody",
+        "monoclonal antiserum",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Plant Crinivirus",
+        "Plant virus",
+        "Sweet potato chlorotic stunt virus",
+        "Closteroviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Sweet potato chlorotic stunt virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Closteroviridae"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "028A-04196",
+      "search:title": "Sweet potato chlorotic stunt virus",
+      "search:description": "monoclonal antiserum, IgG and conjugate for ELISA-testing",
+      "search:taxonLabel": "Closteroviridae",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "JKI",
+      "search:providerName": "JKI",
+      "search:pathogenName": "Sweet potato chlorotic stunt virus"
+    },
+    {
       "@type": "EVORAO:DetectionKit",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -130812,298 +131207,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "Rabbit hemorrhagic disease virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01778",
-      "@id": "urn:evorao:EVA:FLI:015A-01778",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-ns3a-foot-and-mouth-disease-virus-fmdv",
-      "dcterms:issued": "2016-07-14T14:48:47+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti- NS3A of Foot-and-mouth disease virus (FMDV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-FMDV antibodies; targeted antigen: NS3A; clone: 5G1; immunization antigen: recombinant protein",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "ELISA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodyCharacterizationObservation": "murine IgG1, other characterization methods not tested",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": false,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "fmdv",
-        "Foot-and-mouth disease virus",
-        "monoclonal antibody",
-        "No RG",
-        "NS3A"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Foot-and-mouth disease virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01778",
-      "search:title": "murine mAb: anti- NS3A of Foot-and-mouth disease virus (FMDV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-FMDV antibodies; targeted antigen: NS3A; clone: 5G1; immunization antigen: recombinant protein",
-      "search:taxonLabel": "Foot-and-mouth disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Foot-and-mouth disease virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01775",
-      "@id": "urn:evorao:EVA:FLI:015A-01775",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-major-capsid-protein-epizootic-haematopoietic-necrosis-virus",
-      "dcterms:issued": "2016-07-12T16:54:43+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti- major capsid protein of Epizootic haematopoietic necrosis virus (EHNV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-EHNV antibodies; targeted antigen: Major capsid protein; clone: 7B4a; immunization antigen: inactivated strain (\"DF 72/94 (Typ Wi)\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with tested EHNV isolates, non-reactive with tested ESV isolates; only weak reactivity with tested ECV isolates",
-      "EVORAO:antibodyCharacterizationObservation": "other methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "EHNV",
-        "Epizootic haematopoietic necrosis virus",
-        "major capsid protein",
-        "monoclonal antibody",
-        "No RG"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Epizootic haematopoietic necrosis virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Epizootic haematopoietic necrosis virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01775",
-      "search:title": "murine mAb: anti- major capsid protein of Epizootic haematopoietic necrosis virus (EHNV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-EHNV antibodies; targeted antigen: Major capsid protein; clone: 7B4a; immunization antigen: inactivated strain (\"DF 72/94 (Typ Wi)\"",
-      "search:taxonLabel": "Epizootic haematopoietic necrosis virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Epizootic haematopoietic necrosis virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01774",
-      "@id": "urn:evorao:EVA:FLI:015A-01774",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-major-capsid-protein-european-catfish-virus-ecv-european",
-      "dcterms:issued": "2016-07-12T16:49:53+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti- major capsid protein of European catfish virus (ECV), European sheatfish ranavirus (ESV), and Epizootic haematopoietic necrosis virus (EHNV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-ECV, ESV, EHNV antibodies; targeted antigen: major capsid protein; clone: 7A9a; immunization antigen: inactivated strain \"FPP 330\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with tested ECV, ESV, EHNV isolate",
-      "EVORAO:antibodyCharacterizationObservation": "other methods not checked",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "FLI",
-        "ECV",
-        "EHNV",
-        "Epizootic haematopoietic necrosis virus",
-        "ESV",
-        "European catfish virus",
-        "European sheatfish ranavirus",
-        "major capsid protein",
-        "monoclonal antibody",
-        "No RG",
-        "Ranavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "European catfish virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Ranavirus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01774",
-      "search:title": "murine mAb: anti- major capsid protein of European catfish virus (ECV), European sheatfish ranavirus (ESV), and Epizootic haematopoietic necrosis virus (EHNV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-ECV, ESV, EHNV antibodies; targeted antigen: major capsid protein; clone: 7A9a; immunization antigen: inactivated strain \"FPP 330\"",
-      "search:taxonLabel": "Ranavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "European catfish virus"
     }
   ]
 }
