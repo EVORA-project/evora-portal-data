@@ -17,6 +17,158 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "UL"
+      },
+      "EVORAO:refSku": "005N-06366",
+      "@id": "urn:evorao:EVA:UL:005N-06366",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rna-bhanja-virus-ig690",
+      "dcterms:issued": "2026-03-26T09:32:14+01:00",
+      "dcterms:modified": "2026-08-05T08:06:47+02:00",
+      "dcterms:title": "RNA of Bhanja virus, IG690",
+      "dcterms:description": "RNA extracted from infected cell culture supernatant",
+      "EVORAO:unitDefinition": "100 uL",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "viral RNA"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "bulk positive control"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2026-03-26",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Slovenia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:identificationTechnique": "sequencing",
+      "EVORAO:clonedNucleicAcid": false,
+      "EVORAO:preparationTechnique": "EZ1 Qiagen",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "Bhanja virus strain IG690 segment M, complete sequence GenBank: JX961620.1, Bhanja virus strain IG690 segment L, complete sequence 6, 333 bp linear RNA Accession: JX961619.1"
+        }
+      },
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "- 20°C",
+      "EVORAO:storageConditions": "AVE Buffer -20C",
+      "EVORAO:titer": "ct 17.9 (Vilibic-Cavlek et al, 2023)",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "UL"
+      },
+      "EVORAO:accessionNumber": "Bhanja virus strain IG690 segment M, complete sequence GenBank: JX961620.1, Bhanja virus strain IG690 segment L, complete sequence 6, 333 bp linear RNA Accession: JX961619.1",
+      "dcat:keyword": [
+        "Bulk positive control",
+        "Nucleic Acid",
+        "Viral RNA",
+        "Diagnostic reagent",
+        "UL",
+        "Derived product",
+        "333 bp linear RNA Accession: JX961619.1",
+        "Animal virus",
+        "Bandavirus",
+        "Bhanja",
+        "Bhanja virus",
+        "Bhanja virus strain IG690 segment L",
+        "Bhanja virus strain IG690 segment M",
+        "complete sequence 6",
+        "complete sequence GenBank: JX961620.1",
+        "EURLs",
+        "Human virus",
+        "IG690",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Phenuiviridae",
+        "RNA",
+        "Slovenia",
+        "- 20°C",
+        "Bhanja bandavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "viral RNA",
+        "bulk positive control",
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "search:collectionDate": "2026-03-26",
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bhanja virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bhanja bandavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "IG690",
+        "EVORAO:hostType": "Animal, Human"
+      },
+      "search:sku": "005N-06366",
+      "search:title": "RNA of Bhanja virus, IG690",
+      "search:description": "RNA extracted from infected cell culture supernatant",
+      "search:taxonLabel": "Bhanja bandavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "UL",
+      "search:countryOfCollection": "Slovenia",
+      "search:accessionNumber": "Bhanja virus strain IG690 segment M, complete sequence GenBank: JX961620.1, Bhanja virus strain IG690 segment L, complete sequence 6, 333 bp linear RNA Accession: JX961619.1",
+      "search:providerName": "UL",
+      "search:pathogenName": "Bhanja virus"
+    },
+    {
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -93646,157 +93798,6 @@
       "search:accessionNumber": "JQ654701.1",
       "search:providerName": "UL",
       "search:pathogenName": "tick-borne encephalitis virus 2"
-    },
-    {
-      "@type": "EVORAO:NucleicAcid",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "UL"
-      },
-      "EVORAO:refSku": "005N-06366",
-      "@id": "urn:evorao:EVA:UL:005N-06366",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/rna-bhanja-virus-ig690",
-      "dcterms:issued": "2026-03-26T09:32:14+01:00",
-      "dcterms:modified": "2026-03-26T09:32:14+01:00",
-      "dcterms:title": "RNA of Bhanja virus, IG690",
-      "dcterms:description": "RNA extracted from infected cell culture supernatant",
-      "EVORAO:unitDefinition": "100 uL",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "nucleic acid"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "viral RNA"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "bulk positive control"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 500,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2026-03-26",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Slovenia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "sequencing",
-      "EVORAO:clonedNucleicAcid": false,
-      "EVORAO:preparationTechnique": "EZ1 Qiagen",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/nucleic-acid-163710j.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "Bhanja virus strain IG690 segment M, complete sequence GenBank: JX961620.1, Bhanja virus strain IG690 segment L, complete sequence 6, 333 bp linear RNA Accession: JX961619.1"
-        }
-      },
-      "EVORAO:sequenceChecked": true,
-      "EVORAO:sequencing": "Fully sequenced",
-      "EVORAO:shippingConditions": "- 20°C",
-      "EVORAO:storageConditions": "AVE Buffer -20C",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "UL"
-      },
-      "EVORAO:accessionNumber": "Bhanja virus strain IG690 segment M, complete sequence GenBank: JX961620.1, Bhanja virus strain IG690 segment L, complete sequence 6, 333 bp linear RNA Accession: JX961619.1",
-      "dcat:keyword": [
-        "Bulk positive control",
-        "Nucleic Acid",
-        "Viral RNA",
-        "Diagnostic reagent",
-        "UL",
-        "Derived product",
-        "333 bp linear RNA Accession: JX961619.1",
-        "Animal virus",
-        "Bandavirus",
-        "Bhanja",
-        "Bhanja virus",
-        "Bhanja virus strain IG690 segment L",
-        "Bhanja virus strain IG690 segment M",
-        "complete sequence 6",
-        "complete sequence GenBank: JX961620.1",
-        "EURLs",
-        "Human virus",
-        "IG690",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Phenuiviridae",
-        "RNA",
-        "Slovenia",
-        "- 20°C",
-        "Bhanja bandavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "nucleic acid",
-      "search:additionalCategory": [
-        "viral RNA",
-        "bulk positive control",
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "search:collectionDate": "2026-03-26",
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bhanja virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bhanja bandavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "IG690",
-        "EVORAO:hostType": "Animal, Human"
-      },
-      "search:sku": "005N-06366",
-      "search:title": "RNA of Bhanja virus, IG690",
-      "search:description": "RNA extracted from infected cell culture supernatant",
-      "search:taxonLabel": "Bhanja bandavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "UL",
-      "search:countryOfCollection": "Slovenia",
-      "search:accessionNumber": "Bhanja virus strain IG690 segment M, complete sequence GenBank: JX961620.1, Bhanja virus strain IG690 segment L, complete sequence 6, 333 bp linear RNA Accession: JX961619.1",
-      "search:providerName": "UL",
-      "search:pathogenName": "Bhanja virus"
     },
     {
       "@type": "EVORAO:Virus",
