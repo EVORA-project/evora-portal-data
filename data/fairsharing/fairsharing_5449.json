@@ -1324,36 +1324,36 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2014-11-04T15:23:40.000Z",
-          "updated_at": "2026-04-30T14:00:37.387Z",
+          "updated_at": "2026-08-14T14:35:37.008Z",
           "metadata": {
             "doi": "10.25504/FAIRsharing.dj8nt8",
             "name": "European Nucleotide Archive",
             "status": "ready",
             "contacts": [
               {
-                "contact_name": "Colman O'Cathail",
-                "contact_email": "ocathail@ebi.ac.uk",
-                "contact_orcid": "0000-0002-0151-0657"
-              },
-              {
                 "contact_name": "Mar Gonzalez-Porta",
                 "contact_email": "mar@ebi.ac.uk",
                 "contact_orcid": null
+              },
+              {
+                "contact_name": "Joana Pauperio",
+                "contact_email": "joanap@ebi.ac.uk",
+                "contact_orcid": "0000-0003-2569-0768"
               }
             ],
             "homepage": "http://www.ebi.ac.uk/ena",
             "citations": [
               {
-                "doi": "10.1093/nar/gkw1106",
-                "pubmed_id": 27899630,
-                "publication_id": 2401
+                "doi": "10.1093/nar/gkaf1295",
+                "pubmed_id": null,
+                "publication_id": 5594
               }
             ],
             "identifier": 1850,
             "description": "The European Nucleotide Archive (ENA) is a globally comprehensive data resource for nucleotide sequence, spanning raw data, alignments and assemblies, functional and taxonomic annotation and rich contextual data relating to sequenced samples and experimental design. Serving both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data, the ENA provides a portfolio of services for submission, data management, search and retrieval across web and programmatic interfaces. The ENA is part of the International Nucleotide Sequence Database Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at the NCBI. These three organizations exchange data on a daily basis.",
             "abbreviation": "ENA",
             "data_curation": {
-              "type": "not found"
+              "type": "manual/automated"
             },
             "support_links": [
               {
@@ -1402,19 +1402,35 @@
                 "portal": "SciCrunch"
               }
             ],
-            "internal_identifiers": true,
+            "internal_identifiers": false,
             "data_access_condition": {
               "url": "https://www.ebi.ac.uk/ena/browser/about",
               "type": "open"
             },
-            "resource_sustainability": {},
+            "resource_sustainability": {
+              "url": "https://www.ebi.ac.uk/long-term-data-preservation/",
+              "name": "EBI Long Term Data Preservation"
+            },
             "data_contact_information": "no",
-            "data_preservation_policy": {},
+            "data_preservation_policy": {
+              "url": "https://www.ebi.ac.uk/long-term-data-preservation/",
+              "name": "EBI Long Term Data Preservation"
+            },
             "data_deposition_condition": {
               "url": "https://www.ebi.ac.uk/ena/browser/submit",
               "type": "open"
             },
             "citation_to_related_publications": "yes",
+            "certifications_and_community_badges": [
+              {
+                "url": "https://elixir-europe.org/platforms/data/core-data-resources",
+                "name": "ELIXIR Core Data Resource"
+              },
+              {
+                "url": "https://globalbiodata.org/what-we-do/global-core-biodata-resources/list-of-current-global-core-biodata-resources/",
+                "name": "Global Core Biodata Resource"
+              }
+            ],
             "data_access_for_pre_publication_review": "no"
           },
           "legacy_ids": [
@@ -1737,6 +1753,114 @@
               "doi": "10.1093/nar/gkh120",
               "created_at": "2021-09-30T08:27:02.652Z",
               "updated_at": "2021-09-30T11:29:37.053Z"
+            },
+            {
+              "id": 5594,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2025",
+              "year": 2026,
+              "url": "http://dx.doi.org/10.1093/nar/gkaf1295",
+              "authors": "Yuan, David; Ahamed, Alisha; Athar, Awais; Devaraj, Rajkumar; Gupta, Dipayan; Haseeb, Muhammad; Ihsan, Maira; Ivanov, Eugene; Kadhirvelu, Vishnukumar; Khen, Amnon; Kumar, Manish; Lathi, Ankur; Liyanage, Isuru; Meszaros, Lili; O’Cathail, Colman; Pauperio, Joana; Paz, Ruben; Pesant, Stephane; Rahman, Nadim; Rajan, Jeena; Tutis, Iva; Ventouratou, Marianna; Vijayaraja, Senthilnathan; Waheed, Zahra; Woollard, Peter; Burdett, Tony; Cochrane, Guy; Sarkans, Ugis; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkaf1295",
+              "created_at": "2026-08-14T11:49:46.888Z",
+              "updated_at": "2026-08-14T11:49:46.888Z"
+            },
+            {
+              "id": 5595,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2024",
+              "year": 2025,
+              "url": "http://dx.doi.org/10.1093/nar/gkae975",
+              "authors": "O’Cathail, Colman; Ahamed, Alisha; Burgin, Josephine; Cummins, Carla; Devaraj, Rajkumar; Gueye, Khadim; Gupta, Dipayan; Gupta, Vikas; Haseeb, Muhammad; Ihsan, Maira; Ivanov, Eugene; Jayathilaka, Suran; Kadhirvelu, Vishnukumar; Kumar, Manish; Lathi, Ankur; Leinonen, Rasko; McKinnon, Jasmine; Meszaros, Lili; Pauperio, Joana; Pesant, Stephane; Rahman, Nadim; Rinck, Gabriele; Selvakumar, Sandeep; Suman, Swati; Sunthornyotin, Yanisa; Ventouratou, Marianna; Waheed, Zahra; Woollard, Peter; Yuan, David; Zyoud, Ahmad; Burdett, Tony; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkae975",
+              "created_at": "2026-08-14T11:50:37.235Z",
+              "updated_at": "2026-08-14T11:50:37.235Z"
+            },
+            {
+              "id": 5596,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2023",
+              "year": 2024,
+              "url": "http://dx.doi.org/10.1093/nar/gkad1067",
+              "authors": "Yuan, David; Ahamed, Alisha; Burgin, Josephine; Cummins, Carla; Devraj, Rajkumar; Gueye, Khadim; Gupta, Dipayan; Gupta, Vikas; Haseeb, Muhammad; Ihsan, Maira; Ivanov, Eugene; Jayathilaka, Suran; Kadhirvelu, Vishnukumar Balavenkataraman; Kumar, Manish; Lathi, Ankur; Leinonen, Rasko; McKinnon, Jasmine; Meszaros, Lili; O’Cathail, Colman; Ouma, Dennis; Paupério, Joana; Pesant, Stephane; Rahman, Nadim; Rinck, Gabriele; Selvakumar, Sandeep; Suman, Swati; Sunthornyotin, Yanisa; Ventouratou, Marianna; Vijayaraja, Senthilnathan; Waheed, Zahra; Woollard, Peter; Zyoud, Ahmad; Burdett, Tony; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkad1067",
+              "created_at": "2026-08-14T11:51:27.985Z",
+              "updated_at": "2026-08-14T11:51:27.985Z"
+            },
+            {
+              "id": 5597,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2022",
+              "year": 2023,
+              "url": "http://dx.doi.org/10.1093/nar/gkac1051",
+              "authors": "Burgin, Josephine; Ahamed, Alisha; Cummins, Carla; Devraj, Rajkumar; Gueye, Khadim; Gupta, Dipayan; Gupta, Vikas; Haseeb, Muhammad; Ihsan, Maira; Ivanov, Eugene; Jayathilaka, Suran; Balavenkataraman Kadhirvelu, Vishnukumar; Kumar, Manish; Lathi, Ankur; Leinonen, Rasko; Mansurova, Milena; McKinnon, Jasmine; O’Cathail, Colman; Paupério, Joana; Pesant, Stéphane; Rahman, Nadim; Rinck, Gabriele; Selvakumar, Sandeep; Suman, Swati; Vijayaraja, Senthilnathan; Waheed, Zahra; Woollard, Peter; Yuan, David; Zyoud, Ahmad; Burdett, Tony; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkac1051",
+              "created_at": "2026-08-14T11:51:59.672Z",
+              "updated_at": "2026-08-14T11:51:59.672Z"
+            },
+            {
+              "id": 5598,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2021",
+              "year": 2022,
+              "url": "http://dx.doi.org/10.1093/nar/gkab1051",
+              "authors": "Cummins, Carla; Ahamed, Alisha; Aslam, Raheela; Burgin, Josephine; Devraj, Rajkumar; Edbali, Ossama; Gupta, Dipayan; Harrison, Peter W; Haseeb, Muhammad; Holt, Sam; Ibrahim, Talal; Ivanov, Eugene; Jayathilaka, Suran; Kadhirvelu, Vishnukumar; Kay, Simon; Kumar, Manish; Lathi, Ankur; Leinonen, Rasko; Madeira, Fabio; Madhusoodanan, Nandana; Mansurova, Milena; O’Cathail, Colman; Pearce, Matt; Pesant, Stéphane; Rahman, Nadim; Rajan, Jeena; Rinck, Gabriele; Selvakumar, Sandeep; Sokolov, Alexey; Suman, Swati; Thorne, Ross; Totoo, Prabhat; Vijayaraja, Senthilnathan; Waheed, Zahra; Zyoud, Ahmad; Lopez, Rodrigo; Burdett, Tony; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkab1051",
+              "created_at": "2026-08-14T11:52:35.960Z",
+              "updated_at": "2026-08-14T11:52:35.960Z"
+            },
+            {
+              "id": 5599,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2020",
+              "year": 2021,
+              "url": "http://dx.doi.org/10.1093/nar/gkaa1028",
+              "authors": "Harrison, Peter W; Ahamed, Alisha; Aslam, Raheela; Alako, Blaise T F; Burgin, Josephine; Buso, Nicola; Courtot, Mélanie; Fan, Jun; Gupta, Dipayan; Haseeb, Muhammad; Holt, Sam; Ibrahim, Talal; Ivanov, Eugene; Jayathilaka, Suran; Balavenkataraman Kadhirvelu, Vishnukumar; Kumar, Manish; Lopez, Rodrigo; Kay, Simon; Leinonen, Rasko; Liu, Xin; O’Cathail, Colman; Pakseresht, Amir; Park, Youngmi; Pesant, Stephane; Rahman, Nadim; Rajan, Jeena; Sokolov, Alexey; Vijayaraja, Senthilnathan; Waheed, Zahra; Zyoud, Ahmad; Burdett, Tony; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkaa1028",
+              "created_at": "2026-08-14T11:53:00.469Z",
+              "updated_at": "2026-08-14T11:53:00.469Z"
+            },
+            {
+              "id": 5600,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2019",
+              "year": 2019,
+              "url": "http://dx.doi.org/10.1093/nar/gkz1063",
+              "authors": "Amid, Clara; Alako, Blaise T F; Balavenkataraman Kadhirvelu, Vishnukumar; Burdett, Tony; Burgin, Josephine; Fan, Jun; Harrison, Peter W; Holt, Sam; Hussein, Abdulrahman; Ivanov, Eugene; Jayathilaka, Suran; Kay, Simon; Keane, Thomas; Leinonen, Rasko; Liu, Xin; Martinez-Villacorta, Josue; Milano, Annalisa; Pakseresht, Amir; Rahman, Nadim; Rajan, Jeena; Reddy, Kethi; Richards, Edward; Smirnov, Dmitriy; Sokolov, Alexey; Vijayaraja, Senthilnathan; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkz1063",
+              "created_at": "2026-08-14T11:54:25.350Z",
+              "updated_at": "2026-08-14T11:54:25.350Z"
+            },
+            {
+              "id": 5601,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2018",
+              "year": 2019,
+              "url": "http://dx.doi.org/10.1093/nar/gky1078",
+              "authors": "Harrison, Peter W; Alako, Blaise; Amid, Clara; Cerdeño-Tárraga, Ana; Cleland, Iain; Holt, Sam; Hussein, Abdulrahman; Jayathilaka, Suran; Kay, Simon; Keane, Thomas; Leinonen, Rasko; Liu, Xin; Martínez-Villacorta, Josué; Milano, Annalisa; Pakseresht, Nima; Rajan, Jeena; Reddy, Kethi; Richards, Edward; Rosello, Marc; Silvester, Nicole; Smirnov, Dmitriy; Toribio, Ana-Luisa; Vijayaraja, Senthilnathan; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gky1078",
+              "created_at": "2026-08-14T11:54:48.415Z",
+              "updated_at": "2026-08-14T11:54:48.415Z"
+            },
+            {
+              "id": 5602,
+              "pubmed_id": null,
+              "title": "The European Nucleotide Archive in 2017",
+              "year": 2018,
+              "url": "http://dx.doi.org/10.1093/nar/gkx1125",
+              "authors": "Silvester, Nicole; Alako, Blaise; Amid, Clara; Cerdeño-Tarrága, Ana; Clarke, Laura; Cleland, Iain; Harrison, Peter W; Jayathilaka, Suran; Kay, Simon; Keane, Thomas; Leinonen, Rasko; Liu, Xin; Martínez-Villacorta, Josué; Menchi, Manuela; Reddy, Kethi; Pakseresht, Nima; Rajan, Jeena; Rossello, Marc; Smirnov, Dmitriy; Toribio, Ana L; Vaughan, Daniel; Zalunin, Vadim; Cochrane, Guy; ",
+              "journal": "Nucleic Acids Research",
+              "doi": "10.1093/nar/gkx1125",
+              "created_at": "2026-08-14T11:55:08.311Z",
+              "updated_at": "2026-08-14T11:55:08.311Z"
             }
           ],
           "licence_links": [
@@ -1991,7 +2115,7 @@
             "dataset",
             "image"
           ],
-          "internal_identifiers": true
+          "internal_identifiers": false
         }
       }
     },
