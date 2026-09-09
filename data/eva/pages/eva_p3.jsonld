@@ -22,6 +22,166 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "AMU"
       },
+      "EVORAO:refSku": "001V-05459",
+      "@id": "urn:evorao:EVA:AMU:001V-05459",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sars-cov-2-virus-strain-uvesars-cov-22023frcco-xbb11611",
+      "dcterms:issued": "2023-11-07T10:15:47+01:00",
+      "dcterms:modified": "2023-11-07T10:15:47+01:00",
+      "dcterms:title": "SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2023/FR/CCO, XBB.1.16.11",
+      "dcterms:description": "Freeze-dried SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2023/FR/CCO, XBB.1.16.11, France 2023, complete genome sequence",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1500,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2023-09-04",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "France"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "qRT-PCR",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "checked by qRT-PCR on culture supernatant",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P1",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6 TMPRSS2"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "2,11E+06 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU"
+      },
+      "EVORAO:accessionNumber": "GISAID: EPI_ISL_18472891",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human nasopharyngeal swab"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Marseille"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "France"
+        }
+      ],
+      "dcat:keyword": [
+        "AMU",
+        "Cultivable virus",
+        "Virus",
+        "Room Temperature",
+        "2019-nCoV",
+        "21K/Omicron (B.1.1.529)",
+        "Category A",
+        "UN2814",
+        "Coronavirus",
+        "France",
+        "GISAID: EPI_ISL_18472891",
+        "Human nasopharyngeal swab",
+        "Human virus",
+        "Marseille",
+        "Omicron",
+        "Omicron variant",
+        "RG3",
+        "SARS-CoV-2",
+        "Vero E6 TMPRSS2",
+        "XBB.1.16.11",
+        "Severe acute respiratory syndrome-related coronavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2023-09-04",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "GISAID: EPI_ISL_18472891"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "SARS-CoV-2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "UVE/SARS-CoV-2/2023/FR/CCO, XBB.1.16.11",
+        "EVORAO:hostType": "Human",
+        "EVORAO:variant": {
+          "@type": "EVORAO:Variant",
+          "dcterms:title": "21K/Omicron (B.1.1.529)"
+        }
+      },
+      "search:sku": "001V-05459",
+      "search:title": "SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2023/FR/CCO, XBB.1.16.11",
+      "search:description": "Freeze-dried SARS-CoV-2 virus, strain UVE/SARS-CoV-2/2023/FR/CCO, XBB.1.16.11, France 2023, complete genome sequence",
+      "search:taxonLabel": "Severe acute respiratory syndrome-related coronavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Human nasopharyngeal swab",
+      "search:collectionName": "AMU",
+      "search:countryOfCollection": "France",
+      "search:accessionNumber": "GISAID: EPI_ISL_18472891",
+      "search:providerName": "AMU",
+      "search:pathogenName": "SARS-CoV-2"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "AMU"
+      },
       "EVORAO:refSku": "001V-05458",
       "@id": "urn:evorao:EVA:AMU:001V-05458",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/sars-cov-2-virus-strain-uvesars-cov-22023frggr-eg51",
@@ -141896,153 +142056,6 @@
       "search:isolationHostLabel": "Bat (Myotis dasycnema)",
       "search:collectionName": "DEFRA",
       "search:countryOfCollection": "Netherlands (the)",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "European bat lyssavirus 2"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
-      "EVORAO:refSku": "003v-EVAg1575",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVAg1575",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-european-bat-lyssavirus-type-2-rv2159",
-      "dcterms:issued": "2015-09-25T12:39:40+02:00",
-      "dcterms:modified": "2021-06-22T14:22:32+02:00",
-      "dcterms:title": "Live European Bat Lyssavirus Type 2, RV2159",
-      "dcterms:description": "Live, frozen European Bat Lyssavirus Type 2 as a tissue culture supernatant. Strain RV2159. This European bat lyssavirus 2[EBLV2-RV2159] is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were not performed. To confirm its identity the virus has been fully sequenced.\r\nThis virus will be titrated and tested for the presence of mycoplasmae upon receipt of an access request.",
-      "EVORAO:unitDefinition": "1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 3 months",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2006-09-19",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "United Kingdom of Great Britain and Northern Ireland (the)"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:mycoplasmicContent": "Not tested",
-      "skos:note": "Viral storage medium: BHK medium with 10% foetal calf serum and antibiotics.",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Bat (Daubentons)"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Abingdon"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "United Kingdom"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Abingdon",
-        "United Kingdom",
-        "Animal virus",
-        "Bat",
-        "Bat (Daubentons)",
-        "BHK-21",
-        "Category A",
-        "UN2814",
-        "EBLV2",
-        "European",
-        "European bat lyssavirus 2",
-        "Lyssavirus",
-        "RG3",
-        "RV2159",
-        "type 2",
-        "United Kingdom of Great Britain and Northern Ireland (the)",
-        "virus",
-        "Dry ice",
-        "European bat 2 lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2006-09-19",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": "Available upon request."
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "European bat lyssavirus 2"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "European bat 2 lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV2159",
-        "EVORAO:strain": "EBLV-2",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVAg1575",
-      "search:title": "Live European Bat Lyssavirus Type 2, RV2159",
-      "search:description": "Live, frozen European Bat Lyssavirus Type 2 as a tissue culture supernatant. Strain RV2159. This European bat lyssavirus 2[EBLV2-RV2159] is preserved under Viral Storage Medium -80C. Tests for the presence of mycoplasmae were not performed. To confirm its identity the virus has been fully sequenced.\r\nThis virus will be titrated and tested for the presence of mycoplasmae upon receipt of an access request.",
-      "search:taxonLabel": "European bat 2 lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Bat (Daubentons)",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "United Kingdom of Great Britain and Northern Ireland (the)",
       "search:providerName": "DEFRA",
       "search:pathogenName": "European bat lyssavirus 2"
     }
