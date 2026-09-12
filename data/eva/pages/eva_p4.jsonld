@@ -22,6 +22,157 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DEFRA"
       },
+      "EVORAO:refSku": "003V-00830",
+      "@id": "urn:evorao:EVA:DEFRA:003V-00830",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-european-bat-lyssavirus-type-2-rv228",
+      "dcterms:issued": "2016-02-04T13:27:46+01:00",
+      "dcterms:modified": "2021-06-22T14:27:07+02:00",
+      "dcterms:title": "Live European Bat Lyssavirus Type 2, RV228",
+      "dcterms:description": "Live, frozen European Bat Lyssavirus Type 2 as a tissue culture supernatant. Isolate RV228. This European bat lyssavirus is preserved under viral storage medium (-80oC). To confirm identity the virus has been fully sequenced. This virus will be titrated upon receipt of an access request.",
+      "EVORAO:unitDefinition": "1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1989-09-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Netherlands (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "Cell culture (BHK)",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "N-gene sequence Genebank AY062089, G-gene sequence Genebank AY062065. Viral storage medium: BHK medium with 10% foetal calf serum and antibiotics.",
+      "EVORAO:passage": 6,
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Bat (Myotis dasycnema)"
+      },
+      "EVORAO:isolationTechnique": "Mouse inoculation",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Andyk"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Netherlands"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Andyk",
+        "Animal virus",
+        "Bat",
+        "Bat (Myotis dasycnema)",
+        "BHK-21",
+        "Category A",
+        "UN2814",
+        "EBLV2",
+        "European",
+        "European bat lyssavirus 2",
+        "Lyssavirus",
+        "Netherlands",
+        "Netherlands (the)",
+        "RG3",
+        "RV228",
+        "type 2",
+        "virus",
+        "Dry ice",
+        "European bat 2 lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1989-09-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "Sequence available upon request"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "European bat lyssavirus 2"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "European bat 2 lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV228",
+        "EVORAO:genotype": 6,
+        "EVORAO:strain": "EBLV-2",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003V-00830",
+      "search:title": "Live European Bat Lyssavirus Type 2, RV228",
+      "search:description": "Live, frozen European Bat Lyssavirus Type 2 as a tissue culture supernatant. Isolate RV228. This European bat lyssavirus is preserved under viral storage medium (-80oC). To confirm identity the virus has been fully sequenced. This virus will be titrated upon receipt of an access request.",
+      "search:taxonLabel": "European bat 2 lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Bat (Myotis dasycnema)",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "Netherlands (the)",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "European bat lyssavirus 2"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
       "EVORAO:refSku": "003v-EVAg1575",
       "@id": "urn:evorao:EVA:DEFRA:003v-EVAg1575",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-european-bat-lyssavirus-type-2-rv2159",
@@ -131172,97 +131323,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "Anguillid herpesvirus 1"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01780",
-      "@id": "urn:evorao:EVA:FLI:015A-01780",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-anguillid-rhabdovirus-arv",
-      "dcterms:issued": "2016-07-14T14:56:17+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Anguillid rhabdovirus (ARV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-ARV antibodies; targeted antigen: unknown; clone: 16E10a; immunization antigen: inactivated strain \"DF 59/96 -121- I\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not tested",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": false,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "Anguillid rhabdovirus",
-        "ARV",
-        "monoclonal antibody",
-        "No RG",
-        "Anguillid perhabdovirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Anguillid rhabdovirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Anguillid perhabdovirus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01780",
-      "search:title": "murine mAb: anti-Anguillid rhabdovirus (ARV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-ARV antibodies; targeted antigen: unknown; clone: 16E10a; immunization antigen: inactivated strain \"DF 59/96 -121- I\"",
-      "search:taxonLabel": "Anguillid perhabdovirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Anguillid rhabdovirus"
     }
   ]
 }

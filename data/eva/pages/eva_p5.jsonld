@@ -22,6 +22,97 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
+      "EVORAO:refSku": "015A-01780",
+      "@id": "urn:evorao:EVA:FLI:015A-01780",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-anguillid-rhabdovirus-arv",
+      "dcterms:issued": "2016-07-14T14:56:17+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: anti-Anguillid rhabdovirus (ARV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-ARV antibodies; targeted antigen: unknown; clone: 16E10a; immunization antigen: inactivated strain \"DF 59/96 -121- I\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not tested",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Balb/c",
+      "EVORAO:specificityDocumented": false,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Derived product",
+        "FLI",
+        "Anguillid rhabdovirus",
+        "ARV",
+        "monoclonal antibody",
+        "No RG",
+        "Anguillid perhabdovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Anguillid rhabdovirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Anguillid perhabdovirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-01780",
+      "search:title": "murine mAb: anti-Anguillid rhabdovirus (ARV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-ARV antibodies; targeted antigen: unknown; clone: 16E10a; immunization antigen: inactivated strain \"DF 59/96 -121- I\"",
+      "search:taxonLabel": "Anguillid perhabdovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Anguillid rhabdovirus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
       "EVORAO:refSku": "015A-01779",
       "@id": "urn:evorao:EVA:FLI:015A-01779",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-rabbit-haemorrhagic-disease-virus-1-rhdv-1",
