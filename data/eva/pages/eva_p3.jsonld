@@ -17,6 +17,189 @@
   },
   "@graph": [
     {
+      "@type": "EVORAO:NucleicAcid",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CNR"
+      },
+      "EVORAO:refSku": "029N-05402",
+      "@id": "urn:evorao:EVA:CNR:029N-05402",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/nucleic-acid/aeonium-ringspot-virus-probe",
+      "dcterms:issued": "2023-09-01T17:12:35+02:00",
+      "dcterms:modified": "2023-11-07T12:10:49+01:00",
+      "dcterms:title": "Aeonium ringspot virus, probe",
+      "dcterms:description": "The 3' terminal 217 nts of Aeonium ringspot virus RNA1 and RNA2  (excluding the poly(A) tail) are cloned in pGEM-T Easy allowing for transcription of a riboprobe to detect both genomic RNAs.",
+      "EVORAO:unitDefinition": "2 micrograms of plasmid DNA, allowing for the synthesis of a probe after T7-driven transcription",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "nucleic acid"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "expression plasmid"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "DNA template for recombinant virus or replicon"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "virus"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cloned nucleic acid"
+        }
+      ],
+      "EVORAO:unitCost": 100,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Synthetic origin, Natural origin",
+        "EVORAO:biologicalPartOrigin": [
+          {
+            "@type": "EVORAO:NaturalPartOrigin",
+            "EVORAO:partIdentification": "Plants of Aeonium spp. virus-infected",
+            "EVORAO:sequence": {
+              "@type": "EVORAO:Sequence",
+              "EVORAO:sequenceReference": {
+                "@type": "EVORAO:SequenceReference",
+                "EVORAO:sequenceProvider": "GenBank",
+                "EVORAO:accessionNumber": "JX304792.1JQ670669.1Collection"
+              }
+            },
+            "EVORAO:collectionDate": "2026-09-11",
+            "EVORAO:countryOfCollection": {
+              "@type": "EVORAO:Country",
+              "dcterms:title": "Italy"
+            }
+          },
+          {
+            "@type": "EVORAO:SyntheticPartOrigin",
+            "EVORAO:partIdentification": "plasmid DNA",
+            "EVORAO:modificationsFromTheReferenceSequences": false
+          }
+        ],
+        "EVORAO:recombinantMaterial": true,
+        "EVORAO:biologicalSourceType": [
+          true,
+          false
+        ]
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:clonedNucleicAcid": true,
+      "skos:note": "The clone containing the 3' 217 nucleotides can be linearized by SpeI to generate a riboprobe for the detection of both RNA1 and RNA2.",
+      "EVORAO:preparationTechnique": "Plasmid amplification in Escherichia coli DH5alpha. DNA preparation obtained by alkaline lysis, phenol extraction and PEG precipitation",
+      "EVORAO:clonedIntoPlasmid": {
+        "@type": "EVORAO:ExpressionVector",
+        "dcterms:title": "pGEMT"
+      },
+      "EVORAO:plasmidSelection": {
+        "@type": "EVORAO:PlasmidSelection",
+        "dcterms:title": "Ampicillin"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/Presentazione%20standard1.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG1"
+      },
+      "EVORAO:sequence": "> 029N-05402 | \nCTCGGCACAAGTGAAAACGACTACCGTGGCACGTTAGTAGCCAGACGGTCGGGGTAAAATCCCTAGTTAACAAAATGTGT\nTAGGACGTTGTTTCTGGCAGCTTTGTTGGTCCTATTGAGTTTTCTAAAGCTGCTTTGGTATTTTGTGTGTTTGAGCCCAC\nTGTTCATATTTGGTTTGGGGCCTTGTATGTTTCTTAGTGTCGTGTTTGTCCCACACA",
+      "EVORAO:regionEncompassedInThisProduct": "partial genome sequence (3&#039; terminal 217 nt)",
+      "EVORAO:sequenceChecked": true,
+      "EVORAO:sequencing": "Fully sequenced",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Nuclease-Free Water -20C",
+      "EVORAO:tagSequence": "No Tag",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CNR"
+      },
+      "EVORAO:collectionDate": "2013-09-06",
+      "EVORAO:countryOfCollection": "Italy",
+      "EVORAO:doi": "10.1016/j.virusres.2013.08.012",
+      "dcat:keyword": [
+        "Expression plasmid",
+        "Nucleic Acid",
+        "DNA template for recombinant virus or replicon",
+        "Cloned nucleic acid",
+        "Diagnostic reagent",
+        "Virus",
+        "Derived product",
+        "CNR",
+        "Room Temperature",
+        "10.1016/j.virusres.2013.08.012",
+        "24012516",
+        "Aeonium ringspot virus",
+        "AeRSV",
+        "Ampicillin",
+        "Italy",
+        "Nepovirus",
+        "Nepovirus aeonii",
+        "NON DANGEROUS GOODS",
+        "pGEMT",
+        "Plant virus",
+        "RG1",
+        "riboprobe",
+        "Secoviridae",
+        "T7 transcription",
+        "No Tag"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "nucleic acid",
+      "search:additionalCategory": [
+        "expression plasmid",
+        "DNA template for recombinant virus or replicon",
+        "diagnostic reagent",
+        "virus",
+        "derived product",
+        "cloned nucleic acid"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Aeonium ringspot virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Aeonium ringspot virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:hostType": "Plant"
+      },
+      "search:sku": "029N-05402",
+      "search:title": "Aeonium ringspot virus, probe",
+      "search:description": "The 3' terminal 217 nts of Aeonium ringspot virus RNA1 and RNA2  (excluding the poly(A) tail) are cloned in pGEM-T Easy allowing for transcription of a riboprobe to detect both genomic RNAs.",
+      "search:taxonLabel": "Aeonium ringspot virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG1",
+      "search:collectionName": "CNR",
+      "search:countryOfCollection": "Italy",
+      "search:providerName": "CNR",
+      "search:pathogenName": "Aeonium ringspot virus"
+    },
+    {
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
@@ -141916,149 +142099,6 @@
       "search:isolationHostLabel": "Yellow Mongoose",
       "search:collectionName": "DEFRA",
       "search:countryOfCollection": "South Africa",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "Rabies virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
-      "EVORAO:refSku": "003v-EVA37",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVA37",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv334",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-06-22T14:30:03+02:00",
-      "dcterms:title": "Live Rabies Virus, RV334",
-      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV334] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1989-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "China"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR and Sanger sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "Cell culture (BHK)",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Tissue culture supernatant originally received. 6 passages in BHK cells since. Strain from China.",
-      "EVORAO:passage": "P6 at APHA",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:specialFeature": "Vaccinal strain",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "10E 3.1 TCID50",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Vaccine"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Area:Beijing. Ref:SRFV 289"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "Area:Beijing. Ref:SRFV 289",
-        "BHK-21",
-        "Category A",
-        "UN2814",
-        "China",
-        "Rabies",
-        "Rabies virus",
-        "RABV",
-        "RG3",
-        "RV334",
-        "Vaccinal strain",
-        "Vaccine",
-        "virus",
-        "Dry ice",
-        "Rabies lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1989-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Partial Sequence AAATTCCCTATTTACACGATACCAGACACACTTGGTCCCTGGAGCCCGATCGATATACATCATCTCAGTTGCCCAAACAA TTTGGTTGTGGAGGATGAAGGATGCACCAACCTGTCAGGGTTCTCCTACATGGAACTTAAAGTTGGATACATCTCAGCCA TAAAGGTGAACGGGTTCACTTGCACAGGCGTTGTGACAGAGGCAGAAACCTACACTAACTTTGTTGGTTATGTCACCACC ACGTTCAAAAGAAAGCATTTCCGCCCAACACCAGATGCATGTAGAGCCGCGTACAACTGGAAGATGGCCGGTGACCCCAG ATATGAAGAGTCTCTACACAGTCCGTACCCTGACTACCATTGGCTTCGAACTGTAAAAACCACAAAGGAGTCTCTCGTTA TCATATCTCCAAGTGTGGCAGATTTGGACCCATATGACAACTCCCTTCACTCGAGGGTCTTCCCTAGCGGAAAGTGCTCA GGAATAACGGTGTCTTCTGTCTACTGCTCAACTAACCACGATTACACCGTTTGGATGCCTGAAAGTCTGAGACTAGGGAC ATCTTGTGATATTTTTACCAATAGTAGAGGGAAGAGAGCATCCAAGGGGAGCAAGACCTGTGGCTTTGTAGATGAAAGGG GCCTATATAAGTCTCTAAAAGGCGCATGCAAACTCAAGTTATGTGGAGTTCTTGGACTTAGACTTATGGACGGAACATGG GTCGCGATGCAGACATCAAATGAGACCAAATGGTGTCCTCCCGATCAGTTGGTTAATCTGCACGACCTTCGCTCAGACGA AATTGAGCATCTTGTTGTAGAGGAGTTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCACTAGAGTCCATCATAACCACCA AGTCAGTGAGTTTCAGACGTCTCAGTCATTTAAGAAAACTTGTCCCCGGGTTCGGAAAAGCATATACCATATTCAACAAG ACCTTGATGGAGGCTGAAGCTCACTACAAGTCAGTCAGGACTTGGAATGAGATCATCCCCTCAAAAGGGTGTTTGAGAGT TGGAGGGAGGTGTCATCCTCATGTAAACGGGGTATTTTTCAATGGTATAATATTAGGGCCTGACGGCCATGTTTTAATCC CAGAGATGCAATCATCCCTCCTCCAGCAACATATAGAGTTATTGGAATCCTCAGTTATTCCCCTGATGCACCCCCTTGCA GACCCGTTCACAGTTTTCAAGGACGGCGATGAGACTGAGGATTTTATGGAAGTTCACCTTCCCGATGTGCACGAACAGGT CTCAGGGGTTGACCTGGGTCTCCCGAACTGGGGGGAG"
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV334",
-        "EVORAO:strain": "RABV",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVA37",
-      "search:title": "Live Rabies Virus, RV334",
-      "search:description": "Rabies Virus. This Rabies virus[RABV-RV334] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Vaccine",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "China",
       "search:providerName": "DEFRA",
       "search:pathogenName": "Rabies virus"
     }

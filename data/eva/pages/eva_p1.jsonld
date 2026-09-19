@@ -26,10 +26,10 @@
       "@id": "urn:evorao:EVA:INMI:008V-06417",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/dengue-virus-type-4-strain-denv-4inmi2024",
       "dcterms:issued": "2026-09-11T12:16:46+02:00",
-      "dcterms:modified": "2026-09-11T12:29:03+02:00",
+      "dcterms:modified": "2026-09-18T14:03:10+02:00",
       "dcterms:title": "Dengue virus type 4 strain DENV-4/INMI/2024",
       "dcterms:description": "Infectious cell culture supernatant containing Dengue virus type 4 strain DENV-4/INMI/2024. This strain  is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been completely sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 0.5 ml",
+      "EVORAO:unitDefinition": "1 vial of 0.2 ml",
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
         "dcterms:title": "virus"
@@ -155,6 +155,158 @@
       "search:accessionNumber": "Available upon request",
       "search:providerName": "INMI",
       "search:pathogenName": "Dengue virus type 4 strain DENV-4/INMI/2024"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "INMI"
+      },
+      "EVORAO:refSku": "009V-03273",
+      "@id": "urn:evorao:EVA:INMI:009V-03273",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/dengue-virus-type-1-strain-denv-1reambinmiph2018",
+      "dcterms:issued": "2018-10-04T15:04:33+02:00",
+      "dcterms:modified": "2026-09-18T14:02:28+02:00",
+      "dcterms:title": "Dengue virus type 1 strain DENV-1/ReAmb/INMI/PH/2018",
+      "dcterms:description": "Infectious cell culture supernatant containing Dengue virus type 1 strain DENV-1/ReAmb/INMI/PH/2018. This Dengue virus type 1 strain  is preserved under Viral Storage Medium -80C and is Mycoplasma free. To confirm its identity the virus has been sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 0.5 ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2018-07-19",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Italy"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR and sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Limiting dilution assay, by determining tissue culture infectious dose (TCID50) with the method of Reed & Muench",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "1P",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero E6"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10^4.5 TCID50/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "INMI"
+      },
+      "EVORAO:accessionNumber": "MK024375",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "H. sapiens"
+      },
+      "EVORAO:isolationTechnique": "cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Italy (ex Philippines)"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "INMI",
+        "arthropod-borne",
+        "Category A",
+        "UN2814",
+        "cell culture",
+        "Dengue",
+        "Dengue virus 1",
+        "DENV-1",
+        "Flaviviridae",
+        "Flavivirus",
+        "H. sapiens",
+        "Human virus",
+        "Italy",
+        "Italy (ex Philippines)",
+        "MK024375",
+        "RG3",
+        "Vero E6",
+        "Dry ice",
+        "Dengue virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2018-07-19",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "MK024375"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Dengue virus 1"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Dengue virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:genotype": "IV",
+        "EVORAO:strain": "Dengue virus type 1 strain DENV-1/ReAmb/INMI/PH/2018",
+        "EVORAO:serotype": 1,
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "009V-03273",
+      "search:title": "Dengue virus type 1 strain DENV-1/ReAmb/INMI/PH/2018",
+      "search:description": "Infectious cell culture supernatant containing Dengue virus type 1 strain DENV-1/ReAmb/INMI/PH/2018. This Dengue virus type 1 strain  is preserved under Viral Storage Medium -80C and is Mycoplasma free. To confirm its identity the virus has been sequenced.",
+      "search:taxonLabel": "Dengue virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "H. sapiens",
+      "search:collectionName": "INMI",
+      "search:countryOfCollection": "Italy",
+      "search:accessionNumber": "MK024375",
+      "search:providerName": "INMI",
+      "search:pathogenName": "Dengue virus 1"
     },
     {
       "@type": "EVORAO:Virus",
@@ -138565,151 +138717,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "D.J. Robinson",
       "search:pathogenName": "Tobacco rattle virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-05062",
-      "@id": "urn:evorao:EVA:DSMZ:027V-05062",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/potato-virus-x-pvx-isolate-dsmz-pv-0014",
-      "dcterms:issued": "2023-05-26T15:22:54+02:00",
-      "dcterms:modified": "2026-03-04T14:52:40+01:00",
-      "dcterms:title": "Potato virus X (PVX) isolate DSMZ PV-0014",
-      "dcterms:description": "Infectious Potato virus X (PVX) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1987-12-31",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Germany"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "NOT Required",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "O. Bode"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana tabacum"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "MT374179",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum tuberosum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "Germany",
-        "Mechanical inoculation",
-        "MT374179",
-        "Nicotiana tabacum",
-        "NON DANGEROUS GOODS",
-        "O. Bode",
-        "Plant virus",
-        "Potato virus X",
-        "RG1",
-        "Solanum tuberosum"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1987-12-31",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "MT374179"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Potato virus X"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Potato virus X"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:strain": "PPV-Alism",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-05062",
-      "search:title": "Potato virus X (PVX) isolate DSMZ PV-0014",
-      "search:description": "Infectious Potato virus X (PVX) isolate",
-      "search:taxonLabel": "Potato virus X",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum tuberosum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Germany",
-      "search:accessionNumber": "MT374179",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "O. Bode",
-      "search:pathogenName": "Potato virus X"
     }
   ]
 }

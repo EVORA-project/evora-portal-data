@@ -22,6 +22,149 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DEFRA"
       },
+      "EVORAO:refSku": "003v-EVA37",
+      "@id": "urn:evorao:EVA:DEFRA:003v-EVA37",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv334",
+      "dcterms:issued": "2015-09-25T12:37:43+02:00",
+      "dcterms:modified": "2021-06-22T14:30:03+02:00",
+      "dcterms:title": "Live Rabies Virus, RV334",
+      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV334] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1989-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "China"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR and Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Cell culture (BHK)",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "Tissue culture supernatant originally received. 6 passages in BHK cells since. Strain from China.",
+      "EVORAO:passage": "P6 at APHA",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specialFeature": "Vaccinal strain",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10E 3.1 TCID50",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Vaccine"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Area:Beijing. Ref:SRFV 289"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "Area:Beijing. Ref:SRFV 289",
+        "BHK-21",
+        "Category A",
+        "UN2814",
+        "China",
+        "Rabies",
+        "Rabies virus",
+        "RABV",
+        "RG3",
+        "RV334",
+        "Vaccinal strain",
+        "Vaccine",
+        "virus",
+        "Dry ice",
+        "Rabies lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1989-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": ">Partial Sequence AAATTCCCTATTTACACGATACCAGACACACTTGGTCCCTGGAGCCCGATCGATATACATCATCTCAGTTGCCCAAACAA TTTGGTTGTGGAGGATGAAGGATGCACCAACCTGTCAGGGTTCTCCTACATGGAACTTAAAGTTGGATACATCTCAGCCA TAAAGGTGAACGGGTTCACTTGCACAGGCGTTGTGACAGAGGCAGAAACCTACACTAACTTTGTTGGTTATGTCACCACC ACGTTCAAAAGAAAGCATTTCCGCCCAACACCAGATGCATGTAGAGCCGCGTACAACTGGAAGATGGCCGGTGACCCCAG ATATGAAGAGTCTCTACACAGTCCGTACCCTGACTACCATTGGCTTCGAACTGTAAAAACCACAAAGGAGTCTCTCGTTA TCATATCTCCAAGTGTGGCAGATTTGGACCCATATGACAACTCCCTTCACTCGAGGGTCTTCCCTAGCGGAAAGTGCTCA GGAATAACGGTGTCTTCTGTCTACTGCTCAACTAACCACGATTACACCGTTTGGATGCCTGAAAGTCTGAGACTAGGGAC ATCTTGTGATATTTTTACCAATAGTAGAGGGAAGAGAGCATCCAAGGGGAGCAAGACCTGTGGCTTTGTAGATGAAAGGG GCCTATATAAGTCTCTAAAAGGCGCATGCAAACTCAAGTTATGTGGAGTTCTTGGACTTAGACTTATGGACGGAACATGG GTCGCGATGCAGACATCAAATGAGACCAAATGGTGTCCTCCCGATCAGTTGGTTAATCTGCACGACCTTCGCTCAGACGA AATTGAGCATCTTGTTGTAGAGGAGTTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCACTAGAGTCCATCATAACCACCA AGTCAGTGAGTTTCAGACGTCTCAGTCATTTAAGAAAACTTGTCCCCGGGTTCGGAAAAGCATATACCATATTCAACAAG ACCTTGATGGAGGCTGAAGCTCACTACAAGTCAGTCAGGACTTGGAATGAGATCATCCCCTCAAAAGGGTGTTTGAGAGT TGGAGGGAGGTGTCATCCTCATGTAAACGGGGTATTTTTCAATGGTATAATATTAGGGCCTGACGGCCATGTTTTAATCC CAGAGATGCAATCATCCCTCCTCCAGCAACATATAGAGTTATTGGAATCCTCAGTTATTCCCCTGATGCACCCCCTTGCA GACCCGTTCACAGTTTTCAAGGACGGCGATGAGACTGAGGATTTTATGGAAGTTCACCTTCCCGATGTGCACGAACAGGT CTCAGGGGTTGACCTGGGTCTCCCGAACTGGGGGGAG"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabies virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabies lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV334",
+        "EVORAO:strain": "RABV",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003v-EVA37",
+      "search:title": "Live Rabies Virus, RV334",
+      "search:description": "Rabies Virus. This Rabies virus[RABV-RV334] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "Rabies lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Vaccine",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "China",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Rabies virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
       "EVORAO:refSku": "003V-00830",
       "@id": "urn:evorao:EVA:DEFRA:003V-00830",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-european-bat-lyssavirus-type-2-rv228",
@@ -131233,96 +131376,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "Crimean-Congo hemorrhagic fever virus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-01781",
-      "@id": "urn:evorao:EVA:FLI:015A-01781",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-anguillid-herpesvirus-1-anghv",
-      "dcterms:issued": "2016-07-14T14:59:05+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Anguillid herpesvirus 1 (AngHV)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-AngHV antibodies; targeted antigen: unknown; clone: 9C10; immunization antigen: inactivated strain \"HVA-57 Holland\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodyCharacterizationObservation": "other characterization methods not tested",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Balb/c",
-      "EVORAO:specificityDocumented": false,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "AngHV",
-        "Anguillid herpesvirus 1",
-        "monoclonal antibody",
-        "No RG"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Anguillid herpesvirus 1"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Anguillid herpesvirus 1"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-01781",
-      "search:title": "murine mAb: anti-Anguillid herpesvirus 1 (AngHV)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-AngHV antibodies; targeted antigen: unknown; clone: 9C10; immunization antigen: inactivated strain \"HVA-57 Holland\"",
-      "search:taxonLabel": "Anguillid herpesvirus 1",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Anguillid herpesvirus 1"
     }
   ]
 }
