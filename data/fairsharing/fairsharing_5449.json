@@ -231,100 +231,8 @@
         ],
         "grants": [
           {
-            "id": 11731,
-            "fairsharing_record_id": 5449,
-            "organisation_id": 4347,
-            "relation": "collaborates_on",
-            "created_at": "2024-04-22T12:20:30.383Z",
-            "updated_at": "2024-04-22T12:20:30.383Z",
-            "grant_id": null,
-            "is_lead": false,
-            "saved_state": {
-              "id": 4347,
-              "name": "European Virus Archive (EVA)",
-              "types": [
-                "Consortium"
-              ],
-              "is_lead": false,
-              "relation": "collaborates_on"
-            }
-          },
-          {
-            "id": 11734,
-            "fairsharing_record_id": 5449,
-            "organisation_id": 841,
-            "relation": "collaborates_on",
-            "created_at": "2024-04-22T12:20:30.450Z",
-            "updated_at": "2024-04-22T12:20:30.450Z",
-            "grant_id": null,
-            "is_lead": false,
-            "saved_state": {
-              "id": 841,
-              "name": "ELIXIR Europe",
-              "types": [
-                "Government body"
-              ],
-              "is_lead": false,
-              "relation": "collaborates_on"
-            }
-          },
-          {
-            "id": 11733,
-            "fairsharing_record_id": 5449,
-            "organisation_id": 3440,
-            "relation": "collaborates_on",
-            "created_at": "2024-04-22T12:20:30.432Z",
-            "updated_at": "2024-04-22T12:20:30.432Z",
-            "grant_id": null,
-            "is_lead": false,
-            "saved_state": {
-              "id": 3440,
-              "name": "European Research Infrastructure on Highly Pathogenic Agents",
-              "types": [
-                "Consortium"
-              ],
-              "is_lead": false,
-              "relation": "collaborates_on"
-            }
-          },
-          {
-            "id": 11732,
-            "fairsharing_record_id": 5449,
-            "organisation_id": 4346,
-            "relation": "maintains",
-            "created_at": "2024-04-22T12:20:30.384Z",
-            "updated_at": "2024-04-22T12:20:30.384Z",
-            "grant_id": null,
-            "is_lead": true,
-            "saved_state": {
-              "id": 4346,
-              "name": "EVORA",
-              "types": [
-                "Consortium"
-              ],
-              "is_lead": true,
-              "relation": "maintains"
-            }
-          },
-          {
-            "id": 11746,
-            "fairsharing_record_id": 5449,
-            "organisation_id": 3374,
-            "relation": "funds",
-            "created_at": "2024-04-24T08:08:42.276Z",
-            "updated_at": "2024-04-24T08:08:42.276Z",
             "grant_id": 2004,
-            "is_lead": false,
-            "saved_state": {
-              "id": 3374,
-              "name": "European Commission Horizon Europe",
-              "grant": "101131959",
-              "types": [
-                "Government body"
-              ],
-              "is_lead": false,
-              "relation": "funds"
-            }
+            "grant_name": "101131959"
           }
         ],
         "url_for_logo": null,
@@ -444,32 +352,32 @@
           ],
           "user_defined_tags": [],
           "countries": [
-            "Germany",
-            "Lithuania",
-            "Greece",
-            "Czech Republic",
-            "United Kingdom",
-            "Iceland",
-            "Malta",
-            "Portugal",
-            "Luxembourg",
-            "Denmark",
-            "Ireland",
-            "Norway",
-            "Belgium",
-            "Slovakia",
-            "Croatia",
-            "Italy",
-            "Spain",
             "Austria",
-            "Switzerland",
-            "Montenegro",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
             "Finland",
-            "Sweden",
             "France",
-            "Netherlands",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
             "Israel",
-            "Hungary"
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
           ],
           "publications": [],
           "licence_links": [
@@ -481,27 +389,7 @@
               "relation": "undefined"
             }
           ],
-          "grants": [
-            {
-              "id": 6693,
-              "fairsharing_record_id": 1061,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:28:10.420Z",
-              "updated_at": "2021-09-30T09:28:10.420Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
           "object_types": [
@@ -652,65 +540,7 @@
               "relation": "undefined"
             }
           ],
-          "grants": [
-            {
-              "id": 12400,
-              "fairsharing_record_id": 1333,
-              "organisation_id": 841,
-              "relation": "collaborates_on",
-              "created_at": "2024-10-14T08:16:33.573Z",
-              "updated_at": "2024-10-14T08:16:33.573Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 841,
-                "name": "ELIXIR Europe",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "collaborates_on"
-              }
-            },
-            {
-              "id": 12399,
-              "fairsharing_record_id": 1333,
-              "organisation_id": 941,
-              "relation": "maintains",
-              "created_at": "2024-10-14T08:16:33.512Z",
-              "updated_at": "2024-10-14T08:16:33.512Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 941,
-                "name": "European Molecular Biology Laboratory",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 7233,
-              "fairsharing_record_id": 1333,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:28:30.629Z",
-              "updated_at": "2024-10-14T08:16:48.630Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
           "object_types": [
@@ -821,32 +651,32 @@
           ],
           "user_defined_tags": [],
           "countries": [
-            "Germany",
-            "Lithuania",
-            "Greece",
-            "Czech Republic",
-            "United Kingdom",
-            "Iceland",
-            "Malta",
-            "Portugal",
-            "Luxembourg",
-            "Denmark",
-            "Ireland",
-            "Norway",
-            "Belgium",
-            "Slovakia",
-            "Croatia",
-            "Italy",
-            "Spain",
             "Austria",
-            "Switzerland",
-            "Montenegro",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
             "Finland",
-            "Sweden",
             "France",
-            "Netherlands",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
             "Israel",
-            "Hungary"
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
           ],
           "publications": [],
           "licence_links": [
@@ -858,27 +688,7 @@
               "relation": "undefined"
             }
           ],
-          "grants": [
-            {
-              "id": 7526,
-              "fairsharing_record_id": 1478,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:28:40.760Z",
-              "updated_at": "2021-09-30T09:28:40.760Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
           "object_types": [
@@ -1124,32 +934,32 @@
             "COVID-19"
           ],
           "countries": [
-            "Germany",
-            "Lithuania",
-            "Greece",
-            "Czech Republic",
-            "United Kingdom",
-            "Iceland",
-            "Malta",
-            "Portugal",
-            "Luxembourg",
-            "Denmark",
-            "Ireland",
-            "Norway",
-            "Belgium",
-            "Slovakia",
-            "Croatia",
-            "Italy",
-            "Spain",
             "Austria",
-            "Switzerland",
-            "Montenegro",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
             "Finland",
-            "Sweden",
             "France",
-            "Netherlands",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
             "Israel",
-            "Hungary"
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
           ],
           "publications": [
             {
@@ -1231,82 +1041,12 @@
           ],
           "grants": [
             {
-              "id": 10016,
-              "fairsharing_record_id": 1554,
-              "organisation_id": 841,
-              "relation": "associated_with",
-              "created_at": "2022-10-13T09:43:38.875Z",
-              "updated_at": "2022-10-13T09:43:38.875Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 841,
-                "name": "ELIXIR Europe",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 26,
-              "fairsharing_record_id": 1554,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:24:15.866Z",
-              "updated_at": "2021-09-30T09:24:15.866Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 27,
-              "fairsharing_record_id": 1554,
-              "organisation_id": 915,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:15.904Z",
-              "updated_at": "2021-09-30T09:32:30.004Z",
               "grant_id": 1648,
-              "is_lead": false,
-              "saved_state": {
-                "id": 915,
-                "name": "European Commission",
-                "grant": "HEALTH-F4-2010-241669",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "HEALTH-F4-2010-241669"
             },
             {
-              "id": 9238,
-              "fairsharing_record_id": 1554,
-              "organisation_id": 920,
-              "relation": "funds",
-              "created_at": "2022-04-11T12:07:24.526Z",
-              "updated_at": "2022-04-11T12:07:24.546Z",
               "grant_id": 1538,
-              "is_lead": false,
-              "saved_state": {
-                "id": 920,
-                "name": "European Commission FP7",
-                "grant": "HEALTH-F4-2007-201413",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "HEALTH-F4-2007-201413"
             }
           ],
           "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdm9CIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4143c907685616a1d811264fba5110541e029972/biosamples_LOGO.jpg?disposition=inline",
@@ -1874,239 +1614,32 @@
           ],
           "grants": [
             {
-              "id": 968,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 2282,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.855Z",
-              "updated_at": "2021-09-30T09:24:50.855Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2282,
-                "name": "Oxford Nanopore Technologies, Oxford, UK",
-                "types": [
-                  "Company"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 962,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 2894,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.621Z",
-              "updated_at": "2021-09-30T09:30:00.987Z",
               "grant_id": 514,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2894,
-                "name": "UK Biotechnology and Biological Sciences Research Council - RNA Central",
-                "grant": "NN/J019321/1",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "NN/J019321/1"
             },
             {
-              "id": 963,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 2854,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.664Z",
-              "updated_at": "2021-09-30T09:24:50.664Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2854,
-                "name": "The Wellcome Trust, UK",
-                "types": [
-                  "Charitable foundation"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 964,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 941,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.701Z",
-              "updated_at": "2021-09-30T09:24:50.701Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 941,
-                "name": "European Molecular Biology Laboratory (EMBL), Heidelberg, Germany",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 965,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:24:50.734Z",
-              "updated_at": "2021-09-30T09:24:50.734Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 966,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 2782,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.772Z",
-              "updated_at": "2021-09-30T09:24:50.772Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2782,
-                "name": "The Gordon and Betty Moore Foundation, USA",
-                "types": [
-                  "Charitable foundation"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 959,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 1262,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.511Z",
-              "updated_at": "2021-09-30T09:29:17.542Z",
               "grant_id": 180,
-              "is_lead": false,
-              "saved_state": {
-                "id": 1262,
-                "name": "Horizon 2020 Programme of the European Union - EMBRIC",
-                "grant": "654008",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "654008"
             },
             {
-              "id": 967,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 1263,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.813Z",
-              "updated_at": "2021-09-30T09:31:47.836Z",
               "grant_id": 1330,
-              "is_lead": false,
-              "saved_state": {
-                "id": 1263,
-                "name": "Horizon 2020 Programme of the European Union - ENVRI+",
-                "grant": "654182",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "654182"
             },
             {
-              "id": 960,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 2892,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.542Z",
-              "updated_at": "2021-09-30T09:32:12.577Z",
               "grant_id": 1517,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2892,
-                "name": "UK Biotechnology and Biological Sciences Research Council - Metagenomics Portal",
-                "grant": "BB/M011755/1",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/M011755/1"
             },
             {
-              "id": 957,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 1261,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.434Z",
-              "updated_at": "2021-09-30T09:32:34.653Z",
               "grant_id": 1682,
-              "is_lead": false,
-              "saved_state": {
-                "id": 1261,
-                "name": "Horizon 2020 Programme of the European Union - COMPARE",
-                "grant": "643476",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "643476"
             },
             {
-              "id": 958,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 1264,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:50.471Z",
-              "updated_at": "2021-09-30T09:29:30.418Z",
               "grant_id": 276,
-              "is_lead": false,
-              "saved_state": {
-                "id": 1264,
-                "name": "Horizon 2020 Programme of the European Union - EXCELERATE",
-                "grant": "676559",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "676559"
             },
             {
-              "id": 9201,
-              "fairsharing_record_id": 1850,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2022-04-11T12:07:21.563Z",
-              "updated_at": "2022-04-11T12:07:21.584Z",
               "grant_id": 1582,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council (BBSRC), UK",
-                "grant": "BB/N018354/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/N018354/1"
             }
           ],
           "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBPdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9558f885de21d2ce8b723a5d0ecbaf3afe054001/ENA_logo_2021.png?disposition=inline",
@@ -2457,399 +1990,64 @@
           ],
           "grants": [
             {
-              "id": 7906,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 960,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:29:37.592Z",
-              "updated_at": "2021-09-30T09:29:37.666Z",
               "grant_id": 332,
-              "is_lead": false,
-              "saved_state": {
-                "id": 960,
-                "name": "European Union (EU)",
-                "grant": "284209",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "284209"
             },
             {
-              "id": 8152,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:31:13.081Z",
-              "updated_at": "2021-09-30T09:31:13.140Z",
               "grant_id": 1069,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/M013146/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/M013146/1"
             },
             {
-              "id": 1013,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 960,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:53.081Z",
-              "updated_at": "2021-09-30T09:29:34.249Z",
               "grant_id": 305,
-              "is_lead": false,
-              "saved_state": {
-                "id": 960,
-                "name": "European Union (EU)",
-                "grant": "226073",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "226073"
             },
             {
-              "id": 8172,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 960,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:31:19.605Z",
-              "updated_at": "2021-09-30T09:31:19.658Z",
               "grant_id": 1120,
-              "is_lead": false,
-              "saved_state": {
-                "id": 960,
-                "name": "European Union (EU)",
-                "grant": "675858",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "675858"
             },
             {
-              "id": 8157,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:31:15.213Z",
-              "updated_at": "2021-09-30T09:31:15.262Z",
               "grant_id": 1088,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/K016970/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/K016970/1"
             },
             {
-              "id": 1018,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 1812,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:53.345Z",
-              "updated_at": "2021-09-30T09:31:34.335Z",
               "grant_id": 1230,
-              "is_lead": false,
-              "saved_state": {
-                "id": 1812,
-                "name": "Medical Research Council",
-                "grant": "MR/L007835/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "MR/L007835/1"
             },
             {
-              "id": 8735,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 3342,
-              "relation": "associated_with",
-              "created_at": "2022-01-20T11:13:12.000Z",
-              "updated_at": "2022-01-20T11:13:12.000Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 3342,
-                "name": "Instruct-ERIC",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 8082,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:30:49.581Z",
-              "updated_at": "2021-09-30T09:30:49.664Z",
               "grant_id": 889,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/K020013/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/K020013/1"
             },
             {
-              "id": 1016,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 941,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:53.258Z",
-              "updated_at": "2021-09-30T09:24:53.258Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 941,
-                "name": "European Molecular Biology Laboratory",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 1012,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:24:53.045Z",
-              "updated_at": "2021-09-30T09:24:53.045Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 1015,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 2854,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:53.151Z",
-              "updated_at": "2021-09-30T09:31:30.426Z",
               "grant_id": 1202,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2854,
-                "name": "Wellcome",
-                "grant": "104948",
-                "types": [
-                  "Charitable foundation"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "104948"
             },
             {
-              "id": 8160,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:31:16.073Z",
-              "updated_at": "2021-09-30T09:31:16.124Z",
               "grant_id": 1094,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/M020347/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/M020347/1"
             },
             {
-              "id": 10014,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 841,
-              "relation": "associated_with",
-              "created_at": "2022-10-13T09:43:38.817Z",
-              "updated_at": "2022-10-13T09:43:38.817Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 841,
-                "name": "ELIXIR Europe",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 1014,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:24:53.120Z",
-              "updated_at": "2021-09-30T09:29:10.260Z",
               "grant_id": 123,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/M011674/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/M011674/1"
             },
             {
-              "id": 7902,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:29:35.358Z",
-              "updated_at": "2021-09-30T09:29:35.408Z",
               "grant_id": 314,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/G022577/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/G022577/1"
             },
             {
-              "id": 9740,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 3263,
-              "relation": "associated_with",
-              "created_at": "2022-08-02T09:59:17.726Z",
-              "updated_at": "2022-08-02T09:59:17.726Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 3263,
-                "name": "Worldwide Protein Data Bank Foundation",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 7940,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:29:57.434Z",
-              "updated_at": "2021-09-30T09:29:57.484Z",
               "grant_id": 486,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/M020428/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/M020428/1"
             },
             {
-              "id": 7936,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:29:55.785Z",
-              "updated_at": "2021-09-30T09:29:55.828Z",
               "grant_id": 473,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/E007511/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/E007511/1"
             },
             {
-              "id": 8364,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:32:15.909Z",
-              "updated_at": "2021-09-30T09:32:15.957Z",
               "grant_id": 1540,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/J007471/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/J007471/1"
             },
             {
-              "id": 8313,
-              "fairsharing_record_id": 1860,
-              "organisation_id": 2854,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:32:01.896Z",
-              "updated_at": "2021-09-30T09:32:01.935Z",
               "grant_id": 1436,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2854,
-                "name": "Wellcome",
-                "grant": "088944",
-                "types": [
-                  "Charitable foundation"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "088944"
             }
           ],
           "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblVCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--64d8cc6d1de890da25711e3e4eb9bbc0a16903a8/1_1.png?disposition=inline",
@@ -3196,141 +2394,7 @@
               "relation": "undefined"
             }
           ],
-          "grants": [
-            {
-              "id": 1712,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 2423,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:25:17.637Z",
-              "updated_at": "2021-09-30T09:25:17.637Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 2423,
-                "name": "Research Collaboratory for Structural Bioinformatics",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 1710,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:25:17.567Z",
-              "updated_at": "2021-09-30T09:25:17.567Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute, Wellcome Genome Campus",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 1713,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 2035,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:25:17.666Z",
-              "updated_at": "2021-09-30T09:25:17.666Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2035,
-                "name": "National Institutes of Health",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 9741,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 3263,
-              "relation": "associated_with",
-              "created_at": "2022-08-02T10:05:29.732Z",
-              "updated_at": "2022-08-02T10:05:29.732Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 3263,
-                "name": "wwPDB",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 10013,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 841,
-              "relation": "associated_with",
-              "created_at": "2022-10-13T09:43:38.788Z",
-              "updated_at": "2022-10-13T09:43:38.788Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 841,
-                "name": "ELIXIR Europe",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 8732,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 3342,
-              "relation": "associated_with",
-              "created_at": "2022-01-20T09:45:58.092Z",
-              "updated_at": "2022-01-20T09:45:58.092Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 3342,
-                "name": "Instruct-ERIC",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "associated_with"
-              }
-            },
-            {
-              "id": 11582,
-              "fairsharing_record_id": 2126,
-              "organisation_id": 2300,
-              "relation": "maintains",
-              "created_at": "2024-03-21T13:59:09.977Z",
-              "updated_at": "2024-03-21T13:59:09.977Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 2300,
-                "name": "PDBe Team, European Bioinformatics Institute",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbllCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--18021442ee90695572715042ff5364d65b2a27a0/EMBD_logo_2017_light_background.png?disposition=inline",
           "exhaustive_licences": false,
           "object_types": [
@@ -3649,199 +2713,24 @@
           ],
           "grants": [
             {
-              "id": 8155,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 912,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:31:14.580Z",
-              "updated_at": "2021-09-30T09:31:14.632Z",
               "grant_id": 1083,
-              "is_lead": false,
-              "saved_state": {
-                "id": 912,
-                "name": "European Commission Horizon 2020",
-                "grant": "688945",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "688945"
             },
             {
-              "id": 2244,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:25:37.121Z",
-              "updated_at": "2021-09-30T09:31:13.890Z",
               "grant_id": 1076,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/M018423/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "BB/M018423/1"
             },
             {
-              "id": 8659,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 873,
-              "relation": "funds",
-              "created_at": "2021-12-20T16:29:42.311Z",
-              "updated_at": "2021-12-20T16:29:42.311Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 873,
-                "name": "EOSC-Life",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 2246,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 912,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:25:37.192Z",
-              "updated_at": "2021-09-30T09:30:59.327Z",
               "grant_id": 966,
-              "is_lead": false,
-              "saved_state": {
-                "id": 912,
-                "name": "European Commission Horizon 2020",
-                "grant": "654248",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "654248"
             },
             {
-              "id": 10676,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 2261,
-              "relation": "maintains",
-              "created_at": "2023-06-16T08:17:21.567Z",
-              "updated_at": "2023-06-16T08:17:21.567Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 2261,
-                "name": "Open Microscopy Environment",
-                "types": [
-                  "Lab"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 10677,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 3049,
-              "relation": "maintains",
-              "created_at": "2023-06-16T08:17:21.567Z",
-              "updated_at": "2023-06-16T08:17:21.567Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 3049,
-                "name": "University of Dundee, Scotland, UK",
-                "types": [
-                  "University"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 8904,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 2854,
-              "relation": "funds",
-              "created_at": "2022-03-03T13:25:24.569Z",
-              "updated_at": "2022-03-03T13:25:24.569Z",
               "grant_id": 1830,
-              "is_lead": false,
-              "saved_state": {
-                "id": 2854,
-                "name": "The Wellcome Trust",
-                "grant": "212962/Z/18/Z",
-                "types": [
-                  "Charitable foundation"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
+              "grant_name": "212962/Z/18/Z"
             },
             {
-              "id": 2243,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 351,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:25:37.080Z",
-              "updated_at": "2021-09-30T09:25:37.080Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 351,
-                "name": "Cambridge Systems Biology Centre, University of Cambridge, Cambridge, UK",
-                "types": [
-                  "University"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 8385,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 278,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:32:23.817Z",
-              "updated_at": "2021-09-30T09:32:23.872Z",
               "grant_id": 1601,
-              "is_lead": false,
-              "saved_state": {
-                "id": 278,
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "grant": "BB/R015384/1",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 9247,
-              "fairsharing_record_id": 2303,
-              "organisation_id": 920,
-              "relation": "maintains",
-              "created_at": "2022-04-11T12:07:25.110Z",
-              "updated_at": "2022-04-11T12:07:25.110Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 920,
-                "name": "European Commission FP7",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
+              "grant_name": "BB/R015384/1"
             }
           ],
           "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBWUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a98b06ba365ea079c2d473e13b2e540597d9f29b/idr-logo.png?disposition=inline",
@@ -4048,122 +2937,7 @@
               "relation": "undefined"
             }
           ],
-          "grants": [
-            {
-              "id": 3779,
-              "fairsharing_record_id": 2934,
-              "organisation_id": 873,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:26:26.262Z",
-              "updated_at": "2021-09-30T09:26:26.262Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 873,
-                "name": "EOSC-Life",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 3780,
-              "fairsharing_record_id": 2934,
-              "organisation_id": 912,
-              "relation": "funds",
-              "created_at": "2021-09-30T09:26:26.286Z",
-              "updated_at": "2021-09-30T09:26:26.286Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 912,
-                "name": "European Commission Horizon 2020",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "funds"
-              }
-            },
-            {
-              "id": 3781,
-              "fairsharing_record_id": 2934,
-              "organisation_id": 841,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:26:26.312Z",
-              "updated_at": "2021-09-30T09:26:26.312Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 841,
-                "name": "ELIXIR Europe",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 8788,
-              "fairsharing_record_id": 2934,
-              "organisation_id": 3376,
-              "relation": "collaborates_on",
-              "created_at": "2022-02-07T11:05:19.013Z",
-              "updated_at": "2022-02-07T11:05:19.013Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 3376,
-                "name": "ReCoDID",
-                "types": [
-                  "Consortium"
-                ],
-                "is_lead": false,
-                "relation": "collaborates_on"
-              }
-            },
-            {
-              "id": 3778,
-              "fairsharing_record_id": 2934,
-              "organisation_id": 915,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:26:26.235Z",
-              "updated_at": "2021-09-30T09:26:26.235Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 915,
-                "name": "European Commission",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "maintains"
-              }
-            },
-            {
-              "id": 3777,
-              "fairsharing_record_id": 2934,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:26:26.212Z",
-              "updated_at": "2023-05-25T13:19:12.948Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute, Wellcome Genome Campus",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDBDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f9ec10c41324384735242aa52e1971b0b70d14ef/Screenshot%20from%202023-05-25%2014-18-27.png?disposition=inline",
           "exhaustive_licences": true,
           "object_types": [
@@ -4298,27 +3072,7 @@
               "relation": "applies_to_content"
             }
           ],
-          "grants": [
-            {
-              "id": 10815,
-              "fairsharing_record_id": 4947,
-              "organisation_id": 4082,
-              "relation": "maintains",
-              "created_at": "2023-08-05T00:10:03.158Z",
-              "updated_at": "2023-08-05T00:10:03.158Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 4082,
-                "name": "EMBL-EBI Samples, Phenotypes and Ontologies Team",
-                "types": [
-                  "Lab"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
           "object_types": [
@@ -4412,32 +3166,32 @@
           ],
           "user_defined_tags": [],
           "countries": [
-            "Germany",
-            "Lithuania",
-            "Greece",
-            "Czech Republic",
-            "United Kingdom",
-            "Iceland",
-            "Malta",
-            "Portugal",
-            "Luxembourg",
-            "Denmark",
-            "Ireland",
-            "Norway",
-            "Belgium",
-            "Slovakia",
-            "Croatia",
-            "Italy",
-            "Spain",
             "Austria",
-            "Switzerland",
-            "Montenegro",
+            "Belgium",
+            "Croatia",
+            "Czech Republic",
+            "Denmark",
             "Finland",
-            "Sweden",
             "France",
-            "Netherlands",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
             "Israel",
-            "Hungary"
+            "Italy",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Montenegro",
+            "Netherlands",
+            "Norway",
+            "Portugal",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "United Kingdom"
           ],
           "publications": [],
           "licence_links": [
@@ -4449,27 +3203,7 @@
               "relation": "undefined"
             }
           ],
-          "grants": [
-            {
-              "id": 6093,
-              "fairsharing_record_id": 735,
-              "organisation_id": 908,
-              "relation": "maintains",
-              "created_at": "2021-09-30T09:27:48.356Z",
-              "updated_at": "2021-09-30T09:27:48.356Z",
-              "grant_id": null,
-              "is_lead": true,
-              "saved_state": {
-                "id": 908,
-                "name": "European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire, UK",
-                "types": [
-                  "Research institute"
-                ],
-                "is_lead": true,
-                "relation": "maintains"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
           "object_types": [
@@ -4713,27 +3447,7 @@
             }
           ],
           "licence_links": [],
-          "grants": [
-            {
-              "id": 14559,
-              "fairsharing_record_id": 7482,
-              "organisation_id": 841,
-              "relation": "collaborates_on",
-              "created_at": "2025-12-16T16:04:58.034Z",
-              "updated_at": "2025-12-16T16:04:58.034Z",
-              "grant_id": null,
-              "is_lead": false,
-              "saved_state": {
-                "id": 841,
-                "name": "ELIXIR Europe",
-                "types": [
-                  "Government body"
-                ],
-                "is_lead": false,
-                "relation": "collaborates_on"
-              }
-            }
-          ],
+          "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
           "object_types": [],
