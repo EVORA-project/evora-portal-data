@@ -20,6 +20,543 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "CSIRO"
+      },
+      "EVORAO:refSku": "023V-03476",
+      "@id": "urn:evorao:EVA:CSIRO:023V-03476",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bluetongue-virus-serotype-20",
+      "dcterms:issued": "2019-04-10T02:08:12+02:00",
+      "dcterms:modified": "2026-09-23T06:07:57+02:00",
+      "dcterms:title": "Bluetongue virus serotype 20",
+      "dcterms:description": "Bluetongue virus serotype 20 CSIRO19",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 550,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Upon request",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1975-06-27",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Australia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "Serology and whole genome sequencing (next generation sequencing)",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID50",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "Isolated from a pool of 245 Culicoides mixed species collected from Coastal Plains Research Station, Beatrice Hill, Northern Territory on 27th June 1975.",
+      "EVORAO:passage": "1xMouse, >17x BHK21",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "1E+6.0/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CSIRO"
+      },
+      "EVORAO:accessionNumber": "JQ086251, JQ086252, JQ086253, JQ086254, JQ086255, JQ086256, JQ086257, JQ086258, JQ086259, JQ086260",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Culicoides mixed species"
+      },
+      "EVORAO:isolationTechnique": "Intracerebral inoculation of suckling mice with ground pools of Culicoides spp.",
+      "EVORAO:doi": "10.1128/JVI.00182-12",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Beatrice Hill"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Northern Territory"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Australia"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Antigen",
+        "Diagnostic reagent",
+        "Virus",
+        "CSIRO",
+        "10.1128/JVI.00182-12",
+        "210754",
+        "22514341",
+        "Animal virus",
+        "Australia",
+        "Beatrice Hill",
+        "BHK-21",
+        "Bluetongue virus serotype 20",
+        "BTV",
+        "Category B",
+        "UN3373",
+        "Culicoides",
+        "Culicoides mixed species",
+        "JQ086251",
+        "JQ086252",
+        "JQ086253",
+        "JQ086254",
+        "JQ086255",
+        "JQ086256",
+        "JQ086257",
+        "JQ086258",
+        "JQ086259",
+        "JQ086260",
+        "Northern Territory",
+        "orbivirus",
+        "Reference Strain",
+        "Reoviridae",
+        "RG2",
+        "Dry ice",
+        "Bluetongue virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "diagnostic reagent",
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1975-06-27",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "JQ086251, JQ086252, JQ086253, JQ086254, JQ086255, JQ086256, JQ086257, JQ086258, JQ086259, JQ086260"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Bluetongue virus serotype 20"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Bluetongue virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "CSIRO19",
+        "EVORAO:genotype": "Java B",
+        "EVORAO:serotype": "Serotype 20",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "023V-03476",
+      "search:title": "Bluetongue virus serotype 20",
+      "search:description": "Bluetongue virus serotype 20 CSIRO19",
+      "search:taxonLabel": "Bluetongue virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Culicoides mixed species",
+      "search:collectionName": "CSIRO",
+      "search:countryOfCollection": "Australia",
+      "search:accessionNumber": "JQ086251, JQ086252, JQ086253, JQ086254, JQ086255, JQ086256, JQ086257, JQ086258, JQ086259, JQ086260",
+      "search:providerName": "CSIRO",
+      "search:pathogenName": "Bluetongue virus serotype 20"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CSIRO"
+      },
+      "EVORAO:refSku": "023V-03646",
+      "@id": "urn:evorao:EVA:CSIRO:023V-03646",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/wallal-virus",
+      "dcterms:issued": "2019-06-21T06:45:58+02:00",
+      "dcterms:modified": "2026-09-23T05:56:45+02:00",
+      "dcterms:title": "Wallal virus",
+      "dcterms:description": "Wallal virus CH12048",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 550,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1970-02-22",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Australia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "Partial gene sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID50",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "Isolated from Culicoides dycei collected from Charleville, Queensland on the 22nd February, 1970.",
+      "EVORAO:passage": "8x SMB, 2x BHK, 1x VERO",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "2.0E+4.0/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CSIRO"
+      },
+      "EVORAO:accessionNumber": "AF530084",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Culicoides dycei"
+      },
+      "EVORAO:isolationTechnique": "Intracerebral inoculation of suckling mice with ground pools of Culicoides dycei.",
+      "EVORAO:doi": "10.1016/0035-9203(73)90084-9",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Charleville"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Queensland"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Australia"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Antigen",
+        "Diagnostic reagent",
+        "Virus",
+        "CSIRO",
+        "10.1016/0035-9203(73)90084-9",
+        "4150461",
+        "AF530084",
+        "Animal virus",
+        "Australia",
+        "Category B",
+        "UN3373",
+        "Charleville",
+        "Culicoides dycei",
+        "Orbiviruses",
+        "Queensland",
+        "RG2",
+        "Vero",
+        "Wallal virus",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "diagnostic reagent",
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1970-02-22",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "AF530084"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Wallal virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Wallal virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "CH12048",
+        "EVORAO:serotype": "Wallal serogroup",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "023V-03646",
+      "search:title": "Wallal virus",
+      "search:description": "Wallal virus CH12048",
+      "search:taxonLabel": "Wallal virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Culicoides dycei",
+      "search:collectionName": "CSIRO",
+      "search:countryOfCollection": "Australia",
+      "search:accessionNumber": "AF530084",
+      "search:providerName": "CSIRO",
+      "search:pathogenName": "Wallal virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "CSIRO"
+      },
+      "EVORAO:refSku": "023V-03459",
+      "@id": "urn:evorao:EVA:CSIRO:023V-03459",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/hunter-island-group-virus",
+      "dcterms:issued": "2019-03-14T02:01:22+01:00",
+      "dcterms:modified": "2026-09-23T05:52:52+02:00",
+      "dcterms:title": "Hunter Island Group virus",
+      "dcterms:description": "Hunter Island Group virus CS1568",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 550,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2002-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Australia"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "CPE followed by next generation sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID50",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "3x passages in Vero cells",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "2.3E+08/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CSIRO"
+      },
+      "EVORAO:accessionNumber": "KF848980, KF848981, KF848982",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Ixodes eudyptidis ticks collected from a shy albatross (Thalassarche cauta) colony on Albatross Island"
+      },
+      "EVORAO:isolationTechnique": "Cell culture",
+      "EVORAO:doi": "10.3201/eid2006.140003",
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Hunter Island Group"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Tasmania"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "Australia"
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Antigen",
+        "Diagnostic reagent",
+        "Virus",
+        "CSIRO",
+        "10.3201/eid2006.140003",
+        "24856477",
+        "Animal virus",
+        "Australia",
+        "Bunyaviridae",
+        "Category B",
+        "UN3373",
+        "Hunter Island Group",
+        "Hunter Island Group virus",
+        "Ixodes eudyptidis ticks collected from a shy albatross (Thalassarche cauta) colony on Albatross Island",
+        "KF848980",
+        "KF848981",
+        "KF848982",
+        "phlebovirus",
+        "Reference Strain",
+        "RG2",
+        "Tasmania",
+        "Vero",
+        "Dry ice",
+        "Hunter Island bandavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "diagnostic reagent",
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2002-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "KF848980, KF848981, KF848982"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Hunter Island Group virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Hunter Island bandavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "CS1568",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "023V-03459",
+      "search:title": "Hunter Island Group virus",
+      "search:description": "Hunter Island Group virus CS1568",
+      "search:taxonLabel": "Hunter Island bandavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "Ixodes eudyptidis ticks collected from a shy albatross (Thalassarche cauta) colony on Albatross Island",
+      "search:collectionName": "CSIRO",
+      "search:countryOfCollection": "Australia",
+      "search:accessionNumber": "KF848980, KF848981, KF848982",
+      "search:providerName": "CSIRO",
+      "search:pathogenName": "Hunter Island Group virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "INMI"
       },
       "EVORAO:refSku": "008V-06417",
@@ -3862,182 +4399,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CSIRO"
       },
-      "EVORAO:refSku": "023V-03459",
-      "@id": "urn:evorao:EVA:CSIRO:023V-03459",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/hunter-island-group-virus",
-      "dcterms:issued": "2019-03-14T02:01:22+01:00",
-      "dcterms:modified": "2026-07-17T08:56:40+02:00",
-      "dcterms:title": "Hunter Island Group virus",
-      "dcterms:description": "Hunter Island Group virus CS1568",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2002-01-01",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Australia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "CPE followed by next generation sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "EVORAO:passage": "3x passages in Vero cells",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:specialFeature": "Reference Strain",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "2.3E+08/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:accessionNumber": "KF848980, KF848981, KF848982",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Ixodes eudyptidis ticks collected from a shy albatross (Thalassarche cauta) colony on Albatross Island"
-      },
-      "EVORAO:isolationTechnique": "Cell culture",
-      "EVORAO:doi": "10.3201/eid2006.140003",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Hunter Island Group"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Tasmania"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Australia"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Diagnostic reagent",
-        "Virus",
-        "CSIRO",
-        "10.3201/eid2006.140003",
-        "24856477",
-        "Animal virus",
-        "Australia",
-        "Bunyaviridae",
-        "Category B",
-        "UN3373",
-        "Hunter Island Group",
-        "Hunter Island Group virus",
-        "Ixodes eudyptidis ticks collected from a shy albatross (Thalassarche cauta) colony on Albatross Island",
-        "KF848980",
-        "KF848981",
-        "KF848982",
-        "phlebovirus",
-        "Reference Strain",
-        "RG2",
-        "Tasmania",
-        "Vero",
-        "Dry ice",
-        "Hunter Island bandavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2002-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "KF848980, KF848981, KF848982"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Hunter Island Group virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Hunter Island bandavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "CS1568",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "023V-03459",
-      "search:title": "Hunter Island Group virus",
-      "search:description": "Hunter Island Group virus CS1568",
-      "search:taxonLabel": "Hunter Island bandavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Ixodes eudyptidis ticks collected from a shy albatross (Thalassarche cauta) colony on Albatross Island",
-      "search:collectionName": "CSIRO",
-      "search:countryOfCollection": "Australia",
-      "search:accessionNumber": "KF848980, KF848981, KF848982",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Hunter Island Group virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
       "EVORAO:refSku": "023V-03465",
       "@id": "urn:evorao:EVA:CSIRO:023V-03465",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bluetongue-virus-serotype-2",
@@ -5349,195 +5710,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "CSIRO"
       },
-      "EVORAO:refSku": "023V-03476",
-      "@id": "urn:evorao:EVA:CSIRO:023V-03476",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bluetongue-virus-serotype-20",
-      "dcterms:issued": "2019-04-10T02:08:12+02:00",
-      "dcterms:modified": "2026-07-17T08:52:55+02:00",
-      "dcterms:title": "Bluetongue virus serotype 20",
-      "dcterms:description": "Bluetongue virus serotype 20 CSIRO19",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Upon request",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1975-06-27",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Australia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "Serology and whole genome sequencing (next generation sequencing)",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Isolated from a pool of 245 Culicoides mixed species collected from Coastal Plains Research Station, Beatrice Hill, Northern Territory on 27th June 1975.",
-      "EVORAO:passage": "1xMouse, >17x BHK21",
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Complete genome",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:specialFeature": "Reference Strain",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "1E+6.0/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:accessionNumber": "JQ086251, JQ086252, JQ086253, JQ086254, JQ086255, JQ086256, JQ086257, JQ086258, JQ086259, JQ086260",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Culicoides mixed species"
-      },
-      "EVORAO:isolationTechnique": "Intracerebral inoculation of suckling mice with ground pools of Culicoides spp.",
-      "EVORAO:doi": "10.1128/JVI.00182-12",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Beatrice Hill"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Northern Territory"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Australia"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Diagnostic reagent",
-        "Virus",
-        "CSIRO",
-        "10.1128/JVI.00182-12",
-        "210754",
-        "22514341",
-        "Animal virus",
-        "Australia",
-        "Beatrice Hill",
-        "BHK-21",
-        "Bluetongue virus serotype 20",
-        "BTV",
-        "Category B",
-        "UN3373",
-        "Culicoides",
-        "Culicoides mixed species",
-        "JQ086251",
-        "JQ086252",
-        "JQ086253",
-        "JQ086254",
-        "JQ086255",
-        "JQ086256",
-        "JQ086257",
-        "JQ086258",
-        "JQ086259",
-        "JQ086260",
-        "Northern Territory",
-        "orbivirus",
-        "Reference Strain",
-        "Reoviridae",
-        "RG2",
-        "Dry ice",
-        "Bluetongue virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1975-06-27",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "JQ086251, JQ086252, JQ086253, JQ086254, JQ086255, JQ086256, JQ086257, JQ086258, JQ086259, JQ086260"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Bluetongue virus serotype 20"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Bluetongue virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "CSIRO19",
-        "EVORAO:genotype": "Java B",
-        "EVORAO:serotype": "Serotype 20",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "023V-03476",
-      "search:title": "Bluetongue virus serotype 20",
-      "search:description": "Bluetongue virus serotype 20 CSIRO19",
-      "search:taxonLabel": "Bluetongue virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Culicoides mixed species",
-      "search:collectionName": "CSIRO",
-      "search:countryOfCollection": "Australia",
-      "search:accessionNumber": "JQ086251, JQ086252, JQ086253, JQ086254, JQ086255, JQ086256, JQ086257, JQ086258, JQ086259, JQ086260",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Bluetongue virus serotype 20"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
       "EVORAO:refSku": "023V-03477",
       "@id": "urn:evorao:EVA:CSIRO:023V-03477",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/bluetongue-virus-serotype-21",
@@ -6448,178 +6620,6 @@
       "search:accessionNumber": "AF234533.1",
       "search:providerName": "CSIRO",
       "search:pathogenName": "Bovine ephemeral fever Virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "CSIRO"
-      },
-      "EVORAO:refSku": "023V-03646",
-      "@id": "urn:evorao:EVA:CSIRO:023V-03646",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/wallal-virus",
-      "dcterms:issued": "2019-06-21T06:45:58+02:00",
-      "dcterms:modified": "2026-07-17T08:48:46+02:00",
-      "dcterms:title": "Wallal virus",
-      "dcterms:description": "Wallal virus CH12048",
-      "EVORAO:unitDefinition": "1 vial",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "antigen"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 550,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "Available within 4 weeks",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1970-02-22",
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Australia"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category B, UN3373",
-      "EVORAO:identificationTechnique": "Partial gene sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "TCID50",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Isolated from Culicoides dycei collected from Charleville, Queensland on the 22nd February, 1970.",
-      "EVORAO:passage": "8x SMB, 2x BHK, 1x VERO",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG2"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "Vero"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "2.0E+4.0/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "CSIRO"
-      },
-      "EVORAO:accessionNumber": "AF530084",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Culicoides dycei"
-      },
-      "EVORAO:isolationTechnique": "Intracerebral inoculation of suckling mice with ground pools of Culicoides dycei.",
-      "EVORAO:doi": "10.1016/0035-9203(73)90084-9",
-      "EVORAO:suspectedEpidemiologicalOrigin": [
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Charleville"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Queensland"
-        },
-        {
-          "@type": "EVORAO:GeographicalOrigin",
-          "dcterms:title": "Australia"
-        }
-      ],
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Antigen",
-        "Diagnostic reagent",
-        "Virus",
-        "CSIRO",
-        "10.1016/0035-9203(73)90084-9",
-        "4150461",
-        "AF530084",
-        "Animal virus",
-        "Australia",
-        "Category B",
-        "UN3373",
-        "Charleville",
-        "Culicoides dycei",
-        "Orbiviruses",
-        "Queensland",
-        "RG2",
-        "Vero",
-        "Wallal virus",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "antigen",
-        "diagnostic reagent",
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1970-02-22",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "AF530084"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Wallal virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Wallal virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "CH12048",
-        "EVORAO:serotype": "Wallal serogroup",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "023V-03646",
-      "search:title": "Wallal virus",
-      "search:description": "Wallal virus CH12048",
-      "search:taxonLabel": "Wallal virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG2",
-      "search:isolationHostLabel": "Culicoides dycei",
-      "search:collectionName": "CSIRO",
-      "search:countryOfCollection": "Australia",
-      "search:accessionNumber": "AF530084",
-      "search:providerName": "CSIRO",
-      "search:pathogenName": "Wallal virus"
     },
     {
       "@type": "EVORAO:Antibody",
