@@ -22,148 +22,6 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DEFRA"
       },
-      "EVORAO:refSku": "003v-EVA33",
-      "@id": "urn:evorao:EVA:DEFRA:003v-EVA33",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv410",
-      "dcterms:issued": "2015-09-25T12:37:43+02:00",
-      "dcterms:modified": "2021-06-22T14:33:16+02:00",
-      "dcterms:title": "Live Rabies Virus, RV410",
-      "dcterms:description": "Rabies Virus. This Rabies virus[RABV-RV410] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "EVORAO:unitDefinition": "1 vial of 1ml",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 2000,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "1990-01-01",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "South Africa"
-          }
-        },
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:iataClassification": "Category A, UN2814",
-      "EVORAO:identificationTechnique": "PCR and Sanger sequencing",
-      "EVORAO:infectivity": "Infectivity tested and quantified",
-      "EVORAO:infectivityTest": "Cell culture (BHK)",
-      "EVORAO:mycoplasmicContent": "Mycoplasma free",
-      "skos:note": "Tissue Culture Supernanant originally received. 2 passages in BHK cells. Isolation host from South Africa.",
-      "EVORAO:passage": "P3 at APHA",
-      "EVORAO:qualityGrading": "Silver",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG3"
-      },
-      "EVORAO:productionCellLine": {
-        "@type": "EVORAO:ProductionCellLine",
-        "dcterms:title": "BHK-21"
-      },
-      "EVORAO:genomeSequencing": "Partial sequence",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:storageConditions": "Viral Storage Medium -80C",
-      "EVORAO:titer": "8.31 TCID50/ml",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DEFRA"
-      },
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Yellow Mongoose"
-      },
-      "EVORAO:suspectedEpidemiologicalOrigin": {
-        "@type": "EVORAO:GeographicalOrigin",
-        "dcterms:title": "Area:Colesburg. Ref:332/90"
-      },
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DEFRA",
-        "Animal virus",
-        "Area:Colesburg. Ref:332/90",
-        "BHK-21",
-        "Category A",
-        "UN2814",
-        "Rabies",
-        "Rabies virus",
-        "RABV",
-        "RG3",
-        "RV410",
-        "South Africa",
-        "virus",
-        "Yellow Mongoose",
-        "Dry ice",
-        "Rabies lyssavirus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "1990-01-01",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceFasta": ">Partial Sequence AAGTTCCCCATTTACACGATACCAGATAAACTTGGTCCCTGGAGCCCGATTGATATACATCATCTCAGTTGTCCAAACAA TTTAGTCGTGGAGGATGAAGGATGCACCAACCTATCAGGATTCTCTTACATGGAACTTAAAGTGGGATACATCTCAGCCA TAAAAGTAAATGGGTTTACGTGTACAGGTGTGGTGACAGAGGCAGAAACTTACACTAACTTTGTCGGCTATGTCACCACC ACATTCAGAAGAAAGCATTTTCGCCCGACACCGGATGCTTGTAGAGCTGCATACCACTGGAAGATGGCTGGTGACCCCAG ATATGAAGAATCTCTGCACAATCCGTACCCTGACTACCACTGGCTTCGAACCGTAAAAACCACCAAGGAATCCCTCGTCA TCATATCCCCTAGTGTGGCAGATTTGGACCCATATGACAAATCCCTTCACTCGAGGGTCTTCCCTAACGGGAAGTGCTCA GGGCTAACTGTATCCTCCACCTACTGCTCGACTAACCATGATTACACCATCTGGATGCCTGAGAATCCGAGACTGGGGAC ATCTTGTGACATCTTTACCAATAGCAGAGGGAAGAGAGCATCCAGAGGAAATAAAACTTGCGGATTCGTGGATGAAAGAG GCTTGTATAAGTCTCTAAAAGGAGCATGCAAACTCAAGTTATGTGGGGTTCTTGGACTTAGACTTATTGACGGAACATGG GTCGCAATGCAAACGTCGGACGAAACCAAATGGTGCCCCCCTGATCAGTTGGTAAATCTACATGACTTCCGCTCAGACGA GATCGAACATCTCGTTGTGGAGGAGTTGGTCAAGAAAAGAGAGGAGTGTCTGGATGCATTAGAGTCCATCATGACCACCA AGTCAGTGAGTTTCAGACGTCTCAGTCACTTGAGAAAACTTGTCCCTGGGTTCGGAAAAGCATATACCATCTTCAACAAA ACCTTGATGGAAGCCGATGCTCACTATAAGTCGATCCGGACCTGGGATGAGATCGTCCCCTCAAAAGGGTGTTTGAGGGT TGGAGGGAGGTGTCATCCGCATGTAAATGGGGTGTTTTTCAATGGCATAATACTAGGGTCTGATGGCCATGTTTTAATCC CAGAGATGCAATCATCCCTCCTCCAGCAACATATAGAGTTGCTGGAATCCTCAGTTGTTCCCTTGATGCACCCTTTAGCA GACCCGTCTACAGTCTTCAAGGACGGAAATGAAGCTGAAGATTTTGTTGAGGTTCACCTCCCCGATGTACACAAGCAGGT ATCAGAGGTTGACCTGGGTCTTCCAAACTGGGGAAAG\""
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabies virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabies lyssavirus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:isolate": "RV410",
-        "EVORAO:strain": "RABV",
-        "EVORAO:hostType": "Animal"
-      },
-      "search:sku": "003v-EVA33",
-      "search:title": "Live Rabies Virus, RV410",
-      "search:description": "Rabies Virus. This Rabies virus[RABV-RV410] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
-      "search:taxonLabel": "Rabies lyssavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG3",
-      "search:isolationHostLabel": "Yellow Mongoose",
-      "search:collectionName": "DEFRA",
-      "search:countryOfCollection": "South Africa",
-      "search:providerName": "DEFRA",
-      "search:pathogenName": "Rabies virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DEFRA"
-      },
       "EVORAO:refSku": "003v-EVA37",
       "@id": "urn:evorao:EVA:DEFRA:003v-EVA37",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv334",
@@ -131418,6 +131276,106 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "Rabbit haemorrhagic disease virus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "015A-02585",
+      "@id": "urn:evorao:EVA:FLI:015A-02585",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-3e4b1-anti-crimean-congo-hemorrhagic-fever-virus-anti-cchfv",
+      "dcterms:issued": "2017-10-10T10:37:14+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "murine mAb: 3E4B1 anti-Crimean-Congo hemorrhagic fever virus (anti-CCHFV)",
+      "dcterms:description": "Hybridoma cell culture supernatant containing anti-CCHFV antibodies; targeted antigen: nucleocapsid protein; clone: 3E4B1; immunization antigen: recombinant NC protein, strain \"IbAr 10200\"",
+      "EVORAO:unitDefinition": "1 vial (1ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 300,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA, IFA",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodyPurifiedByAffinity": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Mouse (Balb/c)",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Virus:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "FLI",
+        "Room Temperature",
+        "CCHFV",
+        "Crimean-Congo hemorrhagic fever virus",
+        "monoclonal antibody",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Crimean-Congo hemorrhagic fever orthonairovirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Crimean-Congo hemorrhagic fever virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Crimean-Congo hemorrhagic fever orthonairovirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "015A-02585",
+      "search:title": "murine mAb: 3E4B1 anti-Crimean-Congo hemorrhagic fever virus (anti-CCHFV)",
+      "search:description": "Hybridoma cell culture supernatant containing anti-CCHFV antibodies; targeted antigen: nucleocapsid protein; clone: 3E4B1; immunization antigen: recombinant NC protein, strain \"IbAr 10200\"",
+      "search:taxonLabel": "Crimean-Congo hemorrhagic fever orthonairovirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "FLI",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Crimean-Congo hemorrhagic fever virus"
     }
   ]
 }
