@@ -20,6 +20,173 @@
       "@type": "EVORAO:Virus",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "CSIRO"
+      },
+      "EVORAO:refSku": "024V-06418",
+      "@id": "urn:evorao:EVA:CSIRO:024V-06418",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/african-swine-fever-virus-animal-2020-papua-new-guinea-ex-jiwaka-province-genotype-ii",
+      "dcterms:issued": "2026-09-29T06:25:31+02:00",
+      "dcterms:modified": "2026-10-08T22:08:44+02:00",
+      "dcterms:title": "African Swine Fever Virus, Animal, 2020, Papua New Guinea ex Jiwaka Province, Genotype II",
+      "dcterms:description": "Inactivated (gamma-irradiated) ASFV/PNG/2020/21-00088-0002-01",
+      "EVORAO:unitDefinition": "Freeze-dried Vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "antigen"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "inactivated virus"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "inactivated virus"
+        }
+      ],
+      "EVORAO:unitCost": 250,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2020-12-02",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Papua New Guinea"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:biosafetyRestrictions": "Inactivated, No RG",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Porcine blood monocytes (PBM)"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:specialFeature": "Reference Strain",
+      "EVORAO:storageConditions": "Freeze Dried",
+      "EVORAO:titer": "qPCR Ct 26",
+      "EVORAO:cultivability": "Inactivated virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "CSIRO"
+      },
+      "EVORAO:accessionNumber": "PV592807",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Pig"
+      },
+      "EVORAO:isolationTechnique": "PBM - 2 passes",
+      "EVORAO:doi": "10.1155/tbed/9990044",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Jiwaka Province"
+      },
+      "dcat:keyword": [
+        "Inactivated virus",
+        "Antigen",
+        "Diagnostic reagent",
+        "Virus",
+        "CSIRO",
+        "Room Temperature",
+        "10.1155/tbed/9990044",
+        "40585857",
+        "African swine fever Virus",
+        "African Swine Fever Virus",
+        "Animal virus",
+        "ASFV",
+        "Inactivated ASF",
+        "Jiwaka Province",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Papua New Guinea",
+        "Pig",
+        "Porcine blood monocytes (PBM)",
+        "PV592807",
+        "Reference Strain",
+        "African swine fever virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "antigen",
+        "diagnostic reagent",
+        "inactivated virus",
+        "inactivated virus"
+      ],
+      "search:collectionDate": "2020-12-02",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PV592807"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "African Swine Fever Virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "African swine fever virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "PNG/2020/21-00088-0002-01",
+        "EVORAO:genotype": "Genotype II",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "024V-06418",
+      "search:title": "African Swine Fever Virus, Animal, 2020, Papua New Guinea ex Jiwaka Province, Genotype II",
+      "search:description": "Inactivated (gamma-irradiated) ASFV/PNG/2020/21-00088-0002-01",
+      "search:taxonLabel": "African swine fever virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:isolationHostLabel": "Pig",
+      "search:collectionName": "CSIRO",
+      "search:countryOfCollection": "Papua New Guinea",
+      "search:accessionNumber": "PV592807",
+      "search:providerName": "CSIRO",
+      "search:pathogenName": "African Swine Fever Virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "ERASMUS-MC"
       },
       "EVORAO:refSku": "011V-01973",
@@ -138467,151 +138634,6 @@
       "search:providerName": "DSMZ",
       "search:originatorName": "F. Rabenstein",
       "search:pathogenName": "Spartina mottle virus"
-    },
-    {
-      "@type": "EVORAO:Virus",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "DSMZ"
-      },
-      "EVORAO:refSku": "027V-04848",
-      "@id": "urn:evorao:EVA:DSMZ:027V-04848",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/tomato-yellow-leaf-curl-thailand-virus-tylcthv-isolate-dsmz-pv-0952",
-      "dcterms:issued": "2022-12-15T17:02:11+01:00",
-      "dcterms:modified": "2026-03-04T15:08:14+01:00",
-      "dcterms:title": "Tomato yellow leaf curl Thailand virus (TYLCTHV) isolate DSMZ PV-0952",
-      "dcterms:description": "Infectious Tomato yellow leaf curl Thailand virus (TYLCTHV) isolate",
-      "EVORAO:unitDefinition": "One glass vial containing infectious freeze dried leaf tissue, sealed under vacuum.",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "virus"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "cultivable virus"
-        }
-      ],
-      "EVORAO:unitCost": 220,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:biologicalMaterialOrigin": {
-        "@type": "EVORAO:BiologicalMaterialOrigin",
-        "dcterms:description": "Natural origin",
-        "EVORAO:biologicalPartOrigin": {
-          "@type": "EVORAO:NaturalPartOrigin",
-          "EVORAO:collectionDate": "2009-09-30",
-          "EVORAO:collectedBeforeDate": true,
-          "EVORAO:countryOfCollection": {
-            "@type": "EVORAO:Country",
-            "dcterms:title": "Thailand"
-          }
-        },
-        "EVORAO:recombinantMaterial": false,
-        "EVORAO:biologicalSourceType": true
-      },
-      "EVORAO:canBeUsedToProduceGmo": false,
-      "EVORAO:contaminationWithCoInfectingViruses": "No contamination detected",
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:identificationTechnique": "Illumina sequencing",
-      "EVORAO:infectivity": "Infectivity tested",
-      "EVORAO:infectivityTest": "mechanical inoculation",
-      "EVORAO:letterOfAuthority": "Required for customers in the EU",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "E. Maiss"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "RG1"
-      },
-      "EVORAO:propagationHost": {
-        "@type": "EVORAO:PropagationHost",
-        "dcterms:title": "Nicotiana benthamiana"
-      },
-      "EVORAO:genomeSequencing": "Complete coding sequence",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:storageConditions": "Freeze Dried",
-      "EVORAO:transmissionMethod": "Mechanical inoculation",
-      "EVORAO:cultivability": "Cultivable virus",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "DSMZ"
-      },
-      "EVORAO:accessionNumber": "OM857619, OM857620",
-      "EVORAO:isolationHost": {
-        "@type": "EVORAO:IsolationHost",
-        "dcterms:title": "Solanum lycopersicum"
-      },
-      "EVORAO:isolationTechnique": "mechanical inoculation",
-      "dcat:keyword": [
-        "Cultivable virus",
-        "Virus",
-        "DSMZ",
-        "Room Temperature",
-        "E. Maiss",
-        "Mechanical inoculation",
-        "Nicotiana benthamiana",
-        "NON DANGEROUS GOODS",
-        "OM857619",
-        "OM857620",
-        "Plant virus",
-        "RG1",
-        "Solanum lycopersicum",
-        "Thailand",
-        "Tomato yellow leaf curl Thailand virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "virus",
-      "search:additionalCategory": [
-        "cultivable virus"
-      ],
-      "search:collectionDate": "2009-09-30",
-      "EVORAO:sequence": {
-        "@type": "EVORAO:Sequence",
-        "EVORAO:sequenceReference": {
-          "@type": "EVORAO:SequenceReference",
-          "EVORAO:sequenceProvider": "GenBank",
-          "EVORAO:accessionNumber": "OM857619, OM857620"
-        }
-      },
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Tomato yellow leaf curl Thailand virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Tomato yellow leaf curl Thailand virus"
-        },
-        "EVORAO:pathogenType": "Virus",
-        "EVORAO:hostType": "Plant"
-      },
-      "search:sku": "027V-04848",
-      "search:title": "Tomato yellow leaf curl Thailand virus (TYLCTHV) isolate DSMZ PV-0952",
-      "search:description": "Infectious Tomato yellow leaf curl Thailand virus (TYLCTHV) isolate",
-      "search:taxonLabel": "Tomato yellow leaf curl Thailand virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "RG1",
-      "search:isolationHostLabel": "Solanum lycopersicum",
-      "search:collectionName": "DSMZ",
-      "search:countryOfCollection": "Thailand",
-      "search:accessionNumber": "OM857619, OM857620",
-      "search:providerName": "DSMZ",
-      "search:originatorName": "E. Maiss",
-      "search:pathogenName": "Tomato yellow leaf curl Thailand virus"
     }
   ]
 }
