@@ -43,6 +43,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -174,6 +175,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -330,6 +335,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -461,6 +467,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -617,6 +627,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -748,6 +759,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -904,6 +919,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -1035,6 +1051,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -1191,6 +1211,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -1322,6 +1343,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -1478,6 +1503,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -1609,6 +1635,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -1765,6 +1795,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -1896,6 +1927,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -2052,6 +2087,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -2183,6 +2219,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -2339,6 +2379,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -2470,6 +2511,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -2626,6 +2671,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -2757,6 +2803,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -2913,6 +2963,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -3044,6 +3095,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -3200,6 +3255,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -3331,6 +3387,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -3487,6 +3547,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -3618,6 +3679,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -3774,6 +3839,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -3905,6 +3971,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -4061,6 +4131,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -4192,6 +4263,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -4348,6 +4423,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -4479,6 +4555,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -4635,6 +4715,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -4766,6 +4847,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -4917,6 +5002,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -5048,6 +5134,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -5199,6 +5289,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -5330,6 +5421,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -5481,6 +5576,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -5612,6 +5708,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -5763,6 +5863,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -5894,6 +5995,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -6045,6 +6150,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -6176,6 +6282,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -6327,6 +6437,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -6458,6 +6569,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -6609,6 +6724,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -6740,6 +6856,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -6891,6 +7011,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -7022,6 +7143,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -7173,6 +7298,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -7304,6 +7430,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -7455,6 +7585,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -7586,6 +7717,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -7737,6 +7872,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -7868,6 +8004,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -8019,6 +8159,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -8150,6 +8291,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -8301,6 +8446,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -8432,6 +8578,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -8583,6 +8733,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -8714,6 +8865,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -8865,6 +9020,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -8996,6 +9152,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -9147,6 +9307,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -9278,6 +9439,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -9419,6 +9584,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -9550,6 +9716,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -9691,6 +9861,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -9822,6 +9993,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -9963,6 +10138,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -10094,6 +10270,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -10235,6 +10415,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -10366,6 +10547,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -10507,6 +10692,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -10638,6 +10824,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -10779,6 +10969,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -10910,6 +11101,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -11051,6 +11246,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -11182,6 +11378,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -11323,6 +11523,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -11454,6 +11655,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -11595,6 +11800,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -11726,6 +11932,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -11867,6 +12077,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -11998,6 +12209,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -12139,6 +12354,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -12270,6 +12486,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -12411,6 +12631,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -12542,6 +12763,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -12683,6 +12908,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -12814,6 +13040,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -12955,6 +13185,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -13086,6 +13317,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -13227,6 +13462,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -13358,6 +13594,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -13499,6 +13739,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -13630,6 +13871,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -13737,6 +13982,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -13868,6 +14114,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -13975,6 +14225,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -14106,6 +14357,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -14213,6 +14468,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -14344,6 +14600,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -14451,6 +14711,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -14582,6 +14843,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -14689,6 +14954,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -14820,6 +15086,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -14927,6 +15197,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -15058,6 +15329,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -15165,6 +15440,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -15296,6 +15572,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -15403,6 +15683,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -15534,6 +15815,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -15641,6 +15926,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -15772,6 +16058,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -15879,6 +16169,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -16010,6 +16301,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -16117,6 +16412,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -16248,6 +16544,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -16355,6 +16655,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -16486,6 +16787,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -16593,6 +16898,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -16724,6 +17030,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -16831,6 +17141,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -16962,6 +17273,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -17069,6 +17384,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -17200,6 +17516,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -17307,6 +17627,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -17438,6 +17759,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -17584,6 +17909,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -17715,6 +18041,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -17861,6 +18191,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -17992,6 +18323,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -18138,6 +18473,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -18269,6 +18605,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -18415,6 +18755,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -18546,6 +18887,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -18692,6 +19037,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -18823,6 +19169,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -18969,6 +19319,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -19100,6 +19451,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -19246,6 +19601,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -19377,6 +19733,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -19523,6 +19883,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -19654,6 +20015,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -19800,6 +20165,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -19931,6 +20297,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -20077,6 +20447,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -20208,6 +20579,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -20354,6 +20729,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -20485,6 +20861,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -20631,6 +21011,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -20762,6 +21143,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -20908,6 +21293,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -21039,6 +21425,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -21185,6 +21575,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -21316,6 +21707,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -21462,6 +21857,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -21593,6 +21989,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -21739,6 +22139,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -21870,6 +22271,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -22016,6 +22421,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -22147,6 +22553,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -22293,6 +22703,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -22424,6 +22835,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -22570,6 +22985,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -22701,6 +23117,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -22847,6 +23267,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -22978,6 +23399,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -23124,6 +23549,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -23255,6 +23681,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -23401,6 +23831,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -23532,6 +23963,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -23678,6 +24113,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -23809,6 +24245,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -23955,6 +24395,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -24086,6 +24527,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -24232,6 +24677,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -24363,6 +24809,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -24509,6 +24959,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -24640,6 +25091,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -24786,6 +25241,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -24917,6 +25373,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -25063,6 +25523,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -25194,6 +25655,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -25340,6 +25805,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -25471,6 +25937,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -25617,6 +26087,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -25748,6 +26219,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -25894,6 +26369,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -26025,6 +26501,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -26171,6 +26651,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -26302,6 +26783,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -44118,11 +44603,36 @@
         "Antiviral therapy",
         "Immortalised cells",
         "African Green Monkey",
-        "Marburgvirus Marburgense"
+        "Marburgvirus Marburgense",
+        "Orthomarburgvirus marburgense",
+        "Lake Victoria marburgvirus",
+        "Marburg marburgvirus",
+        "Orthomarburgvirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "search:keywords": [],
       "search:taxon": [
-        "Marburgvirus Marburgense"
+        "Marburgvirus Marburgense",
+        "Orthomarburgvirus marburgense",
+        "Lake Victoria marburgvirus",
+        "Marburg marburgvirus",
+        "Marburg virus",
+        "Orthomarburgvirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
@@ -44191,7 +44701,7 @@
         }
       ],
       "search:pathogenName": "Marburg virus",
-      "search:taxonLabel": "Marburgvirus Marburgense",
+      "search:taxonLabel": "Orthomarburgvirus marburgense",
       "EVORAO:pathogenIdentification": {
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
@@ -44201,7 +44711,65 @@
         "EVORAO:strain": "Musoke",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Marburgvirus Marburgense"
+          "dcterms:title": "Orthomarburgvirus marburgense",
+          "EVORAO:taxonomicId": "ICTV19870485",
+          "EVORAO:taxonomy": {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            "dcat:version": "MSL41",
+            "EVORAO:versionDataProvider": {
+              "@type": "EVORAO:DataProvider",
+              "dcterms:title": "ICTV via OLS4",
+              "EVORAO:weight": 1
+            }
+          },
+          "EVORAO:rank": {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": "species",
+            "EVORAO:taxonomy": {
+              "@type": "EVORAO:Taxonomy",
+              "dcterms:title": "ICTV",
+              "dcat:version": "MSL41",
+              "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                "EVORAO:weight": 1
+              }
+            }
+          },
+          "EVORAO:parentTaxon": {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": "Orthomarburgvirus"
+          },
+          "EVORAO:alternateName": [
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Lake Victoria marburgvirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburg marburgvirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburg virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburgvirus Marburgense"
+            }
+          ],
+          "EVORAO:lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Haploviricotina",
+            "Monjiviricetes",
+            "Mononegavirales",
+            "Filoviridae",
+            "Orthomarburgvirus"
+          ]
         }
       },
       "search:additionalCategory": [
@@ -44312,11 +44880,36 @@
         "Antiviral therapy",
         "Immortalised cells",
         "African Green Monkey",
-        "Marburgvirus Marburgense"
+        "Marburgvirus Marburgense",
+        "Orthomarburgvirus marburgense",
+        "Lake Victoria marburgvirus",
+        "Marburg marburgvirus",
+        "Orthomarburgvirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "search:keywords": [],
       "search:taxon": [
-        "Marburgvirus Marburgense"
+        "Marburgvirus Marburgense",
+        "Orthomarburgvirus marburgense",
+        "Lake Victoria marburgvirus",
+        "Marburg marburgvirus",
+        "Marburg virus",
+        "Orthomarburgvirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
@@ -44385,7 +44978,7 @@
         }
       ],
       "search:pathogenName": "Marburg virus",
-      "search:taxonLabel": "Marburgvirus Marburgense",
+      "search:taxonLabel": "Orthomarburgvirus marburgense",
       "EVORAO:pathogenIdentification": {
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
@@ -44395,7 +44988,65 @@
         "EVORAO:strain": "Popp",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Marburgvirus Marburgense"
+          "dcterms:title": "Orthomarburgvirus marburgense",
+          "EVORAO:taxonomicId": "ICTV19870485",
+          "EVORAO:taxonomy": {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            "dcat:version": "MSL41",
+            "EVORAO:versionDataProvider": {
+              "@type": "EVORAO:DataProvider",
+              "dcterms:title": "ICTV via OLS4",
+              "EVORAO:weight": 1
+            }
+          },
+          "EVORAO:rank": {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": "species",
+            "EVORAO:taxonomy": {
+              "@type": "EVORAO:Taxonomy",
+              "dcterms:title": "ICTV",
+              "dcat:version": "MSL41",
+              "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                "EVORAO:weight": 1
+              }
+            }
+          },
+          "EVORAO:parentTaxon": {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": "Orthomarburgvirus"
+          },
+          "EVORAO:alternateName": [
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Lake Victoria marburgvirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburg marburgvirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburg virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburgvirus Marburgense"
+            }
+          ],
+          "EVORAO:lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Haploviricotina",
+            "Monjiviricetes",
+            "Mononegavirales",
+            "Filoviridae",
+            "Orthomarburgvirus"
+          ]
         }
       },
       "search:additionalCategory": [
@@ -44506,11 +45157,36 @@
         "Antiviral therapy",
         "Immortalised cells",
         "African Green Monkey",
-        "Marburgvirus Marburgense"
+        "Marburgvirus Marburgense",
+        "Orthomarburgvirus marburgense",
+        "Lake Victoria marburgvirus",
+        "Marburg marburgvirus",
+        "Orthomarburgvirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "search:keywords": [],
       "search:taxon": [
-        "Marburgvirus Marburgense"
+        "Marburgvirus Marburgense",
+        "Orthomarburgvirus marburgense",
+        "Lake Victoria marburgvirus",
+        "Marburg marburgvirus",
+        "Marburg virus",
+        "Orthomarburgvirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Haploviricotina",
+        "Monjiviricetes",
+        "Mononegavirales",
+        "Filoviridae"
       ],
       "EVORAO:category": {
         "@type": "EVORAO:ProductCategory",
@@ -44579,7 +45255,7 @@
         }
       ],
       "search:pathogenName": "Marburg virus",
-      "search:taxonLabel": "Marburgvirus Marburgense",
+      "search:taxonLabel": "Orthomarburgvirus marburgense",
       "EVORAO:pathogenIdentification": {
         "@type": "EVORAO:PathogenIdentification",
         "EVORAO:pathogenName": {
@@ -44589,7 +45265,65 @@
         "EVORAO:strain": "Leiden",
         "EVORAO:taxon": {
           "@type": "EVORAO:Taxon",
-          "dcterms:title": "Marburgvirus Marburgense"
+          "dcterms:title": "Orthomarburgvirus marburgense",
+          "EVORAO:taxonomicId": "ICTV19870485",
+          "EVORAO:taxonomy": {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            "dcat:version": "MSL41",
+            "EVORAO:versionDataProvider": {
+              "@type": "EVORAO:DataProvider",
+              "dcterms:title": "ICTV via OLS4",
+              "EVORAO:weight": 1
+            }
+          },
+          "EVORAO:rank": {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": "species",
+            "EVORAO:taxonomy": {
+              "@type": "EVORAO:Taxonomy",
+              "dcterms:title": "ICTV",
+              "dcat:version": "MSL41",
+              "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                "EVORAO:weight": 1
+              }
+            }
+          },
+          "EVORAO:parentTaxon": {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": "Orthomarburgvirus"
+          },
+          "EVORAO:alternateName": [
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Lake Victoria marburgvirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburg marburgvirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburg virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Marburgvirus Marburgense"
+            }
+          ],
+          "EVORAO:lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Haploviricotina",
+            "Monjiviricetes",
+            "Mononegavirales",
+            "Filoviridae",
+            "Orthomarburgvirus"
+          ]
         }
       },
       "search:additionalCategory": [
@@ -45754,6 +46488,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -45880,6 +46615,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -56126,6 +56865,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -56253,6 +56993,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -56369,6 +57113,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -56496,6 +57241,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -56602,6 +57351,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -56729,6 +57479,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -56830,6 +57584,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -56957,6 +57712,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -57073,6 +57832,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -57200,6 +57960,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -57306,6 +58070,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -57433,6 +58198,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -68399,6 +69168,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -68525,6 +69295,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -68635,6 +69409,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -68762,6 +69537,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -119541,6 +120320,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -119669,6 +120449,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -120096,6 +120880,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -120224,6 +121009,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -120651,6 +121440,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -120779,6 +121569,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -124629,6 +125423,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -124755,6 +125550,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -125140,6 +125939,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -125266,6 +126066,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -125651,6 +126455,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -125777,6 +126582,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -126162,6 +126971,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -126288,6 +127098,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -126698,6 +127512,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -126824,6 +127639,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -127239,6 +128058,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -127365,6 +128185,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -127780,6 +128604,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -127906,6 +128731,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -128321,6 +129150,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -128447,6 +129277,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -129126,6 +129960,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -129252,6 +130087,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -129931,6 +130770,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -130057,6 +130897,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -130796,6 +131640,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -130922,6 +131767,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -131661,6 +132510,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -131787,6 +132637,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -147355,6 +148209,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -147488,6 +148343,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -147613,6 +148472,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -147739,6 +148599,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
@@ -147844,6 +148708,7 @@
         "SARS-CoV",
         "Severe acute respiratory syndrome coronavirus",
         "Severe acute respiratory syndrome-related coronavirus",
+        "SARS-CoV-2",
         "Sarbecovirus",
         "Viruses",
         "Riboviria",
@@ -147970,6 +148835,10 @@
             {
               "@type": "EVORAO:AlternateName",
               "dcterms:title": "Severe acute respiratory syndrome-related coronavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SARS-CoV-2"
             }
           ],
           "EVORAO:lineage": [
