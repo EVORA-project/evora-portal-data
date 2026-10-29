@@ -22,6 +22,307 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DEFRA"
       },
+      "EVORAO:refSku": "003V-02539",
+      "@id": "urn:evorao:EVA:DEFRA:003V-02539",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-h5n8-hpai-virus-aduckengland362542014",
+      "dcterms:issued": "2017-09-15T15:10:28+02:00",
+      "dcterms:modified": "2021-06-22T15:08:45+02:00",
+      "dcterms:title": "Live H5N8 HPAI virus, A/duck/England/36254/2014",
+      "dcterms:description": "Live, frozen H5N8 high pathogenicity avian influenza virus,  A/duck/England/36254/2014. Infected allantoic fluid stored at -80oC. Virus stock will be titrated and tested for mycoplasma before dispatch.",
+      "EVORAO:unitDefinition": "0.5ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 4 weeks",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2014-11-14",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "United Kingdom of Great Britain and Northern Ireland (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2900",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "Virus culture",
+      "EVORAO:mycoplasmicContent": "Not tested",
+      "EVORAO:passage": 1,
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Embryonated chicken eggs"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:accessionNumber": "GISAID accession numbers EP1547670 - EP1547677",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Duck"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": [
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "East Riding of Yorkshire"
+        },
+        {
+          "@type": "EVORAO:GeographicalOrigin",
+          "dcterms:title": "England."
+        }
+      ],
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "2014",
+        "25898126",
+        "Animal virus",
+        "Avian",
+        "Category A",
+        "UN2900",
+        "Duck",
+        "duck",
+        "East Riding of Yorkshire",
+        "Embryonated chicken eggs",
+        "England.",
+        "GISAID accession numbers EP1547670 - EP1547677",
+        "H5N8",
+        "high",
+        "HPAI",
+        "HPAIV",
+        "Influenza",
+        "Orthomyxoviridae",
+        "pathogenicity",
+        "RG3",
+        "United Kingdom of Great Britain and Northern Ireland (the)",
+        "Dry ice",
+        "Influenza A virus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2014-11-14",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "GISAID accession numbers EP1547670 - EP1547677"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "H5N8"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Influenza A virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:strain": "A/duck/England/36254/2014",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003V-02539",
+      "search:title": "Live H5N8 HPAI virus, A/duck/England/36254/2014",
+      "search:description": "Live, frozen H5N8 high pathogenicity avian influenza virus,  A/duck/England/36254/2014. Infected allantoic fluid stored at -80oC. Virus stock will be titrated and tested for mycoplasma before dispatch.",
+      "search:taxonLabel": "Influenza A virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Duck",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "search:accessionNumber": "GISAID accession numbers EP1547670 - EP1547677",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "H5N8"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
+      "EVORAO:refSku": "003v-EVA351",
+      "@id": "urn:evorao:EVA:DEFRA:003v-EVA351",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-west-nile-virus-dakar-b310-arb32",
+      "dcterms:issued": "2015-09-25T12:38:15+02:00",
+      "dcterms:modified": "2021-06-22T15:00:31+02:00",
+      "dcterms:title": "Live West Nile Virus, DakAr B310, Arb32",
+      "dcterms:description": "West Nile virus[DakAr B310-DakAr B310], Arb32. This West Nile virus[DakAr B310] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "EVORAO:unitDefinition": "1 vial",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "Available within 2 months",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1967-01-01",
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Central African Republic (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR and Sanger sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "Vero cell plaque assay",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "skos:note": "WNV Lineage 1b DakAr B310 in passage 13 mouse brain.",
+      "EVORAO:passage": "P4 at APHA",
+      "EVORAO:qualityGrading": "Silver",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "Vero C1008"
+      },
+      "EVORAO:genomeSequencing": "Partial sequence",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "4.3x10^6 PFU/ml",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Mosquito"
+      },
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Central African"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Animal virus",
+        "Arb32",
+        "B310",
+        "Category A",
+        "UN2814",
+        "Central African",
+        "Central African Republic (the)",
+        "DakAr",
+        "Mosquito",
+        "Nile",
+        "RG3",
+        "Vero C1008",
+        "virus",
+        "West",
+        "West Nile virus",
+        "WNV",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1967-01-01",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceFasta": "Available upon request"
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "West Nile virus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "DakAr B310",
+        "EVORAO:strain": "DakAr B310",
+        "EVORAO:subspecies": "1b",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "003v-EVA351",
+      "search:title": "Live West Nile Virus, DakAr B310, Arb32",
+      "search:description": "West Nile virus[DakAr B310-DakAr B310], Arb32. This West Nile virus[DakAr B310] is preserved under Viral Storage Medium -80C. To confirm its identity the virus has been partly sequenced.",
+      "search:taxonLabel": "West Nile virus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Mosquito",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "Central African Republic (the)",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "West Nile virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
       "EVORAO:refSku": "003v-EVAg1576",
       "@id": "urn:evorao:EVA:DEFRA:003v-EVAg1576",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-lyssavirus-rv1964",
@@ -131292,195 +131593,6 @@
       "search:providerName": "AMU_b",
       "search:originatorName": "LI2D CEA Marcoule",
       "search:pathogenName": "Zaire ebolavirus"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-02587",
-      "@id": "urn:evorao:EVA:FLI:015A-02587",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-cyprinid-herpesvirus-3-anti-cyhv-3",
-      "dcterms:issued": "2017-10-10T11:25:19+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Cyprinid herpesvirus 3 (anti-CyHV-3)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-CyHV-3 antibodies; targeted antigen: surface; clone: 9F5; immunization antigen: inactivated strain \"KHV 41/43 (Israel)\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodyCharacterizationObservation": "suitable for electron-microscopy",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Mouse (Balb/c)",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "CyHV-3",
-        "Cyprinid herpesvirus 3",
-        "monoclonal antibody",
-        "No RG",
-        "NON DANGEROUS GOODS"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Cyprinid herpesvirus 3"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Cyprinid herpesvirus 3"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-02587",
-      "search:title": "murine mAb: anti-Cyprinid herpesvirus 3 (anti-CyHV-3)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-CyHV-3 antibodies; targeted antigen: surface; clone: 9F5; immunization antigen: inactivated strain \"KHV 41/43 (Israel)\"",
-      "search:taxonLabel": "Cyprinid herpesvirus 3",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Cyprinid herpesvirus 3"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "FLI"
-      },
-      "EVORAO:refSku": "015A-02586",
-      "@id": "urn:evorao:EVA:FLI:015A-02586",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/murine-mab-anti-rabbit-haemorrhagic-disease-virus-anti-rhdv-1",
-      "dcterms:issued": "2017-10-10T11:12:26+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "murine mAb: anti-Rabbit haemorrhagic disease virus (anti-RHDV-1)",
-      "dcterms:description": "Hybridoma cell culture supernatant containing anti-RHDV antibodies; targeted antigen: capsid; clone: 17F10; immunization antigen: strain \"Triptis\"",
-      "EVORAO:unitDefinition": "1 vial (1ml)",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 300,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "IFA",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "reactive with capsid protein of RHDV-1 (transfected cells); non-reactive with capsid protein of RHDV-2 of transfected cells; Histology: only on cryosections (only RHDV-1)",
-      "EVORAO:antibodyPurifiedByAffinity": false,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:qualityGrading": "Bronze",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Mouse (Balb/c)",
-      "EVORAO:shippingConditions": "Room Temperature",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Virus:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "FLI"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "Antibody or Hybridoma",
-        "Derived product",
-        "FLI",
-        "Room Temperature",
-        "monoclonal antibody",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Rabbit haemorrhagic disease virus",
-        "RHDV-1",
-        "Rabbit hemorrhagic disease virus"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Rabbit haemorrhagic disease virus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Rabbit hemorrhagic disease virus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "015A-02586",
-      "search:title": "murine mAb: anti-Rabbit haemorrhagic disease virus (anti-RHDV-1)",
-      "search:description": "Hybridoma cell culture supernatant containing anti-RHDV antibodies; targeted antigen: capsid; clone: 17F10; immunization antigen: strain \"Triptis\"",
-      "search:taxonLabel": "Rabbit hemorrhagic disease virus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "FLI",
-      "search:providerName": "FLI",
-      "search:pathogenName": "Rabbit haemorrhagic disease virus"
     }
   ]
 }

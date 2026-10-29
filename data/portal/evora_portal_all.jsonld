@@ -1854,6 +1854,12 @@
           "@id": "urn:evorao:ERINHA:Service:9-17-0-2-1-1-52"
         },
         {
+          "@id": "urn:evorao:EVA:FLI:022V-06421"
+        },
+        {
+          "@id": "urn:evorao:EVA:FLI:022V-06420"
+        },
+        {
           "@id": "urn:evorao:EVA:IP:014V-02106"
         },
         {
@@ -14172,7 +14178,7 @@
           "@id": "urn:evorao:EVA:UL:007S-01703"
         }
       ],
-      "dcterms:modified": "2026-10-28T02:43:18Z"
+      "dcterms:modified": "2026-10-29T03:01:25Z"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:2126",
@@ -165659,6 +165665,490 @@
           "@type": "EVORAO:ProductCategory",
           "dcterms:title": "Confocal microscopy"
         }
+      ]
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "022V-06421",
+      "@id": "urn:evorao:EVA:FLI:022V-06421",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/shamonda-virus-eu2-rvb-1370",
+      "dcterms:issued": "2026-10-28T07:15:31+01:00",
+      "dcterms:modified": "2026-10-28T07:15:31+01:00",
+      "dcterms:title": "Shamonda virus (EU2, RVB-1370)",
+      "dcterms:description": "Shamonda virus (Orthobunyavirus schmallenbergense); isolate \"EU2/09771\"; 4°C; isolated 2026 in Germany (cattle); 4rd cell culture passage; mycoplasma free; 6.81x10^5 per ml (TCID50)",
+      "EVORAO:unitDefinition": "1 vial (1 ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1230,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2026-09-15",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:biosafetyRestrictions": "Infection studies with succeptible animal species have to be performed under Animal Health BSL-3 conditions.",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, Sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID50 was calculated by the Spearman & Kaerber algorithm as described in Hierholzer & Killington (1996), Virology Methods Manual",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": 4,
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21 [CT] cells"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "6.81x10^5 per ml (TCID50)",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "EVORAO:accessionNumber": "PRJEB125115",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "cattle"
+      },
+      "EVORAO:isolationTechnique": "Isolation on BHK-21 [CT] cells",
+      "EVORAO:doi": "DOI:10.64898/2026.09.05.749452",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Europe"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "FLI",
+        "Room Temperature",
+        "Animal virus",
+        "BHK-21 [CT] cells",
+        "Category B",
+        "UN3373",
+        "cattle",
+        "DOI:10.64898/2026.09.05.749452",
+        "Europe",
+        "Germany",
+        "Orthobunyavirus schmallenbergense",
+        "PRJEB125115",
+        "RG2",
+        "Shamonda virus",
+        "Schmallenberg orthobunyavirus",
+        "SBV",
+        "Sathuperi orthobunyavirus",
+        "Sathuperi virus",
+        "Orthobunyavirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Elliovirales",
+        "Peribunyaviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2026-09-15",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PRJEB125115"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Shamonda virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Orthobunyavirus schmallenbergense",
+          "EVORAO:taxonomicId": "ICTV19990647",
+          "EVORAO:taxonomy": {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            "dcat:version": "MSL41",
+            "EVORAO:versionDataProvider": {
+              "@type": "EVORAO:DataProvider",
+              "dcterms:title": "ICTV via OLS4",
+              "EVORAO:weight": 1
+            }
+          },
+          "EVORAO:rank": {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": "species",
+            "EVORAO:taxonomy": {
+              "@type": "EVORAO:Taxonomy",
+              "dcterms:title": "ICTV",
+              "dcat:version": "MSL41",
+              "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                "EVORAO:weight": 1
+              }
+            }
+          },
+          "EVORAO:parentTaxon": {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": "Orthobunyavirus"
+          },
+          "EVORAO:alternateName": [
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SBV"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Sathuperi orthobunyavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Sathuperi virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Schmallenberg orthobunyavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Shamonda virus"
+            }
+          ],
+          "EVORAO:lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Polyploviricotina",
+            "Bunyaviricetes",
+            "Elliovirales",
+            "Peribunyaviridae",
+            "Orthobunyavirus"
+          ]
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "EU2/09771",
+        "EVORAO:genotype": "EU2",
+        "EVORAO:serotype": "Simbu serogroup",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "022V-06421",
+      "search:title": "Shamonda virus (EU2, RVB-1370)",
+      "search:description": "Shamonda virus (Orthobunyavirus schmallenbergense); isolate \"EU2/09771\"; 4°C; isolated 2026 in Germany (cattle); 4rd cell culture passage; mycoplasma free; 6.81x10^5 per ml (TCID50)",
+      "search:taxonLabel": "Orthobunyavirus schmallenbergense",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "cattle",
+      "search:collectionName": "FLI",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "PRJEB125115",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Shamonda virus",
+      "search:taxon": [
+        "Orthobunyavirus schmallenbergense",
+        "Schmallenberg orthobunyavirus",
+        "SBV",
+        "Sathuperi orthobunyavirus",
+        "Sathuperi virus",
+        "Shamonda virus",
+        "Orthobunyavirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Elliovirales",
+        "Peribunyaviridae"
+      ]
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "FLI"
+      },
+      "EVORAO:refSku": "022V-06420",
+      "@id": "urn:evorao:EVA:FLI:022V-06420",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/shamonda-virus-eu1-rvb-1366",
+      "dcterms:issued": "2026-10-28T07:12:13+01:00",
+      "dcterms:modified": "2026-10-28T07:12:13+01:00",
+      "dcterms:title": "Shamonda virus (EU1, RVB-1366)",
+      "dcterms:description": "Shamonda virus (Orthobunyavirus schmallenbergense); isolate \"DE2026/V636.2\"; 4°C; isolated 2026 in Germany (cattle); 4rd cell culture passage; mycoplasma free; 10^6.5 per ml (TCID50)",
+      "EVORAO:unitDefinition": "1 vial (1 ml)",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 1230,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "2026-08-06",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "Germany"
+          }
+        },
+        "EVORAO:recombinantMaterial": false,
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:biosafetyRestrictions": "Infection studies with succeptible animal species have to be performed under Animal Health BSL-3 conditions.",
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category B, UN3373",
+      "EVORAO:identificationTechnique": "PCR, Sequencing",
+      "EVORAO:infectivity": "Infectivity tested and quantified",
+      "EVORAO:infectivityTest": "TCID50 was calculated by the Spearman & Kaerber algorithm as described in Hierholzer & Killington (1996), Virology Methods Manual",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": 4,
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG2"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "BHK-21 [CT] cells"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Room Temperature",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:titer": "10^6.5 per ml (TCID50)",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "FLI"
+      },
+      "EVORAO:accessionNumber": "PRJEB123174",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "cattle"
+      },
+      "EVORAO:isolationTechnique": "Isolation on BHK-21 [CT] cells",
+      "EVORAO:doi": "doi: https://doi.org/10.64898/2026.08.06.743243",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "Europe"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "FLI",
+        "Room Temperature",
+        "Animal virus",
+        "BHK-21 [CT] cells",
+        "Category B",
+        "UN3373",
+        "cattle",
+        "doi: https://doi.org/10.64898/2026.08.06.743243",
+        "Europe",
+        "Germany",
+        "Orthobunyavirus schmallenbergense",
+        "PRJEB123174",
+        "RG2",
+        "Shamonda virus",
+        "Schmallenberg orthobunyavirus",
+        "SBV",
+        "Sathuperi orthobunyavirus",
+        "Sathuperi virus",
+        "Orthobunyavirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Elliovirales",
+        "Peribunyaviridae"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "2026-08-06",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "PRJEB123174"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Shamonda virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Orthobunyavirus schmallenbergense",
+          "EVORAO:taxonomicId": "ICTV19990647",
+          "EVORAO:taxonomy": {
+            "@type": "EVORAO:Taxonomy",
+            "dcterms:title": "ICTV",
+            "dcat:version": "MSL41",
+            "EVORAO:versionDataProvider": {
+              "@type": "EVORAO:DataProvider",
+              "dcterms:title": "ICTV via OLS4",
+              "EVORAO:weight": 1
+            }
+          },
+          "EVORAO:rank": {
+            "@type": "EVORAO:TaxonomicRank",
+            "dcterms:title": "species",
+            "EVORAO:taxonomy": {
+              "@type": "EVORAO:Taxonomy",
+              "dcterms:title": "ICTV",
+              "dcat:version": "MSL41",
+              "EVORAO:versionDataProvider": {
+                "@type": "EVORAO:DataProvider",
+                "dcterms:title": "ICTV via OLS4",
+                "EVORAO:weight": 1
+              }
+            }
+          },
+          "EVORAO:parentTaxon": {
+            "@type": "EVORAO:Taxon",
+            "dcterms:title": "Orthobunyavirus"
+          },
+          "EVORAO:alternateName": [
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "SBV"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Sathuperi orthobunyavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Sathuperi virus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Schmallenberg orthobunyavirus"
+            },
+            {
+              "@type": "EVORAO:AlternateName",
+              "dcterms:title": "Shamonda virus"
+            }
+          ],
+          "EVORAO:lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Polyploviricotina",
+            "Bunyaviricetes",
+            "Elliovirales",
+            "Peribunyaviridae",
+            "Orthobunyavirus"
+          ]
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "DE2026/V636.2",
+        "EVORAO:genotype": "EU1",
+        "EVORAO:serotype": "Simbu serogroup",
+        "EVORAO:hostType": "Animal"
+      },
+      "search:sku": "022V-06420",
+      "search:title": "Shamonda virus (EU1, RVB-1366)",
+      "search:description": "Shamonda virus (Orthobunyavirus schmallenbergense); isolate \"DE2026/V636.2\"; 4°C; isolated 2026 in Germany (cattle); 4rd cell culture passage; mycoplasma free; 10^6.5 per ml (TCID50)",
+      "search:taxonLabel": "Orthobunyavirus schmallenbergense",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG2",
+      "search:isolationHostLabel": "cattle",
+      "search:collectionName": "FLI",
+      "search:countryOfCollection": "Germany",
+      "search:accessionNumber": "PRJEB123174",
+      "search:providerName": "FLI",
+      "search:pathogenName": "Shamonda virus",
+      "search:taxon": [
+        "Orthobunyavirus schmallenbergense",
+        "Schmallenberg orthobunyavirus",
+        "SBV",
+        "Sathuperi orthobunyavirus",
+        "Sathuperi virus",
+        "Shamonda virus",
+        "Orthobunyavirus",
+        "Viruses",
+        "Riboviria",
+        "Orthornavirae",
+        "Negarnaviricota",
+        "Polyploviricotina",
+        "Bunyaviricetes",
+        "Elliovirales",
+        "Peribunyaviridae"
       ]
     },
     {
