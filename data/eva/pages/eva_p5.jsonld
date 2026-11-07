@@ -20,6 +20,117 @@
       "@type": "EVORAO:Antibody",
       "EVORAO:provider": {
         "@type": "EVORAO:Provider",
+        "foaf:name": "AMU_b"
+      },
+      "EVORAO:refSku": "100A-02594",
+      "@id": "urn:evorao:EVA:AMU_b:100A-02594",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/mouse-mab-ezp22s-against-za%C3%AFre-ebolavirus-gp",
+      "dcterms:issued": "2017-10-10T12:03:34+02:00",
+      "dcterms:modified": "2020-09-07T17:55:48+02:00",
+      "dcterms:title": "Mouse MAb #EZP22S against Zaïre Ebolavirus GP",
+      "dcterms:description": "Mouse monoclonal antibody against Zaïre Ebolavirus glycoprotein obtained in Balb/c mouse",
+      "EVORAO:unitDefinition": "500 µg",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "antibody"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "diagnostic reagent"
+        },
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "derived product"
+        }
+      ],
+      "EVORAO:unitCost": 800,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:antibodyCharacterizationMethod": "ELISA, IFA, Neutralisation",
+      "EVORAO:antibodyType": "Monoclonal",
+      "EVORAO:antibodySpecificity": "No cross-reactivity with Sudan Ebolavirus and Marburg virus",
+      "EVORAO:antibodyCharacterizationObservation": "No in vitro neutralizing activity",
+      "EVORAO:antibodyPurifiedByAffinity": true,
+      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
+      "EVORAO:originator": {
+        "@type": "EVORAO:Originator",
+        "foaf:name": "LI2D CEA Marcoule"
+      },
+      "EVORAO:qualityGrading": "Platinum",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "No RG"
+      },
+      "EVORAO:productionSystem": "Purified by protein A affinity chromatography",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:specificityDocumented": true,
+      "EVORAO:targetedAntigen": "Protein:",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "AMU_b"
+      },
+      "dcat:keyword": [
+        "Antibody",
+        "AMU_b",
+        "Antibody or Hybridoma",
+        "Diagnostic reagent",
+        "Derived product",
+        "Ab",
+        "ebolavirus",
+        "filovirus",
+        "GP",
+        "LI2D CEA Marcoule",
+        "No RG",
+        "NON DANGEROUS GOODS",
+        "Zaire ebolavirus",
+        "ZEBOV",
+        "Ebola",
+        "Dry ice"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "antibody",
+      "search:additionalCategory": [
+        "diagnostic reagent",
+        "derived product"
+      ],
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Zaire ebolavirus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Zaire ebolavirus"
+        },
+        "EVORAO:pathogenType": "Virus"
+      },
+      "search:sku": "100A-02594",
+      "search:title": "Mouse MAb #EZP22S against Zaïre Ebolavirus GP",
+      "search:description": "Mouse monoclonal antibody against Zaïre Ebolavirus glycoprotein obtained in Balb/c mouse",
+      "search:taxonLabel": "Zaire ebolavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "No RG",
+      "search:collectionName": "AMU_b",
+      "search:providerName": "AMU_b",
+      "search:originatorName": "LI2D CEA Marcoule",
+      "search:pathogenName": "Zaire ebolavirus"
+    },
+    {
+      "@type": "EVORAO:Antibody",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
         "foaf:name": "FLI"
       },
       "EVORAO:refSku": "015A-02587",

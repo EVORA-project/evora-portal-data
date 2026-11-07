@@ -22,6 +22,153 @@
         "@type": "EVORAO:Provider",
         "foaf:name": "DEFRA"
       },
+      "EVORAO:refSku": "003V-01681",
+      "@id": "urn:evorao:EVA:DEFRA:003V-01681",
+      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-rabies-virus-rv61",
+      "dcterms:issued": "2016-06-01T15:04:42+02:00",
+      "dcterms:modified": "2021-06-22T15:11:42+02:00",
+      "dcterms:title": "Live Rabies Virus, RV61",
+      "dcterms:description": "Live, frozen Rabies virus, RV61 (Arc-like). This Rabies virus is preserved under viral storage medium (-80oC). To confirm its identity the virus has been fully sequenced.",
+      "EVORAO:unitDefinition": "1 vial of 1ml",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "virus"
+      },
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "cultivable virus"
+        }
+      ],
+      "EVORAO:unitCost": 2000,
+      "EVORAO:unitCostCurrency": "EUR",
+      "EVORAO:availability": "In stock",
+      "EVORAO:biologicalMaterialOrigin": {
+        "@type": "EVORAO:BiologicalMaterialOrigin",
+        "dcterms:description": "Natural origin",
+        "EVORAO:biologicalPartOrigin": {
+          "@type": "EVORAO:NaturalPartOrigin",
+          "EVORAO:collectionDate": "1988-03-16",
+          "EVORAO:collectedBeforeDate": true,
+          "EVORAO:countryOfCollection": {
+            "@type": "EVORAO:Country",
+            "dcterms:title": "United Kingdom of Great Britain and Northern Ireland (the)"
+          }
+        },
+        "EVORAO:biologicalSourceType": true
+      },
+      "EVORAO:canBeUsedToProduceGmo": false,
+      "EVORAO:iataClassification": "Category A, UN2814",
+      "EVORAO:identificationTechnique": "PCR",
+      "EVORAO:infectivity": "Infectivity tested",
+      "EVORAO:infectivityTest": "Cell culture (N2A)",
+      "EVORAO:mycoplasmicContent": "Mycoplasma free",
+      "EVORAO:passage": "P11",
+      "EVORAO:qualityGrading": "Gold",
+      "EVORAO:productPicture": {
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/VirusProduct_381_0.jpg"
+      },
+      "EVORAO:riskGroup": {
+        "@type": "EVORAO:RiskGroup",
+        "dcterms:title": "RG3"
+      },
+      "EVORAO:productionCellLine": {
+        "@type": "EVORAO:ProductionCellLine",
+        "dcterms:title": "N2A"
+      },
+      "EVORAO:genomeSequencing": "Complete genome",
+      "EVORAO:shippingConditions": "Dry ice",
+      "EVORAO:storageConditions": "Viral Storage Medium -80C",
+      "EVORAO:cultivability": "Cultivable virus",
+      "EVORAO:collection": {
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "DEFRA"
+      },
+      "EVORAO:accessionNumber": "KF154996",
+      "EVORAO:isolationHost": {
+        "@type": "EVORAO:IsolationHost",
+        "dcterms:title": "Human (male)"
+      },
+      "EVORAO:isolationTechnique": "Cell culture",
+      "EVORAO:suspectedEpidemiologicalOrigin": {
+        "@type": "EVORAO:GeographicalOrigin",
+        "dcterms:title": "England - London ex India"
+      },
+      "dcat:keyword": [
+        "Cultivable virus",
+        "Virus",
+        "DEFRA",
+        "Arc-like",
+        "Category A",
+        "UN2814",
+        "England - London ex India",
+        "Human (male)",
+        "Human virus",
+        "KF154996",
+        "N2A",
+        "Rabies",
+        "Rabies virus",
+        "RG3",
+        "RV61",
+        "United Kingdom of Great Britain and Northern Ireland (the)",
+        "Dry ice",
+        "Rabies lyssavirus"
+      ],
+      "dcterms:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Virus Archive",
+        "EVORAO:alternateName": "EVA",
+        "EVORAO:homepage": "https://www.european-virus-archive.com",
+        "EVORAO:rorId": "https://ror.org/05qrk8753"
+      },
+      "search:category": "virus",
+      "search:additionalCategory": [
+        "cultivable virus"
+      ],
+      "search:collectionDate": "1988-03-16",
+      "EVORAO:sequence": {
+        "@type": "EVORAO:Sequence",
+        "EVORAO:sequenceReference": {
+          "@type": "EVORAO:SequenceReference",
+          "EVORAO:sequenceProvider": "GenBank",
+          "EVORAO:accessionNumber": "KF154996"
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "Rabies virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Rabies lyssavirus"
+        },
+        "EVORAO:pathogenType": "Virus",
+        "EVORAO:isolate": "RV61",
+        "EVORAO:strain": "RABV Arc-like",
+        "EVORAO:hostType": "Human"
+      },
+      "search:sku": "003V-01681",
+      "search:title": "Live Rabies Virus, RV61",
+      "search:description": "Live, frozen Rabies virus, RV61 (Arc-like). This Rabies virus is preserved under viral storage medium (-80oC). To confirm its identity the virus has been fully sequenced.",
+      "search:taxonLabel": "Rabies lyssavirus",
+      "search:publisherName": "European Virus Archive",
+      "search:riskGroupLabel": "RG3",
+      "search:isolationHostLabel": "Human (male)",
+      "search:collectionName": "DEFRA",
+      "search:countryOfCollection": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "search:accessionNumber": "KF154996",
+      "search:providerName": "DEFRA",
+      "search:pathogenName": "Rabies virus"
+    },
+    {
+      "@type": "EVORAO:Virus",
+      "EVORAO:provider": {
+        "@type": "EVORAO:Provider",
+        "foaf:name": "DEFRA"
+      },
       "EVORAO:refSku": "003V-02539",
       "@id": "urn:evorao:EVA:DEFRA:003V-02539",
       "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/virus/live-h5n8-hpai-virus-aduckengland362542014",
@@ -131482,117 +131629,6 @@
       "search:collectionName": "FLI",
       "search:providerName": "FLI",
       "search:pathogenName": "Cyprinid herpesvirus 3"
-    },
-    {
-      "@type": "EVORAO:Antibody",
-      "EVORAO:provider": {
-        "@type": "EVORAO:Provider",
-        "foaf:name": "AMU_b"
-      },
-      "EVORAO:refSku": "100A-02594",
-      "@id": "urn:evorao:EVA:AMU_b:100A-02594",
-      "EVORAO:accessPointUrl": "https://www.european-virus-archive.com/antibody-or-hybridoma/mouse-mab-ezp22s-against-za%C3%AFre-ebolavirus-gp",
-      "dcterms:issued": "2017-10-10T12:03:34+02:00",
-      "dcterms:modified": "2020-09-07T17:55:48+02:00",
-      "dcterms:title": "Mouse MAb #EZP22S against Zaïre Ebolavirus GP",
-      "dcterms:description": "Mouse monoclonal antibody against Zaïre Ebolavirus glycoprotein obtained in Balb/c mouse",
-      "EVORAO:unitDefinition": "500 µg",
-      "EVORAO:category": {
-        "@type": "EVORAO:ProductCategory",
-        "dcterms:title": "antibody"
-      },
-      "EVORAO:additionalCategory": [
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "diagnostic reagent"
-        },
-        {
-          "@type": "EVORAO:ProductCategory",
-          "dcterms:title": "derived product"
-        }
-      ],
-      "EVORAO:unitCost": 800,
-      "EVORAO:unitCostCurrency": "EUR",
-      "EVORAO:availability": "In stock",
-      "EVORAO:antibodyCharacterizationMethod": "ELISA, IFA, Neutralisation",
-      "EVORAO:antibodyType": "Monoclonal",
-      "EVORAO:antibodySpecificity": "No cross-reactivity with Sudan Ebolavirus and Marburg virus",
-      "EVORAO:antibodyCharacterizationObservation": "No in vitro neutralizing activity",
-      "EVORAO:antibodyPurifiedByAffinity": true,
-      "EVORAO:iataClassification": "NON DANGEROUS GOODS",
-      "EVORAO:originator": {
-        "@type": "EVORAO:Originator",
-        "foaf:name": "LI2D CEA Marcoule"
-      },
-      "EVORAO:qualityGrading": "Platinum",
-      "EVORAO:productPicture": {
-        "@type": "EVORAO:Image",
-        "EVORAO:contentUrl": "https://cdn.european-virus-archive.comhttps://cdn.european-virus-archive.com/sites/default/files/default_images/hybridomAntibody.jpg"
-      },
-      "EVORAO:riskGroup": {
-        "@type": "EVORAO:RiskGroup",
-        "dcterms:title": "No RG"
-      },
-      "EVORAO:productionSystem": "Purified by protein A affinity chromatography",
-      "EVORAO:shippingConditions": "Dry ice",
-      "EVORAO:specificityDocumented": true,
-      "EVORAO:targetedAntigen": "Protein:",
-      "EVORAO:collection": {
-        "@type": "EVORAO:Collection",
-        "dcterms:title": "AMU_b"
-      },
-      "dcat:keyword": [
-        "Antibody",
-        "AMU_b",
-        "Antibody or Hybridoma",
-        "Diagnostic reagent",
-        "Derived product",
-        "Ab",
-        "ebolavirus",
-        "filovirus",
-        "GP",
-        "LI2D CEA Marcoule",
-        "No RG",
-        "NON DANGEROUS GOODS",
-        "Zaire ebolavirus",
-        "ZEBOV",
-        "Ebola",
-        "Dry ice"
-      ],
-      "dcterms:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Virus Archive",
-        "EVORAO:alternateName": "EVA",
-        "EVORAO:homepage": "https://www.european-virus-archive.com",
-        "EVORAO:rorId": "https://ror.org/05qrk8753"
-      },
-      "search:category": "antibody",
-      "search:additionalCategory": [
-        "diagnostic reagent",
-        "derived product"
-      ],
-      "EVORAO:pathogenIdentification": {
-        "@type": "EVORAO:PathogenIdentification",
-        "EVORAO:pathogenName": {
-          "@type": "EVORAO:VirusName",
-          "dcterms:title": "Zaire ebolavirus"
-        },
-        "EVORAO:taxon": {
-          "@type": "EVORAO:Taxon",
-          "dcterms:title": "Zaire ebolavirus"
-        },
-        "EVORAO:pathogenType": "Virus"
-      },
-      "search:sku": "100A-02594",
-      "search:title": "Mouse MAb #EZP22S against Zaïre Ebolavirus GP",
-      "search:description": "Mouse monoclonal antibody against Zaïre Ebolavirus glycoprotein obtained in Balb/c mouse",
-      "search:taxonLabel": "Zaire ebolavirus",
-      "search:publisherName": "European Virus Archive",
-      "search:riskGroupLabel": "No RG",
-      "search:collectionName": "AMU_b",
-      "search:providerName": "AMU_b",
-      "search:originatorName": "LI2D CEA Marcoule",
-      "search:pathogenName": "Zaire ebolavirus"
     }
   ]
 }
