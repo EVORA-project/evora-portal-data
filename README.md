@@ -129,3 +129,11 @@ do not verify live credentials or catalogue permissions.
 
 For a retry using the already committed export, select `publish_existing` in
 **Run workflow**. The scheduled run still rebuilds all partner data normally.
+
+For deliberate recovery of a store file that returns HTTP 404, also select
+`recover_missing_file`. This creates the export via the chunked creation API,
+saves its new ID in `EU_FILE_ID` only after completion, and updates the existing
+catalogue dataset to use the new download URL. It refuses recovery when the old
+file is still accessible. The normal scheduled path never creates a new file.
+The store abort API must not be called on updates to existing files: it removed
+the migrated record during a failed upload, rather than only its temporary parts.

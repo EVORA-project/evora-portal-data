@@ -9,6 +9,8 @@ import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
+from nacl.public import PrivateKey, SealedBox
+
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("publish_eu_store", ROOT / "scripts/publish_eu_store.py")
 store = importlib.util.module_from_spec(spec)
@@ -213,6 +215,41 @@ class StorePublisherTests(unittest.TestCase):
             store.require_status(response, 200, "Chunk upload")
         self.assertNotIn("private-token", str(error.exception))
         self.assertNotIn("eyJabc", str(error.exception))
+
+
+
+    def test_explicit_recovery_creates_completes_and_saves_new_id(self):
+        self.export.write_bytes(b"12345678901")
+        key = PrivateKey.generate()
+        key_response = Mock(status_code=200)
+        key_response.json.return_value = {"key_id": "key", "key": base64.b64encode(bytes(key.public_key)).decode()}
+        self.session.get.side_effect = [Mock(status_code=404), key_response]
+        init = Mock(status_code=201)
+        init.json.return_value = {"file_id": "restored-file", "upload_id": "session", "chunk_size": 5}
+        self.session.post.side_effect = [init, Mock(status_code=201)]
+        chunks = []
+        for number in range(3):
+            part = Mock(status_code=200)
+            part.json.return_value = {"etag": f"etag-{number}"}
+            chunks.append(part)
+        self.session.put.side_effect = [Mock(status_code=204), *chunks, Mock(status_code=204)]
+        with patch.dict(os.environ, {"GITHUB_REPOSITORY": "EVORA-project/evora-portal-data", "EU_SECRET_WRITER_TOKEN": "writer"}), patch.object(store, "CHUNK_SIZE", 5), contextlib.redirect_stdout(io.StringIO()):
+            file_id, url = store.recover_missing_export(self.session, TOKEN, "evora", CURRENT_ID, self.export)
+        self.assertEqual(file_id, "restored-file")
+        self.assertTrue(url.endswith("/evora/restored-file"))
+        self.assertTrue(self.session.post.call_args_list[0].args[0].endswith("/chunked/init"))
+        self.assertTrue(self.session.post.call_args_list[1].args[0].endswith("/chunked/restored-file/complete"))
+        self.assertTrue(self.session.put.call_args.args[0].endswith("/secrets/EU_FILE_ID"))
+        encrypted = self.session.put.call_args.kwargs["json"]["encrypted_value"]
+        self.assertEqual(SealedBox(key).decrypt(base64.b64decode(encrypted)).decode(), "restored-file")
+        self.session.delete.assert_not_called()
+
+    def test_recovery_refuses_to_create_when_original_file_exists(self):
+        self.session.get.return_value.status_code = 200
+        with self.assertRaisesRegex(store.StoreError, "refusing to create"):
+            store.recover_missing_export(self.session, TOKEN, "evora", CURRENT_ID, self.export)
+        self.session.post.assert_not_called()
+        self.session.put.assert_not_called()
 
 
 if __name__ == "__main__":

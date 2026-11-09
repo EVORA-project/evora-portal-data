@@ -8,6 +8,7 @@ import re
 import sys
 from urllib.parse import quote
 
+from nacl.public import PublicKey, SealedBox
 import requests
 
 STORE_API = "https://data.europa.eu/data-management/store/api/data"
@@ -78,9 +79,14 @@ def chunked_replace(session, token, catalogue_url, file_id, export):
         timeout=(30, 120), allow_redirects=False,
     )
     require_status(response, 200, "Chunked file replacement initialization")
+    finish_chunked(session, token, catalogue_url, file_id, export, response.json())
+
+
+def finish_chunked(session, token, catalogue_url, file_id, export, info):
+    upload_url = f"{catalogue_url}/chunked/{path_segment(file_id)}"
+    headers = {"Authorization": f"Bearer {token}"}
+    size = export.stat().st_size
     try:
-        # Initialization and all parts address the existing file, retaining its ID.
-        info = response.json()
         if not isinstance(info.get("upload_id"), str) or not info["upload_id"]:
             raise ValueError
         chunk_size = info.get("chunk_size", CHUNK_SIZE)
@@ -113,7 +119,7 @@ def chunked_replace(session, token, catalogue_url, file_id, export):
             f"{upload_url}/complete", headers=headers, json={"parts": parts},
             timeout=(30, 300), allow_redirects=False,
         )
-        require_status(response, 201, "Chunked file replacement completion")
+        require_status(response, 201, "Chunked upload completion")
     except (StoreError, requests.RequestException, OSError, ValueError, KeyError, TypeError) as exc:
         # Do not call the abort endpoint for updates to existing files: after a
         # failed migrated-file update it removed the file from the public list.
@@ -170,6 +176,58 @@ def upload_export(session, token, catalogue, file_id, export=EXPORT):
     return file_id, download_url
 
 
+
+def recover_missing_export(session, token, catalogue, missing_id, export=EXPORT):
+    """Explicit operator recovery only; scheduled publication never creates files."""
+    catalogue_url = f"{STORE_API}/{path_segment(catalogue)}"
+    headers = {"Authorization": f"Bearer {token}"}
+    existing = session.get(
+        f"{catalogue_url}/{path_segment(missing_id)}", headers=headers,
+        stream=True, timeout=(30, 60), allow_redirects=False,
+    )
+    status = existing.status_code
+    existing.close()
+    if status != 404:
+        raise StoreError("Recovery requires an HTTP 404 for the configured file; refusing to create another file.")
+    if not export.is_file() or export.stat().st_size == 0:
+        raise StoreError("Recovery export is missing or empty.")
+
+    repository = required_setting(os.environ, "GITHUB_REPOSITORY")
+    if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
+        raise StoreError("Invalid GITHUB_REPOSITORY for file recovery.")
+    writer = required_setting(os.environ, "EU_SECRET_WRITER_TOKEN")
+    github_headers = {"Authorization": f"Bearer {writer}", "Accept": "application/vnd.github+json"}
+    secrets_url = f"https://api.github.com/repos/{repository}/environments/PORTAL_DATA_WORKFLOW/secrets"
+    key_response = session.get(f"{secrets_url}/public-key", headers=github_headers, timeout=(15, 60), allow_redirects=False)
+    require_status(key_response, 200, "Recovery secret encryption key lookup")
+    key = key_response.json()
+    encryptor = SealedBox(PublicKey(base64.b64decode(key["key"])))
+
+    def persist(file_id):
+        response = session.put(
+            f"{secrets_url}/EU_FILE_ID", headers=github_headers,
+            json={"key_id": key["key_id"], "encrypted_value": base64.b64encode(encryptor.encrypt(file_id.encode())).decode()},
+            timeout=(15, 60), allow_redirects=False,
+        )
+        require_status(response, 204, "Recovery file ID persistence")
+
+    # Verify write access without changing the value before creating a file.
+    persist(missing_id)
+    response = session.post(
+        f"{catalogue_url}/chunked/init", headers=headers,
+        json={"filename": export.name, "mimetype": "application/ld+json", "size": export.stat().st_size, "chunk_size": CHUNK_SIZE},
+        timeout=(30, 120), allow_redirects=False,
+    )
+    require_status(response, 201, "Recovery file initialization")
+    info = response.json()
+    file_id = info["file_id"]
+    path_segment(file_id)
+    print(f"Recovery store file ID: {file_id}")
+    finish_chunked(session, token, catalogue_url, file_id, export, info)
+    persist(file_id)
+    return file_id, f"{catalogue_url}/{file_id}"
+
+
 def main():
     try:
         token = required_setting(os.environ, "EU_STORE_TOKEN")
@@ -177,7 +235,10 @@ def main():
         catalogue = os.environ.get("EU_CATALOG_ID", "evora")
         github_env = Path(required_setting(os.environ, "GITHUB_ENV"))
         with requests.Session() as session:
-            file_id, download_url = upload_export(session, token, catalogue, file_id)
+            if os.environ.get("EU_RECOVER_MISSING_FILE") == "true":
+                file_id, download_url = recover_missing_export(session, token, catalogue, file_id)
+            else:
+                file_id, download_url = upload_export(session, token, catalogue, file_id)
         # Export only public identifiers. The token stays scoped to this step.
         with github_env.open("a", encoding="utf-8") as env_file:
             env_file.write(f"EU_RESOLVED_FILE_ID={file_id}\nEU_DOWNLOAD_URL={download_url}\n")
