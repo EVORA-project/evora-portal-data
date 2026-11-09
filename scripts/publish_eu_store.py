@@ -1,5 +1,7 @@
 """Replace the EVORA export in the migrated data.europa.eu store."""
 
+import base64
+import hashlib
 import os
 from pathlib import Path
 import re
@@ -10,6 +12,8 @@ import requests
 
 STORE_API = "https://data.europa.eu/data-management/store/api/data"
 EXPORT = Path("data/portal/evora_portal_all.jsonld")
+CHUNK_SIZE = 5 * 1024 * 1024
+DIRECT_UPLOAD_LIMIT = CHUNK_SIZE
 
 
 class StoreError(RuntimeError):
@@ -39,6 +43,65 @@ def require_status(response, expected, operation):
     }.get(response.status_code, "Check the store service and retry the workflow.")
     # Never print response bodies, which may contain credentials or diagnostics.
     raise StoreError(f"{operation} failed (HTTP {response.status_code}). {hint}")
+
+
+
+def chunked_replace(session, token, catalogue_url, file_id, export):
+    upload_url = f"{catalogue_url}/chunked/{path_segment(file_id)}"
+    headers = {"Authorization": f"Bearer {token}"}
+    size = export.stat().st_size
+    response = session.put(
+        f"{upload_url}/update", headers=headers,
+        json={"filename": export.name, "mimetype": "application/ld+json", "size": size, "chunk_size": CHUNK_SIZE},
+        timeout=(30, 120), allow_redirects=False,
+    )
+    require_status(response, 200, "Chunked file replacement initialization")
+    try:
+        # Initialization and all parts address the existing file, retaining its ID.
+        info = response.json()
+        if not isinstance(info.get("upload_id"), str) or not info["upload_id"]:
+            raise ValueError
+        chunk_size = info.get("chunk_size", CHUNK_SIZE)
+        if type(chunk_size) is not int or not 0 < chunk_size <= 64 * 1024 * 1024:
+            raise ValueError
+        if info.get("file_id", file_id) != file_id:
+            raise ValueError
+        parts = []
+        transferred = 0
+        with export.open("rb") as stream:
+            while chunk := stream.read(chunk_size):
+                number = len(parts) + 1
+                checksum = base64.b64encode(hashlib.sha256(chunk).digest()).decode("ascii")
+                response = session.put(
+                    f"{upload_url}/part", params={"part": number},
+                    headers={**headers, "X-Checksum-SHA256": checksum},
+                    files={"data": ("chunk", chunk, "application/octet-stream")},
+                    timeout=(30, 300), allow_redirects=False,
+                )
+                require_status(response, 200, f"Chunk {number} upload")
+                etag = response.json()["etag"]
+                if not isinstance(etag, str) or not etag:
+                    raise ValueError
+                parts.append({"part": number, "etag": etag})
+                transferred += len(chunk)
+                print(f"Uploaded chunk {number}: {transferred}/{size} bytes.")
+        if transferred != size:
+            raise StoreError("Export changed during the chunked upload; completion was stopped.")
+        response = session.post(
+            f"{upload_url}/complete", headers=headers, json={"parts": parts},
+            timeout=(30, 300), allow_redirects=False,
+        )
+        require_status(response, 201, "Chunked file replacement completion")
+    except (StoreError, requests.RequestException, OSError, ValueError, KeyError, TypeError) as exc:
+        # This endpoint removes this upload's temporary parts, not the published
+        # file. Do not leave an incomplete session blocking the next daily run.
+        try:
+            session.delete(f"{upload_url}/abort", headers=headers, timeout=(30, 60), allow_redirects=False)
+        except requests.RequestException:
+            print("::warning::Could not clean up the incomplete chunked upload; check the store upload session.")
+        if isinstance(exc, (ValueError, KeyError, TypeError)):
+            raise StoreError("Unexpected response from the chunked upload API.") from exc
+        raise
 
 
 def upload_export(session, token, catalogue, file_id, export=EXPORT):
@@ -71,15 +134,21 @@ def upload_export(session, token, catalogue, file_id, export=EXPORT):
         file_id = matches[0]
 
     download_url = f"{catalogue_url}/{path_segment(file_id)}"
-    with export.open("rb") as stream:
-        response = session.put(
-            download_url,
-            headers={"Authorization": f"Bearer {token}"},
-            files={"data": (export.name, stream, "application/ld+json")},
-            timeout=(30, 600),
-            allow_redirects=False,
-        )
-    require_status(response, 204, "Store file replacement")
+    if export.stat().st_size > DIRECT_UPLOAD_LIMIT:
+        chunked_replace(session, token, catalogue_url, file_id, export)
+    else:
+        with export.open("rb") as stream:
+            response = session.put(
+                download_url,
+                headers={"Authorization": f"Bearer {token}"},
+                files={"data": (export.name, stream, "application/ld+json")},
+                timeout=(30, 600),
+                allow_redirects=False,
+            )
+        if response.status_code == 413:
+            chunked_replace(session, token, catalogue_url, file_id, export)
+        else:
+            require_status(response, 204, "Store file replacement")
     return file_id, download_url
 
 
@@ -94,7 +163,7 @@ def main():
         # Export only public identifiers. The token stays scoped to this step.
         with github_env.open("a", encoding="utf-8") as env_file:
             env_file.write(f"EU_RESOLVED_FILE_ID={file_id}\nEU_DOWNLOAD_URL={download_url}\n")
-        print(f"Replaced store file {file_id} (HTTP 204).")
+        print(f"Replaced store file {file_id}.")
     except (StoreError, requests.RequestException, OSError) as exc:
         # requests exceptions can include request information; keep them private.
         message = str(exc) if isinstance(exc, StoreError) else "Store upload failed due to a network or local file error."

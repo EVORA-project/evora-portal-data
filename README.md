@@ -87,7 +87,15 @@ and returned tokens are masked in GitHub Actions.
 
 The [store API documentation](https://data.europa.eu/data-management/store/api/schema/docs/)
 specifies a multipart `data` field, Bearer authentication, and HTTP 204 for a
-successful file replacement. The uploader replaces an existing file and fails if
+successful direct file replacement. The full EVORA export exceeds the migrated
+store's direct-upload limit (HTTP 413). Files larger than 5 MiB use the chunked
+`update`, `part`, and `complete` endpoints, preserving the existing file ID. Parts
+are uploaded sequentially with SHA-256 checksums, using the chunk size confirmed
+by the server; completion submits their ordered ETags. An incomplete upload is
+aborted to clean up temporary parts. Small files also fall back to chunking if
+the direct request returns HTTP 413.
+
+The uploader replaces an existing file and fails if
 `EU_FILE_ID` is missing, so repeated runs cannot create duplicate files. For an
 old ID, it searches the store's file listing and matches `legacy_id` exactly;
 if the ID cannot be mapped uniquely, set `EU_FILE_ID` to the current ID from the

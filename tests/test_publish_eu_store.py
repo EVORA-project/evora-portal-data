@@ -1,4 +1,6 @@
+import base64
 import contextlib
+import hashlib
 import importlib.util
 import io
 import os
@@ -123,6 +125,85 @@ class StorePublisherTests(unittest.TestCase):
         with patch.dict(os.environ, {"EU_STORE_TOKEN": TOKEN, "EU_FILE_ID": CURRENT_ID, "GITHUB_ENV": str(Path(self.temp.name) / "github_env")}, clear=True), patch.object(store, "upload_export", side_effect=store.requests.RequestException(TOKEN)), contextlib.redirect_stderr(errors):
             self.assertEqual(store.main(), 1)
         self.assertNotIn(TOKEN, errors.getvalue())
+
+
+    def prepare_chunks(self, chunk_size=5):
+        self.export.write_bytes(b"12345678901")
+        for name in ("CHUNK_SIZE", "DIRECT_UPLOAD_LIMIT"):
+            patcher = patch.object(store, name, 5)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+        init = Mock(status_code=200)
+        init.json.return_value = {"upload_id": "upload-session", "file_id": CURRENT_ID, "chunk_size": chunk_size}
+        chunks = []
+        for number in range(1, 4):
+            response = Mock(status_code=200)
+            response.json.return_value = {"etag": f"etag-{number}"}
+            chunks.append(response)
+        self.session.put.side_effect = [init, *chunks]
+        self.session.post.return_value.status_code = 201
+        return init, chunks
+
+    def test_large_export_uses_ordered_chunks_preserving_file_id(self):
+        self.prepare_chunks()
+        with contextlib.redirect_stdout(io.StringIO()):
+            file_id, url = self.upload()
+        self.assertEqual(file_id, CURRENT_ID)
+        self.assertTrue(url.endswith(CURRENT_ID))
+        calls = self.session.put.call_args_list
+        self.assertTrue(calls[0].args[0].endswith(f"/chunked/{CURRENT_ID}/update"))
+        self.assertEqual(calls[0].kwargs["json"]["size"], 11)
+        self.assertEqual(calls[0].kwargs["json"]["chunk_size"], 5)
+        for number, (call, expected) in enumerate(zip(calls[1:], (b"12345", b"67890", b"1")), start=1):
+            self.assertEqual(call.kwargs["params"], {"part": number})
+            self.assertEqual(call.kwargs["files"]["data"][1], expected)
+            checksum = base64.b64encode(hashlib.sha256(expected).digest()).decode()
+            self.assertEqual(call.kwargs["headers"]["X-Checksum-SHA256"], checksum)
+            self.assertFalse(call.kwargs["allow_redirects"])
+        self.assertEqual(self.session.post.call_args.kwargs["json"], {"parts": [
+            {"part": 1, "etag": "etag-1"}, {"part": 2, "etag": "etag-2"}, {"part": 3, "etag": "etag-3"},
+        ]})
+        self.session.delete.assert_not_called()
+
+    def test_uses_server_confirmed_chunk_size(self):
+        self.prepare_chunks(chunk_size=4)
+        with contextlib.redirect_stdout(io.StringIO()):
+            self.upload()
+        actual = [call.kwargs["files"]["data"][1] for call in self.session.put.call_args_list[1:]]
+        self.assertEqual(actual, [b"1234", b"5678", b"901"])
+
+    def test_failed_chunk_aborts_without_completing(self):
+        init, chunks = self.prepare_chunks()
+        chunks[0].status_code = 400
+        with self.assertRaisesRegex(store.StoreError, "Chunk 1 upload failed"):
+            self.upload()
+        self.session.post.assert_not_called()
+        self.session.delete.assert_called_once()
+        self.assertTrue(self.session.delete.call_args.args[0].endswith(f"/chunked/{CURRENT_ID}/abort"))
+
+    def test_invalid_initialization_never_uploads_parts(self):
+        init, chunks = self.prepare_chunks()
+        init.json.return_value["chunk_size"] = 0
+        with self.assertRaisesRegex(store.StoreError, "Unexpected response"):
+            self.upload()
+        self.assertEqual(self.session.put.call_count, 1)
+        self.session.post.assert_not_called()
+        self.session.delete.assert_called_once()
+
+    def test_failed_completion_is_not_reported_as_success(self):
+        self.prepare_chunks()
+        self.session.post.return_value.status_code = 500
+        with contextlib.redirect_stdout(io.StringIO()), self.assertRaisesRegex(store.StoreError, "completion failed"):
+            self.upload()
+        self.session.delete.assert_called_once()
+
+    def test_direct_413_falls_back_to_chunked_replacement(self):
+        init, chunks = self.prepare_chunks()
+        self.session.put.side_effect = [Mock(status_code=413), init, *chunks]
+        with patch.object(store, "DIRECT_UPLOAD_LIMIT", 100), contextlib.redirect_stdout(io.StringIO()):
+            self.upload()
+        self.assertEqual(self.session.put.call_count, 5)
+        self.session.post.assert_called_once()
 
 
 if __name__ == "__main__":
