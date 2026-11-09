@@ -89,6 +89,12 @@ def build_collection_block(collection_id="5449") -> Dict[str, Any]:
                 "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "@type": "EVORAO:License",
                 "dcterms:title": "CC-BY-SA 4.0",
+                "EVORAO:logo": {
+                    "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+                    "@type": "EVORAO:Image",
+                    "EVORAO:resourceUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+                    "dcterms:title": "FAIRsharing attribution",
+                },
                 "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "EVORAO:licensingOrAttribution": (
                     "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" "
@@ -198,11 +204,19 @@ def convert_records(raw, collection_id="5449"):
         service["search:publisherName"] = config["publisher_label"]
         if collection_id == "7589":
             service["EVORAO:provider"]["EVORAO:homepage"] = "https://evora-project.eu/"
+            logo = {
+                "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+                "@type": "EVORAO:Image",
+                "EVORAO:resourceUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+                "dcterms:title": "European Viral Outbreak Response Alliance (EVORA)",
+            }
+            service["EVORAO:provider"]["EVORAO:logo"] = logo
             service["EVORAO:publisher"] = {
                 "@type": "EVORAO:ResearchInfrastructure",
                 "foaf:name": config["provider_name"],
                 "EVORAO:alternateName": "EVORA",
                 "EVORAO:homepage": "https://evora-project.eu/",
+                "EVORAO:logo": logo,
             }
 
         # Collection + FAIRsharing licence / attribution

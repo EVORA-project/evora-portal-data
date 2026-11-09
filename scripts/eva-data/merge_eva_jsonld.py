@@ -14,6 +14,12 @@ EVA_METADATA_LICENSE = {
     "@id": "https://creativecommons.org/licenses/by/4.0/",
     "@type": "EVORAO:License",
     "dcterms:title": "CC-BY 4.0",
+    "EVORAO:logo": {
+        "@id": "https://cdn.european-virus-archive.com/sites/default/files/LOGO_EVA.svg",
+        "@type": "EVORAO:Image",
+        "EVORAO:resourceUrl": "https://cdn.european-virus-archive.com/sites/default/files/LOGO_EVA.svg",
+        "dcterms:title": "European Virus Archive - AISBL",
+    },
     "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "EVORAO:licensingOrAttribution": (
         "European Virus Archive - AISBL (EVA). Public catalogue data and metadata; "

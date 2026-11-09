@@ -41,6 +41,8 @@ class EvaMetadataLicenseTests(unittest.TestCase):
         self.assertEqual(provider["EVORAO:license"]["@id"], "https://creativecommons.org/licenses/by/4.0/")
         self.assertIn("Public catalogue data and metadata", provider["EVORAO:license"]["EVORAO:licensingOrAttribution"])
         self.assertNotIn("EVORAO:license", entity)
+        self.assertEqual(provider["EVORAO:license"]["EVORAO:logo"]["@type"], "EVORAO:Image")
+        self.assertIn("LOGO_EVA.svg", provider["EVORAO:license"]["EVORAO:logo"]["EVORAO:resourceUrl"])
 
     def test_preserves_specific_source_licence(self):
         specific = {"@id": "https://example.org/specific-licence"}
@@ -87,6 +89,8 @@ class FairsharingCollectionTests(unittest.TestCase):
         self.assertEqual(entity["search:publisherName"], "EVORA")
         self.assertEqual(entity["EVORAO:provider"]["foaf:name"], "European Viral Outbreak Response Alliance (EVORA)")
         self.assertEqual(entity["EVORAO:publisher"]["EVORAO:alternateName"], "EVORA")
+        self.assertEqual(entity["EVORAO:publisher"]["EVORAO:logo"]["@type"], "EVORAO:Image")
+        self.assertIn("images/logo/logo.svg", entity["EVORAO:publisher"]["EVORAO:logo"]["EVORAO:resourceUrl"])
         collection = entity["EVORAO:collection"]
         self.assertEqual(collection["@id"], "https://fairsharing.org/7589/")
         source = collection["EVORAO:collectionDataProvider"]

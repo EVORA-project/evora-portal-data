@@ -169,3 +169,10 @@ licences remain attached to entries; the aggregate export retains CC BY-SA 4.0.
 
 Use the workflow's `build_only` option to rebuild and commit portal data without
 contacting the EU store or hub-repo while that service issue is being resolved.
+
+Publisher/attribution logos are also represented in the dataset with
+`EVORAO:logo` pointing to an `EVORAO:Image` with `EVORAO:resourceUrl`. EVORA
+resources use EVORA's logo on their publisher/provider; FAIRsharing's attribution
+logo remains with the FAIRsharing metadata licence. EVA's attribution logo is
+included with its source-metadata licence. The portal frontend must read these
+fields to display them rather than relying only on hardcoded publisher names.
