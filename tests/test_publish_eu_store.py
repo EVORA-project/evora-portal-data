@@ -155,7 +155,7 @@ class StorePublisherTests(unittest.TestCase):
         self.assertEqual(calls[0].kwargs["json"]["size"], 11)
         self.assertEqual(calls[0].kwargs["json"]["chunk_size"], 5)
         for number, (call, expected) in enumerate(zip(calls[1:], (b"12345", b"67890", b"1")), start=1):
-            self.assertEqual(call.kwargs["params"], {"part": number})
+            self.assertEqual(call.kwargs["params"], {"part_number": number})
             self.assertEqual(call.kwargs["files"]["data"][1], expected)
             checksum = base64.b64encode(hashlib.sha256(expected).digest()).decode()
             self.assertEqual(call.kwargs["headers"]["X-Checksum-SHA256"], checksum)
@@ -204,6 +204,16 @@ class StorePublisherTests(unittest.TestCase):
             self.upload()
         self.assertEqual(self.session.put.call_count, 5)
         self.session.post.assert_called_once()
+
+
+
+    def test_validation_detail_redacts_credentials_and_preserves_useful_error(self):
+        response = Mock(status_code=400)
+        response.json.return_value = {"error": "Missing part_number; token private-token; eyJabc.defghi.jklmno"}
+        with patch.dict(os.environ, {"EU_STORE_TOKEN": "private-token"}), self.assertRaisesRegex(store.StoreError, "Missing part_number") as error:
+            store.require_status(response, 200, "Chunk upload")
+        self.assertNotIn("private-token", str(error.exception))
+        self.assertNotIn("eyJabc", str(error.exception))
 
 
 if __name__ == "__main__":

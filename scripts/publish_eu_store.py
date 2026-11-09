@@ -41,7 +41,21 @@ def require_status(response, expected, operation):
         403: "Check that the self-service account has access to the EVORA catalogue.",
         404: "Check EU_CATALOG_ID and EU_FILE_ID in the migrated store.",
     }.get(response.status_code, "Check the store service and retry the workflow.")
-    # Never print response bodies, which may contain credentials or diagnostics.
+    # Include only a short validation message, redacting credentials even if an
+    # upstream error accidentally reflects one. Never print complete responses.
+    if response.status_code in (400, 409, 413):
+        try:
+            payload = response.json()
+            detail = (payload.get("error") or payload.get("detail")) if isinstance(payload, dict) else None
+            if isinstance(detail, str):
+                for name, value in os.environ.items():
+                    if value and ("TOKEN" in name or "BEARER" in name or "SECRET" in name):
+                        detail = detail.replace(value, "[redacted]")
+                detail = re.sub(r"eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+", "[redacted JWT]", detail)
+                detail = " ".join(detail.split())[:300]
+                hint += f" Server validation: {detail}"
+        except ValueError:
+            pass
     raise StoreError(f"{operation} failed (HTTP {response.status_code}). {hint}")
 
 
@@ -73,7 +87,7 @@ def chunked_replace(session, token, catalogue_url, file_id, export):
                 number = len(parts) + 1
                 checksum = base64.b64encode(hashlib.sha256(chunk).digest()).decode("ascii")
                 response = session.put(
-                    f"{upload_url}/part", params={"part": number},
+                    f"{upload_url}/part", params={"part_number": number},
                     headers={**headers, "X-Checksum-SHA256": checksum},
                     files={"data": ("chunk", chunk, "application/octet-stream")},
                     timeout=(30, 300), allow_redirects=False,
