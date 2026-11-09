@@ -9,6 +9,10 @@ on:
         description: "Publish the existing committed export without rebuilding partner data"
         type: boolean
         default: false
+      metadata_only:
+        description: "Retry only the original hub-repo metadata update; use with publish_existing"
+        type: boolean
+        default: false
       resume_file_id:
         description: "Resume an existing pending store upload by file ID; creates no new file"
         type: string
@@ -225,18 +229,33 @@ jobs:
           done
 
       - name: Refresh EU store token and persist rotation
+        if: ${{ !inputs.metadata_only }}
         env:
           EU_REFRESH_TOKEN: ${{ secrets.EU_REFRESH_TOKEN }}
           EU_SECRET_WRITER_TOKEN: ${{ secrets.EU_SECRET_WRITER_TOKEN }}
         run: python scripts/refresh_eu_store_token.py
 
       - name: Replace EVORA export in the migrated EU store
+        if: ${{ !inputs.metadata_only }}
         env:
           EU_RESUME_FILE_ID: ${{ inputs.resume_file_id }}
           EU_SECRET_WRITER_TOKEN: ${{ secrets.EU_SECRET_WRITER_TOKEN }}
           EU_FILE_ID: ${{ secrets.EU_FILE_ID }}
           EU_CATALOG_ID: ${{ vars.EU_CATALOG_ID || 'evora' }}
         run: python scripts/publish_eu_store.py
+
+      - name: Use the existing store file for metadata-only retry
+        if: ${{ inputs.metadata_only }}
+        env:
+          FILE_ID: ${{ secrets.EU_FILE_ID }}
+          STORE_CATALOG: ${{ vars.EU_CATALOG_ID || 'evora' }}
+        run: |
+          set -euo pipefail
+          if [[ ! "$FILE_ID" =~ ^[A-Za-z0-9_-]+$ || ! "$STORE_CATALOG" =~ ^[A-Za-z0-9_-]+$ ]]; then
+            echo "::error::Invalid existing store file or catalogue ID."
+            exit 1
+          fi
+          printf 'EU_DOWNLOAD_URL=https://data.europa.eu/data-management/store/api/data/%s/%s\n' "$STORE_CATALOG" "$FILE_ID" >> "$GITHUB_ENV"
 
       - name: Generate EU dataset wrapper
         run: |
@@ -435,14 +454,16 @@ jobs:
 
       - name: Publish dataset to EU catalogue hub-repo
         env:
-          CATALOG: ${{ vars.EU_CATALOG_ID || 'evora' }}
+          # Preserve the catalogue identifier used by the original workflow.
+          CATALOG: ${{ secrets.EU_ID }}
         run: |
           set -e
           DATASET_ID="evora-portal-dataset"
       
           echo "Publishing wrapper dataset to hub-repo..."
       
-          curl --fail --location \
+          curl --silent --show-error --fail-with-body --location \
+               --write-out '\nHub-repo HTTP status: %{http_code}\n' \
                --retry 6 \
                --retry-delay 300 \
                --retry-all-errors \

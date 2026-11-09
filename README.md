@@ -39,7 +39,7 @@ be reused for the new store.
 | Secret | `EU_FILE_ID` | Existing store file ID. The old 24-character ID is also accepted when it can be mapped to a migrated file. |
 | Secret | `EU_ID` | Existing hub-repo service-account client ID. |
 | Secret | `EU_TOKEN` | Existing hub-repo service-account client secret. |
-| Variable | `EU_CATALOG_ID` | Catalogue identifier for both requests; defaults to `evora`. |
+| Variable | `EU_CATALOG_ID` | Migrated store catalogue name; defaults to `evora`. Hub-repo continues using `EU_ID`, as in the original workflow. |
 
 ### Automatic token renewal
 
@@ -136,3 +136,10 @@ that existing upload; it does not initialise another upload or create a file.
 After successful completion, its ID is saved as `EU_FILE_ID` and the existing
 catalogue dataset is updated to point to it. Automatic and manual file creation
 are not part of the workflow. The abort API is never called for existing files.
+
+To retry only catalogue metadata publication, select `publish_existing` and
+`metadata_only`. This leaves the completed store export and its tokens untouched.
+The hub-repo request retains the original catalogue identifier (`EU_ID`), PUT
+endpoint, dataset original ID, JSON-LD content type and retry settings. A 504
+roughly sixty seconds after a fully sent wrapper is a gateway timeout; increasing
+the client's timeout does not extend that server-side proxy deadline.
