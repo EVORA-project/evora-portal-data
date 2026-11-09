@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import copy
 import glob
 import json
 import os
@@ -6,6 +7,50 @@ from typing import Any, Dict, List
 
 PAGES_DIR = "data/eva/pages"
 MERGED_PATH = "data/eva/eva_merged.jsonld"
+
+
+EVA_METADATA_LICENSE = {
+    "@id": "https://creativecommons.org/licenses/by/4.0/",
+    "@type": "EVORAO:License",
+    "dcterms:title": "CC-BY 4.0",
+    "EVORAO:logo": {
+        "@id": "https://cdn.european-virus-archive.com/sites/default/files/LOGO_EVA.svg",
+        "@type": "EVORAO:Image",
+        "EVORAO:contentUrl": "https://cdn.european-virus-archive.com/sites/default/files/LOGO_EVA.svg",
+        "EVORAO:format": "image/svg+xml",
+        "foaf:name": "European Virus Archive - AISBL",
+    },
+    "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "EVORAO:licensingOrAttribution": (
+        "European Virus Archive - AISBL (EVA). Public catalogue data and metadata; "
+        "adapted and enriched for the EVORA Portal. "
+        "https://www.european-virus-archive.com/legal-mentions#open-licence-and-data-reuse"
+    ),
+}
+
+
+def add_eva_metadata_license(entity):
+    """Apply EVA's public catalogue default, preserving specific licence notices.
+
+    This describes the source catalogue metadata, not biological materials,
+    products or third-party images. Existing collection names remain unchanged.
+    """
+    collections = entity.get("EVORAO:collection")
+    if not collections:
+        collections = {"@type": "EVORAO:Collection", "dcterms:title": "European Virus Archive"}
+        entity["EVORAO:collection"] = collections
+    for collection in collections if isinstance(collections, list) else [collections]:
+        if not isinstance(collection, dict):
+            continue
+        provider = collection.setdefault("EVORAO:collectionDataProvider", {
+            "@type": "EVORAO:DataProvider",
+            "dcterms:title": "European Virus Archive",
+            "EVORAO:homepage": "https://www.european-virus-archive.com/",
+        })
+        if not isinstance(provider, dict):
+            continue
+        specific = collection.get("EVORAO:license") or collection.get("dcterms:license") or entity.get("dcterms:license")
+        provider.setdefault("EVORAO:license", copy.deepcopy(specific or EVA_METADATA_LICENSE))
 
 
 def main() -> int:
@@ -42,6 +87,8 @@ def main() -> int:
             unique[id(e)] = e  # fallback safety
 
     merged_graph = list(unique.values())
+    for entity in merged_graph:
+        add_eva_metadata_license(entity)
 
     os.makedirs(os.path.dirname(MERGED_PATH), exist_ok=True)
     merged = {"@context": context, "@graph": merged_graph}

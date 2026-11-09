@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
+import argparse
 import json
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 
-INPUT_JSON = Path("data/fairsharing/fairsharing_5449.json")
-OUTPUT_JSONLD = Path("data/fairsharing/fairsharing_elixir_services.jsonld")
+COLLECTIONS = {
+    "5449": {"slug": "elixir", "provider_name": "ELIXIR Europe", "provider_label": "ELIXIR", "collection_title": "FAIRsharing", "publisher_label": "FAIRsharing"},
+    "7589": {"slug": "evora", "provider_name": "European Viral Outbreak Response Alliance (EVORA)", "provider_label": "EVORA", "collection_title": "EVORA resources (FAIRsharing)", "publisher_label": "EVORA"},
+}
 
 CONTEXT = {
     "@vocab": "https://w3id.org/evorao/",
@@ -66,14 +69,15 @@ def build_viruses_taxon_and_pid() -> Dict[str, Any]:
     return pid
 
 
-def build_collection_block() -> Dict[str, Any]:
+def build_collection_block(collection_id="5449") -> Dict[str, Any]:
     """
     EVORAO:collection + collectionDataProvider + license
     with FAIRsharing CC-BY-SA 4.0 + logo HTML snippet.
     """
     return {
+        "@id": f"https://fairsharing.org/{collection_id}/",
         "@type": "EVORAO:Collection",
-        "dcterms:title": "FAIRsharing",
+        "dcterms:title": COLLECTIONS[collection_id]["collection_title"],
         "EVORAO:collectionDataProvider": {
             "@type": "EVORAO:DataProvider",
             "dcterms:title": "FAIRsharing",
@@ -82,6 +86,13 @@ def build_collection_block() -> Dict[str, Any]:
                 "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "@type": "EVORAO:License",
                 "dcterms:title": "CC-BY-SA 4.0",
+                "EVORAO:logo": {
+                    "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+                    "@type": "EVORAO:Image",
+                    "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+                    "EVORAO:format": "image/svg+xml",
+                    "foaf:name": "FAIRsharing attribution",
+                },
                 "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
                 "EVORAO:licensingOrAttribution": (
                     "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" "
@@ -92,13 +103,8 @@ def build_collection_block() -> Dict[str, Any]:
     }
 
 
-def main() -> int:
-    if not INPUT_JSON.exists():
-        raise SystemExit(f"❌ FAIRsharing raw JSON not found: {INPUT_JSON}")
-
-    with INPUT_JSON.open("r", encoding="utf-8") as f:
-        raw = json.load(f)
-
+def convert_records(raw, collection_id="5449"):
+    config = COLLECTIONS[collection_id]
     collection = raw.get("collection", {})
     records_by_id: Dict[str, Any] = raw.get("records", {})
 
@@ -109,9 +115,9 @@ def main() -> int:
     graph: List[Dict[str, Any]] = []
 
     for lr in linked_list:
-        rid = str(lr.get("linked_record_id"))
-        if not rid:
+        if not lr.get("linked_record_id"):
             continue
+        rid = str(lr["linked_record_id"])
 
         record_payload = records_by_id.get(rid)
         if not isinstance(record_payload, dict):
@@ -141,12 +147,16 @@ def main() -> int:
 
         keywords = extract_keywords(attrs, meta)
 
-        urn = f"urn:evorao:FAIRSHARING:Service:{fs_id}"
+        # Keep existing ELIXIR identifiers stable and distinguish EVORA curation
+        # when a FAIRsharing record appears in both collections.
+        namespace = "FAIRSHARING" if collection_id == "5449" else f"FAIRSHARING:{collection_id}"
+        urn = f"urn:evorao:{namespace}:Service:{fs_id}"
 
         service: Dict[str, Any] = {
             "@id": urn,
             "@type": "EVORAO:Service",
             "EVORAO:refSku": str(fs_id),
+            "dcterms:source": {"@id": f"https://fairsharing.org/{fs_id}/"},
             "dcterms:title": title,
             "dcterms:description": description,
             "dcat:keyword": keywords.copy(),
@@ -176,23 +186,40 @@ def main() -> int:
             ]
             service["search:additionalCategory"] = [linked_type]
 
-        # Provider: ELIXIR Europe as the RI
+        # Resource provider for the curated collection
         service["EVORAO:provider"] = {
             "@type": "EVORAO:ResearchInfrastructure",
-            "foaf:name": "ELIXIR Europe",
+            "foaf:name": config["provider_name"],
             "EVORAO:alternateName": [
                 {
                     "@type": "EVORAO:AlternateName",
-                    "dcterms:title": "ELIXIR",
+                    "dcterms:title": config["provider_label"],
                 }
             ],
         }
-        service["search:providerName"] = "ELIXIR"
-        service["search:collectionName"] = "FAIRsharing" 
-        service["search:publisherName"] = "FAIRsharing"
+        service["search:providerName"] = config["provider_label"]
+        service["search:collectionName"] = config["collection_title"]
+        service["search:publisherName"] = config["publisher_label"]
+        if collection_id == "7589":
+            service["EVORAO:provider"]["EVORAO:homepage"] = "https://evora-project.eu/"
+            logo = {
+                "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+                "@type": "EVORAO:Image",
+                "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+                "EVORAO:format": "image/svg+xml",
+                "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+            }
+            service["EVORAO:provider"]["EVORAO:logo"] = logo
+            service["EVORAO:publisher"] = {
+                "@type": "EVORAO:ResearchInfrastructure",
+                "foaf:name": config["provider_name"],
+                "EVORAO:alternateName": "EVORA",
+                "EVORAO:homepage": "https://evora-project.eu/",
+                "EVORAO:logo": logo,
+            }
 
         # Collection + FAIRsharing licence / attribution
-        service["EVORAO:collection"] = build_collection_block()
+        service["EVORAO:collection"] = build_collection_block(collection_id)
 
         # Generic viruses taxon + pathogen identification
         pid = build_viruses_taxon_and_pid()
@@ -219,11 +246,23 @@ def main() -> int:
     # -------------------------------------------------
     graph = list({e["@id"]: e for e in graph}.values())
 
-    OUTPUT_JSONLD.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT_JSONLD.open("w", encoding="utf-8") as f:
-        json.dump({"@context": CONTEXT, "@graph": graph}, f, ensure_ascii=False, indent=2)
+    return {"@context": CONTEXT, "@graph": graph}
 
-    print(f"✅ Wrote {len(graph)} ELIXIR FAIRsharing services → {OUTPUT_JSONLD}")
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Convert a curated FAIRsharing collection to EVORAO services.")
+    parser.add_argument("--collection-id", choices=tuple(COLLECTIONS), default="5449")
+    args = parser.parse_args()
+    collection_id = args.collection_id
+    input_json = Path(f"data/fairsharing/fairsharing_{collection_id}.json")
+    output_jsonld = Path(f"data/fairsharing/fairsharing_{COLLECTIONS[collection_id]['slug']}_services.jsonld")
+    if not input_json.exists():
+        raise SystemExit(f"FAIRsharing raw JSON not found: {input_json}")
+    raw = json.loads(input_json.read_text(encoding="utf-8"))
+    output = convert_records(raw, collection_id)
+    output_jsonld.parent.mkdir(parents=True, exist_ok=True)
+    output_jsonld.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Wrote {len(output['@graph'])} {COLLECTIONS[collection_id]['provider_label']} FAIRsharing services -> {output_jsonld}")
     return 0
 
 
