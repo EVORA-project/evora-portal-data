@@ -1,0 +1,339 @@
+{
+  "@context": {
+    "@vocab": "https://w3id.org/evorao/",
+    "EVORAO": "https://w3id.org/evorao/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "search": "https://w3id.org/evorao/search#"
+  },
+  "@graph": [
+    {
+      "@id": "urn:evorao:FAIRSHARING:7589:Service:7482",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "7482",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/7482/"
+      },
+      "dcterms:title": "RDMkit Virology Domain",
+      "dcterms:description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
+      "dcat:keyword": [
+        "Life Science",
+        "Not applicable",
+        "Viruses"
+      ],
+      "EVORAO:availability": "online",
+      "EVORAO:unitCostNote": "publicly available",
+      "search:taxon": [
+        "Viruses"
+      ],
+      "EVORAO:accessPointUrl": "https://fairsharing.org/10.25504/FAIRsharing.e31256",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "search:category": "service",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "collection"
+        }
+      ],
+      "search:additionalCategory": [
+        "collection"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "EVORAO:alternateName": [
+          {
+            "@type": "EVORAO:AlternateName",
+            "dcterms:title": "EVORA"
+          }
+        ],
+        "EVORAO:homepage": "https://evora-project.eu/",
+        "EVORAO:logo": {
+          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@type": "EVORAO:Image",
+          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:format": "image/svg+xml",
+          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+        }
+      },
+      "search:providerName": "EVORA",
+      "search:collectionName": "EVORA resources (FAIRsharing)",
+      "search:publisherName": "EVORA",
+      "EVORAO:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "EVORAO:alternateName": "EVORA",
+        "EVORAO:homepage": "https://evora-project.eu/",
+        "EVORAO:logo": {
+          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@type": "EVORAO:Image",
+          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:format": "image/svg+xml",
+          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+        }
+      },
+      "EVORAO:collection": {
+        "@id": "https://fairsharing.org/7589/",
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA resources (FAIRsharing)",
+        "EVORAO:collectionDataProvider": {
+          "@type": "EVORAO:DataProvider",
+          "dcterms:title": "FAIRsharing",
+          "EVORAO:homepage": "https://fairsharing.org/",
+          "EVORAO:license": {
+            "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "@type": "EVORAO:License",
+            "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
+            "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
+          }
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBITaxon:10239"
+        }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
+    },
+    {
+      "@id": "urn:evorao:FAIRSHARING:7589:Service:7551",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "7551",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/7551/"
+      },
+      "dcterms:title": "ICTV Ontology",
+      "dcterms:description": "The ICTV ontology developed by EVORA in collaboration with the International Committee on Taxonomy of Viruses (ICTV), transforms official virus taxonomy into FAIR, queryable data through the OLS (Ontology Lookup Service) API.",
+      "dcat:keyword": [
+        "Virology",
+        "Annotation",
+        "pathogen",
+        "Viruses",
+        "dataset"
+      ],
+      "EVORAO:availability": "online",
+      "EVORAO:unitCostNote": "publicly available",
+      "search:taxon": [
+        "Viruses"
+      ],
+      "EVORAO:accessPointUrl": "https://fairsharing.org/10.25504/FAIRsharing.a2e727",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "search:category": "service",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "terminology_artefact"
+        }
+      ],
+      "search:additionalCategory": [
+        "terminology_artefact"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "EVORAO:alternateName": [
+          {
+            "@type": "EVORAO:AlternateName",
+            "dcterms:title": "EVORA"
+          }
+        ],
+        "EVORAO:homepage": "https://evora-project.eu/",
+        "EVORAO:logo": {
+          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@type": "EVORAO:Image",
+          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:format": "image/svg+xml",
+          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+        }
+      },
+      "search:providerName": "EVORA",
+      "search:collectionName": "EVORA resources (FAIRsharing)",
+      "search:publisherName": "EVORA",
+      "EVORAO:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "EVORAO:alternateName": "EVORA",
+        "EVORAO:homepage": "https://evora-project.eu/",
+        "EVORAO:logo": {
+          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@type": "EVORAO:Image",
+          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:format": "image/svg+xml",
+          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+        }
+      },
+      "EVORAO:collection": {
+        "@id": "https://fairsharing.org/7589/",
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA resources (FAIRsharing)",
+        "EVORAO:collectionDataProvider": {
+          "@type": "EVORAO:DataProvider",
+          "dcterms:title": "FAIRsharing",
+          "EVORAO:homepage": "https://fairsharing.org/",
+          "EVORAO:license": {
+            "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "@type": "EVORAO:License",
+            "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
+            "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
+          }
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBITaxon:10239"
+        }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
+    },
+    {
+      "@id": "urn:evorao:FAIRSHARING:7589:Service:7550",
+      "@type": "EVORAO:Service",
+      "EVORAO:refSku": "7550",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/7550/"
+      },
+      "dcterms:title": "European Viral Outbreak Response Alliance Ontology",
+      "dcterms:description": "The EVORAO Ontology provides a structured and harmonized vocabulary for describing shareable pathogens as characterized biological materials, along with their derived products and associated services, organized into collections. Developed within the EVORA project, it supports consistent metadata annotation across research infrastructures, promoting findability, accessibility, interoperability, and reusability (FAIR). By aligning with relevant standards and ontologies, EVORAO facilitates cross-domain collaboration, integration, and sharing of pathogenic resources and services to enhance pandemic preparedness and response. While initially focused on virology, EVORAO is designed to be extensible and also supports metadata harmonization for other pathogens. EVORAO is compatible with DCAT and DCAT-AP, making it well-suited for efficiently cataloguing pathogen collections and related resources.",
+      "dcat:keyword": [
+        "Virology",
+        "Annotation",
+        "pathogen",
+        "FAIR",
+        "Viruses",
+        "ontology",
+        "dataset"
+      ],
+      "EVORAO:availability": "online",
+      "EVORAO:unitCostNote": "publicly available",
+      "search:taxon": [
+        "Viruses"
+      ],
+      "EVORAO:accessPointUrl": "https://fairsharing.org/10.25504/FAIRsharing.75b055",
+      "EVORAO:category": {
+        "@type": "EVORAO:ProductCategory",
+        "dcterms:title": "service"
+      },
+      "search:category": "service",
+      "EVORAO:additionalCategory": [
+        {
+          "@type": "EVORAO:ProductCategory",
+          "dcterms:title": "terminology_artefact"
+        }
+      ],
+      "search:additionalCategory": [
+        "terminology_artefact"
+      ],
+      "EVORAO:provider": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "EVORAO:alternateName": [
+          {
+            "@type": "EVORAO:AlternateName",
+            "dcterms:title": "EVORA"
+          }
+        ],
+        "EVORAO:homepage": "https://evora-project.eu/",
+        "EVORAO:logo": {
+          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@type": "EVORAO:Image",
+          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:format": "image/svg+xml",
+          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+        }
+      },
+      "search:providerName": "EVORA",
+      "search:collectionName": "EVORA resources (FAIRsharing)",
+      "search:publisherName": "EVORA",
+      "EVORAO:publisher": {
+        "@type": "EVORAO:ResearchInfrastructure",
+        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
+        "EVORAO:alternateName": "EVORA",
+        "EVORAO:homepage": "https://evora-project.eu/",
+        "EVORAO:logo": {
+          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@type": "EVORAO:Image",
+          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:format": "image/svg+xml",
+          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+        }
+      },
+      "EVORAO:collection": {
+        "@id": "https://fairsharing.org/7589/",
+        "@type": "EVORAO:Collection",
+        "dcterms:title": "EVORA resources (FAIRsharing)",
+        "EVORAO:collectionDataProvider": {
+          "@type": "EVORAO:DataProvider",
+          "dcterms:title": "FAIRsharing",
+          "EVORAO:homepage": "https://fairsharing.org/",
+          "EVORAO:license": {
+            "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "@type": "EVORAO:License",
+            "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
+            "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
+          }
+        }
+      },
+      "EVORAO:pathogenIdentification": {
+        "@type": "EVORAO:PathogenIdentification",
+        "EVORAO:pathogenName": {
+          "@type": "EVORAO:VirusName",
+          "dcterms:title": "any virus"
+        },
+        "EVORAO:taxon": {
+          "@type": "EVORAO:Taxon",
+          "dcterms:title": "Viruses",
+          "EVORAO:taxonomicId": "NCBITaxon:10239"
+        }
+      },
+      "search:taxonLabel": "Viruses",
+      "search:pathogenName": "any virus"
+    }
+  ]
+}

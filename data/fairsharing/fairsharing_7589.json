@@ -1,0 +1,808 @@
+{
+  "collection": {
+    "data": {
+      "id": "7589",
+      "type": "fairsharing_records",
+      "attributes": {
+        "created_at": "2026-02-03T13:44:19.290Z",
+        "updated_at": "2026-05-12T13:55:55.081Z",
+        "metadata": {
+          "doi": "10.25504/FAIRsharing.523110",
+          "name": "FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
+          "status": "ready",
+          "contacts": [
+            {
+              "contact_name": "EVORA helpdesk",
+              "contact_email": "fairsharing-helpdesk@evora-project.eu",
+              "contact_orcid": null
+            }
+          ],
+          "homepage": "https://evora-project.eu/",
+          "citations": [],
+          "identifier": 7589,
+          "description": "This curated collection in the FAIRsharing repository brings together a selection of resources created by the EVORA project to help strengthen pandemic preparedness and response.",
+          "abbreviation": null,
+          "year_creation": 2025
+        },
+        "legacy_ids": [],
+        "name": "FAIRsharing record for: FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
+        "abbreviation": null,
+        "url": "https://fairsharing.org/10.25504/FAIRsharing.523110",
+        "doi": "10.25504/FAIRsharing.523110",
+        "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+        "description": "This FAIRsharing record describes: This curated collection in the FAIRsharing repository brings together a selection of resources created by the EVORA project to help strengthen pandemic preparedness and response.",
+        "linked_records": [
+          {
+            "linked_record_name": "RDMkit Virology Domain",
+            "linked_record_id": 7482,
+            "linked_record_url": "https://rdmkit.elixir-europe.org/virology",
+            "linked_record_registry": "Collection",
+            "linked_record_type": "collection",
+            "relation": "collects",
+            "relation_id": 10,
+            "link_id": 26843
+          },
+          {
+            "linked_record_name": "ICTV Ontology",
+            "linked_record_id": 7551,
+            "linked_record_url": "https://www.ebi.ac.uk/ols4/ontologies/ictv",
+            "linked_record_registry": "Standard",
+            "linked_record_type": "terminology_artefact",
+            "relation": "collects",
+            "relation_id": 10,
+            "link_id": 26844
+          },
+          {
+            "linked_record_name": "European Viral Outbreak Response Alliance Ontology",
+            "linked_record_id": 7550,
+            "linked_record_url": "https://w3id.org/evorao",
+            "linked_record_registry": "Standard",
+            "linked_record_type": "terminology_artefact",
+            "relation": "collects",
+            "relation_id": 10,
+            "link_id": 26845
+          }
+        ],
+        "linking_records": [],
+        "fairsharing_registry": "Collection",
+        "record_type": "collection",
+        "subjects": [
+          "Virology",
+          "Medical Virology"
+        ],
+        "domains": [
+          "disease",
+          "pathogen"
+        ],
+        "taxonomies": [
+          "Viruses"
+        ],
+        "user_defined_tags": [
+          "pandemic preparedness"
+        ],
+        "countries": [
+          "European Union"
+        ],
+        "publications": [],
+        "licence_links": [],
+        "organisation_links": [
+          {
+            "organisation_name": "EVORA",
+            "organisation_id": 4346,
+            "organisation_types": [
+              "Consortium"
+            ],
+            "fairsharing_record_id": 7589,
+            "link_id": 14814,
+            "relation": "maintains"
+          },
+          {
+            "organisation_name": "European Virus Archive",
+            "organisation_id": 4347,
+            "organisation_types": [
+              "Consortium"
+            ],
+            "fairsharing_record_id": 7589,
+            "link_id": 14811,
+            "relation": "collaborates_on"
+          },
+          {
+            "organisation_name": "ELIXIR Europe",
+            "organisation_id": 841,
+            "organisation_types": [
+              "Government body"
+            ],
+            "fairsharing_record_id": 7589,
+            "link_id": 14812,
+            "relation": "collaborates_on"
+          },
+          {
+            "organisation_name": "European Research Infrastructure on Highly Pathogenic Agents",
+            "organisation_id": 3440,
+            "organisation_types": [
+              "Consortium"
+            ],
+            "fairsharing_record_id": 7589,
+            "link_id": 14813,
+            "relation": "collaborates_on"
+          }
+        ],
+        "grants": [],
+        "url_for_logo": null,
+        "exhaustive_licences": false,
+        "object_types": [
+          "object type agnostic"
+        ],
+        "internal_identifiers": null
+      }
+    }
+  },
+  "records": {
+    "7482": {
+      "data": {
+        "id": "7482",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2025-12-16T16:04:57.635Z",
+          "updated_at": "2026-11-09T13:06:29.870Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.e31256",
+            "name": "RDMkit Virology Domain",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "RDMKit Editors",
+                "contact_email": "rdm-editors@elixir-europe.org"
+              }
+            ],
+            "homepage": "https://rdmkit.elixir-europe.org/virology",
+            "citations": [],
+            "identifier": 7482,
+            "description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
+            "abbreviation": null,
+            "reference_url": "https://github.com/elixir-europe/rdmkit/blob/master/pages/your_domain/virology.md",
+            "year_creation": 2025
+          },
+          "legacy_ids": [],
+          "name": "FAIRsharing record for: RDMkit Virology Domain",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.e31256",
+          "doi": "10.25504/FAIRsharing.e31256",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
+          "linked_records": [
+            {
+              "linked_record_name": "Dublin Core Metadata Initiative Terms",
+              "linked_record_id": 905,
+              "linked_record_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "terminology_artefact",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26337
+            },
+            {
+              "linked_record_name": "The European Genome-phenome Archive",
+              "linked_record_id": 1865,
+              "linked_record_url": "https://ega-archive.org/",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26338
+            },
+            {
+              "linked_record_name": "Data Catalog Vocabulary",
+              "linked_record_id": 747,
+              "linked_record_url": "https://www.w3.org/TR/vocab-dcat/",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26339
+            },
+            {
+              "linked_record_name": "FAIRsharing",
+              "linked_record_id": 2521,
+              "linked_record_url": "https://fairsharing.org",
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase_and_repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26340
+            },
+            {
+              "linked_record_name": "Global Initiative on Sharing Avian Influenza Data",
+              "linked_record_id": 2925,
+              "linked_record_url": "https://www.gisaid.org/",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26341
+            },
+            {
+              "linked_record_name": "NCBI Genetic Sequence Database",
+              "linked_record_id": 1547,
+              "linked_record_url": "https://www.ncbi.nlm.nih.gov/genbank/",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26342
+            },
+            {
+              "linked_record_name": "Nextstrain",
+              "linked_record_id": 6193,
+              "linked_record_url": "https://nextstrain.org/",
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26343
+            },
+            {
+              "linked_record_name": "BioSamples",
+              "linked_record_id": 1554,
+              "linked_record_url": "https://www.ebi.ac.uk/biosamples/",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26344
+            },
+            {
+              "linked_record_name": "International Committee on Taxonomy of Viruses",
+              "linked_record_id": 5428,
+              "linked_record_url": "https://ictv.global/taxonomy",
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase_and_repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26345
+            },
+            {
+              "linked_record_name": "Pathoplexus",
+              "linked_record_id": 6071,
+              "linked_record_url": "https://pathoplexus.org",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26346
+            },
+            {
+              "linked_record_name": "Minimum Information about an Uncultivated Virus Genome",
+              "linked_record_id": 4153,
+              "linked_record_url": "https://genomicsstandardsconsortium.github.io/mixs/0010012/",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26347
+            },
+            {
+              "linked_record_name": "European Nucleotide Archive",
+              "linked_record_id": 1850,
+              "linked_record_url": "http://www.ebi.ac.uk/ena",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26348
+            },
+            {
+              "linked_record_name": "Bioschemas Sample Profile",
+              "linked_record_id": 3589,
+              "linked_record_url": "https://bioschemas.org/profiles/Sample/0.2-RELEASE-2018_11_10",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26335
+            },
+            {
+              "linked_record_name": "Minimum Information about any (x) Sequence",
+              "linked_record_id": 262,
+              "linked_record_url": "https://github.com/GenomicsStandardsConsortium/mixs",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "reporting_guideline",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26336
+            },
+            {
+              "linked_record_name": "ICTV Ontology",
+              "linked_record_id": 7551,
+              "linked_record_url": "https://www.ebi.ac.uk/ols4/ontologies/ictv",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "terminology_artefact",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 29003
+            },
+            {
+              "linked_record_name": "NCBI Organismal Classification",
+              "linked_record_id": 1220,
+              "linked_record_url": "https://github.com/obophenotype/ncbitaxon",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "terminology_artefact",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 30994
+            },
+            {
+              "linked_record_name": "Ontology Lookup Service",
+              "linked_record_id": 2863,
+              "linked_record_url": "https://www.ebi.ac.uk/ols/index",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 30995
+            }
+          ],
+          "linking_records": [
+            {
+              "linking_record_name": "EVORA’s FAIRsharing‑Referenced ELIXIR Resources for Pandemic Preparedness and Response",
+              "linking_record_id": 5449,
+              "linking_record_url": "https://evora-project.eu/",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26760
+            },
+            {
+              "linking_record_name": "FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
+              "linking_record_id": 7589,
+              "linking_record_url": "https://evora-project.eu/",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26843
+            }
+          ],
+          "fairsharing_registry": "Collection",
+          "record_type": "collection",
+          "subjects": [
+            "Life Science"
+          ],
+          "domains": [],
+          "taxonomies": [
+            "Not applicable"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "Worldwide"
+          ],
+          "publications": [
+            {
+              "id": 5184,
+              "pubmed_id": null,
+              "title": "RDMkit: A research data management toolkit for life sciences",
+              "year": 2025,
+              "url": "http://dx.doi.org/10.1016/j.patter.2025.101345",
+              "authors": "Alper, Pinar; D'Anna, Flora; Droesbeke, Bert; Andrabi, Munazah; Andrade Buono, Rafael; Bianchini, Federico; Bösl, Korbinian; Chandramouliswaran, Ishwar; Cook, Martin; Faria, Daniel; Fatima, Nazeefa; Hooft, Rob; Jareborg, Niclas; Jetten, Mijke; Pilvar, Diana; Poires-Oliveira, Gil; Popleteeva, Marina; Portell-Silva, Laura; Slifka, Jan; Suchánek, Marek; van Gelder, Celia; Welter, Danielle; Wittig, Ulrike; Coppens, Frederik; Goble, Carole; ",
+              "journal": "Patterns",
+              "doi": "10.1016/j.patter.2025.101345",
+              "created_at": "2025-12-08T16:59:02.261Z",
+              "updated_at": "2025-12-08T16:59:02.261Z"
+            }
+          ],
+          "licence_links": [],
+          "grants": [],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [],
+          "internal_identifiers": null
+        }
+      }
+    },
+    "7550": {
+      "data": {
+        "id": "7550",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2026-01-26T08:50:14.267Z",
+          "updated_at": "2026-07-01T08:22:23.202Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.75b055",
+            "name": "European Viral Outbreak Response Alliance Ontology",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "EVORA Helpdesk",
+                "contact_email": "fairsharing-helpdesk@evora-project.eu",
+                "contact_orcid": null
+              }
+            ],
+            "homepage": "https://w3id.org/evorao",
+            "citations": [],
+            "identifier": 7550,
+            "description": "The EVORAO Ontology provides a structured and harmonized vocabulary for describing shareable pathogens as characterized biological materials, along with their derived products and associated services, organized into collections. Developed within the EVORA project, it supports consistent metadata annotation across research infrastructures, promoting findability, accessibility, interoperability, and reusability (FAIR). By aligning with relevant standards and ontologies, EVORAO facilitates cross-domain collaboration, integration, and sharing of pathogenic resources and services to enhance pandemic preparedness and response. While initially focused on virology, EVORAO is designed to be extensible and also supports metadata harmonization for other pathogens. EVORAO is compatible with DCAT and DCAT-AP, making it well-suited for efficiently cataloguing pathogen collections and related resources.",
+            "abbreviation": "EVORAO",
+            "support_links": [
+              {
+                "url": "https://github.com/EVORA-project/evora-ontology",
+                "name": " EVORA Ontology",
+                "type": "Github"
+              },
+              {
+                "url": "https://evora-project.github.io/evora-ontology/",
+                "name": "EVORA Documentation",
+                "type": "Help documentation"
+              }
+            ],
+            "year_creation": 2025
+          },
+          "legacy_ids": [],
+          "name": "FAIRsharing record for: European Viral Outbreak Response Alliance Ontology",
+          "abbreviation": "EVORAO",
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.75b055",
+          "doi": "10.25504/FAIRsharing.75b055",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The EVORAO Ontology provides a structured and harmonized vocabulary for describing shareable pathogens as characterized biological materials, along with their derived products and associated services, organized into collections. Developed within the EVORA project, it supports consistent metadata annotation across research infrastructures, promoting findability, accessibility, interoperability, and reusability (FAIR). By aligning with relevant standards and ontologies, EVORAO facilitates cross-domain collaboration, integration, and sharing of pathogenic resources and services to enhance pandemic preparedness and response. While initially focused on virology, EVORAO is designed to be extensible and also supports metadata harmonization for other pathogens. EVORAO is compatible with DCAT and DCAT-AP, making it well-suited for efficiently cataloguing pathogen collections and related resources.",
+          "linked_records": [
+            {
+              "linked_record_name": "European Virus Archive",
+              "linked_record_id": 5450,
+              "linked_record_url": "https://www.european-virus-archive.com/",
+              "linked_record_registry": "Database",
+              "linked_record_type": "repository",
+              "relation": "related_to",
+              "relation_id": 4,
+              "link_id": 26756
+            },
+            {
+              "linked_record_name": "Data Catalog Vocabulary",
+              "linked_record_id": 747,
+              "linked_record_url": "https://www.w3.org/TR/vocab-dcat/",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "related_to",
+              "relation_id": 4,
+              "link_id": 26757
+            },
+            {
+              "linked_record_name": "DCAT Application profile for data portals in Europe",
+              "linked_record_id": 5368,
+              "linked_record_url": "https://op.europa.eu/en/web/eu-vocabularies/dcat-ap",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "terminology_artefact",
+              "relation": "related_to",
+              "relation_id": 4,
+              "link_id": 26758
+            },
+            {
+              "linked_record_name": "Simple Knowledge Organization System",
+              "linked_record_id": 1068,
+              "linked_record_url": "http://www.w3.org/TR/skos-reference",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "extends",
+              "relation_id": 8,
+              "link_id": 27046
+            }
+          ],
+          "linking_records": [
+            {
+              "linking_record_name": "FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
+              "linking_record_id": 7589,
+              "linking_record_url": "https://evora-project.eu/",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26845
+            },
+            {
+              "linking_record_name": "EVORA Portal",
+              "linking_record_id": 7994,
+              "linking_record_url": "https://portal.evora-project.eu/",
+              "linking_record_registry": "Database",
+              "linking_record_type": "knowledgebase",
+              "relation": "implements",
+              "relation_id": 1,
+              "link_id": 27288
+            },
+            {
+              "linking_record_name": "Minimum Information about a High Containment Laboratory Experiment",
+              "linking_record_id": 8359,
+              "linking_record_url": "https://doi.org/10.1038/s41592-025-02862-5",
+              "linking_record_registry": "Standard",
+              "linking_record_type": "reporting_guideline",
+              "relation": "related_to",
+              "relation_id": 4,
+              "link_id": 29337
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "terminology_artefact",
+          "subjects": [
+            "Virology"
+          ],
+          "domains": [
+            "Annotation",
+            "pathogen",
+            "FAIR"
+          ],
+          "taxonomies": [
+            "Viruses"
+          ],
+          "user_defined_tags": [
+            "ontology"
+          ],
+          "countries": [
+            "European Union"
+          ],
+          "publications": [],
+          "licence_links": [
+            {
+              "licence_name": "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+              "licence_id": 196,
+              "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "link_id": 4838,
+              "relation": "applies_to_content"
+            }
+          ],
+          "organisation_links": [
+            {
+              "organisation_name": "European Virus Archive",
+              "organisation_id": 4347,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7550,
+              "link_id": 14707,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "European Research Infrastructure on Highly Pathogenic Agents",
+              "organisation_id": 3440,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7550,
+              "link_id": 14710,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "ELIXIR Europe",
+              "organisation_id": 841,
+              "organisation_types": [
+                "Government body"
+              ],
+              "fairsharing_record_id": 7550,
+              "link_id": 14708,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "EVORA",
+              "organisation_id": 4346,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7550,
+              "link_id": 14709,
+              "relation": "maintains"
+            }
+          ],
+          "grants": [],
+          "url_for_logo": null,
+          "exhaustive_licences": false,
+          "object_types": [
+            "dataset"
+          ],
+          "internal_identifiers": null
+        }
+      }
+    },
+    "7551": {
+      "data": {
+        "id": "7551",
+        "type": "fairsharing_records",
+        "attributes": {
+          "created_at": "2026-01-26T09:09:55.805Z",
+          "updated_at": "2026-07-01T08:28:35.089Z",
+          "metadata": {
+            "doi": "10.25504/FAIRsharing.a2e727",
+            "name": "ICTV Ontology",
+            "status": "ready",
+            "contacts": [
+              {
+                "contact_name": "EVORA Helpdesk",
+                "contact_email": "fairsharing-helpdesk@evora-project.eu",
+                "contact_orcid": null
+              }
+            ],
+            "homepage": "https://www.ebi.ac.uk/ols4/ontologies/ictv",
+            "citations": [],
+            "identifier": 7551,
+            "description": "The ICTV ontology developed by EVORA in collaboration with the International Committee on Taxonomy of Viruses (ICTV), transforms official virus taxonomy into FAIR, queryable data through the OLS (Ontology Lookup Service) API. ",
+            "abbreviation": null,
+            "support_links": [
+              {
+                "url": "https://github.com/EVORA-project/ictv-ontology",
+                "name": "ICTV Ontology",
+                "type": "Github"
+              },
+              {
+                "url": "https://github.com/EVORA-project/ictv-ontology/tree/main/helpers",
+                "name": "Helper Libraries & Direct API Access",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/ols4/api-docs",
+                "name": "OLS API documentation",
+                "type": "Help documentation"
+              },
+              {
+                "url": "https://ictv.global/taxonomy",
+                "name": "Current ICTV Taxonomy Release",
+                "type": "Blog/News"
+              }
+            ],
+            "year_creation": 2025,
+            "associated_tools": [
+              {
+                "url": "https://ictvapi.evora-project.eu/",
+                "name": "ICTV Taxon resolver"
+              }
+            ]
+          },
+          "legacy_ids": [],
+          "name": "FAIRsharing record for: ICTV Ontology",
+          "abbreviation": null,
+          "url": "https://fairsharing.org/10.25504/FAIRsharing.a2e727",
+          "doi": "10.25504/FAIRsharing.a2e727",
+          "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+          "description": "This FAIRsharing record describes: The ICTV ontology developed by EVORA in collaboration with the International Committee on Taxonomy of Viruses (ICTV), transforms official virus taxonomy into FAIR, queryable data through the OLS (Ontology Lookup Service) API. ",
+          "linked_records": [
+            {
+              "linked_record_name": "International Committee on Taxonomy of Viruses",
+              "linked_record_id": 5428,
+              "linked_record_url": "https://ictv.global/taxonomy",
+              "linked_record_registry": "Database",
+              "linked_record_type": "knowledgebase_and_repository",
+              "relation": "related_to",
+              "relation_id": 4,
+              "link_id": 26759
+            },
+            {
+              "linked_record_name": "Simple Knowledge Organization System",
+              "linked_record_id": 1068,
+              "linked_record_url": "http://www.w3.org/TR/skos-reference",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "extends",
+              "relation_id": 8,
+              "link_id": 27050
+            },
+            {
+              "linked_record_name": "JavaScript Object Notation",
+              "linked_record_id": 475,
+              "linked_record_url": "http://dx.doi.org/10.17487/RFC8259",
+              "linked_record_registry": "Standard",
+              "linked_record_type": "model_and_format",
+              "relation": "extends",
+              "relation_id": 8,
+              "link_id": 28201
+            }
+          ],
+          "linking_records": [
+            {
+              "linking_record_name": "FAIRsharing‑Referenced Resources Developed by EVORA for Pandemic Preparedness and Response",
+              "linking_record_id": 7589,
+              "linking_record_url": "https://evora-project.eu/",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 26844
+            },
+            {
+              "linking_record_name": "EVORA Portal",
+              "linking_record_id": 7994,
+              "linking_record_url": "https://portal.evora-project.eu/",
+              "linking_record_registry": "Database",
+              "linking_record_type": "knowledgebase",
+              "relation": "implements",
+              "relation_id": 1,
+              "link_id": 27287
+            },
+            {
+              "linking_record_name": "RDMkit Virology Domain",
+              "linking_record_id": 7482,
+              "linking_record_url": "https://rdmkit.elixir-europe.org/virology",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 29003
+            }
+          ],
+          "fairsharing_registry": "Standard",
+          "record_type": "terminology_artefact",
+          "subjects": [
+            "Virology"
+          ],
+          "domains": [
+            "Annotation",
+            "pathogen"
+          ],
+          "taxonomies": [
+            "Viruses"
+          ],
+          "user_defined_tags": [],
+          "countries": [
+            "United States",
+            "European Union"
+          ],
+          "publications": [],
+          "licence_links": [],
+          "organisation_links": [
+            {
+              "organisation_name": "European Virus Archive",
+              "organisation_id": 4347,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7551,
+              "link_id": 14712,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "ELIXIR Europe",
+              "organisation_id": 841,
+              "organisation_types": [
+                "Government body"
+              ],
+              "fairsharing_record_id": 7551,
+              "link_id": 14713,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "European Research Infrastructure on Highly Pathogenic Agents",
+              "organisation_id": 3440,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7551,
+              "link_id": 14714,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "International Committee on Taxonomy of Viruses",
+              "organisation_id": 4823,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7551,
+              "link_id": 14721,
+              "relation": "collaborates_on"
+            },
+            {
+              "organisation_name": "EVORA",
+              "organisation_id": 4346,
+              "organisation_types": [
+                "Consortium"
+              ],
+              "fairsharing_record_id": 7551,
+              "link_id": 14711,
+              "relation": "maintains"
+            }
+          ],
+          "grants": [],
+          "url_for_logo": "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckFIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f2e755b0cfa8d6f36c97f4db23634c35a9e7f817/ictvLogo-head.png?disposition=inline",
+          "exhaustive_licences": false,
+          "object_types": [
+            "dataset"
+          ],
+          "internal_identifiers": null
+        }
+      }
+    }
+  }
+}

@@ -12,6 +12,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:2126",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "2126",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/2126/"
+      },
       "dcterms:title": "Electron Microscopy Data Bank",
       "dcterms:description": "Cryo-electron microscopy reconstruction methods are uniquely able to reveal structures of many important macromolecules and macromolecular complexes. The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, and electron (2D) crystallography. The EMDB was founded at EBI in 2002, under the leadership of Kim Henrick. Since 2007 it has been operated jointly by the PDBe, and the Research Collaboratory for Structural Bioinformatics (RCSB PDB) as a part of EMDataBank which is funded by a joint NIH grant to PDBe, the RCSB and the National Center for Macromolecular Imaging (NCMI).",
       "dcat:keyword": [
@@ -66,6 +69,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -76,6 +80,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -100,6 +111,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:2934",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "2934",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/2934/"
+      },
       "dcterms:title": "COVID-19 Data Portal",
       "dcterms:description": "The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.",
       "dcat:keyword": [
@@ -158,6 +172,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -168,6 +183,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -192,6 +214,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:1850",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "1850",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/1850/"
+      },
       "dcterms:title": "European Nucleotide Archive",
       "dcterms:description": "The European Nucleotide Archive (ENA) is a globally comprehensive data resource for nucleotide sequence, spanning raw data, alignments and assemblies, functional and taxonomic annotation and rich contextual data relating to sequenced samples and experimental design. Serving both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data, the ENA provides a portfolio of services for submission, data management, search and retrieval across web and programmatic interfaces. The ENA is part of the International Nucleotide Sequence Database Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at the NCBI. These three organizations exchange data on a daily basis.",
       "dcat:keyword": [
@@ -253,6 +278,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -263,6 +289,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -287,6 +320,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:7482",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "7482",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/7482/"
+      },
       "dcterms:title": "RDMkit Virology Domain",
       "dcterms:description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
       "dcat:keyword": [
@@ -328,6 +364,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -338,6 +375,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -362,6 +406,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:2303",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "2303",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/2303/"
+      },
       "dcterms:title": "Image Data Resource",
       "dcterms:description": "The Image Data Resource (IDR) is a public repository of image datasets from published scientific studies, where the community can submit, search and access high-quality bio-image data. It follows the Euro-BioImaging/ELIXIR imaging strategy using the OMERO and Bio-Formats open source software built by the Open Microscopy Environment. It includes image data linked to independent studies from genetic, RNAi, chemical, localisation and geographic high content screens, super-resolution microscopy, and digital pathology.",
       "dcat:keyword": [
@@ -427,6 +474,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -437,6 +485,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -461,6 +516,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:4947",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "4947",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/4947/"
+      },
       "dcterms:title": "The COVID-19 Vocabulary",
       "dcterms:description": "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more. COVoc concepts and synonyms are used to annotate MEDLINE, PMC and the CORD-19 preprint collection in order to provide navigation from the literature to ELIXIR core databases.",
       "dcat:keyword": [
@@ -506,6 +564,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -516,6 +575,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -540,6 +606,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:1860",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "1860",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/1860/"
+      },
       "dcterms:title": "Protein Data Bank in Europe",
       "dcterms:description": "PDBe is a founding member of the Worldwide Protein Data Bank, which collects, organises and disseminates data on biological macromolecular structures. In collaboration with the other Worldwide Protein Data Bank (wwPDB) partners, we work to maintain and provide access to the global repository of macromolecular structure models, the Protein Data Bank (PDB). PDBe provides information on all PDB entries, multiple search and browse facilities, advanced data analysis, visualisation and validation tools.",
       "dcat:keyword": [
@@ -595,6 +664,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -605,6 +675,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -629,6 +706,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:1478",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "1478",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/1478/"
+      },
       "dcterms:title": "ENA Sequence Flat File Format",
       "dcterms:description": "ENA Sequence Flat File Format is a standardised plain text format for nucleotide sequences. This format was previously called the EMBL Sequence Flat File Format.",
       "dcat:keyword": [
@@ -677,6 +757,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -687,6 +768,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -711,6 +799,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:1061",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "1061",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/1061/"
+      },
       "dcterms:title": "ENA Sequence XML Schema",
       "dcterms:description": "ENA Sequence XML Schema is a standardised XML schema for nucleotide sequences. All assembled and annotated sequences must conform to this schema.",
       "dcat:keyword": [
@@ -760,6 +851,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -770,6 +862,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -794,6 +893,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:1333",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "1333",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/1333/"
+      },
       "dcterms:title": "ENA Sample Checklists",
       "dcterms:description": "There is a minimum amount of information required during ENA sample registration and all samples must conform to a defined checklist of expected metadata values. The most suitable checklist for sample registration depends on the type of the sample. These sample checklists have been developed to meet the needs of different research communities. Different communities have different requirements on the minimum metadata expected to describe biological samples.",
       "dcat:keyword": [
@@ -839,6 +941,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -849,6 +952,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -873,6 +983,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:735",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "735",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/735/"
+      },
       "dcterms:title": "EBI BioSamples JSON Format",
       "dcterms:description": "The EBI BioSamples JSON Format is a JSON schema used for submitting data to the EBI BioSamples database. This format can also be used to update or curate existing samples.",
       "dcat:keyword": [
@@ -920,6 +1033,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -930,6 +1044,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
@@ -954,6 +1075,9 @@
       "@id": "urn:evorao:FAIRSHARING:Service:1554",
       "@type": "EVORAO:Service",
       "EVORAO:refSku": "1554",
+      "dcterms:source": {
+        "@id": "https://fairsharing.org/1554/"
+      },
       "dcterms:title": "BioSamples",
       "dcterms:description": "The BioSamples database (https://www.ebi.ac.uk/biosamples/) at the European Bioinformatics Institute (EMBL-EBI) is a core infrastructure resource that provides a centralised platform for the storage, curation, and dissemination of biological sample metadata. BioSamples holds sample descriptions across diverse datasets, enhancing their reusability and integrability in accordance with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. It provides links to assays and specific samples, and accepts direct submissions of sample information.",
       "dcat:keyword": [
@@ -1003,6 +1127,7 @@
       "search:collectionName": "FAIRsharing",
       "search:publisherName": "FAIRsharing",
       "EVORAO:collection": {
+        "@id": "https://fairsharing.org/5449/",
         "@type": "EVORAO:Collection",
         "dcterms:title": "FAIRsharing",
         "EVORAO:collectionDataProvider": {
@@ -1013,6 +1138,13 @@
             "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
             "@type": "EVORAO:License",
             "dcterms:title": "CC-BY-SA 4.0",
+            "EVORAO:logo": {
+              "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "@type": "EVORAO:Image",
+              "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
+              "EVORAO:format": "image/svg+xml",
+              "foaf:name": "FAIRsharing attribution"
+            },
             "EVORAO:resourceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "EVORAO:licensingOrAttribution": "<img src=\"https://api.fairsharing.org/img/fairsharing-attribution.svg\" alt=\"FAIRsharing Logo\">"
           }
