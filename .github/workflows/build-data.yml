@@ -5,6 +5,10 @@ on:
     - cron: "15 23 * * *"   # every day at 23:15 UTC
   workflow_dispatch:
     inputs:
+      build_only:
+        description: "Rebuild and commit portal data without publishing to the EU portal"
+        type: boolean
+        default: false
       publish_existing:
         description: "Publish the existing committed export without rebuilding partner data"
         type: boolean
@@ -43,6 +47,9 @@ jobs:
           set -e
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Test source metadata transformations
+        run: python -m unittest discover -s tests -p 'test_source_metadata.py' -v
 
       - name: Export GSHEET SA JSON 
         run: |
@@ -88,15 +95,17 @@ jobs:
           set -e
           python scripts/erinha-data/erinha_to_evorao.py
 
-      - name: Fetch FAIRsharing curated record
+      - name: Fetch FAIRsharing curated collections
         run: |
           set -e
-          python scripts/fairsharing-data/fetch_fairsharing_elixir.py
+          python scripts/fairsharing-data/fetch_fairsharing_elixir.py --collection-id 5449
+          python scripts/fairsharing-data/fetch_fairsharing_elixir.py --collection-id 7589
 
       - name: Convert FAIRsharing → EVORAO Services
         run: |
           set -e
-          python scripts/fairsharing-data/fairsharing_to_evorao.py
+          python scripts/fairsharing-data/fairsharing_to_evorao.py --collection-id 5449
+          python scripts/fairsharing-data/fairsharing_to_evorao.py --collection-id 7589
 
       - name: Invalidate outdated cache
         run: |
@@ -170,7 +179,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRSHARING_ELIXIR, ICTV-enriched)"
+            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRsharing ELIXIR/EVORA, ICTV-enriched)"
             git push
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
@@ -178,7 +187,7 @@ jobs:
   publish_eu:
     name: Publish to data.europa.eu
     needs: build_and_commit
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (needs.build_and_commit.result == 'success' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
+    if: ${{ !cancelled() && !inputs.build_only && github.ref == 'refs/heads/main' && (needs.build_and_commit.result == 'success' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
     permissions:
       contents: read
     runs-on: ubuntu-latest
