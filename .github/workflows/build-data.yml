@@ -12,6 +12,8 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     environment: PORTAL_DATA_WORKFLOW
+    outputs:
+      data_commit: ${{ steps.commit.outputs.sha }}
 
     steps:
       - name: Checkout repository
@@ -144,6 +146,7 @@ jobs:
           python scripts/merge_all_partners.py
    
       - name: Commit and push changes
+        id: commit
         if: github.ref == 'refs/heads/main'
         run: |
           set -e
@@ -155,80 +158,79 @@ jobs:
           else
             git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRSHARING_ELIXIR, ICTV-enriched)"
             git push
-          fi          
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   publish_eu:
     name: Publish to data.europa.eu
     needs: build_and_commit
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     environment: PORTAL_DATA_WORKFLOW
+    # Environment secrets are read when this job starts, after its concurrency
+    # lock. Keep the rotating token at environment scope, not repository scope.
+    concurrency:
+      group: evora-eu-publication
+      cancel-in-progress: false
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build_and_commit.outputs.data_commit }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install store publishing dependencies
+        run: python -m pip install requests PyNaCl
+
+      - name: Test store publisher
+        run: python -m unittest discover -s tests -v
+
       - name: Install required CLI tools
         run: |
           set -e
           sudo apt-get update
           sudo apt-get install -y jq
           
-      - name: Get EU Data Portal JWT
+      - name: Validate EU publishing configuration
+        env:
+          EU_REFRESH_TOKEN: ${{ secrets.EU_REFRESH_TOKEN }}
+          EU_SECRET_WRITER_TOKEN: ${{ secrets.EU_SECRET_WRITER_TOKEN }}
+          EU_FILE_ID: ${{ secrets.EU_FILE_ID }}
+          EU_ID: ${{ secrets.EU_ID }}
+          EU_TOKEN: ${{ secrets.EU_TOKEN }}
         run: |
-          set -e
-          RESP=$(curl -s -X POST "https://data.europa.eu/auth/middleware/login/service" \
-            -H "Accept: application/json" \
-            -H "Content-Type: application/json" \
-            -d "{
-              \"client_id\": \"${{ secrets.EU_ID }}\",
-              \"client_secret\": \"${{ secrets.EU_TOKEN }}\"
-            }")
+          set -euo pipefail
+          for setting in EU_REFRESH_TOKEN EU_SECRET_WRITER_TOKEN EU_FILE_ID EU_ID EU_TOKEN; do
+            if [ -z "${!setting}" ]; then
+              echo "::error::Set $setting in the PORTAL_DATA_WORKFLOW environment. See README.md."
+              exit 1
+            fi
+          done
 
-          TOKEN=$(echo "$RESP" | jq -r '.access_token')
+      - name: Refresh EU store token and persist rotation
+        env:
+          EU_REFRESH_TOKEN: ${{ secrets.EU_REFRESH_TOKEN }}
+          EU_SECRET_WRITER_TOKEN: ${{ secrets.EU_SECRET_WRITER_TOKEN }}
+        run: python scripts/refresh_eu_store_token.py
 
-          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
-            echo "❌ Failed to obtain EU JWT"
-            echo "$RESP"
-            exit 1
-          fi
+      - name: Replace EVORA export in the migrated EU store
+        env:
+          EU_FILE_ID: ${{ secrets.EU_FILE_ID }}
+          EU_CATALOG_ID: ${{ vars.EU_CATALOG_ID || 'evora' }}
+        run: python scripts/publish_eu_store.py
 
-          echo "::add-mask::$TOKEN"
-          echo "EU_BEARER=$TOKEN" >> $GITHUB_ENV
-
-      - name: Upload EVORA dataset to data.europa.eu hub-store
-        run: |
-          set -e
-          FILE="data/portal/evora_portal_all.jsonld"
-          CATALOG="${{ secrets.EU_ID }}"
-          FILE_ID="${{ secrets.EU_FILE_ID }}"
-          
-          echo "Uploading EVORA dataset to EU portal (store)..."
-          
-          if [ -z "$FILE_ID" ]; then
-            echo "No FILE_ID → creating new file (POST)"
-            
-            curl --fail --location --request POST \
-              "https://data.europa.eu/api/hub/store/data?catalog=$CATALOG" \
-              --header "Accept: application/json, text/plain, */*" \
-              --header "Authorization: Bearer $EU_BEARER" \
-              --form "file=@$FILE"
-              
-            echo "⚠️ Copy the returned id and store it as EU_FILE_ID secret."
-            
-          else
-            echo "Updating existing file $FILE_ID (PUT)"
-            
-            curl --fail --location --request PUT \
-              "https://data.europa.eu/api/hub/store/data/$FILE_ID?catalog=$CATALOG" \
-              --header "Accept: application/json, text/plain, */*" \
-              --header "Authorization: Bearer $EU_BEARER" \
-              --form "file=@$FILE"
-          fi
-          
       - name: Generate EU dataset wrapper
         run: |
           set -e
       
-          FILE_ID="${{ secrets.EU_FILE_ID }}"
+          : "${EU_DOWNLOAD_URL:?The store upload must succeed before generating metadata}"
           TODAY=$(date -u +"%Y-%m-%d")
           SIZE=$(stat -c%s data/portal/evora_portal_all.jsonld)
       
@@ -328,11 +330,11 @@ jobs:
                 "@id": "https://portal.evora-project.eu"
               },
               "dcat:distribution": {
-                "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
+                "@id": "$EU_DOWNLOAD_URL"
               }
             },
             {
-              "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID",
+              "@id": "$EU_DOWNLOAD_URL",
               "@type": "dcat:Distribution",
               "dcterms:identifier": "evora-portal-dataset-distribution",
               "dcterms:title": "EVORA Portal full JSON-LD export",
@@ -358,7 +360,7 @@ jobs:
                 "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
               },
               "dcat:downloadURL": {
-                "@id": "https://data.europa.eu/api/hub/store/data/$FILE_ID"
+                "@id": "$EU_DOWNLOAD_URL"
               },
               "dcat:accessURL": {
                 "@id": "https://portal.evora-project.eu"
@@ -399,10 +401,31 @@ jobs:
           }
           EOF
 
+      # The store has migrated; hub-repo still uses its service-account login.
+      - name: Get EU catalogue repository JWT
+        env:
+          EU_ID: ${{ secrets.EU_ID }}
+          EU_TOKEN: ${{ secrets.EU_TOKEN }}
+        run: |
+          set -euo pipefail
+          PAYLOAD=$(jq -n --arg id "$EU_ID" --arg secret "$EU_TOKEN" \
+            '{client_id: $id, client_secret: $secret}')
+          # Keep credential-bearing responses out of logs, including on failure.
+          RESP=$(curl --silent --show-error --fail \
+            --connect-timeout 30 --max-time 120 \
+            --request POST "https://data.europa.eu/auth/middleware/login/service" \
+            -H "Accept: application/json" \
+            -H "Content-Type: application/json" \
+            --data-binary "$PAYLOAD")
+          TOKEN=$(echo "$RESP" | jq -er '.access_token | select(type == "string" and length > 0)')
+          echo "::add-mask::$TOKEN"
+          echo "EU_REPO_BEARER=$TOKEN" >> "$GITHUB_ENV"
+
       - name: Publish dataset to EU catalogue hub-repo
+        env:
+          CATALOG: ${{ vars.EU_CATALOG_ID || 'evora' }}
         run: |
           set -e
-          CATALOG="${{ secrets.EU_ID }}"
           DATASET_ID="evora-portal-dataset"
       
           echo "Publishing wrapper dataset to hub-repo..."
@@ -415,6 +438,6 @@ jobs:
                --request PUT \
             "https://data.europa.eu/api/hub/repo/catalogues/$CATALOG/datasets/origin?originalId=$DATASET_ID" \
             --header "Content-Type: application/ld+json" \
-            --header "Authorization: Bearer $EU_BEARER" \
+            --header "Authorization: Bearer $EU_REPO_BEARER" \
             --data-binary @eu_dataset_wrapper.jsonld
 
