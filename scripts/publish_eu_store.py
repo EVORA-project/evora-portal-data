@@ -111,7 +111,7 @@ def finish_chunked(session, token, catalogue_url, file_id, export, info):
                 etag = response.json()["etag"]
                 if not isinstance(etag, str) or not etag:
                     raise ValueError
-                parts.append({"part": number, "etag": etag})
+                parts.append({"part_number": number, "etag": etag})
                 transferred += len(chunk)
                 print(f"Uploaded chunk {number}: {transferred}/{size} bytes.")
         if transferred != size:

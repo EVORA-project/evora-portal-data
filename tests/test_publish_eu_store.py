@@ -163,7 +163,7 @@ class StorePublisherTests(unittest.TestCase):
             self.assertEqual(call.kwargs["headers"]["X-Checksum-SHA256"], checksum)
             self.assertFalse(call.kwargs["allow_redirects"])
         self.assertEqual(self.session.post.call_args.kwargs["json"], {"parts": [
-            {"part": 1, "etag": "etag-1"}, {"part": 2, "etag": "etag-2"}, {"part": 3, "etag": "etag-3"},
+            {"part_number": 1, "etag": "etag-1"}, {"part_number": 2, "etag": "etag-2"}, {"part_number": 3, "etag": "etag-3"},
         ]})
         self.session.delete.assert_not_called()
 
