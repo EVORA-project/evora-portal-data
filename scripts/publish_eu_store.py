@@ -2,6 +2,7 @@
 
 import base64
 import hashlib
+import json
 import os
 from pathlib import Path
 import re
@@ -47,13 +48,13 @@ def require_status(response, expected, operation):
     if response.status_code in (400, 409, 413):
         try:
             payload = response.json()
-            detail = (payload.get("error") or payload.get("detail")) if isinstance(payload, dict) else None
+            detail = json.dumps(payload, ensure_ascii=True) if isinstance(payload, (dict, list)) else None
             if isinstance(detail, str):
                 for name, value in os.environ.items():
                     if value and ("TOKEN" in name or "BEARER" in name or "SECRET" in name):
                         detail = detail.replace(value, "[redacted]")
                 detail = re.sub(r"eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+", "[redacted JWT]", detail)
-                detail = " ".join(detail.split())[:300]
+                detail = " ".join(detail.split())[:1500]
                 hint += f" Server validation: {detail}"
         except ValueError:
             pass
@@ -87,7 +88,7 @@ def finish_chunked(session, token, catalogue_url, file_id, export, info):
     headers = {"Authorization": f"Bearer {token}"}
     size = export.stat().st_size
     try:
-        if not isinstance(info.get("upload_id"), str) or not info["upload_id"]:
+        if not info.get("resume_existing") and (not isinstance(info.get("upload_id"), str) or not info["upload_id"]):
             raise ValueError
         chunk_size = info.get("chunk_size", CHUNK_SIZE)
         if type(chunk_size) is not int or not 0 < chunk_size <= 64 * 1024 * 1024:
@@ -177,21 +178,7 @@ def upload_export(session, token, catalogue, file_id, export=EXPORT):
 
 
 
-def recover_missing_export(session, token, catalogue, missing_id, export=EXPORT):
-    """Explicit operator recovery only; scheduled publication never creates files."""
-    catalogue_url = f"{STORE_API}/{path_segment(catalogue)}"
-    headers = {"Authorization": f"Bearer {token}"}
-    existing = session.get(
-        f"{catalogue_url}/{path_segment(missing_id)}", headers=headers,
-        stream=True, timeout=(30, 60), allow_redirects=False,
-    )
-    status = existing.status_code
-    existing.close()
-    if status != 404:
-        raise StoreError("Recovery requires an HTTP 404 for the configured file; refusing to create another file.")
-    if not export.is_file() or export.stat().st_size == 0:
-        raise StoreError("Recovery export is missing or empty.")
-
+def file_id_persister(session):
     repository = required_setting(os.environ, "GITHUB_REPOSITORY")
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
         raise StoreError("Invalid GITHUB_REPOSITORY for file recovery.")
@@ -211,21 +198,25 @@ def recover_missing_export(session, token, catalogue, missing_id, export=EXPORT)
         )
         require_status(response, 204, "Recovery file ID persistence")
 
-    # Verify write access without changing the value before creating a file.
-    persist(missing_id)
-    response = session.post(
-        f"{catalogue_url}/chunked/init", headers=headers,
-        json={"filename": export.name, "mimetype": "application/ld+json", "size": export.stat().st_size, "chunk_size": CHUNK_SIZE},
-        timeout=(30, 120), allow_redirects=False,
-    )
-    require_status(response, 201, "Recovery file initialization")
-    info = response.json()
-    file_id = info["file_id"]
-    path_segment(file_id)
-    print(f"Recovery store file ID: {file_id}")
-    finish_chunked(session, token, catalogue_url, file_id, export, info)
-    persist(file_id)
-    return file_id, f"{catalogue_url}/{file_id}"
+    return persist
+
+
+def resume_pending_export(session, token, catalogue, current_id, pending_id, export=EXPORT):
+    """Finish an existing upload; do not initialise or create a file."""
+    catalogue_url = f"{STORE_API}/{path_segment(catalogue)}"
+    path_segment(pending_id)
+    if not export.is_file() or export.stat().st_size == 0:
+        raise StoreError("Resume export is missing or empty.")
+    persist = file_id_persister(session)
+    persist(current_id)
+    print(f"Resuming existing store upload: {pending_id}")
+    # The store keeps its upload session under the file ID. Part PUTs replace
+    # those same numbered parts; no new file or multipart session is created.
+    finish_chunked(session, token, catalogue_url, pending_id, export, {
+        "file_id": pending_id, "chunk_size": CHUNK_SIZE, "resume_existing": True,
+    })
+    persist(pending_id)
+    return pending_id, f"{catalogue_url}/{pending_id}"
 
 
 def main():
@@ -235,8 +226,9 @@ def main():
         catalogue = os.environ.get("EU_CATALOG_ID", "evora")
         github_env = Path(required_setting(os.environ, "GITHUB_ENV"))
         with requests.Session() as session:
-            if os.environ.get("EU_RECOVER_MISSING_FILE") == "true":
-                file_id, download_url = recover_missing_export(session, token, catalogue, file_id)
+            pending_id = os.environ.get("EU_RESUME_FILE_ID", "").strip()
+            if pending_id:
+                file_id, download_url = resume_pending_export(session, token, catalogue, file_id, pending_id)
             else:
                 file_id, download_url = upload_export(session, token, catalogue, file_id)
         # Export only public identifiers. The token stays scoped to this step.

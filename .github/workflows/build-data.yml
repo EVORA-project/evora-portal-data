@@ -9,10 +9,10 @@ on:
         description: "Publish the existing committed export without rebuilding partner data"
         type: boolean
         default: false
-      recover_missing_file:
-        description: "Recover a missing store file and save its new ID (requires publish_existing)"
-        type: boolean
-        default: false
+      resume_file_id:
+        description: "Resume an existing pending store upload by file ID; creates no new file"
+        type: string
+        default: ""
 
 jobs:
   build_and_commit:
@@ -232,7 +232,7 @@ jobs:
 
       - name: Replace EVORA export in the migrated EU store
         env:
-          EU_RECOVER_MISSING_FILE: ${{ inputs.recover_missing_file && 'true' || 'false' }}
+          EU_RESUME_FILE_ID: ${{ inputs.resume_file_id }}
           EU_SECRET_WRITER_TOKEN: ${{ secrets.EU_SECRET_WRITER_TOKEN }}
           EU_FILE_ID: ${{ secrets.EU_FILE_ID }}
           EU_CATALOG_ID: ${{ vars.EU_CATALOG_ID || 'evora' }}
