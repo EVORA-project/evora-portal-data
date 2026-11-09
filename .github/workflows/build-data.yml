@@ -44,6 +44,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Test source metadata transformations
+        run: python -m unittest discover -s tests -p 'test_source_metadata.py' -v
+
       - name: Export GSHEET SA JSON 
         run: |
           set -e
@@ -88,15 +91,17 @@ jobs:
           set -e
           python scripts/erinha-data/erinha_to_evorao.py
 
-      - name: Fetch FAIRsharing curated record
+      - name: Fetch FAIRsharing curated collections
         run: |
           set -e
-          python scripts/fairsharing-data/fetch_fairsharing_elixir.py
+          python scripts/fairsharing-data/fetch_fairsharing_elixir.py --collection-id 5449
+          python scripts/fairsharing-data/fetch_fairsharing_elixir.py --collection-id 7589
 
       - name: Convert FAIRsharing → EVORAO Services
         run: |
           set -e
-          python scripts/fairsharing-data/fairsharing_to_evorao.py
+          python scripts/fairsharing-data/fairsharing_to_evorao.py --collection-id 5449
+          python scripts/fairsharing-data/fairsharing_to_evorao.py --collection-id 7589
 
       - name: Invalidate outdated cache
         run: |
@@ -170,7 +175,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRSHARING_ELIXIR, ICTV-enriched)"
+            git commit -m "Update EVORA portal data (EVA + ERINHA + FAIRsharing ELIXIR/EVORA, ICTV-enriched)"
             git push
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"

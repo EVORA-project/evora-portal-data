@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import json
 import os
 import time
@@ -74,11 +75,16 @@ def get_record(jwt: str, record_id: str) -> Dict[str, Any]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Fetch a curated FAIRsharing collection and its linked records.")
+    parser.add_argument("--collection-id", choices=("5449", "7589"), default=COLLECTION_ID)
+    args = parser.parse_args()
+    collection_id = args.collection_id
+    output_json = OUTPUT_DIR / f"fairsharing_{collection_id}.json"
     jwt = get_jwt()
 
-    # 1) Fetch the EVORA collection record itself
-    print(f"🔎 Fetching FAIRsharing collection {COLLECTION_ID}…")
-    collection = get_record(jwt, COLLECTION_ID)
+    # 1) Fetch the collection record itself
+    print(f"🔎 Fetching FAIRsharing collection {collection_id}…")
+    collection = get_record(jwt, collection_id)
 
     # 2) Extract linked record IDs from the collection
     coll_data = collection.get("data", {})
@@ -87,6 +93,8 @@ def main() -> int:
 
     record_ids = sorted({str(lr.get("linked_record_id")) for lr in linked_list if lr.get("linked_record_id")})
     print(f"✅ Collection has {len(record_ids)} linked FAIRsharing records: {', '.join(record_ids) or 'none'}")
+    if not record_ids:
+        raise SystemExit(f"FAIRsharing collection {collection_id} has no linked records; refusing to replace its saved export.")
 
     # 3) Fetch each linked record
     records: Dict[str, Any] = {}
@@ -101,13 +109,13 @@ def main() -> int:
         "records": records,
     }
     
-    tmp = OUTPUT_JSON.with_suffix(".tmp")
+    tmp = output_json.with_suffix(".tmp")
     with tmp.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    tmp.replace(OUTPUT_JSON)
+    tmp.replace(output_json)
 
-    print(f"✅ Saved FAIRsharing EVORA collection + {len(records)} linked records → {OUTPUT_JSON}")
+    print(f"✅ Saved FAIRsharing collection {collection_id} + {len(records)} linked records → {output_json}")
     return 0
 
 
