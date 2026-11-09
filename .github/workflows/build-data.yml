@@ -178,7 +178,7 @@ jobs:
   publish_eu:
     name: Publish to data.europa.eu
     needs: build_and_commit
-    if: always() && github.ref == 'refs/heads/main' && (needs.build_and_commit.result == 'success' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing))
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (needs.build_and_commit.result == 'success' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -464,7 +464,7 @@ jobs:
       
           curl --silent --show-error --fail-with-body --location \
                --write-out '\nHub-repo HTTP status: %{http_code}\n' \
-               --retry 6 \
+               --retry "${{ inputs.metadata_only && '0' || '6' }}" \
                --retry-delay 300 \
                --retry-all-errors \
                --max-time 300 \

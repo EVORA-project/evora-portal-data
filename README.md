@@ -143,3 +143,6 @@ The hub-repo request retains the original catalogue identifier (`EU_ID`), PUT
 endpoint, dataset original ID, JSON-LD content type and retry settings. A 504
 roughly sixty seconds after a fully sent wrapper is a gateway timeout; increasing
 the client's timeout does not extend that server-side proxy deadline.
+
+A metadata-only diagnostic makes one attempt and reports its HTTP result; normal
+scheduled publication retains the original six retries with five-minute backoff.
