@@ -8,7 +8,6 @@ from datetime import datetime, timezone
 INPUT_FILES = [
     Path("data/portal/catalog_node.jsonld"),
     Path("data/fairsharing/fairsharing_elixir_services.jsonld"),
-    Path("data/fairsharing/fairsharing_evora_services.jsonld"),
     Path("data/erinha/erinha_services_enriched.jsonld"),
     Path("data/eva/eva_merged_enriched.jsonld"),
 ]

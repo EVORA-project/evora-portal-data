@@ -146,33 +146,3 @@ the client's timeout does not extend that server-side proxy deadline.
 
 A metadata-only diagnostic makes one attempt and reports its HTTP result; normal
 scheduled publication retains the original six retries with five-minute backoff.
-
-## Source licences and FAIRsharing collections
-
-EVA's public catalogue metadata carries its [CC BY 4.0 notice](https://www.european-virus-archive.com/legal-mentions#open-licence-and-data-reuse)
-under `EVORAO:collection -> EVORAO:collectionDataProvider -> EVORAO:license`,
-matching ERINHA's data-provider licence structure. Specific existing licence
-notices take precedence. This licence describes public catalogue metadata and
-does not relicense biological materials, products, images or access conditions.
-
-The build fetches and converts both curated FAIRsharing collections:
-
-| Collection | Resource provider | Metadata source and licence |
-| --- | --- | --- |
-| [5449](https://fairsharing.org/5449/) | ELIXIR | FAIRsharing, CC BY-SA 4.0 |
-| [7589](https://fairsharing.org/7589/) | EVORA | FAIRsharing, CC BY-SA 4.0 |
-
-EVORA resources have EVORA as provider and publisher, with separate identifiers
-so membership in the new collection cannot overwrite ELIXIR entries. FAIRsharing
-source links and its required attribution remain present. Source-specific
-licences remain attached to entries; the aggregate export retains CC BY-SA 4.0.
-
-Use the workflow's `build_only` option to rebuild and commit portal data without
-contacting the EU store or hub-repo while that service issue is being resolved.
-
-Publisher/attribution logos are also represented in the dataset with
-`EVORAO:logo` pointing to an `EVORAO:Image` with `EVORAO:resourceUrl`. EVORA
-resources use EVORA's logo on their publisher/provider; FAIRsharing's attribution
-logo remains with the FAIRsharing metadata licence. EVA's attribution logo is
-included with its source-metadata licence. The portal frontend must read these
-fields to display them rather than relying only on hardcoded publisher names.
