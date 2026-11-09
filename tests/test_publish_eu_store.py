@@ -172,14 +172,13 @@ class StorePublisherTests(unittest.TestCase):
         actual = [call.kwargs["files"]["data"][1] for call in self.session.put.call_args_list[1:]]
         self.assertEqual(actual, [b"1234", b"5678", b"901"])
 
-    def test_failed_chunk_aborts_without_completing(self):
+    def test_failed_chunk_stops_without_completing_or_aborting_existing_file(self):
         init, chunks = self.prepare_chunks()
         chunks[0].status_code = 400
         with self.assertRaisesRegex(store.StoreError, "Chunk 1 upload failed"):
             self.upload()
         self.session.post.assert_not_called()
-        self.session.delete.assert_called_once()
-        self.assertTrue(self.session.delete.call_args.args[0].endswith(f"/chunked/{CURRENT_ID}/abort"))
+        self.session.delete.assert_not_called()
 
     def test_invalid_initialization_never_uploads_parts(self):
         init, chunks = self.prepare_chunks()
@@ -188,14 +187,14 @@ class StorePublisherTests(unittest.TestCase):
             self.upload()
         self.assertEqual(self.session.put.call_count, 1)
         self.session.post.assert_not_called()
-        self.session.delete.assert_called_once()
+        self.session.delete.assert_not_called()
 
     def test_failed_completion_is_not_reported_as_success(self):
         self.prepare_chunks()
         self.session.post.return_value.status_code = 500
         with contextlib.redirect_stdout(io.StringIO()), self.assertRaisesRegex(store.StoreError, "completion failed"):
             self.upload()
-        self.session.delete.assert_called_once()
+        self.session.delete.assert_not_called()
 
     def test_direct_413_falls_back_to_chunked_replacement(self):
         init, chunks = self.prepare_chunks()

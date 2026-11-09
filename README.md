@@ -92,7 +92,8 @@ store's direct-upload limit (HTTP 413). Files larger than 5 MiB use the chunked
 `update`, `part`, and `complete` endpoints, preserving the existing file ID. Parts
 are uploaded sequentially with SHA-256 checksums, using the chunk size confirmed
 by the server; completion submits their ordered ETags. An incomplete upload is
-aborted to clean up temporary parts. Small files also fall back to chunking if
+left for inspection rather than aborted: the new API's abort operation affected
+the migrated file's public visibility during validation. Small files also fall back to chunking if
 the direct request returns HTTP 413.
 
 The uploader replaces an existing file and fails if
@@ -125,3 +126,6 @@ python -m unittest discover -s tests -v
 After configuring credentials, run **Build EVORA portal data** manually on `main`
 and check both the file replacement and metadata publication steps. Local tests
 do not verify live credentials or catalogue permissions.
+
+For a retry using the already committed export, select `publish_existing` in
+**Run workflow**. The scheduled run still rebuilds all partner data normally.

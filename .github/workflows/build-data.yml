@@ -4,10 +4,16 @@ on:
   schedule:
     - cron: "15 23 * * *"   # every day at 23:15 UTC
   workflow_dispatch:
+    inputs:
+      publish_existing:
+        description: "Publish the existing committed export without rebuilding partner data"
+        type: boolean
+        default: false
 
 jobs:
   build_and_commit:
     name: Build & commit portal data
+    if: github.event_name != 'workflow_dispatch' || !inputs.publish_existing
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -164,7 +170,7 @@ jobs:
   publish_eu:
     name: Publish to data.europa.eu
     needs: build_and_commit
-    if: github.ref == 'refs/heads/main'
+    if: always() && github.ref == 'refs/heads/main' && (needs.build_and_commit.result == 'success' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing))
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -179,7 +185,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ needs.build_and_commit.outputs.data_commit }}
+          ref: ${{ needs.build_and_commit.outputs.data_commit || github.sha }}
 
       - name: Set up Python
         uses: actions/setup-python@v5

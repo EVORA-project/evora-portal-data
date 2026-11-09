@@ -64,6 +64,14 @@ def chunked_replace(session, token, catalogue_url, file_id, export):
     upload_url = f"{catalogue_url}/chunked/{path_segment(file_id)}"
     headers = {"Authorization": f"Bearer {token}"}
     size = export.stat().st_size
+    existing = session.get(
+        f"{catalogue_url}/{path_segment(file_id)}", headers=headers, stream=True,
+        timeout=(30, 60), allow_redirects=False,
+    )
+    status = existing.status_code
+    existing.close()
+    print(f"Existing file access check: HTTP {status}.")
+    require_status(existing, 200, "Existing store file access")
     response = session.put(
         f"{upload_url}/update", headers=headers,
         json={"filename": export.name, "mimetype": "application/ld+json", "size": size, "chunk_size": CHUNK_SIZE},
@@ -107,12 +115,8 @@ def chunked_replace(session, token, catalogue_url, file_id, export):
         )
         require_status(response, 201, "Chunked file replacement completion")
     except (StoreError, requests.RequestException, OSError, ValueError, KeyError, TypeError) as exc:
-        # This endpoint removes this upload's temporary parts, not the published
-        # file. Do not leave an incomplete session blocking the next daily run.
-        try:
-            session.delete(f"{upload_url}/abort", headers=headers, timeout=(30, 60), allow_redirects=False)
-        except requests.RequestException:
-            print("::warning::Could not clean up the incomplete chunked upload; check the store upload session.")
+        # Do not call the abort endpoint for updates to existing files: after a
+        # failed migrated-file update it removed the file from the public list.
         if isinstance(exc, (ValueError, KeyError, TypeError)):
             raise StoreError("Unexpected response from the chunked upload API.") from exc
         raise
