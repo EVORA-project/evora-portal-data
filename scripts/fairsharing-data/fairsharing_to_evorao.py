@@ -6,7 +6,7 @@ from typing import Dict, Any, List, Optional
 
 COLLECTIONS = {
     "5449": {"slug": "elixir", "provider_name": "ELIXIR Europe", "provider_label": "ELIXIR", "collection_title": "FAIRsharing", "publisher_label": "FAIRsharing"},
-    "7589": {"slug": "evora", "provider_name": "European Viral Outbreak Response Alliance (EVORA)", "provider_label": "EVORA", "collection_title": "EVORA resources (FAIRsharing)", "publisher_label": "EVORA"},
+    "7589": {"slug": "evora", "provider_name": "European Viral Outbreak Response Alliance (EVORA)", "provider_label": "EVORA", "collection_title": "EVORA resources (FAIRsharing)", "publisher_label": "FAIRsharing"},
 }
 
 CONTEXT = {
@@ -210,12 +210,12 @@ def convert_records(raw, collection_id="5449"):
                 "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
             }
             service["EVORAO:provider"]["EVORAO:logo"] = logo
+            source_license = build_collection_block(collection_id)["EVORAO:collectionDataProvider"]["EVORAO:license"]
             service["EVORAO:publisher"] = {
-                "@type": "EVORAO:ResearchInfrastructure",
-                "foaf:name": config["provider_name"],
-                "EVORAO:alternateName": "EVORA",
-                "EVORAO:homepage": "https://evora-project.eu/",
-                "EVORAO:logo": logo,
+                "@type": "foaf:Organization",
+                "foaf:name": config["publisher_label"],
+                "EVORAO:homepage": "https://fairsharing.org/",
+                "EVORAO:logo": source_license["EVORAO:logo"],
             }
 
         # Collection + FAIRsharing licence / attribution

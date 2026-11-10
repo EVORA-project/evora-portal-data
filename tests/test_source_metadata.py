@@ -83,14 +83,16 @@ class FairsharingCollectionTests(unittest.TestCase):
         self.assertEqual(entity["search:publisherName"], "FAIRsharing")
         self.assertEqual(entity["EVORAO:provider"]["foaf:name"], "ELIXIR Europe")
 
-    def test_evora_provider_and_publisher_keep_fairsharing_metadata_licence_and_credit(self):
+    def test_evora_provider_uses_fairsharing_publisher_and_keeps_metadata_credit(self):
         entity = fairsharing.convert_records(sample_collection(), "7589")["@graph"][0]
         self.assertEqual(entity["search:providerName"], "EVORA")
-        self.assertEqual(entity["search:publisherName"], "EVORA")
+        self.assertEqual(entity["search:publisherName"], "FAIRsharing")
         self.assertEqual(entity["EVORAO:provider"]["foaf:name"], "European Viral Outbreak Response Alliance (EVORA)")
-        self.assertEqual(entity["EVORAO:publisher"]["EVORAO:alternateName"], "EVORA")
+        self.assertEqual(entity["EVORAO:publisher"]["foaf:name"], "FAIRsharing")
+        self.assertEqual(entity["EVORAO:publisher"]["@type"], "foaf:Organization")
+        self.assertIn("images/logo/logo.svg", entity["EVORAO:provider"]["EVORAO:logo"]["EVORAO:contentUrl"])
         self.assertEqual(entity["EVORAO:publisher"]["EVORAO:logo"]["@type"], "EVORAO:Image")
-        self.assertIn("images/logo/logo.svg", entity["EVORAO:publisher"]["EVORAO:logo"]["EVORAO:contentUrl"])
+        self.assertIn("fairsharing-attribution.svg", entity["EVORAO:publisher"]["EVORAO:logo"]["EVORAO:contentUrl"])
         collection = entity["EVORAO:collection"]
         self.assertEqual(collection["@id"], "https://fairsharing.org/7589/")
         source = collection["EVORAO:collectionDataProvider"]

@@ -62,18 +62,17 @@
       },
       "search:providerName": "EVORA",
       "search:collectionName": "EVORA resources (FAIRsharing)",
-      "search:publisherName": "EVORA",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
-        "EVORAO:alternateName": "EVORA",
-        "EVORAO:homepage": "https://evora-project.eu/",
+        "@type": "foaf:Organization",
+        "foaf:name": "FAIRsharing",
+        "EVORAO:homepage": "https://fairsharing.org/",
         "EVORAO:logo": {
-          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
           "@type": "EVORAO:Image",
-          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
           "EVORAO:format": "image/svg+xml",
-          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+          "foaf:name": "FAIRsharing attribution"
         }
       },
       "EVORAO:collection": {
@@ -171,18 +170,17 @@
       },
       "search:providerName": "EVORA",
       "search:collectionName": "EVORA resources (FAIRsharing)",
-      "search:publisherName": "EVORA",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
-        "EVORAO:alternateName": "EVORA",
-        "EVORAO:homepage": "https://evora-project.eu/",
+        "@type": "foaf:Organization",
+        "foaf:name": "FAIRsharing",
+        "EVORAO:homepage": "https://fairsharing.org/",
         "EVORAO:logo": {
-          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
           "@type": "EVORAO:Image",
-          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
           "EVORAO:format": "image/svg+xml",
-          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+          "foaf:name": "FAIRsharing attribution"
         }
       },
       "EVORAO:collection": {
@@ -282,18 +280,17 @@
       },
       "search:providerName": "EVORA",
       "search:collectionName": "EVORA resources (FAIRsharing)",
-      "search:publisherName": "EVORA",
+      "search:publisherName": "FAIRsharing",
       "EVORAO:publisher": {
-        "@type": "EVORAO:ResearchInfrastructure",
-        "foaf:name": "European Viral Outbreak Response Alliance (EVORA)",
-        "EVORAO:alternateName": "EVORA",
-        "EVORAO:homepage": "https://evora-project.eu/",
+        "@type": "foaf:Organization",
+        "foaf:name": "FAIRsharing",
+        "EVORAO:homepage": "https://fairsharing.org/",
         "EVORAO:logo": {
-          "@id": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "@id": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
           "@type": "EVORAO:Image",
-          "EVORAO:contentUrl": "https://cdn.jsdelivr.net/gh/EVORA-project/ictv-resolver@main/assets/images/logo/logo.svg",
+          "EVORAO:contentUrl": "https://api.fairsharing.org/img/fairsharing-attribution.svg",
           "EVORAO:format": "image/svg+xml",
-          "foaf:name": "European Viral Outbreak Response Alliance (EVORA)"
+          "foaf:name": "FAIRsharing attribution"
         }
       },
       "EVORAO:collection": {
