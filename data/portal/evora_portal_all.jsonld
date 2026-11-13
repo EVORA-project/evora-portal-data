@@ -14190,7 +14190,7 @@
           "@id": "urn:evorao:EVA:UL:007S-01703"
         }
       ],
-      "dcterms:modified": "2026-11-12T04:23:00Z"
+      "dcterms:modified": "2026-11-13T04:01:59Z"
     },
     {
       "@id": "urn:evorao:FAIRSHARING:Service:2126",
@@ -14510,8 +14510,9 @@
       "dcterms:title": "RDMkit Virology Domain",
       "dcterms:description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
       "dcat:keyword": [
-        "Life Science",
-        "Not applicable",
+        "Virology",
+        "All",
+        "object type agnostic",
         "Viruses"
       ],
       "EVORAO:availability": "online",
@@ -15359,8 +15360,9 @@
       "dcterms:title": "RDMkit Virology Domain",
       "dcterms:description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
       "dcat:keyword": [
-        "Life Science",
-        "Not applicable",
+        "Virology",
+        "All",
+        "object type agnostic",
         "Viruses"
       ],
       "EVORAO:availability": "online",

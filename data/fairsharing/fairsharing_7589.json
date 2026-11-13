@@ -144,7 +144,7 @@
         "type": "fairsharing_records",
         "attributes": {
           "created_at": "2025-12-16T16:04:57.635Z",
-          "updated_at": "2026-11-09T13:06:29.870Z",
+          "updated_at": "2026-11-12T10:52:21.163Z",
           "metadata": {
             "doi": "10.25504/FAIRsharing.e31256",
             "name": "RDMkit Virology Domain",
@@ -367,11 +367,11 @@
           "fairsharing_registry": "Collection",
           "record_type": "collection",
           "subjects": [
-            "Life Science"
+            "Virology"
           ],
           "domains": [],
           "taxonomies": [
-            "Not applicable"
+            "All"
           ],
           "user_defined_tags": [],
           "countries": [
@@ -395,7 +395,9 @@
           "grants": [],
           "url_for_logo": null,
           "exhaustive_licences": false,
-          "object_types": [],
+          "object_types": [
+            "object type agnostic"
+          ],
           "internal_identifiers": null
         }
       }

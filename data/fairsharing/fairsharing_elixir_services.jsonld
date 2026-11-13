@@ -326,8 +326,9 @@
       "dcterms:title": "RDMkit Virology Domain",
       "dcterms:description": "This collection has been created via a collaboration between FAIRsharing and RDMkit to provide a live representation of those standards and databases described within the Virology domain pages of RDMKit.",
       "dcat:keyword": [
-        "Life Science",
-        "Not applicable",
+        "Virology",
+        "All",
+        "object type agnostic",
         "Viruses"
       ],
       "EVORAO:availability": "online",
