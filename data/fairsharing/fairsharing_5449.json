@@ -512,6 +512,16 @@
               "relation": "collects",
               "relation_id": 10,
               "link_id": 26766
+            },
+            {
+              "linking_record_name": "ELIXIR Microbiome: Standards and Databases",
+              "linking_record_id": 9491,
+              "linking_record_url": "https://elixir-europe.org/communities/microbiome",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 31170
             }
           ],
           "fairsharing_registry": "Standard",
@@ -1384,6 +1394,16 @@
               "relation": "collects",
               "relation_id": 10,
               "link_id": 28843
+            },
+            {
+              "linking_record_name": "ELIXIR Microbiome: Standards and Databases",
+              "linking_record_id": 9491,
+              "linking_record_url": "https://elixir-europe.org/communities/microbiome",
+              "linking_record_registry": "Collection",
+              "linking_record_type": "collection",
+              "relation": "collects",
+              "relation_id": 10,
+              "link_id": 31174
             }
           ],
           "fairsharing_registry": "Database",
