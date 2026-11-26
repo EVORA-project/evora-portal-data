@@ -160,13 +160,17 @@ jobs:
             --ols_updated_at "$OLS_UPDATED"
 
       - name: Merge all partner data for portal
+        id: merge
         run: |
           set -e
           python scripts/merge_all_partners.py
    
+      - name: Generate compact index and matching details
+        run: node scripts/build_compact_index.mjs data/portal/evora_portal_all.jsonld "$RUNNER_TEMP/compact-review"
+
       - name: Commit and push changes
         id: commit
-        if: github.ref == 'refs/heads/main'
+        if: ${{ !cancelled() && steps.merge.outcome == 'success' && github.ref == 'refs/heads/main' }}
         run: |
           set -e
           git config user.name "github-actions[bot]"
@@ -180,10 +184,29 @@ jobs:
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      - name: Validate compact search, facets and detail parity
+        run: |
+          set -euo pipefail
+          export_file=data/portal/evora_portal_all.jsonld
+          hash=$(sha256sum "$export_file" | cut -d' ' -f1)
+          review="$RUNNER_TEMP/compact-review"
+          snapshot="$review/snapshots/$hash"
+          cmp "$export_file" "$snapshot/catalogue.jsonld"
+          npm ci --prefix tests/compact-index --ignore-scripts --no-audit --no-fund
+          node tests/verify_compact_index.mjs "$snapshot" "$review/parity.json"
+
+      - name: Upload verified compact snapshot for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: compact-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/compact-review/
+          if-no-files-found: error
+          retention-days: 7
+
   publish_eu:
     name: Publish to data.europa.eu
     needs: build_and_commit
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (needs.build_and_commit.result == 'success' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (needs.build_and_commit.outputs.data_commit != '' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
     permissions:
       contents: read
     runs-on: ubuntu-latest
