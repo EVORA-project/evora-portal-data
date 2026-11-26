@@ -30,6 +30,11 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     environment: PORTAL_DATA_WORKFLOW
+    env:
+      ICTV_CACHE_ONLY: ${{ github.ref != 'refs/heads/main' && 'true' || 'false' }}
+    concurrency:
+      group: catalogue-build-${{ github.ref == 'refs/heads/main' && github.run_id || github.ref }}
+      cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
     outputs:
       compact_artifact_id: ${{ steps.compact_upload.outputs.artifact-id }}
       data_commit: ${{ steps.commit.outputs.sha }}
@@ -48,6 +53,9 @@ jobs:
           set -e
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Test ICTV cache handling
+        run: python -m unittest discover -s tests -p 'test_ictv_cache.py' -v
 
       - name: Test source metadata transformations
         run: python -m unittest discover -s tests -p 'test_source_metadata.py' -v
@@ -69,6 +77,7 @@ jobs:
           echo "FAIRSHARING_PWD=${{ secrets.FAIRSHARING_PWD }}" >> $GITHUB_ENV
 
       - name: Prepare ICTV helper
+        if: env.ICTV_CACHE_ONLY != 'true'
         run: |
           set -e
           curl -f -L \
@@ -109,11 +118,12 @@ jobs:
           python scripts/fairsharing-data/fairsharing_to_evorao.py --collection-id 7589
 
       - name: Invalidate outdated cache
+        if: env.ICTV_CACHE_ONLY != 'true'
         run: |
           set -e
           CACHE="data/ictv_cache.json"
           OLS_META=$(curl -f -s \
-            --retry 5 \
+            --connect-timeout 10 --max-time 30 --retry-max-time 60 --retry 2 \
             --retry-delay 10 \
             --retry-all-errors \
             https://www.ebi.ac.uk/ols4/api/ontologies/ictv || true)
@@ -127,6 +137,11 @@ jobs:
           
           LOCAL_TS=$(jq -r '._ols_updated_at // empty' "$CACHE" 2>/dev/null || true)
 
+          if [ -z "$OLS_UPDATED" ]; then
+            echo "OLS timestamp unavailable; retaining the existing cache and its version."
+            exit 0
+          fi
+
           if [ -z "$LOCAL_TS" ]; then
             echo "❗ Cache has no timestamp — deleting."
             rm -f "$CACHE"
@@ -137,9 +152,7 @@ jobs:
           echo "📅 Local cache timestamp: $LOCAL_TS"
 
           # Compare timestamps in ISO8601 format — lexical comparison works.
-          if [ -z "$OLS_UPDATED" ]; then
-            echo "⚠️ No OLS updated timestamp available — keeping existing cache."
-          elif [[ "$LOCAL_TS" < "$OLS_UPDATED" ]]; then
+          if [[ "$LOCAL_TS" < "$OLS_UPDATED" ]]; then
             echo "🔄 ICTV OLS is newer — deleting outdated cache."
             rm -f "$CACHE"
           else

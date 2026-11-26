@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
+from __future__ import annotations
+
 import argparse
+import os
 import json
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Dict, Any, Optional, Set, List
-from datetime import datetime, timezone
+from typing import Dict, Any, Optional, Set, List, TYPE_CHECKING
 
-from ictv_api import ICTVOLSClient  # fetched by workflow into this folder
+if TYPE_CHECKING:
+    from ictv_api import ICTVOLSClient
 
 
 # ============================================================
@@ -65,8 +68,6 @@ def save_cache(cache: Dict[str, Any], cache_path: Path, ols_updated_at: Optional
     try:
         if ols_updated_at:
             cache["_ols_updated_at"] = ols_updated_at
-        else:
-            cache["_ols_updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
         with cache_path.open("w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
@@ -335,6 +336,8 @@ def resolve_label_once(label: str) -> Optional[Dict[str, Any]]:
     Worker: each thread uses its own ICTV client.
     Returns original ICTV resolution + EVORA-specific target + preserved labels.
     """
+    from ictv_api import ICTVOLSClient
+
     client = ICTVOLSClient()
     res = robust_call(client.resolveToLatest, label)
     if not isinstance(res, dict):
@@ -359,7 +362,7 @@ def resolve_all_labels(labels: Set[str], cache: Dict[str, Any], max_workers: int
     Resolve all unique labels using threads + caching.
     Existing cache entries are reused as-is.
     """
-    missing = [lbl for lbl in labels if lbl not in cache]
+    missing = [lbl for lbl in labels if not isinstance(cache.get(lbl), dict)]
     total_missing = len(missing)
 
     if total_missing == 0:
@@ -710,7 +713,8 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
 # Main file processing
 # ============================================================
 
-def enrich_file(input_path: Path, output_path: Path, cache_path: Path, ols_updated_at: Optional[str]):
+def enrich_file(input_path: Path, output_path: Path, cache_path: Path, ols_updated_at: Optional[str],
+                cache_only: bool = False):
     with input_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -724,11 +728,14 @@ def enrich_file(input_path: Path, output_path: Path, cache_path: Path, ols_updat
     # 2) Load cache
     cache = load_cache(cache_path)
 
-    # 3) Resolve missing labels in parallel
-    cache = resolve_all_labels(labels, cache, max_workers=8)
-
-    # 4) Save cache
-    save_cache(cache, cache_path, ols_updated_at)
+    if cache_only:
+        missing = sorted(label for label in labels if not isinstance(cache.get(label), dict))
+        if missing:
+            raise ValueError(f"Cache-only review lacks {len(missing)} ICTV label(s): {', '.join(missing)}")
+        print(f"Cache-only review: {len(labels)} labels covered; no ICTV requests or cache writes.")
+    else:
+        cache = resolve_all_labels(labels, cache, max_workers=8)
+        save_cache(cache, cache_path, ols_updated_at)
 
     # 5) Enrich all entities using cached results
     enrich_graph_with_cache(graph, cache)
@@ -760,6 +767,8 @@ def main() -> int:
         help="Cache file path (default: ictv_cache.json next to input)",
     )
     parser.add_argument('--ols_updated_at', type=str, help="Timestamp string")
+    parser.add_argument("--cache-only", action="store_true", default=os.environ.get("ICTV_CACHE_ONLY") == "true",
+                        help="Require complete coverage from the existing cache, without network access or cache writes")
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -771,7 +780,7 @@ def main() -> int:
     else:
         cache_path = input_path.with_name("ictv_cache.json")
 
-    enrich_file(input_path, output_path, cache_path, ols_updated_at)
+    enrich_file(input_path, output_path, cache_path, ols_updated_at, args.cache_only)
     return 0
 
 
