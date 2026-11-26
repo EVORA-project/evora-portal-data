@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+from urllib.parse import unquote, urlsplit
 
 
 PREDICATES = {
@@ -28,6 +29,24 @@ def as_list(value):
     return value if isinstance(value, list) else [value]
 
 
+def normalize_eva_image(image):
+    origin = "https://cdn.european-virus-archive.com"
+    url = image.get("EVORAO:contentUrl")
+    if not isinstance(url, str):
+        return
+    if url.startswith(origin + origin + "/"):
+        url = url[len(origin):]
+        image["EVORAO:contentUrl"] = url
+    if not url.startswith(origin + "/"):
+        return
+    filename = unquote(urlsplit(url).path.rsplit("/", 1)[-1])
+    media_type = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}.get(
+        Path(filename).suffix.lower())
+    if media_type:
+        image.setdefault("foaf:name", filename)
+        image.setdefault("EVORAO:format", media_type)
+
+
 def convert(value):
     if isinstance(value, list):
         return [convert(item) for item in value]
@@ -44,6 +63,9 @@ def convert(value):
         if key in result and result[key] != mapped:
             raise ValueError(f"Conflicting source values for {key} on {value.get('@id', 'embedded node')}")
         result[key] = mapped
+
+    if result.get("@type") == "EVORAO:Image":
+        normalize_eva_image(result)
 
     # The legal document is shared. The attribution and logo describe the
     # individual source's licence statement, so give that statement local scope.

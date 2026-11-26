@@ -41,6 +41,24 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(statement["EVORAO:licensingOrAttribution"], "Source-specific credit")
         self.assertEqual(candidate["@context"]["EVORAO:accessPointUrl"], {"@type": "xsd:anyURI"})
 
+    def test_eva_image_metadata_from_source_filename(self):
+        origin = "https://cdn.european-virus-archive.com"
+        key = "EVORAO:contentUrl"
+        images = [
+            {"@type": "EVORAO:Image", key: origin + origin + "/files/Example%20one.JPG"},
+            {"@type": "EVORAO:Image", key: origin + "/two.png", "foaf:name": "Credit",
+             "EVORAO:format": "image/custom"},
+            {"@type": "EVORAO:Image", key: origin + "/image?format=png"},
+            {"@type": "EVORAO:Image", key: "https://example.org/third.jpg"},
+        ]
+        source = {"@context": {}, "@graph": [{"@id": "urn:fixture", "@type": "EVORAO:Service",
+                  "EVORAO:productPicture": images}]}
+        result = publication_document(source)["@graph"][0]["EVORAO:productPicture"]
+        self.assertEqual(result[0], {"@type": "EVORAO:Image", key: origin + "/files/Example%20one.JPG",
+                                    "foaf:name": "Example one.JPG", "EVORAO:format": "image/jpeg"})
+        self.assertEqual(images[0][key], origin + origin + "/files/Example%20one.JPG")
+        self.assertEqual(result[1:], images[1:])
+
     def test_site_requires_matching_verified_bytes(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
