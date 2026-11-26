@@ -8,6 +8,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from threading import Event
 from typing import Dict, Any, Optional, Set, List, TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -17,6 +18,11 @@ if TYPE_CHECKING:
 # ============================================================
 # Basic helpers
 # ============================================================
+
+# A live worker exits with a distinct status when a remote call exhausts
+# its retries, so the workflow can replay both inputs from one saved cache.
+remote_unavailable = Event()
+
 
 def robust_call(func, *args, retries: int = 4, base_wait: float = 0.5, **kwargs):
     """
@@ -30,6 +36,11 @@ def robust_call(func, *args, retries: int = 4, base_wait: float = 0.5, **kwargs)
         except Exception as e:
             print(f"⚠️ ICTV call failed (attempt {attempt}/{retries}): {e}")
             if attempt == retries:
+                status = getattr(getattr(e, "response", None), "status_code", None)
+                if status in (408, 429) or (status is not None and status >= 500) or (
+                    status is None and isinstance(e, OSError)
+                ):
+                    remote_unavailable.set()
                 print(" → giving up on this label.\n")
                 return None
         time.sleep(wait)
@@ -65,17 +76,14 @@ def load_cache(cache_path: Path) -> Dict[str, Any]:
 
 
 def save_cache(cache: Dict[str, Any], cache_path: Path, ols_updated_at: Optional[str] = None):
-    try:
-        if ols_updated_at:
-            cache["_ols_updated_at"] = ols_updated_at
+    if ols_updated_at:
+        cache["_ols_updated_at"] = ols_updated_at
 
-        with cache_path.open("w", encoding="utf-8") as f:
-            json.dump(cache, f, ensure_ascii=False, indent=2)
+    with cache_path.open("w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
 
-        entry_count = len([k for k in cache if not k.startswith("_")])
-        print(f" Saved ICTV cache to {cache_path} ({entry_count} entries)")
-    except Exception as e:
-        print(f"⚠️ Failed to save cache {cache_path}: {e}")
+    entry_count = len([k for k in cache if not k.startswith("_")])
+    print(f" Saved ICTV cache to {cache_path} ({entry_count} entries)")
 
 
 def collect_labels_for_resolution(graph) -> Set[str]:
@@ -713,6 +721,10 @@ def enrich_graph_with_cache(graph: list, cache: Dict[str, Any]):
 # Main file processing
 # ============================================================
 
+class RemoteLookupUnavailable(RuntimeError):
+    pass
+
+
 def enrich_file(input_path: Path, output_path: Path, cache_path: Path, ols_updated_at: Optional[str],
                 cache_only: bool = False):
     with input_path.open("r", encoding="utf-8") as f:
@@ -731,10 +743,12 @@ def enrich_file(input_path: Path, output_path: Path, cache_path: Path, ols_updat
     if cache_only:
         missing = sorted(label for label in labels if not isinstance(cache.get(label), dict))
         if missing:
-            raise ValueError(f"Cache-only review lacks {len(missing)} ICTV label(s): {', '.join(missing)}")
-        print(f"Cache-only review: {len(labels)} labels covered; no ICTV requests or cache writes.")
+            raise ValueError(f"Cache-only run lacks {len(missing)} ICTV label(s): {', '.join(missing)}")
+        print(f"Cache-only run: {len(labels)} labels covered; no ICTV requests or cache writes.")
     else:
         cache = resolve_all_labels(labels, cache, max_workers=8)
+        if remote_unavailable.is_set() or any(not isinstance(cache.get(label), dict) for label in labels):
+            raise RemoteLookupUnavailable("Live OLS lookups did not return complete results")
         save_cache(cache, cache_path, ols_updated_at)
 
     # 5) Enrich all entities using cached results
@@ -780,7 +794,11 @@ def main() -> int:
     else:
         cache_path = input_path.with_name("ictv_cache.json")
 
-    enrich_file(input_path, output_path, cache_path, ols_updated_at, args.cache_only)
+    try:
+        enrich_file(input_path, output_path, cache_path, ols_updated_at, args.cache_only)
+    except RemoteLookupUnavailable as exc:
+        print(str(exc), file=sys.stderr)
+        return 75
     return 0
 
 
