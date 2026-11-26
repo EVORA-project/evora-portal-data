@@ -27,6 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: PORTAL_DATA_WORKFLOW
     outputs:
+      compact_artifact_id: ${{ steps.compact_upload.outputs.artifact-id }}
       data_commit: ${{ steps.commit.outputs.sha }}
 
     steps:
@@ -196,12 +197,72 @@ jobs:
           node tests/verify_compact_index.mjs "$snapshot" "$review/parity.json"
 
       - name: Upload verified compact snapshot for review
+        id: compact_upload
         uses: actions/upload-artifact@v4
         with:
           name: compact-review-${{ github.run_id }}-${{ github.run_attempt }}
           path: ${{ runner.temp }}/compact-review/
           if-no-files-found: error
           retention-days: 7
+
+  publication_candidate:
+    name: Validate publication JSON-LD against EVORAO 1.2.0
+    needs: build_and_commit
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download the parity-verified rebuild
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.build_and_commit.outputs.compact_artifact_id }}
+          merge-multiple: true
+          path: ${{ runner.temp }}/compact-input
+
+      - name: Prepare pinned validator and release models
+        run: |
+          set -euo pipefail
+          python -m pip install pyshacl==0.40.2 rdflib==7.6.0
+          release=https://raw.githubusercontent.com/EVORA-project/evora-ontology/v1.2.0/models
+          mkdir -p "$RUNNER_TEMP/evorao" "$RUNNER_TEMP/publication"
+          curl -fsSL --retry 3 "$release/owl/evora_ontology.owl.ttl" -o "$RUNNER_TEMP/evorao/evora_ontology.owl.ttl"
+          curl -fsSL --retry 3 "$release/subsidiary_models/shacl/evora_schema.shacl.ttl" -o "$RUNNER_TEMP/evorao/evora_schema.shacl.ttl"
+          EVORAO_MODEL_DIR="$RUNNER_TEMP/evorao" python -m unittest discover -s tests -p 'publication_validation.py' -v
+
+      - name: Build and validate the publication candidate
+        id: validate
+        run: |
+          set -euo pipefail
+          input="$RUNNER_TEMP/compact-input"
+          hash=$(jq -er '.snapshot.id | capture("^sha256:(?<hex>[0-9a-f]{64})$").hex' "$input/parity.json")
+          source="$input/snapshots/$hash/catalogue.jsonld"
+          echo "$hash  $source" | sha256sum --check --status
+          dest="$RUNNER_TEMP/publication"
+          python scripts/build_publication_jsonld.py "$source" "$dest/publication.jsonld"
+          python scripts/validate_publication_jsonld.py "$source" "$dest/publication.jsonld" "$RUNNER_TEMP/evorao" "$dest/report"
+
+      - name: Save validation and curation reports
+        if: ${{ !cancelled() && (steps.validate.outcome == 'success' || steps.validate.outcome == 'failure') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: evorao-curation-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/publication/report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Save conforming publication candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: evorao-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/publication/
+          if-no-files-found: error
+          retention-days: 30
 
   publish_eu:
     name: Publish to data.europa.eu
