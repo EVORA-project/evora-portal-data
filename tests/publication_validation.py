@@ -2,6 +2,7 @@
 from collections import Counter
 import copy
 import csv
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -10,6 +11,7 @@ import unittest
 
 from scripts.build_publication_jsonld import publication_document
 from scripts.validate_publication_jsonld import check
+from scripts.stage_publication_site import stage_site
 
 
 class PublicationTests(unittest.TestCase):
@@ -38,6 +40,35 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(statement["EVORAO:resourceUrl"], "https://example.org/license")
         self.assertEqual(statement["EVORAO:licensingOrAttribution"], "Source-specific credit")
         self.assertEqual(candidate["@context"]["EVORAO:accessPointUrl"], {"@type": "xsd:anyURI"})
+
+    def test_site_requires_matching_verified_bytes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            full = b'{"@graph":[]}'
+            digest = hashlib.sha256(full).hexdigest()
+            snapshot = root / "snapshots" / digest
+            snapshot.mkdir(parents=True)
+            (snapshot / "catalogue.jsonld").write_bytes(full)
+            (snapshot / "index.json").write_bytes(b'{}')
+            validation = {"conforms": False, "candidateSha256": digest, "sourceSha256": "source"}
+            parity = {"snapshot": {"id": "sha256:" + digest, "resourceCount": 0},
+                      "projectionSourceSha256": "source", "indexSha256": hashlib.sha256(b'{}').hexdigest()}
+            (root / "compact-parity.json").write_text(json.dumps(parity))
+            def set_validation():
+                (root / "validation.json").write_text(json.dumps(validation))
+            set_validation()
+            with self.assertRaisesRegex(ValueError, "conformance"):
+                stage_site(root, root)
+            self.assertFalse((root / "data/portal/latest.json").exists())
+            validation["conforms"] = True
+            set_validation()
+            stage_site(root, root)
+            self.assertEqual((root / "data/portal/evora_portal_all.jsonld").read_bytes(), full)
+            manifest = json.loads((root / "data/portal/latest.json").read_bytes())
+            self.assertEqual(manifest["snapshotId"], "sha256:" + digest)
+            (snapshot / "index.json").write_bytes(b'{"changed":true}')
+            with self.assertRaisesRegex(ValueError, "bytes"):
+                stage_site(root, root)
 
     def test_generated_collection_descriptions(self):
         def record(identifier, title="Example", publisher="Partner", **extra):

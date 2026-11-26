@@ -5,6 +5,10 @@ on:
     - cron: "15 23 * * *"   # every day at 23:15 UTC
   workflow_dispatch:
     inputs:
+      validate_committed:
+        description: "Run publication checks on the committed snapshot without a rebuild or EU publication"
+        type: boolean
+        default: false
       publish_existing:
         description: "Publish the existing committed export without rebuilding partner data"
         type: boolean
@@ -21,7 +25,7 @@ on:
 jobs:
   build_and_commit:
     name: Build & commit portal data
-    if: github.event_name != 'workflow_dispatch' || !inputs.publish_existing
+    if: github.event_name != 'workflow_dispatch' || (!inputs.publish_existing && !inputs.validate_committed)
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -207,6 +211,7 @@ jobs:
 
   publication_candidate:
     name: Validate publication JSON-LD against EVORAO 1.2.0
+    if: ${{ !cancelled() && (needs.build_and_commit.result == 'success' || inputs.validate_committed) }}
     needs: build_and_commit
     permissions:
       contents: read
@@ -219,6 +224,7 @@ jobs:
           python-version: "3.12"
 
       - name: Download the parity-verified rebuild
+        if: ${{ !inputs.validate_committed }}
         uses: actions/download-artifact@v4
         with:
           artifact-ids: ${{ needs.build_and_commit.outputs.compact_artifact_id }}
@@ -235,17 +241,41 @@ jobs:
           curl -fsSL --retry 3 "$release/subsidiary_models/shacl/evora_schema.shacl.ttl" -o "$RUNNER_TEMP/evorao/evora_schema.shacl.ttl"
           EVORAO_MODEL_DIR="$RUNNER_TEMP/evorao" python -m unittest discover -s tests -p 'publication_validation.py' -v
 
-      - name: Build and validate the publication candidate
-        id: validate
+      - name: Select exact merged input
+        env:
+          REPLAY: ${{ inputs.validate_committed }}
         run: |
           set -euo pipefail
-          input="$RUNNER_TEMP/compact-input"
-          hash=$(jq -er '.snapshot.id | capture("^sha256:(?<hex>[0-9a-f]{64})$").hex' "$input/parity.json")
-          source="$input/snapshots/$hash/catalogue.jsonld"
-          echo "$hash  $source" | sha256sum --check --status
+          if [[ "$REPLAY" == "true" ]]; then
+            source="$GITHUB_WORKSPACE/data/portal/evora_portal_all.jsonld"
+          else
+            input="$RUNNER_TEMP/compact-input"
+            hash=$(jq -er '.snapshot.id | capture("^sha256:(?<hex>[0-9a-f]{64})$").hex' "$input/parity.json")
+            source="$input/snapshots/$hash/catalogue.jsonld"
+            echo "$hash  $source" | sha256sum --check --status
+          fi
+          echo "PORTAL_SOURCE=$source" >> "$GITHUB_ENV"
+
+      - name: Generate canonical publication JSON-LD
+        id: candidate
+        run: |
           dest="$RUNNER_TEMP/publication"
-          python scripts/build_publication_jsonld.py "$source" "$dest/publication.jsonld" "$dest/report/generated-collection-descriptions.csv"
-          python scripts/validate_publication_jsonld.py "$source" "$dest/publication.jsonld" "$RUNNER_TEMP/evorao" "$dest/report"
+          python scripts/build_publication_jsonld.py "$PORTAL_SOURCE" "$dest/publication.jsonld" "$dest/report/generated-collection-descriptions.csv"
+
+      - name: Validate canonical compact index and details
+        run: |
+          set -euo pipefail
+          dest="$RUNNER_TEMP/publication"
+          snapshot=$(node scripts/build_compact_index.mjs "$dest/publication.jsonld" "$dest/site" https://data.evora-project.eu "$PORTAL_SOURCE")
+          npm ci --prefix tests/compact-index --ignore-scripts --no-audit --no-fund
+          node tests/verify_compact_index.mjs "$snapshot" "$dest/report/compact-parity.json" "$PORTAL_SOURCE"
+
+      - name: Validate canonical RDF with the release shapes
+        id: validate
+        if: ${{ !cancelled() && steps.candidate.outcome == 'success' }}
+        run: |
+          dest="$RUNNER_TEMP/publication"
+          python scripts/validate_publication_jsonld.py "$PORTAL_SOURCE" "$dest/publication.jsonld" "$RUNNER_TEMP/evorao" "$dest/report"
 
       - name: Save validation and curation reports
         if: ${{ !cancelled() && (steps.validate.outcome == 'success' || steps.validate.outcome == 'failure') }}
@@ -256,18 +286,21 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
+      - name: Assemble Pages files from the accepted snapshot
+        run: python scripts/stage_publication_site.py "$RUNNER_TEMP/publication/site" "$RUNNER_TEMP/publication/report"
+
       - name: Save conforming publication candidate
         uses: actions/upload-artifact@v4
         with:
           name: evorao-publication-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/publication/
+          path: ${{ runner.temp }}/publication/site/
           if-no-files-found: error
           retention-days: 30
 
   publish_eu:
     name: Publish to data.europa.eu
     needs: build_and_commit
-    if: ${{ !cancelled() && github.ref == 'refs/heads/main' && (needs.build_and_commit.outputs.data_commit != '' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
+    if: ${{ !cancelled() && !inputs.validate_committed && github.ref == 'refs/heads/main' && (needs.build_and_commit.outputs.data_commit != '' || (github.event_name == 'workflow_dispatch' && inputs.publish_existing)) }}
     permissions:
       contents: read
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-// node tests/verify_compact_index.mjs <snapshot-dir> [report.json]
+// node tests/verify_compact_index.mjs <snapshot-dir> [report.json] [same-run portal source]
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFile, readdir, writeFile } from 'node:fs/promises';
@@ -6,7 +6,7 @@ import { createReference } from './compact-index/portal-reference.mjs';
 import path from 'node:path';
 import { gzipSync } from 'node:zlib';
 
-const [directory, reportPath] = process.argv.slice(2);
+const [directory, reportPath, projectionSource] = process.argv.slice(2);
 if (!directory) throw Error('Expected snapshot directory');
 
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -20,6 +20,10 @@ const index = await readFile(path.join(directory, 'index.json'));
 const idHash = hash(full);
 const graph = JSON.parse(full)['@graph'];
 const nodes = graph.filter(node => String(node?.['@type'] || '').startsWith('EVORAO:'));
+const referenceBytes = projectionSource ? await readFile(projectionSource) : full;
+const referenceNodes = projectionSource ? JSON.parse(referenceBytes)['@graph'].filter(node =>
+  String(node?.['@type'] || '').startsWith('EVORAO:')) : nodes;
+assert.deepEqual(referenceNodes.map(n => n['@id']), nodes.map(n => n['@id']), 'Reference IDs and ordering');
 const {schemaVersion, snapshot, resources} = JSON.parse(index);
 assert.equal(schemaVersion, 'evora.portal.index/1');
 assert.equal(snapshot.id, 'sha256:' + idHash);
@@ -44,7 +48,7 @@ function validLink(value) {
 
 for (const [i, doc] of resources.entries()) {
   const node = nodes[i];
-  const live = fullPortal.mapNodeToDoc(node, i);
+  const live = fullPortal.mapNodeToDoc(referenceNodes[i], i);
   fullExportRows.push(live);
   for (const key of fields) {
     assert.deepEqual(doc[key], plain(live[key]), doc.id + ' / ' + key);
@@ -141,7 +145,7 @@ for (const query of queries) {
   }
 }
 
-const report = { schemaVersion, snapshot, portalReference: 'v1.6.0',
+const report = { schemaVersion, snapshot, portalReference: 'v1.6.0', projectionSourceSha256: hash(referenceBytes), indexSha256: hash(index),
   bytes: { index: measure(index), catalogue: measure(full), detailsIndividually: details }, gzipLevel: 9,
   verified: { resources: resources.length, projectionFields: fields.length, fullDetails: resources.length, evoraBrandingChecks,
     queries: queryCounts, facetMapChecks, multiSelectChecks, crossFacetChecks } };

@@ -1,10 +1,10 @@
-// node scripts/build_compact_index.mjs [merged.jsonld] [preview-root] [hosting-origin]
+// node scripts/build_compact_index.mjs [merged.jsonld] [preview-root] [hosting-origin] [same-run portal source for search annotations]
 import { createHash } from 'node:crypto';
 import { mkdir, mkdtemp, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const [input = 'data/portal/evora_portal_all.jsonld', output = '.compact-index-preview',
-  origin = 'https://data.evora-project.eu'] = process.argv.slice(2);
+  origin = 'https://data.evora-project.eu', projectionSource] = process.argv.slice(2);
 const schemaVersion = 'evora.portal.index/1';
 const array = value => value == null ? [] : Array.isArray(value) ? value : [value];
 const field = (obj, key) => obj?.[`EVORAO:${key}`] ?? obj?.[`evorao:${key}`] ?? obj?.[`https://w3id.org/evorao/${key}`];
@@ -76,12 +76,13 @@ function project(node, detail) {
   const license = unique(licenses.map(item => [item.title, item.attributionText].filter(Boolean).join(' – '))).join(' | ');
   const licenseShort = unique(licenses.map(item => item.title || item.url).filter(Boolean)).join(' | ');
   // Older FAIRsharing records identify the publisher via its collection data provider.
-  const publisherSources = publisherOrg || dataProviders.filter(source => orgName(source) === publisher);
-  const publisherBranding = branding(publisherSources, publisherFacet);
+  const credited = dataProviders.filter(source => [publisher, publisherFacet].includes(orgName(source)));
+  const publisherBranding = branding(publisherOrg || credited, publisherFacet);
+  if (!publisherBranding.homepage) publisherBranding.homepage = branding(credited, publisherFacet).homepage;
   // Use attribution artwork only when the credited data provider matches this publisher.
   if (!publisherBranding.logos.length) {
-    const credited = dataProviders.filter(source => [publisher, publisherFacet].includes(orgName(source)));
-    const artwork = credited.flatMap(source => array(field(source, 'license')).flatMap(logos));
+    const artwork = credited.flatMap(source =>
+      array(field(source, 'license') || source['dcterms:license'] || source['dct:license']).flatMap(logos));
     publisherBranding.logos = [...new Map(artwork.map(image => [image.contentUrl, image])).values()];
   }
   const identification = field(node, 'pathogenIdentification');
@@ -92,7 +93,7 @@ function project(node, detail) {
   const taxon = node['search:taxonLabel'] || taxonFacet[0] || (typeof taxonNode === 'string' ? taxonNode : title(taxonNode));
   const searchCategory = node['search:category'];
   const category = Array.isArray(searchCategory) ? searchCategory.join(' | ') :
-    typeof searchCategory === 'string' ? searchCategory : label(field(node, 'category')) || kind;
+    typeof searchCategory === 'string' ? searchCategory : label(node['dcat:theme'] || field(node, 'category')) || kind;
   const additionalCategories = unique(array(field(node, 'additionalCategory')).map(label).filter(Boolean));
   const collectionFacet = node['search:collectionName'] || '', riskGroupFacet = node['search:riskGroupLabel'] || '';
   const keywordFacet = array(node['dcat:keyword']).map(String), refSku = field(node, 'refSku') || '';
@@ -121,7 +122,18 @@ const generatedAt = catalogue?.['dcterms:modified'];
 if (!generatedAt || !Number.isFinite(Date.parse(generatedAt))) throw Error('Missing catalogue timestamp');
 const base = new URL(`/snapshots/${hash}/`, origin);
 if (!url(base.href)) throw Error('Expected HTTP(S) hosting origin');
-const nodes = graph.filter(node => String(node?.['@type'] || '').startsWith('EVORAO:'));
+const isResource = node => String(node?.['@type'] || '').startsWith('EVORAO:');
+const nodes = graph.filter(isResource);
+let sourceNodes;
+if (projectionSource) {
+  const sourceGraph = JSON.parse(await readFile(projectionSource))['@graph'];
+  sourceNodes = sourceGraph.filter(isResource);
+  if (sourceNodes.length !== nodes.length || nodes.some((node, i) => node['@id'] !== sourceNodes[i]['@id'])) {
+    throw Error('Canonical and portal resource IDs or ordering differ');
+  }
+  const sourceCatalogue = sourceGraph.find(node => node?.['@id'] === catalogue['@id']);
+  if (sourceCatalogue?.['dcterms:modified'] !== generatedAt) throw Error('Source snapshot timestamps differ');
+}
 const ids = new Set();
 for (const node of nodes) {
   const id = node['@id'];
@@ -139,11 +151,15 @@ const stage = await mkdtemp(path.join(parent, '.building-'));
 try {
   await mkdir(path.join(stage, 'entities'));
   const resources = [];
-  for (const node of nodes) {
+  for (const [i, node] of nodes.entries()) {
     // A digest of the UTF-8 ID is a portable single path segment, even for long HTTP IRIs.
     const file = createHash('sha256').update(node['@id']).digest('hex') + '.jsonld';
     const detail = { snapshotId: snapshot.id, url: new URL('entities/' + file, base).href };
-    const doc = project(node, detail);
+    // Only derived search annotations come from the companion source. The raw
+    // detail and all semantic properties come from the exact hashed export.
+    const annotations = sourceNodes
+      ? Object.fromEntries(Object.entries(sourceNodes[i]).filter(([key]) => key.startsWith('search:'))) : {};
+    const doc = project({ ...node, ...annotations }, detail);
     for (const [key, value] of Object.entries(doc)) {
       if (['detail', 'provenance', 'licenses', 'providerBranding', 'publisherBranding'].includes(key)) continue;
       const valid = ['additionalCategories', 'additionalCategoriesFacet', 'taxonFacet', 'keywordFacet'].includes(key)
