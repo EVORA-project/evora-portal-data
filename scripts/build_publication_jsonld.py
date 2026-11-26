@@ -4,6 +4,7 @@ import csv
 import hashlib
 import json
 from pathlib import Path
+import re
 import sys
 from urllib.parse import unquote, urlsplit
 
@@ -47,6 +48,21 @@ def normalize_eva_image(image):
         image.setdefault("EVORAO:format", media_type)
 
 
+def describe_ictv_taxonomy(taxonomy):
+    title = taxonomy.get("dcterms:title", taxonomy.get("dct:title"))
+    version = taxonomy.get("dcat:version")
+    if title != "ICTV" or not isinstance(version, str) or not re.fullmatch(r"MSL[0-9]+(?:[.]v[0-9]+)?", version):
+        return
+    keys = ("dcterms:description", "dct:description")
+    if any(str(taxonomy.get(key) or "").strip() for key in keys):
+        return
+    taxonomy.pop("dct:description", None)
+    taxonomy["dcterms:description"] = (
+        "Virus taxonomy published by the International Committee on Taxonomy of Viruses "
+        f"in its Master Species List ({version})."
+    )
+
+
 def convert(value):
     if isinstance(value, list):
         return [convert(item) for item in value]
@@ -66,6 +82,8 @@ def convert(value):
 
     if result.get("@type") == "EVORAO:Image":
         normalize_eva_image(result)
+    elif "EVORAO:Taxonomy" in as_list(result.get("@type")):
+        describe_ictv_taxonomy(result)
 
     # The legal document is shared. The attribution and logo describe the
     # individual source's licence statement, so give that statement local scope.

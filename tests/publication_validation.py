@@ -41,6 +41,27 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(statement["EVORAO:licensingOrAttribution"], "Source-specific credit")
         self.assertEqual(candidate["@context"]["EVORAO:accessPointUrl"], {"@type": "xsd:anyURI"})
 
+    def test_ictv_taxonomy_descriptions_use_the_taxonomy_release(self):
+        taxonomy = {"@type": "EVORAO:Taxonomy", "dcterms:title": "ICTV", "dcat:version": "MSL41"}
+        variants = [taxonomy, {**taxonomy, "dcat:version": "MSL36", "dct:description": " "},
+                    {**taxonomy, "dct:description": {"@value": "Existing text", "@language": "en"}},
+                    {**taxonomy, "dcterms:title": "Other"}, {**taxonomy, "dcat:version": None},
+                    {**taxonomy, "dcat:version": "unknown"}]
+        parent = {"@type": "EVORAO:Taxon", "EVORAO:taxonomicId": "example",
+                  "EVORAO:taxonomy": variants[0], "EVORAO:rank": {"EVORAO:taxonomy": variants[1]}}
+        source = {"@context": {}, "@graph": [{"@id": "urn:test", "@type": "EVORAO:Service",
+                  "example:nodes": [parent, *variants[2:]]}]}
+        original = copy.deepcopy(source)
+        result = publication_document(source)["@graph"][0]["example:nodes"]
+        text = "Virus taxonomy published by the International Committee on Taxonomy of Viruses in its Master Species List"
+        self.assertEqual(result[0]["EVORAO:taxonomy"]["dcterms:description"], text + " (MSL41).")
+        rank_taxonomy = result[0]["EVORAO:rank"]["EVORAO:taxonomy"]
+        self.assertEqual(rank_taxonomy["dcterms:description"], text + " (MSL36).")
+        self.assertNotIn("dct:description", rank_taxonomy)
+        self.assertNotIn("dcterms:description", result[0])
+        self.assertEqual(result[1:], variants[2:])
+        self.assertEqual(source, original)
+
     def test_eva_image_metadata_from_source_filename(self):
         origin = "https://cdn.european-virus-archive.com"
         key = "EVORAO:contentUrl"
