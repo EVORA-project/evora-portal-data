@@ -63,6 +63,35 @@ def describe_ictv_taxonomy(taxonomy):
     )
 
 
+def describe_metadata_provider(provider):
+    # EVORAO 1.2.0 documents zero as the default ordering weight.
+    provider.setdefault("EVORAO:weight", 0)
+    title = provider.get("dcterms:title", provider.get("dct:title"))
+    if title not in ("ERINHA", "European Virus Archive", "FAIRsharing", "ICTV via OLS4"):
+        return
+    provider.setdefault("EVORAO:queryMethod", "GET")
+    # FAIRsharing and OLS request JSON. ERINHA reads a Sheets API ValueRange.
+    # The EVA adapter parses JSON-LD without recording the HTTP media type.
+    if title != "European Virus Archive":
+        provider.setdefault("EVORAO:contentType", "application/json")
+    if title == "ERINHA":
+        provider.setdefault("EVORAO:providedEntityType", "https://w3id.org/evorao/Service")
+
+
+def describe_fairsharing_collection_endpoint(collection):
+    identifier = collection.get("@id")
+    if not isinstance(identifier, str):
+        return
+    match = re.fullmatch(r"https://fairsharing[.]org/([0-9]+)/?", identifier)
+    if not match:
+        return
+    for provider in as_list(collection.get("EVORAO:collectionDataProvider")):
+        if (isinstance(provider, dict) and "EVORAO:DataProvider" in as_list(provider.get("@type"))
+                and provider.get("dcterms:title") == "FAIRsharing"):
+            provider.setdefault("dcat:endpointURL", "https://api.fairsharing.org/fairsharing_records/" + match[1])
+            provider.setdefault("EVORAO:providedEntityType", "https://w3id.org/evorao/Collection")
+
+
 def convert(value):
     if isinstance(value, list):
         return [convert(item) for item in value]
@@ -84,6 +113,10 @@ def convert(value):
         normalize_eva_image(result)
     elif "EVORAO:Taxonomy" in as_list(result.get("@type")):
         describe_ictv_taxonomy(result)
+    elif "EVORAO:DataProvider" in as_list(result.get("@type")):
+        describe_metadata_provider(result)
+    elif "EVORAO:Collection" in as_list(result.get("@type")):
+        describe_fairsharing_collection_endpoint(result)
 
     # The legal document is shared. The attribution and logo describe the
     # individual source's licence statement, so give that statement local scope.

@@ -41,6 +41,30 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(statement["EVORAO:licensingOrAttribution"], "Source-specific credit")
         self.assertEqual(candidate["@context"]["EVORAO:accessPointUrl"], {"@type": "xsd:anyURI"})
 
+    def test_data_provider_metadata_uses_adapter_evidence_and_preserves_overrides(self):
+        def provider(title, **fields):
+            return {"@type": "EVORAO:DataProvider", "dcterms:title": title, **fields}
+        def collection(identifier, data):
+            return {"@type": "EVORAO:Collection", "@id": identifier, "EVORAO:collectionDataProvider": data}
+        nodes = [collection("https://fairsharing.org/7589/", provider("FAIRsharing")),
+                 collection("https://example.org/7589", provider("FAIRsharing")),
+                 provider("ERINHA"), provider("European Virus Archive"), provider("Other"),
+                 provider("ICTV via OLS4", **{"EVORAO:weight": 1, "EVORAO:queryMethod": "POST",
+                                             "EVORAO:contentType": "application/example"})]
+        source = {"@context": {}, "@graph": [{"@id": "urn:example", "@type": "EVORAO:Service",
+                  "example:nodes": nodes}]}
+        mapped = publication_document(source)["@graph"][0]["example:nodes"]
+        fair = mapped[0]["EVORAO:collectionDataProvider"]
+        self.assertEqual(fair["dcat:endpointURL"], "https://api.fairsharing.org/fairsharing_records/7589")
+        self.assertEqual(fair["EVORAO:providedEntityType"], "https://w3id.org/evorao/Collection")
+        self.assertNotIn("dcat:endpointURL", mapped[1]["EVORAO:collectionDataProvider"])
+        self.assertEqual(mapped[2]["EVORAO:providedEntityType"], "https://w3id.org/evorao/Service")
+        self.assertEqual(mapped[2]["EVORAO:contentType"], "application/json")
+        self.assertEqual(mapped[3]["EVORAO:queryMethod"], "GET")
+        self.assertNotIn("EVORAO:contentType", mapped[3])
+        self.assertEqual(mapped[4], {**nodes[4], "EVORAO:weight": 0})
+        self.assertEqual(mapped[5], nodes[5])
+
     def test_ictv_taxonomy_descriptions_use_the_taxonomy_release(self):
         taxonomy = {"@type": "EVORAO:Taxonomy", "dcterms:title": "ICTV", "dcat:version": "MSL41"}
         variants = [taxonomy, {**taxonomy, "dcat:version": "MSL36", "dct:description": " "},
