@@ -300,7 +300,7 @@ jobs:
           retention-days: 30
 
       - name: Assemble Pages files from the accepted snapshot
-        run: python scripts/stage_publication_site.py "$RUNNER_TEMP/publication/site" "$RUNNER_TEMP/publication/report"
+        run: python scripts/stage_publication_site.py "$RUNNER_TEMP/publication/site" "$RUNNER_TEMP/publication/report" "$PORTAL_SOURCE"
 
       - name: Save conforming publication candidate
         uses: actions/upload-artifact@v4

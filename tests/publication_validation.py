@@ -50,25 +50,38 @@ class PublicationTests(unittest.TestCase):
             snapshot.mkdir(parents=True)
             (snapshot / "catalogue.jsonld").write_bytes(full)
             (snapshot / "index.json").write_bytes(b'{}')
-            validation = {"conforms": False, "candidateSha256": digest, "sourceSha256": "source"}
+            legacy = b'{ "@graph": [] }'
+            source = root / "source.jsonld"
+            source.write_bytes(legacy)
+            source_digest = hashlib.sha256(legacy).hexdigest()
+            validation = {"conforms": False, "candidateSha256": digest, "sourceSha256": source_digest}
             parity = {"snapshot": {"id": "sha256:" + digest, "resourceCount": 0},
-                      "projectionSourceSha256": "source", "indexSha256": hashlib.sha256(b'{}').hexdigest()}
+                      "projectionSourceSha256": source_digest, "indexSha256": hashlib.sha256(b'{}').hexdigest()}
             (root / "compact-parity.json").write_text(json.dumps(parity))
             def set_validation():
                 (root / "validation.json").write_text(json.dumps(validation))
             set_validation()
             with self.assertRaisesRegex(ValueError, "conformance"):
-                stage_site(root, root)
+                stage_site(root, root, source)
             self.assertFalse((root / "data/portal/latest.json").exists())
             validation["conforms"] = True
             set_validation()
-            stage_site(root, root)
+            source.write_bytes(b'{}')
+            with self.assertRaisesRegex(ValueError, "companion bytes"):
+                stage_site(root, root, source)
+            self.assertFalse((root / "data/portal/latest.json").exists())
+            source.write_bytes(legacy)
+            stage_site(root, root, source)
             self.assertEqual((root / "data/portal/evora_portal_all.jsonld").read_bytes(), full)
             manifest = json.loads((root / "data/portal/latest.json").read_bytes())
             self.assertEqual(manifest["snapshotId"], "sha256:" + digest)
+            self.assertEqual(manifest["legacySha256"], source_digest)
+            legacy_relative = f"snapshots/{source_digest}/catalogue.jsonld"
+            self.assertEqual(manifest["legacyExportUrl"], "https://data.evora-project.eu/" + legacy_relative)
+            self.assertEqual((root / legacy_relative).read_bytes(), legacy)
             (snapshot / "index.json").write_bytes(b'{"changed":true}')
             with self.assertRaisesRegex(ValueError, "bytes"):
-                stage_site(root, root)
+                stage_site(root, root, source)
 
     def test_generated_collection_descriptions(self):
         def record(identifier, title="Example", publisher="Partner", **extra):
