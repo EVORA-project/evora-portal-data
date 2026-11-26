@@ -244,7 +244,7 @@ jobs:
           source="$input/snapshots/$hash/catalogue.jsonld"
           echo "$hash  $source" | sha256sum --check --status
           dest="$RUNNER_TEMP/publication"
-          python scripts/build_publication_jsonld.py "$source" "$dest/publication.jsonld"
+          python scripts/build_publication_jsonld.py "$source" "$dest/publication.jsonld" "$dest/report/generated-collection-descriptions.csv"
           python scripts/validate_publication_jsonld.py "$source" "$dest/publication.jsonld" "$RUNNER_TEMP/evorao" "$dest/report"
 
       - name: Save validation and curation reports

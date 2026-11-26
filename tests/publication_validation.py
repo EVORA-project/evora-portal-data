@@ -1,4 +1,5 @@
 """Release-model integration tests used by the publication workflow."""
+from collections import Counter
 import copy
 import csv
 import json
@@ -37,6 +38,23 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(statement["EVORAO:resourceUrl"], "https://example.org/license")
         self.assertEqual(statement["EVORAO:licensingOrAttribution"], "Source-specific credit")
         self.assertEqual(candidate["@context"]["EVORAO:accessPointUrl"], {"@type": "xsd:anyURI"})
+
+    def test_generated_collection_descriptions(self):
+        def record(identifier, title="Example", publisher="Partner", **extra):
+            return {"@id": identifier, "@type": "EVORAO:Service", "search:publisherName": publisher,
+                    "EVORAO:collection": {"dcterms:title": title, **extra}}
+        sources = [record("urn:1"), record("urn:2", **{"dcterms:description": "Partner-supplied text"}),
+                   record("urn:3", publisher="Second partner"), record("urn:4", title="")]
+        generated = Counter()
+        docs = publication_document({"@context": {}, "@graph": sources}, generated)["@graph"]
+        descriptions = [n["EVORAO:collection"].get("dcterms:description") for n in docs]
+        self.assertEqual(descriptions, [
+            "In this EVORA snapshot, 2 catalogue records from Partner carry the collection label “Example”.",
+            "Partner-supplied text",
+            "In this EVORA snapshot, 1 catalogue record from Second partner carries the collection label “Example”.",
+            None,
+        ])
+        self.assertEqual(sum(generated.values()), 2)
 
     def test_strict_pass_and_curation_failure(self):
         models = Path(os.environ["EVORAO_MODEL_DIR"])
