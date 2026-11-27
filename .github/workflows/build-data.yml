@@ -111,6 +111,12 @@ jobs:
       - name: Enrich partner data with ICTV taxonomy
         run: python scripts/ictv-enrich/run_catalogue_enrichment.py
 
+      - name: Cache missing ICTV parent metadata
+        if: github.ref == 'refs/heads/main'
+        run: >-
+          python scripts/ictv_parent_annotations.py data/ictv_cache.json
+          data/eva/eva_merged_enriched.jsonld data/erinha/erinha_services_enriched.jsonld
+
       - name: Merge all partner data for portal
         id: merge
         run: |
@@ -146,6 +152,7 @@ jobs:
           cmp "$export_file" "$snapshot/catalogue.jsonld"
           npm ci --prefix tests/compact-index --ignore-scripts --no-audit --no-fund
           node tests/verify_compact_index.mjs "$snapshot" "$review/parity.json"
+          cp data/ictv_cache.json "$review/ictv_cache.json"
 
       - name: Upload verified compact snapshot for review
         id: compact_upload
@@ -195,19 +202,22 @@ jobs:
           set -euo pipefail
           if [[ "$REPLAY" == "true" ]]; then
             source="$GITHUB_WORKSPACE/data/portal/evora_portal_all.jsonld"
+            cache="$GITHUB_WORKSPACE/data/ictv_cache.json"
           else
             input="$RUNNER_TEMP/compact-input"
             hash=$(jq -er '.snapshot.id | capture("^sha256:(?<hex>[0-9a-f]{64})$").hex' "$input/parity.json")
             source="$input/snapshots/$hash/catalogue.jsonld"
+            cache="$input/ictv_cache.json"
             echo "$hash  $source" | sha256sum --check --status
           fi
           echo "PORTAL_SOURCE=$source" >> "$GITHUB_ENV"
+          echo "PUBLICATION_ICTV_CACHE=$cache" >> "$GITHUB_ENV"
 
       - name: Generate canonical publication JSON-LD
         id: candidate
         run: |
           dest="$RUNNER_TEMP/publication"
-          python scripts/build_publication_jsonld.py "$PORTAL_SOURCE" "$dest/publication.jsonld" "$dest/report/generated-collection-descriptions.csv"
+          python scripts/build_publication_jsonld.py "$PORTAL_SOURCE" "$dest/publication.jsonld" "$dest/report/generated-collection-descriptions.csv" --ictv-cache "$PUBLICATION_ICTV_CACHE"
 
       - name: Validate canonical compact index and details
         run: |

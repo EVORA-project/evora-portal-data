@@ -12,6 +12,7 @@ import unittest
 from scripts.build_publication_jsonld import publication_document
 from scripts.validate_publication_jsonld import check
 from scripts.stage_publication_site import stage_site
+from scripts.ictv_parent_annotations import index_terms, missing_parents, parent_ids_from_cache, update_parent_terms
 
 
 class PublicationTests(unittest.TestCase):
@@ -64,6 +65,66 @@ class PublicationTests(unittest.TestCase):
         self.assertNotIn("EVORAO:contentType", mapped[3])
         self.assertEqual(mapped[4], {**nodes[4], "EVORAO:weight": 0})
         self.assertEqual(mapped[5], nodes[5])
+
+    def test_reconcile_existing_taxon_evidence(self):
+        child = {"msl": "MSL41", "iri": "urn:child", "ictv_id": "C", "label": "Child",
+                 "direct_parent_iri": "urn:parent:123", "direct_parent_label": "Parent"}
+        parent = {"msl": "MSL41", "iri": "urn:parent:123", "ictv_id": "P", "label": "Parent"}
+        cache = {"one": {"current": child}, "two": {"current": parent}}
+        def record(i, version="MSL41", **supplied):
+            taxon = {"@type": "EVORAO:Taxon", "dcterms:title": "Child", "EVORAO:taxonomicId": "C",
+                     "EVORAO:taxonomy": {"dcterms:title": "ICTV", "dcat:version": version},
+                     "EVORAO:parentTaxon": {"@type": "EVORAO:Taxon", "dcterms:title": "Parent"}}
+            return {"@id": str(i), "@type": "EVORAO:Service",
+                    "EVORAO:pathogenIdentification": {"EVORAO:taxon": taxon, **supplied}}
+        graph = [record(1, **{"EVORAO:pathogenType": "Virus"}), record(2), record(3, "MSL36")]
+        source = {"@context": {}, "@graph": graph}
+        def inspect(i):
+            rec = publication_document(source, cache=cache)["@graph"][i]["EVORAO:pathogenIdentification"]
+            return rec.get("EVORAO:pathogenType"), rec["EVORAO:taxon"]["EVORAO:parentTaxon"].get("EVORAO:taxonomicId")
+        self.assertEqual(inspect(1), ("Virus", "P"))
+        self.assertEqual(inspect(2), (None, None))
+        cache["conflict"] = {"obsolete": {**parent, "ictv_id": "different"}}
+        graph.append(record(4, **{"EVORAO:pathogenType": "Viroid"}))
+        self.assertEqual(inspect(1), (None, None))
+        self.assertEqual(inspect(0), ("Virus", None))
+
+    def test_live_parent_cache_requires_explicit_matching_annotation(self):
+        child = {"msl": "MSL41", "iri": "urn:child", "ictv_id": "C", "label": "Child",
+                 "direct_parent_iri": "urn:parent:123", "direct_parent_label": "Parent"}
+        cache = {"one": {"current": child}}
+        parent = {"@type": "EVORAO:Taxon", "dcterms:title": "Parent"}
+        taxon = {"dcterms:title": "Child", "EVORAO:taxonomicId": "C", "EVORAO:parentTaxon": parent,
+                 "EVORAO:taxonomy": {"dcterms:title": "ICTV", "dcat:version": "MSL41"}}
+        record = {"EVORAO:pathogenIdentification": {"EVORAO:taxon": taxon}}
+        needed = missing_parents([record, record], *index_terms(cache))
+        self.assertEqual(needed, {("MSL41", "urn:parent:123", "Parent")})
+        ver, ident = "http://www.w3.org/2002/07/owl#versionInfo", "http://purl.org/dc/terms/identifier"
+        answer = {"iri": "urn:parent:123", ver: "MSL41", "label": ["Parent"], ident: "P"}
+        def outage(iri, timeout):
+            raise TimeoutError()
+        self.assertEqual(update_parent_terms(cache, needed, outage), 0)
+        for bad in ({ver: "MSL36"}, {"iri": "urn:other"}, {"label": "Other"}, {ident: None}):
+            self.assertEqual(update_parent_terms(cache, needed, lambda iri, timeout: {**answer, **bad}), 0)
+        self.assertEqual(update_parent_terms(cache, needed, lambda iri, timeout: answer), 1)
+        self.assertFalse(missing_parents([record], *index_terms(cache)))
+        self.assertEqual(parent_ids_from_cache(cache)[("MSL41", "C", "Child", "Parent")], "P")
+
+    def test_reconcile_duplicate_origin_fields(self):
+        field = "EVORAO:collectionDate"
+        country = "EVORAO:countryOfCollection"
+        part = {"@type": "EVORAO:NaturalPartOrigin", field: "2001-01-01", country: {"dcterms:title": "Example"}}
+        def record(parts, date):
+            return {"@type": "EVORAO:NucleicAcid", "@id": "urn:test", field: date, country: "Example",
+                    "EVORAO:biologicalMaterialOrigin": {"EVORAO:biologicalPartOrigin": parts}}
+        sources = [record([part, {"@type": "EVORAO:SyntheticPartOrigin"}], "2001-01-01"),
+                   record(part, "2002-02-02"), record([part, part], "2001-01-01")]
+        output = publication_document({"@context": {}, "@graph": sources})["@graph"]
+        self.assertNotIn(field, output[0])
+        self.assertNotIn(country, output[0])
+        self.assertEqual(output[0]["EVORAO:biologicalMaterialOrigin"], sources[0]["EVORAO:biologicalMaterialOrigin"])
+        self.assertEqual(output[1][field], "2002-02-02")
+        self.assertEqual(output[2], sources[2])
 
     def test_ictv_taxonomy_descriptions_use_the_taxonomy_release(self):
         taxonomy = {"@type": "EVORAO:Taxonomy", "dcterms:title": "ICTV", "dcat:version": "MSL41"}

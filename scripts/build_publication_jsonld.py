@@ -1,12 +1,18 @@
 """Produce EVORAO 1.2.0 publication JSON-LD from the merged portal export."""
+import argparse
 from collections import Counter, defaultdict
 import csv
 import hashlib
 import json
 from pathlib import Path
 import re
-import sys
 from urllib.parse import unquote, urlsplit
+
+
+if __package__:
+    from .ictv_parent_annotations import identified_taxa, parent_ids_from_cache
+else:
+    from ictv_parent_annotations import identified_taxa, parent_ids_from_cache
 
 
 PREDICATES = {
@@ -180,7 +186,57 @@ def describe_collections(record, source, members, generated):
         generated[(identifier, title, publisher, count, text)] += 1
 
 
-def publication_document(portal, generated=None):
+def supplied_classes(graph):
+    classes = defaultdict(set)
+    for record in graph:
+        for identification, _, key in identified_taxa(record):
+            value = identification.get("EVORAO:pathogenType")
+            if isinstance(value, str) and value.strip():
+                classes[key].add(value)
+    allowed = {"Virus", "Bacterium", "Fungus", "Protozoan", "Viroid", "Prion"}
+    return {key: next(iter(values)) for key, values in classes.items() if len(values) == 1 and values <= allowed}
+
+
+def reconcile_record(record, parent_ids, classes, changes):
+    for identification, taxon, key in identified_taxa(record):
+        if "EVORAO:pathogenType" not in identification and key in classes:
+            identification["EVORAO:pathogenType"] = classes[key]
+            changes["classFromSameIdentifiedTaxon"] += 1
+        parent = taxon.get("EVORAO:parentTaxon")
+        if (isinstance(parent, dict) and parent.get("@type") == "EVORAO:Taxon"
+                and set(parent) <= {"@type", "dcterms:title"}):
+            identifier = parent_ids.get((*key, parent.get("dcterms:title")))
+            if identifier:
+                parent["EVORAO:taxonomicId"] = identifier
+                changes["parentIdFromCache"] += 1
+
+    # These classes permit the properties on NaturalPartOrigin only. Keep
+    # competing or ambiguous assertions for curation instead of choosing one.
+    if record.get("@type") not in ("EVORAO:Virus", "EVORAO:NucleicAcid"):
+        return
+    parts = [part for origin in as_list(record.get("EVORAO:biologicalMaterialOrigin"))
+             if isinstance(origin, dict) for part in as_list(origin.get("EVORAO:biologicalPartOrigin"))]
+    if not all(isinstance(part, dict) and part.get("@type") in ("EVORAO:NaturalPartOrigin", "EVORAO:SyntheticPartOrigin")
+               for part in parts):
+        return
+    natural = [part for part in parts if part["@type"] == "EVORAO:NaturalPartOrigin"]
+    if len(natural) != 1:
+        return
+    for field in ("EVORAO:collectionDate", "EVORAO:countryOfCollection"):
+        outer = record.get(field)
+        inner = natural[0].get(field)
+        if field == "EVORAO:countryOfCollection" and isinstance(inner, dict):
+            inner = inner.get("dcterms:title")
+        if isinstance(outer, str) and outer.strip() and outer == inner:
+            del record[field]
+            changes["duplicateOriginFieldRemoved:" + field] += 1
+
+
+def publication_document(portal, generated=None, cache=None, changes=None):
+    parent_ids = parent_ids_from_cache(cache or {})
+    classes = supplied_classes(portal["@graph"])
+    if changes is None:
+        changes = Counter()
     if generated is None:
         generated = Counter()
     members = collection_members(portal["@graph"])
@@ -191,6 +247,7 @@ def publication_document(portal, generated=None):
     for source in portal["@graph"]:
         record = convert(source)
         if source["@type"] != "dcat:Catalog":
+            reconcile_record(record, parent_ids, classes, changes)
             describe_collections(record, source, members, generated)
             add_keyword_nodes(record)
             # Legacy records sometimes carry the publisher name only in the projection.
@@ -202,11 +259,24 @@ def publication_document(portal, generated=None):
 
 
 if __name__ == "__main__":
-    source_path, destination, evidence = map(Path, sys.argv[1:])
+    parser = argparse.ArgumentParser(description=__doc__)
+    for arg in ("source", "destination", "evidence"):
+        parser.add_argument(arg, type=Path)
+    parser.add_argument("--ictv-cache", type=Path)
+    args = parser.parse_args()
+    source_path, destination, evidence = args.source, args.destination, args.evidence
+    cache_bytes = args.ictv_cache.read_bytes() if args.ictv_cache else None
+    changes = Counter()
     generated = Counter()
-    result = publication_document(json.loads(source_path.read_bytes()), generated)
+    source_bytes = source_path.read_bytes()
+    result = publication_document(json.loads(source_bytes), generated,
+                                  json.loads(cache_bytes) if cache_bytes is not None else None, changes)
     destination.write_text(json.dumps(result, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     evidence.parent.mkdir(parents=True, exist_ok=True)
+    audit = {"sourceSha256": hashlib.sha256(source_bytes).hexdigest(),
+             "cacheSha256": hashlib.sha256(cache_bytes).hexdigest() if cache_bytes is not None else None,
+             "changes": dict(changes)}
+    evidence.with_name("source-reconciliation.json").write_text(json.dumps(audit, indent=2) + "\n", encoding="utf-8")
     with evidence.open("w", newline="", encoding="utf-8") as stream:
         writer = csv.writer(stream)
         writer.writerow(["collection_id", "collection_title", "source_publisher", "snapshot_records",
