@@ -64,7 +64,28 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(mapped[3]["EVORAO:queryMethod"], "GET")
         self.assertNotIn("EVORAO:contentType", mapped[3])
         self.assertEqual(mapped[4], {**nodes[4], "EVORAO:weight": 0})
-        self.assertEqual(mapped[5], nodes[5])
+        self.assertIn("{spreadsheetId}", mapped[2]["dcat:endpointURL"])
+        self.assertEqual(mapped[5]["EVORAO:providedEntityType"], "https://w3id.org/evorao/Taxon")
+        self.assertIn("/entities/", mapped[5]["dcat:endpointURL"])
+        self.assertEqual({k: mapped[5][k] for k in nodes[5]}, nodes[5])
+
+    def test_source_serialization(self):
+        eva = {"@id": "urn:a", "@type": "EVORAO:Service", "search:publisherName": "European Virus Archive",
+               "EVORAO:doi": "doi: https://doi.org/10.1234/Example", "EVORAO:unitCost": 550}
+        fair = {"@id": "urn:b", "@type": "EVORAO:Service", "search:publisherName": "FAIRsharing",
+                "EVORAO:pathogenIdentification": {"EVORAO:taxon": {"EVORAO:taxonomicId": "NCBITaxon:10239",
+                                                                  "dcterms:title": "Viruses"}}}
+        a, b = publication_document({"@context": {}, "@graph": [eva, fair]})["@graph"]
+        self.assertEqual(a["EVORAO:unitCost"], {"@type": "xsd:decimal", "@value": "550"})
+        self.assertEqual(a["EVORAO:doi"], {"@type": "EVORAO:Doi", "dcterms:title": "10.1234/Example"})
+        self.assertEqual(b["EVORAO:pathogenIdentification"]["EVORAO:pathogenType"], "Virus")
+
+        eva["EVORAO:doi"] = "doi.org/10.1234/A, doi: 10.1234/B"
+        result = publication_document({"@context": {}, "@graph": [eva]})["@graph"][0]
+        self.assertEqual([n["dcterms:title"] for n in result["EVORAO:doi"]], ["10.1234/A", "10.1234/B"])
+        eva["EVORAO:doi"] = "Reference: see original paper 10.1234/A"
+        result = publication_document({"@context": {}, "@graph": [eva]})["@graph"][0]
+        self.assertEqual(result["EVORAO:doi"], eva["EVORAO:doi"])
 
     def test_reconcile_existing_taxon_evidence(self):
         child = {"msl": "MSL41", "iri": "urn:child", "ictv_id": "C", "label": "Child",

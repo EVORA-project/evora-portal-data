@@ -1,6 +1,7 @@
 """Produce EVORAO 1.2.0 publication JSON-LD from the merged portal export."""
 import argparse
 from collections import Counter, defaultdict
+from decimal import Decimal
 import csv
 import hashlib
 import json
@@ -82,6 +83,12 @@ def describe_metadata_provider(provider):
         provider.setdefault("EVORAO:contentType", "application/json")
     if title == "ERINHA":
         provider.setdefault("EVORAO:providedEntityType", "https://w3id.org/evorao/Service")
+        provider.setdefault("dcat:endpointURL", "https://sheets.googleapis.com/v4/spreadsheets/{spreadsheetId}/values/{range}")
+    elif title == "ICTV via OLS4":
+        # The taxon entity response carries its MSL annotation. This template
+        # describes the entity lookup used by the OLS client.
+        provider.setdefault("dcat:endpointURL", "https://www.ebi.ac.uk/ols4/api/v2/ontologies/ictv/entities/{encodedIri}")
+        provider.setdefault("EVORAO:providedEntityType", "https://w3id.org/evorao/Taxon")
 
 
 def describe_fairsharing_collection_endpoint(collection):
@@ -232,6 +239,34 @@ def reconcile_record(record, parent_ids, classes, changes):
             changes["duplicateOriginFieldRemoved:" + field] += 1
 
 
+def normalize_source_fields(record, source, changes):
+    if source == "FAIRsharing":
+        identification = record.get("EVORAO:pathogenIdentification")
+        if isinstance(identification, dict) and "EVORAO:pathogenType" not in identification:
+            taxon = identification.get("EVORAO:taxon")
+            if (isinstance(taxon, dict) and taxon.get("EVORAO:taxonomicId") == "NCBITaxon:10239"
+                    and taxon.get("dcterms:title") == "Viruses"):
+                identification["EVORAO:pathogenType"] = "Virus"
+                changes["classFromDeclaredVirusesTaxon"] += 1
+    if source == "European Virus Archive":
+        amount = record.get("EVORAO:unitCost")
+        if type(amount) in (int, float) and Decimal(str(amount)).is_finite():
+            record["EVORAO:unitCost"] = {"@type": "xsd:decimal", "@value": format(Decimal(str(amount)), "f")}
+            changes["costTypedAsDecimal"] += 1
+        doi = record.get("EVORAO:doi")
+        if isinstance(doi, str):
+            # A comma or semicolon can occur inside a DOI. Split only when the
+            # separator is followed by whitespace and another DOI.
+            prefix = r"(?:(?:doi:\s*|doi\s+))?(?:(?:https?://)?(?:dx[.])?doi[.]org/)?"
+            pieces = re.split(r"[,;]\s+(?=" + prefix + r"10[.][0-9]{4,9}/)", doi.strip(), flags=re.I)
+            values = [re.sub("^" + prefix, "", part, flags=re.I) for part in pieces]
+            if all(re.fullmatch(r"10[.][0-9]{4,9}/[^\s]+", v)
+                   and len(re.findall(r"10[.][0-9]{4,9}/", v)) == 1 for v in values):
+                nodes = [{"@type": "EVORAO:Doi", "dcterms:title": v} for v in values]
+                record["EVORAO:doi"] = nodes[0] if len(nodes) == 1 else nodes
+                changes["doiTypedAsTerm"] += 1
+
+
 def publication_document(portal, generated=None, cache=None, changes=None):
     parent_ids = parent_ids_from_cache(cache or {})
     classes = supplied_classes(portal["@graph"])
@@ -247,6 +282,7 @@ def publication_document(portal, generated=None, cache=None, changes=None):
     for source in portal["@graph"]:
         record = convert(source)
         if source["@type"] != "dcat:Catalog":
+            normalize_source_fields(record, source.get("search:publisherName"), changes)
             reconcile_record(record, parent_ids, classes, changes)
             describe_collections(record, source, members, generated)
             add_keyword_nodes(record)
