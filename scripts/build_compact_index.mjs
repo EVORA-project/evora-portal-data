@@ -99,8 +99,11 @@ function project(node, detail) {
   const keywordFacet = array(node['dcat:keyword']).map(String), refSku = field(node, 'refSku') || '';
   const keywords = [...keywordFacet, providerFacet, publisherFacet, pathogen, collectionFacet, riskGroupFacet,
     category, taxon, taxonFacet.join(' '), refSku].filter(Boolean).join(' ');
-  const amount = field(node, 'unitCost'), currency = field(node, 'unitCostCurrency');
-  const cost = typeof amount === 'number' ? [currency, amount.toFixed(2).replace(/\.00$/, '')].filter(Boolean).join(' ') :
+  const rawAmount = field(node, 'unitCost');
+  const currency = field(node, 'unitCostCurrency');
+  const amount = rawAmount?.['@type'] === 'xsd:decimal' && typeof rawAmount['@value'] === 'string'
+    && /^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(rawAmount['@value']) ? Number(rawAmount['@value']) : rawAmount;
+  const cost = Number.isFinite(amount) ? [currency, amount.toFixed(2).replace(/\.00$/, '')].filter(Boolean).join(' ') :
     field(node, 'unitCostNote') || field(node, 'costNote') || '';
   return {
     id, kind, title: node['dcterms:title'] || '', description: node['dcterms:description'] || '',
